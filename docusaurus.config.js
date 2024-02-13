@@ -19,14 +19,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://www.learnhowtoprogram.com',
+  url: 'https://fidgetech.learnhowtoprogram.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'epicodus', // Usually your GitHub org/user name.
+  organizationName: 'fidgetech', // Usually your GitHub org/user name.
   projectName: 'lhtp', // Usually your repo name.
   trailingSlash: false,
 
@@ -78,19 +78,19 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Learn How to Program',
+        title: 'Fidgetech',
         logo: {
-          alt: 'Learn How to Program',
-          src: 'img/lhtp-favicon.png',
-          href: 'https://www.learnhowtoprogram.com',
-          target: '_self'
+          alt: '',
+          src: 'img/favicon-32x32.png',
+          href: 'https://fidgetech.org',
+          // target: '_self'
         },
         items: [
           {
             type: 'doc',
-            docId: 'tracks',
+            docId: 'courses',
             position: 'left',
-            label: 'Tracks',
+            label: 'Fidgetech Code',
           },
           {
             type: 'doc',
@@ -102,12 +102,17 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Epicodus, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Fidgetech`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['csharp', 'ruby'],
+        additionalLanguages: ['csharp'],
+      },
+      algolia: {
+        appId: 'YA74J3518R',
+        apiKey: '38674fb1fbdfbc0d1d6610e0107c4c6a',
+        indexName: 'new-learnhowtoprogram-fidgetech',
       },
     }),
 };

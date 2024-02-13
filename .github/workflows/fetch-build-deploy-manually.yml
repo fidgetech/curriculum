@@ -1,5 +1,5 @@
 # this workflow is triggered manually, so the context is the repo from which it is run
-name: Update all curriculum
+name: Update curriculum
 
 on:
   workflow_dispatch:
@@ -19,121 +19,30 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate Epicodus Curriculum GitHub App token
+      - name: Generate GitHub App token
         uses: peaceiris/actions-github-app-token@v1
-        id: curriculum-app-token
+        id: github-app-token
         with:
-          app_id: ${{ secrets.CURRICULUM_GITHUB_APP_ID }}
-          installation_id: ${{ secrets.CURRICULUM_GITHUB_INSTALLATION_ID }}
-          private_key: ${{ secrets.CURRICULUM_GITHUB_APP_PEM }}
-
-      - name: Generate Epicodus LHTP GitHub App token
-        uses: peaceiris/actions-github-app-token@v1
-        id: lhtp-app-token
-        with:
-          app_id: ${{ secrets.LHTP_GITHUB_APP_ID }}
-          installation_id: ${{ secrets.LHTP_GITHUB_INSTALLATION_ID }}
-          private_key: ${{ secrets.LHTP_GITHUB_APP_PEM }}
+          app_id: ${{ secrets.APP_ID }}
+          installation_id: ${{ secrets.INSTALLATION_ID }}
+          private_key: ${{ secrets.PRIVATE_KEY }}
 
       - name: Fetch docs and create docusaurus source directories for each track
         run: npm run fetch
         env:
-          ORG: ${{ secrets.CURRICULUM_ORG }}
-          INSTALLATION_TOKEN: ${{ steps.curriculum-app-token.outputs.token }}
-          # APP_ID: ${{ secrets.CURRICULUM_GITHUB_APP_ID }}
-          # INSTALLATION_ID: ${{ secrets.CURRICULUM_GITHUB_INSTALLATION_ID }}
-          # PRIVATE_KEY: ${{ secrets.CURRICULUM_GITHUB_APP_PEM }}
+          ORG: ${{ secrets.ORG }}
+          INSTALLATION_TOKEN: ${{ steps.github-app-token.outputs.token }}
 
-      - name: Build root site
-        run: npm run build
+      - name: Build track
+        run: cd ./tracks/${{ secrets.ORG }} && npm run build
 
-      - name: Build full-time
-        run: cd ./tracks/full-time && npm run build
-
-      - name: Build part-time
-        run: cd ./tracks/part-time && npm run build
-
-      - name: Build full-time-pre-october
-        run: cd ./tracks/full-time-pre-october && npm run build
-
-      - name: Build part-time-evening
-        run: cd ./tracks/part-time-evening && npm run build
-
-      - name: Build workshops
-        run: cd ./tracks/workshops && npm run build
-
-      - name: Deploy root site to GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ steps.lhtp-app-token.outputs.token }}
-          external_repository: epicodus/lhtp-root
+          personal_token: ${{ steps.github-app-token.outputs.token }}
+          external_repository: ${{ secrets.ORG }}/lhtp-build
           publish_branch: gh-pages
-          publish_dir: ./build
+          publish_dir: ./tracks/${{ secrets.ORG }}/build
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
-          commit_message: 'Deploy root site to GitHub Pages'
-
-      - name: Deploy full-time to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ steps.lhtp-app-token.outputs.token }}
-          external_repository: epicodus/lhtp-full-time
-          publish_branch: gh-pages
-          publish_dir: ./tracks/full-time/build
-          user_name: github-actions[bot]
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com
-          commit_message: 'Deploy full-time to GitHub Pages'
-
-      - name: Deploy part-time to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ steps.lhtp-app-token.outputs.token }}
-          external_repository: epicodus/lhtp-part-time
-          publish_branch: gh-pages
-          publish_dir: ./tracks/part-time/build
-          user_name: github-actions[bot]
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com
-          commit_message: 'Deploy part-time to GitHub Pages'
-
-      - name: Deploy full-time-pre-october to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ steps.lhtp-app-token.outputs.token }}
-          external_repository: epicodus/lhtp-full-time-pre-october
-          publish_branch: gh-pages
-          publish_dir: ./tracks/full-time-pre-october/build
-          user_name: github-actions[bot]
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com
-          commit_message: 'Deploy full-time-pre-october to GitHub Pages'
-
-      - name: Deploy part-time-evening to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ steps.lhtp-app-token.outputs.token }}
-          external_repository: epicodus/lhtp-part-time-evening
-          publish_branch: gh-pages
-          publish_dir: ./tracks/part-time-evening/build
-          user_name: github-actions[bot]
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com
-          commit_message: 'Deploy part-time-evening to GitHub Pages'
-
-      - name: Deploy workshops site to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ steps.lhtp-app-token.outputs.token }}
-          external_repository: epicodus/lhtp-workshops
-          publish_branch: gh-pages
-          publish_dir: ./tracks/workshops/build
-          user_name: github-actions[bot]
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com
-          commit_message: 'Deploy workshops site to GitHub Pages'
-
-  # build:
-  #   needs: fetch-data
-  #   runs-on: ubuntu-latest
-  #   strategy:
-  #     matrix:
-  #       track: ['workshops', 'full-time', 'part-time', 'full-time-pre-october', 'part-time-evening']
-  #   steps:
-  #     - name: Checkout repository
-  #       uses: actions/checkout@v3
+          commit_message: 'Deploy to GitHub Pages'

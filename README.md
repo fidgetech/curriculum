@@ -6,7 +6,15 @@ This is a rewrite of LearnHowToProgram ([textbook](https://github.com/epicodus/t
 
 The scripts to pull content from GitHub repos are written to work with a GitHub App.
 
-For local development, add the following to `.env`:
+- [Create a GitHub app](https://docs.github.com/en/apps/creating-github-apps) on the user or organization.
+- For repository permissions, set `Contents` as `Read-only`
+- Generate a private key for the app, copy its contents into `.env`
+- Copy App ID from the overview screen and add to `.env`
+- Install the app on the user or organization (all repos permission)
+- Copy Installation ID from the URL and add to `.env`
+
+For local development, add the following to `.env`.
+For running the Github workflow, set these as Github secrets on this repo.
 
 #### **`.env`**
 ```
