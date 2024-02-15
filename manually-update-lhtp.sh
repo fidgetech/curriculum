@@ -1,7 +1,7 @@
 #!/bin/bash
 
-lhtpDir="/Users/epicodus/fidgetech/lhtp"
-deployDir="/Users/epicodus/fidgetech/lhtp-build"
+lhtpDir="$HOME/fidgetech/lhtp"
+deployDir="$HOME/fidgetech/lhtp-build"
 track="fidgetech"
 trackDir="$lhtpDir/tracks/$track"
 buildDir="$trackDir/build"
