@@ -1,8 +1,8 @@
 #!/bin/bash
 
-lhtpDir="$HOME/fidgetech/lhtp"
-deployDir="$HOME/fidgetech/lhtp-build"
+lhtpDir="$PWD"
 buildDir="$lhtpDir/build"
+deployDir="$HOME/fidgetech/lhtp-build"
 
 cd "$lhtpDir" || exit
 
