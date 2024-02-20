@@ -41,10 +41,10 @@ const config = {
     locales: ['en'],
   },
   scripts: [
-    {
-      src: '/usersnap-loader.js',
-      defer: true,
-    },
+    // {
+    //   src: '/usersnap-loader.js',
+    //   defer: true,
+    // },
   ],
   presets: [
     [

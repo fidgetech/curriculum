@@ -2,25 +2,14 @@
 
 lhtpDir="$HOME/fidgetech/lhtp"
 deployDir="$HOME/fidgetech/lhtp-build"
-track="fidgetech"
-trackDir="$lhtpDir/tracks/$track"
-buildDir="$trackDir/build"
+buildDir="$lhtpDir/build"
 
 cd "$lhtpDir" || exit
 
-###### fetch track ######
-npm run fetch
-
-###### build site for track ######
-cd "$trackDir" || exit
-echo ""
-echo "**************************************"
-echo "******* BUILDING $track *******"
-echo "**************************************"
-echo ""
+###### build site ######
 npm run build
 
-###### deploy site for track ######
+###### deploy site ######
 if [ -d "$buildDir" ] && [ -d "$deployDir" ]; then
   cd "$deployDir" || exit
   git pull origin gh-pages
