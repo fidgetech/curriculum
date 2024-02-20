@@ -15,11 +15,11 @@ const remarkDisableTokenizers = require('remark-disable-tokenizers');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'LHTP',
-  tagline: 'Learn How to Program',
+  tagline: 'Fidgetech Code',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://fidgetech.learnhowtoprogram.com',
+  url: 'https://fidgetechcode.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -81,7 +81,7 @@ const config = {
         title: 'Fidgetech',
         logo: {
           alt: '',
-          src: 'img/favicon-32x32.png',
+          src: 'img/fidgetech-logo.png',
           href: 'https://fidgetech.org',
           // target: '_self'
         },
@@ -110,9 +110,9 @@ const config = {
         additionalLanguages: ['csharp'],
       },
       algolia: {
-        appId: 'YA74J3518R',
-        apiKey: '38674fb1fbdfbc0d1d6610e0107c4c6a',
-        indexName: 'new-learnhowtoprogram-fidgetech',
+        appId: 'UJLAF3EEM6',
+        apiKey: '73135542b4d5ee113bc40475b3553623',
+        indexName: 'fidgetechcode',
       },
     }),
 };
