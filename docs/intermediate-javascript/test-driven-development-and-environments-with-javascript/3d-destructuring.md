@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 41
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/3d_destructuring.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/3d_destructuring.md
 ---
 
 One of the most popular ES6 features is object and array **destructuring**. Destructuring is the process of taking specific elements from an array or properties from an object and then turning them into variables. 

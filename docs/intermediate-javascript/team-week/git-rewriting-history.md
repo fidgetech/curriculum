@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 4
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/git_rewriting_history.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/git_rewriting_history.md
 ---
 
 We always want to include clear and detailed messages with our commits. However, even the most careful developers can make mistakes. Thankfully, git offers several options to re-write commits.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 13
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/1b_tools_for_handling_async_code.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/1b_tools_for_handling_async_code.md
 ---
 
 So far, we've learned how to use an `XMLHttpRequest` object to make our API call. To handle the asynchrony of the request, or, waiting for the request to be sent out and a response returned to us, we used event listeners and callback functions. Why? Well, we only want our code to call the functions that process the API response once the API call is complete, and not before. 

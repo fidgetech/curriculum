@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 35
 day: friday
 type: exercise
-url: >-
-  https://github.com/fidgetech/react/blob/main/5a_classwork_react_with_redux_independent_project.md
+url: https://github.com/fidgetech/react/blob/main/5a_classwork_react_with_redux_independent_project.md
 paginationNext: null
 ---
 

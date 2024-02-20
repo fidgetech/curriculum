@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 63
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3k_removing_event_listeners.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3k_removing_event_listeners.md
 ---
 
 In this lesson, we'll learn how to remove event listeners with the `removeEventListener()` method. In the applications that you build at Epicodus, there won't be a lot of cases in which we'll need to remove event listeners, but it is helpful to know when and why we might want or need to do that.

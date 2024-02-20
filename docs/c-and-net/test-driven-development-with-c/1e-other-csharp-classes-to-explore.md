@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 6
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/1e_other_csharp_classes_to_explore.md
+url: https://github.com/fidgetech/c-and-net/blob/main/1e_other_csharp_classes_to_explore.md
 ---
 
 So far we've learned about a handful of common C# types, as well as the classes that underpin them. We've also learned how to call on instance and static methods and properties. In this lesson, we'll highlight a few additional built-in classes, methods, and fields/properties that have helpful functionality that you may want to implement in the projects you create in this course section. Let's get into it!

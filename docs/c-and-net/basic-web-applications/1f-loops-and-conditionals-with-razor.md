@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 25
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/1f_loops_and_conditionals_with_razor.md
+url: https://github.com/fidgetech/c-and-net/blob/main/1f_loops_and_conditionals_with_razor.md
 ---
 
 In the last lesson, we updated our controller code to return a `List` of `Item`s. In this lesson, we're ready to update our view to properly display that `List`. In the process, we'll cover adding loops and conditionals to a view.

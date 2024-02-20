@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 3
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0d_installing_dotnet_script.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0d_installing_dotnet_script.md
 ---
 
 Now that .NET 6 and C# are installed on our machines, we'll install **dotnet-script**.

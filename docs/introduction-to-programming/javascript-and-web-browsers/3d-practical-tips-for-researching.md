@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 56
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3d_practical_tips_for_researching.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3d_practical_tips_for_researching.md
 ---
 
 The lessons in LearnHowToProgram.com don't cover every tool that is out there. First of all, that would be an overwhelming amount of information. But it would also just be impossible because there's too much out there! Fundamentally, LearnHowToProgram.com is not meant to be a complete reference — that's the job of sites like [MDN](https://developer.mozilla.org/en-US/) and [W3Schools](https://www.w3schools.com/). What we do provide are guides on computer programming concepts, tools, and best practices, as well as a few (incomplete) references of certain tools. That means it's always up to you to do research online to expand your toolset and figure out how to code the extended functionality that you dream up for your projects.

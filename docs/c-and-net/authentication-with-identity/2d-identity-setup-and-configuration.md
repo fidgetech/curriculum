@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 4
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/2d_identity_setup_and_configuration.md
+url: https://github.com/fidgetech/c-and-net/blob/main/2d_identity_setup_and_configuration.md
 ---
 
 In this lesson, we'll add Identity to our To Do List application. This will involve creating a new class to manage user accounts with Identity, updating our `Program.cs` to include Identity in our project, and configuring Identity to work with Entity Framework Core. You can follow this same process to add Identity to any of your projects.

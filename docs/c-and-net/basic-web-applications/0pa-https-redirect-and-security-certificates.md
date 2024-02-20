@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 17
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0pa_https_redirect_and_security_certificates.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0pa_https_redirect_and_security_certificates.md
 ---
 
 In this lesson, we'll learn how to enable HTTPS redirection and set up security certificates for our web apps during development. While it's not always necessary to use HTTPS during development, it does provide additional security. 

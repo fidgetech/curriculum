@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 2
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/1_week_two_journal_prompt.md
+url: https://github.com/fidgetech/career-services/blob/main/1_week_two_journal_prompt.md
 ---
 
 You were asked to keep a journal while going through the program. Each weekend you'll receive a brief journaling assignment in addition to your coding homework. (If you'd like a refresher, review the [Journaling at Epicodus](/introduction-to-programming/git-html-and-css/homework-journaling-at-epicodus) lesson now.)

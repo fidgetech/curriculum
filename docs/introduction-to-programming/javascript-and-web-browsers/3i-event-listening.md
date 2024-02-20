@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 61
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3i_event_listening.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3i_event_listening.md
 ---
 
 So far, we've worked with event handler properties to handle events in our code. These properties represent events for the object it belongs to (an HTML element, `document`, or `window` object). An event is just a signal that something has happened in the browser. To use an event handler property, we set its value to a function, and every time the corresponding event happens, the function gets called and all of the code inside of the function runs. In this way, we use event handler properties to write code to react to events that happen in our webpage.

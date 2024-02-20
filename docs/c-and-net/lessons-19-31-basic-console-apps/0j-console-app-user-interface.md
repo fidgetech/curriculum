@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 10
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0j_console_app_user_interface.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0j_console_app_user_interface.md
 ---
 
 All of the user interface logic we've written in `Program.cs` so far has been to practice the business logic we created in `Triangle.cs`, and not to create an interactive console application that a user can run and interact with through text commands. Well, we're now at a point where we've fully developed our business logic and it is time to fully develop our UI logic. 

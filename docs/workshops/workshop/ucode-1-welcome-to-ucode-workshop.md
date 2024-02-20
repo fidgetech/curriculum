@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 1
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/workshops/blob/main/ucode_1_welcome-to-ucode-workshop.md
+url: https://github.com/fidgetech/workshops/blob/main/ucode_1_welcome-to-ucode-workshop.md
 paginationPrev: null
 ---
 

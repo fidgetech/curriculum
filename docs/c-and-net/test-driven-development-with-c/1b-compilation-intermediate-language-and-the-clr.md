@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 3
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/1b_compilation_intermediate_language_and_the_clr.md
+url: https://github.com/fidgetech/c-and-net/blob/main/1b_compilation_intermediate_language_and_the_clr.md
 ---
 
 Over the pre-work we learned how to create console apps and test business logic using TDD and MSTest. Let's take a closer look at the process of compiling and running code in C#.

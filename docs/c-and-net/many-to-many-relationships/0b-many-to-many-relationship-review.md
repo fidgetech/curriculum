@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 2
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0b_many_to_many_relationship_review.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0b_many_to_many_relationship_review.md
 ---
 
 Before we begin implementing many-to-many relationships, let's review what they look like and how they work.

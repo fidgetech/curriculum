@@ -1,17 +1,12 @@
 ---
-title: >-
-  ✏️ 3.1.3.1 Weekday Finder, Scrabble Scorer, Rock Paper Scissors, Find and
-  Replace, Prime Sifting
-id: >-
-  3131-weekday-finder-scrabble-scorer-rock-paper-scissors-find-and-replace-prime-sifting
-slug: >-
-  3131-weekday-finder-scrabble-scorer-rock-paper-scissors-find-and-replace-prime-sifting
+title: "✏️ 3.1.3.1 Weekday Finder, Scrabble Scorer, Rock Paper Scissors, Find and Replace, Prime Sifting"
+id: 3131-weekday-finder-scrabble-scorer-rock-paper-scissors-find-and-replace-prime-sifting
+slug: 3131-weekday-finder-scrabble-scorer-rock-paper-scissors-find-and-replace-prime-sifting
 hide_table_of_contents: true
 sidebar_position: 16
 day: wednesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/3a_classwork_rock_paper_scissors_weekday_finder.md
+url: https://github.com/fidgetech/c-and-net/blob/main/3a_classwork_rock_paper_scissors_weekday_finder.md
 ---
 
 **Goal:** Continue building out applications using MSTest and the "Red, Green, Refactor" workflow.

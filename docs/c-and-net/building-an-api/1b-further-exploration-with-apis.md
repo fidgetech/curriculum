@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 11
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/1b_further_exploration_with_apis.md
+url: https://github.com/fidgetech/c-and-net/blob/main/1b_further_exploration_with_apis.md
 ---
 
 It’s time to do a deep dive on your own. In the classwork for this course section, you'll be tasked with trying to incorporate one or more of the following features into your API:

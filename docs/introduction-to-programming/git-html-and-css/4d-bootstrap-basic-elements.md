@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 44
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/4d_bootstrap_basic_elements.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/4d_bootstrap_basic_elements.md
 ---
 
 In this lesson, we'll learn how to implement several of the most common Bootstrap resources and styles. These resources will make our projects look considerably nicer without much additional work.

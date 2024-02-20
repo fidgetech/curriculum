@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 21
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0u_javascript_objects.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0u_javascript_objects.md
 ---
 
 Let's take another look at JavaScript objects. Doing so will help us better understand JavaScript primitives and methods. This review will also help us understand how powerful objects are as a data structure, both in JavaScript and in the web browser tools we will begin to use soon, and prime us to use built-in objects. The goal of this lesson is to simply understand how important objects are.

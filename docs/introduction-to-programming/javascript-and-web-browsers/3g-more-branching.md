@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 59
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3g_more_branching.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3g_more_branching.md
 ---
 
 Sometimes, our branching logic can get more complicated. Let's build a website to determine which amusement park ride someone can go on based on their age and height. In the process, we'll learn about using the logical "and" `&&` and "or" `||` operators, nesting if statements, and the concepts of "truthy" and "falsey". We'll also include polish our website by adding error handling and a button to clear the form and results.

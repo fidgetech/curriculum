@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 32
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3e_using_floats.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3e_using_floats.md
 ---
 
 So far, everything we've done has been laid out very simply, from top to bottom for block elements, and left to right for inline ones. But often we'll want to have text wrap around an image, or have a sidebar on one side, or create a page with multiple columns. We can design all of these layouts using **floats**.

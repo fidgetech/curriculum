@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 3
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0d_literal_notation_vs_constructors.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0d_literal_notation_vs_constructors.md
 ---
 
 In the previous lesson we created objects using **Literal Notation**. Let's explore further examples of what literal notation looks like, and how the process of creating objects may be streamlined by using constructors. We haven't learned about constructors yet, but we will in this lesson!

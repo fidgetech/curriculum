@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 22
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/1e_crud_with_ef_core_create_and_read.md
+url: https://github.com/fidgetech/c-and-net/blob/main/1e_crud_with_ef_core_create_and_read.md
 ---
 
  In this lesson, we'll add more CRUD functionality to our To Do List using our new EF Core-powered ORM capabilities. Specifically, we'll focus on the create action here.

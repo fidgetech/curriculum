@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 47
 day: friday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/5a_classwork_arrays_and_looping_independent_project.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/5a_classwork_arrays_and_looping_independent_project.md
 paginationNext: null
 ---
 

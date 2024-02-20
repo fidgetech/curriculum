@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 13
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/0m_viewing_tickets_from_firestore.md
+url: https://github.com/fidgetech/react/blob/main/0m_viewing_tickets_from_firestore.md
 ---
 
 We now have the ability to add tickets to Firestore in our Help Queue application. However, we can't see the tickets in our application yet. There are two ways we can get data from Firestore:

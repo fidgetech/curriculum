@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 36
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/3d_objects_within_objects_interface_part_one.md
+url: https://github.com/fidgetech/c-and-net/blob/main/3d_objects_within_objects_interface_part_one.md
 ---
 
 In the last two lessons, we updated our back end logic to support `Category` objects. All To Do List `Item`s will now belong to a parent `Category`, allowing our users to better organize their tasks. As we've discussed, this setup is referred to as **objects within objects**.

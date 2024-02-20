@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 3
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/0c_setting_up_our_first_project.md
+url: https://github.com/fidgetech/react/blob/main/0c_setting_up_our_first_project.md
 ---
 
 Over the next several lessons, we will learn about reducers and use them to create all the CRUD functionality we'll need in our Help Queue. In this lesson, we'll start the project set up process. We will:

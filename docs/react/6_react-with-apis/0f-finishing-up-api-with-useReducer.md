@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 6
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/0f_finishing_up_api_with_useReducer.md
+url: https://github.com/fidgetech/react/blob/main/0f_finishing_up_api_with_useReducer.md
 ---
 
 Now it's time to refactor the `TopStories` component to use the `useReducer()` hook. Let's first take a look at the updated code, and then review the changes in detail down below.

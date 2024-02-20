@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 43
 day: tuesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2e_classwork_practice_accessing_the_DOM.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2e_classwork_practice_accessing_the_DOM.md
 ---
 
 **Goal:** Practice accessing the DOM by using the `document` methods we learned about in the previous lesson.

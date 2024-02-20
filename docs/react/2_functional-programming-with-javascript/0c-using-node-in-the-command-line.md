@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 4
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/0c_using_node_in_the_command_line.md
+url: https://github.com/fidgetech/react/blob/main/0c_using_node_in_the_command_line.md
 ---
 
 So far, we've used JavaScript to build browser applications. When we want to try out snippets of code, we've used the console in Chrome Developer Tools or an online development environment like Codepen.

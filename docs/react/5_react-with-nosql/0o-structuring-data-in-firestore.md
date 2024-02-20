@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 15
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/0o_structuring_data_in_firestore.md
+url: https://github.com/fidgetech/react/blob/main/0o_structuring_data_in_firestore.md
 ---
 
 Just because NoSQL is flexible about structuring data doesn't mean we should just throw documents in a NoSQL database as if it were a junk drawer. We can actually use Firestore to structure data in many different ways. Even though we don't need a schema or database tables, we can still carefully plan how our data will be structured. In a real-world application, this is absolutely essential. SQL's more rigid rules force us to plan ahead of time while NoSQL removes the guardrails — which will leave us open to headaches down the road if we don't have a good plan.

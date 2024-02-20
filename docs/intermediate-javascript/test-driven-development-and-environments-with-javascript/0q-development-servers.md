@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 17
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0q_development_servers.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0q_development_servers.md
 ---
 
 We'll improve our developer experience further by using a live development server for webpack. With a **live development server**, any time we make changes to our code, it's automatically re-bundled and our browser window is reloaded.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 34
 day: wednesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3d_classwork_practice_looping_with_for.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3d_classwork_practice_looping_with_for.md
 ---
 
 **Goal**:  In the last lesson, we learned:

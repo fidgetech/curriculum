@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 45
 day: thursday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/4e_classwork_practice_installing_and_implementing_bootstrap.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/4e_classwork_practice_installing_and_implementing_bootstrap.md
 ---
 
 **Goal:** Begin exploring Bootstrap by creating an HTML page that integrates multiple Bootstrap elements into its styles.

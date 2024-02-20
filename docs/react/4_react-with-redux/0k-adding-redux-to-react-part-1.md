@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 11
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/0k_adding_redux_to_react_part_1.md
+url: https://github.com/fidgetech/react/blob/main/0k_adding_redux_to_react_part_1.md
 ---
 
 Here at Epicodus, we usually build a project from the ground up when we learn about a new technology. We build new projects every class session or every few class sessions in order to reinforce key concepts.

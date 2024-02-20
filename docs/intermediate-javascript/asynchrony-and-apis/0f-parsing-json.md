@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 6
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0f_parsing_json.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0f_parsing_json.md
 ---
 
 Before we continue on to making API calls with JavaScript, let's take a look at an example of a potential response from the OpenWeather API. Often an API call will return complex, deeply-nested JSON. Because JSON is just a set of key-value pairs, we can navigate through it just as we would JavaScript properties of an object. 

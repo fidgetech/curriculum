@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 10
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0k_debugging_with_a_linter.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0k_debugging_with_a_linter.md
 ---
 
 Sometimes you won't be able to find a syntax error no matter how hard you look. Or your code may work correctly but still have an error. For instance, maybe you forgot to scope a variable with `let` or `const` or maybe you forgot a semicolon.

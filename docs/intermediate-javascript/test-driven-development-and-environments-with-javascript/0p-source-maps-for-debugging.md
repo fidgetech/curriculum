@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 16
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0p_source_maps_for_debugging.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0p_source_maps_for_debugging.md
 ---
 
 How else can we improve our development experience? We can ensure that we are using source maps for debugging bundled code.

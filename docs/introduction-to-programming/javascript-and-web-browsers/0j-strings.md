@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 10
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0j_strings.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0j_strings.md
 ---
 
 We've done a lot with numbers, but there's more to this world than just math. Let's look at words.

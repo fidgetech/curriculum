@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 5
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0e_using_devtools_for_practice_and_pair_programming.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0e_using_devtools_for_practice_and_pair_programming.md
 ---
 
 We'll be using the DevTools console to try out JavaScript code. In this lesson, we'll cover the expectations and tips for using the DevTools console in personal coding practice and in pair/team programming.

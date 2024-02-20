@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 13
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/1b_address_book_user_interface.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/1b_address_book_user_interface.md
 ---
 
 After following along with the weekend homework(previous lessons), we have a simple address book application that can create contacts and add, delete, and find them in an address book. Now let's start building the UI!

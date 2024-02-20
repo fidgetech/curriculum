@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 25
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1c_classwork_practice_writing_functions.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1c_classwork_practice_writing_functions.md
 ---
 
 **Goal:**  In the "Writing Functions" lessons, we learned:

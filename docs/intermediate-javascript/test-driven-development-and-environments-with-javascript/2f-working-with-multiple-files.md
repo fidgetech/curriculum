@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 37
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/2f_working_with_multiple_files.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/2f_working_with_multiple_files.md
 ---
 
 As our projects get bigger, we'll need to break up our code into multiple files. Doing this — and managing our tests as well as our import and export statements — can be tough for beginners. For that reason, we'll walk through the process by adding functionality for calculating the area of a rectangle to our `shape-tracker` application. 

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 54
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3b_debugging_using_console_log.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3b_debugging_using_console_log.md
 ---
 
 This is the second of four lessons on debugging in JavaScript. Previously, we've covered working with your DevTools console open and keeping an eye out for console errors. In this lesson, we've intentionally added two errors to our Mad Libs project so that we can learn how to use `console.log()` statements to help us debug. In the process, we'll also cover a very common error for JavaScript beginners — and how to easily spot it.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 55
 day: wednesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3c_classwork_practice_forms.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3c_classwork_practice_forms.md
 ---
 
 **Goal**: Practice creating HTML forms and debugging:

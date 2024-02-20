@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 41
 day: thursday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/4b_classwork_practice_array_mapping.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/4b_classwork_practice_array_mapping.md
 ---
 
 **Goal**:  Now that we've learned about `Array.prototype.map()`, let's further hone our array mapping skills by completing the exercises detailed below.

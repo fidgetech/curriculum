@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 14
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1m_html_inline_elements.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1m_html_inline_elements.md
 ---
 
 All of the tags we learned about in the previous lessons are block elements, meaning that each element is displayed on a new line. In this lesson, we are going to look at elements that do not appear on their own line but share a line with other elements.  These are called **inline elements**. 

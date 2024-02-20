@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 24
 day: tuesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2e_
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2e_
   classwork_tdd_with_text_analyzer_business_logic.md
 ---
 

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 7
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0g_semantic_versioning.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0g_semantic_versioning.md
 ---
 
 When we install a JavaScript package, it will include a version number that looks something like this:

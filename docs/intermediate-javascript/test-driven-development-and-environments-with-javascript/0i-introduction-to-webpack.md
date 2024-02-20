@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 9
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0i_introduction_to_webpack.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0i_introduction_to_webpack.md
 ---
 
 webpack is a **module bundler** that bundles our code. A **module** is a single JavaScript file. As a bundler, webpack stitches together separate modules (JavaScript files) into a single file called a bundle. By bundling our code, we can make our website more efficient at loading and processing its resources, because the source code has been optimized. 

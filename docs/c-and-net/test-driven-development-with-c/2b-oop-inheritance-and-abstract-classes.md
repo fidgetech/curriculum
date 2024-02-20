@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 10
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/2b_oop_inheritance_and_abstract_classes.md
+url: https://github.com/fidgetech/c-and-net/blob/main/2b_oop_inheritance_and_abstract_classes.md
 ---
 
 In this lesson, we're going to revisit the four principles of Object-Oriented Programming (OOP), often referred to as APIE: 

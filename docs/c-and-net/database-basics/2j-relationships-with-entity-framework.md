@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 29
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/2j_relationships_with_entity_framework.md
+url: https://github.com/fidgetech/c-and-net/blob/main/2j_relationships_with_entity_framework.md
 ---
 
 In this lesson, we'll learn how to create database relationships using EF Core **navigation properties**. We'll add a one-to-many relationship between `Items` and `Categories` so that each `Item` belongs to a specific `Category`. 

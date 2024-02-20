@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 33
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1k_classwork_practice_interactivity_with_window_methods.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1k_classwork_practice_interactivity_with_window_methods.md
 ---
 
 **Goal:**  In the "Interactivity with Window Methods" lesson, we learned:

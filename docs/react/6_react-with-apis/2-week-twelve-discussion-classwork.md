@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 15
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/2_week_twelve_discussion_classwork.md
+url: https://github.com/fidgetech/career-services/blob/main/2_week_twelve_discussion_classwork.md
 ---
 
 As discussed in the _[Journaling at Epicodus](/introduction-to-programming/git-html-and-css/homework-journaling-at-epicodus)_ lesson, each weekend you'll receive a journaling assignment in addition to your coding homework. You'll then discuss your responses with a partner at the beginning of the next class session.

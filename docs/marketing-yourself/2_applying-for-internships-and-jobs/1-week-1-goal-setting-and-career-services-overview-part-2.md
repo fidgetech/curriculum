@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 2
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/1_week_1_goal_setting_and_career_services_overview_part_2.md
+url: https://github.com/fidgetech/career-services/blob/main/1_week_1_goal_setting_and_career_services_overview_part_2.md
 ---
 
 # Goal Setting 

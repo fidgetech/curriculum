@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 19
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/mock_interview_curriculum_updates.md
+url: https://github.com/fidgetech/career-services/blob/main/mock_interview_curriculum_updates.md
 ---
 
 # 📓 Non-Technical Interview

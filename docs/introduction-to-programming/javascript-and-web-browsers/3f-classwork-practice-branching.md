@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 58
 day: wednesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3f_classwork_practice_branching.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3f_classwork_practice_branching.md
 ---
 
 **Goal:** In the Branching lesson, we learned:

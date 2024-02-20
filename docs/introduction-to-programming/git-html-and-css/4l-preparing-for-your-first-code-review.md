@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 37
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/4l_preparing_for_your_first_code_review.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/4l_preparing_for_your_first_code_review.md
 ---
 
 ## What To Expect

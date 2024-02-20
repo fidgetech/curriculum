@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 46
 day: thursday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3_linkedin_classwork.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3_linkedin_classwork.md
 ---
 
 LinkedIn is a social network service specifically oriented toward employment and professional networking. It's similar to sites like Facebook, but user profiles feature professional accolades, work histories, resumes, and more employment-related content. 

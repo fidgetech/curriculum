@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 16
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/1a_classwork_to_do_list_and_project_rebuild.md
+url: https://github.com/fidgetech/c-and-net/blob/main/1a_classwork_to_do_list_and_project_rebuild.md
 ---
 
 **Goal**: Practice writing SQL statements and adding CR functionality to applications. Take the time to understand how a database query works in a .NET application.

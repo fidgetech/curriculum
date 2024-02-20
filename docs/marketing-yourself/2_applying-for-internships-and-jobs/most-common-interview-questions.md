@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 21
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/most_common_interview_questions.md
+url: https://github.com/fidgetech/career-services/blob/main/most_common_interview_questions.md
 ---
 
 # Formulating Answers to Interview Questions

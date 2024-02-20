@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 3
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1d_classwork_practice_tracking_changes_with_git.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1d_classwork_practice_tracking_changes_with_git.md
 ---
 
 We have our project directory created and our Git repository initialized.  Now, we can create the HTML file that will say hello to the world.  Let's make an empty file at the command line in our project directory:

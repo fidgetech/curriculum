@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 31
 day: wednesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3b_classwork_practice_git_rebase.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3b_classwork_practice_git_rebase.md
 ---
 
 **Goal**:  Now that we've learned about how to change previous commits, let's put this new information into practice!

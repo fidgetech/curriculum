@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 71
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/4g_debugging_with_debugger.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/4g_debugging_with_debugger.md
 ---
 
 This is our fourth and final lesson on basic debugging with JavaScript. In this lesson, we'll use DevTools debugger to pinpoint and fix two new bugs in our Calculator JS.

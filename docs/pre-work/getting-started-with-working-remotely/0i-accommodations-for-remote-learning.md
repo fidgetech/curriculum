@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 8
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/pre-work/blob/main/0i_accommodations_for_remote_learning.md
+url: https://github.com/fidgetech/pre-work/blob/main/0i_accommodations_for_remote_learning.md
 paginationNext: null
 ---
 

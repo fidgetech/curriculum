@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 17
 day: friday
 type: exercise
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/5a_many_to_many_databases_independent_project.md
+url: https://github.com/fidgetech/c-and-net/blob/main/5a_many_to_many_databases_independent_project.md
 paginationNext: null
 ---
 

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 4
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0d_future_project_structure.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0d_future_project_structure.md
 ---
 
 In this lesson, we'll provide an overview of what our file's project structure will look like by the end of this course section. We'll also briefly describe the purpose of each file. **Do not add any files to your project just yet.** We will add them as they are needed. This lesson just provides an introduction to how our file structure will change, including contrasting it with our project's current file structure.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 18
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/1c_further_exploration_seo_with_react.md
+url: https://github.com/fidgetech/react/blob/main/1c_further_exploration_seo_with_react.md
 ---
 
 Up to this point, we've focused entirely on creating small applications without thinking much about deployment. Even when we do have a chance to deploy our work, we aren't thinking about web traffic. More likely, we're deploying as part of our learning experience — and hopefully to share our project with friends, family, and potential employers.

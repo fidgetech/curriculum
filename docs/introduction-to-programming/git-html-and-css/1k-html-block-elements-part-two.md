@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 10
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1k_html_block_elements_part_two.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1k_html_block_elements_part_two.md
 ---
 
 Now let's create a second web page using HTML block elements in our `my-first-webpage` project.  We'll have two web pages in our directory.  The new page will list a few of our favorite things.

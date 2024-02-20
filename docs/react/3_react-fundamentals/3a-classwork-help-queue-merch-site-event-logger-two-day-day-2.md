@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 39
 day: thursday
 type: exercise
-url: >-
-  https://github.com/fidgetech/react/blob/main/3a_classwork_help_queue_merch_site_event_logger_two_day.md
+url: https://github.com/fidgetech/react/blob/main/3a_classwork_help_queue_merch_site_event_logger_two_day.md
 ---
 
 **Goal:** Over the next class sessions, practice building a React site that has both local and shared state. Add full CRUD functionality to your application. Make sure you take the time to carefully plan out your application — including where shared state should go and all components should live. As always, take the time to plan out your application and draw a component diagram. Don't forget to include the diagram in your project README.

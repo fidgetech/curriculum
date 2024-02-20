@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 20
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/5_giving_constructive_feedback.md
+url: https://github.com/fidgetech/career-services/blob/main/5_giving_constructive_feedback.md
 ---
 
 You will be expected to give constructive written feedback to your peers during next week's whiteboard session. You will also have the opportunity to give verbal feedback. However, only the written feedback is required.

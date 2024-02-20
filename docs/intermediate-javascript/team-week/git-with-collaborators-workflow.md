@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 3
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/git_with_collaborators_workflow.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/git_with_collaborators_workflow.md
 ---
 
 When we work on a development project as a collaborator, we have commit privileges to the main repository on GitHub.  The development workflow for collaborators in a team takes advantage of some Git functionality that we don't often use on pair projects: **Branching** and **merging**.  Below is a _general_ outline of this workflow. Use this lesson as a reference when working on your group project this week:

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 5
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/0e_testing_and_writing_our_reducers.md
+url: https://github.com/fidgetech/react/blob/main/0e_testing_and_writing_our_reducers.md
 ---
 
 We're now ready to start refactoring our New York Times (NYT) API application to use the `useReducer()` hook to handle state. However, we're going to go a few steps further than we did in the last lesson: we're going to write action creators and action constants for our actions, and we're going to fully test our reducer and action creators. 

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 22
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1fa_markdown.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1fa_markdown.md
 ---
 
 Many people think that creating a web page involves really complicated code that requires extensive studying to understand. That's not always the case, though. We are going to learn a simple language called **Markdown** in this lesson that will let you create web pages really easily. 

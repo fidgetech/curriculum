@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 11
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/1c_customizing_entity_properties_with_data_annotations.md
+url: https://github.com/fidgetech/c-and-net/blob/main/1c_customizing_entity_properties_with_data_annotations.md
 ---
 
 At the end of the lesson on model validation with validation attributes, we added two validation attributes to our `Item` model: we made the `Item.Description` property `[Required]`, and we set a `[Range]` between 1 and the integer's max value for the `Item.CategoryId` property. 

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 48
 day: thursday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/4h_classwork_practice_grid_system_custom_styles_and_more.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/4h_classwork_practice_grid_system_custom_styles_and_more.md
 ---
 
 **Goal:** Continue exploring Bootstrap by expanding your HTML page that integrates multiple Bootstrap elements into its styles.

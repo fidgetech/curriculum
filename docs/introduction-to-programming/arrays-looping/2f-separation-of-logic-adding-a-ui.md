@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 25
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2f_separation_of_logic_adding_a_ui.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2f_separation_of_logic_adding_a_ui.md
 ---
 
 Over the last two lessons, we used test-driven development to build some basic functionality for a word counter program called "Text Analyzer". This program can count the number of words in a passage of text and also count the number of occurrences of that word.

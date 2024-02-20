@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 25
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/capstone/blob/main/2_bits_bytes_and_binary_numbers.md
+url: https://github.com/fidgetech/capstone/blob/main/2_bits_bytes_and_binary_numbers.md
 ---
 
 Computers use the binary number system, but what exactly does that mean? At this point, we should all recognize a number that's using the binary number system — it's just a series of zeroes and ones. For example, an uppercase `A` translates to `01000001` in binary code.

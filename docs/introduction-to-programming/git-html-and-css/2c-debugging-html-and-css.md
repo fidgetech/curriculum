@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 17
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2c_debugging_html_and_css.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2c_debugging_html_and_css.md
 ---
 
 Learning to debug is an essential skill to pick up early on. There are many debugging techniques. Here are a few tools that are very helpful for debugging HTML & CSS.

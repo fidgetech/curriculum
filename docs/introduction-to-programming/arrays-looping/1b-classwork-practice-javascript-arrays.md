@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 13
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1b_classwork_practice_javascript_arrays.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1b_classwork_practice_javascript_arrays.md
 ---
 
 **Goal:** In the lessons on arrays, we learned:

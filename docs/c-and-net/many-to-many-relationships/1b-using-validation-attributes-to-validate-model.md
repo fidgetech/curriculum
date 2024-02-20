@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 10
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/1b_using_validation_attributes_to_validate_model.md
+url: https://github.com/fidgetech/c-and-net/blob/main/1b_using_validation_attributes_to_validate_model.md
 ---
 
 In the last course section, we created instructions and used simple condition to avoid creating a database error if a user tries to create an `Item` without there being a `Category` to associate it with. In the `Items/Create.cshtml` view we added this message:

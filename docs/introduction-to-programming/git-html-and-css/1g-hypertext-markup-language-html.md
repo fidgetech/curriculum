@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 6
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1g_hypertext_markup_language_html.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1g_hypertext_markup_language_html.md
 ---
 
 We've already had a bit of a taste of a basic HTML file with our Hello World and Goodbye web pages.  Now, we're going to focus on the basics of HyperText Markup Language or HTML that we previously just cut and paste into our pages.  

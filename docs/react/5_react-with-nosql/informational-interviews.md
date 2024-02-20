@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 35
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/informational-interviews.md
+url: https://github.com/fidgetech/career-services/blob/main/informational-interviews.md
 ---
 
 ## Informational Interviews

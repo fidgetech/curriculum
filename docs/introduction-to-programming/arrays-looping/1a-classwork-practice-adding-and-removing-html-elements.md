@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 12
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1a_classwork_practice_adding_and_removing_html_elements.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1a_classwork_practice_adding_and_removing_html_elements.md
 ---
 
 **Goal:** In the lessons on adding and removing HTML elements, we learned how to use 6 methods:

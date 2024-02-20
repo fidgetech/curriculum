@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 6
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0f_testing_auto_implemented_property.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0f_testing_auto_implemented_property.md
 ---
 
 In this lesson, we'll work on implementing the next simplest behavior for our `Triangle` logic, which is giving triangles a second side:

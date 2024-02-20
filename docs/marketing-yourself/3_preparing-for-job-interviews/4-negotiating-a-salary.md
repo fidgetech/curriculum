@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 5
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/4_negotiating_a_salary.md
+url: https://github.com/fidgetech/career-services/blob/main/4_negotiating_a_salary.md
 ---
 
 Epicodus graduates start in a variety of positions, from 1-3 month paid internships, set contracts with a stipend, contract-to-hire arrangements, and full-time positions. It's very common to start in some sort of trial position before being hired full-time. These are great learning opportunities, as well as a chance to really find out if you like the company and its culture.

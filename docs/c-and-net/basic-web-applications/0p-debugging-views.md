@@ -1,9 +1,7 @@
 ---
 title: "\U0001F4D3 3.2.0.16 Debugging Views and Configuring a Development Environment with launchSettings.json"
-id: >-
-  32016-debugging-views-and-configuring-a-development-environment-with-launchsettingsjson
-slug: >-
-  32016-debugging-views-and-configuring-a-development-environment-with-launchsettingsjson
+id: 32016-debugging-views-and-configuring-a-development-environment-with-launchsettingsjson
+slug: 32016-debugging-views-and-configuring-a-development-environment-with-launchsettingsjson
 hide_table_of_contents: true
 sidebar_position: 16
 day: weekend

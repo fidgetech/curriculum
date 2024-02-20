@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 7
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0g_checking_the_type_of_an_object.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0g_checking_the_type_of_an_object.md
 ---
 
 In this lesson, we'll learn how .NET organizes its classes into namespaces. We'll also learn how to check the exact type (or class) of a data type you are working with. This information will better prepare us to access and use the docs, so that we can learn about _more_ built-in methods that we can use in our projects! 

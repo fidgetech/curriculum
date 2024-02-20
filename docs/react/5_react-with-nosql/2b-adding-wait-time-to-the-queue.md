@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 30
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/2b_adding_wait_time_to_the_queue.md
+url: https://github.com/fidgetech/react/blob/main/2b_adding_wait_time_to_the_queue.md
 ---
 
 In this lesson we're going to work with the Firestore server timestamp to add a wait time to our Help Queue project. For this refactor, we'll need to complete a few steps:

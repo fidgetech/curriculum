@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 4
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0d_our_first_tests_with_mstest.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0d_our_first_tests_with_mstest.md
 ---
 
 Let's create our first test. Remember that the purpose of test-driven development is to write a test for the smallest unit of behavior possible. The test should fail first. Then we should add the smallest amount of code possible to get the test to pass. After that, we can refactor our code as necessary. This follows the "Red, Green, Refactor" TDD workflow.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 8
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/workshops/blob/main/ucode_8_further_exploration.md
+url: https://github.com/fidgetech/workshops/blob/main/ucode_8_further_exploration.md
 paginationNext: null
 ---
 

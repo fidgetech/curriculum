@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 31
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/2e_introduction_to_restful_routing.md
+url: https://github.com/fidgetech/c-and-net/blob/main/2e_introduction_to_restful_routing.md
 ---
 
 Before we add new routes to our app, we're going to discuss an industry best practice for organizing routes called **REST**.

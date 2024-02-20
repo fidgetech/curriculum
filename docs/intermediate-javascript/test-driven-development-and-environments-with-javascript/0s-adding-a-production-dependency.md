@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 19
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0s_adding_a_production_dependency.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0s_adding_a_production_dependency.md
 ---
 
 We're almost done setting up our environment. Let's finish up by adding a dependency for our production code: Bootstrap! 

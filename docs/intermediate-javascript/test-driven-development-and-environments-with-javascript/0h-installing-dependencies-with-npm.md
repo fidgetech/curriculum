@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 8
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0h_installing_dependencies_with_npm.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0h_installing_dependencies_with_npm.md
 ---
 
 We're now ready to start installing the packages we'll work with. We can install any npm package with the `$ npm install [PACKAGE-NAME]` command where `[PACKAGE-NAME]` is the package we want to install. 

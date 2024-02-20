@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 3
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0c_installing_node_js.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0c_installing_node_js.md
 paginationNext: null
 ---
 

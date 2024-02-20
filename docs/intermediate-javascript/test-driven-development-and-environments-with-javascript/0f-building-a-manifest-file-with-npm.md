@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 6
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0f_building_a_manifest_file_with_npm.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0f_building_a_manifest_file_with_npm.md
 ---
 
 Our first step in creating our project's development environment is to set up Node Package Manager (npm) by creating a `package.json` file. This file lists metadata about a project — its name, version, dependencies (packages used in the project), scripts, and more. In short, we use `package.json` to manage a project's dependencies. 

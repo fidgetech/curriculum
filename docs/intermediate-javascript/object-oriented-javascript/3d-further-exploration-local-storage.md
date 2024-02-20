@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 25
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/3d_further_exploration_local_storage.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/3d_further_exploration_local_storage.md
 ---
 
 This lesson is a **further exploration**. That means it's optional — and the content here is not required for the independent project.

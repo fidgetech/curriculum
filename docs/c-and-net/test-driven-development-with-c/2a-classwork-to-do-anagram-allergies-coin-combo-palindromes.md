@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 9
 day: tuesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/2a_classwork_to_do_anagram_allergies_coin_combo_palindromes.md
+url: https://github.com/fidgetech/c-and-net/blob/main/2a_classwork_to_do_anagram_allergies_coin_combo_palindromes.md
 ---
 
 **Goal:** Continue practicing with C# basics and Test-Driven Development.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 12
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/pre-work/blob/main/0l_glossary_for_epicodus_terminology.md
+url: https://github.com/fidgetech/pre-work/blob/main/0l_glossary_for_epicodus_terminology.md
 ---
 
 There's a lot to get used to when getting started at Fidgetech, so we're hoping to make it easier with this short reference of common terminology that we use to describe the structure of our courses, classes, and assignments. Some of these terms are commonly used at Epicodus, but they may not all be used at Fidgetech. If you have any question regarding a term that you come across, please feel free to contact your instructor for clarification. This list is in alphabetical order.

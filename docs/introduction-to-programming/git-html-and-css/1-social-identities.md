@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 12
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1_social_identities.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1_social_identities.md
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. In fact, it’s our very first lesson! This week, we will cover social identities. 

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 43
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/4d_looping_with_for_of.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/4d_looping_with_for_of.md
 ---
 
 **Note: This lesson is a _further exploration_, and it is not required that you read it!**  `for...of` loops are more syntactic sugar on regular `for` loops. They are useful for certain kinds of problems such as looping directly over strings.

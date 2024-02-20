@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 17
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/react/blob/main/1a_classwork_redux_help_queue_project_refactor.md
+url: https://github.com/fidgetech/react/blob/main/1a_classwork_redux_help_queue_project_refactor.md
 ---
 
 **Goals:** Follow along with the weekend homework. Start by testing and writing reducers. Once your reducers are complete, incorporate React Redux into your projects.

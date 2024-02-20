@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 3
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0c_mstest_configuration_and_setup.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0c_mstest_configuration_and_setup.md
 ---
 
 Now that we have a refresher on Test-Driven Development (TDD), the Red, Green, Refactor (RGR) workflow, and testing best practices, we're ready to start using MSTest to write automated unit tests. For practice, we're going to revisit the Shape Tracker app and rebuild our `Triangle` class from nothing using TDD. In this lesson, we'll start by setting up the files, folders, and configurations for MSTest.

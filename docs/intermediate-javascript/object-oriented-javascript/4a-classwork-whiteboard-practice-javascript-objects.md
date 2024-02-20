@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 27
 day: thursday
 type: exercise
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/4a_classwork_whiteboard_practice_javascript_objects.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/4a_classwork_whiteboard_practice_javascript_objects.md
 ---
 
 ## Whiteboard Practice

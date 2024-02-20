@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 6
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0g_accessing_different_branches_and_commits.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0g_accessing_different_branches_and_commits.md
 ---
 
 In this section, we will be providing a repository that you can use as a reference as you work through the lessons. There will be links to this repository throughout the section. However, each link will be to a **different branch** in the repository.

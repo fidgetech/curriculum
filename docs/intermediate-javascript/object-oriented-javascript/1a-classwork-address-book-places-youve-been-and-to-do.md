@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 12
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/1a_classwork_address_book_places_youve_been_and_to_do.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/1a_classwork_address_book_places_youve_been_and_to_do.md
 ---
 
 **Goal**: Practice creating objects in JavaScript using constructors and prototypes. Use test-driven development to create your business logic. There should be tests for all functionality in your business logic, and they should be included in your project's README.

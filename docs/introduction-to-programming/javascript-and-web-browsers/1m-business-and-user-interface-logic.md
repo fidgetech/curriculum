@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 35
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1m_business_and_user_interface_logic.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1m_business_and_user_interface_logic.md
 ---
 
 Well-organized code is easier to debug, it appears more professional, and is easier to revisit later. Writing organized code is a highly-valued skill in the programming field. When working on a team, you'll often collaborate with other developers. Clean code is easier for others to understand and contribute to. Before we begin writing more complex JavaScript, let's make sure we understand how to organize our code using the best, most professional practices from the very beginning.

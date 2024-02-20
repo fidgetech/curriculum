@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 3
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/1_week_1_career_exploration.md
+url: https://github.com/fidgetech/career-services/blob/main/1_week_1_career_exploration.md
 ---
 
 ## Introduction

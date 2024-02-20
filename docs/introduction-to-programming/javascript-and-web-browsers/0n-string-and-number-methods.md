@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 14
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0n_string_and_number_methods.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0n_string_and_number_methods.md
 ---
 
 Let's dive more into methods. JavaScript offers built-in methods for strings and numbers. Let's take a look at a few of these methods, including some we've learned about already. Note that the list below isn't comprehensive — there are many more methods out there that we'll take a look at soon!

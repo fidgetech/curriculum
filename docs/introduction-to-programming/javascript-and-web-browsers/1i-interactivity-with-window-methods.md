@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 31
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1i_interactivity_with_window_methods.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1i_interactivity_with_window_methods.md
 ---
 
 So far, none of what we've learned lets us interact with users. Let's try out `window` methods that let us do just that!

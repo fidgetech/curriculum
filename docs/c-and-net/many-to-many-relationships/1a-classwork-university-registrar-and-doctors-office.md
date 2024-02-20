@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 9
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/1a_classwork_university_registrar_and_doctors_office.md
+url: https://github.com/fidgetech/c-and-net/blob/main/1a_classwork_university_registrar_and_doctors_office.md
 ---
 
 **Goal**: Practice using join statements to connect tables in your database. You should also be getting more practice creating and using many to many relationships with your tables.

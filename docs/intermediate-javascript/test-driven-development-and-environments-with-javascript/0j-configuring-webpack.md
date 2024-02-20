@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 10
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0j_configuring_webpack.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0j_configuring_webpack.md
 ---
 
 Before we get started with configuring webpack, let's take a look at our shape tracker application so far. It should have the following:

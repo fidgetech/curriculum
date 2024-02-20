@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 64
 day: wednesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3l_classwork_practice_with_event_listeners.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3l_classwork_practice_with_event_listeners.md
 ---
 
 **Goal:**  In the three lessons on event handling with event listeners, we learned about:

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 18
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/the_hidden_job_market.md
+url: https://github.com/fidgetech/career-services/blob/main/the_hidden_job_market.md
 ---
 
 # Taking Advantage of the Hidden Job Market

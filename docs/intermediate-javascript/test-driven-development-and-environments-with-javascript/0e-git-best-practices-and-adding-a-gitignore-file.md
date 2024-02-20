@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 5
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0e_git_best_practices_and_adding_a_gitignore_file.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0e_git_best_practices_and_adding_a_gitignore_file.md
 ---
 
 The very first step in creating any project that uses multiple JS dependencies that are managed by node package manager (npm) is to create a `.gitignore` file, and we'll do just that in this lesson. We'll also take the opportunity to review a few additional Git best practices. You are expected to incorporate all of these best practices into your projects for the remainder of the Intermediate JavaScript course.

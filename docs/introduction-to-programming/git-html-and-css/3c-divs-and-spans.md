@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 30
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3c_divs_and_spans.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3c_divs_and_spans.md
 ---
 
 Classes are great for selectively applying styles to certain parts of your web pages. But sometimes you'll have entire sections of your pages that you want to style a certain way, and adding a style to every tag gets annoying. Here's a new page I made about fish. Notice how several elements in a row all have the same class:

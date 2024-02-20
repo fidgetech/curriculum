@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 11
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0k_es6_imports_and_exports.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0k_es6_imports_and_exports.md
 ---
 
 When we build our code, how does webpack know which files are dependencies? Going back to our example of the peanut butter and jelly sandwich example, how do we let webpack know that `jelly.js` needs `blueberry.js` to work properly?

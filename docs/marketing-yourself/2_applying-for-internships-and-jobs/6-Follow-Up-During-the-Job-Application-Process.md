@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 37
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/6_Follow-Up_During_the_Job_Application_Process.md
+url: https://github.com/fidgetech/career-services/blob/main/6_Follow-Up_During_the_Job_Application_Process.md
 ---
 
 During the application process, it's important to follow up with your potential employer regularly. They may have many competing priorities and may even be disorganized. By following up, you can help your application stay at the top of their list. Our career services advisors will often follow up with an employer up to 6 times without a response before the company commits to an internship! When we hear back, the employers often thank us for our persistence. So don't be afraid to keep following up. Here are opportune times to follow up throughout the process.

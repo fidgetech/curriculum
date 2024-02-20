@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 1
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0a_object_oriented_javascript_objectives.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0a_object_oriented_javascript_objectives.md
 paginationPrev: null
 ---
 

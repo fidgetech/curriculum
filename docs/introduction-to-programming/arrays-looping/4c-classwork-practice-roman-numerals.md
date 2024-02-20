@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 42
 day: thursday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/4c_classwork_practice_roman_numerals.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/4c_classwork_practice_roman_numerals.md
 ---
 
 **Goal**:  For these exercises (and all exercises going forward) Focus on breaking your project down into small pieces of functionality, and tackling them one at a time with TDD. Write your first test and then write the code necessary to get the test passing. Repeat the process of writing tests and getting code passing until you've completed your business logic. If you are interested, try experimenting with different kinds of loops.

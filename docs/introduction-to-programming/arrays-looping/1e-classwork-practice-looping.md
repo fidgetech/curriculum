@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 16
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1e_classwork_practice_looping.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1e_classwork_practice_looping.md
 ---
 
 **Goal:**  In the Looping lesson, we learned:

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 36
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1n_calculator_ui_and_business_logic.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1n_calculator_ui_and_business_logic.md
 ---
 
 Now that we've been introduced to the difference between **business logic** and **user interface** logic, let's revisit our calculator project and re-write some of the code. In an upcoming practice lesson, you'll add subtraction, multiplication, and division to this project.

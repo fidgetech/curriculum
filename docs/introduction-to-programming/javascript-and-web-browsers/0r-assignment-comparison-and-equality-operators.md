@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 18
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0r_assignment_comparison_and_equality_operators.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0r_assignment_comparison_and_equality_operators.md
 ---
 
 JavaScript has many operators for many different situations. We've already learned about a two types of operators: 

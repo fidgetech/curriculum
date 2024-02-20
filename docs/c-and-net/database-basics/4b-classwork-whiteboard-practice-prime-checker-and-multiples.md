@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 35
 day: thursday
 type: exercise
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/4b_classwork_whiteboard_practice_prime_checker_and_multiples.md
+url: https://github.com/fidgetech/c-and-net/blob/main/4b_classwork_whiteboard_practice_prime_checker_and_multiples.md
 ---
 
 ## Whiteboard Practice

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 35
 day: wednesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3h_classwork_practice_box_model.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3h_classwork_practice_box_model.md
 ---
 
 **Goal**: Implement the box model in our code.

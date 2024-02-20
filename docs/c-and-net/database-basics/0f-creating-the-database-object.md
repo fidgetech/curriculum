@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 5
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0f_creating_the_database_object.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0f_creating_the_database_object.md
 ---
 
 In the last lesson, we created a database for our To Do List using MySQL Workbench. In this lesson, we'll connect the database to our application using a tool called **MySqlConnector**. Once connected, we'll be able to interact with our database and its tables as C# objects in our application.

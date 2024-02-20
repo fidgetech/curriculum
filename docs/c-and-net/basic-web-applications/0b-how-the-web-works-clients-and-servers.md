@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 2
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0b_how_the_web_works_clients_and_servers.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0b_how_the_web_works_clients_and_servers.md
 ---
 
 You're about to learn your first web framework! But before we begin we'll address several concepts that apply to the internet in general. A series of lessons this section, all prefixed with _How the Web Works_, will walk through the basic concepts that create the Internet, and allow users to visit sites like those we're about to create. This will provide context to understand how our websites will function, both in our code and behind-the-scenes.

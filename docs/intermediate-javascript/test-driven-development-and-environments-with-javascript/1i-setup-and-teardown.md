@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 29
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/1i_setup_and_teardown.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/1i_setup_and_teardown.md
 ---
 
 In the last lesson, we wrote six tests for a triangle tracker application. In each test, we needed to instantiate a `Triangle` object to test either the constructor or the `Triangle.prototype.checkType()` method. These `Triangle` objects were all different, but what would happen if we needed to instantiate the same `Triangle` object for many tests?

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 40
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/3b_managing_images_with_webpack.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/3b_managing_images_with_webpack.md
 ---
 
 The primary focus of this section should be test-driven development, including writing more complex business logic along with tests. However, many students also want to incorporate images into their projects. While this should be a lower priority than using test-driven development (and adding images isn't required for this section's project), you are welcome to experiment with adding images if you have completed other key aspects of your project.

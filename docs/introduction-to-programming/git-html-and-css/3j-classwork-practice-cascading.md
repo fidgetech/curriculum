@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 40
 day: thursday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3j_classwork_practice_cascading.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3j_classwork_practice_cascading.md
 ---
 
 **Goal:**   In the Cascading lesson, we learned:

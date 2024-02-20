@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 30
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3a_git_rewriting_history_with_rebase.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3a_git_rewriting_history_with_rebase.md
 ---
 
 We always want to include clear and detailed messages with our commits. However, even the most careful developers can make mistakes. Thankfully, Git offers several options to re-write commits.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 42
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/3e_es6_maps_and_sets.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/3e_es6_maps_and_sets.md
 ---
 
 In this lesson, we'll cover two more useful features of ES6: **Maps** and **Sets**. ES6 also introduced the **WeakMap** and **WeakSet** but these two data structures are more obscure and not as widely useful so we won't cover them here. You won't be required to utilize either Maps or Sets for this section's independent project but you are encouraged to explore them in class.

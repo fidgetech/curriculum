@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 34
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/3c_further_exploration_with_firebase.md
+url: https://github.com/fidgetech/react/blob/main/3c_further_exploration_with_firebase.md
 ---
 
 If you take one glance at the Firebase docs, you know that there's a whole lot we can do with its many services! In this lesson, we'll take a look at a few opportunities for further exploration within Firebase, React Router, and React. 

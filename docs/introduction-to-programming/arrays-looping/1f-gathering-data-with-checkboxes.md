@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 17
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1f_gathering_data_with_checkboxes.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1f_gathering_data_with_checkboxes.md
 ---
 
 We've learned how to use a [variety of HTML form inputs]( https://old.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/form-input-types). We held off on learning about checkboxes because we needed to learn about arrays first. Now that we have a basic understanding of arrays, let's learn how to use checkboxes. In this lesson, we'll also learn how to use `Array.prototype.forEach()` on an array of checkbox elements.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 65
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/4a_understanding_web_APIs_event_handling.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/4a_understanding_web_APIs_event_handling.md
 ---
 
 Let's continue to learn how to navigate Mozilla Developer Network (MDN) documentation and where to find more information about the Web APIs we learn about in this section. In this lesson, we'll learn about where to find more information about event handling and the Web API interfaces (object types) that contain the functionality for event handling. 

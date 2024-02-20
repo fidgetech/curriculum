@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 15
 day: weekend
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0o_classwork_practice_string_and_number_methods.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0o_classwork_practice_string_and_number_methods.md
 ---
 
 **Goal**: In the string and number methods lesson, we learned:

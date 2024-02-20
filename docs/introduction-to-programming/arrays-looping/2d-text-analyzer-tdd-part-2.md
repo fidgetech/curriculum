@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 23
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2d_text_analyzer_tdd_part_2.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2d_text_analyzer_tdd_part_2.md
 ---
 
 In this lesson, we'll complete the tests and functionality for a new function in the Text Analyzer project, called `numberOfOccurrencesInText()`. The goal of this lesson is to demonstrate the TDD process, including all of the decisions we need to make along the way. 

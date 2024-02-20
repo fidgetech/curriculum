@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 9
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/team_week_presentations_and_code_review.md
+url: https://github.com/fidgetech/c-and-net/blob/main/team_week_presentations_and_code_review.md
 paginationNext: null
 ---
 

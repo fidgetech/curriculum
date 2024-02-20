@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 21
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/1d_ef_core_with_an_existing_database.md
+url: https://github.com/fidgetech/c-and-net/blob/main/1d_ef_core_with_an_existing_database.md
 ---
 
 In this lesson, we'll begin refactoring our existing To Do List models and controllers, learning how to retrieve and display information from a database using EF Core in the process. We'll also start using the Microsoft **LINQ** library, which gives us access to a simple syntax for querying lists or databases.

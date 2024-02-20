@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 14
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/0n_updating_and_deleting_tickets_with_firestore.md
+url: https://github.com/fidgetech/react/blob/main/0n_updating_and_deleting_tickets_with_firestore.md
 ---
 
 We're ready to get our edit and delete functionality working again. We will continue to refactor code in `TicketControl.js` to update the edit and delete functionality to alter tickets directly in Firestore. We'll also make use of three Firestore functions:

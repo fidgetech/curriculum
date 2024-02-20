@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 13
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/2e_more_about_data_types_value_reference_generic.md
+url: https://github.com/fidgetech/c-and-net/blob/main/2e_more_about_data_types_value_reference_generic.md
 ---
 
 So far, we've learned about the following C# types:

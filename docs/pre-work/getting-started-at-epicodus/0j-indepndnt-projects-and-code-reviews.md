@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 9
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/pre-work/blob/main/0j_indepndnt_projects_and_code_reviews.md
+url: https://github.com/fidgetech/pre-work/blob/main/0j_indepndnt_projects_and_code_reviews.md
 ---
 
 ## [Overview](#overview)

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 30
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/1j_adding_test_coverage_information.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/1j_adding_test_coverage_information.md
 ---
 
 With our test-driven development approach, we should have 100% testing coverage of our business logic. What do we mean by testing coverage? Well, if we have ten lines of code and our tests only "hit" five lines of code, then we'd have 50% coverage. If there is a function or another piece of code that's untouched by our tests, it won't be included in the test coverage.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 28
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3a_styling_with_classes.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3a_styling_with_classes.md
 ---
 
 Let's make a new page with two types of paragraphs: regular paragraphs, and a summary at the top of the page:

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 18
 day: tuesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2d_classwork_practice_styling_text.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2d_classwork_practice_styling_text.md
 ---
 
 **Goal:**

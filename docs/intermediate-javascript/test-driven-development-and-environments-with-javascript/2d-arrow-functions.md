@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 35
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/2d_arrow_functions.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/2d_arrow_functions.md
 ---
 
 Arrow functions are one of the most popular and useful new features in ES6. In fact, we've already been using arrow functions with Jest. Now it's time to delve more deeply into why they are useful and how we can use them in our code. There are a few reasons why arrow functions are so popular. We'll be focusing primarily on one of these reasons: arrow functions change the way `this` is bound inside of a nested function.

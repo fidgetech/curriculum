@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 1
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/pre-work/blob/main/0b_software_installation_instructions.md
+url: https://github.com/fidgetech/pre-work/blob/main/0b_software_installation_instructions.md
 paginationPrev: null
 ---
 

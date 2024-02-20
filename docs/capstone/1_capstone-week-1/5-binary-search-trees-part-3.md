@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 13
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/capstone/blob/main/5_binary_search_trees_part_3.md
+url: https://github.com/fidgetech/capstone/blob/main/5_binary_search_trees_part_3.md
 ---
 
 In this lesson, we'll write a basic method that traverses a binary search tree and lets us know whether the tree holds a value or not. There are actually a number of important algorithms that we can use to search trees — including depth-first search (DFS) algorithms and breadth-first search (BFS) algorithms, which search all the nodes in a tree. However, we are going to learn about those algorithms in the next section when we learn about graph theory. Because our tree is a binary search tree, it's much easier and quicker to find a specific node — and there is no reason to check every node in the tree to find a value, which is what we'd need to do with a BFS or DFS.

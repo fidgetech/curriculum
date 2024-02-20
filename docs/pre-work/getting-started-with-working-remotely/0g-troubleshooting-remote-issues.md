@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 7
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/pre-work/blob/main/0g_troubleshooting_remote_issues.md
+url: https://github.com/fidgetech/pre-work/blob/main/0g_troubleshooting_remote_issues.md
 ---
 
 We will often run into issues in our code - one of the most important parts of being a good developer is learning how to debug and troubleshoot issues.

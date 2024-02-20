@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 22
 day: thursday
 type: exercise
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/3_classwork_resumes_coverletters_career_prep_day_reminder.md
+url: https://github.com/fidgetech/c-and-net/blob/main/3_classwork_resumes_coverletters_career_prep_day_reminder.md
 ---
 
 Today we'll be working on job application materials. We'll write a practice resume and cover letter, and we'll spruce up our LinkedIn and Github profiles. We'll work in pairs, helping each other out and giving feedback, but we'll also each work on our own materials.

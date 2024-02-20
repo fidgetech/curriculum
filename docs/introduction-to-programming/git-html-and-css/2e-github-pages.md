@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 24
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2e_github_pages.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2e_github_pages.md
 ---
 
 It's more fun to make web pages when we can show them off to our friends. There are a lot of ways to put our pages online. One of the easiest is to utilize GitHub Pages to automatically deploy our projects online for free.

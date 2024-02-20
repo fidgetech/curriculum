@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 46
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2h_understanding_web_apis_inheritance_object_types.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2h_understanding_web_apis_inheritance_object_types.md
 ---
 
 In the last lesson, we learned about HTML DOM elements. These elements are objects and they have properties that developers can access to get and set DOM element data. Things like:

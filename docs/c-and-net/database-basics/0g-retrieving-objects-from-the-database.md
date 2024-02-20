@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 6
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0g_retrieving_objects_from_the_database.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0g_retrieving_objects_from_the_database.md
 ---
 
 Now that we've set up MySqlConnector and configured our application to use and protect a database connection string, we're ready to begin opening a database connection and interacting with our database in our application.

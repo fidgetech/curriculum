@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 38
 day: thursday
 type: exercise
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/3_writing_your_resume.md
+url: https://github.com/fidgetech/career-services/blob/main/3_writing_your_resume.md
 ---
 
 # Writing Your Resume

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 3
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0ba_code_first_development_and_migrations.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0ba_code_first_development_and_migrations.md
 ---
 
 So far, we've manually created and updated our database using MySQL Workbench. However, this approach isn't very effective for a large production application where many developers are collaborating together. Let's say we have many different teams that are working on different features in an application and we're working on a team that makes changes to the database. How can we convey the changes to other teams working on the application? We'd need to give everyone exact instructions on the changes we made, which could get tedious fast, especially if we're making a lot of changes.

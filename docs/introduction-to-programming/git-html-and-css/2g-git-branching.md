@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 19
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2g_git_branching.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2g_git_branching.md
 ---
 
 So far we've learned what Git and GitHub are, how to set up a project, track changes, push code to GitHub, and clone projects back down from GitHub into a local Git repository.

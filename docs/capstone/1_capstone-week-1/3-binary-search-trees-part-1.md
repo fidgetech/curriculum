@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 11
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/capstone/blob/main/3_binary_search_trees_part_1.md
+url: https://github.com/fidgetech/capstone/blob/main/3_binary_search_trees_part_1.md
 ---
 
 In the last lesson, we learned about binary tree and binary search tree data structures. Over the next several lessons, we'll build an application that creates a binary search tree from scratch. We'll also learn how to search this BSTs in the process.

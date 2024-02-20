@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 10
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0k_address_book_finding_and_deleting_contacts.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0k_address_book_finding_and_deleting_contacts.md
 ---
 
 We can now add a `Contact` to our `AddressBook`. However, this feature isn't very helpful unless we can also retrieve a contact later. This feature is necessary for any application that uses a real database — it's just as important to be able to retrieve data from the database as it is to store it. In this lesson, we'll create an `AddressBook.prototype.findContact()` method that allows us to find a `Contact` by its `id` property.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 38
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/2f_working_with_templates.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/2f_working_with_templates.md
 ---
 
 When we create projects using an environment (with multiple packages managed by npm, and webpack to bundle our source code), we'll often start with the exact same files. It can be tedious to build all of these files from scratch, especially when we're building new projects every day.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 46
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/you_are_the_project.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/you_are_the_project.md
 ---
 
 ## The Developer Reality Series

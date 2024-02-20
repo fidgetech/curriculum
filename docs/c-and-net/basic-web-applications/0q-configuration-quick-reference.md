@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 18
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0q_configuration_quick_reference.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0q_configuration_quick_reference.md
 ---
 
 Use this lesson as a quick reference for setting up project files, folders, and configuring a host for an ASP.NET Core MVC web application.

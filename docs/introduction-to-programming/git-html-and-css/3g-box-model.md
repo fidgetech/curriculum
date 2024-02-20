@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 34
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3g_box_model.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3g_box_model.md
 ---
 
 There's one last major piece of HTML and CSS we need to cover: the **box model**. Each element on a web page takes up space, and the box model describes the space around the element. Let's start with some unstyled HTML and then add CSS as we go to illustrate the box model:

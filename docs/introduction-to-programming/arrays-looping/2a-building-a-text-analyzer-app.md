@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 20
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2a_building_a_text_analyzer_app.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2a_building_a_text_analyzer_app.md
 ---
 
 In this lesson, we'll start building a small application that can analyze a passage of text (such as a paragraph). It will count the total number of words in the passage, the total number of sentences, the number of times a specific word comes up, and so on. These kinds of applications are very helpful in the real world and we use them all the time in word processors such as Word, Google Docs, and Pages.

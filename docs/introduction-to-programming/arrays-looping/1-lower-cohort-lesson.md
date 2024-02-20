@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 11
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1_lower_cohort_lesson.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1_lower_cohort_lesson.md
 ---
 
 This coming week's lunch speakers will be your classmates in the upper cohort. They will share their experiences with you — and what they've learned since the beginning of the program. Like other lunch speaking events, attendance is optional. However, we recommend you attend. You'll get a good sense of what lies ahead — and potentially get some good tips as well as pitfalls to avoid. 

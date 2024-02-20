@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 12
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/1a_classwork_open_weather_giphy_api.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/1a_classwork_open_weather_giphy_api.md
 ---
 
 **Goal:**  Practice making API calls in JavaScript. Start by following along with the pre-work and then build out a basic application that uses an API call. Your projects should include full development environments, a `.env` file for sensitive API variables, and complete README instructions, including instructions for setting up an API key as needed. Make sure to practice parsing JSON and API call error handling, too.

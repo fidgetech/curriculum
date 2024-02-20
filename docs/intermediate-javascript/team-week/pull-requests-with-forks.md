@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 10
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/pull_requests_with_forks.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/pull_requests_with_forks.md
 ---
 
 Many of the JavaScript libraries and tools we use at Epicodus are **open source** including webpack, React, and Jest, to name a few. **Open source** means the code is available publicly and that anyone can contribute to it.

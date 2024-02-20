@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 14
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0n_dynamic_views_with_razor_view_engine.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0n_dynamic_views_with_razor_view_engine.md
 ---
 
 So far, our views have only used basic HTML. In this lesson, we'll explore how to add logic to our views using the model we created in the last lesson with the **Razor markup syntax**.

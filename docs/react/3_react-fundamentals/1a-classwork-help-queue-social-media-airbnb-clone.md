@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 18
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/react/blob/main/1a_classwork_help_queue_social_media_airbnb_clone.md
+url: https://github.com/fidgetech/react/blob/main/1a_classwork_help_queue_social_media_airbnb_clone.md
 ---
 
 **Goal:** Get comfortable with the basics of React by following along with this weekend's homework and creating basic applications of your own. Make sure you break each application up into a tree of self-contained components.

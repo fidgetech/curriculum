@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 17
 day: weekend
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0q_classwork_practice_using_mdn_documentation.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0q_classwork_practice_using_mdn_documentation.md
 ---
 
 **Goal**: In the lesson on using MDN documentation, we learned:

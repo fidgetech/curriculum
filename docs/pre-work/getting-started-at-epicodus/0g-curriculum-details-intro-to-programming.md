@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 8
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/pre-work/blob/main/0g_curriculum_details_intro_to_programming.md
+url: https://github.com/fidgetech/pre-work/blob/main/0g_curriculum_details_intro_to_programming.md
 ---
 
 ## [<span class="glyphicon glyphicon-book"></span> Lessons](#lessons)

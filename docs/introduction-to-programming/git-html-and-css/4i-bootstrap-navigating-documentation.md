@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 49
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/4i_bootstrap_navigating_documentation.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/4i_bootstrap_navigating_documentation.md
 ---
 
 As you may have noticed, Bootstrap is a _huge_ framework. The un-minified `bootstrap.css` stylesheet has thousands of lines of CSS. There's no reasonable way we could address every Bootstrap element and feature in our curriculum in this section. In fact, learning about CSS and design is a very small part of our program. However, we encourage students to explore Bootstrap further on their own — especially if CSS and design is an area of interest. Even if they aren't, we will be using Bootstrap throughout the program and it can be very helpful for building out nice user interfaces for the sites we build.

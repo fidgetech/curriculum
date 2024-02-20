@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 2
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/git_with_collaborators_setup.md
+url: https://github.com/fidgetech/c-and-net/blob/main/git_with_collaborators_setup.md
 ---
 
 Working in a team rather than alone can allow you to build more advanced projects, but it can be a little tricky to divide up the work and make sure that no one is overwriting anyone else's code unintentionally. We have used Git to backup our work and save our changes as we go, but it is also a powerful tool for working in a group.  

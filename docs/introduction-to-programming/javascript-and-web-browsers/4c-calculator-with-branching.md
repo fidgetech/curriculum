@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 67
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/4c_calculator_with_branching.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/4c_calculator_with_branching.md
 ---
 
 The last time we added to our calculator project, we were using `window` methods to prompt and alert information from and to the user. We also carefully separated our business and user interface logics. The functionality of our calculator was limited to adding, and in the following practice prompt, you expanded the functionality with your pair by adding subtraction, multiplication, and division.

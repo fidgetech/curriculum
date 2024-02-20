@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 57
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3e_homework_branching.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3e_homework_branching.md
 ---
 
 Now that we've learned the basics of DOM manipulation and event handling, we're going to add some logic to our pages that will allow us to control the flow of our code based on certain conditions. This kind of logic is called **branching**.  

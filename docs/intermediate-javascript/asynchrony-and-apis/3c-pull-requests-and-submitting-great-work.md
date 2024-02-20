@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 26
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/3c_pull_requests_and_submitting_great_work.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/3c_pull_requests_and_submitting_great_work.md
 ---
 
 ## Coding in the Real World

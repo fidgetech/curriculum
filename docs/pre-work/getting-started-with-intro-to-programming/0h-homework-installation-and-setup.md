@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 2
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/pre-work/blob/main/0h_homework_installation_and_setup.md
+url: https://github.com/fidgetech/pre-work/blob/main/0h_homework_installation_and_setup.md
 ---
 
 Take time to ensure all necessary tools are correctly installed on your personal machine. For Intro to Programming, this includes configuring the command line, installing and setting up Git, and installing VS Code text editor and its extensions. We cover setup and installation instructions in the upcoming lessons in this pre-work section. All you need to do is click the "Next" button to work through each lessons. We'll also list these lessons below as an overview. 

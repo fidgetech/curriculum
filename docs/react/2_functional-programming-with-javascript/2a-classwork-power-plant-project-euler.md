@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 28
 day: tuesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/react/blob/main/2a_classwork_power_plant_project_euler.md
+url: https://github.com/fidgetech/react/blob/main/2a_classwork_power_plant_project_euler.md
 ---
 
 **Goal:** Use closures to store state. Practice using composition to add functionality to objects. Focus on testing your applications thoroughly and keeping your business logic functional.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 31
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/1_write_your_cover_letter.md
+url: https://github.com/fidgetech/career-services/blob/main/1_write_your_cover_letter.md
 ---
 
 After following the steps depicted in the previous lesson, we're now ready to actually write the cover letter.

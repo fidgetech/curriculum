@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 34
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1l_adding_js_to_a_project.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1l_adding_js_to_a_project.md
 ---
 
 So far we've written all of our JavaScript in the DevTools console. This works for simple practice exercises, but it quickly becomes unwieldy as we want to write longer scripts (JavaScript). In this lesson, we'll learn how to create a project with JavaScript as we continue to practice writing functions and using `window` methods.

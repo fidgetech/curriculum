@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 3
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0c_introduction_to_apis.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0c_introduction_to_apis.md
 ---
 
 In this lesson, we'll discuss the general concept of APIs, including what they are and how they work. This lesson is only meant to be a quick overview of APIs. We'll learn a lot more about how they work in future lessons.

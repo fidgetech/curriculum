@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 36
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/1_baseline_capstone_expectations.md
+url: https://github.com/fidgetech/react/blob/main/1_baseline_capstone_expectations.md
 ---
 
 There are many possibilities for a capstone project that intersects both your interests and industry trends. This lesson will walk through a few ideas that might help you form an idea if coming up with something on your own is proving to be a little difficult. The main goal with this capstone project is to give you a project that you can leverage for career preparedness, so keep your own goals in mind while reading this lesson. 

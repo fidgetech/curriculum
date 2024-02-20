@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 4
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0d_api_documentation_and_keys.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0d_api_documentation_and_keys.md
 ---
 
 Just like we covered in the previous lesson, there are many different APIs we can incorporate into our applications. These range from APIs provided by Twitter and YouTube to APIs for the weather forecast, sports scores, and movie databases. For instance, if you wanted information about movies in your application, you could try the IMDB or Rotten Tomatoes API. 

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 28
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/3c_component_lifecycle_and_methods.md
+url: https://github.com/fidgetech/react/blob/main/3c_component_lifecycle_and_methods.md
 ---
 
 **Note:** While you are not expected to incorporate any of the concepts from the homework on date-fns into your independent project, it's important to understand how the component lifecycle works. Pay close attention to the material in this lesson!

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 27
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/1g_tdd_with_jest_checkType_method.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/1g_tdd_with_jest_checkType_method.md
 ---
 
 In this lesson, we'll continue practicing the RGR workflow by creating four more tests to develop the complete functionality of the `Triangle.prototype.checkType()` method. Before we dive into our second test, we're going to explain some choices that you have when organizing your tests.

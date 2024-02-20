@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 11
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0j_testing_for_an_empty_database.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0j_testing_for_an_empty_database.md
 ---
 
 Now that we have both `ClearAll()` and `GetAll()` methods that interact with our database, let's begin writing tests for our methods. As always, we begin by testing the simplest possible behavior. In this case, we'll start with a test to make sure the database is empty.

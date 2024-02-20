@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 1
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/0a_react_fundamentals_objectives.md
+url: https://github.com/fidgetech/react/blob/main/0a_react_fundamentals_objectives.md
 paginationPrev: null
 ---
 

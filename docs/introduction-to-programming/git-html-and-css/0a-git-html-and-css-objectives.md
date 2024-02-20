@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 1
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0a_git_html_and_css_objectives.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0a_git_html_and_css_objectives.md
 paginationPrev: null
 ---
 

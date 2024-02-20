@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 8
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0h_constructing_and_configuring_an_asp_net_core_mvc_project.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0h_constructing_and_configuring_an_asp_net_core_mvc_project.md
 ---
 
 Now that we have a basic understanding of server-side frameworks and MVC, let's build our first ASP.NET Core MVC web application together.

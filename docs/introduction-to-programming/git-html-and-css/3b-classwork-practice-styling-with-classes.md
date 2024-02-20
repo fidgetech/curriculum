@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 29
 day: wednesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3b_classwork_practice_styling_with_classes.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3b_classwork_practice_styling_with_classes.md
 ---
 
 **Goal:** Practice the following HTML and CSS from the Styling lesson:

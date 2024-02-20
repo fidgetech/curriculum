@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 33
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/3c_using_jsx_expressions_with_arguments.md
+url: https://github.com/fidgetech/react/blob/main/3c_using_jsx_expressions_with_arguments.md
 ---
 
 Before we continue, let's discuss an important gotcha related to evaluating JavaScript functions in JSX curly braces.

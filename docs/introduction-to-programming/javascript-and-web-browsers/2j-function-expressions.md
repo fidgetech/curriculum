@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 48
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2j_function_expressions.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2j_function_expressions.md
 ---
 
 In this lesson, we'll explain another method of defining a function called **function expressions**. We'll be using function expressions in the next lesson when we learn about event handling with event handler properties.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 10
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0i_deleting_objects_in_the_database.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0i_deleting_objects_in_the_database.md
 ---
 
 In the last lesson, we updated our teardown method for `Item` tests so that it utilizes our test database. However, our `ClearAll()` method doesn't have logic to clear `Item`s from the database yet. In this lesson, we'll discuss how to write a method that deletes all table entries in a database. Once this is done, our teardown test method will be functional, allowing us to develop further database-driven functionality with the "Red, Green, Refactor" TDD workflow.

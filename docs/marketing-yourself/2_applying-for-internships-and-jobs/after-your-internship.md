@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 27
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/after_your_internship.md
+url: https://github.com/fidgetech/career-services/blob/main/after_your_internship.md
 ---
 
 ## Internships

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 47
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/4g_bootstrap_customizing_styles.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/4g_bootstrap_customizing_styles.md
 ---
 
 We will often be using Bootstrap to style your pages. The Bootstrap website documents in detail how to use all of the styles it provides. Just take the time to read through the documentation and refer back to it when needed.

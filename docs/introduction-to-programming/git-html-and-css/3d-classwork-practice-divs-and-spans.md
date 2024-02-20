@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 31
 day: wednesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3d_classwork_practice_divs_and_spans.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3d_classwork_practice_divs_and_spans.md
 ---
 
 **Goal**: Practice using the the tags we learned in the lesson:

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 32
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/2f_applying_restful_routing.md
+url: https://github.com/fidgetech/c-and-net/blob/main/2f_applying_restful_routing.md
 ---
 
 In the last lesson, we covered RESTful principles. In this lesson, we'll continue developing our application following RESTful routing best practices. First, we'll update our existing `CreateForm()` route to follow RESTful convention. Then we'll add a `Show()` route to display a detail page for individual `Item`s.

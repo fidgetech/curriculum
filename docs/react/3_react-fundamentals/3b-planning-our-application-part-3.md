@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 32
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/3b_planning_our_application_part_3.md
+url: https://github.com/fidgetech/react/blob/main/3b_planning_our_application_part_3.md
 ---
 
 We can now successfully create tickets and view the queue. So far, our `TicketControl` component handles all state in our application. It includes local state (determining whether the form or the ticket list should be showing) and shared state (our main ticket list).

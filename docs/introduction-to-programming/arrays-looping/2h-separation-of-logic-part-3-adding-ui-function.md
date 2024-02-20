@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 27
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2h_separation_of_logic_part_3_adding_ui_function.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2h_separation_of_logic_part_3_adding_ui_function.md
 ---
 
 We now have a very basic application where our business and user interface logic are completely separate. Our business logic is tested with pseudocode tests. Our user interface doesn't include any business logic. Instead, whenever the UI logic needs to interact with business logic, it calls one of the functions in our business logic.

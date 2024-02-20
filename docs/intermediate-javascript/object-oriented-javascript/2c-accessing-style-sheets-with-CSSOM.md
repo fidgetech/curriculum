@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 21
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/2c_accessing_style_sheets_with_CSSOM.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/2c_accessing_style_sheets_with_CSSOM.md
 ---
 
 Currently, we know two ways to adjust our website styling from our JavaScript: 

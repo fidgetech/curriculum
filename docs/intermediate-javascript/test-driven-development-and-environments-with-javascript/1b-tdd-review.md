@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 22
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/1b_tdd_review.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/1b_tdd_review.md
 ---
 
 We learned about the basics of [Test-Driven Development](https://old.learnhowtoprogram.com/lessons/overview-of-test-driven-development-tdd-with-text-analyzer) in Introduction to Programming. So far, we have used the basic principles of TDD to help organize and plan our code — but we aren't actually executing any tests yet. Well, we're about to start doing that!

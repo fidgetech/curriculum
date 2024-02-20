@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 8
 day: weekend
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0h_classwork_practice_arithmetic.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0h_classwork_practice_arithmetic.md
 ---
 
 **Goal:**   In the Arithmetic lesson, we learned:

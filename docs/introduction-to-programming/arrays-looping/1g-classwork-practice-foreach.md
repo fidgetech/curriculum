@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 18
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1g_classwork_practice_foreach.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1g_classwork_practice_foreach.md
 ---
 
 **Goal**:  Practice using `Array.prototype.forEach()` to solve the problems below.

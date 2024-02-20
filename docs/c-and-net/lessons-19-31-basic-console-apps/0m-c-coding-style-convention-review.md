@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 13
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0m_c_coding_style_convention_review.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0m_c_coding_style_convention_review.md
 paginationNext: null
 ---
 

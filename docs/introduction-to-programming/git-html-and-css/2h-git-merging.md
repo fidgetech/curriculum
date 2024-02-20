@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 20
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2h_git_merging.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2h_git_merging.md
 ---
 
 In the last lesson we explored creating and managing multiple branches in a single Git repository. As we learned, branches allow us to create multiple copies of our code. These copies may be used to experiment with implementing new code, without putting the "final version" or `main` branch at risk of bugs or errors.

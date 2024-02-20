@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 26
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/1f_tdd_with_jest_triangle_constructor.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/1f_tdd_with_jest_triangle_constructor.md
 ---
 
 Now that Jest is set up, it's time to test some code. We're now ready to write the business logic to check if three lengths make a triangle (and what kind of triangle they make) in our shape tracker application. As we write our business logic, we'll use the Red, Green, Refactor workflow, and commit our code after _each_ passing test.

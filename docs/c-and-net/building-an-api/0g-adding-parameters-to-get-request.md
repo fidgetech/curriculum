@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 8
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0g_adding_parameters_to_get_request.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0g_adding_parameters_to_get_request.md
 ---
 
 In the last lesson, we completed CRUD functionality in our Cretaceous Park API. In this lesson, we'll learn how to add search parameters to our `Get()` controller action so that we can request and retrieve filtered data.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 24
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/1e_lists_and_redirects_in_a_controller.md
+url: https://github.com/fidgetech/c-and-net/blob/main/1e_lists_and_redirects_in_a_controller.md
 ---
 
 We can display a single item in our To Do List but that's not very helpful in itself. After all, this is a _list_ of things to do, not a single item.

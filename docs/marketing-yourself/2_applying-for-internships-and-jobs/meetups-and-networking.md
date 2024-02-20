@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 41
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/meetups-and-networking.md
+url: https://github.com/fidgetech/career-services/blob/main/meetups-and-networking.md
 paginationNext: null
 ---
 

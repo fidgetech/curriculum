@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 25
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/0l_building_a_functional_application.md
+url: https://github.com/fidgetech/react/blob/main/0l_building_a_functional_application.md
 ---
 
 Let's use all the concepts we've learned so far to build a simple application. In this application, a user is growing a plant. The plant needs water, soil, and sunshine. The user may increment a plant's values through the functions `hydrate()`, `feed()`, and `giveLight()`.

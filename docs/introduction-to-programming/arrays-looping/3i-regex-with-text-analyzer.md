@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 39
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3i_regex_with_text_analyzer.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3i_regex_with_text_analyzer.md
 ---
 
 In the last lesson, we covered regular expressions in general. Now let's apply them to the text analyzer application we've built. By doing so, we can see just how powerful regular expressions are.

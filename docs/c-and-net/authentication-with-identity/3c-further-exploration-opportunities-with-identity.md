@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 12
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/3c_further_exploration_opportunities_with_identity.md
+url: https://github.com/fidgetech/c-and-net/blob/main/3c_further_exploration_opportunities_with_identity.md
 ---
 
 In this lesson we'll highlight some further exploration opportunities with ASP.NET Core authentication and authorization. There's actually quite a lot of authentication and authorization options to explore in the ASP.NET Core docs. That makes sense! Microsoft wants its ASP.NET Core applications and APIs to be able to work with all of the modern tools for securing websites. 

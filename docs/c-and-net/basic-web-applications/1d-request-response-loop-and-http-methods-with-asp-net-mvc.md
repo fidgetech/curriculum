@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 23
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/1d_request_response_loop_and_http_methods_with_asp_net_mvc.md
+url: https://github.com/fidgetech/c-and-net/blob/main/1d_request_response_loop_and_http_methods_with_asp_net_mvc.md
 ---
 
 In the _How the Web Works_ series of lessons from the weekend homework, we learned how websites and applications communicate with users' clients to display their content in the browser. We discussed clients and servers, uniform resource locators (URLs), server-side MVC patterns, and the request-response loop.

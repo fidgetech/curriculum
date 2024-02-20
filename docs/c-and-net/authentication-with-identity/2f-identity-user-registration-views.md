@@ -1,15 +1,12 @@
 ---
 title: "\U0001F4D3 3.5.0.7 Authentication with Identity: User Registration ViewModel, Validation, and Views"
-id: >-
-  3507-authentication-with-identity-user-registration-viewmodel-validation-and-views
-slug: >-
-  3507-authentication-with-identity-user-registration-viewmodel-validation-and-views
+id: 3507-authentication-with-identity-user-registration-viewmodel-validation-and-views
+slug: 3507-authentication-with-identity-user-registration-viewmodel-validation-and-views
 hide_table_of_contents: true
 sidebar_position: 7
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/2f_identity_user_registration_views.md
+url: https://github.com/fidgetech/c-and-net/blob/main/2f_identity_user_registration_views.md
 ---
 
 In the last lesson, we added a controller for registering new users. In this lesson, we'll create the corresponding views as well as our first `ViewModel`. In the process, we'll learn about a few new validation attributes (also called "data annotations") and Identity's default password requirements and how to override them.

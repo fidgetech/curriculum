@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 5
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1f_classwork_practice_command_line_git_and_github.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1f_classwork_practice_command_line_git_and_github.md
 ---
 
 **Goal**:  Here at Epicodus, we use the command line, Git and Github on a daily basis. The goal for this exercise is to practice the workflow you'll use daily.

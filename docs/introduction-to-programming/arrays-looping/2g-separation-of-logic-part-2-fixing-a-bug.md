@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 26
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2g_separation_of_logic_part_2_fixing_a_bug.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2g_separation_of_logic_part_2_fixing_a_bug.md
 ---
 
 We have a bug in our Text Analyzer application. But what exactly is it? You'll find it if you test the application out in the browser. This GIF below demonstrates exactly what is happening. In this lesson, we'll solve the bug, but we'll also do it while keeping our UI and business logic separated. At the end of the lesson, we'll look at two examples of poorly separated logic.

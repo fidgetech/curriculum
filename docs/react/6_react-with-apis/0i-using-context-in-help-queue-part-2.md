@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 9
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/0i_using_context_in_help_queue_part_2.md
+url: https://github.com/fidgetech/react/blob/main/0i_using_context_in_help_queue_part_2.md
 ---
 
 With our Help Queue project set up and our updates planned, we're ready to implement context. In this lesson, we'll do three things:

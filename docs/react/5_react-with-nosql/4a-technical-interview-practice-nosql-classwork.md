@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 36
 day: thursday
 type: exercise
-url: >-
-  https://github.com/fidgetech/react/blob/main/4a_technical_interview_practice_nosql_classwork.md
+url: https://github.com/fidgetech/react/blob/main/4a_technical_interview_practice_nosql_classwork.md
 ---
 
 ## Technical Interview Questions

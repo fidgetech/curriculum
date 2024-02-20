@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 11
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0k_mstest_configuration_quick_reference.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0k_mstest_configuration_quick_reference.md
 ---
 
 This lesson is meant to be a handy reference for creating test-driven projects. We'll review what's needed to get MSTest up and running in a C# program, including naming conventions and requirements, project structure, best practices, and writing tests.

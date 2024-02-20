@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 37
 day: friday
 type: exercise
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/5a_database_basics_independent_project.md
+url: https://github.com/fidgetech/c-and-net/blob/main/5a_database_basics_independent_project.md
 paginationNext: null
 ---
 

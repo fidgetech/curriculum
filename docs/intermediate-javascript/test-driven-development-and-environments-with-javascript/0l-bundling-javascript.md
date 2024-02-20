@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 12
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0l_bundling_javascript.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0l_bundling_javascript.md
 ---
 
 Let's update our shape tracker application to use `import` and `export` statements. By the end of this lesson, we will be using webpack to bundle all of our JavaScript files for us.

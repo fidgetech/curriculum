@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 15
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/1d_promises_with_api_calls.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/1d_promises_with_api_calls.md
 ---
 
 Now that we've learned about promises, we're ready to update our weather API code to use one. We will be using the same code that we used during the weekend homework — we'll only need to make changes in one file to incorporate promises in our project. Click the following link to get the code up to this point. Take note that this links to a branch called `1_xhr_api_call`, the default branch of this repo:

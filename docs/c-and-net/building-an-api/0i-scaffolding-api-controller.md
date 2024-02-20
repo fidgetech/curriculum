@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 10
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0i_scaffolding_api_controller.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0i_scaffolding_api_controller.md
 ---
 
 In this lesson, we'll learn how to use the `aspnet-codegenerator` tool to scaffold files within our application. While `dotnet new` scaffolds entire projects based on templates, the `aspnet-codegenerator` tool can create files like controllers. This can save us a lot of work!

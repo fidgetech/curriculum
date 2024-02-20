@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 45
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/meetups-and-networking.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/meetups-and-networking.md
 ---
 
 ## Meetups and Networking

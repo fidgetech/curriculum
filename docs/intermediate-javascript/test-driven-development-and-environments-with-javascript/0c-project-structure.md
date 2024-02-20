@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 3
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0c_project_structure.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0c_project_structure.md
 ---
 
 Over the course of this section, we will build an application called **Shape Tracker** based on the [Triangle Tracker](https://old.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/practice-triangle-tracker) project from the Introduction to Programming course. There's a good chance you have a repo with your own triangle project, but even if you don't (or it's not working), don't worry. We will walk through the project step by step. 

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 7
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/6_react_technical_interview_questions.md
+url: https://github.com/fidgetech/career-services/blob/main/6_react_technical_interview_questions.md
 paginationNext: null
 ---
 

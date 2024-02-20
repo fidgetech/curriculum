@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 50
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2l_window_onload_and_event_handler_properties_in_a_project.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2l_window_onload_and_event_handler_properties_in_a_project.md
 ---
 
 So far we've been practicing new code and concepts using the DevTools console. We've learned how to:

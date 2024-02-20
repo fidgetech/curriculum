@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 4
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0d_devtools_access_and_configuration.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0d_devtools_access_and_configuration.md
 ---
 
 In this section we'll use our browser's DevTools (developer tools) to practice new JavaScript concepts and tools, and to debug our JavaScript code. In the last course section, we learned how to use the _Elements_ tab to explore our HTML and CSS. In this section, we'll explore the _Console_ and _Sources_ tabs. Our goal is to become very comfortable with using browser DevTools so that we can improve our development and debugging processes.

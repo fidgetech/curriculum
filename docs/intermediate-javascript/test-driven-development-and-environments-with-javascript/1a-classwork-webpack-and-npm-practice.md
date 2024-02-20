@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 21
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/1a_classwork_webpack_and_npm_practice.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/1a_classwork_webpack_and_npm_practice.md
 ---
 
 **Goal**: Practice using npm and webpack to streamline your development process.

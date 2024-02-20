@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 19
 day: tuesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/2a_classwork_address_book_movie_tickets_bank_account.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/2a_classwork_address_book_movie_tickets_bank_account.md
 ---
 
 **Goal**: The goal for this class session is to continue to practice creating objects using constructors and prototypes, and to connect those objects to a user interface.

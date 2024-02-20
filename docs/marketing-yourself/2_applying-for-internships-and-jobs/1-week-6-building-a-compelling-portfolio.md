@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 7
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/1_week_6_building_a_compelling_portfolio.md
+url: https://github.com/fidgetech/career-services/blob/main/1_week_6_building_a_compelling_portfolio.md
 ---
 
 # How to Create a Compelling Portfolio

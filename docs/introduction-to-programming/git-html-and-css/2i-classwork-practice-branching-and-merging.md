@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 21
 day: tuesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2i_classwork_practice_branching_and_merging.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2i_classwork_practice_branching_and_merging.md
 ---
 
 **Goal:**  Now that you have spent some time learning about branching and merging, let’s practice! The goal of this exercise is to work on branching and merging along with your new CSS skills.

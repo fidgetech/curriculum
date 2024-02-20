@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 20
 day: wednesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/3a_classwork_communicating_with_an_api.md
+url: https://github.com/fidgetech/c-and-net/blob/main/3a_classwork_communicating_with_an_api.md
 ---
 
 **Goals**: Create an application that consumes an API.

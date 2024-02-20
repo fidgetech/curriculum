@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 4
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0e_javascript_arrays.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0e_javascript_arrays.md
 ---
 
 Until now, we've always dealt with one piece of information at a time: one number, one string, one element on a page. However, we often need to group things together when we are coding. In programming, a group of things is often referred to as a **collection**.

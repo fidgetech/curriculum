@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 15
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/1d_address_book_adding_interactivity.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/1d_address_book_adding_interactivity.md
 ---
 
 Now that we know how to loop through an object's keys (properties), let's update our user interface code so we can display all of the `Contact`s on our site.

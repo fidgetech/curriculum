@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 46
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/4f_bootstrap_grid_system.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/4f_bootstrap_grid_system.md
 ---
 
 Lining up content evenly with only HTML and CSS can prove to be pretty challenging. That's why another most commonly-used Bootstrap feature is their grid system. The [grid system](http://getbootstrap.com/css/#grid) allows us to use several Bootstrap classes to quickly create a wide variety of invisible grids that neatly space and line up content.

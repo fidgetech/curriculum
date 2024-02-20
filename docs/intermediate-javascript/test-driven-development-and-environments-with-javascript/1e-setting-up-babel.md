@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 25
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/1e_setting_up_babel.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/1e_setting_up_babel.md
 ---
 
 Before we begin writing our tests, we'll need to add Babel to our application. **Babel** is a tool that is most commonly used for transforming newer versions of JavaScript into older versions of JavaScript. Babel is essential because there are many newer features in JavaScript that older browsers don't understand. However, we still want to use these new JS features because they will make our code cleaner, more efficient and easier to read. In fact, we'll be covering some of these newer JavaScript features over the next few weeks. 

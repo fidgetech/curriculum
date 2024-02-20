@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 12
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/portfolio_update_and_personal_brand.md
+url: https://github.com/fidgetech/career-services/blob/main/portfolio_update_and_personal_brand.md
 ---
 
 # Portfolio Update and Personal Brand

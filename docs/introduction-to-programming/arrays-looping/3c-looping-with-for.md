@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 33
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3c_looping_with_for.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3c_looping_with_for.md
 ---
 
 `Array.prototype.forEach()` is a relatively new addition to JavaScript. Under the hood, it uses what's known as a `for` loop.

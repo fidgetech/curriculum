@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 27
 day: tuesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2a_classwork_practice_readmes.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2a_classwork_practice_readmes.md
 ---
 
 **Goal**: Now that you know how to clone repositories and how to write `README.md` files, let's practice by adding `README.md` files written in Markdown to the repositories you've created so far.

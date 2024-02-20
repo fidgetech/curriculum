@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 4
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0e_introducing_mysql_workbench.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0e_introducing_mysql_workbench.md
 ---
 
 We'll use a tool called **MySQL Workbench** to manage our databases. It was created to manage MySQL using a graphical interface. In this lesson, we'll walk through how to use the interface to view, configure, and interact with our databases.

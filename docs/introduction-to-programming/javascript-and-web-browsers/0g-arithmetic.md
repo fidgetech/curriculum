@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 7
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0g_arithmetic.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0g_arithmetic.md
 ---
 
 **Note:** If you are a remote student and you are going through these lessons with a pair, you'll need to screen share your Chrome DevTools console with your pair (more instructions below). We prioritize using the browser console (and other developer tools) because it's such a vital tool to be proficient with as a developer.

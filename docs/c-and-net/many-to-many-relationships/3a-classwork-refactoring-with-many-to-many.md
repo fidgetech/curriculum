@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 13
 day: wednesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/3a_classwork_refactoring_with_many_to_many.md
+url: https://github.com/fidgetech/c-and-net/blob/main/3a_classwork_refactoring_with_many_to_many.md
 ---
 
 **Goal**: Continue your practice with many-to-many relationships by refactoring an old project. 

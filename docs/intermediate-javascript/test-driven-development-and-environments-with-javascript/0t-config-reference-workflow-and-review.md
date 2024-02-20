@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 20
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0t_config_reference_workflow_and_review.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0t_config_reference_workflow_and_review.md
 ---
 
 We've learned about a lot of new concepts and tools over the weekend homework, so it's time to explain a typical workflow with the new tools we've learned, and share a configuration reference. 

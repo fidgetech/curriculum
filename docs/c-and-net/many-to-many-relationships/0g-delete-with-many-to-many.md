@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 8
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0g_delete_with_many_to_many.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0g_delete_with_many_to_many.md
 ---
 
 In this lesson we'll complete our refactor to include a many-to-many functionality between tags and items by adding delete functionality. We'll add delete functionality for `Tag`s and delete functionality for `ItemTag`s.

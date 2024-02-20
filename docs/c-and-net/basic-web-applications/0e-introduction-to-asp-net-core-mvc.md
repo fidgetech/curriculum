@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 5
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0e_introduction_to_asp_net_core_mvc.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0e_introduction_to_asp_net_core_mvc.md
 ---
 
 All of the C# apps we've created have run in the command line. Now it's time to start building C# web applications that run in the browser. We'll use a special web application framework called **ASP.NET Core MVC** to do this.

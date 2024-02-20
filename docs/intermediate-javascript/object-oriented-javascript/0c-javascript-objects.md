@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 2
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0c_javascript_objects.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0c_javascript_objects.md
 ---
 
 JavaScript is an object-oriented programming language. We previously learned that JavaScript implicitly turns (some) primitives like strings, numbers, and booleans into objects. Well, arrays and even the functions we write are also objects in JavaScript. In this lesson, we will explore what it means to be an object in JavaScript.

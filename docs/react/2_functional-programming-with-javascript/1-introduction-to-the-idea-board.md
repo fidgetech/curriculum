@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 34
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/1_introduction_to_the_idea_board.md
+url: https://github.com/fidgetech/react/blob/main/1_introduction_to_the_idea_board.md
 ---
 
 For this section’s independent project, you’ll be doing something different as we’ve mentioned earlier. Instead of focusing on a project directly related to Functional Programming, you’ll start exploring ideas to pursue for your large capstone project that will bookend your Epicodus experience. 

@@ -1,15 +1,12 @@
 ---
-title: >-
-  ✏️ 2.3.3.1 Bike Index, Cryptocurrency Analytics App, API of Choice (Longer
-  Project)
+title: "✏️ 2.3.3.1 Bike Index, Cryptocurrency Analytics App, API of Choice (Longer Project)"
 id: 2331-bike-index-cryptocurrency-analytics-app-api-of-choice-longer-project
 slug: 2331-bike-index-cryptocurrency-analytics-app-api-of-choice-longer-project
 hide_table_of_contents: true
 sidebar_position: 24
 day: wednesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/3a_classwork_martian_weather_bike_index_two_day_project.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/3a_classwork_martian_weather_bike_index_two_day_project.md
 ---
 
 **Goal**: Practice using all of the tools that we have learned so far to create an app centered around your choice of public JSON APIs which support CORS. As always, make sure you test API calls with Postman first.

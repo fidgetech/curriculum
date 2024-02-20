@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 3
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0c_shape_tracker_project_structure.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0c_shape_tracker_project_structure.md
 ---
 
 Now that we know the basics of compiling and executing C# programs, we're ready to start building the C# Shape Tracker console app. In this lesson, we'll start creating our project's structure and discuss how we'll organize our code into namespaces and classes. 

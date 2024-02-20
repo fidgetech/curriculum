@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 21
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/2c_further_exploration_ui_animations_and_interactivity.md
+url: https://github.com/fidgetech/react/blob/main/2c_further_exploration_ui_animations_and_interactivity.md
 ---
 
 We can use animation for a wide range of effects such as guided focus, loading wheels, visualizations, and for improving a user's experience, among other things.

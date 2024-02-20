@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 28
 day: thursday
 type: exercise
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/4a_classwork_whiteboarding_practice_asynchrony.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/4a_classwork_whiteboarding_practice_asynchrony.md
 ---
 
 ## Whiteboard Practice

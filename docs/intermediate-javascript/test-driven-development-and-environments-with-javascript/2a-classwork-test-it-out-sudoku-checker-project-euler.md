@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 32
 day: tuesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/2a_classwork_test_it_out_sudoku_checker_project_euler.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/2a_classwork_test_it_out_sudoku_checker_project_euler.md
 ---
 
 **Goal**: Use test-driven development to write your business logic. Practice using Jest to run your unit tests. Aim for 100% coverage of your code. Continue using webpack.

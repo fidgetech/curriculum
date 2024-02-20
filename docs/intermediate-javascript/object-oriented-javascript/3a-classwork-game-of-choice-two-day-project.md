@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 22
 day: wednesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/3a_classwork_game_of_choice_two_day_project.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/3a_classwork_game_of_choice_two_day_project.md
 ---
 
 **Goal**:  The goal of this multi-day project is to exercise your JavaScript programming skills with constructors, prototypes, objects, properties, methods, and DOM manipulation and traversal.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 22
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/how_to_research_companies.md
+url: https://github.com/fidgetech/career-services/blob/main/how_to_research_companies.md
 ---
 
 # How to Research Companies 

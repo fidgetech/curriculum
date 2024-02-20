@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 33
 day: wednesday
 type: exercise
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/3a_classwork_to_do_places_youve_been_packing_list_and_more.md
+url: https://github.com/fidgetech/c-and-net/blob/main/3a_classwork_to_do_places_youve_been_packing_list_and_more.md
 ---
 
 **Goal:** Practice making ASP.NET Core MVC apps that use RESTfully named routes and include CRUD functionality. Each class in each project _must_ include a constructor, getters and setters, private properties, and methods for `GetAll()` and `ClearAll()`.

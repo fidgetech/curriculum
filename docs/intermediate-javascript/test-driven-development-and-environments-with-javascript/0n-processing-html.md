@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 14
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0n_processing_html.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0n_processing_html.md
 ---
 
 So far we've used webpack to bundle our JavaScript and CSS files. We can also use webpack to generate HTML files for us. Note that we're not using webpack to bundle HTML with our JS and CSS — instead, we're using webpack to do some additional work for us by having webpack process and generate our HTML based on a template we provide to webpack.

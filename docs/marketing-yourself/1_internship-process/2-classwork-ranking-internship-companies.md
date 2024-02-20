@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 2
 day: weekend
 type: exercise
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/2_classwork_ranking_internship_companies.md
+url: https://github.com/fidgetech/career-services/blob/main/2_classwork_ranking_internship_companies.md
 paginationNext: null
 ---
 

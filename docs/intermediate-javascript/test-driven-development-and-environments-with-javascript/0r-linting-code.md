@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 18
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0r_linting_code.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0r_linting_code.md
 ---
 
 In this lesson, we'll add a linter to our project. This will be the last tool we'll use to improve our developer experience, though there are many other tools out there! Linters check our code for errors, but even better, linters tell us when we're writing code that's not very good!

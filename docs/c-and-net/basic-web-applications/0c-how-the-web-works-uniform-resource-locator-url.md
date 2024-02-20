@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 3
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0c_how_the_web_works_uniform_resource_locator_url.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0c_how_the_web_works_uniform_resource_locator_url.md
 ---
 
 As discussed in the last lesson, when we navigate to `https://old.learnhowtoprogram.com/courses` in our browser, the browser (or _client_) makes a request to the web server where that page's content is stored.

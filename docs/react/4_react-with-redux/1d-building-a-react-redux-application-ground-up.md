@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 20
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/1d_building_a_react_redux_application_ground_up.md
+url: https://github.com/fidgetech/react/blob/main/1d_building_a_react_redux_application_ground_up.md
 ---
 
 So far, we've focused on refactoring our React Help Queue application to incorporate Redux. However, what should we do if we want to build a React application with Redux from the ground up?

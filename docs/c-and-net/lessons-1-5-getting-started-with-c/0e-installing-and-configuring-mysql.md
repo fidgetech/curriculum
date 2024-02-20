@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 4
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0e_installing_and_configuring_mysql.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0e_installing_and_configuring_mysql.md
 ---
 
 **MySQL** is a type of database software used to create, edit, query, and manage SQL data.

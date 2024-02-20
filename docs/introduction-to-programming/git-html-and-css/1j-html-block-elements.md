@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 9
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1j_html_block_elements.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1j_html_block_elements.md
 ---
 
 We're going to start our HTML writing by working with **block elements**.  These are HTML elements that when displayed start on a line of their own, in effect making a block on the page.

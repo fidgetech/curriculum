@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 16
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0p_using_mdn_documentation.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0p_using_mdn_documentation.md
 ---
 
 With practice and repetition, you'll remember the terminology and syntax of code. However, you won't be able to remember everything, nor should you try. Generally, it's more important to understand concepts and remember terminology so that you can write a good search query. However, even that will take some time to develop. For example, at this point, you may be able to remember how to create a hyperlink in HTML, `<a href="url">link text</a>` but you made need to research it to be sure:

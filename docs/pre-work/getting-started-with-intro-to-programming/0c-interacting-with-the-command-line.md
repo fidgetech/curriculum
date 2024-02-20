@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 5
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/pre-work/blob/main/0c_interacting_with_the_command_line.md
+url: https://github.com/fidgetech/pre-work/blob/main/0c_interacting_with_the_command_line.md
 ---
 
 In the last lesson, we learned how to access the command line. In this lesson, we'll explore some of the most common commands we can use with Bash. We'll use many of these daily at Epicodus and also out in the industry.

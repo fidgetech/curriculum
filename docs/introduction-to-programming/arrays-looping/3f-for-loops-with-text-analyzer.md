@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 36
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3f_for_loops_with_text_analyzer.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3f_for_loops_with_text_analyzer.md
 ---
 
 Over the last few lessons, we've learned how and when to use a `for` loop. Now let's look at a couple of situations where a `for` loop would be better than `Array.prototype.forEach()` in our text analyzer application.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 32
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3ga_printing_an_array_to_a_webpage.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3ga_printing_an_array_to_a_webpage.md
 ---
 
 In this lesson, we'll review how to print the contents of an array to a webpage. To do this, we'll use the webpage you are on right now! 

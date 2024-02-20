@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 2
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/0b_introduction_to_functional_programming.md
+url: https://github.com/fidgetech/react/blob/main/0b_introduction_to_functional_programming.md
 ---
 
 Up to this point, we have mostly focused on object-oriented programming. We've built objects that store information and have methods attached to them. Object-oriented programming relies on techniques like **inheritance** and **encapsulation**.

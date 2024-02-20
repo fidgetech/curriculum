@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 45
 day: thursday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/4f_which_loop_should_i_use.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/4f_which_loop_should_i_use.md
 ---
 
 **Note: You can use any kind of loop for this section's independent project provided that you correctly solve the problem.** We recommend using `Array.prototype.forEach()` or `for` loops for the independent project.

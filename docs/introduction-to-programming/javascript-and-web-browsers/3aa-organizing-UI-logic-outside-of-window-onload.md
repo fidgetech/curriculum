@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 53
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3aa_organizing_UI_logic_outside_of_window_onload.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3aa_organizing_UI_logic_outside_of_window_onload.md
 ---
 
 Not all UI logic should automatically be placed inside of the `window.onload` event handler! Even though we need to make sure that our page loads before setting up any event handlers, that doesn't mean that _all_ event handler logic needs to be inside of the `window.onload` event handler. In this lesson, we're going to get a sense of what exactly this means by looking at other configurations for our Mad Libs' UI logic. 

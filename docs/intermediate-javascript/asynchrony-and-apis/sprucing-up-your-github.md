@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 27
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/sprucing-up-your-github.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/sprucing-up-your-github.md
 ---
 
 ## Sprucing Up Your GitHub

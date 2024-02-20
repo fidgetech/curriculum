@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 42
 day: tuesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/2d_accessing_the_DOM.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/2d_accessing_the_DOM.md
 ---
 
 Now we're ready to try accessing the `document` object. Just like with JavaScript objects, the `document` object is made up of properties that we can access to get the DOM's data (like HTML elements), and to modify the DOM (like adding a new HTML element). Remember that we use dot notation to access object properties. As we go along, type out the commands in your DevTools console.

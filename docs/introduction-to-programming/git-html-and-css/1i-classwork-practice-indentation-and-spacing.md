@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 8
 day: monday
 type: exercise
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1i_classwork_practice_indentation_and_spacing.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1i_classwork_practice_indentation_and_spacing.md
 ---
 
 **Goal:** Continue developing good indentation and spacing habits while simultaneously exploring the anatomy of a basic website, and practicing cloning Git repositories. These skills will be used nonstop during your time at Epicodus.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 22
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/0v_review_of_javascript_conventions.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/0v_review_of_javascript_conventions.md
 ---
 
 Over the course of learning our first JavaScript, we also covered a few conventions. A **convention** is the way something is usually done, and a convention in computer programming has to do with how we write our code. Conventions are important to computer programming because they make it so that everyone is writing code that can be easily read and understood by anyone. For example, with HTML and CSS, we learned that indentation and spacing is an important convention to follow.

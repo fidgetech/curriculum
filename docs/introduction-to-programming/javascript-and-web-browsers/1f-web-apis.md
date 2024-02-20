@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 28
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/1f_web_apis.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/1f_web_apis.md
 ---
 
 Since being introduced to the `window` and `document` objects, as well as the DOM and events, we've stepped away from JavaScript to learn about structures and tools that web browsers make available to web developers. Now is a good time to learn where we can find documentation references on Mozilla Developer Network (MDN) Documentation for these tools. 

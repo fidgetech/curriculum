@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 1
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/dei/blob/main/0c_making_epicodus_an_inclusive_place.md
+url: https://github.com/fidgetech/dei/blob/main/0c_making_epicodus_an_inclusive_place.md
 paginationPrev: null
 ---
 

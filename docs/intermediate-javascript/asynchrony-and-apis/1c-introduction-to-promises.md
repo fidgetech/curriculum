@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 14
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/1c_introduction_to_promises.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/1c_introduction_to_promises.md
 ---
 
 ES2015 (also known as ES6) added a lot of great functionality to JavaScript. We've already learned about many of the most popular features, including `let` and `const`, classes, template literals, and destructuring. Now it's time to learn about promises, another great addition from ES6.

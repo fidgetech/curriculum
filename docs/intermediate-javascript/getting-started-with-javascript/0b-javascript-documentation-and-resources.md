@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 2
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/intermediate-javascript/blob/main/0b_javascript_documentation_and_resources.md
+url: https://github.com/fidgetech/intermediate-javascript/blob/main/0b_javascript_documentation_and_resources.md
 ---
 
 In this course your evolution as a developer will go from outside observer to a fully participating member of the developer community.  To find direction for our JavaScript applications, we will be spending much more time using the same online documentation that JS developers use in the field.  

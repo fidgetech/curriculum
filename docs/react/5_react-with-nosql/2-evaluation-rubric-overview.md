@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 17
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/2_evaluation_rubric_overview.md
+url: https://github.com/fidgetech/career-services/blob/main/2_evaluation_rubric_overview.md
 ---
 
 In this lesson, we will cover the evaluation form that students will use to review their peers' whiteboarding performance. This evaluation form will be filled out on [Epicenter](https://epicenter.epicodus.com/peer_evaluations/new). During an approximately 90-minute session, you will fill out around three evaluation forms depending on the size of your group. Your feedback is anonymous for the students in your group. At the end of the session, you can find the feedback that your peers left you on Epicenter by going to the _Peer evaluations_ tab.

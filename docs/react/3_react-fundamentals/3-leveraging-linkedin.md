@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 38
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/3_leveraging_linkedin.md
+url: https://github.com/fidgetech/career-services/blob/main/3_leveraging_linkedin.md
 ---
 
 # Leveraging LinkedIn

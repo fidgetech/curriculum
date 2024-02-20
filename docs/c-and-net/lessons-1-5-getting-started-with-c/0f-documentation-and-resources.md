@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 5
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/c-and-net/blob/main/0f_documentation_and_resources.md
+url: https://github.com/fidgetech/c-and-net/blob/main/0f_documentation_and_resources.md
 paginationNext: null
 ---
 

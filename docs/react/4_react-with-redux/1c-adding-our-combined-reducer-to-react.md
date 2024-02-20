@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 19
 day: monday
 type: lesson
-url: >-
-  https://github.com/fidgetech/react/blob/main/1c_adding_our_combined_reducer_to_react.md
+url: https://github.com/fidgetech/react/blob/main/1c_adding_our_combined_reducer_to_react.md
 ---
 
 We've successfully added two additional reducers to our application — one for handling form visibility and another to combine our reducers into a single root reducer. Now we need to refactor our help application to utilize our new root reducer.

@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 1
 day: weekend
 type: lesson
-url: >-
-  https://github.com/fidgetech/career-services/blob/main/0_introduction_to_journals.md
+url: https://github.com/fidgetech/career-services/blob/main/0_introduction_to_journals.md
 paginationPrev: null
 paginationNext: null
 ---

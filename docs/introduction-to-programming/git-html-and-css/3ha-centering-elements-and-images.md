@@ -6,8 +6,7 @@ hide_table_of_contents: true
 sidebar_position: 36
 day: wednesday
 type: lesson
-url: >-
-  https://github.com/fidgetech/introduction-to-programming/blob/main/3ha_centering_elements_and_images.md
+url: https://github.com/fidgetech/introduction-to-programming/blob/main/3ha_centering_elements_and_images.md
 ---
 
 It's common to want to center elements on a page — and as we've already learned, it's easy to do so with text. All we have to do is add the following property:
