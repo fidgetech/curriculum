@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.0.11 ES6 Imports and Exports"
-id: 22011-es6-imports-and-exports
+id: 2-2-0-11-es6-imports-and-exports
 hide_table_of_contents: true
 day: weekend
 ---

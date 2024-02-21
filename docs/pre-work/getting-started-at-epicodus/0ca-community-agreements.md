@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.04 Community Agreements"
-id: 10004-community-agreements
+id: 1-0-0-04-community-agreements
 hide_table_of_contents: true
 day: weekend
 ---

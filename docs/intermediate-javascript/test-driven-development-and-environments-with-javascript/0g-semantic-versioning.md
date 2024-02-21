@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.0.7 Semantic Versioning"
-id: 2207-semantic-versioning
+id: 2-2-0-7-semantic-versioning
 hide_table_of_contents: true
 day: weekend
 ---

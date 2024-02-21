@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.0.9 Adding and Removing HTML Elements"
-id: 1309-adding-and-removing-html-elements
+id: 1-3-0-9-adding-and-removing-html-elements
 hide_table_of_contents: true
 day: weekend
 ---

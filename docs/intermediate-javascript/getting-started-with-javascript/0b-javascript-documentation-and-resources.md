@@ -1,6 +1,6 @@
 ---
 title: "📓 2.0.0.2 JS Documentation and Resources"
-id: 2002-js-documentation-and-resources
+id: 2-0-0-2-js-documentation-and-resources
 hide_table_of_contents: true
 day: weekend
 ---

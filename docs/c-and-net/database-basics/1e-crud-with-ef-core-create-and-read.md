@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.1.7 Create with EF Core"
-id: 3317-create-with-ef-core
+id: 3-3-1-7-create-with-ef-core
 hide_table_of_contents: true
 day: monday
 ---

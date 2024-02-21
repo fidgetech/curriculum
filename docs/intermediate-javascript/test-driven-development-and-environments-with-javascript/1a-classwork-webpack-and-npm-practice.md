@@ -1,6 +1,6 @@
 ---
 title: ✏️ 2.2.1.1 webpack and npm Practice
-id: 2211-webpack-and-npm-practice
+id: 2-2-1-1-webpack-and-npm-practice
 hide_table_of_contents: true
 day: monday
 ---

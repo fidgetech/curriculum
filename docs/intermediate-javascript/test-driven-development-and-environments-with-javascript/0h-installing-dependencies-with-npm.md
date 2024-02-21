@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.0.8 Installing Dependencies with npm: webpack and webpack-cli"
-id: 2208-installing-dependencies-with-npm-webpack-and-webpack-cli
+id: 2-2-0-8-installing-dependencies-with-npm-webpack-and-webpack-cli
 hide_table_of_contents: true
 day: weekend
 ---

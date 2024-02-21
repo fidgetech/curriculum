@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.07 How to Ask for Help"
-id: 10007-how-to-ask-for-help
+id: 1-0-0-07-how-to-ask-for-help
 hide_table_of_contents: true
 day: weekend
 ---

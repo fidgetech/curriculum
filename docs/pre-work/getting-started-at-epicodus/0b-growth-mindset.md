@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.02 Growth Mindset"
-id: 10002-growth-mindset
+id: 1-0-0-02-growth-mindset
 hide_table_of_contents: true
 day: weekend
 ---

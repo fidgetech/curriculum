@@ -1,6 +1,6 @@
 ---
 title: "📓 3.4.0.8 Many-to-Many Delete Functionality"
-id: 3408-many-to-many-delete-functionality
+id: 3-4-0-8-many-to-many-delete-functionality
 hide_table_of_contents: true
 day: weekend
 ---

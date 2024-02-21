@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.4.4 Further Exploration: Looping with for...of"
-id: 1344-further-exploration-looping-with-forof
+id: 1-3-4-4-further-exploration-looping-with-for---of
 hide_table_of_contents: true
 day: thursday
 ---

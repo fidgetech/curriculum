@@ -1,6 +1,6 @@
 ---
 title: "📓 3.1.1.5- More Built-In C# Classes and Tips for Using the MS Docs"
-id: 3115--more-built-in-c-classes-and-tips-for-using-the-ms-docs
+id: 3-1-1-5--more-built-in-c-classes-and-tips-for-using-the-ms-docs
 hide_table_of_contents: true
 day: monday
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.0.17 Redirecting to HTTPS and Issuing a Security Certificate"
-id: 32017-redirecting-to-https-and-issuing-a-security-certificate
+id: 3-2-0-17-redirecting-to-https-and-issuing-a-security-certificate
 hide_table_of_contents: true
 day: weekend
 ---

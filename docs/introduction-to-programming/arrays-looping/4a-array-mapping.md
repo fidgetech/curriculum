@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.4.1 Array Mapping"
-id: 1341-array-mapping
+id: 1-3-4-1-array-mapping
 hide_table_of_contents: true
 day: thursday
 ---

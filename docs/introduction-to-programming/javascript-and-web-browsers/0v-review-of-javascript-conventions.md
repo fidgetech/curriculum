@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.0.22 Review of JavaScript Conventions"
-id: 12022-review-of-javascript-conventions
+id: 1-2-0-22-review-of-javascript-conventions
 hide_table_of_contents: true
 day: weekend
 ---

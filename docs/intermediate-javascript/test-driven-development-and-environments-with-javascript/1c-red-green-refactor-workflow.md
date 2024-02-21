@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.1.3 Red Green Refactor Workflow"
-id: 2213-red-green-refactor-workflow
+id: 2-2-1-3-red-green-refactor-workflow
 hide_table_of_contents: true
 day: monday
 ---

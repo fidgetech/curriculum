@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.3.9 Further Exploration: Introduction to Regular Expressions"
-id: 1339-further-exploration-introduction-to-regular-expressions
+id: 1-3-3-9-further-exploration-introduction-to-regular-expressions
 hide_table_of_contents: true
 day: wednesday
 ---

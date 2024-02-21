@@ -1,6 +1,6 @@
 ---
 title: "📓 2.3.0.6 Parsing JSON"
-id: 2306-parsing-json
+id: 2-3-0-6-parsing-json
 hide_table_of_contents: true
 day: weekend
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.1.3 To Do List MVC Setup"
-id: 3213-to-do-list-mvc-setup
+id: 3-2-1-3-to-do-list-mvc-setup
 hide_table_of_contents: true
 day: monday
 ---

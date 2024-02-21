@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.29 Simplifying Business Logic with Properties"
-id: 30029-simplifying-business-logic-with-properties
+id: 3-0-0-29-simplifying-business-logic-with-properties
 hide_table_of_contents: true
 day: weekend
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.0.9 JavaScript Variables"
-id: 1209-javascript-variables
+id: 1-2-0-9-javascript-variables
 hide_table_of_contents: true
 day: weekend
 ---

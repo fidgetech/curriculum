@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.1.6 Gathering Data with Checkboxes"
-id: 1316-gathering-data-with-checkboxes
+id: 1-3-1-6-gathering-data-with-checkboxes
 hide_table_of_contents: true
 day: monday
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.4.6 Debugging in JavaScript: Pausing on Exceptions"
-id: 1246-debugging-in-javascript-pausing-on-exceptions
+id: 1-2-4-6-debugging-in-javascript-pausing-on-exceptions
 hide_table_of_contents: true
 day: thursday
 ---

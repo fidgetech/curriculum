@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.2.9 DRYing Code and Completing the Text Analyzer UI"
-id: 1329-drying-code-and-completing-the-text-analyzer-ui
+id: 1-3-2-9-drying-code-and-completing-the-text-analyzer-ui
 hide_table_of_contents: true
 day: tuesday
 ---

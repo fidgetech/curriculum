@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.1.3 Using SQL Designer"
-id: 3313-using-sql-designer
+id: 3-3-1-3-using-sql-designer
 hide_table_of_contents: true
 day: monday
 ---

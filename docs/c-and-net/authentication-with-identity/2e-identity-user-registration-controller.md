@@ -1,6 +1,6 @@
 ---
 title: "📓 3.5.0.6 Authentication with Identity: User Registration Controller"
-id: 3506-authentication-with-identity-user-registration-controller
+id: 3-5-0-6-authentication-with-identity-user-registration-controller
 hide_table_of_contents: true
 day: weekend
 ---

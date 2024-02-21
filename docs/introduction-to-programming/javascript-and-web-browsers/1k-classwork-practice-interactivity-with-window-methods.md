@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.2.1.11 Practice: Interactivity with Window Methods'
-id: 12111-practice-interactivity-with-window-methods
+id: 1-2-1-11-practice-interactivity-with-window-methods
 hide_table_of_contents: true
 day: monday
 ---

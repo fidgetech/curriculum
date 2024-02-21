@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.0.12 Methods"
-id: 12012-methods
+id: 1-2-0-12-methods
 hide_table_of_contents: true
 day: weekend
 ---

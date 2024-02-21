@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.16 Dictionaries"
-id: 30016-dictionaries
+id: 3-0-0-16-dictionaries
 hide_table_of_contents: true
 day: weekend
 ---

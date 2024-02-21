@@ -1,6 +1,6 @@
 ---
 title: "📓 3.6.0.01 Building an API Objectives"
-id: 36001-building-an-api-objectives
+id: 3-6-0-01-building-an-api-objectives
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

@@ -1,6 +1,6 @@
 ---
 title: "📓 2.3.1.7 SOP and CORS"
-id: 2317-sop-and-cors
+id: 2-3-1-7-sop-and-cors
 hide_table_of_contents: true
 day: monday
 ---

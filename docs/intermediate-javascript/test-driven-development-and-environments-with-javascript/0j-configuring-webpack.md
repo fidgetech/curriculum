@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.0.10 Configuring webpack and Using npm Scripts"
-id: 22010-configuring-webpack-and-using-npm-scripts
+id: 2-2-0-10-configuring-webpack-and-using-npm-scripts
 hide_table_of_contents: true
 day: weekend
 ---

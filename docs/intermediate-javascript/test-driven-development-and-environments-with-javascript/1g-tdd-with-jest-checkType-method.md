@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.1.7 TDD with Jest: Testing the Triangle.prototype.checkType() Method"
-id: 2217-tdd-with-jest-testing-the-triangleprototypechecktype-method
+id: 2-2-1-7-tdd-with-jest-testing-the-triangle-prototype-checktype-method
 hide_table_of_contents: true
 day: monday
 ---

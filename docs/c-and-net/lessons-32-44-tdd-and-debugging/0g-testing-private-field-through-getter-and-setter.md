@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.38 Testing A Private Field through its Getter and Setter Methods"
-id: 30038-testing-a-private-field-through-its-getter-and-setter-methods
+id: 3-0-0-38-testing-a-private-field-through-its-getter-and-setter-methods
 hide_table_of_contents: true
 day: weekend
 ---

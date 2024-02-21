@@ -1,6 +1,6 @@
 ---
 title: "📓 3.6.0.11 Further Exploration with API's"
-id: 36011-further-exploration-with-api's
+id: 3-6-0-11-further-exploration-with-apis
 hide_table_of_contents: true
 day: weekend
 ---

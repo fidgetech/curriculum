@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.4.8 Bootstrap Grid System"
-id: 1148-bootstrap-grid-system
+id: 1-1-4-8-bootstrap-grid-system
 hide_table_of_contents: true
 day: thursday
 ---

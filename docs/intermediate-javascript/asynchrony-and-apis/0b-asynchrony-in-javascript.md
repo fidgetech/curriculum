@@ -1,6 +1,6 @@
 ---
 title: "📓 2.3.0.2 Asynchrony in JavaScript"
-id: 2302-asynchrony-in-javascript
+id: 2-3-0-2-asynchrony-in-javascript
 hide_table_of_contents: true
 day: weekend
 ---

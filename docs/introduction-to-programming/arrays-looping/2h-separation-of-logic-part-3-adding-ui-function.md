@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.2.8 Separation of Concerns in Text Analyzer: boldPassage() UI Function"
-id: 1328-separation-of-concerns-in-text-analyzer-boldpassage-ui-function
+id: 1-3-2-8-separation-of-concerns-in-text-analyzer-boldpassage-ui-function
 hide_table_of_contents: true
 day: tuesday
 ---

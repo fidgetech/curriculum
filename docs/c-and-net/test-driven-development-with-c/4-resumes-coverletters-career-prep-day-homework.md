@@ -1,6 +1,6 @@
 ---
 title: "📓 3.1.3.2 Career Prep Day"
-id: 3132-career-prep-day
+id: 3-1-3-2-career-prep-day
 hide_table_of_contents: true
 day: wednesday
 ---

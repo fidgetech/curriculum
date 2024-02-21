@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.2.10 Function Expressions"
-id: 12210-function-expressions
+id: 1-2-2-10-function-expressions
 hide_table_of_contents: true
 day: tuesday
 ---

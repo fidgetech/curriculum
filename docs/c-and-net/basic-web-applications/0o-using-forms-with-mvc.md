@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.0.15 Using Forms with MVC"
-id: 32015-using-forms-with-mvc
+id: 3-2-0-15-using-forms-with-mvc
 hide_table_of_contents: true
 day: weekend
 ---

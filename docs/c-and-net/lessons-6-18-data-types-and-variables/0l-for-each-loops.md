@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.17 Iterators: Foreach and For Loops"
-id: 30017-iterators-foreach-and-for-loops
+id: 3-0-0-17-iterators-foreach-and-for-loops
 hide_table_of_contents: true
 day: weekend
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.0.08 Creating a Test Database: Exporting and Importing Databases with MySQL Workbench"
-id: 33008-creating-a-test-database-exporting-and-importing-databases-with-mysql-workbench
+id: 3-3-0-08-creating-a-test-database-exporting-and-importing-databases-with-mysql-workbench
 hide_table_of_contents: true
 day: weekend
 ---

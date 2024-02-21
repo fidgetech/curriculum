@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.0.4 Future Project Structure"
-id: 2204-future-project-structure
+id: 2-2-0-4-future-project-structure
 hide_table_of_contents: true
 day: weekend
 ---

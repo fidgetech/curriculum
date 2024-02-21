@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.0.4 How the Web Works: Developer Tools"
-id: 3204-how-the-web-works-developer-tools
+id: 3-2-0-4-how-the-web-works-developer-tools
 hide_table_of_contents: true
 day: weekend
 ---

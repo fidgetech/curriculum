@@ -1,6 +1,6 @@
 ---
 title: ✏️ 3.6.1.2 Building an API Part 1
-id: 3612-building-an-api-part-1
+id: 3-6-1-2-building-an-api-part-1
 hide_table_of_contents: true
 day: monday
 ---

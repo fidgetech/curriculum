@@ -1,6 +1,6 @@
 ---
 title: "📓 2.1.1.6 Address Book: Delete Functionality and Polish"
-id: 2116-address-book-delete-functionality-and-polish
+id: 2-1-1-6-address-book-delete-functionality-and-polish
 hide_table_of_contents: true
 day: monday
 ---

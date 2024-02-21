@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.3.2.5 Practice: Extending Text Analyzer Business Logic with TDD'
-id: 1325-practice-extending-text-analyzer-business-logic-with-tdd
+id: 1-3-2-5-practice-extending-text-analyzer-business-logic-with-tdd
 hide_table_of_contents: true
 day: tuesday
 ---

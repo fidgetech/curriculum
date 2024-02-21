@@ -1,6 +1,6 @@
 ---
 title: '✏️ 2.2.2.1 Test It Out, Sudoku Checker, Project Euler'
-id: 2221-test-it-out-sudoku-checker-project-euler
+id: 2-2-2-1-test-it-out-sudoku-checker-project-euler
 hide_table_of_contents: true
 day: tuesday
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.17 Introduction to the Command Line"
-id: 10017-introduction-to-the-command-line
+id: 1-0-0-17-introduction-to-the-command-line
 hide_table_of_contents: true
 day: weekend
 ---

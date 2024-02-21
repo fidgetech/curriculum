@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.2.7 Creating a Template Repository"
-id: 2227-creating-a-template-repository
+id: 2-2-2-7-creating-a-template-repository
 hide_table_of_contents: true
 day: tuesday
 ---

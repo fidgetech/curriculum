@@ -1,6 +1,6 @@
 ---
 title: "📓 2.3.0.8 Protecting API Keys"
-id: 2308-protecting-api-keys
+id: 2-3-0-8-protecting-api-keys
 hide_table_of_contents: true
 day: weekend
 ---

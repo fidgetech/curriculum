@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.0.4 Introduction to Arrays"
-id: 1304-introduction-to-arrays
+id: 1-3-0-4-introduction-to-arrays
 hide_table_of_contents: true
 day: weekend
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.0.1 Git, HTML, and CSS Objectives"
-id: 1101-git-html-and-css-objectives
+id: 1-1-0-1-git-html-and-css-objectives
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

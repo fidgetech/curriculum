@@ -1,6 +1,6 @@
 ---
 title: "📓 3.1.2.7 Workplace Accommodations"
-id: 3127-workplace-accommodations
+id: 3-1-2-7-workplace-accommodations
 hide_table_of_contents: true
 day: tuesday
 ---

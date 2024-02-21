@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.3.2 Managing Images with webpack"
-id: 2232-managing-images-with-webpack
+id: 2-2-3-2-managing-images-with-webpack
 hide_table_of_contents: true
 day: wednesday
 ---

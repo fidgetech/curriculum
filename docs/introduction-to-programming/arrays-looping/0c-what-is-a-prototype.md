@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.0.2 The Basics of Prototypes"
-id: 1302-the-basics-of-prototypes
+id: 1-3-0-2-the-basics-of-prototypes
 hide_table_of_contents: true
 day: weekend
 ---

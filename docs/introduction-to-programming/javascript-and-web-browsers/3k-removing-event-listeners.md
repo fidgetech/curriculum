@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.3.12 Removing Event Listeners"
-id: 12312-removing-event-listeners
+id: 1-2-3-12-removing-event-listeners
 hide_table_of_contents: true
 day: wednesday
 ---

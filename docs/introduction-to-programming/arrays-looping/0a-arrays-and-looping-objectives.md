@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.0.1 Arrays and Looping Objectives"
-id: 1301-arrays-and-looping-objectives
+id: 1-3-0-1-arrays-and-looping-objectives
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

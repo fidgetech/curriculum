@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.0.12 Overriding Equals and GetHashCode"
-id: 33012-overriding-equals-and-gethashcode
+id: 3-3-0-12-overriding-equals-and-gethashcode
 hide_table_of_contents: true
 day: weekend
 ---

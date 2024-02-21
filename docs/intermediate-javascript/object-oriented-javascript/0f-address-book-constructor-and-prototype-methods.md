@@ -1,6 +1,6 @@
 ---
 title: "📓 2.1.0.5 Constructor and Prototype Methods"
-id: 2105-constructor-and-prototype-methods
+id: 2-1-0-5-constructor-and-prototype-methods
 hide_table_of_contents: true
 day: weekend
 ---

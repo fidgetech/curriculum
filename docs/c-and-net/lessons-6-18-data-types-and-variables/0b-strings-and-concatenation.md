@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.07 Strings, String Concatenation and Interpolation, and Chars"
-id: 30007-strings-string-concatenation-and-interpolation-and-chars
+id: 3-0-0-07-strings-string-concatenation-and-interpolation-and-chars
 hide_table_of_contents: true
 day: weekend
 ---

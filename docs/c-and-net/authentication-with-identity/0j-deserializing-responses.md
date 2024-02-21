@@ -1,6 +1,6 @@
 ---
 title: "📓 3.5.2.2 Deserializing API Responses with Newtonsoft.Json"
-id: 3522-deserializing-api-responses-with-newtonsoftjson
+id: 3-5-2-2-deserializing-api-responses-with-newtonsoft-json
 hide_table_of_contents: true
 day: tuesday
 ---

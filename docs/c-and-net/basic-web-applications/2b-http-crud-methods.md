@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.2.2 HTTP CRUD Methods"
-id: 3222-http-crud-methods
+id: 3-2-2-2-http-crud-methods
 hide_table_of_contents: true
 day: tuesday
 ---

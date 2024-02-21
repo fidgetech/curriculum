@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.25 Customizing Discord"
-id: 10025-customizing-discord
+id: 1-0-0-25-customizing-discord
 hide_table_of_contents: true
 day: weekend
 ---

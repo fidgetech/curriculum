@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.0.05 Connecting a Database to an ASP.NET Core App with MySqlConnector"
-id: 33005-connecting-a-database-to-an-aspnet-core-app-with-mysqlconnector
+id: 3-3-0-05-connecting-a-database-to-an-asp-net-core-app-with-mysqlconnector
 hide_table_of_contents: true
 day: weekend
 ---

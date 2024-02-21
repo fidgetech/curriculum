@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.2.4 ES6 Arrow Notation"
-id: 2224-es6-arrow-notation
+id: 2-2-2-4-es6-arrow-notation
 hide_table_of_contents: true
 day: tuesday
 ---

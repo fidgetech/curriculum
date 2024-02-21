@@ -1,6 +1,6 @@
 ---
 title: "📓 2.4.0.4 Git: Rewriting History"
-id: 2404-git-rewriting-history
+id: 2-4-0-4-git-rewriting-history
 hide_table_of_contents: true
 day: weekend
 ---

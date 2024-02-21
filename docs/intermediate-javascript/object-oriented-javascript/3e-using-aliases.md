@@ -1,6 +1,6 @@
 ---
 title: "📓 2.1.3.5 Further Exploration: Aliases"
-id: 2135-further-exploration-aliases
+id: 2-1-3-5-further-exploration-aliases
 hide_table_of_contents: true
 day: wednesday
 ---

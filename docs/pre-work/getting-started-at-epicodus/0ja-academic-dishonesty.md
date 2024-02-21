@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.10 Academic Honesty"
-id: 10010-academic-honesty
+id: 1-0-0-10-academic-honesty
 hide_table_of_contents: true
 day: weekend
 ---

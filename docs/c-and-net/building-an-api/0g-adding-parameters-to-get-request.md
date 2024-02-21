@@ -1,6 +1,6 @@
 ---
 title: "📓 3.6.0.08 Adding Parameters to a Get Request to Support Query Strings"
-id: 36008-adding-parameters-to-a-get-request-to-support-query-strings
+id: 3-6-0-08-adding-parameters-to-a-get-request-to-support-query-strings
 hide_table_of_contents: true
 day: weekend
 ---

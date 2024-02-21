@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.16 Text Editor: Visual Studio Code"
-id: 10016-text-editor-visual-studio-code
+id: 1-0-0-16-text-editor-visual-studio-code
 hide_table_of_contents: true
 day: weekend
 ---

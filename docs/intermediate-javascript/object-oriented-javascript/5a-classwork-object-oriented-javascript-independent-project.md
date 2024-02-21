@@ -1,6 +1,6 @@
 ---
 title: ✏️ 2.1.5.1 Object-Oriented JavaScript Independent Project
-id: 2151-object-oriented-javascript-independent-project
+id: 2-1-5-1-object-oriented-javascript-independent-project
 hide_table_of_contents: true
 day: friday
 paginationNext: null

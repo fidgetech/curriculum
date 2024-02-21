@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.0.16 Using MDN Documentation for JavaScript"
-id: 12016-using-mdn-documentation-for-javascript
+id: 1-2-0-16-using-mdn-documentation-for-javascript
 hide_table_of_contents: true
 day: weekend
 ---

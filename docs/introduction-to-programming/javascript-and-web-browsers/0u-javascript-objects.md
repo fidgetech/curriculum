@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.0.21 Another Look at JavaScript Objects"
-id: 12021-another-look-at-javascript-objects
+id: 1-2-0-21-another-look-at-javascript-objects
 hide_table_of_contents: true
 day: weekend
 ---

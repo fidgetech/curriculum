@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.04 Installing and Configuring MySQL"
-id: 30004-installing-and-configuring-mysql
+id: 3-0-0-04-installing-and-configuring-mysql
 hide_table_of_contents: true
 day: weekend
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 2.3.3.2 Further Exploration: Chaining Promises"
-id: 2332-further-exploration-chaining-promises
+id: 2-3-3-2-further-exploration-chaining-promises
 hide_table_of_contents: true
 day: wednesday
 ---

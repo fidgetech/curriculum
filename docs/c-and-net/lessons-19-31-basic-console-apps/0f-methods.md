@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.24 Class Methods"
-id: 30024-class-methods
+id: 3-0-0-24-class-methods
 hide_table_of_contents: true
 day: weekend
 ---

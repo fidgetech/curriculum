@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.0.6 Creating a package.json with npm"
-id: 2206-creating-a-packagejson-with-npm
+id: 2-2-0-6-creating-a-package-json-with-npm
 hide_table_of_contents: true
 day: weekend
 ---

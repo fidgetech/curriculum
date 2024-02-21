@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.4.3 Calculator with Forms and Branching"
-id: 1243-calculator-with-forms-and-branching
+id: 1-2-4-3-calculator-with-forms-and-branching
 hide_table_of_contents: true
 day: thursday
 ---

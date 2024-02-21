@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.1.2 Writing Functions"
-id: 1212-writing-functions
+id: 1-2-1-2-writing-functions
 hide_table_of_contents: true
 day: monday
 ---

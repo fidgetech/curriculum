@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.3.3 Printing an Array to a Webpage"
-id: 1333-printing-an-array-to-a-webpage
+id: 1-3-3-3-printing-an-array-to-a-webpage
 hide_table_of_contents: true
 day: wednesday
 ---

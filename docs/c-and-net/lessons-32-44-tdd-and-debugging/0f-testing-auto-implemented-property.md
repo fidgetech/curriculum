@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.37 Testing An Auto-Implemented Property"
-id: 30037-testing-an-auto-implemented-property
+id: 3-0-0-37-testing-an-auto-implemented-property
 hide_table_of_contents: true
 day: weekend
 ---

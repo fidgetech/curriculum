@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.1.1.4 Practice: Command Line Git'
-id: 1114-practice-command-line-git
+id: 1-1-1-4-practice-command-line-git
 hide_table_of_contents: true
 day: monday
 ---

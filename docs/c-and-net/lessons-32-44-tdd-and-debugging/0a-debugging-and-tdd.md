@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.32 What We'll Learn in this Section"
-id: 30032-what-we'll-learn-in-this-section
+id: 3-0-0-32-what-well-learn-in-this-section
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

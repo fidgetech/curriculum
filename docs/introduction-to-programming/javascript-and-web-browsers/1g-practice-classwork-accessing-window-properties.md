@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.2.1.7 Practice: Accessing Window Properties'
-id: 1217-practice-accessing-window-properties
+id: 1-2-1-7-practice-accessing-window-properties
 hide_table_of_contents: true
 day: monday
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.0.12 Bundling JavaScript"
-id: 22012-bundling-javascript
+id: 2-2-0-12-bundling-javascript
 hide_table_of_contents: true
 day: weekend
 ---

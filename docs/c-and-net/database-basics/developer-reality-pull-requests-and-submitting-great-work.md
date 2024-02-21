@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.4.3 Pull Requests and Submitting Great Work"
-id: 3343-pull-requests-and-submitting-great-work
+id: 3-3-4-3-pull-requests-and-submitting-great-work
 hide_table_of_contents: true
 day: thursday
 ---

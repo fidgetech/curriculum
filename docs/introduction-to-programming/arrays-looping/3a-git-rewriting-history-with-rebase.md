@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.3.1 Rewriting Git History with Rebase"
-id: 1331-rewriting-git-history-with-rebase
+id: 1-3-3-1-rewriting-git-history-with-rebase
 hide_table_of_contents: true
 day: wednesday
 ---

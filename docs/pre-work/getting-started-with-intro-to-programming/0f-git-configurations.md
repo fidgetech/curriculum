@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.21 Git Configurations"
-id: 10021-git-configurations
+id: 1-0-0-21-git-configurations
 hide_table_of_contents: true
 day: weekend
 ---

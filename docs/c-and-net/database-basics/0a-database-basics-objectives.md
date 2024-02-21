@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.0.01 Database Basics Objectives"
-id: 33001-database-basics-objectives
+id: 3-3-0-01-database-basics-objectives
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

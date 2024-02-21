@@ -1,6 +1,6 @@
 ---
 title: "📓 3.7.0.1 Team Project Objectives"
-id: 3701-team-project-objectives
+id: 3-7-0-1-team-project-objectives
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

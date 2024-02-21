@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.2.5 Using ViewBag"
-id: 3325-using-viewbag
+id: 3-3-2-5-using-viewbag
 hide_table_of_contents: true
 day: tuesday
 ---

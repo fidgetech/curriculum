@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.0.13 Functions"
-id: 12013-functions
+id: 1-2-0-13-functions
 hide_table_of_contents: true
 day: weekend
 ---

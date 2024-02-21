@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.1.5 Configuration for Entity Framework Core"
-id: 3315-configuration-for-entity-framework-core
+id: 3-3-1-5-configuration-for-entity-framework-core
 hide_table_of_contents: true
 day: monday
 ---

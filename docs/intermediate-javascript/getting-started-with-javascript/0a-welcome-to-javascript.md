@@ -1,6 +1,6 @@
 ---
 title: "📓 2.0.0.1 Welcome to JavaScript"
-id: 2001-welcome-to-javascript
+id: 2-0-0-1-welcome-to-javascript
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

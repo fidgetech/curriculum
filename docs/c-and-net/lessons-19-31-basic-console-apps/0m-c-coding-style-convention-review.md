@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.31 Configuration Reference and Review of C# Conventions"
-id: 30031-configuration-reference-and-review-of-c-conventions
+id: 3-0-0-31-configuration-reference-and-review-of-c-conventions
 hide_table_of_contents: true
 day: weekend
 paginationNext: null

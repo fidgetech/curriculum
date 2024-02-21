@@ -1,6 +1,6 @@
 ---
 title: '✏️ 3.1.3.1 Weekday Finder, Scrabble Scorer, Rock Paper Scissors, Find and Replace, Prime Sifting'
-id: 3131-weekday-finder-scrabble-scorer-rock-paper-scissors-find-and-replace-prime-sifting
+id: 3-1-3-1-weekday-finder-scrabble-scorer-rock-paper-scissors-find-and-replace-prime-sifting
 hide_table_of_contents: true
 day: wednesday
 ---

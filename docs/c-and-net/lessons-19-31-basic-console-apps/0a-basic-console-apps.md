@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.19 Expectations and Game Plan for Building a C# Console App"
-id: 30019-expectations-and-game-plan-for-building-a-c-console-app
+id: 3-0-0-19-expectations-and-game-plan-for-building-a-c-console-app
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

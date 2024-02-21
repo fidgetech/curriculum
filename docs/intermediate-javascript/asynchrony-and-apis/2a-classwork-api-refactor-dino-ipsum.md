@@ -1,6 +1,6 @@
 ---
 title: '✏️ 2.3.2.1 API Refactor, Dino Ipsum'
-id: 2321-api-refactor-dino-ipsum
+id: 2-3-2-1-api-refactor-dino-ipsum
 hide_table_of_contents: true
 day: tuesday
 ---

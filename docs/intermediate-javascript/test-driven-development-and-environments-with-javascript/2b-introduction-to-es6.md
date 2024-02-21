@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.2.2 Introduction to ES6"
-id: 2222-introduction-to-es6
+id: 2-2-2-2-introduction-to-es6
 hide_table_of_contents: true
 day: tuesday
 ---

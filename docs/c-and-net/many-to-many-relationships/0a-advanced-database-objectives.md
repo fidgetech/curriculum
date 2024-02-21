@@ -1,6 +1,6 @@
 ---
 title: "📓 3.4.0.1 Many-To-Many Objectives"
-id: 3401-many-to-many-objectives
+id: 3-4-0-1-many-to-many-objectives
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

@@ -1,6 +1,6 @@
 ---
 title: "📓 3.5.0.3 Introduction to Authentication, Authorization, and Identity"
-id: 3503-introduction-to-authentication-authorization-and-identity
+id: 3-5-0-3-introduction-to-authentication-authorization-and-identity
 hide_table_of_contents: true
 day: weekend
 ---

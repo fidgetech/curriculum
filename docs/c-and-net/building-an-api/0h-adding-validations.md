@@ -1,6 +1,6 @@
 ---
 title: "📓 3.6.0.09 Adding API Model Validation"
-id: 36009-adding-api-model-validation
+id: 3-6-0-09-adding-api-model-validation
 hide_table_of_contents: true
 day: weekend
 ---

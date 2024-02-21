@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.0.06 Retrieving Objects From the Database"
-id: 33006-retrieving-objects-from-the-database
+id: 3-3-0-06-retrieving-objects-from-the-database
 hide_table_of_contents: true
 day: weekend
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.26 Working with a Dev Team"
-id: 10026-working-with-a-dev-team
+id: 1-0-0-26-working-with-a-dev-team
 hide_table_of_contents: true
 day: weekend
 ---

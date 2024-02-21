@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.2.3 ES6 Classes"
-id: 2223-es6-classes
+id: 2-2-2-3-es6-classes
 hide_table_of_contents: true
 day: tuesday
 ---

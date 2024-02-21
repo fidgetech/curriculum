@@ -1,6 +1,6 @@
 ---
 title: "📓 2.3.2.3 Async and Await"
-id: 2323-async-and-await
+id: 2-3-2-3-async-and-await
 hide_table_of_contents: true
 day: tuesday
 ---

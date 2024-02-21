@@ -1,6 +1,6 @@
 ---
 title: "📓 2.3.3.4 Sprucing Up Your GitHub"
-id: 2334-sprucing-up-your-github
+id: 2-3-3-4-sprucing-up-your-github
 hide_table_of_contents: true
 day: wednesday
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.06 Pair Programming"
-id: 10006-pair-programming
+id: 1-0-0-06-pair-programming
 hide_table_of_contents: true
 day: weekend
 ---

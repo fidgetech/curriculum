@@ -1,6 +1,6 @@
 ---
 title: "📓 2.1.0.11 VS Code: Bracket Colorization and Guides"
-id: 21011-vs-code-bracket-colorization-and-guides
+id: 2-1-0-11-vs-code-bracket-colorization-and-guides
 hide_table_of_contents: true
 day: weekend
 ---

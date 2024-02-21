@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.0.2 Modern JavaScript Development"
-id: 2202-modern-javascript-development
+id: 2-2-0-2-modern-javascript-development
 hide_table_of_contents: true
 day: weekend
 ---

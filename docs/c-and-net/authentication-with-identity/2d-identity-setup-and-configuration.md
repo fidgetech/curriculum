@@ -1,6 +1,6 @@
 ---
 title: "📓 3.5.0.4 Identity Setup and Configuration"
-id: 3504-identity-setup-and-configuration
+id: 3-5-0-4-identity-setup-and-configuration
 hide_table_of_contents: true
 day: weekend
 ---

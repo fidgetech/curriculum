@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.1.8 HTML Helper Methods, Lambda Expressions, and String Interpolation"
-id: 3318-html-helper-methods-lambda-expressions-and-string-interpolation
+id: 3-3-1-8-html-helper-methods-lambda-expressions-and-string-interpolation
 hide_table_of_contents: true
 day: monday
 ---

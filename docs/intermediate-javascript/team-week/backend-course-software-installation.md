@@ -1,6 +1,6 @@
 ---
 title: "📓 2.4.0.8 Backend Course Preparation: Software Installation"
-id: 2408-backend-course-preparation-software-installation
+id: 2-4-0-8-backend-course-preparation-software-installation
 hide_table_of_contents: true
 day: weekend
 ---

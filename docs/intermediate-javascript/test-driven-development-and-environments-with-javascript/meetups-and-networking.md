@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.4.3 Meetups and Networking"
-id: 2243-meetups-and-networking
+id: 2-2-4-3-meetups-and-networking
 hide_table_of_contents: true
 day: thursday
 ---

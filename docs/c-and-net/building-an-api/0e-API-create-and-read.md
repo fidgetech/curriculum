@@ -1,6 +1,6 @@
 ---
 title: "📓 3.6.0.05 API: Create and Read"
-id: 36005-api-create-and-read
+id: 3-6-0-05-api-create-and-read
 hide_table_of_contents: true
 day: weekend
 ---

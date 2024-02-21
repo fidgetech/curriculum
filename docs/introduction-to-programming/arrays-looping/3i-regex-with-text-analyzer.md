@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.3.10 Further Exploration: Regular Expressions with Text Analyzer"
-id: 13310-further-exploration-regular-expressions-with-text-analyzer
+id: 1-3-3-10-further-exploration-regular-expressions-with-text-analyzer
 hide_table_of_contents: true
 day: wednesday
 ---

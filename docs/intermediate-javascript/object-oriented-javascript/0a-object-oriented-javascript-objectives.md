@@ -1,6 +1,6 @@
 ---
 title: "📓 2.1.0.1 Object-Oriented JavaScript Objectives"
-id: 2101-object-oriented-javascript-objectives
+id: 2-1-0-1-object-oriented-javascript-objectives
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

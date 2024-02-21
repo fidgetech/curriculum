@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.2.6 Separation of Logic: Adding a UI to Text Analyzer"
-id: 1326-separation-of-logic-adding-a-ui-to-text-analyzer
+id: 1-3-2-6-separation-of-logic-adding-a-ui-to-text-analyzer
 hide_table_of_contents: true
 day: tuesday
 ---

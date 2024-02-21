@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.2.1 Commit Trailers and Github Contributions"
-id: 1121-commit-trailers-and-github-contributions
+id: 1-1-2-1-commit-trailers-and-github-contributions
 hide_table_of_contents: true
 day: tuesday
 ---

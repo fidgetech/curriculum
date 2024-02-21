@@ -1,6 +1,6 @@
 ---
 title: '✏️ 3.2.4.1 To Do List, CD Organizer, Go Fish, Word Puzzle'
-id: 3241-to-do-list-cd-organizer-go-fish-word-puzzle
+id: 3-2-4-1-to-do-list-cd-organizer-go-fish-word-puzzle
 hide_table_of_contents: true
 day: thursday
 ---

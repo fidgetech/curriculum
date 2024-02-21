@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.0.20 Configuration Reference, Suggested Workflows, and Optional Review"
-id: 22020-configuration-reference-suggested-workflows-and-optional-review
+id: 2-2-0-20-configuration-reference-suggested-workflows-and-optional-review
 hide_table_of_contents: true
 day: weekend
 ---

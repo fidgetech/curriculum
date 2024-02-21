@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.0.5 Introduction to ASP.NET Core"
-id: 3205-introduction-to-aspnet-core
+id: 3-2-0-5-introduction-to-asp-net-core
 hide_table_of_contents: true
 day: weekend
 ---

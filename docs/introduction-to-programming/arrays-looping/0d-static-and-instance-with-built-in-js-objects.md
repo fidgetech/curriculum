@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.0.3 Static versus Instance with Built-In JS Objects"
-id: 1303-static-versus-instance-with-built-in-js-objects
+id: 1-3-0-3-static-versus-instance-with-built-in-js-objects
 hide_table_of_contents: true
 day: weekend
 ---

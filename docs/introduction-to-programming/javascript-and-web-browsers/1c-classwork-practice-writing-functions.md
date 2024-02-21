@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.2.1.3 Practice: Writing Functions'
-id: 1213-practice-writing-functions
+id: 1-2-1-3-practice-writing-functions
 hide_table_of_contents: true
 day: monday
 ---

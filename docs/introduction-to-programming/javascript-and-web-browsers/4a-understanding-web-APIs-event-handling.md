@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.4.1 Understanding Web APIs: Event Handling"
-id: 1241-understanding-web-apis-event-handling
+id: 1-2-4-1-understanding-web-apis-event-handling
 hide_table_of_contents: true
 day: thursday
 ---

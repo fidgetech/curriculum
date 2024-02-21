@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.18 Type Casting"
-id: 30018-type-casting
+id: 3-0-0-18-type-casting
 hide_table_of_contents: true
 day: weekend
 paginationNext: null

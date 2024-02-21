@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.3.6 Using Static Content"
-id: 3236-using-static-content
+id: 3-2-3-6-using-static-content
 hide_table_of_contents: true
 day: wednesday
 ---

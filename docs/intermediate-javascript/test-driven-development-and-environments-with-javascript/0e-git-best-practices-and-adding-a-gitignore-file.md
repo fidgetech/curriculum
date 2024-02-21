@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.0.5 Git Best Practices and Adding a .gitignore File"
-id: 2205-git-best-practices-and-adding-a-gitignore-file
+id: 2-2-0-5-git-best-practices-and-adding-a--gitignore-file
 hide_table_of_contents: true
 day: weekend
 ---

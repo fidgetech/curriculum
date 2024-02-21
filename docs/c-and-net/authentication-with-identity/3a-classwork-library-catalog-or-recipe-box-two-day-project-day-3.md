@@ -1,6 +1,6 @@
 ---
 title: '✏️ 3.4.1.1 Library Catalog, Recipe Box Week-Long Project - Part 4 (day 3)'
-id: 3411-library-catalog-recipe-box-week-long-project---part-4-day-3
+id: 3-4-1-1-library-catalog-recipe-box-week-long-project---part-4-day-3
 hide_table_of_contents: true
 day: thursday
 ---

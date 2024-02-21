@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.2.1 Variable Scope"
-id: 1221-variable-scope
+id: 1-2-2-1-variable-scope
 hide_table_of_contents: true
 day: tuesday
 ---

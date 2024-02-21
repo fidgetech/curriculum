@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.01 Learn How to Program"
-id: 10001-learn-how-to-program
+id: 1-0-0-01-learn-how-to-program
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

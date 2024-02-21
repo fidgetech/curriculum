@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.3.6 Branching"
-id: 1236-branching
+id: 1-2-3-6-branching
 hide_table_of_contents: true
 day: wednesday
 ---

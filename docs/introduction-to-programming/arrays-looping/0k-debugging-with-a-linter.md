@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.0.10 Debugging in JavaScript: Using a linter"
-id: 13010-debugging-in-javascript-using-a-linter
+id: 1-3-0-10-debugging-in-javascript-using-a-linter
 hide_table_of_contents: true
 day: weekend
 ---

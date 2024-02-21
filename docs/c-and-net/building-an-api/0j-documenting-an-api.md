@@ -1,6 +1,6 @@
 ---
 title: "📓 3.6.0.12 Documenting Your API"
-id: 36012-documenting-your-api
+id: 3-6-0-12-documenting-your-api
 hide_table_of_contents: true
 day: weekend
 ---

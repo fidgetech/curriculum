@@ -1,6 +1,6 @@
 ---
 title: "📓 3.6.2.6 MVC Client: POST, PUT, and DELETE"
-id: 3626-mvc-client-post-put-and-delete
+id: 3-6-2-6-mvc-client-post-put-and-delete
 hide_table_of_contents: true
 day: tuesday
 ---

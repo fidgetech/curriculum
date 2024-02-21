@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.2.2.13 Practice: Event Handling with Event Handler Properties'
-id: 12213-practice-event-handling-with-event-handler-properties
+id: 1-2-2-13-practice-event-handling-with-event-handler-properties
 hide_table_of_contents: true
 day: tuesday
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 3.5.0.9 Adding Authorization and Associating Users with Items"
-id: 3509-adding-authorization-and-associating-users-with-items
+id: 3-5-0-9-adding-authorization-and-associating-users-with-items
 hide_table_of_contents: true
 day: weekend
 ---

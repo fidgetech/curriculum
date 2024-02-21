@@ -1,6 +1,6 @@
 ---
 title: "📓 3.7.0.6 Practicing the Git Workflow"
-id: 3706-practicing-the-git-workflow
+id: 3-7-0-6-practicing-the-git-workflow
 hide_table_of_contents: true
 day: weekend
 ---

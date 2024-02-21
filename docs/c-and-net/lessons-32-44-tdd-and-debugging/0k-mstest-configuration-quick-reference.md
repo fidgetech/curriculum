@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.42 MSTest Configuration Quick Reference"
-id: 30042-mstest-configuration-quick-reference
+id: 3-0-0-42-mstest-configuration-quick-reference
 hide_table_of_contents: true
 day: weekend
 ---

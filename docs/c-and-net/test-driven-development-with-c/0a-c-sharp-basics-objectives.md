@@ -1,6 +1,6 @@
 ---
 title: "📓 3.1.0.1 Test-Driven Development with C# Objectives"
-id: 3101-test-driven-development-with-c-objectives
+id: 3-1-0-1-test-driven-development-with-c-objectives
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

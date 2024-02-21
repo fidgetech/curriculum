@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.2.4 Finding Objects with Unique IDs"
-id: 3224-finding-objects-with-unique-ids
+id: 3-2-2-4-finding-objects-with-unique-ids
 hide_table_of_contents: true
 day: tuesday
 ---

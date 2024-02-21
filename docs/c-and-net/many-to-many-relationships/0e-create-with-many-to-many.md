@@ -1,6 +1,6 @@
 ---
 title: "📓 3.4.0.6 Many-to-Many Create Functionality"
-id: 3406-many-to-many-create-functionality
+id: 3-4-0-6-many-to-many-create-functionality
 hide_table_of_contents: true
 day: weekend
 ---

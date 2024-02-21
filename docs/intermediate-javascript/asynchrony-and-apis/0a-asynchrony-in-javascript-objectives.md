@@ -1,6 +1,6 @@
 ---
 title: "📓 2.3.0.1 Asynchrony and APIs in JavaScript Objectives"
-id: 2301-asynchrony-and-apis-in-javascript-objectives
+id: 2-3-0-1-asynchrony-and-apis-in-javascript-objectives
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

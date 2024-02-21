@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.0.7 Comparing and Cloning Arrays"
-id: 1307-comparing-and-cloning-arrays
+id: 1-3-0-7-comparing-and-cloning-arrays
 hide_table_of_contents: true
 day: weekend
 ---

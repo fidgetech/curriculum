@@ -1,6 +1,6 @@
 ---
 title: "📓 2.1.2.3 Optional: Accessing Stylesheets in the CSSOM"
-id: 2123-optional-accessing-stylesheets-in-the-cssom
+id: 2-1-2-3-optional-accessing-stylesheets-in-the-cssom
 hide_table_of_contents: true
 day: tuesday
 ---

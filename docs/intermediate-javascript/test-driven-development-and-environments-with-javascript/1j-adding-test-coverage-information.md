@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.1.10 Improving Test Reports: Adding Test Coverage Information"
-id: 22110-improving-test-reports-adding-test-coverage-information
+id: 2-2-1-10-improving-test-reports-adding-test-coverage-information
 hide_table_of_contents: true
 day: monday
 ---

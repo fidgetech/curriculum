@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.05 Documentation and Resources"
-id: 30005-documentation-and-resources
+id: 3-0-0-05-documentation-and-resources
 hide_table_of_contents: true
 day: weekend
 paginationNext: null

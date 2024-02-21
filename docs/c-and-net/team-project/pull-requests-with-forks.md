@@ -1,6 +1,6 @@
 ---
 title: "📓 3.7.2.1 Pull Requests with Forks"
-id: 3721-pull-requests-with-forks
+id: 3-7-2-1-pull-requests-with-forks
 hide_table_of_contents: true
 day: tuesday
 ---

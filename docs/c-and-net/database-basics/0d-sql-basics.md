@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.0.03 SQL Basics: Managing MySQL Databases from the Command Line"
-id: 33003-sql-basics-managing-mysql-databases-from-the-command-line
+id: 3-3-0-03-sql-basics-managing-mysql-databases-from-the-command-line
 hide_table_of_contents: true
 day: weekend
 ---

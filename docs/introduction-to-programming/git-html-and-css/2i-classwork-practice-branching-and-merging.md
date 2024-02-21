@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.1.2.9 Practice: Branching and Merging'
-id: 1129-practice-branching-and-merging
+id: 1-1-2-9-practice-branching-and-merging
 hide_table_of_contents: true
 day: tuesday
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.0.1Basic Web Applications Objectives"
-id: 3201basic-web-applications-objectives
+id: 3-2-0-1basic-web-applications-objectives
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

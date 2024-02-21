@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.3.7 Layouts and Partials"
-id: 3237-layouts-and-partials
+id: 3-2-3-7-layouts-and-partials
 hide_table_of_contents: true
 day: wednesday
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.0.14 Finding Objects in the Database"
-id: 33014-finding-objects-in-the-database
+id: 3-3-0-14-finding-objects-in-the-database
 hide_table_of_contents: true
 day: weekend
 ---

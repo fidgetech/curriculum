@@ -1,6 +1,6 @@
 ---
 title: "📓 3.6.0.04 Adding a Model and Database"
-id: 36004-adding-a-model-and-database
+id: 3-6-0-04-adding-a-model-and-database
 hide_table_of_contents: true
 day: weekend
 ---

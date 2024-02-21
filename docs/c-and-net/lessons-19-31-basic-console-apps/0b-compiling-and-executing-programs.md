@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.20 Hello World! Compiling and Executing C# Programs"
-id: 30020-hello-world!-compiling-and-executing-c-programs
+id: 3-0-0-20-hello-world-compiling-and-executing-c-programs
 hide_table_of_contents: true
 day: weekend
 ---

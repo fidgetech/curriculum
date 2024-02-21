@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.1.13 Business and User Interface Logic"
-id: 12113-business-and-user-interface-logic
+id: 1-2-1-13-business-and-user-interface-logic
 hide_table_of_contents: true
 day: monday
 ---

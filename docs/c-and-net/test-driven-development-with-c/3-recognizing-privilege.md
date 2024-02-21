@@ -1,6 +1,6 @@
 ---
 title: "📓 3.1.1.7- Recognizing Privilege"
-id: 3117--recognizing-privilege
+id: 3-1-1-7--recognizing-privilege
 hide_table_of_contents: true
 day: monday
 ---

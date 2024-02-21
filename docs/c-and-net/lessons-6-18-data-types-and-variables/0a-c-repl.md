@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.06 Using a C# REPL"
-id: 30006-using-a-c-repl
+id: 3-0-0-06-using-a-c-repl
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

@@ -1,6 +1,6 @@
 ---
 title: "📓 3.6.1.1 Prior Course Section Survey"
-id: 3611-prior-course-section-survey
+id: 3-6-1-1-prior-course-section-survey
 hide_table_of_contents: true
 day: monday
 ---

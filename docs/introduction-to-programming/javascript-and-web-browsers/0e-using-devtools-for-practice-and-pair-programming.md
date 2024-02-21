@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.0.5 Using the DevTools Console for Practice and Pair Programming"
-id: 1205-using-the-devtools-console-for-practice-and-pair-programming
+id: 1-2-0-5-using-the-devtools-console-for-practice-and-pair-programming
 hide_table_of_contents: true
 day: weekend
 ---

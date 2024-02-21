@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.35 Using the RGR Workflow to Write our First Test for the Constructor"
-id: 30035-using-the-rgr-workflow-to-write-our-first-test-for-the-constructor
+id: 3-0-0-35-using-the-rgr-workflow-to-write-our-first-test-for-the-constructor
 hide_table_of_contents: true
 day: weekend
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.44 Improving Development by Using a Watcher"
-id: 30044-improving-development-by-using-a-watcher
+id: 3-0-0-44-improving-development-by-using-a-watcher
 hide_table_of_contents: true
 day: weekend
 paginationNext: null

@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.2.5 Introduction to RESTful Routing"
-id: 3225-introduction-to-restful-routing
+id: 3-2-2-5-introduction-to-restful-routing
 hide_table_of_contents: true
 day: tuesday
 ---

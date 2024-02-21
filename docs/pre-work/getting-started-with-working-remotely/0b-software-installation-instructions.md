@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.23 Installing Software on Your Machine"
-id: 10023-installing-software-on-your-machine
+id: 1-0-0-23-installing-software-on-your-machine
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

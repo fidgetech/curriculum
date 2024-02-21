@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.3.7 Box Model"
-id: 1137-box-model
+id: 1-1-3-7-box-model
 hide_table_of_contents: true
 day: wednesday
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.0.11 Custom URL Paths"
-id: 32011-custom-url-paths
+id: 3-2-0-11-custom-url-paths
 hide_table_of_contents: true
 day: weekend
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.27 Direct Messages in Discord"
-id: 10027-direct-messages-in-discord
+id: 1-0-0-27-direct-messages-in-discord
 hide_table_of_contents: true
 day: weekend
 ---

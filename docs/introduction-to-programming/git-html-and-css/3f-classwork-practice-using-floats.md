@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.1.3.6 Practice: Using Floats'
-id: 1136-practice-using-floats
+id: 1-1-3-6-practice-using-floats
 hide_table_of_contents: true
 day: wednesday
 ---

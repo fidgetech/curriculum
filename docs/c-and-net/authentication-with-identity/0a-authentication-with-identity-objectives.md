@@ -1,6 +1,6 @@
 ---
 title: "📓 3.5.0.1 Authentication with Identity Objectives"
-id: 3501-authentication-with-identity-objectives
+id: 3-5-0-1-authentication-with-identity-objectives
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

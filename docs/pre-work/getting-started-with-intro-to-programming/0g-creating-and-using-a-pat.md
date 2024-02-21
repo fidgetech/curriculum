@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.22 Creating and Using a Git PAT"
-id: 10022-creating-and-using-a-git-pat
+id: 1-0-0-22-creating-and-using-a-git-pat
 hide_table_of_contents: true
 day: weekend
 paginationNext: null

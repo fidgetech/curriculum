@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.2.12 Event Handler Properties in a Project: Using window.onload"
-id: 12212-event-handler-properties-in-a-project-using-windowonload
+id: 1-2-2-12-event-handler-properties-in-a-project-using-window-onload
 hide_table_of_contents: true
 day: tuesday
 ---

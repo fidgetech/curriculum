@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.4.4 Technical Interview Prep"
-id: 3244-technical-interview-prep
+id: 3-2-4-4-technical-interview-prep
 hide_table_of_contents: true
 day: thursday
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.4.9 Customizing Styles with Bootstrap"
-id: 1149-customizing-styles-with-bootstrap
+id: 1-1-4-9-customizing-styles-with-bootstrap
 hide_table_of_contents: true
 day: thursday
 ---

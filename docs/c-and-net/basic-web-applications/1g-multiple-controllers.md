@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.1.8 Multiple Controllers"
-id: 3218-multiple-controllers
+id: 3-2-1-8-multiple-controllers
 hide_table_of_contents: true
 day: monday
 ---

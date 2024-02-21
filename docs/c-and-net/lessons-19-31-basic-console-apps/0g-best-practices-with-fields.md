@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.25 Access Modifiers, Best Practices with Fields, and Getter and Setter Methods"
-id: 30025-access-modifiers-best-practices-with-fields-and-getter-and-setter-methods
+id: 3-0-0-25-access-modifiers-best-practices-with-fields-and-getter-and-setter-methods
 hide_table_of_contents: true
 day: weekend
 ---

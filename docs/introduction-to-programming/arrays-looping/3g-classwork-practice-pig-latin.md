@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.3.3.8 Practice: Pig Latin'
-id: 1338-practice-pig-latin
+id: 1-3-3-8-practice-pig-latin
 hide_table_of_contents: true
 day: wednesday
 ---

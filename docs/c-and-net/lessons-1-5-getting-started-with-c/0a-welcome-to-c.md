@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.01 Welcome to C#"
-id: 30001-welcome-to-c
+id: 3-0-0-01-welcome-to-c
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

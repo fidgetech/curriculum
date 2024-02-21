@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.3.1 Styling with Classes"
-id: 1131-styling-with-classes
+id: 1-1-3-1-styling-with-classes
 hide_table_of_contents: true
 day: wednesday
 ---

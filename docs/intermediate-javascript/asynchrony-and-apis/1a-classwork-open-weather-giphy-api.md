@@ -1,6 +1,6 @@
 ---
 title: '✏️ 2.3.1.1 OpenWeather API, Giphy API'
-id: 2311-openweather-api-giphy-api
+id: 2-3-1-1-openweather-api-giphy-api
 hide_table_of_contents: true
 day: monday
 ---

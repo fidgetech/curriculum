@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.30 Accommodations for Remote Learning"
-id: 10030-accommodations-for-remote-learning
+id: 1-0-0-30-accommodations-for-remote-learning
 hide_table_of_contents: true
 day: weekend
 paginationNext: null

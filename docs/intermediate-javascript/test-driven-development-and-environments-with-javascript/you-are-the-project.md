@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.4.4 Developer Reality: You Are the Project"
-id: 2244-developer-reality-you-are-the-project
+id: 2-2-4-4-developer-reality-you-are-the-project
 hide_table_of_contents: true
 day: thursday
 ---

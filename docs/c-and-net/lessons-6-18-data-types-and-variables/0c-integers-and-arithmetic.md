@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.08 Integers, Decimals, and Arithmetic"
-id: 30008-integers-decimals-and-arithmetic
+id: 3-0-0-08-integers-decimals-and-arithmetic
 hide_table_of_contents: true
 day: weekend
 ---

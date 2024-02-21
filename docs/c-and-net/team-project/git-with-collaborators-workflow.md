@@ -1,6 +1,6 @@
 ---
 title: "📓 3.7.0.3 Git with Collaborators: Workflow"
-id: 3703-git-with-collaborators-workflow
+id: 3-7-0-3-git-with-collaborators-workflow
 hide_table_of_contents: true
 day: weekend
 ---

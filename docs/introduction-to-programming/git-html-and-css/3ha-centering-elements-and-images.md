@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.3.9 Centering Elements and Images"
-id: 1139-centering-elements-and-images
+id: 1-1-3-9-centering-elements-and-images
 hide_table_of_contents: true
 day: wednesday
 ---

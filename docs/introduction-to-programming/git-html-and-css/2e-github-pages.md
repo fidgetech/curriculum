@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.2.12 GitHub Pages"
-id: 11212-github-pages
+id: 1-1-2-12-github-pages
 hide_table_of_contents: true
 day: tuesday
 ---

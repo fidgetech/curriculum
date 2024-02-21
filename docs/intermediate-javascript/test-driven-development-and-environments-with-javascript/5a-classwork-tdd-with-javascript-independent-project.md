@@ -1,6 +1,6 @@
 ---
 title: ✏️ 2.2.5.1 TDD and Environments with JavaScript Independent Project
-id: 2251-tdd-and-environments-with-javascript-independent-project
+id: 2-2-5-1-tdd-and-environments-with-javascript-independent-project
 hide_table_of_contents: true
 day: friday
 paginationNext: null

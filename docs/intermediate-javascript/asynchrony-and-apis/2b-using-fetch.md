@@ -1,6 +1,6 @@
 ---
 title: "📓 2.3.2.2 Fetch API"
-id: 2322-fetch-api
+id: 2-3-2-2-fetch-api
 hide_table_of_contents: true
 day: tuesday
 ---

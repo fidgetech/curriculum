@@ -1,6 +1,6 @@
 ---
 title: "📓 3.4.0.7 Many-to-Many Update Functionality"
-id: 3407-many-to-many-update-functionality
+id: 3-4-0-7-many-to-many-update-functionality
 hide_table_of_contents: true
 day: weekend
 ---

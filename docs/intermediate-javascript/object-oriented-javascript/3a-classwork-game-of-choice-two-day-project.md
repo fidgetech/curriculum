@@ -1,6 +1,6 @@
 ---
 title: ✏️ 2.1.3.1 Game of Choice
-id: 2131-game-of-choice
+id: 2-1-3-1-game-of-choice
 hide_table_of_contents: true
 day: wednesday
 ---

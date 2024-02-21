@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.3.10 Event Handling with Event Listeners"
-id: 12310-event-handling-with-event-listeners
+id: 1-2-3-10-event-handling-with-event-listeners
 hide_table_of_contents: true
 day: wednesday
 ---

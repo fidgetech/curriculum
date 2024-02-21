@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.2.1 Building a Text Analyzer"
-id: 1321-building-a-text-analyzer
+id: 1-3-2-1-building-a-text-analyzer
 hide_table_of_contents: true
 day: tuesday
 ---

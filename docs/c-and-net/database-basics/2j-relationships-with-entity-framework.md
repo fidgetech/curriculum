@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.2.4 Establishing a One-To-Many Relationship with Navigation Properties"
-id: 3324-establishing-a-one-to-many-relationship-with-navigation-properties
+id: 3-3-2-4-establishing-a-one-to-many-relationship-with-navigation-properties
 hide_table_of_contents: true
 day: tuesday
 ---

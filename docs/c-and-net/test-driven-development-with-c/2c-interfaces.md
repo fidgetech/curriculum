@@ -1,6 +1,6 @@
 ---
 title: "📓 3.1.2.3 Interfaces: Another Tool for Abstraction and Inheritance"
-id: 3123-interfaces-another-tool-for-abstraction-and-inheritance
+id: 3-1-2-3-interfaces-another-tool-for-abstraction-and-inheritance
 hide_table_of_contents: true
 day: tuesday
 ---

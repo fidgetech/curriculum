@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.1.7 Loops and Conditionals with Razor"
-id: 3217-loops-and-conditionals-with-razor
+id: 3-2-1-7-loops-and-conditionals-with-razor
 hide_table_of_contents: true
 day: monday
 ---

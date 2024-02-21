@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.2.7 Git Branching"
-id: 1127-git-branching
+id: 1-1-2-7-git-branching
 hide_table_of_contents: true
 day: tuesday
 ---

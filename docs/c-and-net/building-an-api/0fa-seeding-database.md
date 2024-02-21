@@ -1,6 +1,6 @@
 ---
 title: "📓 3.6.0.07 Seeding the Database"
-id: 36007-seeding-the-database
+id: 3-6-0-07-seeding-the-database
 hide_table_of_contents: true
 day: weekend
 ---

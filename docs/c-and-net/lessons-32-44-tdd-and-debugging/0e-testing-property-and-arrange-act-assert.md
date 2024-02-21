@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.36 Testing A Private Field through its Public Property and Organizing Tests with Arrange, Act, Assert"
-id: 30036-testing-a-private-field-through-its-public-property-and-organizing-tests-with-arrange-act-assert
+id: 3-0-0-36-testing-a-private-field-through-its-public-property-and-organizing-tests-with-arrange-act-assert
 hide_table_of_contents: true
 day: weekend
 ---

@@ -1,6 +1,6 @@
 ---
 title: ✏️ 3.3.4.2 Whiteboard Practice
-id: 3342-whiteboard-practice
+id: 3-3-4-2-whiteboard-practice
 hide_table_of_contents: true
 day: thursday
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.33 Review: the Red, Green, Refactor Workflow and Testing Best Practices"
-id: 30033-review-the-red-green-refactor-workflow-and-testing-best-practices
+id: 3-0-0-33-review-the-red-green-refactor-workflow-and-testing-best-practices
 hide_table_of_contents: true
 day: weekend
 ---

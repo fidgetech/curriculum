@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.2.0.11 Practice: Variables and Strings'
-id: 12011-practice-variables-and-strings
+id: 1-2-0-11-practice-variables-and-strings
 hide_table_of_contents: true
 day: weekend
 ---

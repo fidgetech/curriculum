@@ -1,6 +1,6 @@
 ---
 title: "📓 3.3.2.6 Create and Update with a One-To-Many Relationship"
-id: 3326-create-and-update-with-a-one-to-many-relationship
+id: 3-3-2-6-create-and-update-with-a-one-to-many-relationship
 hide_table_of_contents: true
 day: tuesday
 ---

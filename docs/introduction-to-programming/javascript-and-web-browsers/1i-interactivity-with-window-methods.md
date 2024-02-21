@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.1.9 Interactivity with Window Methods"
-id: 1219-interactivity-with-window-methods
+id: 1-2-1-9-interactivity-with-window-methods
 hide_table_of_contents: true
 day: monday
 ---

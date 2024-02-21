@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.0.1 JavaScript and Web Browsers Objectives"
-id: 1201-javascript-and-web-browsers-objectives
+id: 1-2-0-1-javascript-and-web-browsers-objectives
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

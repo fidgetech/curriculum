@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.34 MSTest Configuration and Setup"
-id: 30034-mstest-configuration-and-setup
+id: 3-0-0-34-mstest-configuration-and-setup
 hide_table_of_contents: true
 day: weekend
 ---

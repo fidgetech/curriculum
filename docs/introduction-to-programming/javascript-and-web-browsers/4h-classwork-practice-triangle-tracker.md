@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.2.4.8 Practice: Triangle Tracker'
-id: 1248-practice-triangle-tracker
+id: 1-2-4-8-practice-triangle-tracker
 hide_table_of_contents: true
 day: thursday
 ---

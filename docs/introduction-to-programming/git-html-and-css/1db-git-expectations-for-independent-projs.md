@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.3.11 Git Expectations for Independent Projects"
-id: 11311-git-expectations-for-independent-projects
+id: 1-1-3-11-git-expectations-for-independent-projects
 hide_table_of_contents: true
 day: wednesday
 ---

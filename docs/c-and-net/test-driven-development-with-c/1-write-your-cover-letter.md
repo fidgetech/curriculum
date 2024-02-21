@@ -1,6 +1,6 @@
 ---
 title: "📓 3.1.3.5 Write Your Cover Letter"
-id: 3135-write-your-cover-letter
+id: 3-1-3-5-write-your-cover-letter
 hide_table_of_contents: true
 day: wednesday
 ---

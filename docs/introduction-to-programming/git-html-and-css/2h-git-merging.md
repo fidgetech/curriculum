@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.2.8 Git Merging"
-id: 1128-git-merging
+id: 1-1-2-8-git-merging
 hide_table_of_contents: true
 day: tuesday
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.4.3 Classes and Ids"
-id: 1143-classes-and-ids
+id: 1-1-4-3-classes-and-ids
 hide_table_of_contents: true
 day: thursday
 ---

@@ -1,6 +1,6 @@
 ---
 title: '✏️ 3.1.4.0 Career Prep Day: Resumes and Cover Letters'
-id: 3140-career-prep-day-resumes-and-cover-letters
+id: 3-1-4-0-career-prep-day-resumes-and-cover-letters
 hide_table_of_contents: true
 day: thursday
 ---

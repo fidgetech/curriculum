@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.0.5 Bracket Notation"
-id: 1305-bracket-notation
+id: 1-3-0-5-bracket-notation
 hide_table_of_contents: true
 day: weekend
 ---

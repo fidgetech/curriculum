@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.3.3 Saving Objects Within Other Objects"
-id: 3233-saving-objects-within-other-objects
+id: 3-2-3-3-saving-objects-within-other-objects
 hide_table_of_contents: true
 day: wednesday
 ---

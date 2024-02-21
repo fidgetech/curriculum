@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.4.5 Function Scope Versus Block Scope"
-id: 1245-function-scope-versus-block-scope
+id: 1-2-4-5-function-scope-versus-block-scope
 hide_table_of_contents: true
 day: thursday
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.2.10 Markdown"
-id: 11210-markdown
+id: 1-1-2-10-markdown
 hide_table_of_contents: true
 day: tuesday
 ---

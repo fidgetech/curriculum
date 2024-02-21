@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.30 Console App Project Structure: How to Add More Code Files"
-id: 30030-console-app-project-structure-how-to-add-more-code-files
+id: 3-0-0-30-console-app-project-structure-how-to-add-more-code-files
 hide_table_of_contents: true
 day: weekend
 ---

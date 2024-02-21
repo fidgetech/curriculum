@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.15 Installation and Setup"
-id: 10015-installation-and-setup
+id: 1-0-0-15-installation-and-setup
 hide_table_of_contents: true
 day: weekend
 ---

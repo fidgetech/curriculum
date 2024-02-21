@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.1.5 Request-Response Loop and HTTP Methods with ASP.NET Core MVC"
-id: 3215-request-response-loop-and-http-methods-with-aspnet-core-mvc
+id: 3-2-1-5-request-response-loop-and-http-methods-with-asp-net-core-mvc
 hide_table_of_contents: true
 day: monday
 ---

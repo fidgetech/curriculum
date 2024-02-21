@@ -1,6 +1,6 @@
 ---
 title: "📓 3.5.2.1 Making an API Call with RestSharp"
-id: 3521-making-an-api-call-with-restsharp
+id: 3-5-2-1-making-an-api-call-with-restsharp
 hide_table_of_contents: true
 day: tuesday
 ---

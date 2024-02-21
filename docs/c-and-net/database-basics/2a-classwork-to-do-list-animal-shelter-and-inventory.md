@@ -1,6 +1,6 @@
 ---
 title: '✏️ 3.3.2.1 To Do List, Animal Shelter, and Inventory'
-id: 3321-to-do-list-animal-shelter-and-inventory
+id: 3-3-2-1-to-do-list-animal-shelter-and-inventory
 hide_table_of_contents: true
 day: tuesday
 ---

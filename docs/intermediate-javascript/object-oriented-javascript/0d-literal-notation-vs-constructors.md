@@ -1,6 +1,6 @@
 ---
 title: "📓 2.1.0.3 Literal Notation Versus Constructors"
-id: 2103-literal-notation-versus-constructors
+id: 2-1-0-3-literal-notation-versus-constructors
 hide_table_of_contents: true
 day: weekend
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 2.1.0.4 Constructors and Prototypes"
-id: 2104-constructors-and-prototypes
+id: 2-1-0-4-constructors-and-prototypes
 hide_table_of_contents: true
 day: weekend
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.1.4 How Web Browsers Work"
-id: 1214-how-web-browsers-work
+id: 1-2-1-4-how-web-browsers-work
 hide_table_of_contents: true
 day: monday
 ---

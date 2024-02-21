@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.26 APIE: Encapsulation"
-id: 30026-apie-encapsulation
+id: 3-0-0-26-apie-encapsulation
 hide_table_of_contents: true
 day: weekend
 ---

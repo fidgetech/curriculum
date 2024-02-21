@@ -1,6 +1,6 @@
 ---
 title: "📓 3.1.3.3 Internship Overview"
-id: 3133-internship-overview
+id: 3-1-3-3-internship-overview
 hide_table_of_contents: true
 day: wednesday
 ---

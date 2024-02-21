@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.2.14 Writing a README"
-id: 11214-writing-a-readme
+id: 1-1-2-14-writing-a-readme
 hide_table_of_contents: true
 day: tuesday
 ---

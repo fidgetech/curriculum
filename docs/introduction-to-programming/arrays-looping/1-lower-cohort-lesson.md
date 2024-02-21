@@ -1,6 +1,6 @@
 ---
 title: "📓 1.3.0.11 Mentorship Lunch Talk"
-id: 13011-mentorship-lunch-talk
+id: 1-3-0-11-mentorship-lunch-talk
 hide_table_of_contents: true
 day: weekend
 ---

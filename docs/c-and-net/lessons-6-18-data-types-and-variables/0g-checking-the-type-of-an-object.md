@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.12 Namespaces and Checking the Type of an Object"
-id: 30012-namespaces-and-checking-the-type-of-an-object
+id: 3-0-0-12-namespaces-and-checking-the-type-of-an-object
 hide_table_of_contents: true
 day: weekend
 ---

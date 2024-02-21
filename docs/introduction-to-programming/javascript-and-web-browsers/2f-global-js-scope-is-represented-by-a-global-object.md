@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.2.6 JavaScript's Global Object"
-id: 1226-javascript's-global-object
+id: 1-2-2-6-javascripts-global-object
 hide_table_of_contents: true
 day: tuesday
 ---

@@ -1,6 +1,6 @@
 ---
 title: "📓 3.1.2.6 Nullable Types"
-id: 3126-nullable-types
+id: 3-1-2-6-nullable-types
 hide_table_of_contents: true
 day: tuesday
 ---

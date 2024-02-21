@@ -1,6 +1,6 @@
 ---
 title: "📓 3.6.2.4 MVC Client: GetAll()"
-id: 3624-mvc-client-getall
+id: 3-6-2-4-mvc-client-getall
 hide_table_of_contents: true
 day: tuesday
 ---

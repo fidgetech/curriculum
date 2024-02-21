@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.2.1.15 Practice: Calculator UI and Business Logic'
-id: 12115-practice-calculator-ui-and-business-logic
+id: 1-2-1-15-practice-calculator-ui-and-business-logic
 hide_table_of_contents: true
 day: monday
 ---

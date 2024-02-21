@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.0.18 Configuration Quick Reference"
-id: 32018-configuration-quick-reference
+id: 3-2-0-18-configuration-quick-reference
 hide_table_of_contents: true
 day: weekend
 ---

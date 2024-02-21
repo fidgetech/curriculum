@@ -1,6 +1,6 @@
 ---
 title: "📓 3.2.0.6 How the Web Works: Server-Side Rendering"
-id: 3206-how-the-web-works-server-side-rendering
+id: 3-2-0-6-how-the-web-works-server-side-rendering
 hide_table_of_contents: true
 day: weekend
 ---

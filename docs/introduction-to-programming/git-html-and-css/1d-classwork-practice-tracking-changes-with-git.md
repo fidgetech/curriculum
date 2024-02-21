@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.1.1.2 Practice: Tracking Changes with Git'
-id: 1112-practice-tracking-changes-with-git
+id: 1-1-1-2-practice-tracking-changes-with-git
 hide_table_of_contents: true
 day: monday
 ---

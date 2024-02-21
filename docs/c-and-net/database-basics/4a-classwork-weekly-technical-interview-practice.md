@@ -1,6 +1,6 @@
 ---
 title: ✏️ 3.3.4.1 Technical Interview Practice
-id: 3341-technical-interview-practice
+id: 3-3-4-1-technical-interview-practice
 hide_table_of_contents: true
 day: thursday
 ---

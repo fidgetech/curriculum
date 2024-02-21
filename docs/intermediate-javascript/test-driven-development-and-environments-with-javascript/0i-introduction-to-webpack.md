@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.0.9 Introduction to webpack"
-id: 2209-introduction-to-webpack
+id: 2-2-0-9-introduction-to-webpack
 hide_table_of_contents: true
 day: weekend
 ---

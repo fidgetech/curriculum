@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.4.2 Form Input Types"
-id: 1242-form-input-types
+id: 1-2-4-2-form-input-types
 hide_table_of_contents: true
 day: thursday
 ---

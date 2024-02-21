@@ -1,6 +1,6 @@
 ---
 title: "📓 2.2.0.19 Adding A Production Dependency: Bootstrap"
-id: 22019-adding-a-production-dependency-bootstrap
+id: 2-2-0-19-adding-a-production-dependency-bootstrap
 hide_table_of_contents: true
 day: weekend
 ---

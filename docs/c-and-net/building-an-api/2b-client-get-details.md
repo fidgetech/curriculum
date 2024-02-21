@@ -1,6 +1,6 @@
 ---
 title: "📓 3.6.2.5 MVC Client: GetDetails()"
-id: 3625-mvc-client-getdetails
+id: 3-6-2-5-mvc-client-getdetails
 hide_table_of_contents: true
 day: tuesday
 ---

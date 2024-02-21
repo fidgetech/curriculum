@@ -1,6 +1,6 @@
 ---
 title: ✏️ 3.3.3.1 Best Restaurants in Town
-id: 3331-best-restaurants-in-town
+id: 3-3-3-1-best-restaurants-in-town
 hide_table_of_contents: true
 day: wednesday
 ---

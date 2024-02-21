@@ -1,6 +1,6 @@
 ---
 title: "📓 1.1.4.11 Bootstrap: Navigating Documentation"
-id: 11411-bootstrap-navigating-documentation
+id: 1-1-4-11-bootstrap-navigating-documentation
 hide_table_of_contents: true
 day: thursday
 ---

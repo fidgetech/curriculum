@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.09 Variables"
-id: 30009-variables
+id: 3-0-0-09-variables
 hide_table_of_contents: true
 day: weekend
 ---

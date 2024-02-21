@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.1.1.1 Practice: Git Project Setup'
-id: 1111-practice-git-project-setup
+id: 1-1-1-1-practice-git-project-setup
 hide_table_of_contents: true
 day: monday
 ---

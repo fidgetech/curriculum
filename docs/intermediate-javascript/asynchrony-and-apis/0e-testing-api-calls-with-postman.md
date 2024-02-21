@@ -1,6 +1,6 @@
 ---
 title: "📓 2.3.0.5 Testing API Calls with Postman"
-id: 2305-testing-api-calls-with-postman
+id: 2-3-0-5-testing-api-calls-with-postman
 hide_table_of_contents: true
 day: weekend
 ---

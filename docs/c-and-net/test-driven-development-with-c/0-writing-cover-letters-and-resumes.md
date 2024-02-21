@@ -1,6 +1,6 @@
 ---
 title: "📓 3.1.3.4 Writing Cover Letters and Resumes"
-id: 3134-writing-cover-letters-and-resumes
+id: 3-1-3-4-writing-cover-letters-and-resumes
 hide_table_of_contents: true
 day: wednesday
 ---

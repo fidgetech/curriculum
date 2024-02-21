@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.28 Installing and Using VS Code Live Share"
-id: 10028-installing-and-using-vs-code-live-share
+id: 1-0-0-28-installing-and-using-vs-code-live-share
 hide_table_of_contents: true
 day: weekend
 ---

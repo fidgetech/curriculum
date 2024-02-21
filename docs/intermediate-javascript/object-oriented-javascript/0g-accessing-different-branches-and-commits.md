@@ -1,6 +1,6 @@
 ---
 title: "📓 2.1.0.6 Accessing Code From Different Branches"
-id: 2106-accessing-code-from-different-branches
+id: 2-1-0-6-accessing-code-from-different-branches
 hide_table_of_contents: true
 day: weekend
 ---

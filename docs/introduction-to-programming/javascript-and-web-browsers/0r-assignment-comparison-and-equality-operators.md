@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.0.18 Assignment, Comparison, and Equality Operators"
-id: 12018-assignment-comparison-and-equality-operators
+id: 1-2-0-18-assignment-comparison-and-equality-operators
 hide_table_of_contents: true
 day: weekend
 ---

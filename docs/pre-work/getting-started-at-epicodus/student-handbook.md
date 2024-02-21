@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.13 Student Handbook"
-id: 10013-student-handbook
+id: 1-0-0-13-student-handbook
 hide_table_of_contents: true
 day: weekend
 paginationNext: null

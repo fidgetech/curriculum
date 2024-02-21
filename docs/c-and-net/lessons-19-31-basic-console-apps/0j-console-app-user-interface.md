@@ -1,6 +1,6 @@
 ---
 title: "📓 3.0.0.28 Creating a User Interface for a Console App"
-id: 30028-creating-a-user-interface-for-a-console-app
+id: 3-0-0-28-creating-a-user-interface-for-a-console-app
 hide_table_of_contents: true
 day: weekend
 ---

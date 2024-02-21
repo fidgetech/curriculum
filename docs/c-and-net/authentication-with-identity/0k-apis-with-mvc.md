@@ -1,6 +1,6 @@
 ---
 title: "📓 3.5.2.3 API Calls in an ASP.NET Core MVC App"
-id: 3523-api-calls-in-an-aspnet-core-mvc-app
+id: 3-5-2-3-api-calls-in-an-asp-net-core-mvc-app
 hide_table_of_contents: true
 day: tuesday
 ---

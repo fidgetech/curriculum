@@ -1,6 +1,6 @@
 ---
 title: "📓 1.0.0.14 Welcome to Intro"
-id: 10014-welcome-to-intro
+id: 1-0-0-14-welcome-to-intro
 hide_table_of_contents: true
 day: weekend
 paginationPrev: null

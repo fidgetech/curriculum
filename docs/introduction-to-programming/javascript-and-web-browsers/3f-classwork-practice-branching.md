@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.2.3.7 Practice: Branching'
-id: 1237-practice-branching
+id: 1-2-3-7-practice-branching
 hide_table_of_contents: true
 day: wednesday
 ---

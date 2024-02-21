@@ -1,6 +1,6 @@
 ---
 title: "📓 1.2.1.14 Calculator UI and Business Logic"
-id: 12114-calculator-ui-and-business-logic
+id: 1-2-1-14-calculator-ui-and-business-logic
 hide_table_of_contents: true
 day: monday
 ---

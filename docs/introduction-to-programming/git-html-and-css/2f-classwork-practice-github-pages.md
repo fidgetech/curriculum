@@ -1,6 +1,6 @@
 ---
 title: '✏️ 1.1.2.13 Practice: GitHub Pages'
-id: 11213-practice-github-pages
+id: 1-1-2-13-practice-github-pages
 hide_table_of_contents: true
 day: tuesday
 ---

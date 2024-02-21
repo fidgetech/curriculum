@@ -1,6 +1,6 @@
 ---
 title: ✏️ 3.2.5.1 Basic Web Applications Independent Project
-id: 3251-basic-web-applications-independent-project
+id: 3-2-5-1-basic-web-applications-independent-project
 hide_table_of_contents: true
 day: friday
 paginationNext: null
