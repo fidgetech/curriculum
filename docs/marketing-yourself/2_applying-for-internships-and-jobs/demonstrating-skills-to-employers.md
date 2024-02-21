@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Demonstrating Skills to Employers"
+title: "📓 Demonstrating Skills to Employers"
 id: demonstrating-skills-to-employers
-slug: demonstrating-skills-to-employers
 hide_table_of_contents: true
-sidebar_position: 20
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/demonstrating_skills_to_employers.md
 ---
 
 # Demonstrating Skills to Employers and Answering Common Interview Questions

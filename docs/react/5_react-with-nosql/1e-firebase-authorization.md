@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Firebase Authorization"
+title: "📓 Firebase Authorization"
 id: firebase-authorization
-slug: firebase-authorization
 hide_table_of_contents: true
-sidebar_position: 28
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/1e_firebase_authorization.md'
 ---
 
 In the last lesson, we added Firebase authentication to our `SignIn` component. However at this point, it really doesn't make a difference because our application doesn't care whether a user is signed in or not. In this lesson, we'll add some basic authorization to lock down the queue if a user isn't signed in.

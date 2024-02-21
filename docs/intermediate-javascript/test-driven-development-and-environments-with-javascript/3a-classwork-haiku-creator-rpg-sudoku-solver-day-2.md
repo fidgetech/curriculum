@@ -1,12 +1,8 @@
 ---
 title: '✏️ 2.2.4.1 Haiku Creator, RPG, Sudoku Solver (Longer Project) - Part 2 (day 2)'
 id: 2241-haiku-creator-rpg-sudoku-solver-longer-project---part-2-day-2
-slug: 2241-haiku-creator-rpg-sudoku-solver-longer-project---part-2-day-2
 hide_table_of_contents: true
-sidebar_position: 43
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/3a_classwork_haiku_creator_rpg_sudoku_solver.md
 ---
 
 **Goal:** Continue to practice testing with Jest and implementing ES6 features along the way. You should use ES6 classes, since those will be required on the code review. Test all of your business logic using TDD and Jest.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.0.1 Arrays and Looping Objectives"
+title: "📓 1.3.0.1 Arrays and Looping Objectives"
 id: 1301-arrays-and-looping-objectives
-slug: 1301-arrays-and-looping-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0a_arrays_and_looping_objectives.md
 paginationPrev: null
 ---
 

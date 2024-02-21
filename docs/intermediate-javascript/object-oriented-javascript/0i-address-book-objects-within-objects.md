@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.1.0.8 Address Book: Objects Within Objects"
+title: "📓 2.1.0.8 Address Book: Objects Within Objects"
 id: 2108-address-book-objects-within-objects
-slug: 2108-address-book-objects-within-objects
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0i_address_book_objects_within_objects.md
 ---
 
 In a real world application, we'd save our address book's `Contact`s in a database. However, we aren't working with databases yet. Instead, we'll create a mock database (a fake database) and store its data inside a global variable.

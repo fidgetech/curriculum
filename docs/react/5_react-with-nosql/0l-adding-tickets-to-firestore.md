@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Adding Tickets to Firestore"
+title: "📓 Adding Tickets to Firestore"
 id: adding-tickets-to-firestore
-slug: adding-tickets-to-firestore
 hide_table_of_contents: true
-sidebar_position: 12
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0l_adding_tickets_to_firestore.md'
 ---
 
 Let's update our Help Queue to add new tickets directly to our Firestore database. Since Firestore data is saved in documents, which are grouped into collections, we'll need to create a `tickets` collection to hold individual ticket documents. To do this, we'll update the `handleAddingNewTicketToList` function in `TicketControl.js` and make use two Firestore functions: 

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.3.2.4 Further Exploration: IIFEs"
+title: "📓 2.3.2.4 Further Exploration: IIFEs"
 id: 2324-further-exploration-iifes
-slug: 2324-further-exploration-iifes
 hide_table_of_contents: true
-sidebar_position: 23
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/2d_further_exploration_iifes.md
 ---
 
 This lesson is **optional further exploration**. You can skip it entirely if you want. We'll use a more advanced technique called an IIFE to refactor the code we wrote in the last lesson. 

@@ -1,12 +1,8 @@
 ---
 title: '✏️ 3.1.1.1 Shape Tracker, Ping Pong, Sphinx, Queen Attack'
 id: 3111-shape-tracker-ping-pong-sphinx-queen-attack
-slug: 3111-shape-tracker-ping-pong-sphinx-queen-attack
 hide_table_of_contents: true
-sidebar_position: 2
 day: monday
-type: exercise
-url: https://github.com/fidgetech/c-and-net/blob/main/1a_classwork_shape_tracker_ping_pong_sphinx_queen_attack.md
 ---
 
 **Goal:** Use branching, looping, and other foundational C# concepts to build working console applications with C#. Don't worry about trying to complete all the exercises. Focus on getting more comfortable with C# and understanding key concepts.

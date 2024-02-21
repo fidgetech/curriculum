@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Adding Local State"
+title: "📓 Adding Local State"
 id: adding-local-state
-slug: adding-local-state
 hide_table_of_contents: true
-sidebar_position: 21
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/1d_adding_local_state.md'
 ---
 
 We're ready to add local state to our application. We'll start by adding two new components to `src/components`:

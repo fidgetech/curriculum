@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.3.0.14 Finding Objects in the Database"
+title: "📓 3.3.0.14 Finding Objects in the Database"
 id: 33014-finding-objects-in-the-database
-slug: 33014-finding-objects-in-the-database
 hide_table_of_contents: true
-sidebar_position: 14
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0n_finding_objects_in_the_database.md
 ---
 
 Now that we can successfully save `Item`s to the database, we're ready to update our `Find()` method to so that we can retrieve specific `Item`s by their ID.

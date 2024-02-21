@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Introduction to State"
+title: "📓 Introduction to State"
 id: introduction-to-state
-slug: introduction-to-state
 hide_table_of_contents: true
-sidebar_position: 19
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/1b_introduction_to_state.md'
 ---
 
 In this lesson, we'll briefly cover the concept of state. We'll discuss shared state versus local state. We'll also briefly cover how we define and change state in a pure React application. Then, over the next several lessons, we'll add state to our Help Queue application so we can dynamically add new tickets.

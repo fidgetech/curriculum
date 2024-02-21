@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.2.0.11 Practice: Variables and Strings'
 id: 12011-practice-variables-and-strings
-slug: 12011-practice-variables-and-strings
 hide_table_of_contents: true
-sidebar_position: 11
 day: weekend
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0k_classwork_practice_variables_and_strings.md
 ---
 
 **Goal:** Practice creating and utilizing variables and strings by completing the exercises listed below. Variables and strings are both a fundamental building block of programming, so begin getting comfortable with them now!

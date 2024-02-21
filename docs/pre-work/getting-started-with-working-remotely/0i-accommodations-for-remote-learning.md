@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.30 Accommodations for Remote Learning"
+title: "📓 1.0.0.30 Accommodations for Remote Learning"
 id: 10030-accommodations-for-remote-learning
-slug: 10030-accommodations-for-remote-learning
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/pre-work/blob/main/0i_accommodations_for_remote_learning.md
 paginationNext: null
 ---
 

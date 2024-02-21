@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Writing Our Second Redux Test"
+title: "📓 Writing Our Second Redux Test"
 id: writing-our-second-redux-test
-slug: writing-our-second-redux-test
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0e_writing_our_second_redux_test.md
 ---
 
 We're ready to move on to our second test. Our goal is to give our Help Queue full CRUD functionality with Redux. In order to do that, we will need to be able to add a ticket.

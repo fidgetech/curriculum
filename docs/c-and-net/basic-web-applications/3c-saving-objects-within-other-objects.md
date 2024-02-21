@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.3.3 Saving Objects Within Other Objects"
+title: "📓 3.2.3.3 Saving Objects Within Other Objects"
 id: 3233-saving-objects-within-other-objects
-slug: 3233-saving-objects-within-other-objects
 hide_table_of_contents: true
-sidebar_position: 35
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/3c_saving_objects_within_other_objects.md
 ---
 
 In the last lesson, we set up our new `Category` class with basic functionality like getters, a constructor, unique IDs, and a static list to contain all `Category`s. Now we can focus on tying together our `Category` and `Item` classes. That way, a `Category` object with a `Name` like "School" can hold many different To Do List `Item`s with `Description`s like "Finish section 2 code review," "Email teacher about planned absence," and so on.

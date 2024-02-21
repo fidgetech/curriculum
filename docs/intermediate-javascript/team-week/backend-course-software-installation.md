@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.4.0.8 Backend Course Preparation: Software Installation"
+title: "📓 2.4.0.8 Backend Course Preparation: Software Installation"
 id: 2408-backend-course-preparation-software-installation
-slug: 2408-backend-course-preparation-software-installation
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/backend_course_software_installation.md
 ---
 
 It's time to prepare for the next course by installing all relevant software! Depending on what track you signed up for, you will install software for C#/.NET or Ruby/Rails. 

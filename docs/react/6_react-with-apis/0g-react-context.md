@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 React Context"
+title: "📓 React Context"
 id: react-context
-slug: react-context
 hide_table_of_contents: true
-sidebar_position: 7
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0g_react_context.md'
 ---
 
 Now let's turn our attention to learning a new React tool for sharing data called **context**. In this lesson we'll get a conceptual introduction to context: what it is, its common use cases, and its alternatives. 

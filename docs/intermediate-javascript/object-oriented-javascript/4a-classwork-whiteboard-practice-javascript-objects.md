@@ -1,12 +1,8 @@
 ---
 title: '✏️ 2.1.4.1 Whiteboard Practice: JavaScript Objects'
 id: 2141-whiteboard-practice-javascript-objects
-slug: 2141-whiteboard-practice-javascript-objects
 hide_table_of_contents: true
-sidebar_position: 27
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/4a_classwork_whiteboard_practice_javascript_objects.md
 ---
 
 ## Whiteboard Practice

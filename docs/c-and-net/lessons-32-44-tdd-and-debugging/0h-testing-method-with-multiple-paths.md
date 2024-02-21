@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.39 Testing A Method with Multiple Behaviors"
+title: "📓 3.0.0.39 Testing A Method with Multiple Behaviors"
 id: 30039-testing-a-method-with-multiple-behaviors
-slug: 30039-testing-a-method-with-multiple-behaviors
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0h_testing_method_with_multiple_paths.md
 ---
 
 At this point we have seven passing tests and a fully tested `Triangle` constructor, field, property, and auto-implemented property. What's the next behavior we want to implement for our `Triangle` class? I'd say we're ready to work on the `Triangle.CheckType()` instance method that will determine what type of triangle we have. 

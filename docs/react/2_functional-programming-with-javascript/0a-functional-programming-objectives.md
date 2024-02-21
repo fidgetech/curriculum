@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Functional Programming with JavaScript Objectives"
+title: "📓 Functional Programming with JavaScript Objectives"
 id: functional-programming-with-javascript-objectives
-slug: functional-programming-with-javascript-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0a_functional_programming_objectives.md
 paginationPrev: null
 ---
 

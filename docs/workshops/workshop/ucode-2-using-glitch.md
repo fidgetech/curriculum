@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Using Glitch"
+title: "📓 Using Glitch"
 id: using-glitch
-slug: using-glitch
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/workshops/blob/main/ucode_2_using_glitch.md'
 ---
 
 In this lesson, we'll go over how to start a Glitch session and share it with a pair. 

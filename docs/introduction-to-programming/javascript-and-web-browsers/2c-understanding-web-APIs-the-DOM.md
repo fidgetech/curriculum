@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.2.3 Understanding Web APIs: The DOM"
+title: "📓 1.2.2.3 Understanding Web APIs: The DOM"
 id: 1223-understanding-web-apis-the-dom
-slug: 1223-understanding-web-apis-the-dom
 hide_table_of_contents: true
-sidebar_position: 41
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/2c_understanding_web_APIs_the_DOM.md
 ---
 
 It's time to move beyond `window` methods to get a user response. Remember in the "Business and User Interface" lesson when we learned this?

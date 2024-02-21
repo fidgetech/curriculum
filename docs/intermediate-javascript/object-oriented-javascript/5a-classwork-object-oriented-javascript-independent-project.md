@@ -1,12 +1,8 @@
 ---
 title: ✏️ 2.1.5.1 Object-Oriented JavaScript Independent Project
 id: 2151-object-oriented-javascript-independent-project
-slug: 2151-object-oriented-javascript-independent-project
 hide_table_of_contents: true
-sidebar_position: 29
 day: friday
-type: exercise
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/5a_classwork_object_oriented_javascript_independent_project.md
 paginationNext: null
 ---
 

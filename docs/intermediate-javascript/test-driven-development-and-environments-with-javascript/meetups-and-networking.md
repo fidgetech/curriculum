@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.4.3 Meetups and Networking"
+title: "📓 2.2.4.3 Meetups and Networking"
 id: 2243-meetups-and-networking
-slug: 2243-meetups-and-networking
 hide_table_of_contents: true
-sidebar_position: 45
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/meetups-and-networking.md
 ---
 
 ## Meetups and Networking

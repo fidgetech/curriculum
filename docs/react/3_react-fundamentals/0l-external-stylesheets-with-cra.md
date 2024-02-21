@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Using External Stylesheets with React"
+title: "📓 Using External Stylesheets with React"
 id: using-external-stylesheets-with-react
-slug: using-external-stylesheets-with-react
 hide_table_of_contents: true
-sidebar_position: 12
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0l_external_stylesheets_with_cra.md
 ---
 
 Up to this point, we haven't discussed adding CSS styles to a React application. There are many different ways of adding styles to React applications, including using external stylesheets and creating CSS objects. In this lesson, we'll discuss using external stylesheets for CSS styling. Later in this course section, we will discuss styling with CSS objects. We will also cover other approaches in future weeks.

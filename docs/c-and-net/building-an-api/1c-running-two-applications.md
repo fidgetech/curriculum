@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.6.1.3 Configuring Application URLs to Run Two ASP.NET Core Applications"
+title: "📓 3.6.1.3 Configuring Application URLs to Run Two ASP.NET Core Applications"
 id: 3613-configuring-application-urls-to-run-two-aspnet-core-applications
-slug: 3613-configuring-application-urls-to-run-two-aspnet-core-applications
 hide_table_of_contents: true
-sidebar_position: 15
 day: monday
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/1c_running_two_applications.md
 ---
 
 Over the next few days, we'll build an application that will make calls to the API we built in the first part of this section. In order to do this, we'll need to have two applications running simultaneously. However, if we try running two applications on the same port, we'll get the following error:

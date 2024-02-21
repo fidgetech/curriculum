@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.0.15 Using Forms with MVC"
+title: "📓 3.2.0.15 Using Forms with MVC"
 id: 32015-using-forms-with-mvc
-slug: 32015-using-forms-with-mvc
 hide_table_of_contents: true
-sidebar_position: 15
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0o_using_forms_with_mvc.md'
 ---
 
 In this lesson, we'll learn how to add forms to our virtual postcard application so anyone can create a custom postcard for their friends.

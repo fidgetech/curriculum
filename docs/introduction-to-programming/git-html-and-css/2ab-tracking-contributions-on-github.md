@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.1.2.1 Commit Trailers and Github Contributions"
+title: "📓 1.1.2.1 Commit Trailers and Github Contributions"
 id: 1121-commit-trailers-and-github-contributions
-slug: 1121-commit-trailers-and-github-contributions
 hide_table_of_contents: true
-sidebar_position: 13
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/2ab_tracking_contributions_on_github.md
 ---
 
 There are many reasons why we should commit our code regularly. We can ensure that all the changes in our code are tracked, both major and minor. If something breaks in our code, we can return to a commit where we know the code is working. Finally, regular commits make it much easier for different people working in different places to track and contribute to a project.

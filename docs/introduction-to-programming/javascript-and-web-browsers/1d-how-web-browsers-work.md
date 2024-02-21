@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.1.4 How Web Browsers Work"
+title: "📓 1.2.1.4 How Web Browsers Work"
 id: 1214-how-web-browsers-work
-slug: 1214-how-web-browsers-work
 hide_table_of_contents: true
-sidebar_position: 26
 day: monday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1d_how_web_browsers_work.md
 ---
 
 There are many standard structures in place that define how the internet works and how websites get loaded into our browsers. Throughout the program, we'll incrementally learn about these subjects, and this lesson is one of our first opportunities. 

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.4.6 Debugging in JavaScript: Pausing on Exceptions"
+title: "📓 1.2.4.6 Debugging in JavaScript: Pausing on Exceptions"
 id: 1246-debugging-in-javascript-pausing-on-exceptions
-slug: 1246-debugging-in-javascript-pausing-on-exceptions
 hide_table_of_contents: true
-sidebar_position: 70
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4f_debugging_pausing_on_exceptions.md
 ---
 
 In this lesson, we'll cover a new debugging tactic: **pausing on exceptions**. This involves configuring web browser DevTools to automatically pause our code whenever it hits an exception. An **exception** is just a slightly fancier name for an error. Exceptions are divided into two groups: uncaught/unhandled and caught. 

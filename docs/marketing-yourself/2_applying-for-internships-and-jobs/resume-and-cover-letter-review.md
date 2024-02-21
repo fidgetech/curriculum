@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Resume and Cover Letter Review"
+title: "📓 Resume and Cover Letter Review"
 id: resume-and-cover-letter-review
-slug: resume-and-cover-letter-review
 hide_table_of_contents: true
-sidebar_position: 34
 day: monday
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/resume_and_cover_letter_review.md
 ---
 
 Before you submit a job application, have somebody else review your resume and cover letter to make sure it looks as good as possible.

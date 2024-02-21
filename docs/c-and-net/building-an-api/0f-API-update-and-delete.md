@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.6.0.06 API: Update and Delete"
+title: "📓 3.6.0.06 API: Update and Delete"
 id: 36006-api-update-and-delete
-slug: 36006-api-update-and-delete
 hide_table_of_contents: true
-sidebar_position: 7
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0f_API_update_and_delete.md'
 ---
 
 In the last lesson, we added create and read functionality to our Cretaceous Park API. In this lesson, we'll add update and delete functionality as well.

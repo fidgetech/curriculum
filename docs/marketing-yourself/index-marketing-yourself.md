@@ -3,7 +3,6 @@ title: Marketing Yourself
 id: index
 slug: /marketing-yourself
 hide_table_of_contents: true
-sidebar_position: 0
 ---
 
 Welcome to the Marketing Yourself Home Page.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.1.8 Multiple Controllers"
+title: "📓 3.2.1.8 Multiple Controllers"
 id: 3218-multiple-controllers
-slug: 3218-multiple-controllers
 hide_table_of_contents: true
-sidebar_position: 26
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/1g_multiple_controllers.md'
 ---
 
 So far we've been using a single controller to handle our routes. However, larger projects often use many controllers and it's common to create a controller for each model in our application. In this lesson, we'll walk through the correct way to implement more than one controller.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.6.4.1 Weekly Technical Interview Prep"
+title: "📓 3.6.4.1 Weekly Technical Interview Prep"
 id: 3641-weekly-technical-interview-prep
-slug: 3641-weekly-technical-interview-prep
 hide_table_of_contents: true
-sidebar_position: 22
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/4b_weekly_technical_interview_prep.md
 ---
 
 At the end of every course section, we'll take a break from coding to practice interview questions. These questions will (primarily) revolve around the content we learned in this section, and, much like a "real" interview, some will be more technical than others.

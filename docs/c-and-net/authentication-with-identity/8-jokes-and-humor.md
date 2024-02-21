@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.5.1.4 Jokes and Appropriate Humor"
+title: "📓 3.5.1.4 Jokes and Appropriate Humor"
 id: 3514-jokes-and-appropriate-humor
-slug: 3514-jokes-and-appropriate-humor
 hide_table_of_contents: true
-sidebar_position: 13
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/8_jokes_and_humor.md'
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Binary Search Algorithm"
+title: "📓 Binary Search Algorithm"
 id: binary-search-algorithm
-slug: binary-search-algorithm
 hide_table_of_contents: true
-sidebar_position: 32
 day: thursday
-type: lesson
-url: 'https://github.com/fidgetech/capstone/blob/main/binary_search_algorithm.md'
 ---
 
 In this lesson, we'll explore an important algorithm known as **binary search**. You have probably used a binary search algorithm before — in fact, you probably used one when you were a kid.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Action Creators"
+title: "📓 Action Creators"
 id: action-creators
-slug: action-creators
 hide_table_of_contents: true
-sidebar_position: 23
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/2b_action_creators.md'
 ---
 
 Over the next two lessons, we will learn some simple techniques that will allow us to clean up our code. These techniques are considered Redux best practices.

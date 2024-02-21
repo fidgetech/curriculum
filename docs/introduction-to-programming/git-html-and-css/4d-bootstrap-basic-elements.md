@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.1.4.6 Bootstrap Basic Elements"
+title: "📓 1.1.4.6 Bootstrap Basic Elements"
 id: 1146-bootstrap-basic-elements
-slug: 1146-bootstrap-basic-elements
 hide_table_of_contents: true
-sidebar_position: 44
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4d_bootstrap_basic_elements.md
 ---
 
 In this lesson, we'll learn how to implement several of the most common Bootstrap resources and styles. These resources will make our projects look considerably nicer without much additional work.

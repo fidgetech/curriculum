@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.1.4.4 Introduction to Bootstrap"
+title: "📓 1.1.4.4 Introduction to Bootstrap"
 id: 1144-introduction-to-bootstrap
-slug: 1144-introduction-to-bootstrap
 hide_table_of_contents: true
-sidebar_position: 42
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4b_introduction_to_bootstrap.md
 ---
 
 Even if you don't pursue a career in web design, you'll need to know enough about CSS to apply the correct classes to your code to integrate a designer's CSS. You'll also need to know how to make small changes to CSS as required by your project. This is why it's so important for both web developers _and_ designers to understand CSS basics.

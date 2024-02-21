@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Prop Types"
+title: "📓 Prop Types"
 id: prop-types
-slug: prop-types
 hide_table_of_contents: true
-sidebar_position: 10
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0j_proptypes.md'
 ---
 
 ## Declaring Prop Types

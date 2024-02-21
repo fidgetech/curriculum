@@ -1,12 +1,8 @@
 ---
 title: ✏️ Bit Manipulation Practice
 id: bit-manipulation-practice
-slug: bit-manipulation-practice
 hide_table_of_contents: true
-sidebar_position: 27
 day: wednesday
-type: exercise
-url: 'https://github.com/fidgetech/capstone/blob/main/4_bit_manipulation_problems.md'
 ---
 
 Now it's time to practice using bitwise manipulation. The problems below are sorted from easiest to hardest. See if you can try solving them with a whiteboard. If not, solving them in VS Code is fine, too.

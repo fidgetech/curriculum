@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.30 Console App Project Structure: How to Add More Code Files"
+title: "📓 3.0.0.30 Console App Project Structure: How to Add More Code Files"
 id: 30030-console-app-project-structure-how-to-add-more-code-files
-slug: 30030-console-app-project-structure-how-to-add-more-code-files
 hide_table_of_contents: true
-sidebar_position: 12
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0l_multiple_files.md'
 ---
 
 In this lesson, we'll go over how to add more code files to our Shape Tracker project, and what namespaces we might add them to. We'll also learn that classes in the same namespace are in the same **scope** and therefore have access to each other without the need of a using directive.

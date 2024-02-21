@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.26 Working with a Dev Team"
+title: "📓 1.0.0.26 Working with a Dev Team"
 id: 10026-working-with-a-dev-team
-slug: 10026-working-with-a-dev-team
 hide_table_of_contents: true
-sidebar_position: 4
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0e_working_with_a_dev_team.md'
 ---
 
 Enterprise companies, especially larger ones, often assign their developers to development teams. These teams work together to build features and fix bugs. At Epicodus, students work with an assigned team every course section (known as a dev team) and pair with someone new from that team every day in class. At the start of every course section, you will be assigned a new dev team.

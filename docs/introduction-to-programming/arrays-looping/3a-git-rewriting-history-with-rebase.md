@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.3.1 Rewriting Git History with Rebase"
+title: "📓 1.3.3.1 Rewriting Git History with Rebase"
 id: 1331-rewriting-git-history-with-rebase
-slug: 1331-rewriting-git-history-with-rebase
 hide_table_of_contents: true
-sidebar_position: 30
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/3a_git_rewriting_history_with_rebase.md
 ---
 
 We always want to include clear and detailed messages with our commits. However, even the most careful developers can make mistakes. Thankfully, Git offers several options to re-write commits.

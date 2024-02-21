@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.1.3.5 Write Your Cover Letter"
+title: "📓 3.1.3.5 Write Your Cover Letter"
 id: 3135-write-your-cover-letter
-slug: 3135-write-your-cover-letter
 hide_table_of_contents: true
-sidebar_position: 20
 day: wednesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/1_write_your_cover_letter.md'
 ---
 
 After following the steps depicted in the previous lesson, we're now ready to actually write the cover letter.

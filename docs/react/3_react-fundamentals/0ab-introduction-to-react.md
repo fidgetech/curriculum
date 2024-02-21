@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Introduction to React"
+title: "📓 Introduction to React"
 id: introduction-to-react
-slug: introduction-to-react
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0ab_introduction_to_react.md'
 ---
 
 React is a JavaScript library used to create highly dynamic views. In this lesson, we'll explore its history, who uses it, and the functionality and benefits it offers.

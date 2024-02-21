@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.1.4 Setting Up Jest"
+title: "📓 2.2.1.4 Setting Up Jest"
 id: 2214-setting-up-jest
-slug: 2214-setting-up-jest
 hide_table_of_contents: true
-sidebar_position: 24
 day: monday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/1d_setting_up_jest.md
 ---
 
 There are many JavaScript testing frameworks. Some of the most popular include **Jest**, **Jasmine**, and **Mocha**. These libraries have many similarities, and after learning one, you can quickly learn others. We use Jest because it is the testing framework of choice for React. It's also a popular testing framework for JavaScript in general.

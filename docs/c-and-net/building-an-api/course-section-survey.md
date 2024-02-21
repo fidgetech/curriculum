@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.6.1.1 Prior Course Section Survey"
+title: "📓 3.6.1.1 Prior Course Section Survey"
 id: 3611-prior-course-section-survey
-slug: 3611-prior-course-section-survey
 hide_table_of_contents: true
-sidebar_position: 13
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/course_section_survey.md'
 ---
 
 This is a survey for the previous course section you just completed at the end of last week. We rely on this survey to get a general view of is and isn’t working well in the program, the curriculum, or our classroom model.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.1.16 Homework: Identifying and Preventing Microaggressions"
+title: "📓 1.2.1.16 Homework: Identifying and Preventing Microaggressions"
 id: 12116-homework-identifying-and-preventing-microaggressions
-slug: 12116-homework-identifying-and-preventing-microaggressions
 hide_table_of_contents: true
-sidebar_position: 38
 day: monday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/2_identifying_and_preventing_microaggressions.md
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week, we will cover microaggressions: what they are, how they impact people, and how to recognize and prevent them. **An Epicodus staff member will be leading a discussion on this topic in the next class session.** Please read through this lesson in preparation for the discussion. We encourage you to bring your questions, commentary, reflections, and any experiences that you wish to share with the group. 

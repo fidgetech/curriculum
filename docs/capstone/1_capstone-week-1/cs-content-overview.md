@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Computer Science Section Expectations"
+title: "📓 Computer Science Section Expectations"
 id: computer-science-section-expectations
-slug: computer-science-section-expectations
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/capstone/blob/main/cs_content_overview.md'
 ---
 
 Over the next five weeks, we'll be covering key computer science concepts that are taught in computer science programs and elsewhere. In _Cracking the Coding Interview_, Gayle Laakmann McDowell includes a list of basic, must-have knowledge for coding interviews. Our computer science curriculum is modeled around covering these recommended concepts because they provide an excellent structure for learning computer science and improving your coding interview skills.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.10 Academic Honesty"
+title: "📓 1.0.0.10 Academic Honesty"
 id: 10010-academic-honesty
-slug: 10010-academic-honesty
 hide_table_of_contents: true
-sidebar_position: 10
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0ja_academic_dishonesty.md'
 ---
 
 Academic honesty at Epicodus is straightforward: show up to class, participate in all classroom activities, and submit your own work on your independent projects. However straightforward our requirements may be, this lesson is meant to go into details about academic honesty at Epicodus and the consequences of being dishonest.

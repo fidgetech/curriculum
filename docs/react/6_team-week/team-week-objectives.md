@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Team Week Objectives"
+title: "📓 Team Week Objectives"
 id: team-week-objectives
-slug: team-week-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/shared/blob/main/team_week_objectives.md'
 paginationPrev: null
 ---
 

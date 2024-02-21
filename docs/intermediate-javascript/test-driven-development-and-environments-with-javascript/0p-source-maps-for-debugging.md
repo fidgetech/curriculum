@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.0.16 Improving Development with Source Maps for Debugging"
+title: "📓 2.2.0.16 Improving Development with Source Maps for Debugging"
 id: 22016-improving-development-with-source-maps-for-debugging
-slug: 22016-improving-development-with-source-maps-for-debugging
 hide_table_of_contents: true
-sidebar_position: 16
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0p_source_maps_for_debugging.md
 ---
 
 How else can we improve our development experience? We can ensure that we are using source maps for debugging bundled code.

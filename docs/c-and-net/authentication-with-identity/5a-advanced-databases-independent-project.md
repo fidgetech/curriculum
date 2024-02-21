@@ -1,12 +1,8 @@
 ---
 title: ✏️ 3.5.5.1 Authentication with Identity Independent Project
 id: 3551-authentication-with-identity-independent-project
-slug: 3551-authentication-with-identity-independent-project
 hide_table_of_contents: true
-sidebar_position: 21
 day: friday
-type: exercise
-url: https://github.com/fidgetech/c-and-net/blob/main/5a_advanced_databases_independent_project.md
 paginationNext: null
 ---
 

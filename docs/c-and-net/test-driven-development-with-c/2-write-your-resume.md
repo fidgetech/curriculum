@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.1.3.6 Write Your Resume"
+title: "📓 3.1.3.6 Write Your Resume"
 id: 3136-write-your-resume
-slug: 3136-write-your-resume
 hide_table_of_contents: true
-sidebar_position: 21
 day: wednesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/2_write_your_resume.md'
 ---
 
 Writing your resume is a very similar process to writing the cover letter — we want to use many of the same keywords from the job description, and tie them to our experience.

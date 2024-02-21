@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 The Hidden Job Market"
+title: "📓 The Hidden Job Market"
 id: the-hidden-job-market
-slug: the-hidden-job-market
 hide_table_of_contents: true
-sidebar_position: 18
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/the_hidden_job_market.md
 ---
 
 # Taking Advantage of the Hidden Job Market

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.0.12 Methods"
+title: "📓 1.2.0.12 Methods"
 id: 12012-methods
-slug: 12012-methods
 hide_table_of_contents: true
-sidebar_position: 12
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0l_methods.md
 ---
 
 In this lesson, we'll learn about key functionality for JavaScript: methods and functions. We'll start with briefly defining functions, because methods are a type of function.

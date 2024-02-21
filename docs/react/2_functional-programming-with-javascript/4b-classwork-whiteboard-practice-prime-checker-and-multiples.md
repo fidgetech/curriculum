@@ -1,12 +1,8 @@
 ---
 title: ✏️ Whiteboard Practice
 id: whiteboard-practice
-slug: whiteboard-practice
 hide_table_of_contents: true
-sidebar_position: 39
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/react/blob/main/4b_classwork_whiteboard_practice_prime_checker_and_multiples.md
 ---
 
 ## Whiteboard Practice

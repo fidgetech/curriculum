@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.5.0.8 Authentication with Identity: User Login and Logout"
+title: "📓 3.5.0.8 Authentication with Identity: User Login and Logout"
 id: 3508-authentication-with-identity-user-login-and-logout
-slug: 3508-authentication-with-identity-user-login-and-logout
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/2g_identity_user_logins.md'
 ---
 
 Now that users can successfully register for new accounts, let's add the logic necessary for them to sign in and out of their accounts.

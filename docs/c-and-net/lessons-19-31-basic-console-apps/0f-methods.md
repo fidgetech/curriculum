@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.24 Class Methods"
+title: "📓 3.0.0.24 Class Methods"
 id: 30024-class-methods
-slug: 30024-class-methods
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0f_methods.md'
 ---
 
 In this lesson, we'll add a method that determines what type of triangle we have: isosceles, equilateral, scalene, or not a triangle. The logic in this method will be an exact copy from the Shape Tracker logic we created in JavaScript, only it will be written in C# with C# indentation and spacing. If you want to check out the JS before proceeding, [visit this link here](https://github.com/epicodus-lessons/section-5-shape-tracker/blob/3_multiple_business_logic_files/src/js/triangle.js).

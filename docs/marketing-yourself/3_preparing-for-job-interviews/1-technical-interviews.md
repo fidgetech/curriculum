@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Technical Interviews"
+title: "📓 Technical Interviews"
 id: technical-interviews
-slug: technical-interviews
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/1_technical_interviews.md
 ---
 
 ## Technical Interviews

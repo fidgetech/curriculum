@@ -1,12 +1,8 @@
 ---
 title: ✏️ Utilizing Big O Notation Practice
 id: utilizing-big-o-notation-practice
-slug: utilizing-big-o-notation-practice
 hide_table_of_contents: true
-sidebar_position: 8
 day: monday
-type: exercise
-url: 'https://github.com/fidgetech/capstone/blob/main/2_big_o_practice.md'
 ---
 
 In the last lesson, we covered the basics of Big O notation. In this lesson, it's time to practice what we've covered. Go through the exercises below and try to identify the Big O of each algorithm. The answers (along with brief explanations) are at the end of the lesson. If some of the code looks confusing, don't worry about trying to understand every line — just see if you can correctly figure out the Big O runtime complexity.

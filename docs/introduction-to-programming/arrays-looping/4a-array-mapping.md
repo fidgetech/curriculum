@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.4.1 Array Mapping"
+title: "📓 1.3.4.1 Array Mapping"
 id: 1341-array-mapping
-slug: 1341-array-mapping
 hide_table_of_contents: true
-sidebar_position: 40
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4a_array_mapping.md
 ---
 
 **Note:** While you are not required to use `Array.prototype.map()` for this independent project, it is one of the most powerful JavaScript looping methods. We will be covering it more in depth in the React curriculum as well.

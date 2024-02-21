@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.3.1.4 Introducing Entity Framework Core"
+title: "📓 3.3.1.4 Introducing Entity Framework Core"
 id: 3314-introducing-entity-framework-core
-slug: 3314-introducing-entity-framework-core
 hide_table_of_contents: true
-sidebar_position: 19
 day: monday
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/1b_introducing_entity_framework.md
 ---
 
 So far, we've managed all SQL statements ourselves. We've written code both to issue SQL commands to the database and to process query results with classes like `MySqlCommand`, `MySqlParameter`, and `MySqlDataReader` from the `MySqlConnector` library.

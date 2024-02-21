@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.1.3.10 Preparing for Your First Code Review"
+title: "📓 1.1.3.10 Preparing for Your First Code Review"
 id: 11310-preparing-for-your-first-code-review
-slug: 11310-preparing-for-your-first-code-review
 hide_table_of_contents: true
-sidebar_position: 37
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4l_preparing_for_your_first_code_review.md
 ---
 
 ## What To Expect

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.5.2.3 API Calls in an ASP.NET Core MVC App"
+title: "📓 3.5.2.3 API Calls in an ASP.NET Core MVC App"
 id: 3523-api-calls-in-an-aspnet-core-mvc-app
-slug: 3523-api-calls-in-an-aspnet-core-mvc-app
 hide_table_of_contents: true
-sidebar_position: 16
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0k_apis_with_mvc.md'
 ---
 
 Now that we know how to turn an API response into objects, let's look at how we can integrate this into an MVC application. We're going to create a simple MVC app that will allow users to see basic information about the top headlines on the New York Times.

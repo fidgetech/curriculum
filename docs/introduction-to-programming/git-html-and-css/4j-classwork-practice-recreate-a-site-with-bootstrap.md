@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.1.4.12 Practice: Recreate a Site with Bootstrap'
 id: 11412-practice-recreate-a-site-with-bootstrap
-slug: 11412-practice-recreate-a-site-with-bootstrap
 hide_table_of_contents: true
-sidebar_position: 50
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4j_classwork_practice_recreate_a_site_with_bootstrap.md
 ---
 
 **Goal**: Practice everything we've learned so far by re-creating a real website using block and inline HTML elements, custom CSS, and Bootstrap classes.  Keep an eye out for correct indentation, and descriptive Git commit messages in the correct tense.  

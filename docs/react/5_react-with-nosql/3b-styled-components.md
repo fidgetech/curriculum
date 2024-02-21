@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Styled Components"
+title: "📓 Styled Components"
 id: styled-components
-slug: styled-components
 hide_table_of_contents: true
-sidebar_position: 33
 day: wednesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/3b_styled_components.md'
 ---
 
 Up to this point, we've covered only two basic approaches to styling React applications:

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.14 Welcome to Intro"
+title: "📓 1.0.0.14 Welcome to Intro"
 id: 10014-welcome-to-intro
-slug: 10014-welcome-to-intro
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0a_welcome_to_intro.md'
 paginationPrev: null
 ---
 

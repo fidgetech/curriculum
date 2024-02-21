@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.0.1 JavaScript and Web Browsers Objectives"
+title: "📓 1.2.0.1 JavaScript and Web Browsers Objectives"
 id: 1201-javascript-and-web-browsers-objectives
-slug: 1201-javascript-and-web-browsers-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0a_javascript_and_web_browsers_objectives.md
 paginationPrev: null
 ---
 

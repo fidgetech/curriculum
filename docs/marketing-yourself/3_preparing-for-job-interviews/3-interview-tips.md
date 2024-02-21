@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Interview Tips"
+title: "📓 Interview Tips"
 id: interview-tips
-slug: interview-tips
 hide_table_of_contents: true
-sidebar_position: 4
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/3_interview_tips.md'
 ---
 
 Here is some great advice taken from a [presentation on technical interviews](http://www.piexposed.com/wp-content/uploads/2012/06/Rock-the-Technical-Interview.pdf):

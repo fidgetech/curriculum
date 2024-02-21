@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.5.2.1 Making an API Call with RestSharp"
+title: "📓 3.5.2.1 Making an API Call with RestSharp"
 id: 3521-making-an-api-call-with-restsharp
-slug: 3521-making-an-api-call-with-restsharp
 hide_table_of_contents: true
-sidebar_position: 14
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0i_apis_with_restsharp.md'
 ---
 
 In this lesson, we'll learn how to make an API call with a console application and a popular REST API client library called [RestSharp](https://restsharp.dev/). We will start with a console application in order to focus on learning the basic process of making an API call and parsing the response. Then we'll practice making API calls from an ASP.NET Core MVC app.  

@@ -1,12 +1,8 @@
 ---
 title: '✏️ Forum, Word Puzzle, Tic Tac Toe (Three-Day Project) - Part 1'
 id: forum-word-puzzle-tic-tac-toe-three-day-project---part-1
-slug: forum-word-puzzle-tic-tac-toe-three-day-project---part-1
 hide_table_of_contents: true
-sidebar_position: 22
 day: tuesday
-type: exercise
-url: https://github.com/fidgetech/react/blob/main/2a_classwork_redux_forum_hangman_tic_tac_toe_three_day_project.md
 ---
 
 **Goals:** Spend the rest of the course section building out a fully-functional Redux project. For full-time students, this will be a three-day project. For part-time students, this will be a multi-day project.

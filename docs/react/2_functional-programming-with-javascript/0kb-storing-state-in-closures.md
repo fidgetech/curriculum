@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Storing State in Closures"
+title: "📓 Storing State in Closures"
 id: storing-state-in-closures
-slug: storing-state-in-closures
 hide_table_of_contents: true
-sidebar_position: 24
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0kb_storing_state_in_closures.md'
 ---
 
 Now that we've had some practices working with closures, it's time to explore another cool thing we can do with closures. We can use them to store basic info about state.

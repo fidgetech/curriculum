@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.16 Text Editor: Visual Studio Code"
+title: "📓 1.0.0.16 Text Editor: Visual Studio Code"
 id: 10016-text-editor-visual-studio-code
-slug: 10016-text-editor-visual-studio-code
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0ab_text_editor_vscode.md'
 ---
 
 We will write and save our code in a **text editor**. As the name implies, it's a piece of software meant to edit text.

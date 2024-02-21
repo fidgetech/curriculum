@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.6.0.05 API: Create and Read"
+title: "📓 3.6.0.05 API: Create and Read"
 id: 36005-api-create-and-read
-slug: 36005-api-create-and-read
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0e_API_create_and_read.md'
 ---
 
 Now that we have seeded animal data, we'll create our first custom API endpoints for CREATE and READ functionality. We'll add:

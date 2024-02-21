@@ -1,12 +1,8 @@
 ---
 title: '✏️ Technical Interview Practice: APIs and Further Exploration'
 id: technical-interview-practice-apis-and-further-exploration
-slug: technical-interview-practice-apis-and-further-exploration
 hide_table_of_contents: true
-sidebar_position: 22
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/react/blob/main/3a_technical_interview_practice_apis_and_further_exploration_classwork.md
 ---
 
 ## Technical Interview Questions

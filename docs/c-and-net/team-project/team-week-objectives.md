@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.7.0.1 Team Project Objectives"
+title: "📓 3.7.0.1 Team Project Objectives"
 id: 3701-team-project-objectives
-slug: 3701-team-project-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/team_week_objectives.md'
 paginationPrev: null
 ---
 

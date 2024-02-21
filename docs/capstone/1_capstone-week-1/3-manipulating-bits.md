@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Manipulating Bits"
+title: "📓 Manipulating Bits"
 id: manipulating-bits
-slug: manipulating-bits
 hide_table_of_contents: true
-sidebar_position: 26
 day: wednesday
-type: lesson
-url: 'https://github.com/fidgetech/capstone/blob/main/3_manipulating_bits.md'
 ---
 
 In the last lesson, we learned about bits — the smallest units of binary code that our machines use to operate. In this lesson, we'll learn how to work with bits, including comparing and manipulating them.

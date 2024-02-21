@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.3.1.3 Using SQL Designer"
+title: "📓 3.3.1.3 Using SQL Designer"
 id: 3313-using-sql-designer
-slug: 3313-using-sql-designer
 hide_table_of_contents: true
-sidebar_position: 18
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/sql_designer_walkthrough.md'
 ---
 
 In this lesson, we'll walk through the process of using [SQL Designer](https://ondras.zarovi.cz/sql/demo/), a simple tool for creating and visualizing SQL database relationships.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.1.4.5 Downloading and Installing Bootstrap"
+title: "📓 1.1.4.5 Downloading and Installing Bootstrap"
 id: 1145-downloading-and-installing-bootstrap
-slug: 1145-downloading-and-installing-bootstrap
 hide_table_of_contents: true
-sidebar_position: 43
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4c_bootstrap_downloading_and_installing.md
 ---
 
 In this lesson, we'll walk through how to download and install Bootstrap into one of our own projects.

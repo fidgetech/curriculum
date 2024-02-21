@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Planning Our Application: Part 2"
+title: "📓 Planning Our Application: Part 2"
 id: planning-our-application-part-2
-slug: planning-our-application-part-2
 hide_table_of_contents: true
-sidebar_position: 20
 day: monday
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/1c_planning_our_application_part_2.md
 ---
 
 In the last lesson, we briefly covered local and shared state. The plan we made for our static Help Queue is a good start but we will need to make some changes to its structure. That means rethinking some parts of our application and creating a new diagram.

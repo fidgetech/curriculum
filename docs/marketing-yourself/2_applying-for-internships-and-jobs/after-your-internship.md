@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 After Your Internship"
+title: "📓 After Your Internship"
 id: after-your-internship
-slug: after-your-internship
 hide_table_of_contents: true
-sidebar_position: 27
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/after_your_internship.md
 ---
 
 ## Internships

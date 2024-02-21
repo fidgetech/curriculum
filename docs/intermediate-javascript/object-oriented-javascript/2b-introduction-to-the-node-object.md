@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.1.2.2 Introduction to the Node Object"
+title: "📓 2.1.2.2 Introduction to the Node Object"
 id: 2122-introduction-to-the-node-object
-slug: 2122-introduction-to-the-node-object
 hide_table_of_contents: true
-sidebar_position: 20
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/2b_introduction_to_the_node_object.md
 ---
 
 In this lesson, we'll learn a bit more about the `Node` object. We've previously encountered the `Node` object when we discussed the series of objects that HTML element objects inherit from. Remember this graphic for the `HTMLHeadingElement` object?

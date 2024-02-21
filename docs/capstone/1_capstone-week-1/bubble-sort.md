@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Bubble Sort"
+title: "📓 Bubble Sort"
 id: bubble-sort
-slug: bubble-sort
 hide_table_of_contents: true
-sidebar_position: 35
 day: thursday
-type: lesson
-url: 'https://github.com/fidgetech/capstone/blob/main/bubble_sort.md'
 ---
 
 In this lesson, we'll cover the **bubble sort algorithm**. It isn't efficient for either large _or_ small collections, so there's no reason to use it in the real world. However, it is a conceptually interesting way of sorting a collection — and this gives us an opportunity to explore yet another method for sorting.

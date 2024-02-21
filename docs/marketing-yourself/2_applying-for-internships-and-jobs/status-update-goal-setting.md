@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Status Update and Goal Setting"
+title: "📓 Status Update and Goal Setting"
 id: status-update-and-goal-setting
-slug: status-update-and-goal-setting
 hide_table_of_contents: true
-sidebar_position: 26
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/status_update_goal_setting.md
 ---
 
 # Status Update and Goal Setting 

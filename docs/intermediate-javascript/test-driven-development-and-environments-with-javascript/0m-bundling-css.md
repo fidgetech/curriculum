@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.0.13 Bundling CSS with webpack Loaders"
+title: "📓 2.2.0.13 Bundling CSS with webpack Loaders"
 id: 22013-bundling-css-with-webpack-loaders
-slug: 22013-bundling-css-with-webpack-loaders
 hide_table_of_contents: true
-sidebar_position: 13
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0m_bundling_css.md
 ---
 
 In the last lesson, we bundled our JavaScript files with webpack. That's a good start — but we can also use webpack for bundling other files that aren't JavaScript, as long as we are using the right webpack loader. 

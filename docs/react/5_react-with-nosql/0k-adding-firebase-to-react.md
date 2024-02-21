@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Adding Firebase to React"
+title: "📓 Adding Firebase to React"
 id: adding-firebase-to-react
-slug: adding-firebase-to-react
 hide_table_of_contents: true
-sidebar_position: 11
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0k_adding_firebase_to_react.md'
 ---
 
 We're ready to connect our Help Queue application to Firebase! To do this, we'll need to complete three steps:

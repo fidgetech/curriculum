@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.0.13 Functions"
+title: "📓 1.2.0.13 Functions"
 id: 12013-functions
-slug: 12013-functions
 hide_table_of_contents: true
-sidebar_position: 13
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0m_functions.md
 ---
 
 To help us better understand methods, let's get to know functions better. In this lesson, we'll review what a function is and what it looks like. We'll also learn some new terminology, and we'll take time to compare methods and functions so the distinction becomes clear. 

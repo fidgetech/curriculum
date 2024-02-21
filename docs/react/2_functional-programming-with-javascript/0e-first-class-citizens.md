@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 First Class Citizens"
+title: "📓 First Class Citizens"
 id: first-class-citizens
-slug: first-class-citizens
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0e_first_class_citizens.md'
 ---
 
 In JavaScript, functions are **first class citizens**. But what exactly does this mean and why is this important for functional programming?

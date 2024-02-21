@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.27 Direct Messages in Discord"
+title: "📓 1.0.0.27 Direct Messages in Discord"
 id: 10027-direct-messages-in-discord
-slug: 10027-direct-messages-in-discord
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0ha1_messages_in_discord.md'
 ---
 
 You will be using Discord for many things during your time at Epicodus. In addition to using voice channels and video calls with pairs and with your dev team, you'll also be using text channels to share information with your peers.

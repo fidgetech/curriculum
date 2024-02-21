@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.20 Hello World! Compiling and Executing C# Programs"
+title: "📓 3.0.0.20 Hello World! Compiling and Executing C# Programs"
 id: 30020-hello-world!-compiling-and-executing-c-programs
-slug: 30020-hello-world!-compiling-and-executing-c-programs
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0b_compiling_and_executing_programs.md
 ---
 
 In this lesson we'll discuss how to configure, write, and run basic C# programs by creating a very basic "Hello World" console application. Then, in the next lesson we'll start on our Shape Tracker project.

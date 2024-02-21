@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.1.11 Asking and Listening"
+title: "📓 2.2.1.11 Asking and Listening"
 id: 22111-asking-and-listening
-slug: 22111-asking-and-listening
 hide_table_of_contents: true
-sidebar_position: 31
 day: monday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/4_asking_and_listening.md
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week we will discuss two of the most powerful tools at our disposal: **asking** and **listening**. These are essential soft skills that will help us be more inclusive, and are also instrumental to getting jobs.

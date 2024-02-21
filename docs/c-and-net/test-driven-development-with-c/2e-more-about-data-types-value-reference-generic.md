@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.1.2.5 More About Data Types: Value Types, Reference Types, Generic Types, and More"
+title: "📓 3.1.2.5 More About Data Types: Value Types, Reference Types, Generic Types, and More"
 id: 3125-more-about-data-types-value-types-reference-types-generic-types-and-more
-slug: 3125-more-about-data-types-value-types-reference-types-generic-types-and-more
 hide_table_of_contents: true
-sidebar_position: 13
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/2e_more_about_data_types_value_reference_generic.md
 ---
 
 So far, we've learned about the following C# types:

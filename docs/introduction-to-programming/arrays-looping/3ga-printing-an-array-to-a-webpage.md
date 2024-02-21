@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.3.3 Printing an Array to a Webpage"
+title: "📓 1.3.3.3 Printing an Array to a Webpage"
 id: 1333-printing-an-array-to-a-webpage
-slug: 1333-printing-an-array-to-a-webpage
 hide_table_of_contents: true
-sidebar_position: 32
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/3ga_printing_an_array_to_a_webpage.md
 ---
 
 In this lesson, we'll review how to print the contents of an array to a webpage. To do this, we'll use the webpage you are on right now! 

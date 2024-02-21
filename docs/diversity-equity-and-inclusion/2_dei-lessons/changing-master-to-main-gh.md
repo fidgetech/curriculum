@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Inclusive Terminology: Using a Main Branch"
+title: "📓 Inclusive Terminology: Using a Main Branch"
 id: inclusive-terminology-using-a-main-branch
-slug: inclusive-terminology-using-a-main-branch
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/dei/blob/main/changing_master_to_main_gh.md'
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum.

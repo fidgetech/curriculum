@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Introduction to date-fns"
+title: "📓 Introduction to date-fns"
 id: introduction-to-date-fns
-slug: introduction-to-date-fns
 hide_table_of_contents: true
-sidebar_position: 27
 day: wednesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/3b_introduction_to_datefns.md'
 ---
 
 **Note:** You are not expected to incorporate any of the concepts from the homework on the date-fns library for the independent project.

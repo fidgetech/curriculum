@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.1.2.13 Practice: GitHub Pages'
 id: 11213-practice-github-pages
-slug: 11213-practice-github-pages
 hide_table_of_contents: true
-sidebar_position: 25
 day: tuesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/2f_classwork_practice_github_pages.md
 ---
 
 **Goal**:  Walk through the process of creating and publishing to a GitHub pages page by publishing one of our previous projects.

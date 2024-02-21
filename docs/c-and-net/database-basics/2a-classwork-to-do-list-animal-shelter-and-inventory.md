@@ -1,12 +1,8 @@
 ---
 title: '✏️ 3.3.2.1 To Do List, Animal Shelter, and Inventory'
 id: 3321-to-do-list-animal-shelter-and-inventory
-slug: 3321-to-do-list-animal-shelter-and-inventory
 hide_table_of_contents: true
-sidebar_position: 26
 day: tuesday
-type: exercise
-url: https://github.com/fidgetech/c-and-net/blob/main/2a_classwork_to_do_list_animal_shelter_and_inventory.md
 ---
 
 **Goal**: Practice using a database while becoming more familiar with Entity. Focus on adding create and read functionality to your applications. If you have extra time, consider looking at tonight's lessons for adding update and delete functionality. We recommend using [WWW SQL Designer](http://ondras.zarovi.cz/sql/demo/) to plan out tables and columns.

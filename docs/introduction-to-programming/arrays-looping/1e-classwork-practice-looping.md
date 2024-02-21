@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.3.1.5 Practice: Looping'
 id: 1315-practice-looping
-slug: 1315-practice-looping
 hide_table_of_contents: true
-sidebar_position: 16
 day: monday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1e_classwork_practice_looping.md
 ---
 
 **Goal:**  In the Looping lesson, we learned:

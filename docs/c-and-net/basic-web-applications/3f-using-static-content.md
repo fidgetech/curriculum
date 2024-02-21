@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.3.6 Using Static Content"
+title: "📓 3.2.3.6 Using Static Content"
 id: 3236-using-static-content
-slug: 3236-using-static-content
 hide_table_of_contents: true
-sidebar_position: 38
 day: wednesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/3f_using_static_content.md'
 ---
 
 Up to this point, our applications have been pretty plain. In this lesson, we'll cover how to add CSS, images, and JavaScript scripts to our ASP.NET Core MVC web apps.

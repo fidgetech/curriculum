@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.2.11 Event Handling with Event Handler Properties"
+title: "📓 1.2.2.11 Event Handling with Event Handler Properties"
 id: 12211-event-handling-with-event-handler-properties
-slug: 12211-event-handling-with-event-handler-properties
 hide_table_of_contents: true
-sidebar_position: 49
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/2k_event_handling_with_event_handler_properties.md
 ---
 
 So far, we've made our webpages interactive with `window` methods:

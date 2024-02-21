@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.0.20 Configuration Reference, Suggested Workflows, and Optional Review"
+title: "📓 2.2.0.20 Configuration Reference, Suggested Workflows, and Optional Review"
 id: 22020-configuration-reference-suggested-workflows-and-optional-review
-slug: 22020-configuration-reference-suggested-workflows-and-optional-review
 hide_table_of_contents: true
-sidebar_position: 20
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0t_config_reference_workflow_and_review.md
 ---
 
 We've learned about a lot of new concepts and tools over the weekend homework, so it's time to explain a typical workflow with the new tools we've learned, and share a configuration reference. 

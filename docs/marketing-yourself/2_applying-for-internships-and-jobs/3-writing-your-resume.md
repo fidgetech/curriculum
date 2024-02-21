@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Writing Your Resume 2"
+title: "📓 Writing Your Resume 2"
 id: writing-your-resume-2
-slug: writing-your-resume-2
 hide_table_of_contents: true
-sidebar_position: 15
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/3_writing_your_resume.md
 ---
 
 # Writing Your Resume

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.6.0.12 Documenting Your API"
+title: "📓 3.6.0.12 Documenting Your API"
 id: 36012-documenting-your-api
-slug: 36012-documenting-your-api
 hide_table_of_contents: true
-sidebar_position: 12
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0j_documenting_an_api.md'
 ---
 
 In this lesson we'll learn the details that you should include in a README to document your API. 

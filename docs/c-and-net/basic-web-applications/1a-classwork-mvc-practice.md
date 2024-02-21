@@ -1,12 +1,8 @@
 ---
 title: ✏️ 3.2.1.2 ASP.NET Core MVC Practice
 id: 3212-aspnet-core-mvc-practice
-slug: 3212-aspnet-core-mvc-practice
 hide_table_of_contents: true
-sidebar_position: 20
 day: monday
-type: exercise
-url: 'https://github.com/fidgetech/c-and-net/blob/main/1a_classwork_mvc_practice.md'
 ---
 
 **Goal:** Become familiar with setting up an ASP.NET Core MVC application and solve simple problems that use forms and dynamic views.

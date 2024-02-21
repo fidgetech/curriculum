@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Breadth First Algorithms"
+title: "📓 Breadth First Algorithms"
 id: breadth-first-algorithms
-slug: breadth-first-algorithms
 hide_table_of_contents: true
-sidebar_position: 22
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/capstone/blob/main/8_breadth_first_algorithm.md'
 ---
 
 In the last lesson, we used a depth-first algorithm to determine if a target node in our friendship network is reachable from a starting node. In this lesson, we'll test and write a `Graph.prototype.breadthFirstReachable()` method. This method will do the exact same thing as our `Graph.prototype.depthFirstReachable()` method. The only difference is how the method will work. Instead of using a depth-first search, the method will use a breadth-first search.

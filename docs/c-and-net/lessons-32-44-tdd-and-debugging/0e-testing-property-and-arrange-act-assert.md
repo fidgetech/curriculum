@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.36 Testing A Private Field through its Public Property and Organizing Tests with Arrange, Act, Assert"
+title: "📓 3.0.0.36 Testing A Private Field through its Public Property and Organizing Tests with Arrange, Act, Assert"
 id: 30036-testing-a-private-field-through-its-public-property-and-organizing-tests-with-arrange-act-assert
-slug: 30036-testing-a-private-field-through-its-public-property-and-organizing-tests-with-arrange-act-assert
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0e_testing_property_and_arrange_act_assert.md
 ---
 
 In this lesson, we'll begin working on the next simplest behavior our `Triangle` logic should have: three sides. Since the `Triangle` logic we create now will mirror exactly the `Triangle` logic we created at the end of the last pre-work section, we'll test for the following:

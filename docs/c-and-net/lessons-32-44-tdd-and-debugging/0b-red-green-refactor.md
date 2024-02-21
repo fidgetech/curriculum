@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.33 Review: the Red, Green, Refactor Workflow and Testing Best Practices"
+title: "📓 3.0.0.33 Review: the Red, Green, Refactor Workflow and Testing Best Practices"
 id: 30033-review-the-red-green-refactor-workflow-and-testing-best-practices
-slug: 30033-review-the-red-green-refactor-workflow-and-testing-best-practices
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0b_red_green_refactor.md'
 ---
 
 In this lesson, we're going to take a more in-depth look at Test-Driven Development (TDD), the Red-Green-Refactor (RGR) workflow, and testing best practices.

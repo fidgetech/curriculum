@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.11 Classes and Instance Methods"
+title: "📓 3.0.0.11 Classes and Instance Methods"
 id: 30011-classes-and-instance-methods
-slug: 30011-classes-and-instance-methods
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0f_methods_and_classes.md'
 ---
 
 We wrote many JavaScript methods and functions in Introduction to Programming. The process is fairly similar in C# as well, but in this case we will always call them **methods**. That's because in C# every method — custom or built-in — belongs to some object. In other words, there are no standalone functions.

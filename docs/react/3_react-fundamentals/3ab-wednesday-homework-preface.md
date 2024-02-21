@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Overview of Next Steps: Adding READ, UPDATE, and DELETE Functionality"
+title: "📓 Overview of Next Steps: Adding READ, UPDATE, and DELETE Functionality"
 id: overview-of-next-steps-adding-read-update-and-delete-functionality
-slug: overview-of-next-steps-adding-read-update-and-delete-functionality
 hide_table_of_contents: true
-sidebar_position: 31
 day: wednesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/3ab_wednesday_homework_preface.md'
 ---
 
 Tonight's homework includes some long lessons and heavy content. We will be adding the following functionality to our Help Queue application: 

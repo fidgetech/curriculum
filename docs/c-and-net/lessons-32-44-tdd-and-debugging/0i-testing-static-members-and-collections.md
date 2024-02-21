@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.40 Part 1: Testing Static Class Members and Collections"
+title: "📓 3.0.0.40 Part 1: Testing Static Class Members and Collections"
 id: 30040-part-1-testing-static-class-members-and-collections
-slug: 30040-part-1-testing-static-class-members-and-collections
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0i_testing_static_members_and_collections.md
 ---
 
 When we first created our C# Shape Tracker, we made sure to include a private **static** field called `_instances` that is a list that stores all `Triangle` instances ever made. We also made a getter method and setter method that would allow us to access and manage `_instances`: `GetAll()` and `ClearAll()`. In this lesson, we're going to test and create this same logic. In the process, we'll learn how to make assertions for collections using the static `CollectionAssert.AreEqual()` method from MSTest.

@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.1.1.3 Practice: GitHub Remote Repositories'
 id: 1113-practice-github-remote-repositories
-slug: 1113-practice-github-remote-repositories
 hide_table_of_contents: true
-sidebar_position: 4
 day: monday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1e_classwork_practice_github_remote_repositories.md
 ---
 
 The main version of our Hello World website is saved on the machines that we used to code the HTML file, `hello-world.html`.  It is also being tracked by Git in the **local** `.git` repository.  When we want to publish our code to the world (or just save it on the cloud so we can access it from any device), we want to store it in a **remote** repository.  In this lesson, we'll dive in to using GitHub to store our code remotely.

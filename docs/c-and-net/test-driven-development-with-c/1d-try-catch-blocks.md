@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.1.1.4- Try/Catch Blocks"
+title: "📓 3.1.1.4- Try/Catch Blocks"
 id: 3114--trycatch-blocks
-slug: 3114--trycatch-blocks
 hide_table_of_contents: true
-sidebar_position: 5
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/1d_try_catch_blocks.md'
 ---
 
 When our application throws an error, the program is **throwing an exception**. Almost every time the compiler throws an error, it uses the term "exception." An **exception** occurs when we execute or interact with a program that results in the program crashing.

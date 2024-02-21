@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.0.5 Using the DevTools Console for Practice and Pair Programming"
+title: "📓 1.2.0.5 Using the DevTools Console for Practice and Pair Programming"
 id: 1205-using-the-devtools-console-for-practice-and-pair-programming
-slug: 1205-using-the-devtools-console-for-practice-and-pair-programming
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0e_using_devtools_for_practice_and_pair_programming.md
 ---
 
 We'll be using the DevTools console to try out JavaScript code. In this lesson, we'll cover the expectations and tips for using the DevTools console in personal coding practice and in pair/team programming.

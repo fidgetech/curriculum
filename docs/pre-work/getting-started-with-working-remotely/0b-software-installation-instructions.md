@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.23 Installing Software on Your Machine"
+title: "📓 1.0.0.23 Installing Software on Your Machine"
 id: 10023-installing-software-on-your-machine
-slug: 10023-installing-software-on-your-machine
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/pre-work/blob/main/0b_software_installation_instructions.md
 paginationPrev: null
 ---
 

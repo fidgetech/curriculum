@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Redux Store Review"
+title: "📓 Redux Store Review"
 id: redux-store-review
-slug: redux-store-review
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0i_redux_store_review.md'
 ---
 
 In the last lesson, we built a small application and learned about the Redux library. Redux on its own is relatively simple. However, Redux will become more complicated when we combine it with our React applications using the React Redux library, and start to build more complex reducers. Before we move on, let's review the basics. 

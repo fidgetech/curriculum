@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.3.0.09 Using the Test Database"
+title: "📓 3.3.0.09 Using the Test Database"
 id: 33009-using-the-test-database
-slug: 33009-using-the-test-database
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0hb_using_the_test_database.md
 ---
 
 In this lesson, we'll connect our test project to the test database and update our teardown method to empty it. 

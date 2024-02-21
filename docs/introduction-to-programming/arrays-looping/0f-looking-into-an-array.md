@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.0.5 Bracket Notation"
+title: "📓 1.3.0.5 Bracket Notation"
 id: 1305-bracket-notation
-slug: 1305-bracket-notation
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0f_looking_into_an_array.md
 ---
 
 Now that we know what an array is, let's learn how to work with them. In this lesson, we'll learn how to peek inside an array to look at a value. We'll also learn about the `length` property of arrays as well as a gotcha that can cause major bugs when we are working with arrays.

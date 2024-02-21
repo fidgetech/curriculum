@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.4.7 Debugging in JavaScript: Using debugger and Breakpoints"
+title: "📓 1.2.4.7 Debugging in JavaScript: Using debugger and Breakpoints"
 id: 1247-debugging-in-javascript-using-debugger-and-breakpoints
-slug: 1247-debugging-in-javascript-using-debugger-and-breakpoints
 hide_table_of_contents: true
-sidebar_position: 71
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4g_debugging_with_debugger.md
 ---
 
 This is our fourth and final lesson on basic debugging with JavaScript. In this lesson, we'll use DevTools debugger to pinpoint and fix two new bugs in our Calculator JS.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.3.2 Objects Within Objects Setup"
+title: "📓 3.2.3.2 Objects Within Objects Setup"
 id: 3232-objects-within-objects-setup
-slug: 3232-objects-within-objects-setup
 hide_table_of_contents: true
-sidebar_position: 34
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/3b_objects_within_objects_setup.md
 ---
 
 When we think about our own individual To Do Lists, there are usually different types of tasks on that list. For instance, there are to dos that we need to complete for Epicodus, like our C# homework. There are chores at home such as washing dishes or mowing the lawn. There are likely other miscellaneous tasks, too, such as writing someone a birthday card.

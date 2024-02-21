@@ -1,13 +1,8 @@
 ---
 title: '✏️ 1.3.2.5 Practice: Extending Text Analyzer Business Logic with TDD'
 id: 1325-practice-extending-text-analyzer-business-logic-with-tdd
-slug: 1325-practice-extending-text-analyzer-business-logic-with-tdd
 hide_table_of_contents: true
-sidebar_position: 24
 day: tuesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/2e_
-  classwork_tdd_with_text_analyzer_business_logic.md
 ---
 
 **Goal:** Build out the `text-analyzer` business logic, making sure to practice TDD.

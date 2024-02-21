@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.13 Using Static Methods to Write and Read from the Console"
+title: "📓 3.0.0.13 Using Static Methods to Write and Read from the Console"
 id: 30013-using-static-methods-to-write-and-read-from-the-console
-slug: 30013-using-static-methods-to-write-and-read-from-the-console
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0h_reading_from_and_writing_to_the_console.md
 ---
 
 In this lesson, we'll learn how to use two methods that will allow us to write something to the terminal, as well as how to read something that we write into the terminal:

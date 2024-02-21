@@ -1,12 +1,8 @@
 ---
 title: '✏️ Firestore Survey, Quiz of Choice (Two-Day or One-Week Project)'
 id: firestore-survey-quiz-of-choice-two-day-or-one-week-project
-slug: firestore-survey-quiz-of-choice-two-day-or-one-week-project
 hide_table_of_contents: true
-sidebar_position: 24
 day: monday
-type: exercise
-url: https://github.com/fidgetech/react/blob/main/1a_classwork_firestore_survey_quiz_of_choice.md
 ---
 
 **Goals:** Use Firestore as a data solution for a React application. Use hooks to manage state and component lifecycle events. **Going forward, you should not use class components.**   

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Review: How the Web Works"
+title: "📓 Review: How the Web Works"
 id: review-how-the-web-works
-slug: review-how-the-web-works
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/5_review_how_the_web_works.md
 ---
 
 ## Mock Interview Questions

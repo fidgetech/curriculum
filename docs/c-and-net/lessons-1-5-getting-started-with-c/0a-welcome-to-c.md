@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.01 Welcome to C#"
+title: "📓 3.0.0.01 Welcome to C#"
 id: 30001-welcome-to-c
-slug: 30001-welcome-to-c
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0a_welcome_to_c.md'
 paginationPrev: null
 ---
 

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Adding Wait Time to the Queue"
+title: "📓 Adding Wait Time to the Queue"
 id: adding-wait-time-to-the-queue
-slug: adding-wait-time-to-the-queue
 hide_table_of_contents: true
-sidebar_position: 29
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/3d_adding_wait_time_to_the_queue.md
 ---
 
 **Note:** The next two lessons provide a walk through of implementing wait times in the queue. Most of the material reviews concepts we've learned already. You will not be expected to implement lifecycle methods outside of `constructor()` and `render()` in your independent project.

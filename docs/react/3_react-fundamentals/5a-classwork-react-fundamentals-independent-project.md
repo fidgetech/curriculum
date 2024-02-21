@@ -1,12 +1,8 @@
 ---
 title: ✏️ React Fundamentals Independent Project
 id: react-fundamentals-independent-project
-slug: react-fundamentals-independent-project
 hide_table_of_contents: true
-sidebar_position: 42
 day: friday
-type: exercise
-url: https://github.com/fidgetech/react/blob/main/5a_classwork_react_fundamentals_independent_project.md
 paginationNext: null
 ---
 

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Adding a Form"
+title: "📓 Adding a Form"
 id: adding-a-form
-slug: adding-a-form
 hide_table_of_contents: true
-sidebar_position: 26
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/2b_adding_a_form.md'
 ---
 
 So far, the form component in our Help Queue application just contains placeholder data. We'll need an actual form to add tickets to the queue. In this lesson, we'll create a form that collects the value of different fields by taking advantage of `event.target`. Then, over the next several lessons, we'll learn how to take advantage of unidirectional data flow and shared state so our form correctly adds tickets to the queue.

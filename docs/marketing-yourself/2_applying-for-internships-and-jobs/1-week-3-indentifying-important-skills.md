@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Identifying Important Skills"
+title: "📓 Identifying Important Skills"
 id: identifying-important-skills
-slug: identifying-important-skills
 hide_table_of_contents: true
-sidebar_position: 4
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/1_week_3_indentifying_important_skills.md
 ---
 
 ## Introduction

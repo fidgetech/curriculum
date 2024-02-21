@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Introduction to JSX"
+title: "📓 Introduction to JSX"
 id: introduction-to-jsx
-slug: introduction-to-jsx
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0e_introduction_to_jsx.md'
 ---
 
 In this lesson, we'll learn the basics of JSX, a preprocessor that adds special syntax capabilities to JavaScript. Specifically, JSX combines elements of both HTML and JavaScript.

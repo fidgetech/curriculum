@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Journal #12"
+title: "📓 Journal #12"
 id: journal-12
-slug: journal-12
 hide_table_of_contents: true
-sidebar_position: 12
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/1_week_twelve_prompt.md'
 ---
 
 You were asked to keep a journal while going through the program. Each weekend you'll receive a brief journaling assignment in addition to your coding homework. (Review the _[Journaling at Epicodus](/introduction-to-programming/git-html-and-css/homework-journaling-at-epicodus)_ lesson for a refresher.)

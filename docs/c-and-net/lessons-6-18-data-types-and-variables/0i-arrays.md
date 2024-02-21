@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.14 Arrays"
+title: "📓 3.0.0.14 Arrays"
 id: 30014-arrays
-slug: 30014-arrays
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0i_arrays.md'
 ---
 
 As we learned in Intro, collections like arrays are an important part of programming. We can group things together, loop through them, and manipulate large amounts of data with arrays.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.1.5 Accessing Window Properties"
+title: "📓 1.2.1.5 Accessing Window Properties"
 id: 1215-accessing-window-properties
-slug: 1215-accessing-window-properties
 hide_table_of_contents: true
-sidebar_position: 27
 day: monday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1e_accessing_window_properties.md
 ---
 
 Previously we learn that information about our web browser window is accessed through the `window` object. Let's review:

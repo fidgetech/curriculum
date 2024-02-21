@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.3.2.3 Delete with EF Core"
+title: "📓 3.3.2.3 Delete with EF Core"
 id: 3323-delete-with-ef-core
-slug: 3323-delete-with-ef-core
 hide_table_of_contents: true
-sidebar_position: 28
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/2h_delete_with_ef_core.md'
 ---
 
 Now let's make sure our application can also destroy an `Item`. We'll add a _Delete_ link on the item's detail page. Clicking this link will take the user to a page that confirms they'd like to delete this particular item.

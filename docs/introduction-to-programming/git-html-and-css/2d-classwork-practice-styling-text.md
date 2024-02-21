@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.1.2.6 Practice: Styling Text'
 id: 1126-practice-styling-text
-slug: 1126-practice-styling-text
 hide_table_of_contents: true
-sidebar_position: 18
 day: tuesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/2d_classwork_practice_styling_text.md
 ---
 
 **Goal:**

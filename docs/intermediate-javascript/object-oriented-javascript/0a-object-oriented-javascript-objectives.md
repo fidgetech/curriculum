@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.1.0.1 Object-Oriented JavaScript Objectives"
+title: "📓 2.1.0.1 Object-Oriented JavaScript Objectives"
 id: 2101-object-oriented-javascript-objectives
-slug: 2101-object-oriented-javascript-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0a_object_oriented_javascript_objectives.md
 paginationPrev: null
 ---
 

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 The Redux Store"
+title: "📓 The Redux Store"
 id: the-redux-store
-slug: the-redux-store
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0h_the_redux_store.md'
 ---
 
 Now we have a reducer that can handle some actions. Everything we've done so far is vanilla JavaScript. We're ready to start working with Redux itself.

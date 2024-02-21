@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.3.1.8 Speaking Up"
+title: "📓 2.3.1.8 Speaking Up"
 id: 2318-speaking-up
-slug: 2318-speaking-up
 hide_table_of_contents: true
-sidebar_position: 19
 day: monday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/5_speaking_up.md
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week we will discuss speaking up against hurtful language or behavior. 

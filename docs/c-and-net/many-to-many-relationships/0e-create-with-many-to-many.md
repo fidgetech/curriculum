@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.4.0.6 Many-to-Many Create Functionality"
+title: "📓 3.4.0.6 Many-to-Many Create Functionality"
 id: 3406-many-to-many-create-functionality
-slug: 3406-many-to-many-create-functionality
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0e_create_with_many_to_many.md
 ---
 
 In the last lesson, we added read functionality for our new `Tag` class. In this lesson, we'll add create functionality in order to make new tags. We'll also add routes and views to make it possible to create a many-to-many association between tags and items from both the `TagsController` and `ItemsController`.

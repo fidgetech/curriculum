@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.1.4.3 Classes and Ids"
+title: "📓 1.1.4.3 Classes and Ids"
 id: 1143-classes-and-ids
-slug: 1143-classes-and-ids
 hide_table_of_contents: true
-sidebar_position: 41
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/3k_class_vs_id.md
 ---
 
 Before we go on let's briefly note the difference between assigning a **`class`** to an HTML tag and assigning an **`id`** to an HTML tag. For the remainder of this section you can ignore id's and continue using classes, but a brief explanation is in order as you are likely to find references to id's when reading resources online.

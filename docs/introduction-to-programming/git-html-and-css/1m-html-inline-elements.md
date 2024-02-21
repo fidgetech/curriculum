@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.1.2.2 HTML Inline Elements and Attributes: <strong>, <em>, <img>, <a>, and More"
+title: "📓 1.1.2.2 HTML Inline Elements and Attributes: <strong>, <em>, <img>, <a>, and More"
 id: 1122-html-inline-elements-and-attributes-strong-em-img-a-and-more
-slug: 1122-html-inline-elements-and-attributes-strong-em-img-a-and-more
 hide_table_of_contents: true
-sidebar_position: 14
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1m_html_inline_elements.md
 ---
 
 All of the tags we learned about in the previous lessons are block elements, meaning that each element is displayed on a new line. In this lesson, we are going to look at elements that do not appear on their own line but share a line with other elements.  These are called **inline elements**. 

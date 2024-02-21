@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.4.4.1 Team Week Presentations and Code Review"
+title: "📓 2.4.4.1 Team Week Presentations and Code Review"
 id: 2441-team-week-presentations-and-code-review
-slug: 2441-team-week-presentations-and-code-review
 hide_table_of_contents: true
-sidebar_position: 11
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/team_week_presentations_and_code_review.md
 paginationNext: null
 ---
 

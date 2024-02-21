@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.1.4.10 Practice: Grid System, Custom Styles, and More'
 id: 11410-practice-grid-system-custom-styles-and-more
-slug: 11410-practice-grid-system-custom-styles-and-more
 hide_table_of_contents: true
-sidebar_position: 48
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4h_classwork_practice_grid_system_custom_styles_and_more.md
 ---
 
 **Goal:** Continue exploring Bootstrap by expanding your HTML page that integrates multiple Bootstrap elements into its styles.

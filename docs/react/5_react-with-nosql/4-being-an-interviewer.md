@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Being a Good Interviewer"
+title: "📓 Being a Good Interviewer"
 id: being-a-good-interviewer
-slug: being-a-good-interviewer
 hide_table_of_contents: true
-sidebar_position: 19
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/4_being_an_interviewer.md
 ---
 
 During your whiteboard session next week, you will play the part of interviewer for three other students. In this lesson, we will set some ground rules for your role as an interviewer. This will help ensure that everyone has a good opportunity to practice whiteboarding in as close to a realistic professional environment as possible. Being on the other side of the process can also give you valuable insight into what interviewers are looking for — and how they are trying to interact with you.

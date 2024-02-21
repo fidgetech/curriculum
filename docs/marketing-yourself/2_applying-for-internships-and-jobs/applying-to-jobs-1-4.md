@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Applying to Jobs 1 through 4"
+title: "📓 Applying to Jobs 1 through 4"
 id: applying-to-jobs-1-through-4
-slug: applying-to-jobs-1-through-4
 hide_table_of_contents: true
-sidebar_position: 24
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/applying_to_jobs_1-4.md'
 ---
 
 # Applying to Jobs

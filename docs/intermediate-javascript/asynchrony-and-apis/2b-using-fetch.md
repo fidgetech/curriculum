@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.3.2.2 Fetch API"
+title: "📓 2.3.2.2 Fetch API"
 id: 2322-fetch-api
-slug: 2322-fetch-api
 hide_table_of_contents: true
-sidebar_position: 21
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/2b_using_fetch.md
 ---
 
 Now that we have experience creating and using `XMLHttpRequest` objects to make API calls, let's simplify our code even further. While `XMLHttpRequest` objects get the job done, there are other methods that use `XMLHttpRequest` objects under the hood while making our lives easier as developers.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.3.0.11 JavaScript Exception Handling with try...catch"
+title: "📓 2.3.0.11 JavaScript Exception Handling with try...catch"
 id: 23011-javascript-exception-handling-with-trycatch
-slug: 23011-javascript-exception-handling-with-trycatch
 hide_table_of_contents: true
-sidebar_position: 11
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0k_exception_handling_in_javascript.md
 ---
 
 In this lesson, we're going to familiarize ourselves with a JavaScript exception handling tool called `try...catch`. This tool can be used for any JavaScript, as well as code that makes API calls. In a future lesson, we'll use a `try...catch` with an API call, but in this lesson, we'll use it with regular, synchronous JavaScript. So, take the opportunity to absorb the concepts covered here with the understanding that they will be incorporated later in this section.

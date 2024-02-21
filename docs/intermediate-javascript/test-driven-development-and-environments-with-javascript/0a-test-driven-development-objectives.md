@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.0.1 Test-Driven Development and Environments with JavaScript Objectives"
+title: "📓 2.2.0.1 Test-Driven Development and Environments with JavaScript Objectives"
 id: 2201-test-driven-development-and-environments-with-javascript-objectives
-slug: 2201-test-driven-development-and-environments-with-javascript-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0a_test_driven_development_objectives.md
 paginationPrev: null
 ---
 

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.5.0.6 Authentication with Identity: User Registration Controller"
+title: "📓 3.5.0.6 Authentication with Identity: User Registration Controller"
 id: 3506-authentication-with-identity-user-registration-controller
-slug: 3506-authentication-with-identity-user-registration-controller
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/2e_identity_user_registration_controller.md
 ---
 
 Now that we've added Identity to our application, let's add functionality that allows users to **register** for accounts. Later, we'll add functionality that allows users to sign in and out.

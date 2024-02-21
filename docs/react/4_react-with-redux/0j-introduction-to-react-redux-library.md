@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Introduction to React Redux Library"
+title: "📓 Introduction to React Redux Library"
 id: introduction-to-react-redux-library
-slug: introduction-to-react-redux-library
 hide_table_of_contents: true
-sidebar_position: 10
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0j_introduction_to_react_redux_library.md
 ---
 
 In this lesson, we will learn how to use the [React Redux](https://github.com/reactjs/react-redux) library, which contains the official bindings for adding Redux to a React project.

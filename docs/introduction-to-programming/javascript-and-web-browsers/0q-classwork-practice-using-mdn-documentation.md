@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.2.0.17 Practice: Using MDN Documentation JavaScript'
 id: 12017-practice-using-mdn-documentation-javascript
-slug: 12017-practice-using-mdn-documentation-javascript
 hide_table_of_contents: true
-sidebar_position: 17
 day: weekend
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0q_classwork_practice_using_mdn_documentation.md
 ---
 
 **Goal**: In the lesson on using MDN documentation, we learned:

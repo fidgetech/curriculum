@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Writing Your Cover Letter"
+title: "📓 Writing Your Cover Letter"
 id: writing-your-cover-letter
-slug: writing-your-cover-letter
 hide_table_of_contents: true
-sidebar_position: 13
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/writing_your_cover_letter.md
 ---
 
 # Writing Your Cover Letter

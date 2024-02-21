@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.1.3 Introduction to Looping"
+title: "📓 1.3.1.3 Introduction to Looping"
 id: 1313-introduction-to-looping
-slug: 1313-introduction-to-looping
 hide_table_of_contents: true
-sidebar_position: 14
 day: monday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1c_introduction_to_looping.md
 ---
 
 Over the next several lessons, we are going to dive into a concept that is often very challenging for beginners: **looping**.

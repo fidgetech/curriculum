@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Help Queue: Adding Context Consumers and Error Handling"
+title: "📓 Help Queue: Adding Context Consumers and Error Handling"
 id: help-queue-adding-context-consumers-and-error-handling
-slug: help-queue-adding-context-consumers-and-error-handling
 hide_table_of_contents: true
-sidebar_position: 10
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0j_using_context_in_help_queue_part_3.md
 ---
 
 In this lesson, we'll complete the functionality of a light and dark theme in the Help Queue. In the process, we'll learn how to use context consumers in class and function components. 

@@ -1,12 +1,8 @@
 ---
 title: '✏️ 2.2.4.2 Whiteboard Practice: JavaScript Strings'
 id: 2242-whiteboard-practice-javascript-strings
-slug: 2242-whiteboard-practice-javascript-strings
 hide_table_of_contents: true
-sidebar_position: 44
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/4a_classwork_whiteboarding_practice_javascript_strings.md
 ---
 
 ## Whiteboard Practice

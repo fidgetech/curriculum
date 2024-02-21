@@ -1,12 +1,8 @@
 ---
 title: ✏️ 2.2.5.1 TDD and Environments with JavaScript Independent Project
 id: 2251-tdd-and-environments-with-javascript-independent-project
-slug: 2251-tdd-and-environments-with-javascript-independent-project
 hide_table_of_contents: true
-sidebar_position: 47
 day: friday
-type: exercise
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/5a_classwork_tdd_with_javascript_independent_project.md
 paginationNext: null
 ---
 

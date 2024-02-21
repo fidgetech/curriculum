@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.2.4.8 Practice: Triangle Tracker'
 id: 1248-practice-triangle-tracker
-slug: 1248-practice-triangle-tracker
 hide_table_of_contents: true
-sidebar_position: 72
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4h_classwork_practice_triangle_tracker.md
 ---
 
 **Goal:** Practice bringing together everything we've learned in this section by creating a project that includes custom functions, branching, forms, and event listeners.

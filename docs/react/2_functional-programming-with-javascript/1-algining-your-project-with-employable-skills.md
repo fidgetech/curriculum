@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Capstone Prep: Using Employable Skills"
+title: "📓 Capstone Prep: Using Employable Skills"
 id: capstone-prep-using-employable-skills
-slug: capstone-prep-using-employable-skills
 hide_table_of_contents: true
-sidebar_position: 35
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/1_algining_your_project_with_employable_skills.md
 ---
 
 Capstones are one of the most exciting parts of the Epicodus experience. Students tend to enjoy the freedom to explore technologies, ideas, and applications without bounds. But, before you start fantasizing about the perfect application for your favorite hobby, it might be good to take a moment and think about how this project will help you in your future career seeking.

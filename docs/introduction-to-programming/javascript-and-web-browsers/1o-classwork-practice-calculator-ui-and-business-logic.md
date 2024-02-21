@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.2.1.15 Practice: Calculator UI and Business Logic'
 id: 12115-practice-calculator-ui-and-business-logic
-slug: 12115-practice-calculator-ui-and-business-logic
 hide_table_of_contents: true
-sidebar_position: 37
 day: monday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1o_classwork_practice_calculator_ui_and_business_logic.md
 ---
 
 **Goal:** Continue to practice writing JavaScript functions by creating the calculator app.

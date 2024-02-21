@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Introduction to NoSQL"
+title: "📓 Introduction to NoSQL"
 id: introduction-to-nosql
-slug: introduction-to-nosql
 hide_table_of_contents: true
-sidebar_position: 7
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0g_introduction_to_nosql.md'
 ---
 
 Because our applications are small and we are mainly concerned about writing code that works, we won't be able to see many of the benefits of NoSQL firsthand. However, NoSQL is designed to handle massive stores of data better than SQL can so it's often preferred in larger companies. In addition, if companies plan to scale up (and most companies do), NoSQL allows more flexibility.

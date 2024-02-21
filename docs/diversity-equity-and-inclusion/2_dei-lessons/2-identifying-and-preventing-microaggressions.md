@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Identifying and Preventing Microaggressions"
+title: "📓 Identifying and Preventing Microaggressions"
 id: identifying-and-preventing-microaggressions
-slug: identifying-and-preventing-microaggressions
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/dei/blob/main/2_identifying_and_preventing_microaggressions.md
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week, we will cover microaggressions: what they are, how they impact people, and how to recognize and prevent them. **An Epicodus staff member will be leading a discussion on this topic in the next class session.** Please read through this lesson in preparation for the discussion. We encourage you to bring your questions, commentary, reflections, and any experiences that you wish to share with the group. 

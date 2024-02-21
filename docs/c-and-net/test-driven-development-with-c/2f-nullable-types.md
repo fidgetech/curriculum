@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.1.2.6 Nullable Types"
+title: "📓 3.1.2.6 Nullable Types"
 id: 3126-nullable-types
-slug: 3126-nullable-types
 hide_table_of_contents: true
-sidebar_position: 14
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/2f_nullable_types.md'
 ---
 
 The last fundamental C# concept that we'll learn about in this course section is **nullable types**, or using `null` values. We're already familiar with the concept of `null` from JavaScript — `null` means nothing, no value at all. But in a strongly-typed language like C#, how do we set a type to null? In this lesson, we're going to learn exactly how to do that. 

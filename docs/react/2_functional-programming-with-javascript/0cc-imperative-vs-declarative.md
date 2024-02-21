@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Imperative Versus Declarative Programming"
+title: "📓 Imperative Versus Declarative Programming"
 id: imperative-versus-declarative-programming
-slug: imperative-versus-declarative-programming
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0cc_imperative_vs_declarative.md'
 ---
 
 Up to this point, we've mostly used an **imperative** style of programming. **Imperative programming** is when we tell our program exactly what we want to do and how we want it done. This means explicitly stating all the steps needed to get to an end result.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.06 Pair Programming"
+title: "📓 1.0.0.06 Pair Programming"
 id: 10006-pair-programming
-slug: 10006-pair-programming
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0e_pair_programming.md'
 ---
 
 In the Fidgetech program, we understand that working closely with other students isn't always possible. We do want you to try though, and to be open to the idea of helping and getting help from others. Below is a section for the standard Epicodus curriculum, please read it to try to understand why working with another student is good for you. In Epicodus, pair programming is required every day, in Fidgetech it is not, but there will be some amount of working in teams required to finish the curriculum.

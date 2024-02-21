@@ -1,12 +1,8 @@
 ---
 title: ✏️ 3.1.5.1 Test-Driven Development with C# Independent Project
 id: 3151-test-driven-development-with-c-independent-project
-slug: 3151-test-driven-development-with-c-independent-project
 hide_table_of_contents: true
-sidebar_position: 24
 day: friday
-type: exercise
-url: https://github.com/fidgetech/c-and-net/blob/main/5a_cr_c_sharp_independent_project.md
 paginationNext: null
 ---
 

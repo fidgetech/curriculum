@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.0.0.1 Welcome to JavaScript"
+title: "📓 2.0.0.1 Welcome to JavaScript"
 id: 2001-welcome-to-javascript
-slug: 2001-welcome-to-javascript
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0a_welcome_to_javascript.md
 paginationPrev: null
 ---
 

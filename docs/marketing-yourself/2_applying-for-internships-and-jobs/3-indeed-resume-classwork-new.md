@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Indeed Resume"
+title: "📓 Indeed Resume"
 id: indeed-resume
-slug: indeed-resume
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/3_indeed_resume_classwork_new.md
 ---
 
 # Indeed Resume

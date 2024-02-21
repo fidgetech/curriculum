@@ -1,12 +1,8 @@
 ---
 title: ✏️ 3.6.5.1 Building An API Independent Project
 id: 3651-building-an-api-independent-project
-slug: 3651-building-an-api-independent-project
 hide_table_of_contents: true
-sidebar_position: 23
 day: friday
-type: exercise
-url: https://github.com/fidgetech/c-and-net/blob/main/5a_building_an_api_independent_project.md
 paginationNext: null
 ---
 

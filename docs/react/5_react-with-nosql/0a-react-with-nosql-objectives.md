@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 React with NoSQL Objectives"
+title: "📓 React with NoSQL Objectives"
 id: react-with-nosql-objectives
-slug: react-with-nosql-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0a_react_with_nosql_objectives.md'
 paginationPrev: null
 ---
 

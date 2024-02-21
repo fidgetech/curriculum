@@ -3,7 +3,6 @@ title: Pre-work
 id: index
 slug: /pre-work
 hide_table_of_contents: true
-sidebar_position: 0
 ---
 
 # Fidgetech Pre-work

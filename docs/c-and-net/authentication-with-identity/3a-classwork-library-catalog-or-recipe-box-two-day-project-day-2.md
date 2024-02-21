@@ -1,12 +1,8 @@
 ---
 title: '✏️ Library Catalog, Recipe Box Week-Long Project - Part 3 (day 2)'
 id: library-catalog-recipe-box-week-long-project---part-3-day-2
-slug: library-catalog-recipe-box-week-long-project---part-3-day-2
 hide_table_of_contents: true
-sidebar_position: 17
 day: wednesday
-type: exercise
-url: https://github.com/fidgetech/c-and-net/blob/main/3a_classwork_library_catalog_or_recipe_box_two_day_project.md
 ---
 
 **Goal**: Practice creating many-to-many relationships with your applications. Use Identity to allow users to register, log in and log out. Explore using authorization to limit what users can and can't do in an application.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.3.0.08 Creating a Test Database: Exporting and Importing Databases with MySQL Workbench"
+title: "📓 3.3.0.08 Creating a Test Database: Exporting and Importing Databases with MySQL Workbench"
 id: 33008-creating-a-test-database-exporting-and-importing-databases-with-mysql-workbench
-slug: 33008-creating-a-test-database-exporting-and-importing-databases-with-mysql-workbench
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0ha_exporting_and_importing_databases.md
 ---
 
 In this lesson, we'll learn how to export and import a database using MySQL Workbench. In the process, we'll create a test database for the To Do List. You will also use these instructions to export your database to include in your independent project for this course section.

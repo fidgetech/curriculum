@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.43 Debugging Tools"
+title: "📓 3.0.0.43 Debugging Tools"
 id: 30043-debugging-tools
-slug: 30043-debugging-tools
 hide_table_of_contents: true
-sidebar_position: 12
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0l_debugging_tools.md'
 ---
 
 As our applications grow, we'll run into more complex bugs. Fortunately, there are multiple tools, techniques and approaches to quickly locate and squash pesky bugs.

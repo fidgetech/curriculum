@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Closures"
+title: "📓 Closures"
 id: closures
-slug: closures
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0f_closures.md'
 ---
 
 In this lesson, we'll cover another concept central to functional programming: **closures**.

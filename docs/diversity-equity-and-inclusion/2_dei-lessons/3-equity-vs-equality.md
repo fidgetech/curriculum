@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Equality versus Equity"
+title: "📓 Equality versus Equity"
 id: equality-versus-equity
-slug: equality-versus-equity
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/dei/blob/main/3_equity_vs_equality.md'
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week we will cover equity and how it differs from equality. 

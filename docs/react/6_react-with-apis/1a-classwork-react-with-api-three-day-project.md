@@ -1,12 +1,8 @@
 ---
 title: ✏️ React with API (Three-Day Project)
 id: react-with-api-three-day-project
-slug: react-with-api-three-day-project
 hide_table_of_contents: true
-sidebar_position: 16
 day: monday
-type: exercise
-url: https://github.com/fidgetech/react/blob/main/1a_classwork_react_with_api_three_day_project.md
 ---
 
 **Goals:** Build a React application that makes API calls. Follow along with the weekend lessons to make an API call with the `useReducer()` hook, and then a light/dark theme with context. Then spend the remaining class sessions building out a project with your pair or group. This project will utilize your skills with React to consume any API of your choosing.

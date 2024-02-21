@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.3.0.05 Connecting a Database to an ASP.NET Core App with MySqlConnector"
+title: "📓 3.3.0.05 Connecting a Database to an ASP.NET Core App with MySqlConnector"
 id: 33005-connecting-a-database-to-an-aspnet-core-app-with-mysqlconnector
-slug: 33005-connecting-a-database-to-an-aspnet-core-app-with-mysqlconnector
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0f_creating_the_database_object.md
 ---
 
 In the last lesson, we created a database for our To Do List using MySQL Workbench. In this lesson, we'll connect the database to our application using a tool called **MySqlConnector**. Once connected, we'll be able to interact with our database and its tables as C# objects in our application.

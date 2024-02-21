@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Pure Functions"
+title: "📓 Pure Functions"
 id: pure-functions
-slug: pure-functions
 hide_table_of_contents: true
-sidebar_position: 7
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0d_pure_functions.md'
 ---
 
 When we program in a functional style, the functions we write must always be **pure**. Let's take a look at what makes a **pure function**.

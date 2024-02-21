@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.6.0.03 Exploring the dotnet new Web API Template"
+title: "📓 3.6.0.03 Exploring the dotnet new Web API Template"
 id: 36003-exploring-the-dotnet-new-web-api-template
-slug: 36003-exploring-the-dotnet-new-web-api-template
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0c_new_api_template.md'
 ---
 
 In this lesson, we'll start building a Cretaceous Park API. This API will share data about a wildlife park consisting of creatures from [the cretaceous period](https://en.wikipedia.org/wiki/Cretaceous) that other developers can query.

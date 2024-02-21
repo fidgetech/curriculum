@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Unidirectional Data Flow"
+title: "📓 Unidirectional Data Flow"
 id: unidirectional-data-flow
-slug: unidirectional-data-flow
 hide_table_of_contents: true
-sidebar_position: 27
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/2c_unidirectional_data_flow.md'
 ---
 
 So far we have only been working with local state. However, when a user inputs data in our form, we somehow need to get that data from our `NewTicketForm` component to its parent `TicketControl` component.

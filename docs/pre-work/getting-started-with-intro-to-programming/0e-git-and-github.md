@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.20 Git and GitHub"
+title: "📓 1.0.0.20 Git and GitHub"
 id: 10020-git-and-github
-slug: 10020-git-and-github
 hide_table_of_contents: true
-sidebar_position: 7
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0e_git_and_github.md'
 ---
 
 When we get started writing a new program, the last thing we want to happen is to lose any of our hard work. To prevent this from happening, we will save versions of our code on our computer AND also save a version of our code on a location on the web.

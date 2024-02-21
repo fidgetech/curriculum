@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.3.0.9 Exception Handling for API Calls"
+title: "📓 2.3.0.9 Exception Handling for API Calls"
 id: 2309-exception-handling-for-api-calls
-slug: 2309-exception-handling-for-api-calls
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0i_XHR_exception_handling.md
 ---
 
 In this lesson, we'll complete our OpenWeather API website by incorporating error handling into our API request. What this means is having our code do something when an API call is not 200 OK, but instead any of the other possible HTTP status codes, like:

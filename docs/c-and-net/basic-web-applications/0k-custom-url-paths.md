@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.0.11 Custom URL Paths"
+title: "📓 3.2.0.11 Custom URL Paths"
 id: 32011-custom-url-paths
-slug: 32011-custom-url-paths
 hide_table_of_contents: true
-sidebar_position: 11
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0k_custom_url_paths.md'
 ---
 
 In the last lesson, we learned how we can configure routes like this one: _localhost:5000/home/goodbye_.

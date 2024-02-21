@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Help Queue: Planning and Setup for Context"
+title: "📓 Help Queue: Planning and Setup for Context"
 id: help-queue-planning-and-setup-for-context
-slug: help-queue-planning-and-setup-for-context
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0h_using_context_in_help_queue.md'
 ---
 
 In this lesson, we'll use React context in our Help Queue application to add a button that toggles between a light and dark theme. We'll need to do a few things to create this new functionality:

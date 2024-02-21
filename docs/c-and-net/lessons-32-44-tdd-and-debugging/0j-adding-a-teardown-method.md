@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.41 Part 2: Adding a Teardown Method and Completing the Tests for Static Class Members"
+title: "📓 3.0.0.41 Part 2: Adding a Teardown Method and Completing the Tests for Static Class Members"
 id: 30041-part-2-adding-a-teardown-method-and-completing-the-tests-for-static-class-members
-slug: 30041-part-2-adding-a-teardown-method-and-completing-the-tests-for-static-class-members
 hide_table_of_contents: true
-sidebar_position: 10
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0j_adding_a_teardown_method.md
 ---
 
 In this lesson we'll move past the roadblock we hit when testing the `GetAll()` getter method for the private static `_instances` field. As we'll see, the solution is quite simple! 

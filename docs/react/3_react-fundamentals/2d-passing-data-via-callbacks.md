@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Passing Data Via Callbacks"
+title: "📓 Passing Data Via Callbacks"
 id: passing-data-via-callbacks
-slug: passing-data-via-callbacks
 hide_table_of_contents: true
-sidebar_position: 28
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/2d_passing_data_via_callbacks.md'
 ---
 
 In the last lesson, we covered the tricky concept of unidirectional data flow. In this lesson, we'll apply what we've learned. To recap, we'll need to do the following:

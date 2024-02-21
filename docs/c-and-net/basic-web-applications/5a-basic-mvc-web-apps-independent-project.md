@@ -1,12 +1,8 @@
 ---
 title: ✏️ 3.2.5.1 Basic Web Applications Independent Project
 id: 3251-basic-web-applications-independent-project
-slug: 3251-basic-web-applications-independent-project
 hide_table_of_contents: true
-sidebar_position: 44
 day: friday
-type: exercise
-url: https://github.com/fidgetech/c-and-net/blob/main/5a_basic_mvc_web_apps_independent_project.md
 paginationNext: null
 ---
 

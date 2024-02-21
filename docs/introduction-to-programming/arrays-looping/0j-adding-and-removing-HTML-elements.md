@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.0.9 Adding and Removing HTML Elements"
+title: "📓 1.3.0.9 Adding and Removing HTML Elements"
 id: 1309-adding-and-removing-html-elements
-slug: 1309-adding-and-removing-html-elements
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0j_adding_and_removing_HTML_elements.md
 ---
 
 In the last course section we learned two ways to add and remove content from our webpages:

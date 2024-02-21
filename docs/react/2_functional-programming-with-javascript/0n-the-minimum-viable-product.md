@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Capstone Planning: The Minimum Viable Product"
+title: "📓 Capstone Planning: The Minimum Viable Product"
 id: capstone-planning-the-minimum-viable-product
-slug: capstone-planning-the-minimum-viable-product
 hide_table_of_contents: true
-sidebar_position: 13
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0n_the_minimum_viable_product.md'
 ---
 
 During the final course section of your time at Epicodus, you will craft your Capstone project, and eventually present it to your peers to showcase what you've learned. This will also act as your final independent project of Epicodus.

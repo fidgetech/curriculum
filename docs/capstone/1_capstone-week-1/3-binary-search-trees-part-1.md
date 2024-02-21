@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Binary Search Trees Part 1"
+title: "📓 Binary Search Trees Part 1"
 id: binary-search-trees-part-1
-slug: binary-search-trees-part-1
 hide_table_of_contents: true
-sidebar_position: 11
 day: monday
-type: lesson
-url: https://github.com/fidgetech/capstone/blob/main/3_binary_search_trees_part_1.md
 ---
 
 In the last lesson, we learned about binary tree and binary search tree data structures. Over the next several lessons, we'll build an application that creates a binary search tree from scratch. We'll also learn how to search this BSTs in the process.

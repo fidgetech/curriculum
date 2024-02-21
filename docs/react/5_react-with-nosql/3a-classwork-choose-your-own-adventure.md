@@ -1,12 +1,8 @@
 ---
 title: ✏️ Choose Your Own Adventure (Two-Day or One-Week Project)
 id: choose-your-own-adventure-two-day-or-one-week-project
-slug: choose-your-own-adventure-two-day-or-one-week-project
 hide_table_of_contents: true
-sidebar_position: 32
 day: wednesday
-type: exercise
-url: https://github.com/fidgetech/react/blob/main/3a_classwork_choose_your_own_adventure.md
 ---
 
 **Goal:** Either continue with the project you began at the start of the course section or begin a new multi-day project:

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Composition"
+title: "📓 Composition"
 id: composition
-slug: composition
 hide_table_of_contents: true
-sidebar_position: 22
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0k_composition.md'
 ---
 
 Functional programming favors **composition**, not inheritance. In fact, composition is an extremely important computer science concept and it is commonly applied in object-oriented programming as well.

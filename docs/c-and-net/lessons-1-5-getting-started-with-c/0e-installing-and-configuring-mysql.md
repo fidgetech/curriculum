@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.04 Installing and Configuring MySQL"
+title: "📓 3.0.0.04 Installing and Configuring MySQL"
 id: 30004-installing-and-configuring-mysql
-slug: 30004-installing-and-configuring-mysql
 hide_table_of_contents: true
-sidebar_position: 4
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0e_installing_and_configuring_mysql.md
 ---
 
 **MySQL** is a type of database software used to create, edit, query, and manage SQL data.

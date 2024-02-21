@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.2.3 Text Analyzer with TDD: wordCounter()"
+title: "📓 1.3.2.3 Text Analyzer with TDD: wordCounter()"
 id: 1323-text-analyzer-with-tdd-wordcounter
-slug: 1323-text-analyzer-with-tdd-wordcounter
 hide_table_of_contents: true
-sidebar_position: 22
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/2c_text_analyzer_tdd_part_1.md
 ---
 
 In the last lesson, we wrote a very basic function for counting words in a paragraph. It doesn't work very well. It doesn't care about the difference between numbers and words in a string. It returns `1` even when we pass in an empty string. So let's keep working on this function and make it better. We're ready to actually start building our application.

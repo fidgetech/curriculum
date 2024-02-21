@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.19 Expectations and Game Plan for Building a C# Console App"
+title: "📓 3.0.0.19 Expectations and Game Plan for Building a C# Console App"
 id: 30019-expectations-and-game-plan-for-building-a-c-console-app
-slug: 30019-expectations-and-game-plan-for-building-a-c-console-app
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0a_basic_console_apps.md'
 paginationPrev: null
 ---
 

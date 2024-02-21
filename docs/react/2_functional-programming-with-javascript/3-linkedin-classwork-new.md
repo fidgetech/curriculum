@@ -1,12 +1,8 @@
 ---
 title: ✏️ LinkedIn Profiles
 id: linkedin-profiles
-slug: linkedin-profiles
 hide_table_of_contents: true
-sidebar_position: 37
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/career-services/blob/main/3_linkedin_classwork_new.md
 ---
 
 # LinkedIn Profiles

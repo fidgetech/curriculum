@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Journal #17"
+title: "📓 Journal #17"
 id: journal-17
-slug: journal-17
 hide_table_of_contents: true
-sidebar_position: 17
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/1_week_19_prompt.md'
 paginationNext: null
 ---
 

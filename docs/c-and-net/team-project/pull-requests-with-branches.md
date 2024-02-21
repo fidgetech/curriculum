@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.7.1.1 Pull Requests with Branches"
+title: "📓 3.7.1.1 Pull Requests with Branches"
 id: 3711-pull-requests-with-branches
-slug: 3711-pull-requests-with-branches
 hide_table_of_contents: true
-sidebar_position: 7
 day: monday
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/pull_requests_with_branches.md
 ---
 
 In this lesson, we'll practice making pull requests with branches. This is a common workflow in the industry. In this workflow, a developer pulls down the latest code from the main branch and creates a new branch. When a feature is completed, the new branch is committed and pushed to GitHub. Then the developer makes a pull request so the code can be merged into the main branch via GitHub's UI.

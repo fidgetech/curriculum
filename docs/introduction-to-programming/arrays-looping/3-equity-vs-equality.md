@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.1.8 Homework: Equality Versus Equity"
+title: "📓 1.3.1.8 Homework: Equality Versus Equity"
 id: 1318-homework-equality-versus-equity
-slug: 1318-homework-equality-versus-equity
 hide_table_of_contents: true
-sidebar_position: 19
 day: monday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/3_equity_vs_equality.md
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week we will cover equity and how it differs from equality. 

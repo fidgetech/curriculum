@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.09 Independent Projects and Code Reviews"
+title: "📓 1.0.0.09 Independent Projects and Code Reviews"
 id: 10009-independent-projects-and-code-reviews
-slug: 10009-independent-projects-and-code-reviews
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/pre-work/blob/main/0j_indepndnt_projects_and_code_reviews.md
 ---
 
 ## [Overview](#overview)

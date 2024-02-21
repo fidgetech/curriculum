@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Job Boards 2"
+title: "📓 Job Boards 2"
 id: job-boards-2
-slug: job-boards-2
 hide_table_of_contents: true
-sidebar_position: 29
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/5_job_boards.md'
 ---
 
 Now that you're ready to apply for jobs, you need to know where to look!

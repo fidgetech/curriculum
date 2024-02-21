@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Non-Technical Interview"
+title: "📓 Non-Technical Interview"
 id: non-technical-interview
-slug: non-technical-interview
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/0_non_technical_interview.md
 paginationPrev: null
 ---
 

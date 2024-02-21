@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Application Screening Methods"
+title: "📓 Application Screening Methods"
 id: application-screening-methods
-slug: application-screening-methods
 hide_table_of_contents: true
-sidebar_position: 17
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/application_screening_methods.md
 ---
 
 # Application Screening Methods 

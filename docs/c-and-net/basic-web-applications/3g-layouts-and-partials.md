@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.3.7 Layouts and Partials"
+title: "📓 3.2.3.7 Layouts and Partials"
 id: 3237-layouts-and-partials
-slug: 3237-layouts-and-partials
 hide_table_of_contents: true
-sidebar_position: 39
 day: wednesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/3g_layouts_and_partials.md'
 ---
 
 In this lesson, we'll learn a few ways to DRY up the project structure of our front-end files.

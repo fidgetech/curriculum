@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.0.7 How the Web Works: MVC Pattern"
+title: "📓 3.2.0.7 How the Web Works: MVC Pattern"
 id: 3207-how-the-web-works-mvc-pattern
-slug: 3207-how-the-web-works-mvc-pattern
 hide_table_of_contents: true
-sidebar_position: 7
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0g_how_the_web_works_mvc_pattern.md
 ---
 
 In the [_Introduction to ASP.NET Core MVC_](https://old.learnhowtoprogram.com/c-and-net/basic-web-applications/introduction-to-asp-net-core) lesson, we stated that there were two _very_ important things to know about the ASP.NET Core MVC framework we're using this section:

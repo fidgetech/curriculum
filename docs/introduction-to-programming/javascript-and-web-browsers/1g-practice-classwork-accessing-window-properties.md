@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.2.1.7 Practice: Accessing Window Properties'
 id: 1217-practice-accessing-window-properties
-slug: 1217-practice-accessing-window-properties
 hide_table_of_contents: true
-sidebar_position: 29
 day: monday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1g_practice_classwork_accessing_window_properties.md
 ---
 
 **Goal:** In the "Accessing Window Properties" lesson, we learned:

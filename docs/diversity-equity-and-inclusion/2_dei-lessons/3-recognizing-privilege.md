@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Recognizing Privilege"
+title: "📓 Recognizing Privilege"
 id: recognizing-privilege
-slug: recognizing-privilege
 hide_table_of_contents: true
-sidebar_position: 7
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/dei/blob/main/3_recognizing_privilege.md'
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week, we'll learn about why DEI efforts are so important in the tech industry — and elsewhere.

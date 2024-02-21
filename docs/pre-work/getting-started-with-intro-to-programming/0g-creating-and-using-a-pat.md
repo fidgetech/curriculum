@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.22 Creating and Using a Git PAT"
+title: "📓 1.0.0.22 Creating and Using a Git PAT"
 id: 10022-creating-and-using-a-git-pat
-slug: 10022-creating-and-using-a-git-pat
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0g_creating_and_using_a_pat.md'
 paginationNext: null
 ---
 

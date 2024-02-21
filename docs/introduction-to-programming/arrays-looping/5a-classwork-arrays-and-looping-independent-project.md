@@ -1,12 +1,8 @@
 ---
 title: ✏️ 1.3.5.1 Arrays and Looping Independent Project
 id: 1351-arrays-and-looping-independent-project
-slug: 1351-arrays-and-looping-independent-project
 hide_table_of_contents: true
-sidebar_position: 47
 day: friday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/5a_classwork_arrays_and_looping_independent_project.md
 paginationNext: null
 ---
 

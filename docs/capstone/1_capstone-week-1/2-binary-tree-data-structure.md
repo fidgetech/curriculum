@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Binary Search Trees Introduction"
+title: "📓 Binary Search Trees Introduction"
 id: binary-search-trees-introduction
-slug: binary-search-trees-introduction
 hide_table_of_contents: true
-sidebar_position: 10
 day: monday
-type: lesson
-url: https://github.com/fidgetech/capstone/blob/main/2_binary_tree_data_structure.md
 ---
 
 In this lesson, we'll give an overview of two data structures: the **binary tree** and the **binary search tree**. They are quite similar — the main difference is that a binary search tree has additional restraints that make it better for searching.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Resume Overview"
+title: "📓 Resume Overview"
 id: resume-overview
-slug: resume-overview
 hide_table_of_contents: true
-sidebar_position: 14
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/3_resume_overview.md'
 ---
 
 # Resume Overview

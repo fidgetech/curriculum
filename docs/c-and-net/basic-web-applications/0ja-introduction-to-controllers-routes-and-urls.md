@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.0.10 Introduction to Controllers, Routes and URLs"
+title: "📓 3.2.0.10 Introduction to Controllers, Routes and URLs"
 id: 32010-introduction-to-controllers-routes-and-urls
-slug: 32010-introduction-to-controllers-routes-and-urls
 hide_table_of_contents: true
-sidebar_position: 10
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0ja_introduction_to_controllers_routes_and_urls.md
 ---
 
 Now that we can successfully run a project, we're ready to start building our application out further. We'll start by adding a new **controller** file. This file's job is to receive the requests a user will send the server and return the correct corresponding information to display in the browser.

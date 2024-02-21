@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.3.2.5 Using ViewBag"
+title: "📓 3.3.2.5 Using ViewBag"
 id: 3325-using-viewbag
-slug: 3325-using-viewbag
 hide_table_of_contents: true
-sidebar_position: 30
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/2k_using_viewbag.md'
 ---
 
 Before updating the rest of our application so that our users can actually associate a `Category` with an `Item`, let's learn about a place to store data called a **ViewBag**.

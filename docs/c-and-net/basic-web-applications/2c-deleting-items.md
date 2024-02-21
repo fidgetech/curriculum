@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.2.3 Deleting Items"
+title: "📓 3.2.2.3 Deleting Items"
 id: 3223-deleting-items
-slug: 3223-deleting-items
 hide_table_of_contents: true
-sidebar_position: 29
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/2c_deleting_items.md'
 ---
 
 In the last lesson we discussed CRUD actions and their corresponding HTTP request methods. So far, our To Do List can create `Item`s with a POST request via our form and read `Item`s with a GET request so users can see the full To Do List.

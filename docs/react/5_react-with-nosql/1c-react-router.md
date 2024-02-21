@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 React Router"
+title: "📓 React Router"
 id: react-router
-slug: react-router
 hide_table_of_contents: true
-sidebar_position: 26
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/1c_react_router.md'
 ---
 
 In this lesson, we'll incorporate the React Router library and create a "separate" sign-in page that uses client-side routing. In the next lesson, we'll actually incorporate Firebase authentication.

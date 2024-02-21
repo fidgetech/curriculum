@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Depth First Algorithms"
+title: "📓 Depth First Algorithms"
 id: depth-first-algorithms
-slug: depth-first-algorithms
 hide_table_of_contents: true
-sidebar_position: 21
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/capstone/blob/main/7_depth_first_algorithm.md'
 ---
 
 In the last lesson, we covered depth-first search and breadth-first search approaches. There are a lot of benefits of using these algorithms. We could determine the **reachability** between two nodes or we could determine the shortest path between two nodes, just to name a few use cases.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 How to Research Job Companies"
+title: "📓 How to Research Job Companies"
 id: how-to-research-job-companies
-slug: how-to-research-job-companies
 hide_table_of_contents: true
-sidebar_position: 22
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/how_to_research_companies.md
 ---
 
 # How to Research Companies 

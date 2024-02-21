@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Depth and Breadth Search Algorithms"
+title: "📓 Depth and Breadth Search Algorithms"
 id: depth-and-breadth-search-algorithms
-slug: depth-and-breadth-search-algorithms
 hide_table_of_contents: true
-sidebar_position: 20
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/capstone/blob/main/6_depth_and_breadth_search_algorithms_overview.md
 ---
 
 There are two ways we can search a tree — regardless of whether that's a binary search tree or a more general tree. We can take a **depth-first search** (DFS) approach or a **breadth-first search** (BFS) approach. You can probably guess a little bit about each approach. If we are looking at a tree that has a root node and child nodes, a depth-first search algorithm will search a tree vertically while a breadth-first search algorithm will search a tree horizontally. A graph can't really be measured vertically or horizontally in this way but the same concept still applies — we can search broadly or go deeper into each branch first. We just don't necessarily do so from a root node. Instead, we can start our search from any node in the graph.

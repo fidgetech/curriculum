@@ -1,12 +1,8 @@
 ---
 title: ✏️ Functional Programming with JavaScript Independent Project
 id: functional-programming-with-javascript-independent-project
-slug: functional-programming-with-javascript-independent-project
 hide_table_of_contents: true
-sidebar_position: 40
 day: friday
-type: exercise
-url: https://github.com/fidgetech/react/blob/main/5a_classwork_functional_programming_independent_project.md
 paginationNext: null
 ---
 

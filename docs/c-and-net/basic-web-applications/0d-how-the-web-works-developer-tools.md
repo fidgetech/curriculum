@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.0.4 How the Web Works: Developer Tools"
+title: "📓 3.2.0.4 How the Web Works: Developer Tools"
 id: 3204-how-the-web-works-developer-tools
-slug: 3204-how-the-web-works-developer-tools
 hide_table_of_contents: true
-sidebar_position: 4
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0d_how_the_web_works_developer_tools.md
 ---
 
 As web developers, we often need to look at the requests and responses that come and go from client and server and back. In this lesson, we are going to look at the Developer Tools in Chrome that offer a peek into the requests and responses in the browser.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Adding Wait Time to the Queue Part 2"
+title: "📓 Adding Wait Time to the Queue Part 2"
 id: adding-wait-time-to-the-queue-part-2
-slug: adding-wait-time-to-the-queue-part-2
 hide_table_of_contents: true
-sidebar_position: 30
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/3e_adding_wait_time_to_the_queue_part_2.md
 ---
 
 In the last lesson, we covered the "business" logic for updating a ticket's elapsed time in the Redux store. In the process, we had to write and test a reducer action, update and test another reducer action, and write action creators.

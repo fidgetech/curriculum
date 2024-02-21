@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.1.2.3 Interfaces: Another Tool for Abstraction and Inheritance"
+title: "📓 3.1.2.3 Interfaces: Another Tool for Abstraction and Inheritance"
 id: 3123-interfaces-another-tool-for-abstraction-and-inheritance
-slug: 3123-interfaces-another-tool-for-abstraction-and-inheritance
 hide_table_of_contents: true
-sidebar_position: 11
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/2c_interfaces.md'
 ---
 
 In this lesson, we'll cover another important tool in C# and other strongly-typed languages: **interfaces**. We can think of an interface as a blueprint of things that must be included within any class that utilizes the interface. The interface doesn't actually care how these things are implemented — it only cares that they're included in the class.

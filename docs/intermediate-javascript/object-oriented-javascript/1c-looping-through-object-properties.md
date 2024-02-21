@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.1.1.3 Looping Through Objects and Prototypal Inheritance"
+title: "📓 2.1.1.3 Looping Through Objects and Prototypal Inheritance"
 id: 2113-looping-through-objects-and-prototypal-inheritance
-slug: 2113-looping-through-objects-and-prototypal-inheritance
 hide_table_of_contents: true
-sidebar_position: 14
 day: monday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/1c_looping_through_object_properties.md
 ---
 
 In order to display all of the contacts in our application, we're going to need to loop through our address book's contacts. However, since our contacts are all stored in an object, we have to do this differently than we would with looping through an array.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Further Exploration: Creating a Custom React Environment"
+title: "📓 Further Exploration: Creating a Custom React Environment"
 id: further-exploration-creating-a-custom-react-environment
-slug: further-exploration-creating-a-custom-react-environment
 hide_table_of_contents: true
-sidebar_position: 19
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/2a_further_exploration_creating_our_own_react_environment.md
 ---
 
 We've used create-react-app to build React applications because it's easy to get started and we can bypass the additional work of setting up our own webpack configuration. create-react-app comes with a lot of tools right out of the box and we can always add additional libraries as needed.

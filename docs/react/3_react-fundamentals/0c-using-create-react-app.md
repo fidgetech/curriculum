@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Using create-react-app"
+title: "📓 Using create-react-app"
 id: using-create-react-app
-slug: using-create-react-app
 hide_table_of_contents: true
-sidebar_position: 4
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0c_using_create_react_app.md'
 ---
 
 Some developers build React applications from scratch. This involves creating custom webpack configurations, adding Node packages, and customizing Babel to fit the needs of the project. While this is a valid approach to building React applications, we've had plenty of practice with webpack, Node packages, and Babel during the Intermediate JavaScript course.

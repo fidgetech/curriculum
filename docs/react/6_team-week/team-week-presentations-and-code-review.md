@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Team Week Presentations and Independent Project"
+title: "📓 Team Week Presentations and Independent Project"
 id: team-week-presentations-and-independent-project
-slug: team-week-presentations-and-independent-project
 hide_table_of_contents: true
-sidebar_position: 12
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/shared/blob/main/team_week_presentations_and_code_review.md
 paginationNext: null
 ---
 

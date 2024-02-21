@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Action Constants"
+title: "📓 Action Constants"
 id: action-constants
-slug: action-constants
 hide_table_of_contents: true
-sidebar_position: 24
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/2c_action_constants.md'
 ---
 
 In the last lesson, we learned how to use action creators to clean up our code. In this lesson, we'll make another small refactor to use action constants.

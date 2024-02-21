@@ -1,12 +1,8 @@
 ---
 title: ✏️ Whiteboard Practice
 id: whiteboard-practice
-slug: whiteboard-practice
 hide_table_of_contents: true
-sidebar_position: 41
 day: thursday
-type: exercise
-url: 'https://github.com/fidgetech/react/blob/main/4a_whiteboarding_practice.md'
 ---
 
 ## Whiteboard Practice

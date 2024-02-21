@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Anatomy of a Reducer"
+title: "📓 Anatomy of a Reducer"
 id: anatomy-of-a-reducer
-slug: anatomy-of-a-reducer
 hide_table_of_contents: true
-sidebar_position: 7
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0g_anatomy_of_a_reducer.md'
 ---
 
 Over the last several lessons, we've built and tested a reducer that will allow us to take CRUD actions in our Help Queue application. Reducers can get considerably more complex — and we'll eventually learn more advanced techniques such as splitting and combining reducers — but for now, we'll focus on reviewing what we've learned so far. Having a clear understanding of how reducers work will make learning Redux much easier.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.5.3.2 Whiteboard Practice"
+title: "📓 3.5.3.2 Whiteboard Practice"
 id: 3532-whiteboard-practice
-slug: 3532-whiteboard-practice
 hide_table_of_contents: true
-sidebar_position: 18
 day: wednesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/4a_whiteboarding_practice.md'
 ---
 
 ## Whiteboard Practice

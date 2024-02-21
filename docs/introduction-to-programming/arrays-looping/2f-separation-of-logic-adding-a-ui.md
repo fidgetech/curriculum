@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.2.6 Separation of Logic: Adding a UI to Text Analyzer"
+title: "📓 1.3.2.6 Separation of Logic: Adding a UI to Text Analyzer"
 id: 1326-separation-of-logic-adding-a-ui-to-text-analyzer
-slug: 1326-separation-of-logic-adding-a-ui-to-text-analyzer
 hide_table_of_contents: true
-sidebar_position: 25
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/2f_separation_of_logic_adding_a_ui.md
 ---
 
 Over the last two lessons, we used test-driven development to build some basic functionality for a word counter program called "Text Analyzer". This program can count the number of words in a passage of text and also count the number of occurrences of that word.

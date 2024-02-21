@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.26 APIE: Encapsulation"
+title: "📓 3.0.0.26 APIE: Encapsulation"
 id: 30026-apie-encapsulation
-slug: 30026-apie-encapsulation
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0h_encapsulation.md'
 ---
 
 You might still be wondering why we need to use private fields. Why use getters and setters at all, especially since we had access to get and set fields when they were public?

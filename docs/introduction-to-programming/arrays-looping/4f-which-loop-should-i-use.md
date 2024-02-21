@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.4.6 Optional Review: Which Loop Should I Use?"
+title: "📓 1.3.4.6 Optional Review: Which Loop Should I Use?"
 id: 1346-optional-review-which-loop-should-i-use
-slug: 1346-optional-review-which-loop-should-i-use
 hide_table_of_contents: true
-sidebar_position: 45
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4f_which_loop_should_i_use.md
 ---
 
 **Note: You can use any kind of loop for this section's independent project provided that you correctly solve the problem.** We recommend using `Array.prototype.forEach()` or `for` loops for the independent project.

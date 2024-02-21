@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Welcome to the Workshop"
+title: "📓 Welcome to the Workshop"
 id: welcome-to-the-workshop
-slug: welcome-to-the-workshop
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/workshops/blob/main/ucode_1_welcome-to-ucode-workshop.md
 paginationPrev: null
 ---
 

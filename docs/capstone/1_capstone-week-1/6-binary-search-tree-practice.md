@@ -1,12 +1,8 @@
 ---
 title: ✏️ Binary Search Trees Practice
 id: binary-search-trees-practice
-slug: binary-search-trees-practice
 hide_table_of_contents: true
-sidebar_position: 14
 day: monday
-type: exercise
-url: https://github.com/fidgetech/capstone/blob/main/6_binary_search_tree_practice.md
 ---
 
 Now that you're done following along with the lessons to build and traverse a binary search tree, it's time for an additional challenge. Try adding the functionality listed below to your application. It's okay if you do not get the functionality fully implemented — these are both challenging features and there's a reason we don't walk through them in-depth in our curriculum.

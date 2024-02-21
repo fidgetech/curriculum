@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.6.2.6 MVC Client: POST, PUT, and DELETE"
+title: "📓 3.6.2.6 MVC Client: POST, PUT, and DELETE"
 id: 3626-mvc-client-post-put-and-delete
-slug: 3626-mvc-client-post-put-and-delete
 hide_table_of_contents: true
-sidebar_position: 19
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/2c_client_post_put_delete.md'
 ---
 
 Over the last two lessons, we've written methods to GET data from our API. Now we're ready to add methods to POST, PUT, and DELETE data. 

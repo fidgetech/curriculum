@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.2.3.4 Practice: Forms'
 id: 1234-practice-forms
-slug: 1234-practice-forms
 hide_table_of_contents: true
-sidebar_position: 55
 day: wednesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/3c_classwork_practice_forms.md
 ---
 
 **Goal**: Practice creating HTML forms and debugging:

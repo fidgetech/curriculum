@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 React Fundamentals Objectives"
+title: "📓 React Fundamentals Objectives"
 id: react-fundamentals-objectives
-slug: react-fundamentals-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0a_react_fundamentals_objectives.md
 paginationPrev: null
 ---
 

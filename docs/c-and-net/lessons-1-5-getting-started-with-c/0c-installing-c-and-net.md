@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.02 Installing C# and .NET"
+title: "📓 3.0.0.02 Installing C# and .NET"
 id: 30002-installing-c-and-net
-slug: 30002-installing-c-and-net
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0c_installing_c_and_net.md'
 ---
 
 First we'll install .NET, which provides access to the C# language. Follow along with instructions for your operating system below.

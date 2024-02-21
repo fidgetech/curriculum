@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 The Rules of Hooks, Custom Hooks, and Why Hooks Are Awesome"
+title: "📓 The Rules of Hooks, Custom Hooks, and Why Hooks Are Awesome"
 id: the-rules-of-hooks-custom-hooks-and-why-hooks-are-awesome
-slug: the-rules-of-hooks-custom-hooks-and-why-hooks-are-awesome
 hide_table_of_contents: true
-sidebar_position: 4
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0d_rules_of_hooks_and_custom_hooks.md
 ---
 
 In this lesson, we'll recap the best practices and rules of hooks. We'll also review why hooks are so beloved in the React developer community by explaining how hooks improve how we can reuse stateful logic in our apps. In the process, we'll write our own custom hook. 

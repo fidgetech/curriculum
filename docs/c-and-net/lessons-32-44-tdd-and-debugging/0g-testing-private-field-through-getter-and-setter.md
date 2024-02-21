@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.38 Testing A Private Field through its Getter and Setter Methods"
+title: "📓 3.0.0.38 Testing A Private Field through its Getter and Setter Methods"
 id: 30038-testing-a-private-field-through-its-getter-and-setter-methods
-slug: 30038-testing-a-private-field-through-its-getter-and-setter-methods
 hide_table_of_contents: true
-sidebar_position: 7
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0g_testing_private_field_through_getter_and_setter.md
 ---
 
 In this lesson, we'll work on implementing the next simplest behavior for our `Triangle` logic, which is giving triangles a third side:

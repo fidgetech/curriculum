@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.4.2 Form Input Types"
+title: "📓 1.2.4.2 Form Input Types"
 id: 1242-form-input-types
-slug: 1242-form-input-types
 hide_table_of_contents: true
-sidebar_position: 66
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4b_form_input_types.md
 ---
 
 We've already seen how to gather input from text fields, but there are a variety of other types of form fields as well: select boxes, radio buttons, and checkboxes are perhaps the most prominent.

@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.3.3.8 Practice: Pig Latin'
 id: 1338-practice-pig-latin
-slug: 1338-practice-pig-latin
 hide_table_of_contents: true
-sidebar_position: 37
 day: wednesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/3g_classwork_practice_pig_latin.md
 ---
 
 **Goal**: Focus on breaking your project down into small pieces of functionality, and tackling them one at a time with TDD. Also, as our projects grow in size, continue to practice good organization by keeping business logic and user interface logic distinctly separate.

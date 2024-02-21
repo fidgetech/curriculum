@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.25 Access Modifiers, Best Practices with Fields, and Getter and Setter Methods"
+title: "📓 3.0.0.25 Access Modifiers, Best Practices with Fields, and Getter and Setter Methods"
 id: 30025-access-modifiers-best-practices-with-fields-and-getter-and-setter-methods
-slug: 30025-access-modifiers-best-practices-with-fields-and-getter-and-setter-methods
 hide_table_of_contents: true
-sidebar_position: 7
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0g_best_practices_with_fields.md
 ---
 
 At this point we've completed the business logic functionality that we need to create a Shape Tracker app that functions the same as our JS version. However, there's a bit more C# basics that we need to learn and apply to our `Triangle` model before moving onto our user interface logic. 

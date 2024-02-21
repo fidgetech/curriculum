@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Writing Our First Redux Test"
+title: "📓 Writing Our First Redux Test"
 id: writing-our-first-redux-test
-slug: writing-our-first-redux-test
 hide_table_of_contents: true
-sidebar_position: 4
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0d_writing_our_first_redux_test.md
 ---
 
 Our project is set up and ready to go. It's time to write our first test. In the process, we will learn a bit more about reducers. Once we've finished testing and building our first reducer, we will review what reducers are and how they work.

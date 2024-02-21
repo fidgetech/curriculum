@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Goal Setting & Career Services Overview - Part 2"
+title: "📓 Goal Setting & Career Services Overview - Part 2"
 id: goal-setting-&-career-services-overview---part-2
-slug: goal-setting-&-career-services-overview---part-2
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/1_week_1_goal_setting_and_career_services_overview_part_2.md
 ---
 
 # Goal Setting 

@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.1.1.10 Practice: Block Elements'
 id: 11110-practice-block-elements
-slug: 11110-practice-block-elements
 hide_table_of_contents: true
-sidebar_position: 11
 day: monday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1l_classwork_practice_block_elements.md
 ---
 
 **Goal:** Practice creating basic HTML webpages, with special attention toward spacing and indentation. As we begin to explore more and more complex code, proper indentation and spacing will become downright vital to maintaining clean, easy-to-manage projects. Begin developing these good habits now!

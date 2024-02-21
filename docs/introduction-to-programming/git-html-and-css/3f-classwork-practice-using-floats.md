@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.1.3.6 Practice: Using Floats'
 id: 1136-practice-using-floats
-slug: 1136-practice-using-floats
 hide_table_of_contents: true
-sidebar_position: 33
 day: wednesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/3f_classwork_practice_using_floats.md
 ---
 
 **Goal**: In the Laying out with floats lesson, we learned how to use floats to:

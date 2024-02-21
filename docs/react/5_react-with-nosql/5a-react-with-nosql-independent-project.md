@@ -1,12 +1,8 @@
 ---
 title: ✏️ React with NoSQL Independent Project
 id: react-with-nosql-independent-project
-slug: react-with-nosql-independent-project
 hide_table_of_contents: true
-sidebar_position: 39
 day: friday
-type: exercise
-url: https://github.com/fidgetech/react/blob/main/5a_react_with_nosql_independent_project.md
 paginationNext: null
 ---
 

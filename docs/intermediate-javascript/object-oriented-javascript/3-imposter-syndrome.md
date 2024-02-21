@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.1.1.7 Imposter Syndrome"
+title: "📓 2.1.1.7 Imposter Syndrome"
 id: 2117-imposter-syndrome
-slug: 2117-imposter-syndrome
 hide_table_of_contents: true
-sidebar_position: 18
 day: monday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/3_imposter_syndrome.md
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum.

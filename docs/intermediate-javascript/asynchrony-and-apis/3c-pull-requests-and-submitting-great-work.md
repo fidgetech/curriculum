@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.3.3.3 Pull Requests and Submitting Great Work"
+title: "📓 2.3.3.3 Pull Requests and Submitting Great Work"
 id: 2333-pull-requests-and-submitting-great-work
-slug: 2333-pull-requests-and-submitting-great-work
 hide_table_of_contents: true
-sidebar_position: 26
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/3c_pull_requests_and_submitting_great_work.md
 ---
 
 ## Coding in the Real World

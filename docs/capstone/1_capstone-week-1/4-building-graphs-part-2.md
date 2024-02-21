@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Building Graphs Part 2"
+title: "📓 Building Graphs Part 2"
 id: building-graphs-part-2
-slug: building-graphs-part-2
 hide_table_of_contents: true
-sidebar_position: 18
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/capstone/blob/main/4_building_graphs_part_2.md'
 ---
 
 Let's start building our application now using the testing structure from the [Computer Science Testing Environment](https://www.learnhowtoprogram.com/computer-science/big-o-notation-and-binary-trees/computer-science-testing-environment) lesson.

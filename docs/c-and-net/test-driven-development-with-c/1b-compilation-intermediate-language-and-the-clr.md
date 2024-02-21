@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.1.1.2- A Closer Look at Compiling and Executing C# Programs"
+title: "📓 3.1.1.2- A Closer Look at Compiling and Executing C# Programs"
 id: 3112--a-closer-look-at-compiling-and-executing-c-programs
-slug: 3112--a-closer-look-at-compiling-and-executing-c-programs
 hide_table_of_contents: true
-sidebar_position: 3
 day: monday
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/1b_compilation_intermediate_language_and_the_clr.md
 ---
 
 Over the pre-work we learned how to create console apps and test business logic using TDD and MSTest. Let's take a closer look at the process of compiling and running code in C#.

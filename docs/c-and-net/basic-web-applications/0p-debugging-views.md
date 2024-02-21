@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.0.16 Debugging Views and Configuring a Development Environment with launchSettings.json"
+title: "📓 3.2.0.16 Debugging Views and Configuring a Development Environment with launchSettings.json"
 id: 32016-debugging-views-and-configuring-a-development-environment-with-launchsettingsjson
-slug: 32016-debugging-views-and-configuring-a-development-environment-with-launchsettingsjson
 hide_table_of_contents: true
-sidebar_position: 16
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0p_debugging_views.md'
 ---
 
 Sometimes we have written a good program that compiles nicely. We build the project, run the server, and navigate to our app. At some point while navigating through our pages, we get an error and a page isn't returned. This generally results in a 500 server error message in the browser. (We'll cover server messages later.) Unfortunately, this vague message isn't helpful for debugging our code.

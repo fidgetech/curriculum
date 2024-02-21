@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Merge Sort"
+title: "📓 Merge Sort"
 id: merge-sort
-slug: merge-sort
 hide_table_of_contents: true
-sidebar_position: 36
 day: thursday
-type: lesson
-url: 'https://github.com/fidgetech/capstone/blob/main/merge_sort.md'
 ---
 
 At this point, we've looked at several sorting algorithms that have a Big O of O(N<sup>2</sup>): the bubble sort, insertion sort, and selection sort algorithms. Now we're ready to look at a few algorithms that are both more efficient and more complex.

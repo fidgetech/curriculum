@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Portfolio Update and Personal Brand"
+title: "📓 Portfolio Update and Personal Brand"
 id: portfolio-update-and-personal-brand
-slug: portfolio-update-and-personal-brand
 hide_table_of_contents: true
-sidebar_position: 12
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/portfolio_update_and_personal_brand.md
 ---
 
 # Portfolio Update and Personal Brand

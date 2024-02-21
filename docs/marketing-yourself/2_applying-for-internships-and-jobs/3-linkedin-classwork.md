@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 LinkedIn Profiles (pre-October)"
+title: "📓 LinkedIn Profiles (pre-October)"
 id: linkedin-profiles-pre-october
-slug: linkedin-profiles-pre-october
 hide_table_of_contents: true
-sidebar_position: 11
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/3_linkedin_classwork.md'
 ---
 
 LinkedIn is a social network service specifically oriented toward employment and professional networking. It's similar to sites like Facebook, but user profiles feature professional accolades, work histories, resumes, and more employment-related content. 

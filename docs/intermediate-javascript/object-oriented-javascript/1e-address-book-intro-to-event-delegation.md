@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.1.1.5 Address Book: Event Bubbling, Event Delegation, and the Event Object"
+title: "📓 2.1.1.5 Address Book: Event Bubbling, Event Delegation, and the Event Object"
 id: 2115-address-book-event-bubbling-event-delegation-and-the-event-object
-slug: 2115-address-book-event-bubbling-event-delegation-and-the-event-object
 hide_table_of_contents: true
-sidebar_position: 16
 day: monday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/1e_address_book_intro_to_event_delegation.md
 ---
 
 At this point, we can dynamically add `Contact`s to our `AddressBook` and see their names appear in the DOM. However, what if we want to see additional details about each `Contact`? In this lesson, we'll add functionality so a user can click on a contact to see additional information such as a phone number. This is similar to how an address book in a smartphone might work — you click on the name to get more information about the contact.

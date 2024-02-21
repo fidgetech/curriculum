@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.1.2.4 APIE: Polymorphism"
+title: "📓 3.1.2.4 APIE: Polymorphism"
 id: 3124-apie-polymorphism
-slug: 3124-apie-polymorphism
 hide_table_of_contents: true
-sidebar_position: 12
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/2d_apie_polymorphism.md'
 ---
 
 We have one last principle of Object-Oriented Programming (OOP) to learn about: polymorphism! As a reminder, polymorphism is one of four principles of OOP that we can remember by the easy acronym **APIE**: 

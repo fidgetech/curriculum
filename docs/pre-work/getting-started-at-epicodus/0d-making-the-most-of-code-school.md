@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.05 Making the Most of Code School"
+title: "📓 1.0.0.05 Making the Most of Code School"
 id: 10005-making-the-most-of-code-school
-slug: 10005-making-the-most-of-code-school
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/pre-work/blob/main/0d_making_the_most_of_code_school.md
 ---
 
 You've done it, you're in code school! You've committed time, energy and dedication toward learning how to code. We can’t wait to see what you create and want to do everything we can to support your success. To be successful, it's important to consider how you can best approach the challenging months that lie ahead.

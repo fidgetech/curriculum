@@ -1,12 +1,8 @@
 ---
 title: ✏️ Hashes Practice
 id: hashes-practice
-slug: hashes-practice
 hide_table_of_contents: true
-sidebar_position: 30
 day: wednesday
-type: exercise
-url: 'https://github.com/fidgetech/capstone/blob/main/3_hash_problems.md'
 ---
 
 Now it's time to apply our new knowledge about hash tables and algorithms.

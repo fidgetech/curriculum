@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.16 Dictionaries"
+title: "📓 3.0.0.16 Dictionaries"
 id: 30016-dictionaries
-slug: 30016-dictionaries
 hide_table_of_contents: true
-sidebar_position: 11
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0k_dictionaries.md'
 ---
 
 The lists and arrays we just explored are called **numerically indexed arrays** because we can access their elements by referencing their index. For example, we can call `myArray[1]`.

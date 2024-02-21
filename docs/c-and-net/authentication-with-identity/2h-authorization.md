@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.5.0.9 Adding Authorization and Associating Users with Items"
+title: "📓 3.5.0.9 Adding Authorization and Associating Users with Items"
 id: 3509-adding-authorization-and-associating-users-with-items
-slug: 3509-adding-authorization-and-associating-users-with-items
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/2h_authorization.md'
 ---
 
 We now have a working user login and registration system, but it doesn't actually have any kind of impact on our application. Our users can do all CRUD regardless of whether they are signed in or not. We'll make our authentication more impactful by limiting what a user can do with authorization.

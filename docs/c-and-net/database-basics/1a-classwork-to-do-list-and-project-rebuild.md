@@ -1,12 +1,8 @@
 ---
 title: ✏️ 3.3.1.1 To Do List and Project Rebuild
 id: 3311-to-do-list-and-project-rebuild
-slug: 3311-to-do-list-and-project-rebuild
 hide_table_of_contents: true
-sidebar_position: 16
 day: monday
-type: exercise
-url: https://github.com/fidgetech/c-and-net/blob/main/1a_classwork_to_do_list_and_project_rebuild.md
 ---
 
 **Goal**: Practice writing SQL statements and adding CR functionality to applications. Take the time to understand how a database query works in a .NET application.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Showing Ticket Detail"
+title: "📓 Showing Ticket Detail"
 id: showing-ticket-detail
-slug: showing-ticket-detail
 hide_table_of_contents: true
-sidebar_position: 34
 day: wednesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/3d_showing_ticket_detail.md'
 ---
 
 In the lesson called _Planning Our Application: Part 3_, we updated the plan for our Help Queue application to include a `TicketDetail` component. A user should be able to click on a ticket and then go to that ticket's detail page.

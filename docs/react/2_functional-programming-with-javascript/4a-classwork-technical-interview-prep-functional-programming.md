@@ -1,12 +1,8 @@
 ---
 title: '✏️ Technical Interview Preparation: Functional Programming'
 id: technical-interview-preparation-functional-programming
-slug: technical-interview-preparation-functional-programming
 hide_table_of_contents: true
-sidebar_position: 33
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/react/blob/main/4a_classwork_technical_interview_prep_functional_programming.md
 ---
 
 ## Technical Interview Questions

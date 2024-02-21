@@ -1,12 +1,8 @@
 ---
 title: ✏️ Quicksort
 id: quicksort
-slug: quicksort
 hide_table_of_contents: true
-sidebar_position: 37
 day: thursday
-type: exercise
-url: 'https://github.com/fidgetech/capstone/blob/main/quick_sort.md'
 paginationNext: null
 ---
 

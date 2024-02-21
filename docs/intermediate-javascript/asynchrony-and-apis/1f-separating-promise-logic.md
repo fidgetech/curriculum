@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.3.1.6 Separating Promise Logic"
+title: "📓 2.3.1.6 Separating Promise Logic"
 id: 2316-separating-promise-logic
-slug: 2316-separating-promise-logic
 hide_table_of_contents: true
-sidebar_position: 17
 day: monday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/1f_separating_promise_logic.md
 ---
 
 Now that we've learned about static methods, let's refactor our weather API application to use one. In the process, we'll separate our API call business logic into a separate file.

@@ -1,12 +1,8 @@
 ---
 title: ✏️ Indeed Resume
 id: indeed-resume
-slug: indeed-resume
 hide_table_of_contents: true
-sidebar_position: 38
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/career-services/blob/main/3_indeed_resume_classwork_new.md
 ---
 
 # Indeed Resume

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Identifying Enterprise Skills and Creating a Job Tracker"
+title: "📓 Identifying Enterprise Skills and Creating a Job Tracker"
 id: identifying-enterprise-skills-and-creating-a-job-tracker
-slug: identifying-enterprise-skills-and-creating-a-job-tracker
 hide_table_of_contents: true
-sidebar_position: 25
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/identifying_enterprise_skills_job_tracker.md
 ---
 
 # Identifying Enterprise Skills and Creating a Job Tracker

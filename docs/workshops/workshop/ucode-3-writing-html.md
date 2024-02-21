@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Writing HTML"
+title: "📓 Writing HTML"
 id: writing-html
-slug: writing-html
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/workshops/blob/main/ucode_3_writing_html.md'
 ---
 
 In this lesson, we'll learn how to write HTML in Glitch.

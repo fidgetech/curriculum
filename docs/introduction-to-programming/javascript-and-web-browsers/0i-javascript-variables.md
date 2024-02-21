@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.0.9 JavaScript Variables"
+title: "📓 1.2.0.9 JavaScript Variables"
 id: 1209-javascript-variables
-slug: 1209-javascript-variables
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0i_javascript_variables.md
 ---
 
 **Variables** are one of the major features of computer programming and we will use them all the time. A variable is just a container that stores some information such as a number, an object, or a string.

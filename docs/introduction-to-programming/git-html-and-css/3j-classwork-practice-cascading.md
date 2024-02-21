@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.1.4.2 Practice: Cascading'
 id: 1142-practice-cascading
-slug: 1142-practice-cascading
 hide_table_of_contents: true
-sidebar_position: 40
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/3j_classwork_practice_cascading.md
 ---
 
 **Goal:**   In the Cascading lesson, we learned:

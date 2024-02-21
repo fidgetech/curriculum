@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Social Identities"
+title: "📓 Social Identities"
 id: social-identities
-slug: social-identities
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/dei/blob/main/1_social_identities.md'
 paginationPrev: null
 ---
 

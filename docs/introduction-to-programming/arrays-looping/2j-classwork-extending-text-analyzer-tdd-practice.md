@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.3.2.10 Practice: Using TDD with Text Analyzer'
 id: 13210-practice-using-tdd-with-text-analyzer
-slug: 13210-practice-using-tdd-with-text-analyzer
 hide_table_of_contents: true
-sidebar_position: 29
 day: tuesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/2j_classwork_extending_text_analyzer_tdd_practice.md
 ---
 
 **Goal:** Continue to build out the `text-analyzer` application, making sure to practice TDD, good separation of logic, and DRY code. Keep in mind that separating logic and DRYing up code takes a _lot_ of practice, especially at first. Sometimes it's a struggle just to get your code working, let alone keeping it DRY. However, if you apply TDD and separate your logic, you will find the problem solving process easier and you'll also have an easier time fixing bugs.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 React Technical Interview Questions"
+title: "📓 React Technical Interview Questions"
 id: react-technical-interview-questions
-slug: react-technical-interview-questions
 hide_table_of_contents: true
-sidebar_position: 7
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/6_react_technical_interview_questions.md
 paginationNext: null
 ---
 

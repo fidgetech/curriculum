@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.4.5 Function Scope Versus Block Scope"
+title: "📓 1.2.4.5 Function Scope Versus Block Scope"
 id: 1245-function-scope-versus-block-scope
-slug: 1245-function-scope-versus-block-scope
 hide_table_of_contents: true
-sidebar_position: 69
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4e_function_versus_block_scope.md
 ---
 
 When we first introduced variables, we mentioned that there are differences in how `var`, `let`, and `const` are scoped. At the time, we weren't ready to discuss those differences. Now that we are actively branching, though, we can explore this difference in a little more detail. It's important because there is another layer of scope that goes beyond local and global scope: function scope and block scope. As you read along with the lesson, you are welcome to try out the different code snippets in the DevTools console.

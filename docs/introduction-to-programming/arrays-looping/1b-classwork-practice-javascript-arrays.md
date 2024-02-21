@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.3.1.2 Practice: JavaScript Arrays'
 id: 1312-practice-javascript-arrays
-slug: 1312-practice-javascript-arrays
 hide_table_of_contents: true
-sidebar_position: 13
 day: monday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1b_classwork_practice_javascript_arrays.md
 ---
 
 **Goal:** In the lessons on arrays, we learned:

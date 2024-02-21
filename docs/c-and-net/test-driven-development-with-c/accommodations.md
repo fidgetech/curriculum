@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.1.2.7 Workplace Accommodations"
+title: "📓 3.1.2.7 Workplace Accommodations"
 id: 3127-workplace-accommodations
-slug: 3127-workplace-accommodations
 hide_table_of_contents: true
-sidebar_position: 15
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/accommodations.md'
 ---
 
 ## Workplace Accommodations

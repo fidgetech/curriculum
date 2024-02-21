@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.2.5 ES6 Template Literals"
+title: "📓 2.2.2.5 ES6 Template Literals"
 id: 2225-es6-template-literals
-slug: 2225-es6-template-literals
 hide_table_of_contents: true
-sidebar_position: 36
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/2e_template_literals_in_es6.md
 ---
 
 Template literals are a spoonful of syntactic sugar and another popular feature in ES6. They're especially useful when concatenating strings or inserting variables into strings.

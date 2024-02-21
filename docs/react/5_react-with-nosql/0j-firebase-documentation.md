@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Firebase Documentation"
+title: "📓 Firebase Documentation"
 id: firebase-documentation
-slug: firebase-documentation
 hide_table_of_contents: true
-sidebar_position: 10
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0j_firebase_documentation.md'
 ---
 
 Let's briefly review some important details about referencing Firebase documentation. With so much information in the docs, it can be easy to get lost or find yourself incorrectly referencing the wrong docs. 

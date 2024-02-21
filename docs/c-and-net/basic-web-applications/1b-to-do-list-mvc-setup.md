@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.1.3 To Do List MVC Setup"
+title: "📓 3.2.1.3 To Do List MVC Setup"
 id: 3213-to-do-list-mvc-setup
-slug: 3213-to-do-list-mvc-setup
 hide_table_of_contents: true
-sidebar_position: 21
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/1b_to_do_list_mvc_setup.md'
 ---
 
 Now that we've had basic practice with the Model-View-Controller aspect of MVC web apps, let's create a more complex ASP.NET Core MVC application. We'll then continue building upon this codebase throughout the remainder of the C# and .NET course.

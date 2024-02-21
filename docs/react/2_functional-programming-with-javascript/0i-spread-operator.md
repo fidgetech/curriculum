@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Spread Operator"
+title: "📓 Spread Operator"
 id: spread-operator
-slug: spread-operator
 hide_table_of_contents: true
-sidebar_position: 21
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0i_spread_operator.md'
 ---
 
 One of the most popular features of ES6 is the **spread operator**. Spread syntax looks like this: `...`.

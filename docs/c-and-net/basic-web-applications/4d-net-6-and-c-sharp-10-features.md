@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.4.2 Optional Features of C# Versions 9 and 10"
+title: "📓 3.2.4.2 Optional Features of C# Versions 9 and 10"
 id: 3242-optional-features-of-c-versions-9-and-10
-slug: 3242-optional-features-of-c-versions-9-and-10
 hide_table_of_contents: true
-sidebar_position: 41
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/4d_net_6_and_c_sharp_10_features.md
 ---
 
 With every new version of C# and .NET, new features are released. That's to be expected! What you may not expect is that we don't cover or use the majority of these features in the LearnHowToProgram.com curriculum. That leaves learning about new features for further exploration for your shared or independent projects. 

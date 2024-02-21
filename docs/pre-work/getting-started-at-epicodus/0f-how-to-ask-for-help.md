@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.07 How to Ask for Help"
+title: "📓 1.0.0.07 How to Ask for Help"
 id: 10007-how-to-ask-for-help
-slug: 10007-how-to-ask-for-help
 hide_table_of_contents: true
-sidebar_position: 7
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0f_how_to_ask_for_help.md'
 ---
 
 Throughout your programing career, and especially while you're just starting out learning, you're going to need help from other people. If you follow these guidelines, you'll find that you'll be able to get help much more quickly.

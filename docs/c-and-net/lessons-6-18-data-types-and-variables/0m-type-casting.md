@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.18 Type Casting"
+title: "📓 3.0.0.18 Type Casting"
 id: 30018-type-casting
-slug: 30018-type-casting
 hide_table_of_contents: true
-sidebar_position: 13
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0m_type_casting.md'
 paginationNext: null
 ---
 

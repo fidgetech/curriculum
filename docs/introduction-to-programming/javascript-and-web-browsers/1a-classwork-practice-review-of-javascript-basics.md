@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.2.1.1 Practice: Review of JavaScript Basics'
 id: 1211-practice-review-of-javascript-basics
-slug: 1211-practice-review-of-javascript-basics
 hide_table_of_contents: true
-sidebar_position: 23
 day: monday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1a_classwork_practice_review_of_javascript_basics.md
 ---
 
 **Goal:** Discuss and apply these JavaScript concepts with your pair:

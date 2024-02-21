@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Props"
+title: "📓 Props"
 id: props
-slug: props
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0i_props.md'
 ---
 
 In this lesson, we'll learn how to pass data between React components. For now, this data will be hard-coded, not dynamic, because we aren't quite ready to work with state yet.

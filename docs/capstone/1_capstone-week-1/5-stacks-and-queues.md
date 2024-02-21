@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Introduction to Stacks and Queues"
+title: "📓 Introduction to Stacks and Queues"
 id: introduction-to-stacks-and-queues
-slug: introduction-to-stacks-and-queues
 hide_table_of_contents: true
-sidebar_position: 19
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/capstone/blob/main/5_stacks_and_queues.md'
 ---
 
 In this lesson, we're going to learn about **stacks** and **queues**. We'll start by covering a brief overview of each. Then we'll write basic `stack` and `queue` functions.

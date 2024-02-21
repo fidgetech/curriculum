@@ -1,12 +1,8 @@
 ---
 title: ✏️ Communicating With An API Part 2 (day 2)
 id: communicating-with-an-api-part-2-day-2
-slug: communicating-with-an-api-part-2-day-2
 hide_table_of_contents: true
-sidebar_position: 21
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/c-and-net/blob/main/3a_classwork_communicating_with_an_api.md
 ---
 
 **Goals**: Create an application that consumes an API.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.0.17 Improving Development with a Live Development Server"
+title: "📓 2.2.0.17 Improving Development with a Live Development Server"
 id: 22017-improving-development-with-a-live-development-server
-slug: 22017-improving-development-with-a-live-development-server
 hide_table_of_contents: true
-sidebar_position: 17
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0q_development_servers.md
 ---
 
 We'll improve our developer experience further by using a live development server for webpack. With a **live development server**, any time we make changes to our code, it's automatically re-bundled and our browser window is reloaded.

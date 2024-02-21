@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.0.20 Data Types: Detection, Conversion, and Review"
+title: "📓 1.2.0.20 Data Types: Detection, Conversion, and Review"
 id: 12020-data-types-detection-conversion-and-review
-slug: 12020-data-types-detection-conversion-and-review
 hide_table_of_contents: true
-sidebar_position: 20
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0t_data_types_detection_conversion_and_review.md
 ---
 
 We discussed basic data types right when we got started with JavaScript. However, it's so important to understand and know how to use these data types that we will review them in this lesson. Keep in mind that JavaScript data types are divided into two categories: **primitives** and **objects**. In this lesson, we'll review JavaScript primitives.

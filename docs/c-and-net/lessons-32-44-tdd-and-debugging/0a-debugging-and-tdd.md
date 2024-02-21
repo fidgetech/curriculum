@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.32 What We'll Learn in this Section"
+title: "📓 3.0.0.32 What We'll Learn in this Section"
 id: 30032-what-we'll-learn-in-this-section
-slug: 30032-what-we'll-learn-in-this-section
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0a_debugging_and_tdd.md'
 paginationPrev: null
 ---
 

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 DEI Reflective Assignments"
+title: "📓 DEI Reflective Assignments"
 id: dei-reflective-assignments
-slug: dei-reflective-assignments
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/dei/blob/main/0ka_intro_to_DEI_reflections.md'
 paginationNext: null
 ---
 

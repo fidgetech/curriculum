@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.3.0.12 Overriding Equals and GetHashCode"
+title: "📓 3.3.0.12 Overriding Equals and GetHashCode"
 id: 33012-overriding-equals-and-gethashcode
-slug: 33012-overriding-equals-and-gethashcode
 hide_table_of_contents: true
-sidebar_position: 12
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0k_overriding_equals.md'
 ---
 
 Before we add functionality to our To Do List app that will save new `Item`s to our database, we need to consider a specific problem that comes up when comparing two objects.

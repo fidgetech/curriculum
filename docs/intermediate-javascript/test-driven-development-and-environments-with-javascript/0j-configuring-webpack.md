@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.0.10 Configuring webpack and Using npm Scripts"
+title: "📓 2.2.0.10 Configuring webpack and Using npm Scripts"
 id: 22010-configuring-webpack-and-using-npm-scripts
-slug: 22010-configuring-webpack-and-using-npm-scripts
 hide_table_of_contents: true
-sidebar_position: 10
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0j_configuring_webpack.md
 ---
 
 Before we get started with configuring webpack, let's take a look at our shape tracker application so far. It should have the following:

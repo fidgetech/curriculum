@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Job Boards"
+title: "📓 Job Boards"
 id: job-boards
-slug: job-boards
 hide_table_of_contents: true
-sidebar_position: 23
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/job_board_updated.md'
 ---
 
 # Job Boards

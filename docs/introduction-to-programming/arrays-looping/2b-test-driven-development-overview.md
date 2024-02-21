@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.2.2 Overview of Test-Driven Development (TDD) with Text Analyzer"
+title: "📓 1.3.2.2 Overview of Test-Driven Development (TDD) with Text Analyzer"
 id: 1322-overview-of-test-driven-development-tdd-with-text-analyzer
-slug: 1322-overview-of-test-driven-development-tdd-with-text-analyzer
 hide_table_of_contents: true
-sidebar_position: 21
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/2b_test_driven_development_overview.md
 ---
 
 As our projects get more complex, we need to break our code down into a series of smaller, more manageable programming tasks. It's absolutely essential we do this. Otherwise, it's easy to get overwhelmed if we try to take on too much at once. When we are working on complex business logic, we can use a development technique called **Test-Driven Development**, or **TDD**, to break our logic down into smaller problems that are easier to solve and reason about.

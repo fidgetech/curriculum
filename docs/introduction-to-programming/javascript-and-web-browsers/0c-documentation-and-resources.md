@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.0.3 Documentation and Resources"
+title: "📓 1.2.0.3 Documentation and Resources"
 id: 1203-documentation-and-resources
-slug: 1203-documentation-and-resources
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0c_documentation_and_resources.md
 ---
 
 JavaScript has been around for many years and there are many places for documentation and help online. Be wary of the resources you find online. There is a *lot* of bad information out there, especially on JavaScript.  There are also many conflicting opinions about ways to accomplish the same task.  

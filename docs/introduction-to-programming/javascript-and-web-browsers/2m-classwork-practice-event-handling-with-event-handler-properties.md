@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.2.2.13 Practice: Event Handling with Event Handler Properties'
 id: 12213-practice-event-handling-with-event-handler-properties
-slug: 12213-practice-event-handling-with-event-handler-properties
 hide_table_of_contents: true
-sidebar_position: 51
 day: tuesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/2m_classwork_practice_event_handling_with_event_handler_properties.md
 ---
 
 **Goal:** Practice using event handler properties by updating a project from the last course section to handle events.

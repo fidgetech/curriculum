@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Further Exploration: Data Visualization"
+title: "📓 Further Exploration: Data Visualization"
 id: further-exploration-data-visualization
-slug: further-exploration-data-visualization
 hide_table_of_contents: true
-sidebar_position: 20
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/2b_further_exploration_data_visualization.md
 ---
 
 Data visualization is the process of creating a visual representation of information. Data visualization can make data really pop. It's a tool for making information more digestible, immersive, and generally interesting.

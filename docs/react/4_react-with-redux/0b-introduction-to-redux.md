@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Introduction to Redux"
+title: "📓 Introduction to Redux"
 id: introduction-to-redux
-slug: introduction-to-redux
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0b_introduction_to_redux.md'
 ---
 
 State in React applications can get complicated very quickly. Fortunately, React community members have developed open-source tools to make managing state easier. In this course section, we'll focus on learning **Redux**, which is one of the most popular tools for managing state in React.

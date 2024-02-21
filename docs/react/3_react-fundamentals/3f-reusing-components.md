@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Reusing Components"
+title: "📓 Reusing Components"
 id: reusing-components
-slug: reusing-components
 hide_table_of_contents: true
-sidebar_position: 36
 day: wednesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/3f_reusing_components.md'
 ---
 
 One of React's many advantages is its ability to reuse components. Whenever we are in a situation where we might need to reuse code, we should think carefully about whether that code can be extracted into another component and then used where needed.

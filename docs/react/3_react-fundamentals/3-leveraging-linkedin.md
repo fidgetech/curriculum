@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Leveraging LinkedIn"
+title: "📓 Leveraging LinkedIn"
 id: leveraging-linkedin
-slug: leveraging-linkedin
 hide_table_of_contents: true
-sidebar_position: 38
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/3_leveraging_linkedin.md
 ---
 
 # Leveraging LinkedIn

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Interactivity with JavaScript and jQuery"
+title: "📓 Interactivity with JavaScript and jQuery"
 id: interactivity-with-javascript-and-jquery
-slug: interactivity-with-javascript-and-jquery
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/workshops/blob/main/ucode_6_interactivity_with_js_and_jquery.md
 ---
 
 While an `alert()` can be helpful for beginning programmers, we generally don't want to use them in our applications. Ideally, we want as much of our functionality to happen on the page as possible. In this lesson, we'll create a form where users can type in a goal. When the goal is submitted, it will then be added to our list of goals.

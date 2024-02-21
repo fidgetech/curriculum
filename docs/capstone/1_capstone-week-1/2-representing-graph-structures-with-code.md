@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Representing Graph Structures with Code"
+title: "📓 Representing Graph Structures with Code"
 id: representing-graph-structures-with-code
-slug: representing-graph-structures-with-code
 hide_table_of_contents: true
-sidebar_position: 16
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/capstone/blob/main/2_representing_graph_structures_with_code.md
 ---
 
 In the last lesson, we learned about the basics of graph theory and looked at a few visual representations of graphs. While visualizing graphs is very useful, as we've learned from working with tree structures, we can't simply apply visualization to code. For instance, a search tree isn't actually a tree in code — even though we can depict it that way on a piece of paper. Instead, a search tree is simply a series of nodes where the parent nodes have references to their children.

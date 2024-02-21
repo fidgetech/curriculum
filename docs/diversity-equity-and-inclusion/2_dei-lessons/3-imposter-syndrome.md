@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Imposter Syndrome"
+title: "📓 Imposter Syndrome"
 id: imposter-syndrome
-slug: imposter-syndrome
 hide_table_of_contents: true
-sidebar_position: 4
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/dei/blob/main/3_imposter_syndrome.md'
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.3.5 Objects Within Objects Interface Part 2"
+title: "📓 3.2.3.5 Objects Within Objects Interface Part 2"
 id: 3235-objects-within-objects-interface-part-2
-slug: 3235-objects-within-objects-interface-part-2
 hide_table_of_contents: true
-sidebar_position: 37
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/3e_objects_within_objects_interface_part_2_advanced_restful_routing.md
 ---
 
 `Item`s in our To Do List are now associated with `Category`s. Our application will prompt users to first create categories and then create `Item`s that belong to them. As such, there will **no longer be any `Item`s not associated with a parent `Category`.** This has several ramifications for how we'll organize our front end.

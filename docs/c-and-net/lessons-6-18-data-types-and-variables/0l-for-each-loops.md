@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.17 Iterators: Foreach and For Loops"
+title: "📓 3.0.0.17 Iterators: Foreach and For Loops"
 id: 30017-iterators-foreach-and-for-loops
-slug: 30017-iterators-foreach-and-for-loops
 hide_table_of_contents: true
-sidebar_position: 12
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0l_for_each_loops.md'
 ---
 
 In Intro, we typically used two types of JavaScript loops: `for` and `forEach()`. `forEach()` loops iterate through each item in an array whereas `for` loops are more manual where we have to define how and when the loop starts and stops.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.1.0.11 VS Code: Bracket Colorization and Guides"
+title: "📓 2.1.0.11 VS Code: Bracket Colorization and Guides"
 id: 21011-vs-code-bracket-colorization-and-guides
-slug: 21011-vs-code-bracket-colorization-and-guides
 hide_table_of_contents: true
-sidebar_position: 11
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0l_vscode_bracket_colorization_and_guides.md
 ---
 
 As our functions get more complex, it becomes more challenging to keep track of opening and closing brackets such as parentheses and curly braces.

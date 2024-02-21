@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Interview Research"
+title: "📓 Interview Research"
 id: interview-research
-slug: interview-research
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/2_interview_research.md'
 ---
 
 ### Research

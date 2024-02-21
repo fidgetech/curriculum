@@ -1,12 +1,8 @@
 ---
 title: '✏️ 3.2.2.1 To Do List, Car Dealership, Parcels, Job Board'
 id: 3221-to-do-list-car-dealership-parcels-job-board
-slug: 3221-to-do-list-car-dealership-parcels-job-board
 hide_table_of_contents: true
-sidebar_position: 27
 day: tuesday
-type: exercise
-url: https://github.com/fidgetech/c-and-net/blob/main/2a_classwork_mvc_apps_with_razor.md
 ---
 
 **Goal:** Continue familiarizing yourselves with the ASP.NET Core MVC framework, paying special attention to the difference between GET and POST requests and creating multi-controller applications.

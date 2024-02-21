@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Introduction to Trees"
+title: "📓 Introduction to Trees"
 id: introduction-to-trees
-slug: introduction-to-trees
 hide_table_of_contents: true
-sidebar_position: 9
 day: monday
-type: lesson
-url: https://github.com/fidgetech/capstone/blob/main/1_general_tree_data_structure.md
 ---
 
 In this lesson, we'll learn about the basics of **tree data structures**. There are actually many different kinds of tree data structures, but we will focus on a few common ones. In this lesson, we'll cover **general trees**. Later in this section, we'll cover **binary trees** and **binary search trees**. We will also cover graphs, tries, and heaps in future sections.

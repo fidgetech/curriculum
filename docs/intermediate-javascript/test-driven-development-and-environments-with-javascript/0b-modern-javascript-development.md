@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.0.2 Modern JavaScript Development"
+title: "📓 2.2.0.2 Modern JavaScript Development"
 id: 2202-modern-javascript-development
-slug: 2202-modern-javascript-development
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0b_modern_javascript_development.md
 ---
 
 Imagine we're part of a development team working on a huge application. The application is live and thousands of people visit our site everyday. It has hundreds of pages, JavaScript files, and dependencies (like Bootstrap, or any other library we can incorporate into our project). After all, it's a huge site and many people use it! 

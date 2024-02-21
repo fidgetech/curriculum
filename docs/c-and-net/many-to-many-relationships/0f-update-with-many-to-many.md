@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.4.0.7 Many-to-Many Update Functionality"
+title: "📓 3.4.0.7 Many-to-Many Update Functionality"
 id: 3407-many-to-many-update-functionality
-slug: 3407-many-to-many-update-functionality
 hide_table_of_contents: true
-sidebar_position: 7
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0f_update_with_many_to_many.md
 ---
 
 We've added create and read functionality for our `Tag` entity and `ItemTag` join entity. Now we're ready to move onto adding update and delete functionality. 

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Sprucing Up GitHub"
+title: "📓 Sprucing Up GitHub"
 id: sprucing-up-github
-slug: sprucing-up-github
 hide_table_of_contents: true
-sidebar_position: 40
 day: thursday
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/sprucing_up_github.md'
 ---
 
 When you apply for a job or internship, employers will want to see code you've written so that they know what you're capable of doing. Spend some time getting your GitHub profile looking good.

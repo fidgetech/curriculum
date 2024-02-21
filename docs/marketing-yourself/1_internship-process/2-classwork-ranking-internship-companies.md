@@ -1,12 +1,8 @@
 ---
 title: ✏️ Preparing For and Ranking Internships
 id: preparing-for-and-ranking-internships
-slug: preparing-for-and-ranking-internships
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: exercise
-url: https://github.com/fidgetech/career-services/blob/main/2_classwork_ranking_internship_companies.md
 paginationNext: null
 ---
 

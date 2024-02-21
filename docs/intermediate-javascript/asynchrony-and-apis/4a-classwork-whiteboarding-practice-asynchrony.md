@@ -1,12 +1,8 @@
 ---
 title: '✏️ 2.3.4.1 Whiteboarding Practice: Asynchrony'
 id: 2341-whiteboarding-practice-asynchrony
-slug: 2341-whiteboarding-practice-asynchrony
 hide_table_of_contents: true
-sidebar_position: 28
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/4a_classwork_whiteboarding_practice_asynchrony.md
 ---
 
 ## Whiteboard Practice

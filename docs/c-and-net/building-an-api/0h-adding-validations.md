@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.6.0.09 Adding API Model Validation"
+title: "📓 3.6.0.09 Adding API Model Validation"
 id: 36009-adding-api-model-validation
-slug: 36009-adding-api-model-validation
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0h_adding_validations.md'
 ---
 
 In this lesson, we'll learn how to add validation to our models. Some of this information will be a review, since we're already familiar with adding validation attributes to our models in MVC apps, and this process is no different with APIs. However, we'll review some new information on how model validation is actually performed in API controllers.

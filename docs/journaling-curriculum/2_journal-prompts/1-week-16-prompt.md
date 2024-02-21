@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Journal #14"
+title: "📓 Journal #14"
 id: journal-14
-slug: journal-14
 hide_table_of_contents: true
-sidebar_position: 14
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/1_week_16_prompt.md'
 ---
 
 You were asked to keep a journal while going through the program. Each weekend you'll receive a brief journaling assignment in addition to your coding homework.

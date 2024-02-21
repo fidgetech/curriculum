@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Whiteboard Independent Project Overview"
+title: "📓 Whiteboard Independent Project Overview"
 id: whiteboard-independent-project-overview
-slug: whiteboard-independent-project-overview
 hide_table_of_contents: true
-sidebar_position: 16
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/1_whiteboard_session_overview.md
 ---
 
 In lieu of an independent project this week, you'll prepare for a group whiteboard interview. Your instructor will plan out when you will conduct the group whiteboard interview, which could be this week or next depending on the program you are enrolled in and other scheduling concerns. Check in with your instructor about the exact schedule, timing, and structure of this event and when your Epicenter submissions are due.

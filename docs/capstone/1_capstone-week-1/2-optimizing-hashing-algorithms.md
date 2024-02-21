@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Optimizing Hashing Algorithms"
+title: "📓 Optimizing Hashing Algorithms"
 id: optimizing-hashing-algorithms
-slug: optimizing-hashing-algorithms
 hide_table_of_contents: true
-sidebar_position: 29
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/capstone/blob/main/2_optimizing_hashing_algorithms.md
 ---
 
 In the last lesson, we covered all the basic concepts in building a hash table. Our hash table only had 26 buckets for a reason — because it's easier to visualize a bucket for each letter of the alphabet.

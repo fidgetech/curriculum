@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.0.10 Debugging in JavaScript: Using a linter"
+title: "📓 1.3.0.10 Debugging in JavaScript: Using a linter"
 id: 13010-debugging-in-javascript-using-a-linter
-slug: 13010-debugging-in-javascript-using-a-linter
 hide_table_of_contents: true
-sidebar_position: 10
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0k_debugging_with_a_linter.md
 ---
 
 Sometimes you won't be able to find a syntax error no matter how hard you look. Or your code may work correctly but still have an error. For instance, maybe you forgot to scope a variable with `let` or `const` or maybe you forgot a semicolon.

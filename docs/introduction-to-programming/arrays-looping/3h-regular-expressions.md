@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.3.9 Further Exploration: Introduction to Regular Expressions"
+title: "📓 1.3.3.9 Further Exploration: Introduction to Regular Expressions"
 id: 1339-further-exploration-introduction-to-regular-expressions
-slug: 1339-further-exploration-introduction-to-regular-expressions
 hide_table_of_contents: true
-sidebar_position: 38
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/3h_regular_expressions.md
 ---
 
 **Important Note:** You aren't required to use regular expressions on any independent projects — and you should prioritize looping during the classwork for this section. **If you need to focus on understanding looping, skip this lesson for now.** It's fine to come back later in this section — or even in future sections — once you're ready to start using regular expressions or if you want to use this lesson as a reference. However, many of the problems in this section can also be solved with regex. If you have time, try refactoring a problem you solve with a loop to use a regular expression instead.

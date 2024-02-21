@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.24 Installing and Using Discord"
+title: "📓 1.0.0.24 Installing and Using Discord"
 id: 10024-installing-and-using-discord
-slug: 10024-installing-and-using-discord
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0a_preparing_to_work_remote.md'
 ---
 
 We use Discord as our online classroom. With Discord, we can message, talk, and share screens with each other. 

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Refactoring Help Queue to Use Hooks"
+title: "📓 Refactoring Help Queue to Use Hooks"
 id: refactoring-help-queue-to-use-hooks
-slug: refactoring-help-queue-to-use-hooks
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0e_refactoring_help_queue_to_use_hooks.md
 ---
 
 Let's apply what we've learned about hooks to our Help Queue application. To do this, we'll build off of the version of our Help Queue that we completed by the end of the React Fundamentals course section. That means we won't be using Redux in this course section. 

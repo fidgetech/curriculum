@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Deleting a Ticket"
+title: "📓 Deleting a Ticket"
 id: deleting-a-ticket
-slug: deleting-a-ticket
 hide_table_of_contents: true
-sidebar_position: 35
 day: wednesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/3e_deleting_a_ticket.md'
 ---
 
 In the last lesson, we added the ability for a user to see an individual ticket's detail page. We had to alter or create four different components in order to add this relatively small piece of functionality.

@@ -1,12 +1,8 @@
 ---
 title: ✏️ 3.4.5.1 Many-To-Many Independent Project
 id: 3451-many-to-many-independent-project
-slug: 3451-many-to-many-independent-project
 hide_table_of_contents: true
-sidebar_position: 17
 day: friday
-type: exercise
-url: https://github.com/fidgetech/c-and-net/blob/main/5a_many_to_many_databases_independent_project.md
 paginationNext: null
 ---
 

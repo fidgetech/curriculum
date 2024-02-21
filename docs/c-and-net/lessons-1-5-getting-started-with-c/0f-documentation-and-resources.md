@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.05 Documentation and Resources"
+title: "📓 3.0.0.05 Documentation and Resources"
 id: 30005-documentation-and-resources
-slug: 30005-documentation-and-resources
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0f_documentation_and_resources.md
 paginationNext: null
 ---
 

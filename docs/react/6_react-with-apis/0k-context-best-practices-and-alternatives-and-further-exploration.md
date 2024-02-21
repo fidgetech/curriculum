@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Context Best Practices, Alternatives, and Further Exploration"
+title: "📓 Context Best Practices, Alternatives, and Further Exploration"
 id: context-best-practices-alternatives-and-further-exploration
-slug: context-best-practices-alternatives-and-further-exploration
 hide_table_of_contents: true
-sidebar_position: 11
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0k_context_best_practices_and_alternatives_and_further_exploration.md
 ---
 
 To wrap-up to the whirlwind of information about context, let's review some of the best practices for using context, the alternatives to context, and a few further exploration opportunities.

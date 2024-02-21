@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.4.0.5 Many-to-Many Read Functionality"
+title: "📓 3.4.0.5 Many-to-Many Read Functionality"
 id: 3405-many-to-many-read-functionality
-slug: 3405-many-to-many-read-functionality
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0d_read_with_many_to_many.md'
 ---
 
 In the last lesson, we set up a many-to-many structure in our classes, created a join class, and configured and migrated our code into our database. Now we're ready to create controllers that will handle our new application structure. In this lesson, we'll focus on adding read functionality to the `ItemsController`, including the following:

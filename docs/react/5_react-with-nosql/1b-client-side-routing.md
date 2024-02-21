@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Client-Side Routing"
+title: "📓 Client-Side Routing"
 id: client-side-routing
-slug: client-side-routing
 hide_table_of_contents: true
-sidebar_position: 25
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/1b_client_side_routing.md'
 ---
 
 Firebase offers much more than just a database solution — the service also provides an authentication solution that's easy to implement.

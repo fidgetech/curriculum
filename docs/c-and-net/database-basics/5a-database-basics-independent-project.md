@@ -1,12 +1,8 @@
 ---
 title: ✏️ 3.3.5.1 Database Basics Independent Project
 id: 3351-database-basics-independent-project
-slug: 3351-database-basics-independent-project
 hide_table_of_contents: true
-sidebar_position: 37
 day: friday
-type: exercise
-url: https://github.com/fidgetech/c-and-net/blob/main/5a_database_basics_independent_project.md
 paginationNext: null
 ---
 

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Understanding Stereotype Threat"
+title: "📓 Understanding Stereotype Threat"
 id: understanding-stereotype-threat
-slug: understanding-stereotype-threat
 hide_table_of_contents: true
-sidebar_position: 11
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/dei/blob/main/understanding_stereotype_threat.md'
 paginationNext: null
 ---
 

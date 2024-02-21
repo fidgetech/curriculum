@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Styling React: CSS Objects"
+title: "📓 Styling React: CSS Objects"
 id: styling-react-css-objects
-slug: styling-react-css-objects
 hide_table_of_contents: true
-sidebar_position: 29
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/2e_styling_react_css_objects.md'
 ---
 
 There are many approaches to styling a React application ranging from standard CSS to CSS objects to the `styled-components` library. We will cover several different approaches throughout this course, starting with CSS objects and inline styles in this lesson.

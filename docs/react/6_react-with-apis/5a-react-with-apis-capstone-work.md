@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Independent Project Objectives"
+title: "📓 Independent Project Objectives"
 id: independent-project-objectives
-slug: independent-project-objectives
 hide_table_of_contents: true
-sidebar_position: 23
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/5a_react_with_apis_capstone_work.md
 paginationNext: null
 ---
 

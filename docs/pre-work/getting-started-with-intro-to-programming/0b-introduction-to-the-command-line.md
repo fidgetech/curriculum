@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.17 Introduction to the Command Line"
+title: "📓 1.0.0.17 Introduction to the Command Line"
 id: 10017-introduction-to-the-command-line
-slug: 10017-introduction-to-the-command-line
 hide_table_of_contents: true
-sidebar_position: 4
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/pre-work/blob/main/0b_introduction_to_the_command_line.md
 ---
 
 One of the first tools any new web developer must become comfortable with is something called the **command line**. No matter which language you program in, you'll use it constantly.

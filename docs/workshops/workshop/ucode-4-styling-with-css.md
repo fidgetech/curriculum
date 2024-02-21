@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Styling CSS"
+title: "📓 Styling CSS"
 id: styling-css
-slug: styling-css
 hide_table_of_contents: true
-sidebar_position: 4
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/workshops/blob/main/ucode_4_styling_with_css.md'
 ---
 
 Now that we've added HTML content to our webpage, we can style and format our HTML using **CSS**.

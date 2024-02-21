@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Introduction to Algorithms"
+title: "📓 Introduction to Algorithms"
 id: introduction-to-algorithms
-slug: introduction-to-algorithms
 hide_table_of_contents: true
-sidebar_position: 31
 day: thursday
-type: lesson
-url: 'https://github.com/fidgetech/capstone/blob/main/sorting_algorithms_overview.md'
 ---
 
 During this section, we'll take a deeper dive into some well-known algorithms. Most of these algorithms are for sorting collections, but we'll also throw in one very important search algorithm as well. 

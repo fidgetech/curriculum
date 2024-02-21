@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.3.0.06 Retrieving Objects From the Database"
+title: "📓 3.3.0.06 Retrieving Objects From the Database"
 id: 33006-retrieving-objects-from-the-database
-slug: 33006-retrieving-objects-from-the-database
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0g_retrieving_objects_from_the_database.md
 ---
 
 Now that we've set up MySqlConnector and configured our application to use and protect a database connection string, we're ready to begin opening a database connection and interacting with our database in our application.

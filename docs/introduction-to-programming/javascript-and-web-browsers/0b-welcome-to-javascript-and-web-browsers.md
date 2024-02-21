@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.0.2 Welcome to JavaScript and Web Browsers"
+title: "📓 1.2.0.2 Welcome to JavaScript and Web Browsers"
 id: 1202-welcome-to-javascript-and-web-browsers
-slug: 1202-welcome-to-javascript-and-web-browsers
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0b_welcome_to_javascript_and_web_browsers.md
 ---
 
 Welcome to JavaScript and Web Browsers! In this course section, your web pages are going to go from static to dynamic thanks to JavaScript.

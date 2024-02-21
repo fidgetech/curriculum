@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Introduction to Journaling at Epicodus"
+title: "📓 Introduction to Journaling at Epicodus"
 id: introduction-to-journaling-at-epicodus
-slug: introduction-to-journaling-at-epicodus
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/0_introduction_to_journals.md
 paginationPrev: null
 paginationNext: null
 ---

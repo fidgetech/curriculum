@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.0.9 Building and Running an ASP.NET Core MVC Web App"
+title: "📓 3.2.0.9 Building and Running an ASP.NET Core MVC Web App"
 id: 3209-building-and-running-an-aspnet-core-mvc-web-app
-slug: 3209-building-and-running-an-aspnet-core-mvc-web-app
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0i_building_and_running_a_asp_net_core_mvc_web_application.md
 ---
 
 This lesson will cover building, compiling, and launching ASP.NET Core MVC projects so we can run our "Friend Letter" application in the browser.

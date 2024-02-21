@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.15 Lists"
+title: "📓 3.0.0.15 Lists"
 id: 30015-lists
-slug: 30015-lists
 hide_table_of_contents: true
-sidebar_position: 10
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0j_lists.md'
 ---
 
 If we want to create a collection where we can add or remove items, we need to use a list. For example, we might want to create a `groceryList` which could have any number of items in it. A  **list** is a collection, usually of a single data type (like `string` or `int`). Unlike an array, a list _can_ dynamically change in length.

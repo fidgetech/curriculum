@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.6.2.4 MVC Client: GetAll()"
+title: "📓 3.6.2.4 MVC Client: GetAll()"
 id: 3624-mvc-client-getall
-slug: 3624-mvc-client-getall
 hide_table_of_contents: true
-sidebar_position: 17
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/2a_client_get_all.md'
 ---
 
 Over the weekend, you learned how to create an API. In the last course section you learned how to make a simple API call from a client (a console app and an MVC app). Over the next several lessons, we're going to put these concepts together and build an MVC client with full CRUD functionality that will interact with our API.

@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.2.0.8 Practice: Arithmetic'
 id: 1208-practice-arithmetic
-slug: 1208-practice-arithmetic
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0h_classwork_practice_arithmetic.md
 ---
 
 **Goal:**   In the Arithmetic lesson, we learned:

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.3.0.02 Introduction to Databases"
+title: "📓 3.3.0.02 Introduction to Databases"
 id: 33002-introduction-to-databases
-slug: 33002-introduction-to-databases
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0b_introduction_to_databases.md
 ---
 
 Before we begin connecting databases to our MVC apps, let's explore how databases work. This lesson will walk through basic database vocabulary and discuss how most standard databases organize information.

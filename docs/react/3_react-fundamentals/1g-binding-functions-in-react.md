@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Binding Functions in React"
+title: "📓 Binding Functions in React"
 id: binding-functions-in-react
-slug: binding-functions-in-react
 hide_table_of_contents: true
-sidebar_position: 24
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/1g_binding_functions_in_react.md'
 ---
 
 In the last lesson, we added a button with an event handler as well as a function that triggered a change in local state.

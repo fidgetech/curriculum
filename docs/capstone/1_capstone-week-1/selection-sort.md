@@ -1,12 +1,8 @@
 ---
 title: ✏️ Selection Sort
 id: selection-sort
-slug: selection-sort
 hide_table_of_contents: true
-sidebar_position: 34
 day: thursday
-type: exercise
-url: 'https://github.com/fidgetech/capstone/blob/main/selection_sort.md'
 ---
 
 A **selection sort** algorithm is one of the simplest sort algorithms we can learn. In fact, if you tried to implement a sort algorithm on your own, there's a decent chance that it is a selection sort. In a selection sort algorithm, we start by looping through our array. We then take the current index and loop through every _remaining_ element in the array, swapping as needed until the index is the lowest remaining value.

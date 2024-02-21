@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Looping in JSX"
+title: "📓 Looping in JSX"
 id: looping-in-jsx
-slug: looping-in-jsx
 hide_table_of_contents: true
-sidebar_position: 11
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0k_looping_in_jsx.md'
 ---
 
 Currently, our application only has two hard-coded tickets. However, this isn't how our Help Queue should actually work. A functioning, production-ready application should contain a dynamic list of tickets. In this lesson, we'll cover looping through content in JSX.

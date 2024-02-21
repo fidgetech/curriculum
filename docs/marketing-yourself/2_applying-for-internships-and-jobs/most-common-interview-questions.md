@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Formulate Answers to Most Common Interview Questions"
+title: "📓 Formulate Answers to Most Common Interview Questions"
 id: formulate-answers-to-most-common-interview-questions
-slug: formulate-answers-to-most-common-interview-questions
 hide_table_of_contents: true
-sidebar_position: 21
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/most_common_interview_questions.md
 ---
 
 # Formulating Answers to Interview Questions

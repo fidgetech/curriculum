@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.1.0.5 Constructor and Prototype Methods"
+title: "📓 2.1.0.5 Constructor and Prototype Methods"
 id: 2105-constructor-and-prototype-methods
-slug: 2105-constructor-and-prototype-methods
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0f_address_book_constructor_and_prototype_methods.md
 ---
 
 Now that we have an understanding of JavaScript objects, constructors, and prototypes, let's put them to work! In the next few lessons, we'll build an address book app to store contact info for our friends. 

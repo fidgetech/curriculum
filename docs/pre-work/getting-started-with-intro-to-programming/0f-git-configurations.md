@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.21 Git Configurations"
+title: "📓 1.0.0.21 Git Configurations"
 id: 10021-git-configurations
-slug: 10021-git-configurations
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0f_git_configurations.md'
 ---
 
 After installing Git, we recommend a few Git configurations that will make using Git on your own device similar to the experience you will have at Epicodus.

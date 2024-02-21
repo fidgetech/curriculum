@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Map, Reduce and Filter"
+title: "📓 Map, Reduce and Filter"
 id: map-reduce-and-filter
-slug: map-reduce-and-filter
 hide_table_of_contents: true
-sidebar_position: 11
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/map_reduce_and_filter.md'
 ---
 
 JavaScript provides some built-in methods that are commonly used in functional programming. In fact, we already have experience with `Array.prototype.map()`, one of the most popular of these methods.

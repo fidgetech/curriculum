@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Learning More About Git"
+title: "📓 Learning More About Git"
 id: learning-more-about-git
-slug: learning-more-about-git
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/shared/blob/main/learning_more_about_git.md'
 ---
 
 At this point, you should have a solid grasp of the basics of git. However, it's likely that some concepts remain intimidating. For instance, merging branches and the possibility of merge conflicts or losing code can still feel scary. Also, the basic underpinnings of how git works (it's based on graph theory) probably aren't very clear.

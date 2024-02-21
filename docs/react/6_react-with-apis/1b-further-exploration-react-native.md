@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Further Exploration: React Native"
+title: "📓 Further Exploration: React Native"
 id: further-exploration-react-native
-slug: further-exploration-react-native
 hide_table_of_contents: true
-sidebar_position: 17
 day: monday
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/1b_further_exploration_react_native.md
 ---
 
 In 2015, Facebook created React Native, an open source version of React meant for mobile development. This allowed developers to build truly cross-platform applications with JavaScript. iOS and Android apps for Facebook, Instagram, Skype, [and more](https://facebook.github.io/react-native/showcase.html) are built with React Native. Many companies that already use React for websites often opt to use React Native for their mobile apps because there is enough similarity between the two libraries to share code.

@@ -1,12 +1,8 @@
 ---
 title: '✏️ Technical Interview Preparation: React Fundamentals'
 id: technical-interview-preparation-react-fundamentals
-slug: technical-interview-preparation-react-fundamentals
 hide_table_of_contents: true
-sidebar_position: 40
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/react/blob/main/4b_classwork_technical_interview_prep_react_fundamentals.md
 ---
 
 ## Technical Interview Questions

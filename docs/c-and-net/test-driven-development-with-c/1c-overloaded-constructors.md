@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.1.1.3- Overloading Constructors and Methods"
+title: "📓 3.1.1.3- Overloading Constructors and Methods"
 id: 3113--overloading-constructors-and-methods
-slug: 3113--overloading-constructors-and-methods
 hide_table_of_contents: true
-sidebar_position: 4
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/1c_overloaded_constructors.md'
 ---
 
 Let's learn a technique that will allow us to make our class constructors and methods more flexible: **overloads**. As we usually do, let's start with an example. 

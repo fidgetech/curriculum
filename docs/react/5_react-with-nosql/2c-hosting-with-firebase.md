@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Hosting with Firebase"
+title: "📓 Hosting with Firebase"
 id: hosting-with-firebase
-slug: hosting-with-firebase
 hide_table_of_contents: true
-sidebar_position: 31
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/2c_hosting_with_firebase.md'
 ---
 
 In addition to providing database and authentication functionality, Firebase also provides free hosting (at least for smaller sites). As a site scales up, Firebase services do have a cost. However, this is a great solution for smaller portfolio sites. If you do end up building a site that scales, that can be a good problem to have — perhaps you have the beginnings of a start-up. If so, a cloud-based solution like Firebase will help with many of the headaches that scaling up can cause, ranging from efficient database queries to fast hosting.

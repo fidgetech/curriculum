@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.13 Student Handbook"
+title: "📓 1.0.0.13 Student Handbook"
 id: 10013-student-handbook
-slug: 10013-student-handbook
 hide_table_of_contents: true
-sidebar_position: 13
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/student-handbook.md'
 paginationNext: null
 ---
 

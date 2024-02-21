@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.0.8 Constructing and Configuring an ASP.NET Core MVC Web App"
+title: "📓 3.2.0.8 Constructing and Configuring an ASP.NET Core MVC Web App"
 id: 3208-constructing-and-configuring-an-aspnet-core-mvc-web-app
-slug: 3208-constructing-and-configuring-an-aspnet-core-mvc-web-app
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0h_constructing_and_configuring_an_asp_net_core_mvc_project.md
 ---
 
 Now that we have a basic understanding of server-side frameworks and MVC, let's build our first ASP.NET Core MVC web application together.

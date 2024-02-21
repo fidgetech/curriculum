@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.23 Class Fields and Constructors"
+title: "📓 3.0.0.23 Class Fields and Constructors"
 id: 30023-class-fields-and-constructors
-slug: 30023-class-fields-and-constructors
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0e_constructors_and_fields.md'
 ---
 
 We know a lot about classes and namespaces at this point, but our Shape Tracker application doesn't do much at all. Let's update our `Triangle` class to have **fields** and a **constructor**. 

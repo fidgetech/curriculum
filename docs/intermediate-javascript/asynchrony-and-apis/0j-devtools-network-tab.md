@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.3.0.10 The DevTools Network Tab"
+title: "📓 2.3.0.10 The DevTools Network Tab"
 id: 23010-the-devtools-network-tab
-slug: 23010-the-devtools-network-tab
 hide_table_of_contents: true
-sidebar_position: 10
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0j_devtools_network_tab.md
 ---
 
 In this lesson, we'll take a look at the _Network_ tab and how we can use it to debug API calls. As it usually goes for each tab in our browser DevTools, there's _a lot_ of available tools, so we'll just stick to the basics.

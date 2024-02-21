@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 The Virtual DOM"
+title: "📓 The Virtual DOM"
 id: the-virtual-dom
-slug: the-virtual-dom
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0b_the_virtual_dom.md'
 ---
 
 One of React's most powerful features is its virtual DOM. In this lesson, we'll discuss how the virtual DOM works.

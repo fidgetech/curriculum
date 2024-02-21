@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Sample Job Post"
+title: "📓 Sample Job Post"
 id: sample-job-post
-slug: sample-job-post
 hide_table_of_contents: true
-sidebar_position: 33
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/sample_job_post.md'
 ---
 
 This is a sample job posting to use for your resume and cover letter practice.

@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.1.2.3 Practice: Inline Elements'
 id: 1123-practice-inline-elements
-slug: 1123-practice-inline-elements
 hide_table_of_contents: true
-sidebar_position: 15
 day: tuesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1n_classwork_practice_inline_elements.md
 ---
 
 **Goal:**  Familiarize yourselves with the usage of inline HTML elements while continuing to practice Git, indentation and spacing.  Inline HTML elements are an important building block of most any website, so it's important to become comfortable with them now.

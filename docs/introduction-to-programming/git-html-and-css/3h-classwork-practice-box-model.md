@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.1.3.8 Practice: Box Model'
 id: 1138-practice-box-model
-slug: 1138-practice-box-model
 hide_table_of_contents: true
-sidebar_position: 35
 day: wednesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/3h_classwork_practice_box_model.md
 ---
 
 **Goal**: Implement the box model in our code.

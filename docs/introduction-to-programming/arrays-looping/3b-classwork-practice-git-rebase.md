@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.3.3.2 Practice: Rewriting Git History with Rebase'
 id: 1332-practice-rewriting-git-history-with-rebase
-slug: 1332-practice-rewriting-git-history-with-rebase
 hide_table_of_contents: true
-sidebar_position: 31
 day: wednesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/3b_classwork_practice_git_rebase.md
 ---
 
 **Goal**:  Now that we've learned about how to change previous commits, let's put this new information into practice!

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Expand Your Job Search Network Through Cold Emailing"
+title: "📓 Expand Your Job Search Network Through Cold Emailing"
 id: expand-your-job-search-network-through-cold-emailing
-slug: expand-your-job-search-network-through-cold-emailing
 hide_table_of_contents: true
-sidebar_position: 38
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/7_Expand_your_Job_Search_Network_through_Cold_Emailing.md
 ---
 
 How do we build connections online with people we've never met? One way is via cold emailing, when is when we email someone for the first time without any prior introduction. Cold emailing may feel awkward but it's a key to making online connections — including possibly a future employer.

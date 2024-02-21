@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 React Components"
+title: "📓 React Components"
 id: react-components
-slug: react-components
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0d_components.md'
 ---
 
 Components are the building blocks of React. Everything in a React application is a component.

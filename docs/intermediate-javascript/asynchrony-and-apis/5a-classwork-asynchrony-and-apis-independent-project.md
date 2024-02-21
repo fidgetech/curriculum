@@ -1,12 +1,8 @@
 ---
 title: ✏️ 2.3.5.1 Asynchrony and APIs Independent Project
 id: 2351-asynchrony-and-apis-independent-project
-slug: 2351-asynchrony-and-apis-independent-project
 hide_table_of_contents: true
-sidebar_position: 29
 day: friday
-type: exercise
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/5a_classwork_asynchrony_and_apis_independent_project.md
 paginationNext: null
 ---
 

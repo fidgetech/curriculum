@@ -1,12 +1,8 @@
 ---
-title: "✏️ 1.2.2.9 Practice: Accessing HTML Element Attributes and Properties in the DOM"
+title: '✏️ 1.2.2.9 Practice: Accessing HTML Element Attributes and Properties in the DOM'
 id: 1229-practice-accessing-html-element-attributes-and-properties-in-the-dom
-slug: 1229-practice-accessing-html-element-attributes-and-properties-in-the-dom
 hide_table_of_contents: true
-sidebar_position: 47
 day: tuesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/2i_classwork_accessing_DOM_element_attributes_and_properties.md
 ---
 
 **Goal:** Practice accessing DOM element attributes by using `document` methods and dot notation to access the properties that we learned about in previous lessons.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.03 Making Epicodus an Inclusive Place"
+title: "📓 1.0.0.03 Making Epicodus an Inclusive Place"
 id: 10003-making-epicodus-an-inclusive-place
-slug: 10003-making-epicodus-an-inclusive-place
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/pre-work/blob/main/0c_making_epicodus_an_inclusive_place.md
 ---
 
 One part of being at Epicodus is making it a place where everybody can feel like part of our class's community. Before class starts, read this article about the experience of a black woman after 13 years of working in tech:

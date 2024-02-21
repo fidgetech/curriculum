@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.3.3.2 Further Exploration: Chaining Promises"
+title: "📓 2.3.3.2 Further Exploration: Chaining Promises"
 id: 2332-further-exploration-chaining-promises
-slug: 2332-further-exploration-chaining-promises
 hide_table_of_contents: true
-sidebar_position: 25
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/3b_further_exploration_chaining_promises.md
 ---
 
 **Note:** This lesson is a further exploration. You will not be expected to chain promises together for this section's independent project. However, we recommend that you follow along with this lesson closely because you'll learn more about coding best practices including using services, handling errors, and other things we can do to clean up our code.

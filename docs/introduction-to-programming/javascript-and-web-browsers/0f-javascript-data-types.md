@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.0.6 JavaScript Data Types"
+title: "📓 1.2.0.6 JavaScript Data Types"
 id: 1206-javascript-data-types
-slug: 1206-javascript-data-types
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0f_javascript_data_types.md
 ---
 
 Now that you have the basics of HTML and CSS under your belt, we're going to start learning our first programming language: JavaScript.

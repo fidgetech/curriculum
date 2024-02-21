@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.2.0.19 Practice: Assignment, Comparison, and Equality Operators'
 id: 12019-practice-assignment-comparison-and-equality-operators
-slug: 12019-practice-assignment-comparison-and-equality-operators
 hide_table_of_contents: true
-sidebar_position: 19
 day: weekend
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/0s_classwork_practice_assignment_comparison_and_equality_operators.md
 ---
 
 **Goal:**  In the Assignment, Comparison, and Equality Operators lesson, we learned:

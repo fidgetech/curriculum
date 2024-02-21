@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Adding Redux to React: Part 3"
+title: "📓 Adding Redux to React: Part 3"
 id: adding-redux-to-react-part-3
-slug: adding-redux-to-react-part-3
 hide_table_of_contents: true
-sidebar_position: 13
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0m_adding_redux_to_react_part_3.md
 ---
 
 In the last lesson, we updated the CRUD methods in our Help Queue application. They are now connected to a Redux store. In this lesson, we will use the `mapStateToProps()` function in order to display the state from our Redux store in our application. We will need to make minor changes in two components to do this.

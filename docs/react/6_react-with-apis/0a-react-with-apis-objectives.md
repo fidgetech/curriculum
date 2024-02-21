@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 React with APIs Objectives"
+title: "📓 React with APIs Objectives"
 id: react-with-apis-objectives
-slug: react-with-apis-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0a_react_with_apis_objectives.md'
 paginationPrev: null
 ---
 

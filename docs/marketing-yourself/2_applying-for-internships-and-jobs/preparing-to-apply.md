@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Preparing to Apply for Jobs"
+title: "📓 Preparing to Apply for Jobs"
 id: preparing-to-apply-for-jobs
-slug: preparing-to-apply-for-jobs
 hide_table_of_contents: true
-sidebar_position: 28
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/preparing_to_apply.md'
 ---
 
 Programming is fun, but job hunting sucks! Some of the best advice that we can offer you is: You are awesome. You've come a really long way, and every one of you is on track to be a great junior dev. If you're not feeling that way, you're not alone — being a junior dev can be intimidating, especially when you're putting yourself out there for jobs. Remember how far you've come since the beginning of class! You know a lot, and you'll be great at your job.

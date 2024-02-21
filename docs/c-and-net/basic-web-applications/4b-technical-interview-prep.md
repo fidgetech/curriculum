@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.4.4 Technical Interview Prep"
+title: "📓 3.2.4.4 Technical Interview Prep"
 id: 3244-technical-interview-prep
-slug: 3244-technical-interview-prep
 hide_table_of_contents: true
-sidebar_position: 43
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/4b_technical_interview_prep.md
 ---
 
 Chances are, you're likely attending Epicodus because you're planning to begin a new career in the tech industry. We're so glad to help you on your journey! After your time with us, you'll begin applying and interviewing for positions. Usually, in addition to the more "standard" interview questions about your work experience, career goals, and education, applicants in the tech industry are _also_ asked to answer technical questions.

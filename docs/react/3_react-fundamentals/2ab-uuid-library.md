@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 UUID Library"
+title: "📓 UUID Library"
 id: uuid-library
-slug: uuid-library
 hide_table_of_contents: true
-sidebar_position: 25
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/2ab_uuid_library.md'
 ---
 
 So far each of our tickets in the `TicketList` component use a key set to the index of a `map()` function. While this works as a temporary solution, it's not a good practice in a real world application. Instead, each of our tickets should have its own unique ID.

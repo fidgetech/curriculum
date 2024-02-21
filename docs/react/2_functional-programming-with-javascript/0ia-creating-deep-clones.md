@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Further Exploration: Creating Deep Clones"
+title: "📓 Further Exploration: Creating Deep Clones"
 id: further-exploration-creating-deep-clones
-slug: further-exploration-creating-deep-clones
 hide_table_of_contents: true
-sidebar_position: 30
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0ia_creating_deep_clones.md'
 ---
 
 You will not be expected to create deep clones of objects this course section. However, it's still helpful to know how we might go about creating a deep clone instead of a shallow clone.

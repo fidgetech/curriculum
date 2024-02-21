@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.3.0.03 SQL Basics: Managing MySQL Databases from the Command Line"
+title: "📓 3.3.0.03 SQL Basics: Managing MySQL Databases from the Command Line"
 id: 33003-sql-basics-managing-mysql-databases-from-the-command-line
-slug: 33003-sql-basics-managing-mysql-databases-from-the-command-line
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0d_sql_basics.md'
 ---
 
 **Note:** See the [Installing and Configuring MySQL](https://old.learnhowtoprogram.com/fidgetech-3-c-and-net/3-0-lessons-1-5-getting-started-with-c/3-0-0-04-installing-and-configuring-mysql) lesson for instructions on installing MySQL.

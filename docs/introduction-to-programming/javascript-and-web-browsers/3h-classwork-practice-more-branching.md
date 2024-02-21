@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.2.3.9 Practice: More Branching'
 id: 1239-practice-more-branching
-slug: 1239-practice-more-branching
 hide_table_of_contents: true
-sidebar_position: 60
 day: wednesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/3h_classwork_practice_more_branching.md
 ---
 
 **Goal:**  In the More Branching lesson, we learned about:

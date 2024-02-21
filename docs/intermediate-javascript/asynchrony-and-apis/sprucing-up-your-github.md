@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.3.3.4 Sprucing Up Your GitHub"
+title: "📓 2.3.3.4 Sprucing Up Your GitHub"
 id: 2334-sprucing-up-your-github
-slug: 2334-sprucing-up-your-github
 hide_table_of_contents: true
-sidebar_position: 27
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/sprucing-up-your-github.md
 ---
 
 ## Sprucing Up Your GitHub

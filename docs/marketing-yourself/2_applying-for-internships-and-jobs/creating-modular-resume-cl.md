@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Modular Cover Letter and Resume"
+title: "📓 Modular Cover Letter and Resume"
 id: modular-cover-letter-and-resume
-slug: modular-cover-letter-and-resume
 hide_table_of_contents: true
-sidebar_position: 16
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/creating_modular_resume_cl.md
 ---
 
 # Creating a Modular Resume and Cover Letter

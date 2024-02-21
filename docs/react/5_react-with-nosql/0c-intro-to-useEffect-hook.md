@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Running Side Effects with the useEffect Hook"
+title: "📓 Running Side Effects with the useEffect Hook"
 id: running-side-effects-with-the-useeffect-hook
-slug: running-side-effects-with-the-useeffect-hook
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0c_intro_to_useEffect_hook.md'
 ---
 
 As we learned in the last lesson, hooks allow us to use React state and lifecycle features in function components. Historically, these features were only available in class components. Now that we know how to use state in our function components with the `useState` hook, let's learn how to perform side effects with the `useEffect` hook. 

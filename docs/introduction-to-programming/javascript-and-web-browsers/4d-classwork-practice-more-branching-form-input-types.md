@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.2.4.4 Practice: Calculator and More'
 id: 1244-practice-calculator-and-more
-slug: 1244-practice-calculator-and-more
 hide_table_of_contents: true
-sidebar_position: 68
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4d_classwork_practice_more_branching_form_input_types.md
 ---
 
 **Goal:** Explore using a variety of form input types, branching, and event listeners by completing the exercises listed below.

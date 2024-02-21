@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Continuing to Code"
+title: "📓 Continuing to Code"
 id: continuing-to-code
-slug: continuing-to-code
 hide_table_of_contents: true
-sidebar_position: 35
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/continuing_to_code.md'
 ---
 
 It's important to keep coding while you look for work. It will keep your skills sharp and demonstrate to employers that you actually like coding. Avoid tutorials and picking up new languages, and instead focus on building out a project — it gives you more to talk about in your interviews and better demonstrates your coding abilities. Push everything you do to Github, regardless of whether it is complete or not.

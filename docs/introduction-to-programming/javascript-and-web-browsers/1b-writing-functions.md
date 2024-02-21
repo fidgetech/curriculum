@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.1.2 Writing Functions"
+title: "📓 1.2.1.2 Writing Functions"
 id: 1212-writing-functions
-slug: 1212-writing-functions
 hide_table_of_contents: true
-sidebar_position: 24
 day: monday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1b_writing_functions.md
 ---
 
 We were first introduced to JavaScript functions in the [Functions]( https://old.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/functions) lesson. In that lesson we familiarized ourselves with function syntax and other important terminology and features. In this lesson, we'll review what we learned and start writing our own custom functions.

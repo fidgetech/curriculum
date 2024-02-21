@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.1.5.1 Git, HTML, and CSS Independent Project'
 id: 1151-git-html-and-css-independent-project
-slug: 1151-git-html-and-css-independent-project
 hide_table_of_contents: true
-sidebar_position: 52
 day: friday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/5a_classwork_git_html_and_css_independent_project.md
 paginationNext: null
 ---
 

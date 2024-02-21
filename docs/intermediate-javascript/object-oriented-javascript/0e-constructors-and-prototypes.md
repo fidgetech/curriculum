@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.1.0.4 Constructors and Prototypes"
+title: "📓 2.1.0.4 Constructors and Prototypes"
 id: 2104-constructors-and-prototypes
-slug: 2104-constructors-and-prototypes
 hide_table_of_contents: true
-sidebar_position: 4
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0e_constructors_and_prototypes.md
 ---
 
 In this lesson, we're going to explore how JavaScript uses constructors as blueprints for the creation of many new objects of the same type, and prototypes for adding properties and methods to objects.

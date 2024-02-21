@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.4.5 Further Exploration: While Loops"
+title: "📓 1.3.4.5 Further Exploration: While Loops"
 id: 1345-further-exploration-while-loops
-slug: 1345-further-exploration-while-loops
 hide_table_of_contents: true
-sidebar_position: 44
 day: thursday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/4e_while_loops.md
 ---
 
 **Note: This lesson is a _further exploration_, and it is not required that you read it!** `while` and `do...while` loops aren't as commonly used these days. You can usually solve the same problems with more common loops (such as `for`). However, you will still see them in the real world and it's one more tool to be aware of.

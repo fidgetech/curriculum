@@ -1,12 +1,8 @@
 ---
 title: '✏️ Coin Counter, Sieve'
 id: coin-counter-sieve
-slug: coin-counter-sieve
 hide_table_of_contents: true
-sidebar_position: 17
 day: monday
-type: exercise
-url: https://github.com/fidgetech/react/blob/main/1a_classwork_coin_counter_sieve.md
 ---
 
 **Goal:** Get comfortable with the basics of functional programming. Practice writing pure functions, closures, curried functions, and recursive functions.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.3.0.13 Saving Objects in the Database"
+title: "📓 3.3.0.13 Saving Objects in the Database"
 id: 33013-saving-objects-in-the-database
-slug: 33013-saving-objects-in-the-database
 hide_table_of_contents: true
-sidebar_position: 13
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0l_saving_objects_in_the_database.md
 ---
 
 In the last lesson, we wrote and tested a method to override `Equals()`. Now we're ready to write a method for saving `Item`s to the database. 

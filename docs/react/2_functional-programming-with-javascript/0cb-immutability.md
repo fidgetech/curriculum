@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Immutability"
+title: "📓 Immutability"
 id: immutability
-slug: immutability
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0cb_immutability.md'
 ---
 
 **Immutability** is an essential part of functional programming. In fact, some developers would argue that immutability is the most important aspect of functional programming — and that we can't call code functional if it isn't immutable.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.3.1.5 Static Methods and Properties"
+title: "📓 2.3.1.5 Static Methods and Properties"
 id: 2315-static-methods-and-properties
-slug: 2315-static-methods-and-properties
 hide_table_of_contents: true
-sidebar_position: 16
 day: monday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/1e_static_methods_and_properties.md
 ---
 
 All of the custom methods we've written up to this point have been **instance methods**. In this lesson, we'll learn how to write a **static method** which can be called directly on an object type. We'll also learn how to create **static properties**.

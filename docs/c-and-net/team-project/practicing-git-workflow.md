@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.7.0.6 Practicing the Git Workflow"
+title: "📓 3.7.0.6 Practicing the Git Workflow"
 id: 3706-practicing-the-git-workflow
-slug: 3706-practicing-the-git-workflow
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/practicing_git_workflow.md'
 ---
 
 We've covered the basics of using a git workflow — now it's time to practice a little. We recommend going through this practice _before_ you actually start working on your group project. This way, you'll be more equipped to use this workflow, and to deal with any issues that come up.

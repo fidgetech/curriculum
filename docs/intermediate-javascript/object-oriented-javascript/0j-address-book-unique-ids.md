@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.1.0.9 Address Book: Unique IDs"
+title: "📓 2.1.0.9 Address Book: Unique IDs"
 id: 2109-address-book-unique-ids
-slug: 2109-address-book-unique-ids
 hide_table_of_contents: true
-sidebar_position: 9
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0j_address_book_unique_ids.md
 ---
 
 As mentioned in the last lesson, a real world application would use a database. In a database, each individual `Contact` would have a unique ID. This allows us to identify records by a unique ID instead of something like their name, which isn't guaranteed to be unique. Right now, we are identifying each of our `Contact`s by their `firstName` property. However, there are multiple problems with that approach. An ID needs to be unique — but what if you have two `Contact`s that each have the same `firstName` property? In our case, it would be better if each `Contact` has a numerical ID — and we'll want to ensure that each ID is different — just like in a real database.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Addressing Implicit Bias"
+title: "📓 Addressing Implicit Bias"
 id: addressing-implicit-bias
-slug: addressing-implicit-bias
 hide_table_of_contents: true
-sidebar_position: 27
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/dei/blob/main/addressing_implicit_bias.md'
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum.

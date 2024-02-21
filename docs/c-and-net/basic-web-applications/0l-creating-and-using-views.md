@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.2.0.12 Creating and Using Views"
+title: "📓 3.2.0.12 Creating and Using Views"
 id: 32012-creating-and-using-views
-slug: 32012-creating-and-using-views
 hide_table_of_contents: true
-sidebar_position: 12
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0l_creating_and_using_views.md
 ---
 
 We've set up a few routes that return strings. However, that's not very helpful for building a functional site. Let's add HTML to our site by using **views** — the "V" in MVC.

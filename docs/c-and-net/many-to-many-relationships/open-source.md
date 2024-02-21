@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.4.3.2 Open Source Projects"
+title: "📓 3.4.3.2 Open Source Projects"
 id: 3432-open-source-projects
-slug: 3432-open-source-projects
 hide_table_of_contents: true
-sidebar_position: 14
 day: wednesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/open-source.md'
 ---
 
 ## Open Source Projects

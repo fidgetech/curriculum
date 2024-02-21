@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.19 Practice: Command Line"
+title: "📓 1.0.0.19 Practice: Command Line"
 id: 10019-practice-command-line
-slug: 10019-practice-command-line
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0d_practice_command_line.md'
 ---
 
 ## [Warm Up](#warm-up)

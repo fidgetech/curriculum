@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.1.2.11 Practice: Markdown'
 id: 11211-practice-markdown
-slug: 11211-practice-markdown
 hide_table_of_contents: true
-sidebar_position: 23
 day: tuesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1fb_classwork_practice_markdown.md
 ---
 
 **Goal:** Practice using all the major features of Markdown such as headings, bolding and italicizing text, and making lists.

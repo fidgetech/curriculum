@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.2.3 ES6 Classes"
+title: "📓 2.2.2.3 ES6 Classes"
 id: 2223-es6-classes
-slug: 2223-es6-classes
 hide_table_of_contents: true
-sidebar_position: 34
 day: tuesday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/2c_es6_classes.md
 ---
 
 We've already covered ES6 support for modules, which are implemented with `import` and `export`. In this lesson, we'll go over ES6's native support for classes. Classes make JavaScript more accessible and easier to read from an object-oriented (OO) perspective. However, they don't fundamentally change the way JavaScript works.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Adding Redux to React: Part 2"
+title: "📓 Adding Redux to React: Part 2"
 id: adding-redux-to-react-part-2
-slug: adding-redux-to-react-part-2
 hide_table_of_contents: true
-sidebar_position: 12
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0l_adding_redux_to_react_part_2.md
 ---
 
 We're ready to refactor our Help Queue application to incorporate Redux. We'll start by creating the Redux store.

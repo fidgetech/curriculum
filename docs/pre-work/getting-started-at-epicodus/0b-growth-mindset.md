@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.02 Growth Mindset"
+title: "📓 1.0.0.02 Growth Mindset"
 id: 10002-growth-mindset
-slug: 10002-growth-mindset
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0b_growth_mindset.md'
 ---
 
 People come to Epicodus with a wide range of experience in and natural aptitude for programming. But the effect of those differences on your pace of learning will pale in comparison to the effect of developing a "growth mindset".

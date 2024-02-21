@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Building a Static Site"
+title: "📓 Building a Static Site"
 id: building-a-static-site
-slug: building-a-static-site
 hide_table_of_contents: true
-sidebar_position: 8
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0g_building_a_static_site.md'
 ---
 
 We've built a basic plan for our Help Queue and we're ready to start coding our application. Because our site is static for now, we will only use function components. Before we begin, there's an important point to reiterate — `App.js` is the parent component for **all** other components in our application. For that reason, as we add each component to our application, we will also need to add it either to `App.js` or to its parent component. This will become clear soon.

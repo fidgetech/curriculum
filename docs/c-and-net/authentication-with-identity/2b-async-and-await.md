@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.5.0.2 Async and Await"
+title: "📓 3.5.0.2 Async and Await"
 id: 3502-async-and-await
-slug: 3502-async-and-await
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/2b_async_and_await.md'
 ---
 
 During Intermediate JavaScript, we learned how to write asynchronous code and manage asynchronicity while performing complex actions like API calls. In this lesson, we'll discuss how C# handles asynchronous code.

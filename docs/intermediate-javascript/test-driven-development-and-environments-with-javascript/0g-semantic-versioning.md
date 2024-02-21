@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.0.7 Semantic Versioning"
+title: "📓 2.2.0.7 Semantic Versioning"
 id: 2207-semantic-versioning
-slug: 2207-semantic-versioning
 hide_table_of_contents: true
-sidebar_position: 7
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0g_semantic_versioning.md
 ---
 
 When we install a JavaScript package, it will include a version number that looks something like this:

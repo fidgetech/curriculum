@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.3.0.15 More SQL Queries"
+title: "📓 3.3.0.15 More SQL Queries"
 id: 33015-more-sql-queries
-slug: 33015-more-sql-queries
 hide_table_of_contents: true
-sidebar_position: 15
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0o_more_sql_queries.md'
 ---
 
 In this lesson, we'll briefly explore some of the most common SQL clauses and operators.

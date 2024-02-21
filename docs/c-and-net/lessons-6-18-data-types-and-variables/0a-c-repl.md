@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.06 Using a C# REPL"
+title: "📓 3.0.0.06 Using a C# REPL"
 id: 30006-using-a-c-repl
-slug: 30006-using-a-c-repl
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0a_c_repl.md'
 paginationPrev: null
 ---
 

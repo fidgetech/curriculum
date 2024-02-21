@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Combining Redux Reducers"
+title: "📓 Combining Redux Reducers"
 id: combining-redux-reducers
-slug: combining-redux-reducers
 hide_table_of_contents: true
-sidebar_position: 18
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/1b_combining_reducers_in_redux.md'
 ---
 
 Because our Help Queue is a simple application, we can handle all of our actions with a single reducer. However, what should we do once our reducers start handling multiple slices of state?

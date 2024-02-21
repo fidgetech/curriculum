@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Informational Interviews"
+title: "📓 Informational Interviews"
 id: informational-interviews
-slug: informational-interviews
 hide_table_of_contents: true
-sidebar_position: 35
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/informational-interviews.md
 ---
 
 ## Informational Interviews

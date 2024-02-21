@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.0.0.29 Simplifying Business Logic with Properties"
+title: "📓 3.0.0.29 Simplifying Business Logic with Properties"
 id: 30029-simplifying-business-logic-with-properties
-slug: 30029-simplifying-business-logic-with-properties
 hide_table_of_contents: true
-sidebar_position: 11
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0k_properties.md'
 ---
 
 We're going to learn about an important concept in this lesson: C# properties. Yes, _properties!_ These do in fact exist in C#, but they are nothing like JavaScript properties. 

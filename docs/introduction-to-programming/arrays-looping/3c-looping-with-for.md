@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.3.3.4 Looping with for"
+title: "📓 1.3.3.4 Looping with for"
 id: 1334-looping-with-for
-slug: 1334-looping-with-for
 hide_table_of_contents: true
-sidebar_position: 33
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/3c_looping_with_for.md
 ---
 
 `Array.prototype.forEach()` is a relatively new addition to JavaScript. Under the hood, it uses what's known as a `for` loop.

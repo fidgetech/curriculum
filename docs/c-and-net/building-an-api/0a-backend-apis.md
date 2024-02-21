@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.6.0.01 Building an API Objectives"
+title: "📓 3.6.0.01 Building an API Objectives"
 id: 36001-building-an-api-objectives
-slug: 36001-building-an-api-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0a_backend_apis.md'
 paginationPrev: null
 ---
 

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Currying"
+title: "📓 Currying"
 id: currying
-slug: currying
 hide_table_of_contents: true
-sidebar_position: 10
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0g_currying.md'
 ---
 
 **Currying** is an essential functional programming concept named after the mathematician Haskell Curry.

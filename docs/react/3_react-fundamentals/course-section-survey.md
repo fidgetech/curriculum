@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Prior Course Section Survey"
+title: "📓 Prior Course Section Survey"
 id: prior-course-section-survey
-slug: prior-course-section-survey
 hide_table_of_contents: true
-sidebar_position: 16
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/course_section_survey.md'
 ---
 
 This is a survey for the previous course section you just completed at the end of last week. We rely on this survey to get a general view of is and isn’t working well in the program, the curriculum, or our classroom model.

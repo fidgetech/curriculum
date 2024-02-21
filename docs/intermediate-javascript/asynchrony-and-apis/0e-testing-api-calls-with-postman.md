@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.3.0.5 Testing API Calls with Postman"
+title: "📓 2.3.0.5 Testing API Calls with Postman"
 id: 2305-testing-api-calls-with-postman
-slug: 2305-testing-api-calls-with-postman
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0e_testing_api_calls_with_postman.md
 ---
 
 In the last lesson, we walked through the process of signing up for a developer account for the OpenWeather API and then getting an API key. We learned some general pointers for walking through API documentation and we even made an API call in the browser. In this lesson, we'll learn how to use a tool called Postman to test our API calls.

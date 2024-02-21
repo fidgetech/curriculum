@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.0.15 Improving Development by Automating Clean Up Tasks"
+title: "📓 2.2.0.15 Improving Development by Automating Clean Up Tasks"
 id: 22015-improving-development-by-automating-clean-up-tasks
-slug: 22015-improving-development-by-automating-clean-up-tasks
 hide_table_of_contents: true
-sidebar_position: 15
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0o_cleaning_up.md
 ---
 
 Right now, the `dist` folder is empty. Run `$ npm run build` now and webpack will generate two files, `bundle.js` and `index.html`, and add them to the `dist` folder. In the future, anytime time we re-run `$ npm run build`, webpack creates a new `bundle.js` and `index.html` file and replaces any existing files in the `dist` folder.

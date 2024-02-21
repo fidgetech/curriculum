@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Writing Our Third Redux Test"
+title: "📓 Writing Our Third Redux Test"
 id: writing-our-third-redux-test
-slug: writing-our-third-redux-test
 hide_table_of_contents: true
-sidebar_position: 6
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0f_writing_our_third_redux_test.md
 ---
 
 In the last lesson, we added a reducer action called `ADD_TICKET`. Our reducer can now take the current state of our ticket list and return the ticket list's new state with a new ticket added to the list. It does this without making alterations to the current state or storing that data anywhere.

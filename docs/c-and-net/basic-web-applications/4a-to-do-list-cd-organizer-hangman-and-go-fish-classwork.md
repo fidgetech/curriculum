@@ -1,12 +1,8 @@
 ---
 title: '✏️ 3.2.4.1 To Do List, CD Organizer, Go Fish, Word Puzzle'
 id: 3241-to-do-list-cd-organizer-go-fish-word-puzzle
-slug: 3241-to-do-list-cd-organizer-go-fish-word-puzzle
 hide_table_of_contents: true
-sidebar_position: 40
 day: thursday
-type: exercise
-url: https://github.com/fidgetech/c-and-net/blob/main/4a_to_do_list_cd_organizer_hangman_and_go_fish_classwork.md
 ---
 
 **Goal:** Create an ASP.NET Core MVC application that uses objects within objects. Pay close attention to how data is passed between routes, views, and forms in an objects-within-objects MVC setup.

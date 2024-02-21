@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 NY Times API: Making an API Call with fetch and useState"
+title: "📓 NY Times API: Making an API Call with fetch and useState"
 id: ny-times-api-making-an-api-call-with-fetch-and-usestate
-slug: ny-times-api-making-an-api-call-with-fetch-and-usestate
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0c_making_an_api_call_with_fetch.md
 ---
 
 In this lesson, we'll build a small application that will use `fetch()` to make an API call to the New York Times (NYT). This example is very similar to the one that the [React documentation](https://reactjs.org/docs/faq-ajax.html) provides, but with a few modifications to follow best practices. This example will also be reminiscent of the setup in the React with NoSQL course section when we fetched data from a Firestore database.

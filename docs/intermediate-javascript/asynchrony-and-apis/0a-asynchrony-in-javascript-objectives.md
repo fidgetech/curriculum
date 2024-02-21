@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.3.0.1 Asynchrony and APIs in JavaScript Objectives"
+title: "📓 2.3.0.1 Asynchrony and APIs in JavaScript Objectives"
 id: 2301-asynchrony-and-apis-in-javascript-objectives
-slug: 2301-asynchrony-and-apis-in-javascript-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/0a_asynchrony_in_javascript_objectives.md
 paginationPrev: null
 ---
 

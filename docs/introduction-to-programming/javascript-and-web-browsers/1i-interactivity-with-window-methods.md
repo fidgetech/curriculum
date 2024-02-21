@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.1.9 Interactivity with Window Methods"
+title: "📓 1.2.1.9 Interactivity with Window Methods"
 id: 1219-interactivity-with-window-methods
-slug: 1219-interactivity-with-window-methods
 hide_table_of_contents: true
-sidebar_position: 31
 day: monday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/1i_interactivity_with_window_methods.md
 ---
 
 So far, none of what we've learned lets us interact with users. Let's try out `window` methods that let us do just that!

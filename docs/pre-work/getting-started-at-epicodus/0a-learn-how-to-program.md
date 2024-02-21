@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.01 Learn How to Program"
+title: "📓 1.0.0.01 Learn How to Program"
 id: 10001-learn-how-to-program
-slug: 10001-learn-how-to-program
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0a_learn_how_to_program.md'
 paginationPrev: null
 ---
 

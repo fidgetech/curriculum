@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Writing Your Cover Letter 2"
+title: "📓 Writing Your Cover Letter 2"
 id: writing-your-cover-letter-2
-slug: writing-your-cover-letter-2
 hide_table_of_contents: true
-sidebar_position: 31
 day: monday
-type: lesson
-url: https://github.com/fidgetech/career-services/blob/main/1_write_your_cover_letter.md
 ---
 
 After following the steps depicted in the previous lesson, we're now ready to actually write the cover letter.

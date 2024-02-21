@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.3.1.7 SOP and CORS"
+title: "📓 2.3.1.7 SOP and CORS"
 id: 2317-sop-and-cors
-slug: 2317-sop-and-cors
 hide_table_of_contents: true
-sidebar_position: 18
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/intermediate-javascript/blob/main/1g_cors.md'
 ---
 
 We don't talk about web application security much at Epicodus because it's beyond the scope of what we teach. However, there is one important topic we need to cover briefly now that we are working with API calls.

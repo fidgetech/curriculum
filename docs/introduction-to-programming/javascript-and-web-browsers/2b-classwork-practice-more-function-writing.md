@@ -1,12 +1,8 @@
 ---
 title: '✏️ 1.2.2.2 Practice: More Function Writing'
 id: 1222-practice-more-function-writing
-slug: 1222-practice-more-function-writing
 hide_table_of_contents: true
-sidebar_position: 40
 day: tuesday
-type: exercise
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/2b_classwork_practice_more_function_writing.md
 ---
 
 **Goal:** Continue practicing writing and calling custom functions. It is simply additional practice. You may speak with your instructor about these extra prompts, if you feel comfortable enough with the concepts to move on.

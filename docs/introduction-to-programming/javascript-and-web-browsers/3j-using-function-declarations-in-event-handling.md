@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.2.3.11 Using Function Declarations in Event Handling"
+title: "📓 1.2.3.11 Using Function Declarations in Event Handling"
 id: 12311-using-function-declarations-in-event-handling
-slug: 12311-using-function-declarations-in-event-handling
 hide_table_of_contents: true
-sidebar_position: 62
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/introduction-to-programming/blob/main/3j_using_function_declarations_in_event_handling.md
 ---
 
 In this lesson we'll learn how to use function declarations in event handling. We'll look at examples with event handler properties and event listeners. We'll also learn that using function declarations really improves code reusability and is generally considered a good choice for applications that scale. In the next lesson when we learn how to remove event listeners, we will need to use function declarations. 

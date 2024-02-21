@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.2.1.3 Red Green Refactor Workflow"
+title: "📓 2.2.1.3 Red Green Refactor Workflow"
 id: 2213-red-green-refactor-workflow
-slug: 2213-red-green-refactor-workflow
 hide_table_of_contents: true
-sidebar_position: 23
 day: monday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/1c_red_green_refactor_workflow.md
 ---
 
 Before we start writing automated tests, let's cover the **Red, Green, Refactor** workflow. We've actually been applying some of the principles of this workflow already. However, we need automated testing in place to really apply it. 

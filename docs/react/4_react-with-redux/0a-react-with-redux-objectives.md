@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 React with Redux Objectives"
+title: "📓 React with Redux Objectives"
 id: react-with-redux-objectives
-slug: react-with-redux-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0a_react_with_redux_objectives.md'
 paginationPrev: null
 ---
 

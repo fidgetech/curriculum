@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.4.0.1 Team Week Objectives"
+title: "📓 2.4.0.1 Team Week Objectives"
 id: 2401-team-week-objectives
-slug: 2401-team-week-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/team_week_objectives.md
 paginationPrev: null
 ---
 

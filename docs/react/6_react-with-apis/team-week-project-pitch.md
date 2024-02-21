@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Team Week: Project Pitch"
+title: "📓 Team Week: Project Pitch"
 id: team-week-project-pitch
-slug: team-week-project-pitch
 hide_table_of_contents: true
-sidebar_position: 12
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/shared/blob/main/team_week_project_pitch.md'
 ---
 
 In the next course section, we will be working on group projects for the Epicodus Developer Trade Show to take place at the end of the section. In preparation, we'll take this coming section to generate ideas and sign up for teams, so we'll be organized and ready to go by the start of Team Week. 

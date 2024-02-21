@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Firebase Authentication"
+title: "📓 Firebase Authentication"
 id: firebase-authentication
-slug: firebase-authentication
 hide_table_of_contents: true
-sidebar_position: 27
 day: monday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/1d_firebase_authentication.md'
 ---
 
 Let's imagine that we want to expand our Help Queue's functionality for online Epicodus students. We don't want people that aren't students to access the queue — so we'll make the queue accessible only if a user is signed in. Over the next couple of lessons, we'll add this functionality. In this lesson, we'll add Firebase authentication to our `SignIn` component. Then, in the next lesson, we'll add basic authorization so that only signed-in users can add tickets.

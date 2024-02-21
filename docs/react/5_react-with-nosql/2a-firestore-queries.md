@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Firestore Queries"
+title: "📓 Firestore Queries"
 id: firestore-queries
-slug: firestore-queries
 hide_table_of_contents: true
-sidebar_position: 29
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/2a_firestore_queries.md'
 ---
 
 As our data gets more complex, we'll want to use queries to filter our data. In Rails and .NET, we used each framework's respective ORM (Active Record and Entity) to write queries that include `where` clauses.

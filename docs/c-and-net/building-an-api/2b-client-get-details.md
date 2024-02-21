@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.6.2.5 MVC Client: GetDetails()"
+title: "📓 3.6.2.5 MVC Client: GetDetails()"
 id: 3625-mvc-client-getdetails
-slug: 3625-mvc-client-getdetails
 hide_table_of_contents: true
-sidebar_position: 18
 day: tuesday
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/2b_client_get_details.md'
 ---
 
 In the last lesson, we created a `GetAll()` method that returns a list of all animals from our API. Now we're ready to add methods to our `Animal` and `ApiHelper` classes for retrieving a single animal's details. The methods we'll add will look quite similar to the ones we already have.

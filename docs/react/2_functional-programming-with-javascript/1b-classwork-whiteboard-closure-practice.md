@@ -1,12 +1,8 @@
 ---
 title: '✏️ Whiteboard Practice: Closures'
 id: whiteboard-practice-closures
-slug: whiteboard-practice-closures
 hide_table_of_contents: true
-sidebar_position: 18
 day: monday
-type: exercise
-url: https://github.com/fidgetech/react/blob/main/1b_classwork_whiteboard_closure_practice.md
 ---
 
 You will get a chance to practice whiteboarding a lot during this course section. Time will be set aside during most class sessions at the discretion of your teacher. Use this time wisely to improve both your whiteboarding and functional programming skills!

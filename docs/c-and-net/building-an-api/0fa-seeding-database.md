@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.6.0.07 Seeding the Database"
+title: "📓 3.6.0.07 Seeding the Database"
 id: 36007-seeding-the-database
-slug: 36007-seeding-the-database
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0fa_seeding_database.md'
 ---
 
 In the last lesson, we added update and delete functionality to our Cretaceous Park API. In this lesson, we'll learn how to seed the database with data upon initialization.

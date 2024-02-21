@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.5.0.3 Introduction to Authentication, Authorization, and Identity"
+title: "📓 3.5.0.3 Introduction to Authentication, Authorization, and Identity"
 id: 3503-introduction-to-authentication-authorization-and-identity
-slug: 3503-introduction-to-authentication-authorization-and-identity
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/2c_introduction_to_authentication_and_identity.md
 ---
 
 In this lesson we'll introduce authentication in general as well as Identity, the authentication tool built into ASP.NET Core.

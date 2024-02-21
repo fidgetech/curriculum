@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.5.0.5 The Identity Model"
+title: "📓 3.5.0.5 The Identity Model"
 id: 3505-the-identity-model
-slug: 3505-the-identity-model
 hide_table_of_contents: true
-sidebar_position: 5
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/2da_identity_model.md'
 ---
 
 We've just updated our To Do List database to store Identity data. Let's pause for a second to check out the changes in MySQL Workbench. Or, check out the contents of the most recent migration file, which should be called something similar to `20230102230735_AddIdentity.cs` and be located in the `ToDoList/Migrations/` directory. We'll see many new tables created for Identity-related data! What we're seeing here is Identity's model.

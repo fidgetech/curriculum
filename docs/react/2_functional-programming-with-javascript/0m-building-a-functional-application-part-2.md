@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Building a Functional Application (Part 2)"
+title: "📓 Building a Functional Application (Part 2)"
 id: building-a-functional-application-part-2
-slug: building-a-functional-application-part-2
 hide_table_of_contents: true
-sidebar_position: 26
 day: monday
-type: lesson
-url: https://github.com/fidgetech/react/blob/main/0m_building_a_functional_application_part_2.md
 ---
 
 In the last lesson, we built a function factory for incrementing a plant's attributes. However, we still have no place to save that information. If we wanted this application to be truly functional, we could retrieve the state from the DOM when we need to update it. Feel free to try this approach in class — but don't forget that it's not very efficient to query the DOM!

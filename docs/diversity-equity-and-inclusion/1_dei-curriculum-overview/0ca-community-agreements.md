@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Community Agreements"
+title: "📓 Community Agreements"
 id: community-agreements
-slug: community-agreements
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/dei/blob/main/0ca_community_agreements.md'
 ---
 
 Your participation in Epicodus's DEI mission starts with making our classroom a welcoming and inclusive place for everyone. We ask that you respect these community agreements in all interactions at Epicodus.

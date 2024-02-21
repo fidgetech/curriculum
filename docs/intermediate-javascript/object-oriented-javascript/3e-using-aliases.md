@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 2.1.3.5 Further Exploration: Aliases"
+title: "📓 2.1.3.5 Further Exploration: Aliases"
 id: 2135-further-exploration-aliases
-slug: 2135-further-exploration-aliases
 hide_table_of_contents: true
-sidebar_position: 26
 day: wednesday
-type: lesson
-url: https://github.com/fidgetech/intermediate-javascript/blob/main/3e_using_aliases.md
 ---
 
 Sometimes we'll need to use the command line for the same command over and over again. This can get annoying, especially when we are typing in a very long command. While we can't do away with typing altogether, we can make our lives easier by using **aliases**. An alias is simply a shortcut, allowing us to reference a longer command via a short command of our choosing.

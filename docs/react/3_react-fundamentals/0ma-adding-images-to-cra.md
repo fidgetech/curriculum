@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Adding Images"
+title: "📓 Adding Images"
 id: adding-images
-slug: adding-images
 hide_table_of_contents: true
-sidebar_position: 14
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/react/blob/main/0ma_adding_images_to_cra.md'
 ---
 
 In this lesson, we'll cover adding static assets such as images to a React application that uses `create-react-app`. You aren't required to add images for any independent projects. However, you might want to make an application look nicer with images and other graphics, especially any applications that you plan to include in your portfolio.

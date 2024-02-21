@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.1.0.1 Test-Driven Development with C# Objectives"
+title: "📓 3.1.0.1 Test-Driven Development with C# Objectives"
 id: 3101-test-driven-development-with-c-objectives
-slug: 3101-test-driven-development-with-c-objectives
 hide_table_of_contents: true
-sidebar_position: 1
 day: weekend
-type: lesson
-url: https://github.com/fidgetech/c-and-net/blob/main/0a_c_sharp_basics_objectives.md
 paginationPrev: null
 ---
 

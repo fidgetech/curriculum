@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 3.6.0.02 Scaffolding a .NET Application with dotnet new"
+title: "📓 3.6.0.02 Scaffolding a .NET Application with dotnet new"
 id: 36002-scaffolding-a-net-application-with-dotnet-new
-slug: 36002-scaffolding-a-net-application-with-dotnet-new
 hide_table_of_contents: true
-sidebar_position: 2
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/c-and-net/blob/main/0b_dotnet_new.md'
 ---
 
 In this lesson, we'll learn more about the **.NET 6.0 CLI** and build an ASP.NET Core API project with the **dotnet new** command. Later, we'll build an ASP.NET Core MVC project using the `dotnet new` command.

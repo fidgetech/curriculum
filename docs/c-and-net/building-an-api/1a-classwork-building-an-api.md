@@ -1,12 +1,8 @@
 ---
 title: ✏️ 3.6.1.2 Building an API Part 1
 id: 3612-building-an-api-part-1
-slug: 3612-building-an-api-part-1
 hide_table_of_contents: true
-sidebar_position: 14
 day: monday
-type: exercise
-url: https://github.com/fidgetech/c-and-net/blob/main/1a_classwork_building_an_api.md
 ---
 
 **Goal**: Build and test your own API. Once you've completed the basic functionality for your API, review the lesson _Further Exploration with APIs_ to learn about additional API-building objectives.

@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 A Guide to Whiteboarding"
+title: "📓 A Guide to Whiteboarding"
 id: a-guide-to-whiteboarding
-slug: a-guide-to-whiteboarding
 hide_table_of_contents: true
-sidebar_position: 18
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/career-services/blob/main/3_how_to_whiteboard.md'
 ---
 
 This lesson will cover a basic approach to whiteboarding. A technical interview can come in many forms and there is no one-size-fits-all approach. However, the following approach will serve you well in traditional whiteboard sessions where one or more interviewers are evaluating your ability to write code.

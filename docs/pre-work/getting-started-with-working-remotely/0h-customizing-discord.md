@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 1.0.0.25 Customizing Discord"
+title: "📓 1.0.0.25 Customizing Discord"
 id: 10025-customizing-discord
-slug: 10025-customizing-discord
 hide_table_of_contents: true
-sidebar_position: 3
 day: weekend
-type: lesson
-url: 'https://github.com/fidgetech/pre-work/blob/main/0h_customizing_discord.md'
 ---
 
 This lesson covers optional settings you can change in Discord to customize and improve your workflow and share details about yourself.

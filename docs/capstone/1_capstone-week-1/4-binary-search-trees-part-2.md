@@ -1,12 +1,8 @@
 ---
-title: "\U0001F4D3 Binary Search Trees Part 2"
+title: "📓 Binary Search Trees Part 2"
 id: binary-search-trees-part-2
-slug: binary-search-trees-part-2
 hide_table_of_contents: true
-sidebar_position: 12
 day: monday
-type: lesson
-url: https://github.com/fidgetech/capstone/blob/main/4_binary_search_trees_part_2.md
 ---
 
 In the last lesson, we made a small application with a method that can build a binary search tree. In this lesson, we'll use our application to create a larger binary search tree that we can then search with several different kinds of algorithms.
