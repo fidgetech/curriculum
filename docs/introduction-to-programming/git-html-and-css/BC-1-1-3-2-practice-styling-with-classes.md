@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.1.3.2 Practice: Styling with Classes'
-id: 1-1-3-2-practice-styling-with-classes
-hide_table_of_contents: true
 day: wednesday
 ---
 

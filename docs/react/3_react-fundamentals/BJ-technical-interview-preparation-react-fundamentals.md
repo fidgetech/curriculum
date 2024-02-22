@@ -1,7 +1,5 @@
 ---
 title: '✏️ Technical Interview Preparation: React Fundamentals'
-id: technical-interview-preparation-react-fundamentals
-hide_table_of_contents: true
 day: thursday
 ---
 

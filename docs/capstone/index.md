@@ -1,8 +1,6 @@
 ---
 title: Capstone
-id: index
 slug: /capstone
-hide_table_of_contents: true
 ---
 
 Welcome to the Capstone course.

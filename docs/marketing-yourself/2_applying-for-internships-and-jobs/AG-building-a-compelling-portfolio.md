@@ -1,7 +1,5 @@
 ---
 title: "📓 Building a Compelling Portfolio"
-id: building-a-compelling-portfolio
-hide_table_of_contents: true
 day: weekend
 ---
 

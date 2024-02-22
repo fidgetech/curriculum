@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.1.3.8 Practice: Box Model'
-id: 1-1-3-8-practice-box-model
-hide_table_of_contents: true
 day: wednesday
 ---
 

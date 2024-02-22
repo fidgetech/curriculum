@@ -1,7 +1,5 @@
 ---
 title: ✏️ Applying for Jobs
-id: applying-for-jobs
-hide_table_of_contents: true
 day: thursday
 ---
 

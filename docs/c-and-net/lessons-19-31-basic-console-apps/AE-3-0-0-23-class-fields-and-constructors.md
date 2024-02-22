@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.23 Class Fields and Constructors"
-id: 3-0-0-23-class-fields-and-constructors
-hide_table_of_contents: true
 day: weekend
 ---
 

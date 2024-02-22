@@ -1,7 +1,5 @@
 ---
 title: "📓 Preparing to Apply for Jobs"
-id: preparing-to-apply-for-jobs
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Currying"
-id: currying
-hide_table_of_contents: true
 day: weekend
 ---
 

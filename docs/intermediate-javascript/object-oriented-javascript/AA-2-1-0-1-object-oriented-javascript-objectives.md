@@ -1,9 +1,6 @@
 ---
 title: "📓 2.1.0.1 Object-Oriented JavaScript Objectives"
-id: 2-1-0-1-object-oriented-javascript-objectives
-hide_table_of_contents: true
 day: weekend
-paginationPrev: null
 ---
 
 We've learned to work with just about all the fundamental tools that JavaScript has to offer: primitives, functions, arrays, looping, branching, and using built-in object methods and properties. We've also reinforced our know-how of using built-in object properties and methods by implementing Web APIs into our applications to make them interactive. 

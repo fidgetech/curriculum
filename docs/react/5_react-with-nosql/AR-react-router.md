@@ -1,7 +1,5 @@
 ---
 title: "📓 React Router"
-id: react-router
-hide_table_of_contents: true
 day: monday
 ---
 

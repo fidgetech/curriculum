@@ -1,7 +1,5 @@
 ---
 title: "📓 Intro to JavaScript"
-id: intro-to-javascript
-hide_table_of_contents: true
 day: weekend
 ---
 

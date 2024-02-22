@@ -1,7 +1,5 @@
 ---
 title: "📓 Jokes and Appropriate Humor"
-id: jokes-and-appropriate-humor
-hide_table_of_contents: true
 day: weekend
 ---
 

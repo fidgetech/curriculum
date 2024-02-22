@@ -1,7 +1,5 @@
 ---
 title: "📓 Further Exploration: React Native"
-id: further-exploration-react-native
-hide_table_of_contents: true
 day: monday
 ---
 

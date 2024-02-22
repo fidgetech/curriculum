@@ -1,7 +1,5 @@
 ---
 title: "📓 Adding a Form"
-id: adding-a-form
-hide_table_of_contents: true
 day: tuesday
 ---
 

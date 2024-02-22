@@ -1,9 +1,6 @@
 ---
 title: ✏️ Functional Programming with JavaScript Independent Project
-id: functional-programming-with-javascript-independent-project
-hide_table_of_contents: true
 day: friday
-paginationNext: null
 ---
 
 ## Independent Projects Overview

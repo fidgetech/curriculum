@@ -1,9 +1,6 @@
 ---
 title: "📓 Further Exploration"
-id: further-exploration
-hide_table_of_contents: true
 day: weekend
-paginationNext: null
 ---
 
 If you'd like to tackle another project, check out the prompts below.

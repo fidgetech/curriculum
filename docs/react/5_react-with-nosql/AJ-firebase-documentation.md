@@ -1,7 +1,5 @@
 ---
 title: "📓 Firebase Documentation"
-id: firebase-documentation
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: 'Diversity, Equity, and Inclusion'
-id: index
 slug: /diversity-equity-and-inclusion
-hide_table_of_contents: true
 ---
 
 Welcome to the Diversity, Equity, and Inclusion home page.

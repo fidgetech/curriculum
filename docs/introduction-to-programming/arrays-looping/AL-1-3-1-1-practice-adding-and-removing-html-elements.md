@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.3.1.1 Practice: Adding and Removing HTML Elements'
-id: 1-3-1-1-practice-adding-and-removing-html-elements
-hide_table_of_contents: true
 day: monday
 ---
 

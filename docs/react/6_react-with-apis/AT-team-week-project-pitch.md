@@ -1,7 +1,5 @@
 ---
 title: "📓 Team Week: Project Pitch"
-id: team-week-project-pitch
-hide_table_of_contents: true
 day: weekend
 ---
 

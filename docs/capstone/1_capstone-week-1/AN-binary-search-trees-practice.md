@@ -1,7 +1,5 @@
 ---
 title: ✏️ Binary Search Trees Practice
-id: binary-search-trees-practice
-hide_table_of_contents: true
 day: monday
 ---
 

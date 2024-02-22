@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.3.5 Objects Within Objects Interface Part 2"
-id: 3-2-3-5-objects-within-objects-interface-part-2
-hide_table_of_contents: true
 day: wednesday
 ---
 

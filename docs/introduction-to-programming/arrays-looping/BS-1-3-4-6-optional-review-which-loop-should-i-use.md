@@ -1,7 +1,5 @@
 ---
 title: "📓 1.3.4.6 Optional Review: Which Loop Should I Use?"
-id: 1-3-4-6-optional-review-which-loop-should-i-use
-hide_table_of_contents: true
 day: thursday
 ---
 

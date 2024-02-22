@@ -1,7 +1,5 @@
 ---
 title: "📓 Further Exploration: SEO with React"
-id: further-exploration-seo-with-react
-hide_table_of_contents: true
 day: monday
 ---
 

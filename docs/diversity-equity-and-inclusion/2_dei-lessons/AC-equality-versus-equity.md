@@ -1,7 +1,5 @@
 ---
 title: "📓 Equality versus Equity"
-id: equality-versus-equity
-hide_table_of_contents: true
 day: weekend
 ---
 

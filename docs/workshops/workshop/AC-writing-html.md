@@ -1,7 +1,5 @@
 ---
 title: "📓 Writing HTML"
-id: writing-html
-hide_table_of_contents: true
 day: weekend
 ---
 

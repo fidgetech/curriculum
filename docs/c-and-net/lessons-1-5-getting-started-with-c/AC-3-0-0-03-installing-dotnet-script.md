@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.03 Installing dotnet-script"
-id: 3-0-0-03-installing-dotnet-script
-hide_table_of_contents: true
 day: weekend
 ---
 

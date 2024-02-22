@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.0.10 Strings"
-id: 1-2-0-10-strings
-hide_table_of_contents: true
 day: weekend
 ---
 

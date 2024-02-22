@@ -1,7 +1,5 @@
 ---
 title: "📓 Further Exploration: Creating Deep Clones"
-id: further-exploration-creating-deep-clones
-hide_table_of_contents: true
 day: tuesday
 ---
 

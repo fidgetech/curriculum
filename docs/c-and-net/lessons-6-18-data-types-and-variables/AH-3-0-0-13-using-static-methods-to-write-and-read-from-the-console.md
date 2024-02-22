@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.13 Using Static Methods to Write and Read from the Console"
-id: 3-0-0-13-using-static-methods-to-write-and-read-from-the-console
-hide_table_of_contents: true
 day: weekend
 ---
 

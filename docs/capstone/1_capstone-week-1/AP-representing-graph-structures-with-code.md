@@ -1,7 +1,5 @@
 ---
 title: "📓 Representing Graph Structures with Code"
-id: representing-graph-structures-with-code
-hide_table_of_contents: true
 day: tuesday
 ---
 

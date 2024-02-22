@@ -1,7 +1,5 @@
 ---
 title: "📓 1.1.3.5 Using Floats"
-id: 1-1-3-5-using-floats
-hide_table_of_contents: true
 day: wednesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.40 Part 1: Testing Static Class Members and Collections"
-id: 3-0-0-40-part-1-testing-static-class-members-and-collections
-hide_table_of_contents: true
 day: weekend
 ---
 

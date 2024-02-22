@@ -1,7 +1,5 @@
 ---
 title: "📓 3.7.0.4 Git: Rewriting History"
-id: 3-7-0-4-git-rewriting-history
-hide_table_of_contents: true
 day: weekend
 ---
 

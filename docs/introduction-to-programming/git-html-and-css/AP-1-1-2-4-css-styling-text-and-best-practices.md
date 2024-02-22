@@ -1,7 +1,5 @@
 ---
 title: "📓 1.1.2.4 CSS: Styling Text and Best Practices"
-id: 1-1-2-4-css-styling-text-and-best-practices
-hide_table_of_contents: true
 day: tuesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Optimizing Hashing Algorithms"
-id: optimizing-hashing-algorithms
-hide_table_of_contents: true
 day: wednesday
 ---
 

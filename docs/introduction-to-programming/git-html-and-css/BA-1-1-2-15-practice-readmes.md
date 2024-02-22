@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.1.2.15 Practice: READMEs'
-id: 1-1-2-15-practice-readmes
-hide_table_of_contents: true
 day: tuesday
 ---
 

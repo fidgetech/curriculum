@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.2.2.2 Practice: More Function Writing'
-id: 1-2-2-2-practice-more-function-writing
-hide_table_of_contents: true
 day: tuesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 1.3.4.5 Further Exploration: While Loops"
-id: 1-3-4-5-further-exploration-while-loops
-hide_table_of_contents: true
 day: thursday
 ---
 

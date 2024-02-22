@@ -1,7 +1,5 @@
 ---
 title: "📓 Overview of Next Steps: Adding READ, UPDATE, and DELETE Functionality"
-id: overview-of-next-steps-adding-read-update-and-delete-functionality
-hide_table_of_contents: true
 day: wednesday
 ---
 

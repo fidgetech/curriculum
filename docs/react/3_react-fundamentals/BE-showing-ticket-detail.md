@@ -1,7 +1,5 @@
 ---
 title: "📓 Showing Ticket Detail"
-id: showing-ticket-detail
-hide_table_of_contents: true
 day: wednesday
 ---
 

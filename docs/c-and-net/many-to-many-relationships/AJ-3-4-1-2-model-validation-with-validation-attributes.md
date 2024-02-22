@@ -1,7 +1,5 @@
 ---
 title: "📓 3.4.1.2 Model Validation with Validation Attributes"
-id: 3-4-1-2-model-validation-with-validation-attributes
-hide_table_of_contents: true
 day: monday
 ---
 

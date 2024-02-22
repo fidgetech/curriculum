@@ -1,7 +1,5 @@
 ---
 title: "📓 Updating State with Events"
-id: updating-state-with-events
-hide_table_of_contents: true
 day: monday
 ---
 

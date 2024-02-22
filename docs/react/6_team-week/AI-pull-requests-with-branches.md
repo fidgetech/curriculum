@@ -1,7 +1,5 @@
 ---
 title: "📓 Pull Requests with Branches"
-id: pull-requests-with-branches
-hide_table_of_contents: true
 day: weekend
 ---
 

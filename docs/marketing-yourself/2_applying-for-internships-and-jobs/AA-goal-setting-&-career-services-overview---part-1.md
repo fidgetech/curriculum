@@ -1,9 +1,6 @@
 ---
 title: "📓 Goal Setting & Career Services Overview - Part 1"
-id: goal-setting-&-career-services-overview---part-1
-hide_table_of_contents: true
 day: weekend
-paginationPrev: null
 ---
 
 # Career Services Overview

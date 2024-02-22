@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.3.2 Other Ways to Organize UI Logic"
-id: 1-2-3-2-other-ways-to-organize-ui-logic
-hide_table_of_contents: true
 day: wednesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 1.1.2.2 HTML Inline Elements and Attributes: <strong>, <em>, <img>, <a>, and More"
-id: 1-1-2-2-html-inline-elements-and-attributes-strong-em-img-a-and-more
-hide_table_of_contents: true
 day: tuesday
 ---
 

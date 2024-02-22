@@ -1,7 +1,5 @@
 ---
 title: "📓 Status Update and Goal Setting"
-id: status-update-and-goal-setting
-hide_table_of_contents: true
 day: weekend
 ---
 

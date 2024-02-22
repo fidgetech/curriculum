@@ -1,7 +1,5 @@
 ---
 title: '✏️ Build Your Own RPG, Haiku Checker (Two-day Project)'
-id: build-your-own-rpg-haiku-checker-two-day-project
-hide_table_of_contents: true
 day: wednesday
 ---
 

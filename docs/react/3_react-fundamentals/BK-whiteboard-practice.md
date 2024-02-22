@@ -1,7 +1,5 @@
 ---
 title: ✏️ Whiteboard Practice
-id: whiteboard-practice
-hide_table_of_contents: true
 day: thursday
 ---
 

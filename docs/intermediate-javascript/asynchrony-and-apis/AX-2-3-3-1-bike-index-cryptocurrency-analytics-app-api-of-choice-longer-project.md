@@ -1,7 +1,5 @@
 ---
 title: '✏️ 2.3.3.1 Bike Index, Cryptocurrency Analytics App, API of Choice (Longer Project)'
-id: 2-3-3-1-bike-index-cryptocurrency-analytics-app-api-of-choice-longer-project
-hide_table_of_contents: true
 day: wednesday
 ---
 

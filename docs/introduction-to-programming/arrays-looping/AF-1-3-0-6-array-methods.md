@@ -1,7 +1,5 @@
 ---
 title: "📓 1.3.0.6 Array Methods"
-id: 1-3-0-6-array-methods
-hide_table_of_contents: true
 day: weekend
 ---
 

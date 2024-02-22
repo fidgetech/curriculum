@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.1.4.10 Practice: Grid System, Custom Styles, and More'
-id: 1-1-4-10-practice-grid-system-custom-styles-and-more
-hide_table_of_contents: true
 day: thursday
 ---
 

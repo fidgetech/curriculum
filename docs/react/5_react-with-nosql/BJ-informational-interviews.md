@@ -1,7 +1,5 @@
 ---
 title: "📓 Informational Interviews"
-id: informational-interviews
-hide_table_of_contents: true
 day: wednesday
 ---
 

@@ -1,9 +1,6 @@
 ---
 title: "📓 3.0.0.31 Configuration Reference and Review of C# Conventions"
-id: 3-0-0-31-configuration-reference-and-review-of-c-conventions
-hide_table_of_contents: true
 day: weekend
-paginationNext: null
 ---
 
 In this lesson, we're going to review the C# style conventions that we've learned about so far. This lesson also includes a configuration and project structure reference that you can use in all of your future console app projects.

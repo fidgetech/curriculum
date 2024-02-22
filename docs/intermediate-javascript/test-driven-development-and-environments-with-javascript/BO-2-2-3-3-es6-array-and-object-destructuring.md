@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.3.3 ES6 Array and Object Destructuring"
-id: 2-2-3-3-es6-array-and-object-destructuring
-hide_table_of_contents: true
 day: wednesday
 ---
 

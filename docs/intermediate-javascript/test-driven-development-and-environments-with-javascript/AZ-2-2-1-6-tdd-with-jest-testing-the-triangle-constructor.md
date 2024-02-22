@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.1.6 TDD with Jest: Testing the Triangle() Constructor"
-id: 2-2-1-6-tdd-with-jest-testing-the-triangle-constructor
-hide_table_of_contents: true
 day: monday
 ---
 

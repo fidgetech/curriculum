@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to Hooks with the useState Hook"
-id: introduction-to-hooks-with-the-usestate-hook
-hide_table_of_contents: true
 day: weekend
 ---
 

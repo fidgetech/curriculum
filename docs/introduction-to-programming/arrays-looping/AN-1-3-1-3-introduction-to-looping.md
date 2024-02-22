@@ -1,7 +1,5 @@
 ---
 title: "📓 1.3.1.3 Introduction to Looping"
-id: 1-3-1-3-introduction-to-looping
-hide_table_of_contents: true
 day: monday
 ---
 

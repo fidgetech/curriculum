@@ -1,9 +1,6 @@
 ---
 title: ✏️ 3.5.5.1 Authentication with Identity Independent Project
-id: 3-5-5-1-authentication-with-identity-independent-project
-hide_table_of_contents: true
 day: friday
-paginationNext: null
 ---
 
 ## Independent Projects Overview

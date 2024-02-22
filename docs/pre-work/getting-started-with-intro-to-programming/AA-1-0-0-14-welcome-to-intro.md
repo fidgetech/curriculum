@@ -1,9 +1,6 @@
 ---
 title: "📓 1.0.0.14 Welcome to Intro"
-id: 1-0-0-14-welcome-to-intro
-hide_table_of_contents: true
 day: weekend
-paginationPrev: null
 ---
 
 Welcome to Intro to Programming! You are taking your first steps on the journey to becoming a developer, and we couldn't be more excited to have you on the road with us!

@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.0.13 Creating a Basic Model"
-id: 3-2-0-13-creating-a-basic-model
-hide_table_of_contents: true
 day: weekend
 ---
 

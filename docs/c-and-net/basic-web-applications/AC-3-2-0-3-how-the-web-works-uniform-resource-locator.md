@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.0.3 How the Web Works: Uniform Resource Locator"
-id: 3-2-0-3-how-the-web-works-uniform-resource-locator
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.3.10 Event Handling with Event Listeners"
-id: 1-2-3-10-event-handling-with-event-listeners
-hide_table_of_contents: true
 day: wednesday
 ---
 

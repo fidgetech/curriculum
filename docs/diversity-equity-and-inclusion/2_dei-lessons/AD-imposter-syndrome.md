@@ -1,7 +1,5 @@
 ---
 title: "📓 Imposter Syndrome"
-id: imposter-syndrome
-hide_table_of_contents: true
 day: weekend
 ---
 

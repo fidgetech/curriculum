@@ -1,7 +1,5 @@
 ---
 title: "📓 3.3.2.3 Delete with EF Core"
-id: 3-3-2-3-delete-with-ef-core
-hide_table_of_contents: true
 day: tuesday
 ---
 

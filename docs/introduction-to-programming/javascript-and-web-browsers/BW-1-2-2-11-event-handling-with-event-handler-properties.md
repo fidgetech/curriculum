@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.2.11 Event Handling with Event Handler Properties"
-id: 1-2-2-11-event-handling-with-event-handler-properties
-hide_table_of_contents: true
 day: tuesday
 ---
 

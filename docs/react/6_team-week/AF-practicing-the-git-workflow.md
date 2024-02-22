@@ -1,7 +1,5 @@
 ---
 title: "📓 Practicing the Git Workflow"
-id: practicing-the-git-workflow
-hide_table_of_contents: true
 day: weekend
 ---
 

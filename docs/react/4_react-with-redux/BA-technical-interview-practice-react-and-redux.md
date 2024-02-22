@@ -1,7 +1,5 @@
 ---
 title: '✏️ Technical Interview Practice: React and Redux'
-id: technical-interview-practice-react-and-redux
-hide_table_of_contents: true
 day: thursday
 ---
 

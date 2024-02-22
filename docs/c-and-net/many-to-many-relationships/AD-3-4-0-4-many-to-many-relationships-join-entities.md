@@ -1,7 +1,5 @@
 ---
 title: "📓 3.4.0.4 Many-to-Many Relationships: Join Entities"
-id: 3-4-0-4-many-to-many-relationships-join-entities
-hide_table_of_contents: true
 day: weekend
 ---
 

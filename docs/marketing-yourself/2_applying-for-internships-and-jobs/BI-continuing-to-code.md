@@ -1,7 +1,5 @@
 ---
 title: "📓 Continuing to Code"
-id: continuing-to-code
-hide_table_of_contents: true
 day: tuesday
 ---
 

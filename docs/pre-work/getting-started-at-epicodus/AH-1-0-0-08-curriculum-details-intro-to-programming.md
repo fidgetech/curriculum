@@ -1,7 +1,5 @@
 ---
 title: "📓 1.0.0.08 Curriculum Details: Intro to Programming"
-id: 1-0-0-08-curriculum-details-intro-to-programming
-hide_table_of_contents: true
 day: weekend
 ---
 

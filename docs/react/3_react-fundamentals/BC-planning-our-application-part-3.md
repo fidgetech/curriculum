@@ -1,7 +1,5 @@
 ---
 title: "📓 Planning Our Application: Part 3"
-id: planning-our-application-part-3
-hide_table_of_contents: true
 day: wednesday
 ---
 

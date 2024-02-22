@@ -1,7 +1,5 @@
 ---
 title: '✏️ 3.4.1.1 University Registrar, Doctor''s Office'
-id: 3-4-1-1-university-registrar-doctors-office
-hide_table_of_contents: true
 day: monday
 ---
 

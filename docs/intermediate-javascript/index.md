@@ -1,8 +1,6 @@
 ---
 title: Intermediate JavaScript
-id: index
 slug: /intermediate-javascript
-hide_table_of_contents: true
 ---
 
 # Fidgetech

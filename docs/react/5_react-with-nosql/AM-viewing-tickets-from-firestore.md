@@ -1,7 +1,5 @@
 ---
 title: "📓 Viewing Tickets from Firestore"
-id: viewing-tickets-from-firestore
-hide_table_of_contents: true
 day: weekend
 ---
 

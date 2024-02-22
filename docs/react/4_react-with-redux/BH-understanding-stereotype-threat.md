@@ -1,7 +1,5 @@
 ---
 title: "📓 Understanding Stereotype Threat"
-id: understanding-stereotype-threat
-hide_table_of_contents: true
 day: monday
 ---
 

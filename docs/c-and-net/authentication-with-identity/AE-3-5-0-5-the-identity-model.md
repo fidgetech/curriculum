@@ -1,7 +1,5 @@
 ---
 title: "📓 3.5.0.5 The Identity Model"
-id: 3-5-0-5-the-identity-model
-hide_table_of_contents: true
 day: weekend
 ---
 

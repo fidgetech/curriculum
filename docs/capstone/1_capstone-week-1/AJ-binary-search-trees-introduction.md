@@ -1,7 +1,5 @@
 ---
 title: "📓 Binary Search Trees Introduction"
-id: binary-search-trees-introduction
-hide_table_of_contents: true
 day: monday
 ---
 

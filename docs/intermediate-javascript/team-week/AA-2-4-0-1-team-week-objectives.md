@@ -1,9 +1,6 @@
 ---
 title: "📓 2.4.0.1 Team Week Objectives"
-id: 2-4-0-1-team-week-objectives
-hide_table_of_contents: true
 day: weekend
-paginationPrev: null
 ---
 
 **You're a team and you're building something awesome!**

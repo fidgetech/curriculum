@@ -1,7 +1,5 @@
 ---
 title: "📓 3.4.3.2 Open Source Projects"
-id: 3-4-3-2-open-source-projects
-hide_table_of_contents: true
 day: wednesday
 ---
 

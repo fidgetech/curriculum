@@ -1,7 +1,5 @@
 ---
 title: "📓 NY Times API: Writing and Testing our Reducer and Actions"
-id: ny-times-api-writing-and-testing-our-reducer-and-actions
-hide_table_of_contents: true
 day: weekend
 ---
 

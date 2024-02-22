@@ -1,7 +1,5 @@
 ---
 title: "📓 The CAP Theorem and BASE"
-id: the-cap-theorem-and-base
-hide_table_of_contents: true
 day: weekend
 ---
 

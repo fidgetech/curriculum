@@ -1,9 +1,6 @@
 ---
 title: "📓 Independent Project Objectives"
-id: independent-project-objectives
-hide_table_of_contents: true
 day: thursday
-paginationNext: null
 ---
 
 ## Independent Projects Overview

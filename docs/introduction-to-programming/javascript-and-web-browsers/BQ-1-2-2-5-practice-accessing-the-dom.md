@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.2.2.5 Practice: Accessing the DOM'
-id: 1-2-2-5-practice-accessing-the-dom
-hide_table_of_contents: true
 day: tuesday
 ---
 

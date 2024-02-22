@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.0.18 Improving Development by Linting Code"
-id: 2-2-0-18-improving-development-by-linting-code
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.02 Installing C# and .NET"
-id: 3-0-0-02-installing-c-and--net
-hide_table_of_contents: true
 day: weekend
 ---
 

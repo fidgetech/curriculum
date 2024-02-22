@@ -1,7 +1,5 @@
 ---
 title: "📓 1.3.3.4 Looping with for"
-id: 1-3-3-4-looping-with-for
-hide_table_of_contents: true
 day: wednesday
 ---
 

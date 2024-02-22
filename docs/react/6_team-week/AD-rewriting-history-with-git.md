@@ -1,7 +1,5 @@
 ---
 title: "📓 Rewriting History with Git"
-id: rewriting-history-with-git
-hide_table_of_contents: true
 day: weekend
 ---
 

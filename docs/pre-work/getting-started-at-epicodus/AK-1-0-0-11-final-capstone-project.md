@@ -1,7 +1,5 @@
 ---
 title: "📓 1.0.0.11 Final Capstone Project"
-id: 1-0-0-11-final-capstone-project
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.2.4.4 Practice: Calculator and More'
-id: 1-2-4-4-practice-calculator-and-more
-hide_table_of_contents: true
 day: thursday
 ---
 

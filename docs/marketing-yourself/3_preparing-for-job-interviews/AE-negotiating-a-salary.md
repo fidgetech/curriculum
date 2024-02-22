@@ -1,7 +1,5 @@
 ---
 title: "📓 Negotiating a Salary"
-id: negotiating-a-salary
-hide_table_of_contents: true
 day: weekend
 ---
 

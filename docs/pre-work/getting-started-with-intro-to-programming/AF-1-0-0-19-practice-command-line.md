@@ -1,7 +1,5 @@
 ---
 title: "📓 1.0.0.19 Practice: Command Line"
-id: 1-0-0-19-practice-command-line
-hide_table_of_contents: true
 day: weekend
 ---
 

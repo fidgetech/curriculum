@@ -1,7 +1,5 @@
 ---
 title: "📓 1.0.0.24 Installing and Using Discord"
-id: 1-0-0-24-installing-and-using-discord
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Tracks
-id: tracks
 slug: /tracks
-hide_table_of_contents: true
 ---
 
 # Tracks

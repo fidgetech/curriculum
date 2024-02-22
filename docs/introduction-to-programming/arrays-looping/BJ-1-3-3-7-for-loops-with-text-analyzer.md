@@ -1,7 +1,5 @@
 ---
 title: "📓 1.3.3.7 for Loops with Text Analyzer"
-id: 1-3-3-7-for-loops-with-text-analyzer
-hide_table_of_contents: true
 day: wednesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Help Queue: Planning and Setup for Context"
-id: help-queue-planning-and-setup-for-context
-hide_table_of_contents: true
 day: weekend
 ---
 

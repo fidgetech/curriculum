@@ -1,9 +1,6 @@
 ---
 title: ✏️ Quicksort
-id: quicksort
-hide_table_of_contents: true
 day: thursday
-paginationNext: null
 ---
 
 In this lesson, we'll learn about the **quicksort algorithm**, which is a divide and conquer algorithm like merge sort. The quicksort algorithm is generally faster with smaller data sets, while the merge sort algorithm is faster with large data sets.

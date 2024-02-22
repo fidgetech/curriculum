@@ -1,7 +1,5 @@
 ---
 title: ✏️ Utilizing Big O Notation Practice
-id: utilizing-big-o-notation-practice
-hide_table_of_contents: true
 day: monday
 ---
 

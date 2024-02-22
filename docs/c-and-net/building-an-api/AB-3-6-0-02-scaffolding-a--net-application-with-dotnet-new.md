@@ -1,7 +1,5 @@
 ---
 title: "📓 3.6.0.02 Scaffolding a .NET Application with dotnet new"
-id: 3-6-0-02-scaffolding-a--net-application-with-dotnet-new
-hide_table_of_contents: true
 day: weekend
 ---
 

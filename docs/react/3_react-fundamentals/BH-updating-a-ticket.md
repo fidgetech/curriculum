@@ -1,7 +1,5 @@
 ---
 title: "📓 Updating a Ticket"
-id: updating-a-ticket
-hide_table_of_contents: true
 day: wednesday
 ---
 

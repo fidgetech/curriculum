@@ -1,7 +1,5 @@
 ---
 title: "📓 Adding Redux to React: Part 3"
-id: adding-redux-to-react-part-3
-hide_table_of_contents: true
 day: weekend
 ---
 

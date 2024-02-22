@@ -1,7 +1,5 @@
 ---
 title: "📓 Combining Redux Reducers"
-id: combining-redux-reducers
-hide_table_of_contents: true
 day: monday
 ---
 

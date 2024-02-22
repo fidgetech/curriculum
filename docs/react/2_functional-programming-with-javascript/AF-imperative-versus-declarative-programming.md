@@ -1,7 +1,5 @@
 ---
 title: "📓 Imperative Versus Declarative Programming"
-id: imperative-versus-declarative-programming
-hide_table_of_contents: true
 day: weekend
 ---
 

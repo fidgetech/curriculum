@@ -1,7 +1,5 @@
 ---
 title: '✏️ Firestore Survey, Quiz of Choice (Two-Day or One-Week Project)'
-id: firestore-survey-quiz-of-choice-two-day-or-one-week-project
-hide_table_of_contents: true
 day: monday
 ---
 

@@ -1,9 +1,6 @@
 ---
 title: ✏️ 3.6.5.1 Building An API Independent Project
-id: 3-6-5-1-building-an-api-independent-project
-hide_table_of_contents: true
 day: friday
-paginationNext: null
 ---
 
 ## Independent Projects Overview

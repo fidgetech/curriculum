@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.1.8 Debugging in JavaScript: Reading Console Errors"
-id: 1-2-1-8-debugging-in-javascript-reading-console-errors
-hide_table_of_contents: true
 day: monday
 ---
 

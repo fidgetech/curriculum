@@ -1,7 +1,5 @@
 ---
 title: "📓 Recursion"
-id: recursion
-hide_table_of_contents: true
 day: weekend
 ---
 

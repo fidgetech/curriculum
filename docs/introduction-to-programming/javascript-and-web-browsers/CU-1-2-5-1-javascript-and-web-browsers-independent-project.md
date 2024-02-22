@@ -1,9 +1,6 @@
 ---
 title: ✏️ 1.2.5.1 JavaScript and Web Browsers Independent Project
-id: 1-2-5-1-javascript-and-web-browsers-independent-project
-hide_table_of_contents: true
 day: friday
-paginationNext: null
 ---
 
 ## Independent Projects Overview

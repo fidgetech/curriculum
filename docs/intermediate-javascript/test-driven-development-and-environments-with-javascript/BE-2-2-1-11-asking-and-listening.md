@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.1.11 Asking and Listening"
-id: 2-2-1-11-asking-and-listening
-hide_table_of_contents: true
 day: monday
 ---
 

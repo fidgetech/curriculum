@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to Functional Programming"
-id: introduction-to-functional-programming
-hide_table_of_contents: true
 day: weekend
 ---
 

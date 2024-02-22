@@ -1,7 +1,5 @@
 ---
 title: "📓 Computer Science Section Expectations"
-id: computer-science-section-expectations
-hide_table_of_contents: true
 day: weekend
 ---
 

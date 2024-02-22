@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.3.4 ES6 Maps and Sets"
-id: 2-2-3-4-es6-maps-and-sets
-hide_table_of_contents: true
 day: wednesday
 ---
 

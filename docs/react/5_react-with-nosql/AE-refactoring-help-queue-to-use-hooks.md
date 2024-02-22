@@ -1,7 +1,5 @@
 ---
 title: "📓 Refactoring Help Queue to Use Hooks"
-id: refactoring-help-queue-to-use-hooks
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Prop Types"
-id: prop-types
-hide_table_of_contents: true
 day: weekend
 ---
 

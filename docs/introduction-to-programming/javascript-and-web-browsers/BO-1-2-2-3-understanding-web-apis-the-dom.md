@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.2.3 Understanding Web APIs: The DOM"
-id: 1-2-2-3-understanding-web-apis-the-dom
-hide_table_of_contents: true
 day: tuesday
 ---
 

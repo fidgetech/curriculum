@@ -1,9 +1,6 @@
 ---
 title: ✏️ React Fundamentals Independent Project
-id: react-fundamentals-independent-project
-hide_table_of_contents: true
 day: friday
-paginationNext: null
 ---
 
 ## Independent Projects Overview

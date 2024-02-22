@@ -1,7 +1,5 @@
 ---
 title: "📓 Asking and Listening"
-id: asking-and-listening
-hide_table_of_contents: true
 day: weekend
 ---
 

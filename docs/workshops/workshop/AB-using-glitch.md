@@ -1,7 +1,5 @@
 ---
 title: "📓 Using Glitch"
-id: using-glitch
-hide_table_of_contents: true
 day: weekend
 ---
 

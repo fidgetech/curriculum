@@ -1,7 +1,5 @@
 ---
 title: '✏️ 3.1.2.1 Anagram, Coin Combos, Palindromes, Allergies, Numbers to Words'
-id: 3-1-2-1-anagram-coin-combos-palindromes-allergies-numbers-to-words
-hide_table_of_contents: true
 day: tuesday
 ---
 

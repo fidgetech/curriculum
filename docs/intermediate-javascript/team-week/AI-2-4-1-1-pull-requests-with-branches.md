@@ -1,7 +1,5 @@
 ---
 title: "📓 2.4.1.1 Pull Requests with Branches"
-id: 2-4-1-1-pull-requests-with-branches
-hide_table_of_contents: true
 day: monday
 ---
 

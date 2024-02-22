@@ -1,7 +1,5 @@
 ---
 title: "📓 Firestore Queries"
-id: firestore-queries
-hide_table_of_contents: true
 day: tuesday
 ---
 

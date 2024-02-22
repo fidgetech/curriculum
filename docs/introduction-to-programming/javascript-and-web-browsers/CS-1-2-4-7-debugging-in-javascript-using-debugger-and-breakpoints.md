@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.4.7 Debugging in JavaScript: Using debugger and Breakpoints"
-id: 1-2-4-7-debugging-in-javascript-using-debugger-and-breakpoints
-hide_table_of_contents: true
 day: thursday
 ---
 

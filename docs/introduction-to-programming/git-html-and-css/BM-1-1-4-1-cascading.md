@@ -1,7 +1,5 @@
 ---
 title: "📓 1.1.4.1 Cascading"
-id: 1-1-4-1-cascading
-hide_table_of_contents: true
 day: thursday
 ---
 

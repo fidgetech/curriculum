@@ -1,7 +1,5 @@
 ---
 title: "📓 3.3.0.07 Testing Database Backed Applications"
-id: 3-3-0-07-testing-database-backed-applications
-hide_table_of_contents: true
 day: weekend
 ---
 

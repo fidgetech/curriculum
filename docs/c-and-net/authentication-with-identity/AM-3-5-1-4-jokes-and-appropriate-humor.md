@@ -1,7 +1,5 @@
 ---
 title: "📓 3.5.1.4 Jokes and Appropriate Humor"
-id: 3-5-1-4-jokes-and-appropriate-humor
-hide_table_of_contents: true
 day: monday
 ---
 

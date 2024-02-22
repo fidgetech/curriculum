@@ -1,7 +1,5 @@
 ---
 title: "📓 Binary Search Algorithm"
-id: binary-search-algorithm
-hide_table_of_contents: true
 day: thursday
 ---
 

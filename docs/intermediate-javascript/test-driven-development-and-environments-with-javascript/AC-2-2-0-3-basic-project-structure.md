@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.0.3 Basic Project Structure"
-id: 2-2-0-3-basic-project-structure
-hide_table_of_contents: true
 day: weekend
 ---
 

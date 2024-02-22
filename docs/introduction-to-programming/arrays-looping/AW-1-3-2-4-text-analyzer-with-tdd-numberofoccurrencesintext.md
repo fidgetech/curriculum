@@ -1,7 +1,5 @@
 ---
 title: "📓 1.3.2.4 Text Analyzer with TDD: numberOfOccurrencesInText()"
-id: 1-3-2-4-text-analyzer-with-tdd-numberofoccurrencesintext
-hide_table_of_contents: true
 day: tuesday
 ---
 

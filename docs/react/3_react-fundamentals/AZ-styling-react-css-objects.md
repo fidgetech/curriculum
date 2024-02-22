@@ -1,7 +1,5 @@
 ---
 title: "📓 Styling React: CSS Objects"
-id: styling-react-css-objects
-hide_table_of_contents: true
 day: tuesday
 ---
 

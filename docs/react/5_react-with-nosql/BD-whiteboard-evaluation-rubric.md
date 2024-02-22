@@ -1,7 +1,5 @@
 ---
 title: "📓 Whiteboard Evaluation Rubric"
-id: whiteboard-evaluation-rubric
-hide_table_of_contents: true
 day: weekend
 ---
 

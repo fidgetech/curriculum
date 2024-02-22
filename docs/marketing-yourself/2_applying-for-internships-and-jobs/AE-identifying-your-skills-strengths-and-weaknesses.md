@@ -1,7 +1,5 @@
 ---
 title: "📓 Identifying Your Skills, Strengths, and Weaknesses"
-id: identifying-your-skills-strengths-and-weaknesses
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.1.16 Homework: Identifying and Preventing Microaggressions"
-id: 1-2-1-16-homework-identifying-and-preventing-microaggressions
-hide_table_of_contents: true
 day: monday
 ---
 

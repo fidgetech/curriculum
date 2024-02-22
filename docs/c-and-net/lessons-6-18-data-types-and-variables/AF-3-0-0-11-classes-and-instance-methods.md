@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.11 Classes and Instance Methods"
-id: 3-0-0-11-classes-and-instance-methods
-hide_table_of_contents: true
 day: weekend
 ---
 

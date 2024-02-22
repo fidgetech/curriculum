@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to Stacks and Queues"
-id: introduction-to-stacks-and-queues
-hide_table_of_contents: true
 day: tuesday
 ---
 

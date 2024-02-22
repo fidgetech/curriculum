@@ -1,7 +1,5 @@
 ---
 title: ✏️ 3.4.3.1 Refactoring with Many-To-Many
-id: 3-4-3-1-refactoring-with-many-to-many
-hide_table_of_contents: true
 day: wednesday
 ---
 

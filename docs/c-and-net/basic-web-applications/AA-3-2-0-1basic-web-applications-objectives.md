@@ -1,9 +1,6 @@
 ---
 title: "📓 3.2.0.1Basic Web Applications Objectives"
-id: 3-2-0-1basic-web-applications-objectives
-hide_table_of_contents: true
 day: weekend
-paginationPrev: null
 ---
 
 All C# apps we've created thus far have run in the command line. We've made cool stuff, sure, but without a front-end user interface our user interaction remains fairly limited.

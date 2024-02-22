@@ -1,7 +1,5 @@
 ---
 title: "📓 2.3.0.6 Parsing JSON"
-id: 2-3-0-6-parsing-json
-hide_table_of_contents: true
 day: weekend
 ---
 

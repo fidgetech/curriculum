@@ -1,7 +1,5 @@
 ---
 title: "📓 Passing Data Via Callbacks"
-id: passing-data-via-callbacks
-hide_table_of_contents: true
 day: tuesday
 ---
 

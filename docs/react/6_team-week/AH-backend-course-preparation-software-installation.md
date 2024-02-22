@@ -1,7 +1,5 @@
 ---
 title: "📓 Backend Course Preparation: Software Installation"
-id: backend-course-preparation-software-installation
-hide_table_of_contents: true
 day: weekend
 ---
 

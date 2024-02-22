@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.2.0.15 Practice: String and Number Methods'
-id: 1-2-0-15-practice-string-and-number-methods
-hide_table_of_contents: true
 day: weekend
 ---
 

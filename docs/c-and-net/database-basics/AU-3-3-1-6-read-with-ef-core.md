@@ -1,7 +1,5 @@
 ---
 title: "📓 3.3.1.6 Read with EF Core"
-id: 3-3-1-6-read-with-ef-core
-hide_table_of_contents: true
 day: monday
 ---
 

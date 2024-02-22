@@ -1,7 +1,5 @@
 ---
 title: "📓 Inclusive Terminology: Using a Main Branch"
-id: inclusive-terminology-using-a-main-branch
-hide_table_of_contents: true
 day: weekend
 ---
 

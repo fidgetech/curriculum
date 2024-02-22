@@ -1,7 +1,5 @@
 ---
 title: '✏️ Whiteboard Practice: Project Euler'
-id: whiteboard-practice-project-euler
-hide_table_of_contents: true
 day: wednesday
 ---
 

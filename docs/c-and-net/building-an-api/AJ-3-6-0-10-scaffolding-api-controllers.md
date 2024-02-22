@@ -1,7 +1,5 @@
 ---
 title: "📓 3.6.0.10 Scaffolding API Controllers"
-id: 3-6-0-10-scaffolding-api-controllers
-hide_table_of_contents: true
 day: weekend
 ---
 

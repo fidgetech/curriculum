@@ -1,7 +1,5 @@
 ---
 title: "📓 Unidirectional Data Flow"
-id: unidirectional-data-flow
-hide_table_of_contents: true
 day: tuesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.2.3 Deleting Items"
-id: 3-2-2-3-deleting-items
-hide_table_of_contents: true
 day: tuesday
 ---
 

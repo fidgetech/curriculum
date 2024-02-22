@@ -1,7 +1,5 @@
 ---
 title: "📓 3.4.0.5 Many-to-Many Read Functionality"
-id: 3-4-0-5-many-to-many-read-functionality
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Git with Collaborators: Workflow"
-id: git-with-collaborators-workflow
-hide_table_of_contents: true
 day: weekend
 ---
 

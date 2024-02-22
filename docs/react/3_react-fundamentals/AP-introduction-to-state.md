@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to State"
-id: introduction-to-state
-hide_table_of_contents: true
 day: monday
 ---
 

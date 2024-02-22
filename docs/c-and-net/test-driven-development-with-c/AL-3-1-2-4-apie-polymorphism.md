@@ -1,7 +1,5 @@
 ---
 title: "📓 3.1.2.4 APIE: Polymorphism"
-id: 3-1-2-4-apie-polymorphism
-hide_table_of_contents: true
 day: tuesday
 ---
 

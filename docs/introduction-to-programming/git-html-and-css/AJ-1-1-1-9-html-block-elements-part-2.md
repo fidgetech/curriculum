@@ -1,7 +1,5 @@
 ---
 title: "📓 1.1.1.9 HTML Block Elements Part 2"
-id: 1-1-1-9-html-block-elements-part-2
-hide_table_of_contents: true
 day: monday
 ---
 

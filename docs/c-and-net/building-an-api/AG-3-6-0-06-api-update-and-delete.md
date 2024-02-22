@@ -1,7 +1,5 @@
 ---
 title: "📓 3.6.0.06 API: Update and Delete"
-id: 3-6-0-06-api-update-and-delete
-hide_table_of_contents: true
 day: weekend
 ---
 

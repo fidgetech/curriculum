@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to Redux"
-id: introduction-to-redux
-hide_table_of_contents: true
 day: weekend
 ---
 

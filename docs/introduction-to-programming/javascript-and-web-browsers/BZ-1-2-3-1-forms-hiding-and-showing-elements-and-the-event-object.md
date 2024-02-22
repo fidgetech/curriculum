@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.3.1 Forms, Hiding and Showing Elements, and the Event Object"
-id: 1-2-3-1-forms-hiding-and-showing-elements-and-the-event-object
-hide_table_of_contents: true
 day: wednesday
 ---
 

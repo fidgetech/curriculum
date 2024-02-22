@@ -1,7 +1,5 @@
 ---
 title: '✏️ Forum, Word Puzzle, Tic Tac Toe (Three-Day Project) - Part 1'
-id: forum-word-puzzle-tic-tac-toe-three-day-project---part-1
-hide_table_of_contents: true
 day: tuesday
 ---
 

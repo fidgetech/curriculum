@@ -1,7 +1,5 @@
 ---
 title: "📓 Identifying Enterprise Skills and Creating a Job Tracker"
-id: identifying-enterprise-skills-and-creating-a-job-tracker
-hide_table_of_contents: true
 day: weekend
 ---
 

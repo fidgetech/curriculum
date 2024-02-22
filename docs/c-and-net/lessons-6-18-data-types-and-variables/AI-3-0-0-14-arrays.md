@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.14 Arrays"
-id: 3-0-0-14-arrays
-hide_table_of_contents: true
 day: weekend
 ---
 

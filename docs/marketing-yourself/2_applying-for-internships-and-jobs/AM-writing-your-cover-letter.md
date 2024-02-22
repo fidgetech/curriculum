@@ -1,7 +1,5 @@
 ---
 title: "📓 Writing Your Cover Letter"
-id: writing-your-cover-letter
-hide_table_of_contents: true
 day: weekend
 ---
 

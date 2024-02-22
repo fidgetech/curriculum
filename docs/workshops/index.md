@@ -1,8 +1,6 @@
 ---
 title: Workshop
-id: index
 slug: /workshop
-hide_table_of_contents: true
 ---
 
 # Fidgetech Workshop

@@ -1,7 +1,5 @@
 ---
 title: "📓 2.3.1.2 Tools for Handling Async Code"
-id: 2-3-1-2-tools-for-handling-async-code
-hide_table_of_contents: true
 day: monday
 ---
 

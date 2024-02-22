@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.0.20 Data Types: Detection, Conversion, and Review"
-id: 1-2-0-20-data-types-detection-conversion-and-review
-hide_table_of_contents: true
 day: weekend
 ---
 

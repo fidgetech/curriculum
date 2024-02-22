@@ -1,7 +1,5 @@
 ---
 title: "📓 Expand Your Job Search Network Through Cold Emailing"
-id: expand-your-job-search-network-through-cold-emailing
-hide_table_of_contents: true
 day: wednesday
 ---
 

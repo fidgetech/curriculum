@@ -1,7 +1,5 @@
 ---
 title: "📓 Demonstrating Skills to Employers"
-id: demonstrating-skills-to-employers
-hide_table_of_contents: true
 day: weekend
 ---
 

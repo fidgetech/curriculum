@@ -1,7 +1,5 @@
 ---
 title: "📓 2.4.2.1 Pull Requests with Forks"
-id: 2-4-2-1-pull-requests-with-forks
-hide_table_of_contents: true
 day: tuesday
 ---
 

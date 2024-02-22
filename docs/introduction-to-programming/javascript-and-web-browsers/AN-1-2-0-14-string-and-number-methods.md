@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.0.14 String and Number Methods"
-id: 1-2-0-14-string-and-number-methods
-hide_table_of_contents: true
 day: weekend
 ---
 

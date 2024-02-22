@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.0.7 How the Web Works: MVC Pattern"
-id: 3-2-0-7-how-the-web-works-mvc-pattern
-hide_table_of_contents: true
 day: weekend
 ---
 

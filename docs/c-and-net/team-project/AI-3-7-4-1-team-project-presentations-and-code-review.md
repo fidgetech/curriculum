@@ -1,9 +1,6 @@
 ---
 title: "📓 3.7.4.1 Team Project Presentations and Code Review"
-id: 3-7-4-1-team-project-presentations-and-code-review
-hide_table_of_contents: true
 day: thursday
-paginationNext: null
 ---
 
 ## Trade Show Presentations

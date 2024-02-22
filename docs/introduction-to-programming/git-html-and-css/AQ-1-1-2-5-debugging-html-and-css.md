@@ -1,7 +1,5 @@
 ---
 title: "📓 1.1.2.5 Debugging HTML and CSS"
-id: 1-1-2-5-debugging-html-and-css
-hide_table_of_contents: true
 day: tuesday
 ---
 

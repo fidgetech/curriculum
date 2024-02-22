@@ -1,7 +1,5 @@
 ---
 title: "📓 Journal #9 Prompt"
-id: journal-9-prompt
-hide_table_of_contents: true
 day: weekend
 ---
 

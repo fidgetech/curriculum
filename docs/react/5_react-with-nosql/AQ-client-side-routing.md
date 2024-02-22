@@ -1,7 +1,5 @@
 ---
 title: "📓 Client-Side Routing"
-id: client-side-routing
-hide_table_of_contents: true
 day: monday
 ---
 

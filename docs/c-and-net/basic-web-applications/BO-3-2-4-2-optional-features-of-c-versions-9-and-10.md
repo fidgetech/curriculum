@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.4.2 Optional Features of C# Versions 9 and 10"
-id: 3-2-4-2-optional-features-of-c-versions-9-and-10
-hide_table_of_contents: true
 day: thursday
 ---
 

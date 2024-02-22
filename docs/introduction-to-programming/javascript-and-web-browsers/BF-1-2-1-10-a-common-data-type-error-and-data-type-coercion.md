@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.1.10 A Common Data Type Error and Data Type Coercion"
-id: 1-2-1-10-a-common-data-type-error-and-data-type-coercion
-hide_table_of_contents: true
 day: monday
 ---
 

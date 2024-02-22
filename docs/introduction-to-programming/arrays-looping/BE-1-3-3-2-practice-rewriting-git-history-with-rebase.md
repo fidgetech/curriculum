@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.3.3.2 Practice: Rewriting Git History with Rebase'
-id: 1-3-3-2-practice-rewriting-git-history-with-rebase
-hide_table_of_contents: true
 day: wednesday
 ---
 

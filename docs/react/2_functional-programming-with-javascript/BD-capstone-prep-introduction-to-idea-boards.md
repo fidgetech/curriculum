@@ -1,7 +1,5 @@
 ---
 title: "📓 Capstone Prep: Introduction to Idea Boards"
-id: capstone-prep-introduction-to-idea-boards
-hide_table_of_contents: true
 day: thursday
 ---
 

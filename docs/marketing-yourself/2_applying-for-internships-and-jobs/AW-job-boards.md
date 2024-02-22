@@ -1,7 +1,5 @@
 ---
 title: "📓 Job Boards"
-id: job-boards
-hide_table_of_contents: true
 day: weekend
 ---
 

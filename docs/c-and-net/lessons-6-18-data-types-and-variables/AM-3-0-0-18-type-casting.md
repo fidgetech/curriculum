@@ -1,9 +1,6 @@
 ---
 title: "📓 3.0.0.18 Type Casting"
-id: 3-0-0-18-type-casting
-hide_table_of_contents: true
 day: weekend
-paginationNext: null
 ---
 
 **Type casting** is the process of transferring a piece of data between types. We'll look at an example in the `dotnet-script` REPL using standard data types. 

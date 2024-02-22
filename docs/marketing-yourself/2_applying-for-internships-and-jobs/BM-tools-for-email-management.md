@@ -1,7 +1,5 @@
 ---
 title: "📓 Tools for Email Management"
-id: tools-for-email-management
-hide_table_of_contents: true
 day: wednesday
 ---
 

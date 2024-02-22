@@ -1,7 +1,5 @@
 ---
 title: "📓 Action Creators"
-id: action-creators
-hide_table_of_contents: true
 day: tuesday
 ---
 

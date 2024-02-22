@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.2.7 Accessing HTML Element Attributes and Properties in the DOM"
-id: 1-2-2-7-accessing-html-element-attributes-and-properties-in-the-dom
-hide_table_of_contents: true
 day: tuesday
 ---
 

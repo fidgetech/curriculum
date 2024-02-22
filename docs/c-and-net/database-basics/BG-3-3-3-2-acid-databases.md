@@ -1,7 +1,5 @@
 ---
 title: "📓 3.3.3.2 ACID Databases"
-id: 3-3-3-2-acid-databases
-hide_table_of_contents: true
 day: wednesday
 ---
 

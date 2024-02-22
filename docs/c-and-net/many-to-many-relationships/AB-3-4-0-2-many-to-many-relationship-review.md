@@ -1,7 +1,5 @@
 ---
 title: "📓 3.4.0.2 Many-to-Many Relationship Review"
-id: 3-4-0-2-many-to-many-relationship-review
-hide_table_of_contents: true
 day: weekend
 ---
 

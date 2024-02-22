@@ -1,7 +1,5 @@
 ---
 title: "📓 2.1.1.7 Imposter Syndrome"
-id: 2-1-1-7-imposter-syndrome
-hide_table_of_contents: true
 day: monday
 ---
 

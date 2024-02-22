@@ -1,7 +1,5 @@
 ---
 title: "📓 2.1.0.8 Address Book: Objects Within Objects"
-id: 2-1-0-8-address-book-objects-within-objects
-hide_table_of_contents: true
 day: weekend
 ---
 

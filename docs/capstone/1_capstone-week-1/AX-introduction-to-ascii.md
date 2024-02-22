@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to ASCII"
-id: introduction-to-ascii
-hide_table_of_contents: true
 day: wednesday
 ---
 

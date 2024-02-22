@@ -1,7 +1,5 @@
 ---
 title: "📓 Modular Cover Letter and Resume"
-id: modular-cover-letter-and-resume
-hide_table_of_contents: true
 day: weekend
 ---
 

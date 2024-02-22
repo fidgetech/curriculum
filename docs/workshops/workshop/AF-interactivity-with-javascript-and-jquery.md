@@ -1,7 +1,5 @@
 ---
 title: "📓 Interactivity with JavaScript and jQuery"
-id: interactivity-with-javascript-and-jquery
-hide_table_of_contents: true
 day: weekend
 ---
 

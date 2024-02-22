@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.1.8 Testing Best Practices"
-id: 2-2-1-8-testing-best-practices
-hide_table_of_contents: true
 day: monday
 ---
 

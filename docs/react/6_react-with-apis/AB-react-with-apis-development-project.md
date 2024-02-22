@@ -1,7 +1,5 @@
 ---
 title: "📓 React with APIs Development Project"
-id: react-with-apis-development-project
-hide_table_of_contents: true
 day: weekend
 ---
 

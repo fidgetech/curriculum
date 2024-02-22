@@ -1,7 +1,5 @@
 ---
 title: "📓 Adding Firebase to React"
-id: adding-firebase-to-react
-hide_table_of_contents: true
 day: weekend
 ---
 

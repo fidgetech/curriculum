@@ -1,7 +1,5 @@
 ---
 title: "📓 Customizing Entity Properties with Data Annotations"
-id: customizing-entity-properties-with-data-annotations
-hide_table_of_contents: true
 day: monday
 ---
 

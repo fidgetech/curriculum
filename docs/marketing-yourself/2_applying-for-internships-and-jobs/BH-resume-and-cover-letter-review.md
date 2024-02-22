@@ -1,7 +1,5 @@
 ---
 title: "📓 Resume and Cover Letter Review"
-id: resume-and-cover-letter-review
-hide_table_of_contents: true
 day: monday
 ---
 

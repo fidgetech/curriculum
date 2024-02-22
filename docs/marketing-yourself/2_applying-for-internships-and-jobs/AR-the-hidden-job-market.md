@@ -1,7 +1,5 @@
 ---
 title: "📓 The Hidden Job Market"
-id: the-hidden-job-market
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.1.1.3 Practice: GitHub Remote Repositories'
-id: 1-1-1-3-practice-github-remote-repositories
-hide_table_of_contents: true
 day: monday
 ---
 

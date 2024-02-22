@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.0.16 Debugging Views and Configuring a Development Environment with launchSettings.json"
-id: 3-2-0-16-debugging-views-and-configuring-a-development-environment-with-launchsettings-json
-hide_table_of_contents: true
 day: weekend
 ---
 

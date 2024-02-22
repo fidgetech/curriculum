@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.1.4.7 Practice: Installing and Implementing Bootstrap'
-id: 1-1-4-7-practice-installing-and-implementing-bootstrap
-hide_table_of_contents: true
 day: thursday
 ---
 

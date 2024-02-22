@@ -1,7 +1,5 @@
 ---
 title: "📓 1.1.4.13 VS Code with HTML"
-id: 1-1-4-13-vs-code-with-html
-hide_table_of_contents: true
 day: thursday
 ---
 

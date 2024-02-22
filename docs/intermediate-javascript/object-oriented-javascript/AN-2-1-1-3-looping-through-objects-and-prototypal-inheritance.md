@@ -1,7 +1,5 @@
 ---
 title: "📓 2.1.1.3 Looping Through Objects and Prototypal Inheritance"
-id: 2-1-1-3-looping-through-objects-and-prototypal-inheritance
-hide_table_of_contents: true
 day: monday
 ---
 

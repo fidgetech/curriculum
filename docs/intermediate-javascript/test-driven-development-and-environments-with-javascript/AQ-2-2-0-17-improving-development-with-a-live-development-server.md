@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.0.17 Improving Development with a Live Development Server"
-id: 2-2-0-17-improving-development-with-a-live-development-server
-hide_table_of_contents: true
 day: weekend
 ---
 

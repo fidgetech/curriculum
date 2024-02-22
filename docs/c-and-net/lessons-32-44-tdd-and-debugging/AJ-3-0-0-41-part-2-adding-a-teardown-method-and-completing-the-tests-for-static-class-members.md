@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.41 Part 2: Adding a Teardown Method and Completing the Tests for Static Class Members"
-id: 3-0-0-41-part-2-adding-a-teardown-method-and-completing-the-tests-for-static-class-members
-hide_table_of_contents: true
 day: weekend
 ---
 

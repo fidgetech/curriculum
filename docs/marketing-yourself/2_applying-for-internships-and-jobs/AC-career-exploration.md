@@ -1,7 +1,5 @@
 ---
 title: "📓 Career Exploration"
-id: career-exploration
-hide_table_of_contents: true
 day: weekend
 ---
 

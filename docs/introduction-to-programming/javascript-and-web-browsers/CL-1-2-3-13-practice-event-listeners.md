@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.2.3.13 Practice: Event Listeners'
-id: 1-2-3-13-practice-event-listeners
-hide_table_of_contents: true
 day: wednesday
 ---
 

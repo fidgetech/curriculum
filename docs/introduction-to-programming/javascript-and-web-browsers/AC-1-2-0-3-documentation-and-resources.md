@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.0.3 Documentation and Resources"
-id: 1-2-0-3-documentation-and-resources
-hide_table_of_contents: true
 day: weekend
 ---
 

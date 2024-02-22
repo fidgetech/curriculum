@@ -1,7 +1,5 @@
 ---
 title: "📓 Looping in JSX"
-id: looping-in-jsx
-hide_table_of_contents: true
 day: weekend
 ---
 

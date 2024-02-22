@@ -1,7 +1,5 @@
 ---
 title: "📓 2.1.3.2 Introduction to Whiteboarding"
-id: 2-1-3-2-introduction-to-whiteboarding
-hide_table_of_contents: true
 day: wednesday
 ---
 

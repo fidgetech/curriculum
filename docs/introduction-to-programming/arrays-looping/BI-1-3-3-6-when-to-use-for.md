@@ -1,7 +1,5 @@
 ---
 title: "📓 1.3.3.6 When to use for"
-id: 1-3-3-6-when-to-use-for
-hide_table_of_contents: true
 day: wednesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Debugging with React Developer Tools"
-id: debugging-with-react-developer-tools
-hide_table_of_contents: true
 day: weekend
 ---
 

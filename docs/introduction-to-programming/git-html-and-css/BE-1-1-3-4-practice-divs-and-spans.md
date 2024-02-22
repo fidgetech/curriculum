@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.1.3.4 Practice: Divs and Spans'
-id: 1-1-3-4-practice-divs-and-spans
-hide_table_of_contents: true
 day: wednesday
 ---
 

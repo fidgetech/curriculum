@@ -1,9 +1,6 @@
 ---
 title: "📓 Non-Technical Interview"
-id: non-technical-interview
-hide_table_of_contents: true
 day: weekend
-paginationPrev: null
 ---
 
 ## Introduction

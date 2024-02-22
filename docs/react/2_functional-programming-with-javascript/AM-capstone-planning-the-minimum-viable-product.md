@@ -1,7 +1,5 @@
 ---
 title: "📓 Capstone Planning: The Minimum Viable Product"
-id: capstone-planning-the-minimum-viable-product
-hide_table_of_contents: true
 day: weekend
 ---
 

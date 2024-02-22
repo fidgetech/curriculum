@@ -1,7 +1,5 @@
 ---
 title: "📓 Building a React Application with Redux From Scratch"
-id: building-a-react-application-with-redux-from-scratch
-hide_table_of_contents: true
 day: monday
 ---
 

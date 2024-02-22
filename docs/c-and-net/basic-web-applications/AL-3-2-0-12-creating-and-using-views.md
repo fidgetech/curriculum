@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.0.12 Creating and Using Views"
-id: 3-2-0-12-creating-and-using-views
-hide_table_of_contents: true
 day: weekend
 ---
 

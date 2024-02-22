@@ -1,7 +1,5 @@
 ---
 title: "📓 Bubble Sort"
-id: bubble-sort
-hide_table_of_contents: true
 day: thursday
 ---
 

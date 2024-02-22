@@ -1,7 +1,5 @@
 ---
 title: "📓 Review: How the Web Works"
-id: review-how-the-web-works
-hide_table_of_contents: true
 day: weekend
 ---
 

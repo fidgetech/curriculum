@@ -1,7 +1,5 @@
 ---
 title: "📓 Bits, Bytes, and Binary Numbers"
-id: bits-bytes-and-binary-numbers
-hide_table_of_contents: true
 day: wednesday
 ---
 

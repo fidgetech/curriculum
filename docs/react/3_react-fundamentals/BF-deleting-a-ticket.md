@@ -1,7 +1,5 @@
 ---
 title: "📓 Deleting a Ticket"
-id: deleting-a-ticket
-hide_table_of_contents: true
 day: wednesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 1.1.4.6 Bootstrap Basic Elements"
-id: 1-1-4-6-bootstrap-basic-elements
-hide_table_of_contents: true
 day: thursday
 ---
 

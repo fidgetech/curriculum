@@ -1,7 +1,5 @@
 ---
 title: "📓 3.1.2.6 Nullable Types"
-id: 3-1-2-6-nullable-types
-hide_table_of_contents: true
 day: tuesday
 ---
 

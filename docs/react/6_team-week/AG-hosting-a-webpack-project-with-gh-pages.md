@@ -1,7 +1,5 @@
 ---
 title: "📓 Hosting a Webpack Project with GH-Pages"
-id: hosting-a-webpack-project-with-gh-pages
-hide_table_of_contents: true
 day: weekend
 ---
 

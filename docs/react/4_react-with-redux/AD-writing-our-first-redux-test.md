@@ -1,7 +1,5 @@
 ---
 title: "📓 Writing Our First Redux Test"
-id: writing-our-first-redux-test
-hide_table_of_contents: true
 day: weekend
 ---
 

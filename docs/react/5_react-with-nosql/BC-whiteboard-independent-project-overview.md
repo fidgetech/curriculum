@@ -1,7 +1,5 @@
 ---
 title: "📓 Whiteboard Independent Project Overview"
-id: whiteboard-independent-project-overview
-hide_table_of_contents: true
 day: weekend
 ---
 

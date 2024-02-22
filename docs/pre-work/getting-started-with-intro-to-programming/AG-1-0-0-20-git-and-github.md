@@ -1,7 +1,5 @@
 ---
 title: "📓 1.0.0.20 Git and GitHub"
-id: 1-0-0-20-git-and-github
-hide_table_of_contents: true
 day: weekend
 ---
 

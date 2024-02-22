@@ -1,7 +1,5 @@
 ---
 title: "📓 The Rules of Hooks, Custom Hooks, and Why Hooks Are Awesome"
-id: the-rules-of-hooks-custom-hooks-and-why-hooks-are-awesome
-hide_table_of_contents: true
 day: weekend
 ---
 

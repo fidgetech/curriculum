@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.1.4.12 Practice: Recreate a Site with Bootstrap'
-id: 1-1-4-12-practice-recreate-a-site-with-bootstrap
-hide_table_of_contents: true
 day: thursday
 ---
 

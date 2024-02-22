@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.1.4 To Do List with MVC Forms"
-id: 3-2-1-4-to-do-list-with-mvc-forms
-hide_table_of_contents: true
 day: monday
 ---
 

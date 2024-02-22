@@ -1,7 +1,5 @@
 ---
 title: "📓 Journal #6"
-id: journal-6
-hide_table_of_contents: true
 day: weekend
 ---
 

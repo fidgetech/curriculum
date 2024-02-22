@@ -1,7 +1,5 @@
 ---
 title: "📓 Non-Technical Mock Interview"
-id: non-technical-mock-interview
-hide_table_of_contents: true
 day: weekend
 ---
 

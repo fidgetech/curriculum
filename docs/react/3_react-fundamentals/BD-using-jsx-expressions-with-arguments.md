@@ -1,7 +1,5 @@
 ---
 title: "📓 Using JSX Expressions with Arguments"
-id: using-jsx-expressions-with-arguments
-hide_table_of_contents: true
 day: wednesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.1.6 Lists and Redirects in a Controller"
-id: 3-2-1-6-lists-and-redirects-in-a-controller
-hide_table_of_contents: true
 day: monday
 ---
 

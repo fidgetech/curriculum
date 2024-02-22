@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to BaaS, Firebase, and Firestore"
-id: introduction-to-baas-firebase-and-firestore
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Following Up During the Job Application Process"
-id: following-up-during-the-job-application-process
-hide_table_of_contents: true
 day: wednesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.3.2 Objects Within Objects Setup"
-id: 3-2-3-2-objects-within-objects-setup
-hide_table_of_contents: true
 day: wednesday
 ---
 

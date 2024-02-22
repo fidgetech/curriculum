@@ -1,7 +1,5 @@
 ---
 title: "📓 Job Application Goals"
-id: job-application-goals
-hide_table_of_contents: true
 day: tuesday
 ---
 

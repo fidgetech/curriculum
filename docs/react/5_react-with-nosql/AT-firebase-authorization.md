@@ -1,7 +1,5 @@
 ---
 title: "📓 Firebase Authorization"
-id: firebase-authorization
-hide_table_of_contents: true
 day: monday
 ---
 

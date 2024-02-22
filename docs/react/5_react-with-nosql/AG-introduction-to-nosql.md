@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to NoSQL"
-id: introduction-to-nosql
-hide_table_of_contents: true
 day: weekend
 ---
 

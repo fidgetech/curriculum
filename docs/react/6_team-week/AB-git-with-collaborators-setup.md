@@ -1,7 +1,5 @@
 ---
 title: "📓 Git with Collaborators: Setup"
-id: git-with-collaborators-setup
-hide_table_of_contents: true
 day: weekend
 ---
 

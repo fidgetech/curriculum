@@ -1,7 +1,5 @@
 ---
 title: "📓 Adding Tickets to Firestore"
-id: adding-tickets-to-firestore
-hide_table_of_contents: true
 day: weekend
 ---
 

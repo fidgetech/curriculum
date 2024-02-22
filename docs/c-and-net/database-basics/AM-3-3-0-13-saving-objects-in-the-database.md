@@ -1,7 +1,5 @@
 ---
 title: "📓 3.3.0.13 Saving Objects in the Database"
-id: 3-3-0-13-saving-objects-in-the-database
-hide_table_of_contents: true
 day: weekend
 ---
 

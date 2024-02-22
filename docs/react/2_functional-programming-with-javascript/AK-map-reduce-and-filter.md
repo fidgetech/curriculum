@@ -1,7 +1,5 @@
 ---
 title: "📓 Map, Reduce and Filter"
-id: map-reduce-and-filter
-hide_table_of_contents: true
 day: weekend
 ---
 

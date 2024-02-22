@@ -1,7 +1,5 @@
 ---
 title: "📓 2.1.2.2 Introduction to the Node Object"
-id: 2-1-2-2-introduction-to-the-node-object
-hide_table_of_contents: true
 day: tuesday
 ---
 

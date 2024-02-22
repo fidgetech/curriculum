@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.21 The Shape Tracker Project Structure"
-id: 3-0-0-21-the-shape-tracker-project-structure
-hide_table_of_contents: true
 day: weekend
 ---
 

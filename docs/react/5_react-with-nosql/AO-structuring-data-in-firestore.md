@@ -1,7 +1,5 @@
 ---
 title: "📓 Structuring Data in Firestore"
-id: structuring-data-in-firestore
-hide_table_of_contents: true
 day: weekend
 ---
 

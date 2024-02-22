@@ -1,7 +1,5 @@
 ---
 title: "📓 Storing State in Closures"
-id: storing-state-in-closures
-hide_table_of_contents: true
 day: monday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Spread Operator"
-id: spread-operator
-hide_table_of_contents: true
 day: monday
 ---
 

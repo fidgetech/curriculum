@@ -1,8 +1,6 @@
 ---
 title: Courses
-id: courses
 slug: /
-hide_table_of_contents: true
 ---
 
 # Fidgetech Courses

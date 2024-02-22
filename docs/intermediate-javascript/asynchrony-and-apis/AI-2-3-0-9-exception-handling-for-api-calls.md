@@ -1,7 +1,5 @@
 ---
 title: "📓 2.3.0.9 Exception Handling for API Calls"
-id: 2-3-0-9-exception-handling-for-api-calls
-hide_table_of_contents: true
 day: weekend
 ---
 

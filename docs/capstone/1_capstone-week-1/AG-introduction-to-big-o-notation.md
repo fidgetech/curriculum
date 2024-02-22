@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to Big O Notation"
-id: introduction-to-big-o-notation
-hide_table_of_contents: true
 day: monday
 ---
 

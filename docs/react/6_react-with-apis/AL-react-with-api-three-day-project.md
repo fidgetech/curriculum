@@ -1,7 +1,5 @@
 ---
 title: ✏️ React with API (Three-Day Project)
-id: react-with-api-three-day-project
-hide_table_of_contents: true
 day: monday
 ---
 

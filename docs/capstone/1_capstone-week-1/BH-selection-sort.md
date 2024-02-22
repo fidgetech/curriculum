@@ -1,7 +1,5 @@
 ---
 title: ✏️ Selection Sort
-id: selection-sort
-hide_table_of_contents: true
 day: thursday
 ---
 

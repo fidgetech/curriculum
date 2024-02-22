@@ -1,7 +1,5 @@
 ---
 title: "📓 Further Exploration: Data Visualization"
-id: further-exploration-data-visualization
-hide_table_of_contents: true
 day: tuesday
 ---
 

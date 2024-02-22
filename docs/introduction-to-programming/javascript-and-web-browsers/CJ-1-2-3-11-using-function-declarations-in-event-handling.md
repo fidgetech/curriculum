@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.3.11 Using Function Declarations in Event Handling"
-id: 1-2-3-11-using-function-declarations-in-event-handling
-hide_table_of_contents: true
 day: wednesday
 ---
 

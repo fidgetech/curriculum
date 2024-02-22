@@ -1,7 +1,5 @@
 ---
 title: "📓 State"
-id: state
-hide_table_of_contents: true
 day: monday
 ---
 

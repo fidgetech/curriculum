@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.2.3.4 Practice: Forms'
-id: 1-2-3-4-practice-forms
-hide_table_of_contents: true
 day: wednesday
 ---
 

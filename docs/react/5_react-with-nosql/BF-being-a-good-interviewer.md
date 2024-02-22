@@ -1,7 +1,5 @@
 ---
 title: "📓 Being a Good Interviewer"
-id: being-a-good-interviewer
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: '✏️ Help Queue, Social Media, Airbnb Clone'
-id: help-queue-social-media-airbnb-clone
-hide_table_of_contents: true
 day: monday
 ---
 

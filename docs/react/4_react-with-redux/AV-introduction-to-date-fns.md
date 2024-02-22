@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to date-fns"
-id: introduction-to-date-fns
-hide_table_of_contents: true
 day: wednesday
 ---
 

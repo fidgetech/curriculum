@@ -1,7 +1,5 @@
 ---
 title: '✏️ Whiteboard Practice: Composition'
-id: whiteboard-practice-composition
-hide_table_of_contents: true
 day: tuesday
 ---
 

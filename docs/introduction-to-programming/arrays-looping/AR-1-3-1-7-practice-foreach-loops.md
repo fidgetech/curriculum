@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.3.1.7 Practice: forEach loops'
-id: 1-3-1-7-practice-foreach-loops
-hide_table_of_contents: true
 day: monday
 ---
 

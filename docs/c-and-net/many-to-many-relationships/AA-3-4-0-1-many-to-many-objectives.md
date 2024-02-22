@@ -1,9 +1,6 @@
 ---
 title: "📓 3.4.0.1 Many-To-Many Objectives"
-id: 3-4-0-1-many-to-many-objectives
-hide_table_of_contents: true
 day: weekend
-paginationPrev: null
 ---
 
 In the last course section, we learned about MySQL databases and using Entity Framework Core to simplify our projects. In this section, we'll continue working with EF Core and learn how to build out more complex applications with many-to-many relationships.

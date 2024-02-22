@@ -1,7 +1,5 @@
 ---
 title: "📓 1.0.0.03 Making Epicodus an Inclusive Place"
-id: 1-0-0-03-making-epicodus-an-inclusive-place
-hide_table_of_contents: true
 day: weekend
 ---
 

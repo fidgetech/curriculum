@@ -1,7 +1,5 @@
 ---
 title: '✏️ Redux Help Queue, Project Refactor'
-id: redux-help-queue-project-refactor
-hide_table_of_contents: true
 day: monday
 ---
 

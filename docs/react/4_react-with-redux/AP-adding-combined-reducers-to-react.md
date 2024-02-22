@@ -1,7 +1,5 @@
 ---
 title: "📓 Adding Combined Reducers to React"
-id: adding-combined-reducers-to-react
-hide_table_of_contents: true
 day: monday
 ---
 

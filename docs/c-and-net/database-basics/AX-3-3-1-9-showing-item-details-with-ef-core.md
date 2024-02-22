@@ -1,7 +1,5 @@
 ---
 title: "📓 3.3.1.9 Showing Item Details with EF Core"
-id: 3-3-1-9-showing-item-details-with-ef-core
-hide_table_of_contents: true
 day: monday
 ---
 

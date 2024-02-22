@@ -1,7 +1,5 @@
 ---
 title: "📓 3.5.3.2 Whiteboard Practice"
-id: 3-5-3-2-whiteboard-practice
-hide_table_of_contents: true
 day: wednesday
 ---
 

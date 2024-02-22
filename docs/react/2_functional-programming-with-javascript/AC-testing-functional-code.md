@@ -1,7 +1,5 @@
 ---
 title: "📓 Testing Functional Code"
-id: testing-functional-code
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 3.1.2.5 More About Data Types: Value Types, Reference Types, Generic Types, and More"
-id: 3-1-2-5-more-about-data-types-value-types-reference-types-generic-types-and-more
-hide_table_of_contents: true
 day: tuesday
 ---
 

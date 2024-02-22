@@ -1,7 +1,5 @@
 ---
 title: "📓 3.5.0.8 Authentication with Identity: User Login and Logout"
-id: 3-5-0-8-authentication-with-identity-user-login-and-logout
-hide_table_of_contents: true
 day: weekend
 ---
 

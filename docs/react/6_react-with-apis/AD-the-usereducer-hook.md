@@ -1,7 +1,5 @@
 ---
 title: "📓 The useReducer Hook"
-id: the-usereducer-hook
-hide_table_of_contents: true
 day: weekend
 ---
 

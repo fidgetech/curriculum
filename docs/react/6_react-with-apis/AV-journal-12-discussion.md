@@ -1,7 +1,5 @@
 ---
 title: '✏️ Journal #12 Discussion'
-id: journal-12-discussion
-hide_table_of_contents: true
 day: monday
 ---
 

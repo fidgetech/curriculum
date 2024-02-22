@@ -1,9 +1,6 @@
 ---
 title: "📓 3.0.0.05 Documentation and Resources"
-id: 3-0-0-05-documentation-and-resources
-hide_table_of_contents: true
 day: weekend
-paginationNext: null
 ---
 
 Now that we have the necessary tools for C# programming, let's discuss the resources we'll consult throughout the course. We recommend bookmarking these to refer back to later.

@@ -1,7 +1,5 @@
 ---
 title: ✏️ Resume Overview
-id: resume-overview
-hide_table_of_contents: true
 day: thursday
 ---
 

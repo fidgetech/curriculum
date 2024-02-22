@@ -1,8 +1,6 @@
 ---
 title: Marketing Yourself
-id: index
 slug: /marketing-yourself
-hide_table_of_contents: true
 ---
 
 Welcome to the Marketing Yourself Home Page.

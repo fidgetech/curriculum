@@ -1,7 +1,5 @@
 ---
 title: "📓 Building a Functional Application (Part 1)"
-id: building-a-functional-application-part-1
-hide_table_of_contents: true
 day: monday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Computer Science Testing Environment Setup"
-id: computer-science-testing-environment-setup
-hide_table_of_contents: true
 day: weekend
 ---
 

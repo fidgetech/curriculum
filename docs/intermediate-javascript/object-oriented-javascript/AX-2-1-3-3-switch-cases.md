@@ -1,7 +1,5 @@
 ---
 title: "📓 2.1.3.3 Switch Cases"
-id: 2-1-3-3-switch-cases
-hide_table_of_contents: true
 day: wednesday
 ---
 

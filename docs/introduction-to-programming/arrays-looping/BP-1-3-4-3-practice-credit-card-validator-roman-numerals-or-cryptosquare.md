@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.3.4.3 Practice: Credit Card Validator, Roman Numerals, or Cryptosquare'
-id: 1-3-4-3-practice-credit-card-validator-roman-numerals-or-cryptosquare
-hide_table_of_contents: true
 day: thursday
 ---
 

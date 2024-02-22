@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.22 Classes and Namespaces"
-id: 3-0-0-22-classes-and-namespaces
-hide_table_of_contents: true
 day: weekend
 ---
 

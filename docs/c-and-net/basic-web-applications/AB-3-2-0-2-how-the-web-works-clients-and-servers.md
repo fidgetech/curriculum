@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.0.2 How the Web Works: Clients and Servers"
-id: 3-2-0-2-how-the-web-works-clients-and-servers
-hide_table_of_contents: true
 day: weekend
 ---
 

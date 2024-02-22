@@ -1,7 +1,5 @@
 ---
 title: '✏️ 3.2.3.1 To Do List, Places You''ve Been, Packer Tracker, Tamagotchi'
-id: 3-2-3-1-to-do-list-places-youve-been-packer-tracker-tamagotchi
-hide_table_of_contents: true
 day: wednesday
 ---
 

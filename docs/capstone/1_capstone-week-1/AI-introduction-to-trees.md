@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to Trees"
-id: introduction-to-trees
-hide_table_of_contents: true
 day: monday
 ---
 

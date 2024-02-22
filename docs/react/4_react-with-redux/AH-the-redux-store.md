@@ -1,7 +1,5 @@
 ---
 title: "📓 The Redux Store"
-id: the-redux-store
-hide_table_of_contents: true
 day: weekend
 ---
 

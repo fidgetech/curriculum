@@ -1,7 +1,5 @@
 ---
 title: "📓 Using Node in the Command Line"
-id: using-node-in-the-command-line
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: '✏️ Help Queue, Merch Site, Event Logger (day 2)'
-id: help-queue-merch-site-event-logger-day-2
-hide_table_of_contents: true
 day: thursday
 ---
 

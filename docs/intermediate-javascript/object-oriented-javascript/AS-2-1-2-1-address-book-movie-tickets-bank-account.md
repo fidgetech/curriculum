@@ -1,7 +1,5 @@
 ---
 title: '✏️ 2.1.2.1 Address Book, Movie Tickets, Bank Account'
-id: 2-1-2-1-address-book-movie-tickets-bank-account
-hide_table_of_contents: true
 day: tuesday
 ---
 

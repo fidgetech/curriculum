@@ -1,7 +1,5 @@
 ---
 title: "📓 1.0.0.05 Making the Most of Code School"
-id: 1-0-0-05-making-the-most-of-code-school
-hide_table_of_contents: true
 day: weekend
 ---
 

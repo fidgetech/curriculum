@@ -1,7 +1,5 @@
 ---
 title: "📓 NY Times API: Making an API Call with fetch and useState"
-id: ny-times-api-making-an-api-call-with-fetch-and-usestate
-hide_table_of_contents: true
 day: weekend
 ---
 

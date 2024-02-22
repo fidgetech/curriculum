@@ -1,7 +1,5 @@
 ---
 title: "📓 Hosting a React Project with GH-Pages"
-id: hosting-a-react-project-with-gh-pages
-hide_table_of_contents: true
 day: tuesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 2.3.1.3 Introduction to Promises"
-id: 2-3-1-3-introduction-to-promises
-hide_table_of_contents: true
 day: monday
 ---
 

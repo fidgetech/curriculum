@@ -1,7 +1,5 @@
 ---
 title: "📓 Anatomy of a Reducer"
-id: anatomy-of-a-reducer
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Merge Sort"
-id: merge-sort
-hide_table_of_contents: true
 day: thursday
 ---
 

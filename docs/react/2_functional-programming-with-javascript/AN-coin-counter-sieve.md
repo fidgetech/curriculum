@@ -1,7 +1,5 @@
 ---
 title: '✏️ Coin Counter, Sieve'
-id: coin-counter-sieve
-hide_table_of_contents: true
 day: monday
 ---
 

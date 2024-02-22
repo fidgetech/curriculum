@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.0.16 Improving Development with Source Maps for Debugging"
-id: 2-2-0-16-improving-development-with-source-maps-for-debugging
-hide_table_of_contents: true
 day: weekend
 ---
 

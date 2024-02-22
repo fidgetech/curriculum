@@ -1,7 +1,5 @@
 ---
 title: "📓 2.3.1.8 Speaking Up"
-id: 2-3-1-8-speaking-up
-hide_table_of_contents: true
 day: monday
 ---
 

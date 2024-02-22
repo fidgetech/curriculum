@@ -1,7 +1,5 @@
 ---
 title: "📓 Capstone Prep: Using Employable Skills"
-id: capstone-prep-using-employable-skills
-hide_table_of_contents: true
 day: thursday
 ---
 

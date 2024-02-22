@@ -1,7 +1,5 @@
 ---
 title: "📓 Binding Functions in React"
-id: binding-functions-in-react
-hide_table_of_contents: true
 day: monday
 ---
 

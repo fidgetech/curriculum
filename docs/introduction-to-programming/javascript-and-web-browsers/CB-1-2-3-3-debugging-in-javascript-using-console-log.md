@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.3.3 Debugging in JavaScript: Using console.log()"
-id: 1-2-3-3-debugging-in-javascript-using-console-log
-hide_table_of_contents: true
 day: wednesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.2.1.1 Practice: Review of JavaScript Basics'
-id: 1-2-1-1-practice-review-of-javascript-basics
-hide_table_of_contents: true
 day: monday
 ---
 

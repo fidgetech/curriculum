@@ -1,7 +1,5 @@
 ---
 title: "📓 2.4.0.2 Git with Collaborators: Setup"
-id: 2-4-0-2-git-with-collaborators-setup
-hide_table_of_contents: true
 day: weekend
 ---
 

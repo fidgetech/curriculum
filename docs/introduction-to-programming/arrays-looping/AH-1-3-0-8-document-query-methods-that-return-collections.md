@@ -1,7 +1,5 @@
 ---
 title: "📓 1.3.0.8 Document Query Methods that Return Collections"
-id: 1-3-0-8-document-query-methods-that-return-collections
-hide_table_of_contents: true
 day: weekend
 ---
 

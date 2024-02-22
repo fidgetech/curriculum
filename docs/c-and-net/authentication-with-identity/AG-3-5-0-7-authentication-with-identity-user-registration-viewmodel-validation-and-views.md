@@ -1,7 +1,5 @@
 ---
 title: "📓 3.5.0.7 Authentication with Identity: User Registration ViewModel, Validation, and Views"
-id: 3-5-0-7-authentication-with-identity-user-registration-viewmodel-validation-and-views
-hide_table_of_contents: true
 day: weekend
 ---
 

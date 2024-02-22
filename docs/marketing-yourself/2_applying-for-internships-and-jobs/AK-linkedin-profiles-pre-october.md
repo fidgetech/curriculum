@@ -1,7 +1,5 @@
 ---
 title: "📓 LinkedIn Profiles (pre-October)"
-id: linkedin-profiles-pre-october
-hide_table_of_contents: true
 day: weekend
 ---
 

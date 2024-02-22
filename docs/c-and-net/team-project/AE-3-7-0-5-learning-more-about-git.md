@@ -1,7 +1,5 @@
 ---
 title: "📓 3.7.0.5 Learning More About Git"
-id: 3-7-0-5-learning-more-about-git
-hide_table_of_contents: true
 day: weekend
 ---
 

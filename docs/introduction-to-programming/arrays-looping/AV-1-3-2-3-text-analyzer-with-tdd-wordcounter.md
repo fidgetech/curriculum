@@ -1,7 +1,5 @@
 ---
 title: "📓 1.3.2.3 Text Analyzer with TDD: wordCounter()"
-id: 1-3-2-3-text-analyzer-with-tdd-wordcounter
-hide_table_of_contents: true
 day: tuesday
 ---
 

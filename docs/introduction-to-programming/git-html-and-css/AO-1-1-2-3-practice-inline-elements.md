@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.1.2.3 Practice: Inline Elements'
-id: 1-1-2-3-practice-inline-elements
-hide_table_of_contents: true
 day: tuesday
 ---
 

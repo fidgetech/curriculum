@@ -1,7 +1,5 @@
 ---
 title: "📓 First Class Citizens"
-id: first-class-citizens
-hide_table_of_contents: true
 day: weekend
 ---
 

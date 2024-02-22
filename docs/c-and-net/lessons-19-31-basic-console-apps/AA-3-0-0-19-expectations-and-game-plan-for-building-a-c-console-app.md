@@ -1,9 +1,6 @@
 ---
 title: "📓 3.0.0.19 Expectations and Game Plan for Building a C# Console App"
-id: 3-0-0-19-expectations-and-game-plan-for-building-a-c-console-app
-hide_table_of_contents: true
 day: weekend
-paginationPrev: null
 ---
 
 So far we've experimented with C# by typing basic code into the REPL. If we want to write entire programs, we'll need to save our code in files. Well, in this next section of the C# .NET pre-work, we're going to learn how to do exactly that by creating C# console applications. A **console application** is a program that is run within our terminal, or command line interface. 

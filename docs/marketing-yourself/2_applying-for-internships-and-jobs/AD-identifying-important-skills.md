@@ -1,7 +1,5 @@
 ---
 title: "📓 Identifying Important Skills"
-id: identifying-important-skills
-hide_table_of_contents: true
 day: weekend
 ---
 

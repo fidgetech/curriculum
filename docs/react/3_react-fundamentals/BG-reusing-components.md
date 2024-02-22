@@ -1,7 +1,5 @@
 ---
 title: "📓 Reusing Components"
-id: reusing-components
-hide_table_of_contents: true
 day: wednesday
 ---
 

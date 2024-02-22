@@ -1,7 +1,5 @@
 ---
 title: "📓 2.3.0.11 JavaScript Exception Handling with try...catch"
-id: 2-3-0-11-javascript-exception-handling-with-try---catch
-hide_table_of_contents: true
 day: weekend
 ---
 

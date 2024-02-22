@@ -1,7 +1,5 @@
 ---
 title: "📓 Capstone Prep: What to Expect"
-id: capstone-prep-what-to-expect
-hide_table_of_contents: true
 day: thursday
 ---
 

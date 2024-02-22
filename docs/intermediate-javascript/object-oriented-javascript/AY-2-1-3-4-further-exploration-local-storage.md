@@ -1,7 +1,5 @@
 ---
 title: "📓 2.1.3.4 Further Exploration: Local Storage"
-id: 2-1-3-4-further-exploration-local-storage
-hide_table_of_contents: true
 day: wednesday
 ---
 

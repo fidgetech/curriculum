@@ -1,7 +1,5 @@
 ---
 title: "📓 3.1.1.6- APIE: Abstraction"
-id: 3-1-1-6--apie-abstraction
-hide_table_of_contents: true
 day: monday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Identifying and Preventing Microaggressions"
-id: identifying-and-preventing-microaggressions
-hide_table_of_contents: true
 day: weekend
 ---
 

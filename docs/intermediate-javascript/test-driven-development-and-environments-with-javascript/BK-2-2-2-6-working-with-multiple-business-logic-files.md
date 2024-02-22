@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.2.6 Working with Multiple Business Logic Files"
-id: 2-2-2-6-working-with-multiple-business-logic-files
-hide_table_of_contents: true
 day: tuesday
 ---
 

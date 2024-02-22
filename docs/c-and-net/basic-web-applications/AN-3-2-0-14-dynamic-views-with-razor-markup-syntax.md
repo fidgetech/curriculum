@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.0.14 Dynamic Views with Razor Markup Syntax"
-id: 3-2-0-14-dynamic-views-with-razor-markup-syntax
-hide_table_of_contents: true
 day: weekend
 ---
 

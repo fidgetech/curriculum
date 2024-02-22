@@ -1,7 +1,5 @@
 ---
 title: ✏️ 3.2.1.2 ASP.NET Core MVC Practice
-id: 3-2-1-2-asp-net-core-mvc-practice
-hide_table_of_contents: true
 day: monday
 ---
 

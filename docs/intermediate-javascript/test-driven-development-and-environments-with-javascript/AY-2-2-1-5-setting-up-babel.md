@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.1.5 Setting Up Babel"
-id: 2-2-1-5-setting-up-babel
-hide_table_of_contents: true
 day: monday
 ---
 

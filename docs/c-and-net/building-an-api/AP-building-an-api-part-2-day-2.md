@@ -1,7 +1,5 @@
 ---
 title: ✏️ Building an API Part 2 (day 2)
-id: building-an-api-part-2-day-2
-hide_table_of_contents: true
 day: tuesday
 ---
 

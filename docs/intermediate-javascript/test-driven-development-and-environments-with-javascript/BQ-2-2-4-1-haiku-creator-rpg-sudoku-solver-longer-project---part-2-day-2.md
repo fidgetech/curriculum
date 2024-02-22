@@ -1,7 +1,5 @@
 ---
 title: '✏️ 2.2.4.1 Haiku Creator, RPG, Sudoku Solver (Longer Project) - Part 2 (day 2)'
-id: 2-2-4-1-haiku-creator-rpg-sudoku-solver-longer-project---part-2-day-2
-hide_table_of_contents: true
 day: thursday
 ---
 

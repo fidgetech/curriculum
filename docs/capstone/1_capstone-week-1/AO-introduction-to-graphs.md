@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to Graphs"
-id: introduction-to-graphs
-hide_table_of_contents: true
 day: tuesday
 ---
 

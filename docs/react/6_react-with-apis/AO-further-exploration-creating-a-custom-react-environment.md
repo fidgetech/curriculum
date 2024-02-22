@@ -1,7 +1,5 @@
 ---
 title: "📓 Further Exploration: Creating a Custom React Environment"
-id: further-exploration-creating-a-custom-react-environment
-hide_table_of_contents: true
 day: tuesday
 ---
 

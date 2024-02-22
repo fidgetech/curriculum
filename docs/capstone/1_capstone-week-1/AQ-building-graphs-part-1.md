@@ -1,7 +1,5 @@
 ---
 title: "📓 Building Graphs Part 1"
-id: building-graphs-part-1
-hide_table_of_contents: true
 day: tuesday
 ---
 

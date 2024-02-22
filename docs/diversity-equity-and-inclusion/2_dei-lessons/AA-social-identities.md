@@ -1,9 +1,6 @@
 ---
 title: "📓 Social Identities"
-id: social-identities
-hide_table_of_contents: true
 day: weekend
-paginationPrev: null
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. In fact, it's our very first lesson! This week, we will cover social identities. 

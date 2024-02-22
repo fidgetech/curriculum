@@ -1,7 +1,5 @@
 ---
 title: "📓 Interview Tips"
-id: interview-tips
-hide_table_of_contents: true
 day: weekend
 ---
 

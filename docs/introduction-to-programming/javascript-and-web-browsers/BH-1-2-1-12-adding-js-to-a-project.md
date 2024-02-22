@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.1.12 Adding JS to a Project"
-id: 1-2-1-12-adding-js-to-a-project
-hide_table_of_contents: true
 day: monday
 ---
 

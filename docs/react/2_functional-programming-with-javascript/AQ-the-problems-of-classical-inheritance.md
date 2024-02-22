@@ -1,7 +1,5 @@
 ---
 title: "📓 The Problems of Classical Inheritance"
-id: the-problems-of-classical-inheritance
-hide_table_of_contents: true
 day: monday
 ---
 

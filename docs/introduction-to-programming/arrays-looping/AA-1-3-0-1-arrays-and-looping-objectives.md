@@ -1,9 +1,6 @@
 ---
 title: "📓 1.3.0.1 Arrays and Looping Objectives"
-id: 1-3-0-1-arrays-and-looping-objectives
-hide_table_of_contents: true
 day: weekend
-paginationPrev: null
 ---
 
 In this section, we'll learn about two important programming concepts that will allow us to better work with data:

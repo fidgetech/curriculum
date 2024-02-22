@@ -1,7 +1,5 @@
 ---
 title: "📓 2.3.2.4 Further Exploration: IIFEs"
-id: 2-3-2-4-further-exploration-iifes
-hide_table_of_contents: true
 day: tuesday
 ---
 

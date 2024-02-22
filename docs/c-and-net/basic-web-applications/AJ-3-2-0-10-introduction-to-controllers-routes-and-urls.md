@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.0.10 Introduction to Controllers, Routes and URLs"
-id: 3-2-0-10-introduction-to-controllers-routes-and-urls
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Pre-work
-id: index
 slug: /pre-work
-hide_table_of_contents: true
 ---
 
 # Fidgetech Pre-work

@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.0.13 Bundling CSS with webpack Loaders"
-id: 2-2-0-13-bundling-css-with-webpack-loaders
-hide_table_of_contents: true
 day: weekend
 ---
 

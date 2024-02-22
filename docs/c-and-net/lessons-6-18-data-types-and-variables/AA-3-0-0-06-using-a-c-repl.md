@@ -1,9 +1,6 @@
 ---
 title: "📓 3.0.0.06 Using a C# REPL"
-id: 3-0-0-06-using-a-c-repl
-hide_table_of_contents: true
 day: weekend
-paginationPrev: null
 ---
 
 We're finally ready to craft our first C# code! 

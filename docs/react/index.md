@@ -1,8 +1,6 @@
 ---
 title: React
-id: index
 slug: /react
-hide_table_of_contents: true
 ---
 
 Welcome to React.

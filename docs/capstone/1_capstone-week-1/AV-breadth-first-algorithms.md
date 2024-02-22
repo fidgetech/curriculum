@@ -1,7 +1,5 @@
 ---
 title: "📓 Breadth First Algorithms"
-id: breadth-first-algorithms
-hide_table_of_contents: true
 day: tuesday
 ---
 

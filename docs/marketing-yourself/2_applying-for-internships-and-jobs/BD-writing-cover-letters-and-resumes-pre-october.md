@@ -1,7 +1,5 @@
 ---
 title: "📓 Writing Cover Letters and Resumes (pre-October)"
-id: writing-cover-letters-and-resumes-pre-october
-hide_table_of_contents: true
 day: monday
 ---
 

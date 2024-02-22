@@ -1,7 +1,5 @@
 ---
 title: ✏️ 3.3.1.1 To Do List and Project Rebuild
-id: 3-3-1-1-to-do-list-and-project-rebuild
-hide_table_of_contents: true
 day: monday
 ---
 

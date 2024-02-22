@@ -1,7 +1,5 @@
 ---
 title: "📓 1.1.3.3 Divs and Spans"
-id: 1-1-3-3-divs-and-spans
-hide_table_of_contents: true
 day: wednesday
 ---
 

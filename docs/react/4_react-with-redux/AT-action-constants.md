@@ -1,7 +1,5 @@
 ---
 title: "📓 Action Constants"
-id: action-constants
-hide_table_of_contents: true
 day: tuesday
 ---
 

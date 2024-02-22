@@ -1,7 +1,5 @@
 ---
 title: "📓 3.1.4.1 Weekly Technical Interview Prep: Testing"
-id: 3-1-4-1-weekly-technical-interview-prep-testing
-hide_table_of_contents: true
 day: thursday
 ---
 

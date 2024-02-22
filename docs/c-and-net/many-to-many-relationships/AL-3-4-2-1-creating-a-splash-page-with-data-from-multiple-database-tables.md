@@ -1,7 +1,5 @@
 ---
 title: "📓 3.4.2.1 Creating a Splash Page with Data from Multiple Database Tables"
-id: 3-4-2-1-creating-a-splash-page-with-data-from-multiple-database-tables
-hide_table_of_contents: true
 day: tuesday
 ---
 

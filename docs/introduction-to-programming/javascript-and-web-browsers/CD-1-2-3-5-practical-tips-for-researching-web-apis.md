@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.3.5 Practical Tips for Researching Web APIs"
-id: 1-2-3-5-practical-tips-for-researching-web-apis
-hide_table_of_contents: true
 day: wednesday
 ---
 

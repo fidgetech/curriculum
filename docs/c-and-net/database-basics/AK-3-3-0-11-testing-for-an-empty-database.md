@@ -1,7 +1,5 @@
 ---
 title: "📓 3.3.0.11 Testing for an Empty Database"
-id: 3-3-0-11-testing-for-an-empty-database
-hide_table_of_contents: true
 day: weekend
 ---
 

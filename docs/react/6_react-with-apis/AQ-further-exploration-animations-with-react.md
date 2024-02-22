@@ -1,7 +1,5 @@
 ---
 title: "📓 Further Exploration: Animations with React"
-id: further-exploration-animations-with-react
-hide_table_of_contents: true
 day: wednesday
 ---
 

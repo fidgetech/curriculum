@@ -1,7 +1,5 @@
 ---
 title: "📓 Telling Your Story"
-id: telling-your-story
-hide_table_of_contents: true
 day: weekend
 ---
 

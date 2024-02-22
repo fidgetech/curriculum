@@ -1,7 +1,5 @@
 ---
 title: "📓 3.1.3.6 Write Your Resume"
-id: 3-1-3-6-write-your-resume
-hide_table_of_contents: true
 day: wednesday
 ---
 

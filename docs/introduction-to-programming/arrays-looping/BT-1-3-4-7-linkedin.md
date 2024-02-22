@@ -1,7 +1,5 @@
 ---
 title: ✏️ 1.3.4.7 LinkedIn
-id: 1-3-4-7-linkedin
-hide_table_of_contents: true
 day: thursday
 ---
 

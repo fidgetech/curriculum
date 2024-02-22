@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.39 Testing A Method with Multiple Behaviors"
-id: 3-0-0-39-testing-a-method-with-multiple-behaviors
-hide_table_of_contents: true
 day: weekend
 ---
 

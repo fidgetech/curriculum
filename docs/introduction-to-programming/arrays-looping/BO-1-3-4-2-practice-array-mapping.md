@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.3.4.2 Practice: Array Mapping'
-id: 1-3-4-2-practice-array-mapping
-hide_table_of_contents: true
 day: thursday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 2.3.1.5 Static Methods and Properties"
-id: 2-3-1-5-static-methods-and-properties
-hide_table_of_contents: true
 day: monday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 2.1.0.9 Address Book: Unique IDs"
-id: 2-1-0-9-address-book-unique-ids
-hide_table_of_contents: true
 day: weekend
 ---
 

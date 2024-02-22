@@ -1,7 +1,5 @@
 ---
 title: "📓 Pull Requests with Forks"
-id: pull-requests-with-forks
-hide_table_of_contents: true
 day: weekend
 ---
 

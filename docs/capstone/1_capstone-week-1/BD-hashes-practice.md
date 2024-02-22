@@ -1,7 +1,5 @@
 ---
 title: ✏️ Hashes Practice
-id: hashes-practice
-hide_table_of_contents: true
 day: wednesday
 ---
 

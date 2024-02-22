@@ -1,7 +1,5 @@
 ---
 title: "📓 Planning a React Application"
-id: planning-a-react-application
-hide_table_of_contents: true
 day: weekend
 ---
 

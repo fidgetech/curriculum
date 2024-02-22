@@ -1,7 +1,5 @@
 ---
 title: "📓 3.6.1.3 Configuring Application URLs to Run Two ASP.NET Core Applications"
-id: 3-6-1-3-configuring-application-urls-to-run-two-asp-net-core-applications
-hide_table_of_contents: true
 day: monday
 ---
 

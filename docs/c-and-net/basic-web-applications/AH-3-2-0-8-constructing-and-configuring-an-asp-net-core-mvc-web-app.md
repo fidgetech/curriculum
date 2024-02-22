@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.0.8 Constructing and Configuring an ASP.NET Core MVC Web App"
-id: 3-2-0-8-constructing-and-configuring-an-asp-net-core-mvc-web-app
-hide_table_of_contents: true
 day: weekend
 ---
 

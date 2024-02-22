@@ -1,7 +1,5 @@
 ---
 title: "📓 NY Times API: Implementing useReducer"
-id: ny-times-api-implementing-usereducer
-hide_table_of_contents: true
 day: weekend
 ---
 

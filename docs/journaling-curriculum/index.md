@@ -1,8 +1,6 @@
 ---
 title: Journaling Curriculum
-id: index
 slug: /journaling-curriculum
-hide_table_of_contents: true
 ---
 
 Welcome to the Journaling Curriculum Home Page.

@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to JSX"
-id: introduction-to-jsx
-hide_table_of_contents: true
 day: weekend
 ---
 

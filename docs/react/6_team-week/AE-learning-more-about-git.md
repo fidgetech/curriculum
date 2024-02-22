@@ -1,7 +1,5 @@
 ---
 title: "📓 Learning More About Git"
-id: learning-more-about-git
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Adding Local State"
-id: adding-local-state
-hide_table_of_contents: true
 day: monday
 ---
 

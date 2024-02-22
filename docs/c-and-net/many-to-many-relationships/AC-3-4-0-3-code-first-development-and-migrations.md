@@ -1,7 +1,5 @@
 ---
 title: "📓 3.4.0.3 Code First Development and Migrations"
-id: 3-4-0-3-code-first-development-and-migrations
-hide_table_of_contents: true
 day: weekend
 ---
 

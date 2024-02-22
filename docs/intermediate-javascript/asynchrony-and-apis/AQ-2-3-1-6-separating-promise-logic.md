@@ -1,7 +1,5 @@
 ---
 title: "📓 2.3.1.6 Separating Promise Logic"
-id: 2-3-1-6-separating-promise-logic
-hide_table_of_contents: true
 day: monday
 ---
 

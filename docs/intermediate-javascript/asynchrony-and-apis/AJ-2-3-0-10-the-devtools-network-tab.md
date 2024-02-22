@@ -1,7 +1,5 @@
 ---
 title: "📓 2.3.0.10 The DevTools Network Tab"
-id: 2-3-0-10-the-devtools-network-tab
-hide_table_of_contents: true
 day: weekend
 ---
 

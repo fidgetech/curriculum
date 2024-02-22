@@ -1,7 +1,5 @@
 ---
 title: "📓 3.6.0.03 Exploring the dotnet new Web API Template"
-id: 3-6-0-03-exploring-the-dotnet-new-web-api-template
-hide_table_of_contents: true
 day: weekend
 ---
 

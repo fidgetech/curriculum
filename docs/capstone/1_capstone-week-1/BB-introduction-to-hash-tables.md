@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to Hash Tables"
-id: introduction-to-hash-tables
-hide_table_of_contents: true
 day: wednesday
 ---
 

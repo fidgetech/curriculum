@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.0.15 Improving Development by Automating Clean Up Tasks"
-id: 2-2-0-15-improving-development-by-automating-clean-up-tasks
-hide_table_of_contents: true
 day: weekend
 ---
 

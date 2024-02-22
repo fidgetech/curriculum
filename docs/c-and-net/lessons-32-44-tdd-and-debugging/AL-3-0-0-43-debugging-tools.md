@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.43 Debugging Tools"
-id: 3-0-0-43-debugging-tools
-hide_table_of_contents: true
 day: weekend
 ---
 

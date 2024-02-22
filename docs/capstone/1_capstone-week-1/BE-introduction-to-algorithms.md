@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to Algorithms"
-id: introduction-to-algorithms
-hide_table_of_contents: true
 day: thursday
 ---
 

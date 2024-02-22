@@ -1,7 +1,5 @@
 ---
 title: "📓 3.1.1.2- A Closer Look at Compiling and Executing C# Programs"
-id: 3-1-1-2--a-closer-look-at-compiling-and-executing-c-programs
-hide_table_of_contents: true
 day: monday
 ---
 

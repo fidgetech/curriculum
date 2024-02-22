@@ -1,7 +1,5 @@
 ---
 title: "📓 1.1.4.5 Downloading and Installing Bootstrap"
-id: 1-1-4-5-downloading-and-installing-bootstrap
-hide_table_of_contents: true
 day: thursday
 ---
 

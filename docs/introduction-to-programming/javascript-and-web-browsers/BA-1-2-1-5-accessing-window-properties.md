@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.1.5 Accessing Window Properties"
-id: 1-2-1-5-accessing-window-properties
-hide_table_of_contents: true
 day: monday
 ---
 

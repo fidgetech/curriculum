@@ -1,7 +1,5 @@
 ---
 title: "📓 Sample Job Post"
-id: sample-job-post
-hide_table_of_contents: true
 day: monday
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Introduction to Programming
-id: index
 slug: /introduction-to-programming
-hide_table_of_contents: true
 ---
 
 # Fidgetech

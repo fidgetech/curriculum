@@ -1,7 +1,5 @@
 ---
 title: "📓 3.3.0.02 Introduction to Databases"
-id: 3-3-0-02-introduction-to-databases
-hide_table_of_contents: true
 day: weekend
 ---
 

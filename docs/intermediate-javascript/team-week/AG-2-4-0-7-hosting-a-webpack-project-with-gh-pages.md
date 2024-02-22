@@ -1,7 +1,5 @@
 ---
 title: "📓 2.4.0.7 Hosting a Webpack Project with GH-Pages"
-id: 2-4-0-7-hosting-a-webpack-project-with-gh-pages
-hide_table_of_contents: true
 day: weekend
 ---
 

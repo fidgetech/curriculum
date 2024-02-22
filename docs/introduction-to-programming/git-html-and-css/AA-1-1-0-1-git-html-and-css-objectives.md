@@ -1,9 +1,6 @@
 ---
 title: "📓 1.1.0.1 Git, HTML, and CSS Objectives"
-id: 1-1-0-1-git-html-and-css-objectives
-hide_table_of_contents: true
 day: weekend
-paginationPrev: null
 ---
 
 In this section we will be learning the building blocks of making basic web pages:  HTML and CSS. We will also focus on using the command line and Git to create a daily workflow for our coding projects.

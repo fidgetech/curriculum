@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.0.2 Welcome to JavaScript and Web Browsers"
-id: 1-2-0-2-welcome-to-javascript-and-web-browsers
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Writing Your Resume"
-id: writing-your-resume
-hide_table_of_contents: true
 day: monday
 ---
 

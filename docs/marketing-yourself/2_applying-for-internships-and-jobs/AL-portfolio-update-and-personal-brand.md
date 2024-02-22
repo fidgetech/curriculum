@@ -1,7 +1,5 @@
 ---
 title: "📓 Portfolio Update and Personal Brand"
-id: portfolio-update-and-personal-brand
-hide_table_of_contents: true
 day: weekend
 ---
 

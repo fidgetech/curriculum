@@ -1,7 +1,5 @@
 ---
 title: "📓 Sprucing Up GitHub"
-id: sprucing-up-github
-hide_table_of_contents: true
 day: thursday
 ---
 

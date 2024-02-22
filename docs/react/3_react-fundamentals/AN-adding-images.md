@@ -1,7 +1,5 @@
 ---
 title: "📓 Adding Images"
-id: adding-images
-hide_table_of_contents: true
 day: weekend
 ---
 

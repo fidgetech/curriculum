@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to React"
-id: introduction-to-react
-hide_table_of_contents: true
 day: weekend
 ---
 

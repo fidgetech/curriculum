@@ -1,7 +1,5 @@
 ---
 title: "📓 Updating and Deleting Tickets in Firestore"
-id: updating-and-deleting-tickets-in-firestore
-hide_table_of_contents: true
 day: weekend
 ---
 

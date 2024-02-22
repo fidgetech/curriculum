@@ -1,7 +1,5 @@
 ---
 title: '✏️ Technical Interview Practice: APIs and Further Exploration'
-id: technical-interview-practice-apis-and-further-exploration
-hide_table_of_contents: true
 day: thursday
 ---
 

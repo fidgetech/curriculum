@@ -1,7 +1,5 @@
 ---
 title: "📓 3.3.1.4 Introducing Entity Framework Core"
-id: 3-3-1-4-introducing-entity-framework-core
-hide_table_of_contents: true
 day: monday
 ---
 

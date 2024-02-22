@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.4.3 The Previous Hosting Model versus the New Minimal Hosting Model"
-id: 3-2-4-3-the-previous-hosting-model-versus-the-new-minimal-hosting-model
-hide_table_of_contents: true
 day: thursday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 3.3.1.10 Further Exploration with Testing"
-id: 3-3-1-10-further-exploration-with-testing
-hide_table_of_contents: true
 day: monday
 ---
 

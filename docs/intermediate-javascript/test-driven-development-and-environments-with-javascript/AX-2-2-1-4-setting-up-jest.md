@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.1.4 Setting Up Jest"
-id: 2-2-1-4-setting-up-jest
-hide_table_of_contents: true
 day: monday
 ---
 

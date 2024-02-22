@@ -1,7 +1,5 @@
 ---
 title: "📓 1.0.0.18 Interacting with the Command Line"
-id: 1-0-0-18-interacting-with-the-command-line
-hide_table_of_contents: true
 day: weekend
 ---
 

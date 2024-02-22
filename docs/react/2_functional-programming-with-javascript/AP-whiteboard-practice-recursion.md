@@ -1,7 +1,5 @@
 ---
 title: '✏️ Whiteboard Practice: Recursion'
-id: whiteboard-practice-recursion
-hide_table_of_contents: true
 day: monday
 ---
 

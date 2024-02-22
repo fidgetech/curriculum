@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.2.0.17 Practice: Using MDN Documentation JavaScript'
-id: 1-2-0-17-practice-using-mdn-documentation-javascript
-hide_table_of_contents: true
 day: weekend
 ---
 

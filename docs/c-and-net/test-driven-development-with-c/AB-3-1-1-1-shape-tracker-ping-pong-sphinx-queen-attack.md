@@ -1,7 +1,5 @@
 ---
 title: '✏️ 3.1.1.1 Shape Tracker, Ping Pong, Sphinx, Queen Attack'
-id: 3-1-1-1-shape-tracker-ping-pong-sphinx-queen-attack
-hide_table_of_contents: true
 day: monday
 ---
 

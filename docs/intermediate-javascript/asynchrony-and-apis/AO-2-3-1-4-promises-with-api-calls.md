@@ -1,7 +1,5 @@
 ---
 title: "📓 2.3.1.4 Promises with API Calls"
-id: 2-3-1-4-promises-with-api-calls
-hide_table_of_contents: true
 day: monday
 ---
 

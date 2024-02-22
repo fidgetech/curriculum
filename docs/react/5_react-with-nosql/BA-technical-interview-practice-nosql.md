@@ -1,7 +1,5 @@
 ---
 title: '✏️ Technical Interview Practice: NoSQL'
-id: technical-interview-practice-nosql
-hide_table_of_contents: true
 day: thursday
 ---
 

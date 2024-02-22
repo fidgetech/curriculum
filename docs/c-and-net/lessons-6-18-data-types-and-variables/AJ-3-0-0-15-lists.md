@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.15 Lists"
-id: 3-0-0-15-lists
-hide_table_of_contents: true
 day: weekend
 ---
 

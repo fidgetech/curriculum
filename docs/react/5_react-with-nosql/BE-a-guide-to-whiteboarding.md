@@ -1,7 +1,5 @@
 ---
 title: "📓 A Guide to Whiteboarding"
-id: a-guide-to-whiteboarding
-hide_table_of_contents: true
 day: weekend
 ---
 

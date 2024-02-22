@@ -1,7 +1,5 @@
 ---
 title: "📓 Indeed Resume"
-id: indeed-resume
-hide_table_of_contents: true
 day: weekend
 ---
 

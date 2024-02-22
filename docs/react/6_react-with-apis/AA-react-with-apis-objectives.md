@@ -1,9 +1,6 @@
 ---
 title: "📓 React with APIs Objectives"
-id: react-with-apis-objectives
-hide_table_of_contents: true
 day: weekend
-paginationPrev: null
 ---
 
 In this course section, we'll explore the following:

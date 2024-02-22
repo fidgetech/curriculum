@@ -1,7 +1,5 @@
 ---
 title: "📓 Styled Components"
-id: styled-components
-hide_table_of_contents: true
 day: wednesday
 ---
 

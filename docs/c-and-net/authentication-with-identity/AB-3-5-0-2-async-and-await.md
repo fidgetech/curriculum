@@ -1,7 +1,5 @@
 ---
 title: "📓 3.5.0.2 Async and Await"
-id: 3-5-0-2-async-and-await
-hide_table_of_contents: true
 day: weekend
 ---
 

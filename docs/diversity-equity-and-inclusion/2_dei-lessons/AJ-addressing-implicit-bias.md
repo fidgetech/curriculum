@@ -1,7 +1,5 @@
 ---
 title: "📓 Addressing Implicit Bias"
-id: addressing-implicit-bias
-hide_table_of_contents: true
 day: weekend
 ---
 

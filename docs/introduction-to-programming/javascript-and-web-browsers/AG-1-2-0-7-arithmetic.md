@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.0.7 Arithmetic"
-id: 1-2-0-7-arithmetic
-hide_table_of_contents: true
 day: weekend
 ---
 

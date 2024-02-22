@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.10 Booleans, Branching, and Operators"
-id: 3-0-0-10-booleans-branching-and-operators
-hide_table_of_contents: true
 day: weekend
 ---
 

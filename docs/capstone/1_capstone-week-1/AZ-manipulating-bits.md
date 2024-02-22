@@ -1,7 +1,5 @@
 ---
 title: "📓 Manipulating Bits"
-id: manipulating-bits
-hide_table_of_contents: true
 day: wednesday
 ---
 

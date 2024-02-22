@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.0.4 Accessing and Configuring the Browser DevTools Console"
-id: 1-2-0-4-accessing-and-configuring-the-browser-devtools-console
-hide_table_of_contents: true
 day: weekend
 ---
 

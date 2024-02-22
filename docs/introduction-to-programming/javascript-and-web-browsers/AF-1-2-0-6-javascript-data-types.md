@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.0.6 JavaScript Data Types"
-id: 1-2-0-6-javascript-data-types
-hide_table_of_contents: true
 day: weekend
 ---
 

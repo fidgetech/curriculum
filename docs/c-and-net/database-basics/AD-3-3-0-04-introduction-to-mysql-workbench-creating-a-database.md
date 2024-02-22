@@ -1,7 +1,5 @@
 ---
 title: "📓 3.3.0.04 Introduction to MySQL Workbench: Creating a Database"
-id: 3-3-0-04-introduction-to-mysql-workbench-creating-a-database
-hide_table_of_contents: true
 day: weekend
 ---
 

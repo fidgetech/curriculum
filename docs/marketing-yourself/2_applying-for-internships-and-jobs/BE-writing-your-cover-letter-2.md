@@ -1,7 +1,5 @@
 ---
 title: "📓 Writing Your Cover Letter 2"
-id: writing-your-cover-letter-2
-hide_table_of_contents: true
 day: monday
 ---
 

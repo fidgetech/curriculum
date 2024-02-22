@@ -1,7 +1,5 @@
 ---
 title: "📓 Binary Search Trees Part 2"
-id: binary-search-trees-part-2
-hide_table_of_contents: true
 day: monday
 ---
 

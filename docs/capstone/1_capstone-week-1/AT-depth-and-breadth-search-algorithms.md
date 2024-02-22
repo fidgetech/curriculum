@@ -1,7 +1,5 @@
 ---
 title: "📓 Depth and Breadth Search Algorithms"
-id: depth-and-breadth-search-algorithms
-hide_table_of_contents: true
 day: tuesday
 ---
 

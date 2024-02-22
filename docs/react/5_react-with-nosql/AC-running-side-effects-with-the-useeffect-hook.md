@@ -1,7 +1,5 @@
 ---
 title: "📓 Running Side Effects with the useEffect Hook"
-id: running-side-effects-with-the-useeffect-hook
-hide_table_of_contents: true
 day: weekend
 ---
 

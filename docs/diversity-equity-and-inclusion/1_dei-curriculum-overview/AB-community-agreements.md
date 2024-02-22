@@ -1,7 +1,5 @@
 ---
 title: "📓 Community Agreements"
-id: community-agreements
-hide_table_of_contents: true
 day: weekend
 ---
 

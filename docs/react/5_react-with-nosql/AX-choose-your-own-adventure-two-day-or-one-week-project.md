@@ -1,7 +1,5 @@
 ---
 title: ✏️ Choose Your Own Adventure (Two-Day or One-Week Project)
-id: choose-your-own-adventure-two-day-or-one-week-project
-hide_table_of_contents: true
 day: wednesday
 ---
 

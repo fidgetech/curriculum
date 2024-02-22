@@ -1,7 +1,5 @@
 ---
 title: "📓 3.0.0.27 Static Class Members"
-id: 3-0-0-27-static-class-members
-hide_table_of_contents: true
 day: weekend
 ---
 

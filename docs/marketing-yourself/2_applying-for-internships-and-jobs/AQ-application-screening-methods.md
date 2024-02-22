@@ -1,7 +1,5 @@
 ---
 title: "📓 Application Screening Methods"
-id: application-screening-methods
-hide_table_of_contents: true
 day: weekend
 ---
 

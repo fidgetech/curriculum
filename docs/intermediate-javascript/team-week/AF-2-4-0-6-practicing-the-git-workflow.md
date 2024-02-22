@@ -1,7 +1,5 @@
 ---
 title: "📓 2.4.0.6 Practicing the Git Workflow"
-id: 2-4-0-6-practicing-the-git-workflow
-hide_table_of_contents: true
 day: weekend
 ---
 

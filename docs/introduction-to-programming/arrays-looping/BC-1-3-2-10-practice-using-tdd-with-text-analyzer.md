@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.3.2.10 Practice: Using TDD with Text Analyzer'
-id: 1-3-2-10-practice-using-tdd-with-text-analyzer
-hide_table_of_contents: true
 day: tuesday
 ---
 

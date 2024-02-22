@@ -1,7 +1,5 @@
 ---
 title: "📓 Help Queue: Adding Context Consumers and Error Handling"
-id: help-queue-adding-context-consumers-and-error-handling
-hide_table_of_contents: true
 day: weekend
 ---
 

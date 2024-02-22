@@ -1,7 +1,5 @@
 ---
 title: "📓 UUID Library"
-id: uuid-library
-hide_table_of_contents: true
 day: tuesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.2.4 Accessing the DOM"
-id: 1-2-2-4-accessing-the-dom
-hide_table_of_contents: true
 day: tuesday
 ---
 

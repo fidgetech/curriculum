@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.1.2 TDD Review"
-id: 2-2-1-2-tdd-review
-hide_table_of_contents: true
 day: monday
 ---
 

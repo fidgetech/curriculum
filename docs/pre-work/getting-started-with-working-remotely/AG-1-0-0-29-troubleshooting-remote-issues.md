@@ -1,7 +1,5 @@
 ---
 title: "📓 1.0.0.29 Troubleshooting Remote Issues"
-id: 1-0-0-29-troubleshooting-remote-issues
-hide_table_of_contents: true
 day: weekend
 ---
 

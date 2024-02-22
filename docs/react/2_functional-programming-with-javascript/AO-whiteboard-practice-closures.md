@@ -1,7 +1,5 @@
 ---
 title: '✏️ Whiteboard Practice: Closures'
-id: whiteboard-practice-closures
-hide_table_of_contents: true
 day: monday
 ---
 

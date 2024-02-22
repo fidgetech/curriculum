@@ -1,7 +1,5 @@
 ---
 title: "📓 2.3.0.4 API Documentation and Keys"
-id: 2-3-0-4-api-documentation-and-keys
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,9 +1,6 @@
 ---
 title: "📓 Meetups and Networking"
-id: meetups-and-networking
-hide_table_of_contents: true
 day: thursday
-paginationNext: null
 ---
 
 ## Meetups and Networking

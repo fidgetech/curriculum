@@ -1,7 +1,5 @@
 ---
 title: "📓 2.1.0.2 JavaScript Objects"
-id: 2-1-0-2-javascript-objects
-hide_table_of_contents: true
 day: weekend
 ---
 

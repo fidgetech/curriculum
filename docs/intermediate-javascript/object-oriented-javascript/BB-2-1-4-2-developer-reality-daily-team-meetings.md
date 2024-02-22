@@ -1,7 +1,5 @@
 ---
 title: "📓 2.1.4.2 Developer Reality: Daily Team Meetings"
-id: 2-1-4-2-developer-reality-daily-team-meetings
-hide_table_of_contents: true
 day: thursday
 ---
 

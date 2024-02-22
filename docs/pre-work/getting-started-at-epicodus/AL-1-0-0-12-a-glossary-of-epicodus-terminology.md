@@ -1,7 +1,5 @@
 ---
 title: "📓 1.0.0.12 A Glossary of Epicodus Terminology"
-id: 1-0-0-12-a-glossary-of-epicodus-terminology
-hide_table_of_contents: true
 day: weekend
 ---
 

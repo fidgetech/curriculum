@@ -1,7 +1,5 @@
 ---
 title: "📓 1.1.4.4 Introduction to Bootstrap"
-id: 1-1-4-4-introduction-to-bootstrap
-hide_table_of_contents: true
 day: thursday
 ---
 

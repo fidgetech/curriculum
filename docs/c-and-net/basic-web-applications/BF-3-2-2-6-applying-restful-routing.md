@@ -1,7 +1,5 @@
 ---
 title: "📓 3.2.2.6 Applying RESTful Routing"
-id: 3-2-2-6-applying-restful-routing
-hide_table_of_contents: true
 day: tuesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 3.3.0.09 Using the Test Database"
-id: 3-3-0-09-using-the-test-database
-hide_table_of_contents: true
 day: weekend
 ---
 

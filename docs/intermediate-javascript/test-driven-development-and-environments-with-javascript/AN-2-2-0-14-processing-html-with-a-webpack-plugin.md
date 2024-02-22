@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.0.14 Processing HTML with a webpack Plugin"
-id: 2-2-0-14-processing-html-with-a-webpack-plugin
-hide_table_of_contents: true
 day: weekend
 ---
 

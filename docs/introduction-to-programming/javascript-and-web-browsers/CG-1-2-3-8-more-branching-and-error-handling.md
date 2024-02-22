@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.3.8 More Branching and Error Handling"
-id: 1-2-3-8-more-branching-and-error-handling
-hide_table_of_contents: true
 day: wednesday
 ---
 

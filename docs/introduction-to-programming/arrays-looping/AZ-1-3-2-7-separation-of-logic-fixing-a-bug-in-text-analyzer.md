@@ -1,7 +1,5 @@
 ---
 title: "📓 1.3.2.7 Separation of Logic: Fixing a Bug in Text Analyzer"
-id: 1-3-2-7-separation-of-logic-fixing-a-bug-in-text-analyzer
-hide_table_of_contents: true
 day: tuesday
 ---
 

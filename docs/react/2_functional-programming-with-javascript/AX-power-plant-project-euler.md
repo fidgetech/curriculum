@@ -1,7 +1,5 @@
 ---
 title: '✏️ Power Plant, Project Euler'
-id: power-plant-project-euler
-hide_table_of_contents: true
 day: tuesday
 ---
 

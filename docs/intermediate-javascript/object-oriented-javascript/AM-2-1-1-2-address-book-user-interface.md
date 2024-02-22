@@ -1,7 +1,5 @@
 ---
 title: "📓 2.1.1.2 Address Book: User Interface"
-id: 2-1-1-2-address-book-user-interface
-hide_table_of_contents: true
 day: monday
 ---
 

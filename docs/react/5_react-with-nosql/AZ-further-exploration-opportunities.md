@@ -1,7 +1,5 @@
 ---
 title: "📓 Further Exploration Opportunities"
-id: further-exploration-opportunities
-hide_table_of_contents: true
 day: wednesday
 ---
 

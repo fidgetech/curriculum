@@ -1,7 +1,5 @@
 ---
 title: "📓 Using External Stylesheets with React"
-id: using-external-stylesheets-with-react
-hide_table_of_contents: true
 day: weekend
 ---
 

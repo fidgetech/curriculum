@@ -1,7 +1,5 @@
 ---
 title: "📓 2.3.0.7 Making API Calls with JavaScript"
-id: 2-3-0-7-making-api-calls-with-javascript
-hide_table_of_contents: true
 day: weekend
 ---
 

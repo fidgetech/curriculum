@@ -1,7 +1,5 @@
 ---
 title: "📓 React Components"
-id: react-components
-hide_table_of_contents: true
 day: weekend
 ---
 

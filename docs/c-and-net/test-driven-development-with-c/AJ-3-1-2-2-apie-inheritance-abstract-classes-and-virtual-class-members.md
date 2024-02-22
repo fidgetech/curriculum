@@ -1,7 +1,5 @@
 ---
 title: "📓 3.1.2.2 APIE: Inheritance, Abstract Classes, and Virtual Class Members"
-id: 3-1-2-2-apie-inheritance-abstract-classes-and-virtual-class-members
-hide_table_of_contents: true
 day: tuesday
 ---
 

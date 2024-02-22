@@ -1,7 +1,5 @@
 ---
 title: "📓 Prior Course Section Survey"
-id: prior-course-section-survey
-hide_table_of_contents: true
 day: monday
 ---
 

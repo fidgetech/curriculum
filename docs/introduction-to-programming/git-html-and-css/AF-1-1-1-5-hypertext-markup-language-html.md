@@ -1,7 +1,5 @@
 ---
 title: "📓 1.1.1.5 Hypertext Markup Language (HTML)"
-id: 1-1-1-5-hypertext-markup-language-html
-hide_table_of_contents: true
 day: monday
 ---
 

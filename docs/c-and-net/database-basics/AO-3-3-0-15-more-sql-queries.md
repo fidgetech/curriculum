@@ -1,7 +1,5 @@
 ---
 title: "📓 3.3.0.15 More SQL Queries"
-id: 3-3-0-15-more-sql-queries
-hide_table_of_contents: true
 day: weekend
 ---
 

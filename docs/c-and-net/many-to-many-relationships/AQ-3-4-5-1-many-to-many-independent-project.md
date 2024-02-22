@@ -1,9 +1,6 @@
 ---
 title: ✏️ 3.4.5.1 Many-To-Many Independent Project
-id: 3-4-5-1-many-to-many-independent-project
-hide_table_of_contents: true
 day: friday
-paginationNext: null
 ---
 
 ## Independent Projects Overview

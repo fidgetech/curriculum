@@ -1,7 +1,5 @@
 ---
 title: "📓 3.1.1.4- Try/Catch Blocks"
-id: 3-1-1-4--trycatch-blocks
-hide_table_of_contents: true
 day: monday
 ---
 

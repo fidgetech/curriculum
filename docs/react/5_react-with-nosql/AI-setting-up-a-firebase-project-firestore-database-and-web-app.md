@@ -1,7 +1,5 @@
 ---
 title: "📓 Setting up a Firebase Project, Firestore Database, and Web App"
-id: setting-up-a-firebase-project-firestore-database-and-web-app
-hide_table_of_contents: true
 day: weekend
 ---
 

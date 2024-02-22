@@ -1,7 +1,5 @@
 ---
 title: "📓 2.1.0.10 Address Book: Finding and Deleting Contacts"
-id: 2-1-0-10-address-book-finding-and-deleting-contacts
-hide_table_of_contents: true
 day: weekend
 ---
 

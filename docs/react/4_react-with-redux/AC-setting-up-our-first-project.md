@@ -1,7 +1,5 @@
 ---
 title: "📓 Setting Up Our First Project"
-id: setting-up-our-first-project
-hide_table_of_contents: true
 day: weekend
 ---
 

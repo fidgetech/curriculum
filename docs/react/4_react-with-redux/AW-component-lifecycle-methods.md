@@ -1,7 +1,5 @@
 ---
 title: "📓 Component Lifecycle Methods"
-id: component-lifecycle-methods
-hide_table_of_contents: true
 day: wednesday
 ---
 

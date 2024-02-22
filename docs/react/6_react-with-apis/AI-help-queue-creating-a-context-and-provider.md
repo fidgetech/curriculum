@@ -1,7 +1,5 @@
 ---
 title: "📓 Help Queue: Creating a Context and Provider"
-id: help-queue-creating-a-context-and-provider
-hide_table_of_contents: true
 day: weekend
 ---
 

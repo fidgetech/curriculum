@@ -1,7 +1,5 @@
 ---
 title: "📓 Building a Static Site"
-id: building-a-static-site
-hide_table_of_contents: true
 day: weekend
 ---
 

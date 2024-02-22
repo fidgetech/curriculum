@@ -1,7 +1,5 @@
 ---
 title: "📓 LinkedIn Profiles"
-id: linkedin-profiles
-hide_table_of_contents: true
 day: weekend
 ---
 

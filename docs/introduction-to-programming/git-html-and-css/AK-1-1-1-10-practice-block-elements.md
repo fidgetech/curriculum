@@ -1,7 +1,5 @@
 ---
 title: '✏️ 1.1.1.10 Practice: Block Elements'
-id: 1-1-1-10-practice-block-elements
-hide_table_of_contents: true
 day: monday
 ---
 

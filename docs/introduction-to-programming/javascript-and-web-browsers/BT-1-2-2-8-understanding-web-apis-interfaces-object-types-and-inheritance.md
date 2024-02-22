@@ -1,7 +1,5 @@
 ---
 title: "📓 1.2.2.8 Understanding Web APIs: Interfaces (Object Types) and Inheritance"
-id: 1-2-2-8-understanding-web-apis-interfaces-object-types-and-inheritance
-hide_table_of_contents: true
 day: tuesday
 ---
 

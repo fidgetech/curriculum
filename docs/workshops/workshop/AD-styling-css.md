@@ -1,7 +1,5 @@
 ---
 title: "📓 Styling CSS"
-id: styling-css
-hide_table_of_contents: true
 day: weekend
 ---
 

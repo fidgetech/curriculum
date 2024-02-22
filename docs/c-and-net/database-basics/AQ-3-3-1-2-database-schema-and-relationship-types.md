@@ -1,7 +1,5 @@
 ---
 title: "📓 3.3.1.2 Database Schema and Relationship Types"
-id: 3-3-1-2-database-schema-and-relationship-types
-hide_table_of_contents: true
 day: monday
 ---
 

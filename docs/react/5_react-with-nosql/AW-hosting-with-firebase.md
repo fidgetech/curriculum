@@ -1,7 +1,5 @@
 ---
 title: "📓 Hosting with Firebase"
-id: hosting-with-firebase
-hide_table_of_contents: true
 day: tuesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Introduction to React Redux Library"
-id: introduction-to-react-redux-library
-hide_table_of_contents: true
 day: weekend
 ---
 

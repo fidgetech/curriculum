@@ -1,7 +1,5 @@
 ---
 title: "📓 The Virtual DOM"
-id: the-virtual-dom
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Redux Store Review"
-id: redux-store-review
-hide_table_of_contents: true
 day: weekend
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Closures"
-id: closures
-hide_table_of_contents: true
 day: weekend
 ---
 

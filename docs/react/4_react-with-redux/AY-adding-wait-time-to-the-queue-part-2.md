@@ -1,7 +1,5 @@
 ---
 title: "📓 Adding Wait Time to the Queue Part 2"
-id: adding-wait-time-to-the-queue-part-2
-hide_table_of_contents: true
 day: wednesday
 ---
 

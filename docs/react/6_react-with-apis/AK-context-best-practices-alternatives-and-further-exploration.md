@@ -1,7 +1,5 @@
 ---
 title: "📓 Context Best Practices, Alternatives, and Further Exploration"
-id: context-best-practices-alternatives-and-further-exploration
-hide_table_of_contents: true
 day: weekend
 ---
 

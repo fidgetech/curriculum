@@ -1,7 +1,5 @@
 ---
 title: "📓 2.2.2.5 ES6 Template Literals"
-id: 2-2-2-5-es6-template-literals
-hide_table_of_contents: true
 day: tuesday
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: "📓 Recognizing Privilege"
-id: recognizing-privilege
-hide_table_of_contents: true
 day: weekend
 ---
 
