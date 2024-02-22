@@ -2,7 +2,14 @@
 
 lhtpDir="$PWD"
 buildDir="$lhtpDir/build"
+scriptDir = "$lhtpDir/scripts"
 deployDir="$HOME/fidgetech/lhtp-build"
+
+cd "$scriptDir" || exit
+
+###### generate sidebars and front matter ######
+node generateSidebars.js
+node updateFrontMatter.js
 
 cd "$lhtpDir" || exit
 
