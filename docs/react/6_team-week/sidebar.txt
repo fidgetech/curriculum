@@ -1,0 +1,12 @@
+team-week-objectives
+git-with-collaborators-setup
+git-with-collaborators-workflow
+rewriting-history-with-git
+learning-more-about-git
+practicing-the-git-workflow
+hosting-a-webpack-project-with-gh-pages
+backend-course-preparation-software-installation
+pull-requests-with-branches
+pull-requests-with-forks
+team-week-presentations-and-independent-project
+prior-course-section-survey
