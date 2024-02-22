@@ -3,6 +3,7 @@ title: ✏️ React Fundamentals Independent Project
 day: friday
 id: react-fundamentals-independent-project
 hide_table_of_contents: true
+paginationNext: null
 ---
 
 ## Independent Projects Overview

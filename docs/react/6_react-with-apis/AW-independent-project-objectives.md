@@ -3,6 +3,7 @@ title: "📓 Independent Project Objectives"
 day: thursday
 id: independent-project-objectives
 hide_table_of_contents: true
+paginationNext: null
 ---
 
 ## Independent Projects Overview

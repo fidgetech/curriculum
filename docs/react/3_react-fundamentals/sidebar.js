@@ -16,6 +16,9 @@ module.exports = {
     "react/react-fundamentals/using-external-stylesheets-with-react",
     "react/react-fundamentals/debugging-with-react-developer-tools",
     "react/react-fundamentals/adding-images",
+    "react/react-fundamentals/journal-9-prompt",
+    "react/react-fundamentals/prior-course-section-survey",
+    "react/react-fundamentals/journal-9-discussion",
     "react/react-fundamentals/help-queue-social-media-airbnb-clone",
     "react/react-fundamentals/introduction-to-state",
     "react/react-fundamentals/planning-our-application-part-2",
@@ -36,13 +39,10 @@ module.exports = {
     "react/react-fundamentals/deleting-a-ticket",
     "react/react-fundamentals/reusing-components",
     "react/react-fundamentals/updating-a-ticket",
+    "react/react-fundamentals/leveraging-linkedin",
     "react/react-fundamentals/help-queue-merch-site-event-logger-day-2",
     "react/react-fundamentals/technical-interview-preparation-react-fundamentals",
     "react/react-fundamentals/whiteboard-practice",
-    "react/react-fundamentals/react-fundamentals-independent-project",
-    "react/react-fundamentals/journal-9-prompt",
-    "react/react-fundamentals/journal-9-discussion",
-    "react/react-fundamentals/leveraging-linkedin",
-    "react/react-fundamentals/prior-course-section-survey"
+    "react/react-fundamentals/react-fundamentals-independent-project"
   ]
 };

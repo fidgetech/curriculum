@@ -12,7 +12,7 @@ module.exports = {
     "react/team-week/backend-course-preparation-software-installation",
     "react/team-week/pull-requests-with-branches",
     "react/team-week/pull-requests-with-forks",
-    "react/team-week/team-week-presentations-and-independent-project",
-    "react/team-week/prior-course-section-survey"
+    "react/team-week/prior-course-section-survey",
+    "react/team-week/team-week-presentations-and-independent-project"
   ]
 };

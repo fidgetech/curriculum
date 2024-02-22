@@ -15,13 +15,18 @@ module.exports = {
     "react/react-with-redux/adding-redux-to-react-part-1",
     "react/react-with-redux/adding-redux-to-react-part-2",
     "react/react-with-redux/adding-redux-to-react-part-3",
+    "react/react-with-redux/journal-10-prompt",
+    "react/react-with-redux/prior-course-section-survey",
+    "react/react-with-redux/journal-10-discussion",
     "react/react-with-redux/redux-help-queue-project-refactor",
     "react/react-with-redux/combining-redux-reducers",
     "react/react-with-redux/adding-combined-reducers-to-react",
     "react/react-with-redux/building-a-react-application-with-redux-from-scratch",
+    "react/react-with-redux/understanding-stereotype-threat",
     "react/react-with-redux/forum-word-puzzle-tic-tac-toe-three-day-project---part-1",
     "react/react-with-redux/action-creators",
     "react/react-with-redux/action-constants",
+    "react/react-with-redux/hosting-a-react-project-with-gh-pages",
     "react/react-with-redux/forum-word-puzzle-tic-tac-toe-three-day-project---part-2-day-2",
     "react/react-with-redux/introduction-to-date-fns",
     "react/react-with-redux/component-lifecycle-methods",
@@ -30,12 +35,7 @@ module.exports = {
     "react/react-with-redux/forum-word-puzzle-tic-tac-toe-three-day-project---part-3-day-3",
     "react/react-with-redux/technical-interview-practice-react-and-redux",
     "react/react-with-redux/whiteboard-practice",
-    "react/react-with-redux/react-with-redux-independent-project",
-    "react/react-with-redux/journal-10-prompt",
-    "react/react-with-redux/journal-10-discussion",
     "react/react-with-redux/applying-for-jobs",
-    "react/react-with-redux/prior-course-section-survey",
-    "react/react-with-redux/understanding-stereotype-threat",
-    "react/react-with-redux/hosting-a-react-project-with-gh-pages"
+    "react/react-with-redux/react-with-redux-independent-project"
   ]
 };

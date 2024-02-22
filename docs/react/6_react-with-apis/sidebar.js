@@ -13,6 +13,10 @@ module.exports = {
     "react/react-with-apis/help-queue-creating-a-context-and-provider",
     "react/react-with-apis/help-queue-adding-context-consumers-and-error-handling",
     "react/react-with-apis/context-best-practices-alternatives-and-further-exploration",
+    "react/react-with-apis/team-week-project-pitch",
+    "react/react-with-apis/journal-12",
+    "react/react-with-apis/prior-course-section-survey",
+    "react/react-with-apis/journal-12-discussion",
     "react/react-with-apis/react-with-api-three-day-project",
     "react/react-with-apis/further-exploration-react-native",
     "react/react-with-apis/further-exploration-seo-with-react",
@@ -20,10 +24,6 @@ module.exports = {
     "react/react-with-apis/further-exploration-data-visualization",
     "react/react-with-apis/further-exploration-animations-with-react",
     "react/react-with-apis/technical-interview-practice-apis-and-further-exploration",
-    "react/react-with-apis/independent-project-objectives",
-    "react/react-with-apis/team-week-project-pitch",
-    "react/react-with-apis/journal-12",
-    "react/react-with-apis/journal-12-discussion",
-    "react/react-with-apis/prior-course-section-survey"
+    "react/react-with-apis/independent-project-objectives"
   ]
 };

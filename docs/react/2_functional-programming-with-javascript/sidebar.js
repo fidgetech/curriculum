@@ -15,6 +15,9 @@ module.exports = {
     "react/functional-programming-with-javascript/map-reduce-and-filter",
     "react/functional-programming-with-javascript/recursion",
     "react/functional-programming-with-javascript/capstone-planning-the-minimum-viable-product",
+    "react/functional-programming-with-javascript/journal-7",
+    "react/functional-programming-with-javascript/journal-7-discussion",
+    "react/functional-programming-with-javascript/prior-course-section-survey",
     "react/functional-programming-with-javascript/coin-counter-sieve",
     "react/functional-programming-with-javascript/whiteboard-practice-closures",
     "react/functional-programming-with-javascript/whiteboard-practice-recursion",
@@ -25,6 +28,7 @@ module.exports = {
     "react/functional-programming-with-javascript/storing-state-in-closures",
     "react/functional-programming-with-javascript/building-a-functional-application-part-1",
     "react/functional-programming-with-javascript/building-a-functional-application-part-2",
+    "react/functional-programming-with-javascript/addressing-implicit-bias",
     "react/functional-programming-with-javascript/power-plant-project-euler",
     "react/functional-programming-with-javascript/whiteboard-practice-composition",
     "react/functional-programming-with-javascript/further-exploration-creating-deep-clones",
@@ -34,13 +38,9 @@ module.exports = {
     "react/functional-programming-with-javascript/capstone-prep-introduction-to-idea-boards",
     "react/functional-programming-with-javascript/capstone-prep-using-employable-skills",
     "react/functional-programming-with-javascript/capstone-prep-what-to-expect",
-    "react/functional-programming-with-javascript/whiteboard-practice",
-    "react/functional-programming-with-javascript/functional-programming-with-javascript-independent-project",
-    "react/functional-programming-with-javascript/journal-7",
-    "react/functional-programming-with-javascript/journal-7-discussion",
     "react/functional-programming-with-javascript/linkedin-profiles",
     "react/functional-programming-with-javascript/indeed-resume",
-    "react/functional-programming-with-javascript/prior-course-section-survey",
-    "react/functional-programming-with-javascript/addressing-implicit-bias"
+    "react/functional-programming-with-javascript/whiteboard-practice",
+    "react/functional-programming-with-javascript/functional-programming-with-javascript-independent-project"
   ]
 };
