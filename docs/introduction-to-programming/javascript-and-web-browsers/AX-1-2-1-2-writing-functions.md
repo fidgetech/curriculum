@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.1.2 Writing Functions"
 day: monday
+id: 1-2-1-2-writing-functions
+hide_table_of_contents: true
 ---
 
 We were first introduced to JavaScript functions in the [Functions]( https://old.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/functions) lesson. In that lesson we familiarized ourselves with function syntax and other important terminology and features. In this lesson, we'll review what we learned and start writing our own custom functions.

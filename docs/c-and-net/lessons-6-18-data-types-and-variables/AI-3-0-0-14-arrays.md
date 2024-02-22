@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.14 Arrays"
 day: weekend
+id: 3-0-0-14-arrays
+hide_table_of_contents: true
 ---
 
 As we learned in Intro, collections like arrays are an important part of programming. We can group things together, loop through them, and manipulate large amounts of data with arrays.

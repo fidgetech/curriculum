@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.4 How the Web Works: Developer Tools"
 day: weekend
+id: 3-2-0-4-how-the-web-works-developer-tools
+hide_table_of_contents: true
 ---
 
 As web developers, we often need to look at the requests and responses that come and go from client and server and back. In this lesson, we are going to look at the Developer Tools in Chrome that offer a peek into the requests and responses in the browser.

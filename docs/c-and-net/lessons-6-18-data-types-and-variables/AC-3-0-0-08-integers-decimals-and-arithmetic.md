@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.08 Integers, Decimals, and Arithmetic"
 day: weekend
+id: 3-0-0-08-integers-decimals-and-arithmetic
+hide_table_of_contents: true
 ---
 
 Let’s look at the data types that represent numbers: integers, longs,  floats, and doubles. Between these four data types, C# covers whole and decimal numbers, as well as numbers with many digits and fewer digits. As we'll see, C# numbers are very similar to JavaScript numbers; the main difference is that JavaScript has fewer data types that represent numbers than in C#. 

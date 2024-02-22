@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.0.2 Welcome to JavaScript and Web Browsers"
 day: weekend
+id: 1-2-0-2-welcome-to-javascript-and-web-browsers
+hide_table_of_contents: true
 ---
 
 Welcome to JavaScript and Web Browsers! In this course section, your web pages are going to go from static to dynamic thanks to JavaScript.

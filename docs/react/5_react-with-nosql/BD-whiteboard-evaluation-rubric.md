@@ -1,6 +1,8 @@
 ---
 title: "📓 Whiteboard Evaluation Rubric"
 day: weekend
+id: whiteboard-evaluation-rubric
+hide_table_of_contents: true
 ---
 
 In this lesson, we will cover the evaluation form that students will use to review their peers' whiteboarding performance. This evaluation form will be filled out on [Epicenter](https://epicenter.epicodus.com/peer_evaluations/new). During an approximately 90-minute session, you will fill out around three evaluation forms depending on the size of your group. Your feedback is anonymous for the students in your group. At the end of the session, you can find the feedback that your peers left you on Epicenter by going to the _Peer evaluations_ tab.

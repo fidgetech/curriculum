@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.42 MSTest Configuration Quick Reference"
 day: weekend
+id: 3-0-0-42-mstest-configuration-quick-reference
+hide_table_of_contents: true
 ---
 
 This lesson is meant to be a handy reference for creating test-driven projects. We'll review what's needed to get MSTest up and running in a C# program, including naming conventions and requirements, project structure, best practices, and writing tests.

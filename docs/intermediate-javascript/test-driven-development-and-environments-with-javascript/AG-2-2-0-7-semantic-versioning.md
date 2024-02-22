@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.7 Semantic Versioning"
 day: weekend
+id: 2-2-0-7-semantic-versioning
+hide_table_of_contents: true
 ---
 
 When we install a JavaScript package, it will include a version number that looks something like this:

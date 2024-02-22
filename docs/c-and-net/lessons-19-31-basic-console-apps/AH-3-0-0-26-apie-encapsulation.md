@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.26 APIE: Encapsulation"
 day: weekend
+id: 3-0-0-26-apie-encapsulation
+hide_table_of_contents: true
 ---
 
 You might still be wondering why we need to use private fields. Why use getters and setters at all, especially since we had access to get and set fields when they were public?

@@ -1,6 +1,9 @@
 ---
 title: "📓 2.0.0.1 Welcome to JavaScript"
 day: weekend
+id: 2-0-0-1-welcome-to-javascript
+hide_table_of_contents: true
+paginationPrev: null
 ---
 
 Welcome to the wonderful world of JavaScript!

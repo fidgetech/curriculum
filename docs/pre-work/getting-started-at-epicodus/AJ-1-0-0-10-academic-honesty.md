@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.10 Academic Honesty"
 day: weekend
+id: 1-0-0-10-academic-honesty
+hide_table_of_contents: true
 ---
 
 Academic honesty at Epicodus is straightforward: show up to class, participate in all classroom activities, and submit your own work on your independent projects. However straightforward our requirements may be, this lesson is meant to go into details about academic honesty at Epicodus and the consequences of being dishonest.

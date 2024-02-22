@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.1.2 Database Schema and Relationship Types"
 day: monday
+id: 3-3-1-2-database-schema-and-relationship-types
+hide_table_of_contents: true
 ---
 
 Every database has a **schema**. A database schema is the structure that represents the way the database is built.  The database schema defines how data is stored in the database tables and how the relations among tables are associated.

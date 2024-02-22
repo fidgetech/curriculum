@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.38 Testing A Private Field through its Getter and Setter Methods"
 day: weekend
+id: 3-0-0-38-testing-a-private-field-through-its-getter-and-setter-methods
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll work on implementing the next simplest behavior for our `Triangle` logic, which is giving triangles a third side:

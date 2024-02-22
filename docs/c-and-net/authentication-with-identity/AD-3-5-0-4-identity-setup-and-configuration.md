@@ -1,6 +1,8 @@
 ---
 title: "📓 3.5.0.4 Identity Setup and Configuration"
 day: weekend
+id: 3-5-0-4-identity-setup-and-configuration
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll add Identity to our To Do List application. This will involve creating a new class to manage user accounts with Identity, updating our `Program.cs` to include Identity in our project, and configuring Identity to work with Entity Framework Core. You can follow this same process to add Identity to any of your projects.

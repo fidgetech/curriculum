@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.3.6 Practice: Using Floats'
 day: wednesday
+id: 1-1-3-6-practice-using-floats
+hide_table_of_contents: true
 ---
 
 **Goal**: In the Laying out with floats lesson, we learned how to use floats to:

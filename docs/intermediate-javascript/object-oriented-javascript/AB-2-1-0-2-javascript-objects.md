@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.0.2 JavaScript Objects"
 day: weekend
+id: 2-1-0-2-javascript-objects
+hide_table_of_contents: true
 ---
 
 JavaScript is an object-oriented programming language. We previously learned that JavaScript implicitly turns (some) primitives like strings, numbers, and booleans into objects. Well, arrays and even the functions we write are also objects in JavaScript. In this lesson, we will explore what it means to be an object in JavaScript.

@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.1.10 Practice: Block Elements'
 day: monday
+id: 1-1-1-10-practice-block-elements
+hide_table_of_contents: true
 ---
 
 **Goal:** Practice creating basic HTML webpages, with special attention toward spacing and indentation. As we begin to explore more and more complex code, proper indentation and spacing will become downright vital to maintaining clean, easy-to-manage projects. Begin developing these good habits now!

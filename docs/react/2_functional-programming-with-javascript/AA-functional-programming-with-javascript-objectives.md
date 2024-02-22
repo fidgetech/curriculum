@@ -1,6 +1,9 @@
 ---
 title: "📓 Functional Programming with JavaScript Objectives"
 day: weekend
+id: functional-programming-with-javascript-objectives
+hide_table_of_contents: true
+paginationPrev: null
 ---
 
 Up to this point, we have focused on object-oriented programming. However, there are other paradigms beyond object-oriented programming. One of the most useful and popular paradigms is **functional programming**. This course section, we will focus on learning how to program using a functional approach.

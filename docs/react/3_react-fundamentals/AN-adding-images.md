@@ -1,6 +1,8 @@
 ---
 title: "📓 Adding Images"
 day: weekend
+id: adding-images
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll cover adding static assets such as images to a React application that uses `create-react-app`. You aren't required to add images for any independent projects. However, you might want to make an application look nicer with images and other graphics, especially any applications that you plan to include in your portfolio.

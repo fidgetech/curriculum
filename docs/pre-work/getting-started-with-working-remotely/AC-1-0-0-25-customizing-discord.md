@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.25 Customizing Discord"
 day: weekend
+id: 1-0-0-25-customizing-discord
+hide_table_of_contents: true
 ---
 
 This lesson covers optional settings you can change in Discord to customize and improve your workflow and share details about yourself.

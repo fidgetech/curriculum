@@ -1,6 +1,8 @@
 ---
 title: "📓 Insertion Sort"
 day: thursday
+id: insertion-sort
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll take a look at the **insertion sort** algorithm. This algorithm uses O(n<sup>2</sup>) time, so it's not a good choice for large lists. Interestingly enough, this algorithm isn't a bad choice for smaller lists, though. Why is that? Well, some of the algorithms that are efficient for large lists have a high constant while the insertion sort algorithm has a low constant. Think of it like this: if you want to give a letter to your neighbor next door, is it faster to just walk next door or deliver it by mail? It's faster to just go next door — because there is no overhead of a constant to worry about. On the other hand, the further away you need to go to mail a letter, the more it makes sense to send it via the post office instead of hand delivering it.

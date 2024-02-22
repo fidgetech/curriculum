@@ -1,6 +1,8 @@
 ---
 title: ✏️ 3.6.3.1 Communicating With An API Part 1
 day: wednesday
+id: 3-6-3-1-communicating-with-an-api-part-1
+hide_table_of_contents: true
 ---
 
 **Goals**: Create an application that consumes an API.

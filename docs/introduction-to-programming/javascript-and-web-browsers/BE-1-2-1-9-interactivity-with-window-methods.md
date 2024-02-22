@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.1.9 Interactivity with Window Methods"
 day: monday
+id: 1-2-1-9-interactivity-with-window-methods
+hide_table_of_contents: true
 ---
 
 So far, none of what we've learned lets us interact with users. Let's try out `window` methods that let us do just that!

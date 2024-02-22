@@ -1,6 +1,10 @@
 ---
 title: "📓 Introduction to Journaling at Epicodus"
 day: weekend
+id: introduction-to-journaling-at-epicodus
+hide_table_of_contents: true
+paginationPrev: null
+paginationNext: null
 ---
 
 This lesson outlines the journaling curriculum at Epicodus. We'll cover exactly how, when, and why you'll journal.

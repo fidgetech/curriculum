@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.3.10 Further Exploration: Regular Expressions with Text Analyzer"
 day: wednesday
+id: 1-3-3-10-further-exploration-regular-expressions-with-text-analyzer
+hide_table_of_contents: true
 ---
 
 In the last lesson, we covered regular expressions in general. Now let's apply them to the text analyzer application we've built. By doing so, we can see just how powerful regular expressions are.

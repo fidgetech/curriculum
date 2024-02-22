@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.0.10 Strings"
 day: weekend
+id: 1-2-0-10-strings
+hide_table_of_contents: true
 ---
 
 We've done a lot with numbers, but there's more to this world than just math. Let's look at words.

@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.09 Independent Projects and Code Reviews"
 day: weekend
+id: 1-0-0-09-independent-projects-and-code-reviews
+hide_table_of_contents: true
 ---
 
 ## [Overview](#overview)

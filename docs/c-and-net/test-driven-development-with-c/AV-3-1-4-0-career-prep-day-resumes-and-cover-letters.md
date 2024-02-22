@@ -1,6 +1,8 @@
 ---
 title: '✏️ 3.1.4.0 Career Prep Day: Resumes and Cover Letters'
 day: thursday
+id: 3-1-4-0-career-prep-day-resumes-and-cover-letters
+hide_table_of_contents: true
 ---
 
 Today we'll be working on job application materials. We'll write a practice resume and cover letter, and we'll spruce up our LinkedIn and Github profiles. We'll work in pairs, helping each other out and giving feedback, but we'll also each work on our own materials.

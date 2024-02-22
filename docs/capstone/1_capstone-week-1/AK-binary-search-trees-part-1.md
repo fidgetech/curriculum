@@ -1,6 +1,8 @@
 ---
 title: "📓 Binary Search Trees Part 1"
 day: monday
+id: binary-search-trees-part-1
+hide_table_of_contents: true
 ---
 
 In the last lesson, we learned about binary tree and binary search tree data structures. Over the next several lessons, we'll build an application that creates a binary search tree from scratch. We'll also learn how to search this BSTs in the process.

@@ -1,6 +1,8 @@
 ---
 title: "📓 Firebase Authentication"
 day: monday
+id: firebase-authentication
+hide_table_of_contents: true
 ---
 
 Let's imagine that we want to expand our Help Queue's functionality for online Epicodus students. We don't want people that aren't students to access the queue — so we'll make the queue accessible only if a user is signed in. Over the next couple of lessons, we'll add this functionality. In this lesson, we'll add Firebase authentication to our `SignIn` component. Then, in the next lesson, we'll add basic authorization so that only signed-in users can add tickets.

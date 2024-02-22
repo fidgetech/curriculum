@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.3.4 Practice: Divs and Spans'
 day: wednesday
+id: 1-1-3-4-practice-divs-and-spans
+hide_table_of_contents: true
 ---
 
 **Goal**: Practice using the the tags we learned in the lesson:

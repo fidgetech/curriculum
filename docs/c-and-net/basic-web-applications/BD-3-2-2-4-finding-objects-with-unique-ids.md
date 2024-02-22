@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.2.4 Finding Objects with Unique IDs"
 day: tuesday
+id: 3-2-2-4-finding-objects-with-unique-ids
+hide_table_of_contents: true
 ---
 
 We'll eventually want users to click an individual `Item` in our To Do List to view its details on a special detail page. To do this, our application needs to differentiate between `Item`s. Otherwise, the server won't know _which_ `Item`'s details to display. That means we need to add a unique ID to our `Item` model. Then we can use routing to differentiate between `Item`s like this: `items/1` and `items/2`.

@@ -1,6 +1,8 @@
 ---
 title: ✏️ Building an API Part 2 (day 2)
 day: tuesday
+id: building-an-api-part-2-day-2
+hide_table_of_contents: true
 ---
 
 **Goal**: Build and test your own API. Once you've completed the basic functionality for your API, review the lesson _Further Exploration with APIs_ to learn about additional API-building objectives.

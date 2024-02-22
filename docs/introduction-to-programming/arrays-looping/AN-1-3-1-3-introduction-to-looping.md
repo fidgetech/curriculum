@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.1.3 Introduction to Looping"
 day: monday
+id: 1-3-1-3-introduction-to-looping
+hide_table_of_contents: true
 ---
 
 Over the next several lessons, we are going to dive into a concept that is often very challenging for beginners: **looping**.

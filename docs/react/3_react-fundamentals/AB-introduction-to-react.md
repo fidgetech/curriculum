@@ -1,6 +1,8 @@
 ---
 title: "📓 Introduction to React"
 day: weekend
+id: introduction-to-react
+hide_table_of_contents: true
 ---
 
 React is a JavaScript library used to create highly dynamic views. In this lesson, we'll explore its history, who uses it, and the functionality and benefits it offers.

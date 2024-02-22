@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.0.6 Parsing JSON"
 day: weekend
+id: 2-3-0-6-parsing-json
+hide_table_of_contents: true
 ---
 
 Before we continue on to making API calls with JavaScript, let's take a look at an example of a potential response from the OpenWeather API. Often an API call will return complex, deeply-nested JSON. Because JSON is just a set of key-value pairs, we can navigate through it just as we would JavaScript properties of an object. 

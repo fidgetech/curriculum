@@ -1,6 +1,8 @@
 ---
 title: "📓 Introduction to ASCII"
 day: wednesday
+id: introduction-to-ascii
+hide_table_of_contents: true
 ---
 
 There are some situations where we might need to convert a letter or a string into a number. For example, when we work with binary numbers, we might need to turn a letter to its binary representation. Some algorithms also require converting letters to numbers. A key example is a hashing algorithm, which requires the ability to convert a string into an index in an array.

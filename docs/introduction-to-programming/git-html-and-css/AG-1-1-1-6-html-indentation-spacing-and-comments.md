@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.1.6 HTML Indentation, Spacing, and Comments"
 day: monday
+id: 1-1-1-6-html-indentation-spacing-and-comments
+hide_table_of_contents: true
 ---
 
 When you are writing HTML (or any other programming language), well-written code follows consistent indentation and spacing patterns. In some languages, indentation and spacing are even required for the code to function properly. While that's not the case with HTML or JavaScript, it's still very important to properly indent our code. Proper indentation makes our code cleaner and more readable. It also makes it easier to prevent bugs.

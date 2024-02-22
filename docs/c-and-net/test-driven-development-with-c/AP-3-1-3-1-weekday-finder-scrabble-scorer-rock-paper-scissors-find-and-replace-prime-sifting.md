@@ -1,6 +1,8 @@
 ---
 title: '✏️ 3.1.3.1 Weekday Finder, Scrabble Scorer, Rock Paper Scissors, Find and Replace, Prime Sifting'
 day: wednesday
+id: 3-1-3-1-weekday-finder-scrabble-scorer-rock-paper-scissors-find-and-replace-prime-sifting
+hide_table_of_contents: true
 ---
 
 **Goal:** Continue building out applications using MSTest and the "Red, Green, Refactor" workflow.

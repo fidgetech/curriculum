@@ -1,6 +1,8 @@
 ---
 title: "📓 3.4.0.5 Many-to-Many Read Functionality"
 day: weekend
+id: 3-4-0-5-many-to-many-read-functionality
+hide_table_of_contents: true
 ---
 
 In the last lesson, we set up a many-to-many structure in our classes, created a join class, and configured and migrated our code into our database. Now we're ready to create controllers that will handle our new application structure. In this lesson, we'll focus on adding read functionality to the `ItemsController`, including the following:

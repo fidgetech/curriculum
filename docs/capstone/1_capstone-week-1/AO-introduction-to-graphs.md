@@ -1,6 +1,8 @@
 ---
 title: "📓 Introduction to Graphs"
 day: tuesday
+id: introduction-to-graphs
+hide_table_of_contents: true
 ---
 
 In computer science, a **graph** (also known as a network) is a collection of **nodes** (also known as vertices) and **edges** (also known as links or relations). We can think of nodes as _things_ while the edges describe the _relationships_ between those things. The study of graphs is known as graph theory and it fits into the larger field of network theory, which is useful for understanding everything from social networks to databases.

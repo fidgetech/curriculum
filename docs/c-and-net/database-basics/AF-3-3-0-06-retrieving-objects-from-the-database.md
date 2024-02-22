@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.0.06 Retrieving Objects From the Database"
 day: weekend
+id: 3-3-0-06-retrieving-objects-from-the-database
+hide_table_of_contents: true
 ---
 
 Now that we've set up MySqlConnector and configured our application to use and protect a database connection string, we're ready to begin opening a database connection and interacting with our database in our application.

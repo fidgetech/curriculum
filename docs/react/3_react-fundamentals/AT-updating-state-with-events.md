@@ -1,6 +1,8 @@
 ---
 title: "📓 Updating State with Events"
 day: monday
+id: updating-state-with-events
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll handle our first event in a React application. We've handled many events before — every time we use functions to respond to a click or a submit button, we are handling an event. There are some fundamental differences to handling events in React, but for the most part, the process is very similar:

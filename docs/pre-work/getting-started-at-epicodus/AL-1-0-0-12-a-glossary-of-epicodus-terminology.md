@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.12 A Glossary of Epicodus Terminology"
 day: weekend
+id: 1-0-0-12-a-glossary-of-epicodus-terminology
+hide_table_of_contents: true
 ---
 
 There's a lot to get used to when getting started at Fidgetech, so we're hoping to make it easier with this short reference of common terminology that we use to describe the structure of our courses, classes, and assignments. Some of these terms are commonly used at Epicodus, but they may not all be used at Fidgetech. If you have any question regarding a term that you come across, please feel free to contact your instructor for clarification. This list is in alphabetical order.

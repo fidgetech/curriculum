@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.3.1 Rewriting Git History with Rebase"
 day: wednesday
+id: 1-3-3-1-rewriting-git-history-with-rebase
+hide_table_of_contents: true
 ---
 
 We always want to include clear and detailed messages with our commits. However, even the most careful developers can make mistakes. Thankfully, Git offers several options to re-write commits.

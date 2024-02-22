@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.2.11 Practice: Markdown'
 day: tuesday
+id: 1-1-2-11-practice-markdown
+hide_table_of_contents: true
 ---
 
 **Goal:** Practice using all the major features of Markdown such as headings, bolding and italicizing text, and making lists.

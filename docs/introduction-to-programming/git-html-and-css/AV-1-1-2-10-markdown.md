@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.2.10 Markdown"
 day: tuesday
+id: 1-1-2-10-markdown
+hide_table_of_contents: true
 ---
 
 Many people think that creating a web page involves really complicated code that requires extensive studying to understand. That's not always the case, though. We are going to learn a simple language called **Markdown** in this lesson that will let you create web pages really easily. 

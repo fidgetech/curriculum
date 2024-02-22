@@ -1,6 +1,8 @@
 ---
 title: "📓 Preparing to Apply for Jobs"
 day: weekend
+id: preparing-to-apply-for-jobs
+hide_table_of_contents: true
 ---
 
 Programming is fun, but job hunting sucks! Some of the best advice that we can offer you is: You are awesome. You've come a really long way, and every one of you is on track to be a great junior dev. If you're not feeling that way, you're not alone — being a junior dev can be intimidating, especially when you're putting yourself out there for jobs. Remember how far you've come since the beginning of class! You know a lot, and you'll be great at your job.

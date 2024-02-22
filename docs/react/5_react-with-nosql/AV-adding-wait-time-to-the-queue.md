@@ -1,6 +1,8 @@
 ---
 title: "📓 Adding Wait Time to the Queue"
 day: tuesday
+id: adding-wait-time-to-the-queue
+hide_table_of_contents: true
 ---
 
 In this lesson we're going to work with the Firestore server timestamp to add a wait time to our Help Queue project. For this refactor, we'll need to complete a few steps:

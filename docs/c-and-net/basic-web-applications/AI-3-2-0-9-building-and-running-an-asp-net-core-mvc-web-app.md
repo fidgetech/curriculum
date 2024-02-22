@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.9 Building and Running an ASP.NET Core MVC Web App"
 day: weekend
+id: 3-2-0-9-building-and-running-an-asp-net-core-mvc-web-app
+hide_table_of_contents: true
 ---
 
 This lesson will cover building, compiling, and launching ASP.NET Core MVC projects so we can run our "Friend Letter" application in the browser.

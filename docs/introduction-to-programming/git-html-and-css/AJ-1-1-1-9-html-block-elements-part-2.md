@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.1.9 HTML Block Elements Part 2"
 day: monday
+id: 1-1-1-9-html-block-elements-part-2
+hide_table_of_contents: true
 ---
 
 Now let's create a second web page using HTML block elements in our `my-first-webpage` project.  We'll have two web pages in our directory.  The new page will list a few of our favorite things.

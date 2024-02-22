@@ -1,6 +1,8 @@
 ---
 title: "📓 Resume and Cover Letter Review"
 day: monday
+id: resume-and-cover-letter-review
+hide_table_of_contents: true
 ---
 
 Before you submit a job application, have somebody else review your resume and cover letter to make sure it looks as good as possible.

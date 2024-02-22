@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.3.11 Git Expectations for Independent Projects"
 day: wednesday
+id: 1-1-3-11-git-expectations-for-independent-projects
+hide_table_of_contents: true
 ---
 
 At the end of most sections, you'll be working on an independent project. These projects can be stressful, especially when you're learning new material. Epicodus is committed to supporting you throughout the process — as long as you are putting the work in. We expect students to work hard, communicate well, and be conscientious, both throughout the program and on independent projects. A good commit history is an important way for you to demonstrate these qualities. We understand if concepts are hard or you just can't get something working on an independent project. But there is no excuse for not putting forth the effort.

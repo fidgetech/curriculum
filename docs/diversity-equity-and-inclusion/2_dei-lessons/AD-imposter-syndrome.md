@@ -1,6 +1,8 @@
 ---
 title: "📓 Imposter Syndrome"
 day: weekend
+id: imposter-syndrome
+hide_table_of_contents: true
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum.

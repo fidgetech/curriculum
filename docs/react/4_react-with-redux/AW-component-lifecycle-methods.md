@@ -1,6 +1,8 @@
 ---
 title: "📓 Component Lifecycle Methods"
 day: wednesday
+id: component-lifecycle-methods
+hide_table_of_contents: true
 ---
 
 **Note:** While you are not expected to incorporate any of the concepts from the homework on date-fns into your independent project, it's important to understand how the component lifecycle works. Pay close attention to the material in this lesson!

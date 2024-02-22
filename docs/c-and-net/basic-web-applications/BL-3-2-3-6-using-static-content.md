@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.3.6 Using Static Content"
 day: wednesday
+id: 3-2-3-6-using-static-content
+hide_table_of_contents: true
 ---
 
 Up to this point, our applications have been pretty plain. In this lesson, we'll cover how to add CSS, images, and JavaScript scripts to our ASP.NET Core MVC web apps.

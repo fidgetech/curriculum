@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.1.4 Address Book: Adding Interactivity"
 day: monday
+id: 2-1-1-4-address-book-adding-interactivity
+hide_table_of_contents: true
 ---
 
 Now that we know how to loop through an object's keys (properties), let's update our user interface code so we can display all of the `Contact`s on our site.

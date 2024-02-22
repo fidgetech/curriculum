@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.0.4 API Documentation and Keys"
 day: weekend
+id: 2-3-0-4-api-documentation-and-keys
+hide_table_of_contents: true
 ---
 
 Just like we covered in the previous lesson, there are many different APIs we can incorporate into our applications. These range from APIs provided by Twitter and YouTube to APIs for the weather forecast, sports scores, and movie databases. For instance, if you wanted information about movies in your application, you could try the IMDB or Rotten Tomatoes API. 

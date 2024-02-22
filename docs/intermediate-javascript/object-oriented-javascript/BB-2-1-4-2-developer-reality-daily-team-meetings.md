@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.4.2 Developer Reality: Daily Team Meetings"
 day: thursday
+id: 2-1-4-2-developer-reality-daily-team-meetings
+hide_table_of_contents: true
 ---
 
 Daily team meetings in tech are called by many names and they are sometimes shaped by the development methodology that a team follows. The most common names for daily team meetings is “stand-up”, “morning roll call”, “daily huddle”, or “daily scrum”, but it could be named anything. In this lesson, we’ll explain what to expect from these team meetings: we’ll dive into the daily team meeting and inclusive language choices, discuss other types of team meetings, and learn a bit about Agile and Scrum.

@@ -1,6 +1,8 @@
 ---
 title: '✏️ Coin Counter, Sieve'
 day: monday
+id: coin-counter-sieve
+hide_table_of_contents: true
 ---
 
 **Goal:** Get comfortable with the basics of functional programming. Practice writing pure functions, closures, curried functions, and recursive functions.

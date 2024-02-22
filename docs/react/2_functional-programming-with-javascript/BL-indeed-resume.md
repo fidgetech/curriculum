@@ -1,6 +1,8 @@
 ---
 title: ✏️ Indeed Resume
 day: thursday
+id: indeed-resume
+hide_table_of_contents: true
 ---
 
 # Indeed Resume

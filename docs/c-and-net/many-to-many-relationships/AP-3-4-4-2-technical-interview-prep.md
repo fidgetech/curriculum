@@ -1,6 +1,8 @@
 ---
 title: "📓 3.4.4.2 Technical Interview Prep"
 day: thursday
+id: 3-4-4-2-technical-interview-prep
+hide_table_of_contents: true
 ---
 
 At the end of every course section, we'll take a break from coding to practice interview questions. These questions will (primarily) revolve around the content we learned in this section, and, much like a "real" interview, some will be more technical than others.

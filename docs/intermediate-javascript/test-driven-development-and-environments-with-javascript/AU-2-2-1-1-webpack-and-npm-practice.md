@@ -1,6 +1,8 @@
 ---
 title: ✏️ 2.2.1.1 webpack and npm Practice
 day: monday
+id: 2-2-1-1-webpack-and-npm-practice
+hide_table_of_contents: true
 ---
 
 **Goal**: Practice using npm and webpack to streamline your development process.

@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.0.4 Constructors and Prototypes"
 day: weekend
+id: 2-1-0-4-constructors-and-prototypes
+hide_table_of_contents: true
 ---
 
 In this lesson, we're going to explore how JavaScript uses constructors as blueprints for the creation of many new objects of the same type, and prototypes for adding properties and methods to objects.

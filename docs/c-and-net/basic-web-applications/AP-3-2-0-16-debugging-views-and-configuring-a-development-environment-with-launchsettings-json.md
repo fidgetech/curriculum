@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.16 Debugging Views and Configuring a Development Environment with launchSettings.json"
 day: weekend
+id: 3-2-0-16-debugging-views-and-configuring-a-development-environment-with-launchsettings-json
+hide_table_of_contents: true
 ---
 
 Sometimes we have written a good program that compiles nicely. We build the project, run the server, and navigate to our app. At some point while navigating through our pages, we get an error and a page isn't returned. This generally results in a 500 server error message in the browser. (We'll cover server messages later.) Unfortunately, this vague message isn't helpful for debugging our code.

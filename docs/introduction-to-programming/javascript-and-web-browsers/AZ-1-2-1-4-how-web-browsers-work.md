@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.1.4 How Web Browsers Work"
 day: monday
+id: 1-2-1-4-how-web-browsers-work
+hide_table_of_contents: true
 ---
 
 There are many standard structures in place that define how the internet works and how websites get loaded into our browsers. Throughout the program, we'll incrementally learn about these subjects, and this lesson is one of our first opportunities. 

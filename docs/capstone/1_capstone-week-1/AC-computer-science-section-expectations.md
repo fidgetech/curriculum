@@ -1,6 +1,8 @@
 ---
 title: "📓 Computer Science Section Expectations"
 day: weekend
+id: computer-science-section-expectations
+hide_table_of_contents: true
 ---
 
 Over the next five weeks, we'll be covering key computer science concepts that are taught in computer science programs and elsewhere. In _Cracking the Coding Interview_, Gayle Laakmann McDowell includes a list of basic, must-have knowledge for coding interviews. Our computer science curriculum is modeled around covering these recommended concepts because they provide an excellent structure for learning computer science and improving your coding interview skills.

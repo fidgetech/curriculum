@@ -1,6 +1,8 @@
 ---
 title: "📓 React with APIs Development Project"
 day: weekend
+id: react-with-apis-development-project
+hide_table_of_contents: true
 ---
 
 So far, we've only really touched on the front-end world of development for web applications. In the next course, you will be learning the ins and outs of databases and back-end development techniques and best practices. At the end of C#, you will be able to create your own API to store and fetch data. Until then, this current course section will serve as a good introduction into using React to call upon APIs - and in the future, you may choose to combine a React and C# application as a full-stack project. 

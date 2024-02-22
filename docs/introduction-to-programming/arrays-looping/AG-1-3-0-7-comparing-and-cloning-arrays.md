@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.0.7 Comparing and Cloning Arrays"
 day: weekend
+id: 1-3-0-7-comparing-and-cloning-arrays
+hide_table_of_contents: true
 ---
 
 Unlike other data types we've seen so far, we can't compare two arrays by using the `===` comparison operator. In JavaScript, two primitive data type values can be equal. For example, "abc" is the same as any other "abc". But arrays are different — **no two arrays are the same, even if they have the exact same elements inside**.

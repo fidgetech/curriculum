@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.1.7 Practice: Accessing Window Properties'
 day: monday
+id: 1-2-1-7-practice-accessing-window-properties
+hide_table_of_contents: true
 ---
 
 **Goal:** In the "Accessing Window Properties" lesson, we learned:

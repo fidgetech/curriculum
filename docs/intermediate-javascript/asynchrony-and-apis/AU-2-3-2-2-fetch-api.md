@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.2.2 Fetch API"
 day: tuesday
+id: 2-3-2-2-fetch-api
+hide_table_of_contents: true
 ---
 
 Now that we have experience creating and using `XMLHttpRequest` objects to make API calls, let's simplify our code even further. While `XMLHttpRequest` objects get the job done, there are other methods that use `XMLHttpRequest` objects under the hood while making our lives easier as developers.

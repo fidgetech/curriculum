@@ -1,6 +1,8 @@
 ---
 title: "📓 Sprucing Up GitHub"
 day: thursday
+id: sprucing-up-github
+hide_table_of_contents: true
 ---
 
 When you apply for a job or internship, employers will want to see code you've written so that they know what you're capable of doing. Spend some time getting your GitHub profile looking good.

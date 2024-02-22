@@ -1,6 +1,8 @@
 ---
 title: "📓 LinkedIn Profiles"
 day: weekend
+id: linkedin-profiles
+hide_table_of_contents: true
 ---
 
 # LinkedIn Profiles

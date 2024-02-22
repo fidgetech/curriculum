@@ -1,6 +1,8 @@
 ---
 title: "📓 Interactivity with JavaScript and jQuery"
 day: weekend
+id: interactivity-with-javascript-and-jquery
+hide_table_of_contents: true
 ---
 
 While an `alert()` can be helpful for beginning programmers, we generally don't want to use them in our applications. Ideally, we want as much of our functionality to happen on the page as possible. In this lesson, we'll create a form where users can type in a goal. When the goal is submitted, it will then be added to our list of goals.

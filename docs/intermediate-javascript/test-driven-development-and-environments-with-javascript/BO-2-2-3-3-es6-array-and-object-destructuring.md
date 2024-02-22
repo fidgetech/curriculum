@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.3.3 ES6 Array and Object Destructuring"
 day: wednesday
+id: 2-2-3-3-es6-array-and-object-destructuring
+hide_table_of_contents: true
 ---
 
 One of the most popular ES6 features is object and array **destructuring**. Destructuring is the process of taking specific elements from an array or properties from an object and then turning them into variables. 

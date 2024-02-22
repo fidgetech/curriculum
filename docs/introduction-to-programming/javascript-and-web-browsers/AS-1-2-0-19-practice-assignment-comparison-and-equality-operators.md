@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.0.19 Practice: Assignment, Comparison, and Equality Operators'
 day: weekend
+id: 1-2-0-19-practice-assignment-comparison-and-equality-operators
+hide_table_of_contents: true
 ---
 
 **Goal:**  In the Assignment, Comparison, and Equality Operators lesson, we learned:

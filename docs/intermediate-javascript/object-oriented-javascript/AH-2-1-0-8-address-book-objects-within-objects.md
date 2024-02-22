@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.0.8 Address Book: Objects Within Objects"
 day: weekend
+id: 2-1-0-8-address-book-objects-within-objects
+hide_table_of_contents: true
 ---
 
 In a real world application, we'd save our address book's `Contact`s in a database. However, we aren't working with databases yet. Instead, we'll create a mock database (a fake database) and store its data inside a global variable.

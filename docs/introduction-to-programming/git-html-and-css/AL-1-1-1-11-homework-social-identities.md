@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.1.11 Homework: Social Identities"
 day: monday
+id: 1-1-1-11-homework-social-identities
+hide_table_of_contents: true
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. In fact, it’s our very first lesson! This week, we will cover social identities. 

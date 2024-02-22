@@ -1,6 +1,8 @@
 ---
 title: ✏️ LinkedIn Profiles
 day: thursday
+id: linkedin-profiles
+hide_table_of_contents: true
 ---
 
 # LinkedIn Profiles

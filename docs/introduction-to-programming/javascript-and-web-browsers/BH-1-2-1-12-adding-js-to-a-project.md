@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.1.12 Adding JS to a Project"
 day: monday
+id: 1-2-1-12-adding-js-to-a-project
+hide_table_of_contents: true
 ---
 
 So far we've written all of our JavaScript in the DevTools console. This works for simple practice exercises, but it quickly becomes unwieldy as we want to write longer scripts (JavaScript). In this lesson, we'll learn how to create a project with JavaScript as we continue to practice writing functions and using `window` methods.

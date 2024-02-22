@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.4.9 Customizing Styles with Bootstrap"
 day: thursday
+id: 1-1-4-9-customizing-styles-with-bootstrap
+hide_table_of_contents: true
 ---
 
 We will often be using Bootstrap to style your pages. The Bootstrap website documents in detail how to use all of the styles it provides. Just take the time to read through the documentation and refer back to it when needed.

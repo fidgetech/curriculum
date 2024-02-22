@@ -1,6 +1,8 @@
 ---
 title: "📓 NY Times API: Writing and Testing our Reducer and Actions"
 day: weekend
+id: ny-times-api-writing-and-testing-our-reducer-and-actions
+hide_table_of_contents: true
 ---
 
 We're now ready to start refactoring our New York Times (NYT) API application to use the `useReducer()` hook to handle state. However, we're going to go a few steps further than we did in the last lesson: we're going to write action creators and action constants for our actions, and we're going to fully test our reducer and action creators. 

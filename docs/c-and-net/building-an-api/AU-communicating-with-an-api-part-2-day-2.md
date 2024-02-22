@@ -1,6 +1,8 @@
 ---
 title: ✏️ Communicating With An API Part 2 (day 2)
 day: thursday
+id: communicating-with-an-api-part-2-day-2
+hide_table_of_contents: true
 ---
 
 **Goals**: Create an application that consumes an API.

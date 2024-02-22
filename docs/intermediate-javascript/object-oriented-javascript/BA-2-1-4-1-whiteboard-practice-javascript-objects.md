@@ -1,6 +1,8 @@
 ---
 title: '✏️ 2.1.4.1 Whiteboard Practice: JavaScript Objects'
 day: thursday
+id: 2-1-4-1-whiteboard-practice-javascript-objects
+hide_table_of_contents: true
 ---
 
 ## Whiteboard Practice

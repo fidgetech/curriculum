@@ -1,6 +1,8 @@
 ---
 title: ✏️ Bit Manipulation Practice
 day: wednesday
+id: bit-manipulation-practice
+hide_table_of_contents: true
 ---
 
 Now it's time to practice using bitwise manipulation. The problems below are sorted from easiest to hardest. See if you can try solving them with a whiteboard. If not, solving them in VS Code is fine, too.

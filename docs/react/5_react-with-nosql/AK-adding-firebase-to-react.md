@@ -1,6 +1,8 @@
 ---
 title: "📓 Adding Firebase to React"
 day: weekend
+id: adding-firebase-to-react
+hide_table_of_contents: true
 ---
 
 We're ready to connect our Help Queue application to Firebase! To do this, we'll need to complete three steps:

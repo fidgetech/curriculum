@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.3.3.5 Practice: Looping with for'
 day: wednesday
+id: 1-3-3-5-practice-looping-with-for
+hide_table_of_contents: true
 ---
 
 **Goal**:  In the last lesson, we learned:

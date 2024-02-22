@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.2.3 Async and Await"
 day: tuesday
+id: 2-3-2-3-async-and-await
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll cover async functions, a relatively new JavaScript feature that was added in ES 2017. (Remember that ES6 is ECMAScript 2015.) While you aren't required to use async functions for the independent project, they are a really useful piece of JavaScript functionality and definitely a tool you should know about and be familiar with.

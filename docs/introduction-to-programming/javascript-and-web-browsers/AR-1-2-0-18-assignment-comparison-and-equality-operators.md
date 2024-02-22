@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.0.18 Assignment, Comparison, and Equality Operators"
 day: weekend
+id: 1-2-0-18-assignment-comparison-and-equality-operators
+hide_table_of_contents: true
 ---
 
 JavaScript has many operators for many different situations. We've already learned about a two types of operators: 

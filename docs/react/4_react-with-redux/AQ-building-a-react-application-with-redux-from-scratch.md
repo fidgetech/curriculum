@@ -1,6 +1,8 @@
 ---
 title: "📓 Building a React Application with Redux From Scratch"
 day: monday
+id: building-a-react-application-with-redux-from-scratch
+hide_table_of_contents: true
 ---
 
 So far, we've focused on refactoring our React Help Queue application to incorporate Redux. However, what should we do if we want to build a React application with Redux from the ground up?

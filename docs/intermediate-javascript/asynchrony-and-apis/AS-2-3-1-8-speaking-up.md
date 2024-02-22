@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.1.8 Speaking Up"
 day: monday
+id: 2-3-1-8-speaking-up
+hide_table_of_contents: true
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week we will discuss speaking up against hurtful language or behavior. 

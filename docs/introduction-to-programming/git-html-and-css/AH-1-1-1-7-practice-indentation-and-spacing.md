@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.1.7 Practice: Indentation and Spacing'
 day: monday
+id: 1-1-1-7-practice-indentation-and-spacing
+hide_table_of_contents: true
 ---
 
 **Goal:** Continue developing good indentation and spacing habits while simultaneously exploring the anatomy of a basic website, and practicing cloning Git repositories. These skills will be used nonstop during your time at Epicodus.

@@ -1,6 +1,8 @@
 ---
 title: "📓 Further Exploration Opportunities"
 day: wednesday
+id: further-exploration-opportunities
+hide_table_of_contents: true
 ---
 
 If you take one glance at the Firebase docs, you know that there's a whole lot we can do with its many services! In this lesson, we'll take a look at a few opportunities for further exploration within Firebase, React Router, and React. 

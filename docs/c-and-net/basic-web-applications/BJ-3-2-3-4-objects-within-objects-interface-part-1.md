@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.3.4 Objects Within Objects Interface Part 1"
 day: wednesday
+id: 3-2-3-4-objects-within-objects-interface-part-1
+hide_table_of_contents: true
 ---
 
 In the last two lessons, we updated our back end logic to support `Category` objects. All To Do List `Item`s will now belong to a parent `Category`, allowing our users to better organize their tasks. As we've discussed, this setup is referred to as **objects within objects**.

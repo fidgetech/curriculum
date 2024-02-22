@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.27 Static Class Members"
 day: weekend
+id: 3-0-0-27-static-class-members
+hide_table_of_contents: true
 ---
 
 We've learned how to create and call **instance** class members, which are called on an object of a specific type. We also learned how to call built-in **static** methods, which are called on the class, like `Console.WriteLine()`. In this lesson, we'll complete our practice with static and instance class members by adding a static field and method to our `Triangle` class. Since we'll continue to make our fields private and expose public methods to access the fields, this will be another example of encapsulation.

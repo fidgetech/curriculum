@@ -1,6 +1,8 @@
 ---
 title: "📓 Customizing Entity Properties with Data Annotations"
 day: monday
+id: customizing-entity-properties-with-data-annotations
+hide_table_of_contents: true
 ---
 
 At the end of the lesson on model validation with validation attributes, we added two validation attributes to our `Item` model: we made the `Item.Description` property `[Required]`, and we set a `[Range]` between 1 and the integer's max value for the `Item.CategoryId` property. 

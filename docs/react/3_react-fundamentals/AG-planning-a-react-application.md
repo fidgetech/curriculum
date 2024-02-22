@@ -1,6 +1,8 @@
 ---
 title: "📓 Planning a React Application"
 day: weekend
+id: planning-a-react-application
+hide_table_of_contents: true
 ---
 
 Before we start coding our site, let's plan the UI for our Help Queue application. At this point, we aren't going to worry about adding or changing state in our application. Our site will be entirely static and we will only have function components. This is actually the **recommended way** to build a React site. State gets complicated fast. If we start adding state without planning our application first, we'll be much more likely to write bad code and end up with frustrating bugs.

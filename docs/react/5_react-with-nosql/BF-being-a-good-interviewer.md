@@ -1,6 +1,8 @@
 ---
 title: "📓 Being a Good Interviewer"
 day: weekend
+id: being-a-good-interviewer
+hide_table_of_contents: true
 ---
 
 During your whiteboard session next week, you will play the part of interviewer for three other students. In this lesson, we will set some ground rules for your role as an interviewer. This will help ensure that everyone has a good opportunity to practice whiteboarding in as close to a realistic professional environment as possible. Being on the other side of the process can also give you valuable insight into what interviewers are looking for — and how they are trying to interact with you.

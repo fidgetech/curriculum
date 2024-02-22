@@ -1,6 +1,8 @@
 ---
 title: "📓 Writing Your Cover Letter 2"
 day: monday
+id: writing-your-cover-letter-2
+hide_table_of_contents: true
 ---
 
 After following the steps depicted in the previous lesson, we're now ready to actually write the cover letter.

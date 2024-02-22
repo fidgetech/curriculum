@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.15 Using Forms with MVC"
 day: weekend
+id: 3-2-0-15-using-forms-with-mvc
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll learn how to add forms to our virtual postcard application so anyone can create a custom postcard for their friends.

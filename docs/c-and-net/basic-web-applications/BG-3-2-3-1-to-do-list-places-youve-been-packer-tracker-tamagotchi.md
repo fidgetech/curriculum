@@ -1,6 +1,8 @@
 ---
 title: '✏️ 3.2.3.1 To Do List, Places You''ve Been, Packer Tracker, Tamagotchi'
 day: wednesday
+id: 3-2-3-1-to-do-list-places-youve-been-packer-tracker-tamagotchi
+hide_table_of_contents: true
 ---
 
 **Goal:** Practice making ASP.NET Core MVC apps that use RESTfully named routes and include CRUD functionality. Each class in each project _must_ include a constructor, getters and setters, private properties, and methods for `GetAll()` and `ClearAll()`.

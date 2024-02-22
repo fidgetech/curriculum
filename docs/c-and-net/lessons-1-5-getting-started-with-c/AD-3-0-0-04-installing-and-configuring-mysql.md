@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.04 Installing and Configuring MySQL"
 day: weekend
+id: 3-0-0-04-installing-and-configuring-mysql
+hide_table_of_contents: true
 ---
 
 **MySQL** is a type of database software used to create, edit, query, and manage SQL data.

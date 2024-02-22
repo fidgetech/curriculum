@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.0.5 Using the DevTools Console for Practice and Pair Programming"
 day: weekend
+id: 1-2-0-5-using-the-devtools-console-for-practice-and-pair-programming
+hide_table_of_contents: true
 ---
 
 We'll be using the DevTools console to try out JavaScript code. In this lesson, we'll cover the expectations and tips for using the DevTools console in personal coding practice and in pair/team programming.

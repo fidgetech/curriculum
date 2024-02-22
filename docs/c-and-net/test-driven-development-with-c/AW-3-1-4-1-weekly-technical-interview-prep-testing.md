@@ -1,6 +1,8 @@
 ---
 title: "📓 3.1.4.1 Weekly Technical Interview Prep: Testing"
 day: thursday
+id: 3-1-4-1-weekly-technical-interview-prep-testing
+hide_table_of_contents: true
 ---
 
 At the end of every section, we'll take a break from coding to practice interview questions with our partner. These questions will (primarily) revolve around the content we learned in the section, and, much like a "real" interview, some will be more technical than others.

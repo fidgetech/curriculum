@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.1.4 Setting Up Jest"
 day: monday
+id: 2-2-1-4-setting-up-jest
+hide_table_of_contents: true
 ---
 
 There are many JavaScript testing frameworks. Some of the most popular include **Jest**, **Jasmine**, and **Mocha**. These libraries have many similarities, and after learning one, you can quickly learn others. We use Jest because it is the testing framework of choice for React. It's also a popular testing framework for JavaScript in general.

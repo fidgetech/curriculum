@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.1.7 Loops and Conditionals with Razor"
 day: monday
+id: 3-2-1-7-loops-and-conditionals-with-razor
+hide_table_of_contents: true
 ---
 
 In the last lesson, we updated our controller code to return a `List` of `Item`s. In this lesson, we're ready to update our view to properly display that `List`. In the process, we'll cover adding loops and conditionals to a view.

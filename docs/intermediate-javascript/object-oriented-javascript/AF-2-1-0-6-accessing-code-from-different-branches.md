@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.0.6 Accessing Code From Different Branches"
 day: weekend
+id: 2-1-0-6-accessing-code-from-different-branches
+hide_table_of_contents: true
 ---
 
 In this section, we will be providing a repository that you can use as a reference as you work through the lessons. There will be links to this repository throughout the section. However, each link will be to a **different branch** in the repository.

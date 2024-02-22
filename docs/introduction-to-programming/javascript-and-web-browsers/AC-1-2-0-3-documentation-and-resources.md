@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.0.3 Documentation and Resources"
 day: weekend
+id: 1-2-0-3-documentation-and-resources
+hide_table_of_contents: true
 ---
 
 JavaScript has been around for many years and there are many places for documentation and help online. Be wary of the resources you find online. There is a *lot* of bad information out there, especially on JavaScript.  There are also many conflicting opinions about ways to accomplish the same task.  

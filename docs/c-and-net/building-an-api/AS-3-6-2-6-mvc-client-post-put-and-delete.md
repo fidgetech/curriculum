@@ -1,6 +1,8 @@
 ---
 title: "📓 3.6.2.6 MVC Client: POST, PUT, and DELETE"
 day: tuesday
+id: 3-6-2-6-mvc-client-post-put-and-delete
+hide_table_of_contents: true
 ---
 
 Over the last two lessons, we've written methods to GET data from our API. Now we're ready to add methods to POST, PUT, and DELETE data. 

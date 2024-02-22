@@ -1,6 +1,8 @@
 ---
 title: "📓 Introduction to Big O Notation"
 day: monday
+id: introduction-to-big-o-notation
+hide_table_of_contents: true
 ---
 
 **Big O notation** is an essential computer science concept — and probably the most important concept you'll learn in this course. We can use Big O to describe the overall performance of an algorithm. Big O is short for _order of_, which we can also think of as the algorithm's rate of growth, whether that rate of growth is the amount of time the algorithm takes or the space it takes up in memory. In other words, Big O is used both to measure the **runtime** of an algorithm (how long it takes to execute) and the **space** of an algorithm (how much space it takes in memory). Generally, the most common concern is Big O runtime but we'll also briefly touch on Big O space as well.

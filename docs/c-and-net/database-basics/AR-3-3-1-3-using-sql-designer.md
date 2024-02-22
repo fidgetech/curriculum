@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.1.3 Using SQL Designer"
 day: monday
+id: 3-3-1-3-using-sql-designer
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll walk through the process of using [SQL Designer](https://ondras.zarovi.cz/sql/demo/), a simple tool for creating and visualizing SQL database relationships.

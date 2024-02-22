@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.3 Basic Project Structure"
 day: weekend
+id: 2-2-0-3-basic-project-structure
+hide_table_of_contents: true
 ---
 
 Over the course of this section, we will build an application called **Shape Tracker** based on the [Triangle Tracker](https://old.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/practice-triangle-tracker) project from the Introduction to Programming course. There's a good chance you have a repo with your own triangle project, but even if you don't (or it's not working), don't worry. We will walk through the project step by step. 

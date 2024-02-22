@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.0.3 Introduction to APIs"
 day: weekend
+id: 2-3-0-3-introduction-to-apis
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll discuss the general concept of APIs, including what they are and how they work. This lesson is only meant to be a quick overview of APIs. We'll learn a lot more about how they work in future lessons.

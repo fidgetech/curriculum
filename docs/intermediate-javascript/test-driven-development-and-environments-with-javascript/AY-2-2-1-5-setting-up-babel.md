@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.1.5 Setting Up Babel"
 day: monday
+id: 2-2-1-5-setting-up-babel
+hide_table_of_contents: true
 ---
 
 Before we begin writing our tests, we'll need to add Babel to our application. **Babel** is a tool that is most commonly used for transforming newer versions of JavaScript into older versions of JavaScript. Babel is essential because there are many newer features in JavaScript that older browsers don't understand. However, we still want to use these new JS features because they will make our code cleaner, more efficient and easier to read. In fact, we'll be covering some of these newer JavaScript features over the next few weeks. 

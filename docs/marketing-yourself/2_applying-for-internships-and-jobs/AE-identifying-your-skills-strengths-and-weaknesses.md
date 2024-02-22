@@ -1,6 +1,8 @@
 ---
 title: "📓 Identifying Your Skills, Strengths, and Weaknesses"
 day: weekend
+id: identifying-your-skills-strengths-and-weaknesses
+hide_table_of_contents: true
 ---
 
 One of the most important pieces of any job search are the practical skills that you bring to the roles you apply for. Every student has a different path that has led them to tech — different work experience, different education, different volunteer opportunities, different hobbies, and as an extension of all of these, different skills. Many of the skills you have developed in past experience are relevant to the kinds of roles you’ll be applying to in the tech field, regardless of what background you have. 

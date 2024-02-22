@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.4.12 Practice: Recreate a Site with Bootstrap'
 day: thursday
+id: 1-1-4-12-practice-recreate-a-site-with-bootstrap
+hide_table_of_contents: true
 ---
 
 **Goal**: Practice everything we've learned so far by re-creating a real website using block and inline HTML elements, custom CSS, and Bootstrap classes.  Keep an eye out for correct indentation, and descriptive Git commit messages in the correct tense.  

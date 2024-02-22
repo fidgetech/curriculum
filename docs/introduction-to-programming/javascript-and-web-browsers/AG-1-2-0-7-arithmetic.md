@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.0.7 Arithmetic"
 day: weekend
+id: 1-2-0-7-arithmetic
+hide_table_of_contents: true
 ---
 
 **Note:** If you are a remote student and you are going through these lessons with a pair, you'll need to screen share your Chrome DevTools console with your pair (more instructions below). We prioritize using the browser console (and other developer tools) because it's such a vital tool to be proficient with as a developer.

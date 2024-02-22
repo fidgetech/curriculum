@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.4.2 Form Input Types"
 day: thursday
+id: 1-2-4-2-form-input-types
+hide_table_of_contents: true
 ---
 
 We've already seen how to gather input from text fields, but there are a variety of other types of form fields as well: select boxes, radio buttons, and checkboxes are perhaps the most prominent.

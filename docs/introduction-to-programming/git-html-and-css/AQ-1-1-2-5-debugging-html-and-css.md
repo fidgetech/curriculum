@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.2.5 Debugging HTML and CSS"
 day: tuesday
+id: 1-1-2-5-debugging-html-and-css
+hide_table_of_contents: true
 ---
 
 Learning to debug is an essential skill to pick up early on. There are many debugging techniques. Here are a few tools that are very helpful for debugging HTML & CSS.

@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.1.3 Looping Through Objects and Prototypal Inheritance"
 day: monday
+id: 2-1-1-3-looping-through-objects-and-prototypal-inheritance
+hide_table_of_contents: true
 ---
 
 In order to display all of the contacts in our application, we're going to need to loop through our address book's contacts. However, since our contacts are all stored in an object, we have to do this differently than we would with looping through an array.

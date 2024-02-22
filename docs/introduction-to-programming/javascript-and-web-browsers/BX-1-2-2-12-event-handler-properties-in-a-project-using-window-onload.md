@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.2.12 Event Handler Properties in a Project: Using window.onload"
 day: tuesday
+id: 1-2-2-12-event-handler-properties-in-a-project-using-window-onload
+hide_table_of_contents: true
 ---
 
 So far we've been practicing new code and concepts using the DevTools console. We've learned how to:

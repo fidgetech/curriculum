@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.0.15 More SQL Queries"
 day: weekend
+id: 3-3-0-15-more-sql-queries
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll briefly explore some of the most common SQL clauses and operators.

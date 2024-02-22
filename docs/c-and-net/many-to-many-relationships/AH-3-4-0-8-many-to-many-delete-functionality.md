@@ -1,6 +1,8 @@
 ---
 title: "📓 3.4.0.8 Many-to-Many Delete Functionality"
 day: weekend
+id: 3-4-0-8-many-to-many-delete-functionality
+hide_table_of_contents: true
 ---
 
 In this lesson we'll complete our refactor to include a many-to-many functionality between tags and items by adding delete functionality. We'll add delete functionality for `Tag`s and delete functionality for `ItemTag`s.

@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.1.8 Debugging in JavaScript: Reading Console Errors"
 day: monday
+id: 1-2-1-8-debugging-in-javascript-reading-console-errors
+hide_table_of_contents: true
 ---
 
 One of the most important parts of being a developer is debugging. We'll often run into bugs in our code — and the code of others, too. Fortunately, there are many tools at our disposal for debugging JavaScript code. During this course section, we will cover four commonly used tools that can help you narrow down the source of your bugs:

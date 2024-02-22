@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.2.4 CSS: Styling Text and Best Practices"
 day: tuesday
+id: 1-1-2-4-css-styling-text-and-best-practices
+hide_table_of_contents: true
 ---
 
 I'll be the first to admit it: the web pages we've made so far are pretty ugly. Let's learn our first **CSS**, which stands for **Cascading Style Sheets**. They're called *cascading* because often a single element on a webpage will have multiple sources that style it, and CSS resolves those differences to create the style you see on the screen. But we'll get into more of that later.

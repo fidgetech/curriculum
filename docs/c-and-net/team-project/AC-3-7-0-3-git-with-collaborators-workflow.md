@@ -1,6 +1,8 @@
 ---
 title: "📓 3.7.0.3 Git with Collaborators: Workflow"
 day: weekend
+id: 3-7-0-3-git-with-collaborators-workflow
+hide_table_of_contents: true
 ---
 
 When we work on a development project as a collaborator, we have commit privileges to the main repository on GitHub.  The development workflow for collaborators in a team takes advantage of some Git functionality that we don't often use on pair projects: **Branching** and **merging**.  Below is a _general_ outline of this workflow. Use this lesson as a reference when working on your group project this week:

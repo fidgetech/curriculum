@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.0.3 Static versus Instance with Built-In JS Objects"
 day: weekend
+id: 1-3-0-3-static-versus-instance-with-built-in-js-objects
+hide_table_of_contents: true
 ---
 
 You may have noticed references to "instance" or "static" when perusing JavaScript string or number methods on MDN documentation. Or maybe you decided to explore JavaScript's Math library and used a method that looks like this:

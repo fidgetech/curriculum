@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.3.4 Looping with for"
 day: wednesday
+id: 1-3-3-4-looping-with-for
+hide_table_of_contents: true
 ---
 
 `Array.prototype.forEach()` is a relatively new addition to JavaScript. Under the hood, it uses what's known as a `for` loop.

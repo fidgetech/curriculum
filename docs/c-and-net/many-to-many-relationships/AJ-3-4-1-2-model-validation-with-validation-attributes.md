@@ -1,6 +1,8 @@
 ---
 title: "📓 3.4.1.2 Model Validation with Validation Attributes"
 day: monday
+id: 3-4-1-2-model-validation-with-validation-attributes
+hide_table_of_contents: true
 ---
 
 In the last course section, we created instructions and used simple condition to avoid creating a database error if a user tries to create an `Item` without there being a `Category` to associate it with. In the `Items/Create.cshtml` view we added this message:

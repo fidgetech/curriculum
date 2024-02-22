@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.09 Variables"
 day: weekend
+id: 3-0-0-09-variables
+hide_table_of_contents: true
 ---
 
 Declaring variables in C# looks slightly different from declaring variables in Javascript. We already got a sense of how variables are declared in the previous two lessons from a few code examples, but we're going to take the time to walk through this process in more detail now.

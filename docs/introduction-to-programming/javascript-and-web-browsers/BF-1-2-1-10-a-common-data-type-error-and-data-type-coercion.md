@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.1.10 A Common Data Type Error and Data Type Coercion"
 day: monday
+id: 1-2-1-10-a-common-data-type-error-and-data-type-coercion
+hide_table_of_contents: true
 ---
 
 The most common error beginning JavaScript students experience is attempting to call methods or functions meant for numbers on strings. This happens especially frequently because **all values returned from `window.prompt()` are saved as strings**. Even if the user enters a number into a prompt without quotation marks! This may be confusing, but this is simply how JavaScript works. 

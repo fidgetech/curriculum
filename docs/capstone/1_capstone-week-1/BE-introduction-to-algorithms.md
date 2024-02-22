@@ -1,6 +1,8 @@
 ---
 title: "📓 Introduction to Algorithms"
 day: thursday
+id: introduction-to-algorithms
+hide_table_of_contents: true
 ---
 
 During this section, we'll take a deeper dive into some well-known algorithms. Most of these algorithms are for sorting collections, but we'll also throw in one very important search algorithm as well. 

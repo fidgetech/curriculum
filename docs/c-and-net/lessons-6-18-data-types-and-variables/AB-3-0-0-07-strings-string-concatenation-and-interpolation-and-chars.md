@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.07 Strings, String Concatenation and Interpolation, and Chars"
 day: weekend
+id: 3-0-0-07-strings-string-concatenation-and-interpolation-and-chars
+hide_table_of_contents: true
 ---
 
 Most of the information we worked with in Introduction to Programming, such as strings, integers, variables, methods, and objects function similarly in C#. There are a few differences but you'll catch on quickly! 

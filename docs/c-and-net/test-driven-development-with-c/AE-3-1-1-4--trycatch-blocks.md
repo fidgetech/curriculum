@@ -1,6 +1,8 @@
 ---
 title: "📓 3.1.1.4- Try/Catch Blocks"
 day: monday
+id: 3-1-1-4--trycatch-blocks
+hide_table_of_contents: true
 ---
 
 When our application throws an error, the program is **throwing an exception**. Almost every time the compiler throws an error, it uses the term "exception." An **exception** occurs when we execute or interact with a program that results in the program crashing.

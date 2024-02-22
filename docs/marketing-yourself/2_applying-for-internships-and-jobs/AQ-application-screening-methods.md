@@ -1,6 +1,8 @@
 ---
 title: "📓 Application Screening Methods"
 day: weekend
+id: application-screening-methods
+hide_table_of_contents: true
 ---
 
 # Application Screening Methods 

@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.1.4 Introducing Entity Framework Core"
 day: monday
+id: 3-3-1-4-introducing-entity-framework-core
+hide_table_of_contents: true
 ---
 
 So far, we've managed all SQL statements ourselves. We've written code both to issue SQL commands to the database and to process query results with classes like `MySqlCommand`, `MySqlParameter`, and `MySqlDataReader` from the `MySqlConnector` library.

@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.1.7 SOP and CORS"
 day: monday
+id: 2-3-1-7-sop-and-cors
+hide_table_of_contents: true
 ---
 
 We don't talk about web application security much at Epicodus because it's beyond the scope of what we teach. However, there is one important topic we need to cover briefly now that we are working with API calls.

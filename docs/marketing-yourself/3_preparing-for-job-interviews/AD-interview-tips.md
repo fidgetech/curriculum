@@ -1,6 +1,8 @@
 ---
 title: "📓 Interview Tips"
 day: weekend
+id: interview-tips
+hide_table_of_contents: true
 ---
 
 Here is some great advice taken from a [presentation on technical interviews](http://www.piexposed.com/wp-content/uploads/2012/06/Rock-the-Technical-Interview.pdf):

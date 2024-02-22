@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.1.13 Business and User Interface Logic"
 day: monday
+id: 1-2-1-13-business-and-user-interface-logic
+hide_table_of_contents: true
 ---
 
 Well-organized code is easier to debug, it appears more professional, and is easier to revisit later. Writing organized code is a highly-valued skill in the programming field. When working on a team, you'll often collaborate with other developers. Clean code is easier for others to understand and contribute to. Before we begin writing more complex JavaScript, let's make sure we understand how to organize our code using the best, most professional practices from the very beginning.

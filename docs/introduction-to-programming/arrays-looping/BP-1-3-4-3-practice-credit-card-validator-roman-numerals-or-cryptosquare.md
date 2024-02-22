@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.3.4.3 Practice: Credit Card Validator, Roman Numerals, or Cryptosquare'
 day: thursday
+id: 1-3-4-3-practice-credit-card-validator-roman-numerals-or-cryptosquare
+hide_table_of_contents: true
 ---
 
 **Goal**:  For these exercises (and all exercises going forward) Focus on breaking your project down into small pieces of functionality, and tackling them one at a time with TDD. Write your first test and then write the code necessary to get the test passing. Repeat the process of writing tests and getting code passing until you've completed your business logic. If you are interested, try experimenting with different kinds of loops.

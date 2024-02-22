@@ -1,6 +1,9 @@
 ---
 title: "📓 Team Week Objectives"
 day: weekend
+id: team-week-objectives
+hide_table_of_contents: true
+paginationPrev: null
 ---
 
 **You're a team and you're building something awesome!**

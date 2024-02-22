@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.1.3 Red Green Refactor Workflow"
 day: monday
+id: 2-2-1-3-red-green-refactor-workflow
+hide_table_of_contents: true
 ---
 
 Before we start writing automated tests, let's cover the **Red, Green, Refactor** workflow. We've actually been applying some of the principles of this workflow already. However, we need automated testing in place to really apply it. 

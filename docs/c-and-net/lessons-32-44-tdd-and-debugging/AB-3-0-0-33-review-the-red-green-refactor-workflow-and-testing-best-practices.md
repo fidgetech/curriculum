@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.33 Review: the Red, Green, Refactor Workflow and Testing Best Practices"
 day: weekend
+id: 3-0-0-33-review-the-red-green-refactor-workflow-and-testing-best-practices
+hide_table_of_contents: true
 ---
 
 In this lesson, we're going to take a more in-depth look at Test-Driven Development (TDD), the Red-Green-Refactor (RGR) workflow, and testing best practices.

@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.3.1.7 Practice: forEach loops'
 day: monday
+id: 1-3-1-7-practice-foreach-loops
+hide_table_of_contents: true
 ---
 
 **Goal**:  Practice using `Array.prototype.forEach()` to solve the problems below.

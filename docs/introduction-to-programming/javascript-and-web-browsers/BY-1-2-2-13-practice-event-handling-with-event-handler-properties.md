@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.2.13 Practice: Event Handling with Event Handler Properties'
 day: tuesday
+id: 1-2-2-13-practice-event-handling-with-event-handler-properties
+hide_table_of_contents: true
 ---
 
 **Goal:** Practice using event handler properties by updating a project from the last course section to handle events.

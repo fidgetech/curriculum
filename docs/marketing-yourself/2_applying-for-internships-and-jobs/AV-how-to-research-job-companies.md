@@ -1,6 +1,8 @@
 ---
 title: "📓 How to Research Job Companies"
 day: weekend
+id: how-to-research-job-companies
+hide_table_of_contents: true
 ---
 
 # How to Research Companies 

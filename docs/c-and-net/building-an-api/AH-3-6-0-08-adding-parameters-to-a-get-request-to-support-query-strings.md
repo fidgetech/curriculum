@@ -1,6 +1,8 @@
 ---
 title: "📓 3.6.0.08 Adding Parameters to a Get Request to Support Query Strings"
 day: weekend
+id: 3-6-0-08-adding-parameters-to-a-get-request-to-support-query-strings
+hide_table_of_contents: true
 ---
 
 In the last lesson, we completed CRUD functionality in our Cretaceous Park API. In this lesson, we'll learn how to add search parameters to our `Get()` controller action so that we can request and retrieve filtered data.

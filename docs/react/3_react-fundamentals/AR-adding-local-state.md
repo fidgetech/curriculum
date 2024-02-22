@@ -1,6 +1,8 @@
 ---
 title: "📓 Adding Local State"
 day: monday
+id: adding-local-state
+hide_table_of_contents: true
 ---
 
 We're ready to add local state to our application. We'll start by adding two new components to `src/components`:

@@ -1,6 +1,9 @@
 ---
 title: "📓 React with Redux Objectives"
 day: weekend
+id: react-with-redux-objectives
+hide_table_of_contents: true
+paginationPrev: null
 ---
 
 In the last course section, we covered the basics of building a React application and managing state. In a smaller application like our Help Queue, we can manage our shared and local state without using external libraries.

@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.3.6 When to use for"
 day: wednesday
+id: 1-3-3-6-when-to-use-for
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll compare use cases for `Array.prototype.forEach()` and `for` loops. As we'll learn, we'll favor using a `for` loop when we're not iterating over an array, and if we need to break out of an array and not loop over every value in it. As we move through the examples in this lesson, put them into the DevTools console to try them out.

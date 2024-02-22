@@ -1,6 +1,9 @@
 ---
 title: "📓 DEI Reflective Assignments"
 day: weekend
+id: dei-reflective-assignments
+hide_table_of_contents: true
+paginationNext: null
 ---
 
 ## [Overview of DEI Reflections](#overview-of-dei-reflections)

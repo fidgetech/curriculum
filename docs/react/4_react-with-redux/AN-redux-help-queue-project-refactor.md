@@ -1,6 +1,8 @@
 ---
 title: '✏️ Redux Help Queue, Project Refactor'
 day: monday
+id: redux-help-queue-project-refactor
+hide_table_of_contents: true
 ---
 
 **Goals:** Follow along with the weekend homework. Start by testing and writing reducers. Once your reducers are complete, incorporate React Redux into your projects.

@@ -1,6 +1,8 @@
 ---
 title: '✏️ 3.1.1.1 Shape Tracker, Ping Pong, Sphinx, Queen Attack'
 day: monday
+id: 3-1-1-1-shape-tracker-ping-pong-sphinx-queen-attack
+hide_table_of_contents: true
 ---
 
 **Goal:** Use branching, looping, and other foundational C# concepts to build working console applications with C#. Don't worry about trying to complete all the exercises. Focus on getting more comfortable with C# and understanding key concepts.

@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.18 Configuration Quick Reference"
 day: weekend
+id: 3-2-0-18-configuration-quick-reference
+hide_table_of_contents: true
 ---
 
 Use this lesson as a quick reference for setting up project files, folders, and configuring a host for an ASP.NET Core MVC web application.

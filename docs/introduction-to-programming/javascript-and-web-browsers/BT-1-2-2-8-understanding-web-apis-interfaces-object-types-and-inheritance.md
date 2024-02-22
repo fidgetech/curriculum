@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.2.8 Understanding Web APIs: Interfaces (Object Types) and Inheritance"
 day: tuesday
+id: 1-2-2-8-understanding-web-apis-interfaces-object-types-and-inheritance
+hide_table_of_contents: true
 ---
 
 In the last lesson, we learned about HTML DOM elements. These elements are objects and they have properties that developers can access to get and set DOM element data. Things like:

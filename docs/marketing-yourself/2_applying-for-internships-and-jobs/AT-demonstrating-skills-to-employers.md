@@ -1,6 +1,8 @@
 ---
 title: "📓 Demonstrating Skills to Employers"
 day: weekend
+id: demonstrating-skills-to-employers
+hide_table_of_contents: true
 ---
 
 # Demonstrating Skills to Employers and Answering Common Interview Questions

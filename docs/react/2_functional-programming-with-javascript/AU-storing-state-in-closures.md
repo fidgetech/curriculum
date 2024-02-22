@@ -1,6 +1,8 @@
 ---
 title: "📓 Storing State in Closures"
 day: monday
+id: storing-state-in-closures
+hide_table_of_contents: true
 ---
 
 Now that we've had some practices working with closures, it's time to explore another cool thing we can do with closures. We can use them to store basic info about state.

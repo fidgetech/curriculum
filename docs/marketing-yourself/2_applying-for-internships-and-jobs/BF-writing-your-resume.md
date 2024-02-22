@@ -1,6 +1,8 @@
 ---
 title: "📓 Writing Your Resume"
 day: monday
+id: writing-your-resume
+hide_table_of_contents: true
 ---
 
 Writing your resume is a very similar process to writing the cover letter — we want to use many of the same keywords from the job description, and tie them to our experience.

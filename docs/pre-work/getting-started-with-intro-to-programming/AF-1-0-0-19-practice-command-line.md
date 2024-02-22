@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.19 Practice: Command Line"
 day: weekend
+id: 1-0-0-19-practice-command-line
+hide_table_of_contents: true
 ---
 
 ## [Warm Up](#warm-up)

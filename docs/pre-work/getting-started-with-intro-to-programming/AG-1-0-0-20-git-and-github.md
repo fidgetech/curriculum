@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.20 Git and GitHub"
 day: weekend
+id: 1-0-0-20-git-and-github
+hide_table_of_contents: true
 ---
 
 When we get started writing a new program, the last thing we want to happen is to lose any of our hard work. To prevent this from happening, we will save versions of our code on our computer AND also save a version of our code on a location on the web.

@@ -1,6 +1,8 @@
 ---
 title: "📓 Binary Search Trees Introduction"
 day: monday
+id: binary-search-trees-introduction
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll give an overview of two data structures: the **binary tree** and the **binary search tree**. They are quite similar — the main difference is that a binary search tree has additional restraints that make it better for searching.

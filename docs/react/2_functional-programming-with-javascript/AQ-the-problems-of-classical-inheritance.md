@@ -1,6 +1,8 @@
 ---
 title: "📓 The Problems of Classical Inheritance"
 day: monday
+id: the-problems-of-classical-inheritance
+hide_table_of_contents: true
 ---
 
 In Intermediate JavaScript, we learned about the concept of **inheritance**. A quick refresher: inheritance is when a child object gains the functionality of a parent object. In the case of classical inheritance, that functionality is passed down through classes. For instance, objects from a `Cat` class could inherit from a `Mammal` class and so on. In the case of JavaScript, that functionality is passed down via prototypal inheritance, though we have the syntactic sugar of classes with ES6.

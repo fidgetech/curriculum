@@ -1,6 +1,8 @@
 ---
 title: '✏️ 2.3.4.1 Whiteboarding Practice: Asynchrony'
 day: thursday
+id: 2-3-4-1-whiteboarding-practice-asynchrony
+hide_table_of_contents: true
 ---
 
 ## Whiteboard Practice

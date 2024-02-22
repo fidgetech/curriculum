@@ -1,6 +1,8 @@
 ---
 title: "📓 3.6.0.07 Seeding the Database"
 day: weekend
+id: 3-6-0-07-seeding-the-database
+hide_table_of_contents: true
 ---
 
 In the last lesson, we added update and delete functionality to our Cretaceous Park API. In this lesson, we'll learn how to seed the database with data upon initialization.

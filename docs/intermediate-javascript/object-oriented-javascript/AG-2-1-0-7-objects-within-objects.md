@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.0.7 Objects Within Objects"
 day: weekend
+id: 2-1-0-7-objects-within-objects
+hide_table_of_contents: true
 ---
 
 Let's take a brief break from the address book project we just started to learn how to create an object that contains another object. Then we'll use this to build out our address book in the next lesson.

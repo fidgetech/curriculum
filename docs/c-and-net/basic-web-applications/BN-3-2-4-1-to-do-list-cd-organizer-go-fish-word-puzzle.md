@@ -1,6 +1,8 @@
 ---
 title: '✏️ 3.2.4.1 To Do List, CD Organizer, Go Fish, Word Puzzle'
 day: thursday
+id: 3-2-4-1-to-do-list-cd-organizer-go-fish-word-puzzle
+hide_table_of_contents: true
 ---
 
 **Goal:** Create an ASP.NET Core MVC application that uses objects within objects. Pay close attention to how data is passed between routes, views, and forms in an objects-within-objects MVC setup.

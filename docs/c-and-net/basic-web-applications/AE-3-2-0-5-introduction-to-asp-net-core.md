@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.5 Introduction to ASP.NET Core"
 day: weekend
+id: 3-2-0-5-introduction-to-asp-net-core
+hide_table_of_contents: true
 ---
 
 All of the C# apps we've created have run in the command line. Now it's time to start building C# web applications that run in the browser. We'll use a special web application framework called **ASP.NET Core MVC** to do this.

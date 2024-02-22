@@ -1,6 +1,8 @@
 ---
 title: ✏️ 3.3.1.1 To Do List and Project Rebuild
 day: monday
+id: 3-3-1-1-to-do-list-and-project-rebuild
+hide_table_of_contents: true
 ---
 
 **Goal**: Practice writing SQL statements and adding CR functionality to applications. Take the time to understand how a database query works in a .NET application.

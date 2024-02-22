@@ -1,6 +1,8 @@
 ---
 title: ✏️ Graph Theory Practice
 day: tuesday
+id: graph-theory-practice
+hide_table_of_contents: true
 ---
 
 Now that we've learned the basics of graph theory, it's time to practice! First, walk through all the examples in the graph theory lessons and code along if you haven't already. Once you are done, you are ready for some additional challenges.

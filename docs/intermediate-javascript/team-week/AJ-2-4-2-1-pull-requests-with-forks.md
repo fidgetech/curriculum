@@ -1,6 +1,8 @@
 ---
 title: "📓 2.4.2.1 Pull Requests with Forks"
 day: tuesday
+id: 2-4-2-1-pull-requests-with-forks
+hide_table_of_contents: true
 ---
 
 Many of the JavaScript libraries and tools we use at Epicodus are **open source** including webpack, React, and Jest, to name a few. **Open source** means the code is available publicly and that anyone can contribute to it.

@@ -1,6 +1,8 @@
 ---
 title: "📓 Merge Sort"
 day: thursday
+id: merge-sort
+hide_table_of_contents: true
 ---
 
 At this point, we've looked at several sorting algorithms that have a Big O of O(N<sup>2</sup>): the bubble sort, insertion sort, and selection sort algorithms. Now we're ready to look at a few algorithms that are both more efficient and more complex.

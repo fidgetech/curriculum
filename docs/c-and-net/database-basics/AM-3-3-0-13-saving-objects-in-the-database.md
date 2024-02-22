@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.0.13 Saving Objects in the Database"
 day: weekend
+id: 3-3-0-13-saving-objects-in-the-database
+hide_table_of_contents: true
 ---
 
 In the last lesson, we wrote and tested a method to override `Equals()`. Now we're ready to write a method for saving `Item`s to the database. 

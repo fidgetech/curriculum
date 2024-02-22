@@ -1,6 +1,8 @@
 ---
 title: '✏️ Help Queue, Merch Site, Event Logger (day 2)'
 day: thursday
+id: help-queue-merch-site-event-logger-day-2
+hide_table_of_contents: true
 ---
 
 **Goal:** Over the next class sessions, practice building a React site that has both local and shared state. Add full CRUD functionality to your application. Make sure you take the time to carefully plan out your application — including where shared state should go and all components should live. As always, take the time to plan out your application and draw a component diagram. Don't forget to include the diagram in your project README.

@@ -1,6 +1,8 @@
 ---
 title: "📓 3.4.0.4 Many-to-Many Relationships: Join Entities"
 day: weekend
+id: 3-4-0-4-many-to-many-relationships-join-entities
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll see how we can establish a many-to-many relationship in our database and how we can use C# objects to model this relationship. Instead of changing our one-to-many relationship between `Category` and `Item`, we'll add a new model called `Tag` and implement a many-to-many relationship between `Item` and `Tag`.

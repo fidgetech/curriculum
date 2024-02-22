@@ -1,6 +1,9 @@
 ---
 title: "📓 2.3.0.1 Asynchrony and APIs in JavaScript Objectives"
 day: weekend
+id: 2-3-0-1-asynchrony-and-apis-in-javascript-objectives
+hide_table_of_contents: true
+paginationPrev: null
 ---
 
 In this section, we'll learn about third-party APIs (application programming interfaces) and how we can use them to communicate with other applications to get data or services. In the process, we'll learn how to make API calls and work with asynchrony in JavaScript. 

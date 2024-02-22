@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.0.09 Using the Test Database"
 day: weekend
+id: 3-3-0-09-using-the-test-database
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll connect our test project to the test database and update our teardown method to empty it. 

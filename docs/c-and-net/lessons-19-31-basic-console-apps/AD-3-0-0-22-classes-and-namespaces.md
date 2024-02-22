@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.22 Classes and Namespaces"
 day: weekend
+id: 3-0-0-22-classes-and-namespaces
+hide_table_of_contents: true
 ---
 
 We previously learned that .NET organizes its code into classes and namespaces:

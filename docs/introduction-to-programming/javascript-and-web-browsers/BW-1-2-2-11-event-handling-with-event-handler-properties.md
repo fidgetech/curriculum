@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.2.11 Event Handling with Event Handler Properties"
 day: tuesday
+id: 1-2-2-11-event-handling-with-event-handler-properties
+hide_table_of_contents: true
 ---
 
 So far, we've made our webpages interactive with `window` methods:

@@ -1,6 +1,8 @@
 ---
 title: "📓 Team Week: Project Pitch"
 day: weekend
+id: team-week-project-pitch
+hide_table_of_contents: true
 ---
 
 In the next course section, we will be working on group projects for the Epicodus Developer Trade Show to take place at the end of the section. In preparation, we'll take this coming section to generate ideas and sign up for teams, so we'll be organized and ready to go by the start of Team Week. 

@@ -1,6 +1,8 @@
 ---
 title: "📓 NY Times API: Implementing useReducer"
 day: weekend
+id: ny-times-api-implementing-usereducer
+hide_table_of_contents: true
 ---
 
 Now it's time to refactor the `TopStories` component to use the `useReducer()` hook. Let's first take a look at the updated code, and then review the changes in detail down below.

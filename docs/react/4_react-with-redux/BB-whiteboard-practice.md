@@ -1,6 +1,8 @@
 ---
 title: ✏️ Whiteboard Practice
 day: thursday
+id: whiteboard-practice
+hide_table_of_contents: true
 ---
 
 ## Whiteboard Practice

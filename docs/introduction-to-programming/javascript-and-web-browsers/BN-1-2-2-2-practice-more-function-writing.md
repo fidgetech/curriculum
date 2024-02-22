@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.2.2 Practice: More Function Writing'
 day: tuesday
+id: 1-2-2-2-practice-more-function-writing
+hide_table_of_contents: true
 ---
 
 **Goal:** Continue practicing writing and calling custom functions. It is simply additional practice. You may speak with your instructor about these extra prompts, if you feel comfortable enough with the concepts to move on.

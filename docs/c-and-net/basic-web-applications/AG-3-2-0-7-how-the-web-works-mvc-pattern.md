@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.7 How the Web Works: MVC Pattern"
 day: weekend
+id: 3-2-0-7-how-the-web-works-mvc-pattern
+hide_table_of_contents: true
 ---
 
 In the [_Introduction to ASP.NET Core MVC_](https://old.learnhowtoprogram.com/c-and-net/basic-web-applications/introduction-to-asp-net-core) lesson, we stated that there were two _very_ important things to know about the ASP.NET Core MVC framework we're using this section:

@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.0.2 Asynchrony in JavaScript"
 day: weekend
+id: 2-3-0-2-asynchrony-in-javascript
+hide_table_of_contents: true
 ---
 
 One of JavaScript's biggest strengths is the fact that code can be either **synchronous** or **asynchronous**. These terms can be confusing for new developers, but the good news is that you've already been working extensively with both synchronous and asynchronous code.

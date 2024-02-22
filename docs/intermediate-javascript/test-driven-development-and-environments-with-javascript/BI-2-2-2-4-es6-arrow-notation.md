@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.2.4 ES6 Arrow Notation"
 day: tuesday
+id: 2-2-2-4-es6-arrow-notation
+hide_table_of_contents: true
 ---
 
 Arrow functions are one of the most popular and useful new features in ES6. In fact, we've already been using arrow functions with Jest. Now it's time to delve more deeply into why they are useful and how we can use them in our code. There are a few reasons why arrow functions are so popular. We'll be focusing primarily on one of these reasons: arrow functions change the way `this` is bound inside of a nested function.

@@ -1,6 +1,8 @@
 ---
 title: "📓 Adding Redux to React: Part 1"
 day: weekend
+id: adding-redux-to-react-part-1
+hide_table_of_contents: true
 ---
 
 Here at Epicodus, we usually build a project from the ground up when we learn about a new technology. We build new projects every class session or every few class sessions in order to reinforce key concepts.

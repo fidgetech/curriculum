@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.0.13 Functions"
 day: weekend
+id: 1-2-0-13-functions
+hide_table_of_contents: true
 ---
 
 To help us better understand methods, let's get to know functions better. In this lesson, we'll review what a function is and what it looks like. We'll also learn some new terminology, and we'll take time to compare methods and functions so the distinction becomes clear. 

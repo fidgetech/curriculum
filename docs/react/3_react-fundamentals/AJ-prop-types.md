@@ -1,6 +1,8 @@
 ---
 title: "📓 Prop Types"
 day: weekend
+id: prop-types
+hide_table_of_contents: true
 ---
 
 ## Declaring Prop Types

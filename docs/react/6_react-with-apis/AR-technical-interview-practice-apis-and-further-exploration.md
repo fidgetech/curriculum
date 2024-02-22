@@ -1,6 +1,8 @@
 ---
 title: '✏️ Technical Interview Practice: APIs and Further Exploration'
 day: thursday
+id: technical-interview-practice-apis-and-further-exploration
+hide_table_of_contents: true
 ---
 
 ## Technical Interview Questions

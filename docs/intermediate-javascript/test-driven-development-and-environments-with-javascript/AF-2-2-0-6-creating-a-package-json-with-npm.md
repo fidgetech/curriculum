@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.6 Creating a package.json with npm"
 day: weekend
+id: 2-2-0-6-creating-a-package-json-with-npm
+hide_table_of_contents: true
 ---
 
 Our first step in creating our project's development environment is to set up Node Package Manager (npm) by creating a `package.json` file. This file lists metadata about a project — its name, version, dependencies (packages used in the project), scripts, and more. In short, we use `package.json` to manage a project's dependencies. 

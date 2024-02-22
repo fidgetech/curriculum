@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.11 ES6 Imports and Exports"
 day: weekend
+id: 2-2-0-11-es6-imports-and-exports
+hide_table_of_contents: true
 ---
 
 When we build our code, how does webpack know which files are dependencies? Going back to our example of the peanut butter and jelly sandwich example, how do we let webpack know that `jelly.js` needs `blueberry.js` to work properly?

@@ -1,6 +1,8 @@
 ---
 title: "📓 Capstone Prep: Using Employable Skills"
 day: thursday
+id: capstone-prep-using-employable-skills
+hide_table_of_contents: true
 ---
 
 Capstones are one of the most exciting parts of the Epicodus experience. Students tend to enjoy the freedom to explore technologies, ideas, and applications without bounds. But, before you start fantasizing about the perfect application for your favorite hobby, it might be good to take a moment and think about how this project will help you in your future career seeking.

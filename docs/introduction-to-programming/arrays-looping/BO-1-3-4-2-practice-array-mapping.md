@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.3.4.2 Practice: Array Mapping'
 day: thursday
+id: 1-3-4-2-practice-array-mapping
+hide_table_of_contents: true
 ---
 
 **Goal**:  Now that we've learned about `Array.prototype.map()`, let's further hone our array mapping skills by completing the exercises detailed below.

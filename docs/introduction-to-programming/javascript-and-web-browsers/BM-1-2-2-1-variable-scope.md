@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.2.1 Variable Scope"
 day: tuesday
+id: 1-2-2-1-variable-scope
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll discuss **scope**, one of the most important concepts in computer programming. The scope of our code determines where in our computer program code is available, and whether we can access or modify it. All of our variables and functions have scope in our code. As we'll soon learn, scope is divided into two main categories: **global** and **local**. There are other types of scope that we'll learn about in future sections.

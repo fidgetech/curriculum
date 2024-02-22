@@ -1,6 +1,8 @@
 ---
 title: '✏️ 2.1.1.1 Address Book, Places You''ve Been, To Do'
 day: monday
+id: 2-1-1-1-address-book-places-youve-been-to-do
+hide_table_of_contents: true
 ---
 
 **Goal**: Practice creating objects in JavaScript using constructors and prototypes. Use test-driven development to create your business logic. There should be tests for all functionality in your business logic, and they should be included in your project's README.

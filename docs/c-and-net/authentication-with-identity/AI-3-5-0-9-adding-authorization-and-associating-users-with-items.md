@@ -1,6 +1,8 @@
 ---
 title: "📓 3.5.0.9 Adding Authorization and Associating Users with Items"
 day: weekend
+id: 3-5-0-9-adding-authorization-and-associating-users-with-items
+hide_table_of_contents: true
 ---
 
 We now have a working user login and registration system, but it doesn't actually have any kind of impact on our application. Our users can do all CRUD regardless of whether they are signed in or not. We'll make our authentication more impactful by limiting what a user can do with authorization.

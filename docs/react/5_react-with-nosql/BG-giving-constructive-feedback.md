@@ -1,6 +1,8 @@
 ---
 title: "📓 Giving Constructive Feedback"
 day: weekend
+id: giving-constructive-feedback
+hide_table_of_contents: true
 ---
 
 You will be expected to give constructive written feedback to your peers during next week's whiteboard session. You will also have the opportunity to give verbal feedback. However, only the written feedback is required.

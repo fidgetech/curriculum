@@ -1,6 +1,8 @@
 ---
 title: "📓 Building Graphs Part 1"
 day: tuesday
+id: building-graphs-part-1
+hide_table_of_contents: true
 ---
 
 Imagine we've been hired to work on an application that keeps track of friendships between people. This kind of application has many use cases — after all, this is the foundation of many social networks. Remember that a graph is just another way of depicting a network. So when we think about portraying a social network, we could also call it a social graph. So let's get to work! In our application, we should be able to do the following:

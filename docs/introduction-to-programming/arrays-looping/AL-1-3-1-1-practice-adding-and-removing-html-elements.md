@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.3.1.1 Practice: Adding and Removing HTML Elements'
 day: monday
+id: 1-3-1-1-practice-adding-and-removing-html-elements
+hide_table_of_contents: true
 ---
 
 **Goal:** In the lessons on adding and removing HTML elements, we learned how to use 6 methods:

@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.27 Direct Messages in Discord"
 day: weekend
+id: 1-0-0-27-direct-messages-in-discord
+hide_table_of_contents: true
 ---
 
 You will be using Discord for many things during your time at Epicodus. In addition to using voice channels and video calls with pairs and with your dev team, you'll also be using text channels to share information with your peers.

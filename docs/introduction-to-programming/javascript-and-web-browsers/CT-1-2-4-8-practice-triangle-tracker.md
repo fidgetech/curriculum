@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.4.8 Practice: Triangle Tracker'
 day: thursday
+id: 1-2-4-8-practice-triangle-tracker
+hide_table_of_contents: true
 ---
 
 **Goal:** Practice bringing together everything we've learned in this section by creating a project that includes custom functions, branching, forms, and event listeners.

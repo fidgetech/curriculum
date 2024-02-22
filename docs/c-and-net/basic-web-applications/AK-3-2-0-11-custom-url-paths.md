@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.11 Custom URL Paths"
 day: weekend
+id: 3-2-0-11-custom-url-paths
+hide_table_of_contents: true
 ---
 
 In the last lesson, we learned how we can configure routes like this one: _localhost:5000/home/goodbye_.

@@ -1,6 +1,8 @@
 ---
 title: "📓 Introduction to JSX"
 day: weekend
+id: introduction-to-jsx
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll learn the basics of JSX, a preprocessor that adds special syntax capabilities to JavaScript. Specifically, JSX combines elements of both HTML and JavaScript.

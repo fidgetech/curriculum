@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.15 Lists"
 day: weekend
+id: 3-0-0-15-lists
+hide_table_of_contents: true
 ---
 
 If we want to create a collection where we can add or remove items, we need to use a list. For example, we might want to create a `groceryList` which could have any number of items in it. A  **list** is a collection, usually of a single data type (like `string` or `int`). Unlike an array, a list _can_ dynamically change in length.

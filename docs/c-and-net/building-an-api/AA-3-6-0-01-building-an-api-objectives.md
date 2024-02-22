@@ -1,6 +1,9 @@
 ---
 title: "📓 3.6.0.01 Building an API Objectives"
 day: weekend
+id: 3-6-0-01-building-an-api-objectives
+hide_table_of_contents: true
+paginationPrev: null
 ---
 
 In this course section, we'll create our own ASP.NET Core Web API using RESTful principles. We'll use the `dotnet new` tool to quickly scaffold an API-only application. Our API will serve data about animals from the Cretaceous period, so we'll call our API the Cretaceous Park API.

@@ -1,6 +1,8 @@
 ---
 title: "📓 A Guide to Whiteboarding"
 day: weekend
+id: a-guide-to-whiteboarding
+hide_table_of_contents: true
 ---
 
 This lesson will cover a basic approach to whiteboarding. A technical interview can come in many forms and there is no one-size-fits-all approach. However, the following approach will serve you well in traditional whiteboard sessions where one or more interviewers are evaluating your ability to write code.

@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.3.3 Printing an Array to a Webpage"
 day: wednesday
+id: 1-3-3-3-printing-an-array-to-a-webpage
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll review how to print the contents of an array to a webpage. To do this, we'll use the webpage you are on right now! 

@@ -1,6 +1,8 @@
 ---
 title: "📓 Binding Functions in React"
 day: monday
+id: binding-functions-in-react
+hide_table_of_contents: true
 ---
 
 In the last lesson, we added a button with an event handler as well as a function that triggered a change in local state.

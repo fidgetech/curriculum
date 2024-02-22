@@ -1,6 +1,8 @@
 ---
 title: "📓 Resume Overview"
 day: weekend
+id: resume-overview
+hide_table_of_contents: true
 ---
 
 # Resume Overview

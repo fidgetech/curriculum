@@ -1,6 +1,8 @@
 ---
 title: "📓 Updating and Deleting Tickets in Firestore"
 day: weekend
+id: updating-and-deleting-tickets-in-firestore
+hide_table_of_contents: true
 ---
 
 We're ready to get our edit and delete functionality working again. We will continue to refactor code in `TicketControl.js` to update the edit and delete functionality to alter tickets directly in Firestore. We'll also make use of three Firestore functions:

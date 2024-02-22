@@ -1,6 +1,8 @@
 ---
 title: "📓 Introduction to Stacks and Queues"
 day: tuesday
+id: introduction-to-stacks-and-queues
+hide_table_of_contents: true
 ---
 
 In this lesson, we're going to learn about **stacks** and **queues**. We'll start by covering a brief overview of each. Then we'll write basic `stack` and `queue` functions.

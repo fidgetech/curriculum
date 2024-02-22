@@ -1,6 +1,8 @@
 ---
 title: "📓 3.1.1.3- Overloading Constructors and Methods"
 day: monday
+id: 3-1-1-3--overloading-constructors-and-methods
+hide_table_of_contents: true
 ---
 
 Let's learn a technique that will allow us to make our class constructors and methods more flexible: **overloads**. As we usually do, let's start with an example. 

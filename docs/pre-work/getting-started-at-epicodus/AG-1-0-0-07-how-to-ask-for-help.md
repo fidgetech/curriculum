@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.07 How to Ask for Help"
 day: weekend
+id: 1-0-0-07-how-to-ask-for-help
+hide_table_of_contents: true
 ---
 
 Throughout your programing career, and especially while you're just starting out learning, you're going to need help from other people. If you follow these guidelines, you'll find that you'll be able to get help much more quickly.

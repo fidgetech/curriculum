@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.21 Git Configurations"
 day: weekend
+id: 1-0-0-21-git-configurations
+hide_table_of_contents: true
 ---
 
 After installing Git, we recommend a few Git configurations that will make using Git on your own device similar to the experience you will have at Epicodus.

@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.3.5 Objects Within Objects Interface Part 2"
 day: wednesday
+id: 3-2-3-5-objects-within-objects-interface-part-2
+hide_table_of_contents: true
 ---
 
 `Item`s in our To Do List are now associated with `Category`s. Our application will prompt users to first create categories and then create `Item`s that belong to them. As such, there will **no longer be any `Item`s not associated with a parent `Category`.** This has several ramifications for how we'll organize our front end.

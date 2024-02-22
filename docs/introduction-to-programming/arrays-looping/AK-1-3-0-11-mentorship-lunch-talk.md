@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.0.11 Mentorship Lunch Talk"
 day: weekend
+id: 1-3-0-11-mentorship-lunch-talk
+hide_table_of_contents: true
 ---
 
 This coming week's lunch speakers will be your classmates in the upper cohort. They will share their experiences with you — and what they've learned since the beginning of the program. Like other lunch speaking events, attendance is optional. However, we recommend you attend. You'll get a good sense of what lies ahead — and potentially get some good tips as well as pitfalls to avoid. 

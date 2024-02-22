@@ -1,6 +1,8 @@
 ---
 title: "📓 React Components"
 day: weekend
+id: react-components
+hide_table_of_contents: true
 ---
 
 Components are the building blocks of React. Everything in a React application is a component.

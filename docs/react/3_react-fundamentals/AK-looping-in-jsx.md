@@ -1,6 +1,8 @@
 ---
 title: "📓 Looping in JSX"
 day: weekend
+id: looping-in-jsx
+hide_table_of_contents: true
 ---
 
 Currently, our application only has two hard-coded tickets. However, this isn't how our Help Queue should actually work. A functioning, production-ready application should contain a dynamic list of tickets. In this lesson, we'll cover looping through content in JSX.

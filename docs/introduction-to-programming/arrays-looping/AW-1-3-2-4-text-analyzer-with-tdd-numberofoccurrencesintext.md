@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.2.4 Text Analyzer with TDD: numberOfOccurrencesInText()"
 day: tuesday
+id: 1-3-2-4-text-analyzer-with-tdd-numberofoccurrencesintext
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll complete the tests and functionality for a new function in the Text Analyzer project, called `numberOfOccurrencesInText()`. The goal of this lesson is to demonstrate the TDD process, including all of the decisions we need to make along the way. 

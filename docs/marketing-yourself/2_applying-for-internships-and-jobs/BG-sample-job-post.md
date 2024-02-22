@@ -1,6 +1,8 @@
 ---
 title: "📓 Sample Job Post"
 day: monday
+id: sample-job-post
+hide_table_of_contents: true
 ---
 
 This is a sample job posting to use for your resume and cover letter practice.

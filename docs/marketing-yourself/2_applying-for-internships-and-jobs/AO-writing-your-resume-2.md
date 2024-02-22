@@ -1,6 +1,8 @@
 ---
 title: "📓 Writing Your Resume 2"
 day: weekend
+id: writing-your-resume-2
+hide_table_of_contents: true
 ---
 
 # Writing Your Resume

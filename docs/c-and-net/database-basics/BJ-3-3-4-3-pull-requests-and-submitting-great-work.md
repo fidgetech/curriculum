@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.4.3 Pull Requests and Submitting Great Work"
 day: thursday
+id: 3-3-4-3-pull-requests-and-submitting-great-work
+hide_table_of_contents: true
 ---
 
 ## Coding in the Real World

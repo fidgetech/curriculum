@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.1.4 forEach Loops"
 day: monday
+id: 1-3-1-4-foreach-loops
+hide_table_of_contents: true
 ---
 
 In the last lesson, we wrote our first `Array.prototype.forEach()` loop. In this lesson, we'll continue to practice this kind of loop. By the end of the lesson, you should have a basic understanding of how to write and apply an `Array.prototype.forEach()` loop. If you don't, we recommend reading the lesson again. Don't worry — you don't need to be a master of looping just yet. It's a complex enough concept that it can take time to master. Focus on having a growth mindset, be patient with yourself, and trust that it will make more sense with practice.

@@ -1,6 +1,8 @@
 ---
 title: "📓 First Class Citizens"
 day: weekend
+id: first-class-citizens
+hide_table_of_contents: true
 ---
 
 In JavaScript, functions are **first class citizens**. But what exactly does this mean and why is this important for functional programming?

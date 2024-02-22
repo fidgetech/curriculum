@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.1.6 Separating Promise Logic"
 day: monday
+id: 2-3-1-6-separating-promise-logic
+hide_table_of_contents: true
 ---
 
 Now that we've learned about static methods, let's refactor our weather API application to use one. In the process, we'll separate our API call business logic into a separate file.

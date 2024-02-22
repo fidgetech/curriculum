@@ -1,6 +1,8 @@
 ---
 title: ✏️ Hashes Practice
 day: wednesday
+id: hashes-practice
+hide_table_of_contents: true
 ---
 
 Now it's time to apply our new knowledge about hash tables and algorithms.

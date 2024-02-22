@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.18 Interacting with the Command Line"
 day: weekend
+id: 1-0-0-18-interacting-with-the-command-line
+hide_table_of_contents: true
 ---
 
 In the last lesson, we learned how to access the command line. In this lesson, we'll explore some of the most common commands we can use with Bash. We'll use many of these daily at Epicodus and also out in the industry.

@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.2.6 Practice: Styling Text'
 day: tuesday
+id: 1-1-2-6-practice-styling-text
+hide_table_of_contents: true
 ---
 
 **Goal:**

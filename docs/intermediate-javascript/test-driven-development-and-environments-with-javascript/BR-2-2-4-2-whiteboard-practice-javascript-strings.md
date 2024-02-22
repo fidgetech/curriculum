@@ -1,6 +1,8 @@
 ---
 title: '✏️ 2.2.4.2 Whiteboard Practice: JavaScript Strings'
 day: thursday
+id: 2-2-4-2-whiteboard-practice-javascript-strings
+hide_table_of_contents: true
 ---
 
 ## Whiteboard Practice

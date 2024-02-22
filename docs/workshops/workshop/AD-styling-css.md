@@ -1,6 +1,8 @@
 ---
 title: "📓 Styling CSS"
 day: weekend
+id: styling-css
+hide_table_of_contents: true
 ---
 
 Now that we've added HTML content to our webpage, we can style and format our HTML using **CSS**.

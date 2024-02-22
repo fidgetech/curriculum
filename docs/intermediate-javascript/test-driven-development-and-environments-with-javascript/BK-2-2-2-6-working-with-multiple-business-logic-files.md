@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.2.6 Working with Multiple Business Logic Files"
 day: tuesday
+id: 2-2-2-6-working-with-multiple-business-logic-files
+hide_table_of_contents: true
 ---
 
 As our projects get bigger, we'll need to break up our code into multiple files. Doing this — and managing our tests as well as our import and export statements — can be tough for beginners. For that reason, we'll walk through the process by adding functionality for calculating the area of a rectangle to our `shape-tracker` application. 

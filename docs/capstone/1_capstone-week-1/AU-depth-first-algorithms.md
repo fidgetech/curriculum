@@ -1,6 +1,8 @@
 ---
 title: "📓 Depth First Algorithms"
 day: tuesday
+id: depth-first-algorithms
+hide_table_of_contents: true
 ---
 
 In the last lesson, we covered depth-first search and breadth-first search approaches. There are a lot of benefits of using these algorithms. We could determine the **reachability** between two nodes or we could determine the shortest path between two nodes, just to name a few use cases.

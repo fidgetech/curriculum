@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.4.11 Bootstrap: Navigating Documentation"
 day: thursday
+id: 1-1-4-11-bootstrap-navigating-documentation
+hide_table_of_contents: true
 ---
 
 As you may have noticed, Bootstrap is a _huge_ framework. The un-minified `bootstrap.css` stylesheet has thousands of lines of CSS. There's no reasonable way we could address every Bootstrap element and feature in our curriculum in this section. In fact, learning about CSS and design is a very small part of our program. However, we encourage students to explore Bootstrap further on their own — especially if CSS and design is an area of interest. Even if they aren't, we will be using Bootstrap throughout the program and it can be very helpful for building out nice user interfaces for the sites we build.

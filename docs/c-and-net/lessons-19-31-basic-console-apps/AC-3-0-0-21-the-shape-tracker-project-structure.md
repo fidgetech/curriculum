@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.21 The Shape Tracker Project Structure"
 day: weekend
+id: 3-0-0-21-the-shape-tracker-project-structure
+hide_table_of_contents: true
 ---
 
 Now that we know the basics of compiling and executing C# programs, we're ready to start building the C# Shape Tracker console app. In this lesson, we'll start creating our project's structure and discuss how we'll organize our code into namespaces and classes. 

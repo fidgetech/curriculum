@@ -1,6 +1,8 @@
 ---
 title: "📓 Spread Operator"
 day: monday
+id: spread-operator
+hide_table_of_contents: true
 ---
 
 One of the most popular features of ES6 is the **spread operator**. Spread syntax looks like this: `...`.

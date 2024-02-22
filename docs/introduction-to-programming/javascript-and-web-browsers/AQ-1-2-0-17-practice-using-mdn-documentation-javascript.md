@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.0.17 Practice: Using MDN Documentation JavaScript'
 day: weekend
+id: 1-2-0-17-practice-using-mdn-documentation-javascript
+hide_table_of_contents: true
 ---
 
 **Goal**: In the lesson on using MDN documentation, we learned:

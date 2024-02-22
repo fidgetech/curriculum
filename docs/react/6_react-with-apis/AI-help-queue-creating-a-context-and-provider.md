@@ -1,6 +1,8 @@
 ---
 title: "📓 Help Queue: Creating a Context and Provider"
 day: weekend
+id: help-queue-creating-a-context-and-provider
+hide_table_of_contents: true
 ---
 
 With our Help Queue project set up and our updates planned, we're ready to implement context. In this lesson, we'll do three things:

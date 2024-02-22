@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.3.7 for Loops with Text Analyzer"
 day: wednesday
+id: 1-3-3-7-for-loops-with-text-analyzer
+hide_table_of_contents: true
 ---
 
 Over the last few lessons, we've learned how and when to use a `for` loop. Now let's look at a couple of situations where a `for` loop would be better than `Array.prototype.forEach()` in our text analyzer application.

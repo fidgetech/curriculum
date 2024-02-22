@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.39 Testing A Method with Multiple Behaviors"
 day: weekend
+id: 3-0-0-39-testing-a-method-with-multiple-behaviors
+hide_table_of_contents: true
 ---
 
 At this point we have seven passing tests and a fully tested `Triangle` constructor, field, property, and auto-implemented property. What's the next behavior we want to implement for our `Triangle` class? I'd say we're ready to work on the `Triangle.CheckType()` instance method that will determine what type of triangle we have. 

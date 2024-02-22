@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.13 Bundling CSS with webpack Loaders"
 day: weekend
+id: 2-2-0-13-bundling-css-with-webpack-loaders
+hide_table_of_contents: true
 ---
 
 In the last lesson, we bundled our JavaScript files with webpack. That's a good start — but we can also use webpack for bundling other files that aren't JavaScript, as long as we are using the right webpack loader. 

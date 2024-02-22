@@ -1,6 +1,8 @@
 ---
 title: "📓 Portfolio Update and Personal Brand"
 day: weekend
+id: portfolio-update-and-personal-brand
+hide_table_of_contents: true
 ---
 
 # Portfolio Update and Personal Brand

@@ -1,6 +1,8 @@
 ---
 title: ✏️ Writing Your Resume
 day: thursday
+id: writing-your-resume
+hide_table_of_contents: true
 ---
 
 # Writing Your Resume

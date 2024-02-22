@@ -1,6 +1,8 @@
 ---
 title: "📓 Capstone Planning: The Minimum Viable Product"
 day: weekend
+id: capstone-planning-the-minimum-viable-product
+hide_table_of_contents: true
 ---
 
 During the final course section of your time at Epicodus, you will craft your Capstone project, and eventually present it to your peers to showcase what you've learned. This will also act as your final independent project of Epicodus.

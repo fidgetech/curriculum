@@ -1,6 +1,8 @@
 ---
 title: "📓 The Virtual DOM"
 day: weekend
+id: the-virtual-dom
+hide_table_of_contents: true
 ---
 
 One of React's most powerful features is its virtual DOM. In this lesson, we'll discuss how the virtual DOM works.

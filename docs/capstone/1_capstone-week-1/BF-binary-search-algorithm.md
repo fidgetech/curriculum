@@ -1,6 +1,8 @@
 ---
 title: "📓 Binary Search Algorithm"
 day: thursday
+id: binary-search-algorithm
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll explore an important algorithm known as **binary search**. You have probably used a binary search algorithm before — in fact, you probably used one when you were a kid.

@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.5 Git Best Practices and Adding a .gitignore File"
 day: weekend
+id: 2-2-0-5-git-best-practices-and-adding-a--gitignore-file
+hide_table_of_contents: true
 ---
 
 The very first step in creating any project that uses multiple JS dependencies that are managed by node package manager (npm) is to create a `.gitignore` file, and we'll do just that in this lesson. We'll also take the opportunity to review a few additional Git best practices. You are expected to incorporate all of these best practices into your projects for the remainder of the Intermediate JavaScript course.

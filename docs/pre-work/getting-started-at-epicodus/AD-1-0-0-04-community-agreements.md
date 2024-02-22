@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.04 Community Agreements"
 day: weekend
+id: 1-0-0-04-community-agreements
+hide_table_of_contents: true
 ---
 
 Your participation in Epicodus's DEI mission starts with making our classroom a welcoming and inclusive place for everyone. We ask that you respect these community agreements in all interactions at Epicodus.

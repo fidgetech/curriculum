@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.2.7 Creating a Template Repository"
 day: tuesday
+id: 2-2-2-7-creating-a-template-repository
+hide_table_of_contents: true
 ---
 
 When we create projects using an environment (with multiple packages managed by npm, and webpack to bundle our source code), we'll often start with the exact same files. It can be tedious to build all of these files from scratch, especially when we're building new projects every day.

@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.2.6 JavaScript's Global Object"
 day: tuesday
+id: 1-2-2-6-javascripts-global-object
+hide_table_of_contents: true
 ---
 
 In this lesson, we're going to revisit the topic of scope and learn something new about global scope in JavaScript: it is represented by a global object. For JavaScript that's run in the browser, its global object is set to the `window` object. We'll start with a review of global and local scope, and then move onto new information.

@@ -1,6 +1,8 @@
 ---
 title: "📓 Adding Combined Reducers to React"
 day: monday
+id: adding-combined-reducers-to-react
+hide_table_of_contents: true
 ---
 
 We've successfully added two additional reducers to our application — one for handling form visibility and another to combine our reducers into a single root reducer. Now we need to refactor our help application to utilize our new root reducer.

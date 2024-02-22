@@ -1,6 +1,8 @@
 ---
 title: ✏️ Binary Search Trees Practice
 day: monday
+id: binary-search-trees-practice
+hide_table_of_contents: true
 ---
 
 Now that you're done following along with the lessons to build and traverse a binary search tree, it's time for an additional challenge. Try adding the functionality listed below to your application. It's okay if you do not get the functionality fully implemented — these are both challenging features and there's a reason we don't walk through them in-depth in our curriculum.

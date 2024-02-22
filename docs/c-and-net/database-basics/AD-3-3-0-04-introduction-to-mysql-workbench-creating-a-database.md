@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.0.04 Introduction to MySQL Workbench: Creating a Database"
 day: weekend
+id: 3-3-0-04-introduction-to-mysql-workbench-creating-a-database
+hide_table_of_contents: true
 ---
 
 We'll use a tool called **MySQL Workbench** to manage our databases. It was created to manage MySQL using a graphical interface. In this lesson, we'll walk through how to use the interface to view, configure, and interact with our databases.

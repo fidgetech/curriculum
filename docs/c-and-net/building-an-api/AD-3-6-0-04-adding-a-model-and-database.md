@@ -1,6 +1,8 @@
 ---
 title: "📓 3.6.0.04 Adding a Model and Database"
 day: weekend
+id: 3-6-0-04-adding-a-model-and-database
+hide_table_of_contents: true
 ---
 
 Let's start work on our Cretaceous Park API. While the CLI scaffolded the basics for us, we'll still need to set up and configure our own database, controller, and models.

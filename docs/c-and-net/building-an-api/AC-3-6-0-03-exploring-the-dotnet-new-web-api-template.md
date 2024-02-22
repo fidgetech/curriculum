@@ -1,6 +1,8 @@
 ---
 title: "📓 3.6.0.03 Exploring the dotnet new Web API Template"
 day: weekend
+id: 3-6-0-03-exploring-the-dotnet-new-web-api-template
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll start building a Cretaceous Park API. This API will share data about a wildlife park consisting of creatures from [the cretaceous period](https://en.wikipedia.org/wiki/Cretaceous) that other developers can query.

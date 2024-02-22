@@ -1,6 +1,8 @@
 ---
 title: "📓 Journal #14"
 day: weekend
+id: journal-14
+hide_table_of_contents: true
 ---
 
 You were asked to keep a journal while going through the program. Each weekend you'll receive a brief journaling assignment in addition to your coding homework.

@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.3.10 Preparing for Your First Code Review"
 day: wednesday
+id: 1-1-3-10-preparing-for-your-first-code-review
+hide_table_of_contents: true
 ---
 
 ## What To Expect

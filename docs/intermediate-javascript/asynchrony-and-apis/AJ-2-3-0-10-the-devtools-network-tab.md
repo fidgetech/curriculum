@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.0.10 The DevTools Network Tab"
 day: weekend
+id: 2-3-0-10-the-devtools-network-tab
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll take a look at the _Network_ tab and how we can use it to debug API calls. As it usually goes for each tab in our browser DevTools, there's _a lot_ of available tools, so we'll just stick to the basics.

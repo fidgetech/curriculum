@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.0.11 VS Code: Bracket Colorization and Guides"
 day: weekend
+id: 2-1-0-11-vs-code-bracket-colorization-and-guides
+hide_table_of_contents: true
 ---
 
 As our functions get more complex, it becomes more challenging to keep track of opening and closing brackets such as parentheses and curly braces.

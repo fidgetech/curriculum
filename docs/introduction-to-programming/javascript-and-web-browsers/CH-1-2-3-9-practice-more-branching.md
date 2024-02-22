@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.3.9 Practice: More Branching'
 day: wednesday
+id: 1-2-3-9-practice-more-branching
+hide_table_of_contents: true
 ---
 
 **Goal:**  In the More Branching lesson, we learned about:

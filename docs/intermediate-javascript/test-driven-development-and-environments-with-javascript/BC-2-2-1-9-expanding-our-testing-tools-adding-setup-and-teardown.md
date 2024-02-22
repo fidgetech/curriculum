@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.1.9 Expanding our Testing Tools: Adding Setup and Teardown"
 day: monday
+id: 2-2-1-9-expanding-our-testing-tools-adding-setup-and-teardown
+hide_table_of_contents: true
 ---
 
 In the last lesson, we wrote six tests for a triangle tracker application. In each test, we needed to instantiate a `Triangle` object to test either the constructor or the `Triangle.prototype.checkType()` method. These `Triangle` objects were all different, but what would happen if we needed to instantiate the same `Triangle` object for many tests?

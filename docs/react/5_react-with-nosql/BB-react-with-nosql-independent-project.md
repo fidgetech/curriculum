@@ -1,6 +1,8 @@
 ---
 title: ✏️ React with NoSQL Independent Project
 day: friday
+id: react-with-nosql-independent-project
+hide_table_of_contents: true
 ---
 
 ## Independent Projects Overview

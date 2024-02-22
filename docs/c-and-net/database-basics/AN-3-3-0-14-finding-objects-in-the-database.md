@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.0.14 Finding Objects in the Database"
 day: weekend
+id: 3-3-0-14-finding-objects-in-the-database
+hide_table_of_contents: true
 ---
 
 Now that we can successfully save `Item`s to the database, we're ready to update our `Find()` method to so that we can retrieve specific `Item`s by their ID.

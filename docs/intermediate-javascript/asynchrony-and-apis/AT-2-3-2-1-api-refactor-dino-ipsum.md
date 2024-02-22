@@ -1,6 +1,8 @@
 ---
 title: '✏️ 2.3.2.1 API Refactor, Dino Ipsum'
 day: tuesday
+id: 2-3-2-1-api-refactor-dino-ipsum
+hide_table_of_contents: true
 ---
 
 **Goal:**  Practice making API calls in JavaScript using a promise. Start by following along with the homework to build out the refactor of the OpenWeather API project. Then move onto another project. Each project should include a full development environment, a `.env` file for sensitive API variables, and complete README instructions, including instructions for setting up an API key as needed. Make sure to include error handling and practice parsing JSON, too.

@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.3.2.5 Practice: Extending Text Analyzer Business Logic with TDD'
 day: tuesday
+id: 1-3-2-5-practice-extending-text-analyzer-business-logic-with-tdd
+hide_table_of_contents: true
 ---
 
 **Goal:** Build out the `text-analyzer` business logic, making sure to practice TDD.

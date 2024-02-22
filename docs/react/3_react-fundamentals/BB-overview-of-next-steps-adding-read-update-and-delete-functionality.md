@@ -1,6 +1,8 @@
 ---
 title: "📓 Overview of Next Steps: Adding READ, UPDATE, and DELETE Functionality"
 day: wednesday
+id: overview-of-next-steps-adding-read-update-and-delete-functionality
+hide_table_of_contents: true
 ---
 
 Tonight's homework includes some long lessons and heavy content. We will be adding the following functionality to our Help Queue application: 

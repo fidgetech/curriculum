@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.1.5 Accessing Window Properties"
 day: monday
+id: 1-2-1-5-accessing-window-properties
+hide_table_of_contents: true
 ---
 
 Previously we learn that information about our web browser window is accessed through the `window` object. Let's review:

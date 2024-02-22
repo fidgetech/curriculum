@@ -1,6 +1,8 @@
 ---
 title: "📓 3.5.0.2 Async and Await"
 day: weekend
+id: 3-5-0-2-async-and-await
+hide_table_of_contents: true
 ---
 
 During Intermediate JavaScript, we learned how to write asynchronous code and manage asynchronicity while performing complex actions like API calls. In this lesson, we'll discuss how C# handles asynchronous code.

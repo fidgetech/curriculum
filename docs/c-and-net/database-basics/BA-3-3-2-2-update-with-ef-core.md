@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.2.2 Update with EF Core"
 day: tuesday
+id: 3-3-2-2-update-with-ef-core
+hide_table_of_contents: true
 ---
 
 Now that we've had some time to practice adding create and read functionality with Entity, we're ready to add update and delete functionality as well. In this lesson, we'll add update functionality. In the next lesson, we'll add the ability to delete items as well.

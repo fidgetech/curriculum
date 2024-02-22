@@ -1,6 +1,8 @@
 ---
 title: "📓 Currying"
 day: weekend
+id: currying
+hide_table_of_contents: true
 ---
 
 **Currying** is an essential functional programming concept named after the mathematician Haskell Curry.

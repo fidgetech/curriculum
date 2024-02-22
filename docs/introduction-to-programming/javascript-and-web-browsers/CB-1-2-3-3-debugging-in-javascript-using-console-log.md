@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.3.3 Debugging in JavaScript: Using console.log()"
 day: wednesday
+id: 1-2-3-3-debugging-in-javascript-using-console-log
+hide_table_of_contents: true
 ---
 
 This is the second of four lessons on debugging in JavaScript. Previously, we've covered working with your DevTools console open and keeping an eye out for console errors. In this lesson, we've intentionally added two errors to our Mad Libs project so that we can learn how to use `console.log()` statements to help us debug. In the process, we'll also cover a very common error for JavaScript beginners — and how to easily spot it.

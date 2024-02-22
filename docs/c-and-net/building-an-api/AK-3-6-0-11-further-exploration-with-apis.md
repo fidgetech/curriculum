@@ -1,6 +1,8 @@
 ---
 title: "📓 3.6.0.11 Further Exploration with API's"
 day: weekend
+id: 3-6-0-11-further-exploration-with-apis
+hide_table_of_contents: true
 ---
 
 It’s time to do a deep dive on your own. In the classwork for this course section, you'll be tasked with trying to incorporate one or more of the following features into your API:

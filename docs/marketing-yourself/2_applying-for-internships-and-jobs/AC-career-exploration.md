@@ -1,6 +1,8 @@
 ---
 title: "📓 Career Exploration"
 day: weekend
+id: career-exploration
+hide_table_of_contents: true
 ---
 
 ## Introduction

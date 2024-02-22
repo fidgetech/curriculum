@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.4.7 Debugging in JavaScript: Using debugger and Breakpoints"
 day: thursday
+id: 1-2-4-7-debugging-in-javascript-using-debugger-and-breakpoints
+hide_table_of_contents: true
 ---
 
 This is our fourth and final lesson on basic debugging with JavaScript. In this lesson, we'll use DevTools debugger to pinpoint and fix two new bugs in our Calculator JS.

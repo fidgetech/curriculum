@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.35 Using the RGR Workflow to Write our First Test for the Constructor"
 day: weekend
+id: 3-0-0-35-using-the-rgr-workflow-to-write-our-first-test-for-the-constructor
+hide_table_of_contents: true
 ---
 
 Let's create our first test. Remember that the purpose of test-driven development is to write a test for the smallest unit of behavior possible. The test should fail first. Then we should add the smallest amount of code possible to get the test to pass. After that, we can refactor our code as necessary. This follows the "Red, Green, Refactor" TDD workflow.

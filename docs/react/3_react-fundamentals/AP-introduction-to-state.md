@@ -1,6 +1,8 @@
 ---
 title: "📓 Introduction to State"
 day: monday
+id: introduction-to-state
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll briefly cover the concept of state. We'll discuss shared state versus local state. We'll also briefly cover how we define and change state in a pure React application. Then, over the next several lessons, we'll add state to our Help Queue application so we can dynamically add new tickets.

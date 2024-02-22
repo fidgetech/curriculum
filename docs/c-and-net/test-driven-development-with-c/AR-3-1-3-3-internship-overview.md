@@ -1,6 +1,8 @@
 ---
 title: "📓 3.1.3.3 Internship Overview"
 day: wednesday
+id: 3-1-3-3-internship-overview
+hide_table_of_contents: true
 ---
 
 Below is a general explanation and walk-through of the internship process. Exact dates and deadlines will differ for each course. You will be provided all dates and deadlines specific to your cohort as internships draw near.

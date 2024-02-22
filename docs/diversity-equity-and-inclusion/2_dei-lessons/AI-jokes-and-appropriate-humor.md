@@ -1,6 +1,8 @@
 ---
 title: "📓 Jokes and Appropriate Humor"
 day: weekend
+id: jokes-and-appropriate-humor
+hide_table_of_contents: true
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum.

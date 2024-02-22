@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.0.3 Literal Notation Versus Constructors"
 day: weekend
+id: 2-1-0-3-literal-notation-versus-constructors
+hide_table_of_contents: true
 ---
 
 In the previous lesson we created objects using **Literal Notation**. Let's explore further examples of what literal notation looks like, and how the process of creating objects may be streamlined by using constructors. We haven't learned about constructors yet, but we will in this lesson!

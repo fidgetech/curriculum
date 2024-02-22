@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.28 Installing and Using VS Code Live Share"
 day: weekend
+id: 1-0-0-28-installing-and-using-vs-code-live-share
+hide_table_of_contents: true
 ---
 
 For working and collaborating remotely, Epicodus uses Visual Studio Code Live Share, Live Server, and Live Share Audio to share the following:

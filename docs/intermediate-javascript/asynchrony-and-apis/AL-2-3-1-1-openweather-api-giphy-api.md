@@ -1,6 +1,8 @@
 ---
 title: '✏️ 2.3.1.1 OpenWeather API, Giphy API'
 day: monday
+id: 2-3-1-1-openweather-api-giphy-api
+hide_table_of_contents: true
 ---
 
 **Goal:**  Practice making API calls in JavaScript. Start by following along with the pre-work and then build out a basic application that uses an API call. Your projects should include full development environments, a `.env` file for sensitive API variables, and complete README instructions, including instructions for setting up an API key as needed. Make sure to practice parsing JSON and API call error handling, too.

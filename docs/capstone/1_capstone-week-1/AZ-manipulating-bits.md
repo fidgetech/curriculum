@@ -1,6 +1,8 @@
 ---
 title: "📓 Manipulating Bits"
 day: wednesday
+id: manipulating-bits
+hide_table_of_contents: true
 ---
 
 In the last lesson, we learned about bits — the smallest units of binary code that our machines use to operate. In this lesson, we'll learn how to work with bits, including comparing and manipulating them.

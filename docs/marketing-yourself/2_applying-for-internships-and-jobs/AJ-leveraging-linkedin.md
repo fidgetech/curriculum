@@ -1,6 +1,8 @@
 ---
 title: "📓 Leveraging LinkedIn"
 day: weekend
+id: leveraging-linkedin
+hide_table_of_contents: true
 ---
 
 # Leveraging LinkedIn

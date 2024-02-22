@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.10 Configuring webpack and Using npm Scripts"
 day: weekend
+id: 2-2-0-10-configuring-webpack-and-using-npm-scripts
+hide_table_of_contents: true
 ---
 
 Before we get started with configuring webpack, let's take a look at our shape tracker application so far. It should have the following:

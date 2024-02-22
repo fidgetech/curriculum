@@ -1,6 +1,8 @@
 ---
 title: "📓 Closures"
 day: weekend
+id: closures
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll cover another concept central to functional programming: **closures**.

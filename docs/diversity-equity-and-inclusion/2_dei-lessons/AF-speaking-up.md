@@ -1,6 +1,8 @@
 ---
 title: "📓 Speaking Up"
 day: weekend
+id: speaking-up
+hide_table_of_contents: true
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week we will discuss speaking up against hurtful language or behavior. 

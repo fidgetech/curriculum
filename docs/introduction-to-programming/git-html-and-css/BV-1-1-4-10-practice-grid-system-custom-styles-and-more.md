@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.4.10 Practice: Grid System, Custom Styles, and More'
 day: thursday
+id: 1-1-4-10-practice-grid-system-custom-styles-and-more
+hide_table_of_contents: true
 ---
 
 **Goal:** Continue exploring Bootstrap by expanding your HTML page that integrates multiple Bootstrap elements into its styles.

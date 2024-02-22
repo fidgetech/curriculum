@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.2 Modern JavaScript Development"
 day: weekend
+id: 2-2-0-2-modern-javascript-development
+hide_table_of_contents: true
 ---
 
 Imagine we're part of a development team working on a huge application. The application is live and thousands of people visit our site everyday. It has hundreds of pages, JavaScript files, and dependencies (like Bootstrap, or any other library we can incorporate into our project). After all, it's a huge site and many people use it! 

@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.1.5 Hypertext Markup Language (HTML)"
 day: monday
+id: 1-1-1-5-hypertext-markup-language-html
+hide_table_of_contents: true
 ---
 
 We've already had a bit of a taste of a basic HTML file with our Hello World and Goodbye web pages.  Now, we're going to focus on the basics of HyperText Markup Language or HTML that we previously just cut and paste into our pages.  

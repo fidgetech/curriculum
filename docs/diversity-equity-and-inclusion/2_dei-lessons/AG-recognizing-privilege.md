@@ -1,6 +1,8 @@
 ---
 title: "📓 Recognizing Privilege"
 day: weekend
+id: recognizing-privilege
+hide_table_of_contents: true
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week, we'll learn about why DEI efforts are so important in the tech industry — and elsewhere.

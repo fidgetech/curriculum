@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.0.07 Testing Database Backed Applications"
 day: weekend
+id: 3-3-0-07-testing-database-backed-applications
+hide_table_of_contents: true
 ---
 
 In the last lesson, we created a `GetAll()` method that queries our database. However, we haven't tested that method yet. Over the next few lessons, we'll learn how to test a database-backed application, covering important considerations and how to export and import databases with MySQL Workbench to create a test database. Then, we'll create our tests for the `Item` class.

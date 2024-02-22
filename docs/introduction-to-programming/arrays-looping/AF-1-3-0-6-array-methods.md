@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.0.6 Array Methods"
 day: weekend
+id: 1-3-0-6-array-methods
+hide_table_of_contents: true
 ---
 
 Over the last two lessons, we've learned the basics of how arrays work, the `length` property that every array has, and how we can look inside of arrays. We also learned about off-by-one errors — and there will be plenty more reminders about OBOEs throughout this section (mostly when we make the OBOE in our code) because they are so common.

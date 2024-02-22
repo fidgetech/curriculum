@@ -1,6 +1,8 @@
 ---
 title: "📓 Journal #2"
 day: weekend
+id: journal-2
+hide_table_of_contents: true
 ---
 
 You were asked to keep a journal while going through the program. Each weekend you'll receive a brief journaling assignment in addition to your coding homework. (If you'd like a refresher, review the [Journaling at Epicodus](/introduction-to-programming/git-html-and-css/homework-journaling-at-epicodus) lesson now.)

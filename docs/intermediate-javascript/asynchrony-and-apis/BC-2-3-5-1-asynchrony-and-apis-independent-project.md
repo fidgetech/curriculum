@@ -1,6 +1,9 @@
 ---
 title: ✏️ 2.3.5.1 Asynchrony and APIs Independent Project
 day: friday
+id: 2-3-5-1-asynchrony-and-apis-independent-project
+hide_table_of_contents: true
+paginationNext: null
 ---
 
 ## Independent Projects Overview

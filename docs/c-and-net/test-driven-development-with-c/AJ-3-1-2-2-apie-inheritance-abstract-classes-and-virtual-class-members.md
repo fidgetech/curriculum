@@ -1,6 +1,8 @@
 ---
 title: "📓 3.1.2.2 APIE: Inheritance, Abstract Classes, and Virtual Class Members"
 day: tuesday
+id: 3-1-2-2-apie-inheritance-abstract-classes-and-virtual-class-members
+hide_table_of_contents: true
 ---
 
 In this lesson, we're going to revisit the four principles of Object-Oriented Programming (OOP), often referred to as APIE: 

@@ -1,6 +1,8 @@
 ---
 title: "📓 Formulate Answers to Most Common Interview Questions"
 day: weekend
+id: formulate-answers-to-most-common-interview-questions
+hide_table_of_contents: true
 ---
 
 # Formulating Answers to Interview Questions

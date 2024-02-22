@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.2.3 Practice: Inline Elements'
 day: tuesday
+id: 1-1-2-3-practice-inline-elements
+hide_table_of_contents: true
 ---
 
 **Goal:**  Familiarize yourselves with the usage of inline HTML elements while continuing to practice Git, indentation and spacing.  Inline HTML elements are an important building block of most any website, so it's important to become comfortable with them now.

@@ -1,6 +1,8 @@
 ---
 title: ✏️ React with Redux Independent Project
 day: friday
+id: react-with-redux-independent-project
+hide_table_of_contents: true
 ---
 
 ## Independent Projects Overview

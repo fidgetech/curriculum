@@ -1,6 +1,8 @@
 ---
 title: "📓 3.6.0.05 API: Create and Read"
 day: weekend
+id: 3-6-0-05-api-create-and-read
+hide_table_of_contents: true
 ---
 
 Now that we have seeded animal data, we'll create our first custom API endpoints for CREATE and READ functionality. We'll add:

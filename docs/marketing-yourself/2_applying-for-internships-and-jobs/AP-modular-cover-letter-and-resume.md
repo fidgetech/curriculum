@@ -1,6 +1,8 @@
 ---
 title: "📓 Modular Cover Letter and Resume"
 day: weekend
+id: modular-cover-letter-and-resume
+hide_table_of_contents: true
 ---
 
 # Creating a Modular Resume and Cover Letter

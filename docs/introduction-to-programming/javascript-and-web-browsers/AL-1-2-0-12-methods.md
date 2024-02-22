@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.0.12 Methods"
 day: weekend
+id: 1-2-0-12-methods
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll learn about key functionality for JavaScript: methods and functions. We'll start with briefly defining functions, because methods are a type of function.

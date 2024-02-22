@@ -1,6 +1,8 @@
 ---
 title: "📓 Review: How the Web Works"
 day: weekend
+id: review-how-the-web-works
+hide_table_of_contents: true
 ---
 
 ## Mock Interview Questions

@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.3.1.2 Practice: JavaScript Arrays'
 day: monday
+id: 1-3-1-2-practice-javascript-arrays
+hide_table_of_contents: true
 ---
 
 **Goal:** In the lessons on arrays, we learned:

@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.2.1 Commit Trailers and Github Contributions"
 day: tuesday
+id: 1-1-2-1-commit-trailers-and-github-contributions
+hide_table_of_contents: true
 ---
 
 There are many reasons why we should commit our code regularly. We can ensure that all the changes in our code are tracked, both major and minor. If something breaks in our code, we can return to a commit where we know the code is working. Finally, regular commits make it much easier for different people working in different places to track and contribute to a project.

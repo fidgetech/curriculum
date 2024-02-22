@@ -1,6 +1,8 @@
 ---
 title: "📓 Continuing to Code"
 day: tuesday
+id: continuing-to-code
+hide_table_of_contents: true
 ---
 
 It's important to keep coding while you look for work. It will keep your skills sharp and demonstrate to employers that you actually like coding. Avoid tutorials and picking up new languages, and instead focus on building out a project — it gives you more to talk about in your interviews and better demonstrates your coding abilities. Push everything you do to Github, regardless of whether it is complete or not.

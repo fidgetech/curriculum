@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.2.2 Introduction to the Node Object"
 day: tuesday
+id: 2-1-2-2-introduction-to-the-node-object
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll learn a bit more about the `Node` object. We've previously encountered the `Node` object when we discussed the series of objects that HTML element objects inherit from. Remember this graphic for the `HTMLHeadingElement` object?

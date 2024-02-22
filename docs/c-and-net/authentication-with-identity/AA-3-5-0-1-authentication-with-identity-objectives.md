@@ -1,6 +1,9 @@
 ---
 title: "📓 3.5.0.1 Authentication with Identity Objectives"
 day: weekend
+id: 3-5-0-1-authentication-with-identity-objectives
+hide_table_of_contents: true
+paginationPrev: null
 ---
 
 In this course section, we'll learn how to use authentication and authorization in our projects. We will use Identity to handle **authentication**: to register, log in, and log out users. In the process, we'll learn how to do the following:

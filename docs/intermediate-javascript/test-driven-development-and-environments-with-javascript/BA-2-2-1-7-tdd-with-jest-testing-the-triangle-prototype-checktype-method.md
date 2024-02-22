@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.1.7 TDD with Jest: Testing the Triangle.prototype.checkType() Method"
 day: monday
+id: 2-2-1-7-tdd-with-jest-testing-the-triangle-prototype-checktype-method
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll continue practicing the RGR workflow by creating four more tests to develop the complete functionality of the `Triangle.prototype.checkType()` method. Before we dive into our second test, we're going to explain some choices that you have when organizing your tests.

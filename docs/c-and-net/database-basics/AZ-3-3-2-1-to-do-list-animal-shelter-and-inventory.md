@@ -1,6 +1,8 @@
 ---
 title: '✏️ 3.3.2.1 To Do List, Animal Shelter, and Inventory'
 day: tuesday
+id: 3-3-2-1-to-do-list-animal-shelter-and-inventory
+hide_table_of_contents: true
 ---
 
 **Goal**: Practice using a database while becoming more familiar with Entity. Focus on adding create and read functionality to your applications. If you have extra time, consider looking at tonight's lessons for adding update and delete functionality. We recommend using [WWW SQL Designer](http://ondras.zarovi.cz/sql/demo/) to plan out tables and columns.

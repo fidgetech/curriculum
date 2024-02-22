@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.0.9 JavaScript Variables"
 day: weekend
+id: 1-2-0-9-javascript-variables
+hide_table_of_contents: true
 ---
 
 **Variables** are one of the major features of computer programming and we will use them all the time. A variable is just a container that stores some information such as a number, an object, or a string.

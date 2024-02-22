@@ -1,6 +1,8 @@
 ---
 title: "📓 3.4.4.1 Whiteboard Practice"
 day: thursday
+id: 3-4-4-1-whiteboard-practice
+hide_table_of_contents: true
 ---
 
 ## Whiteboard Practice

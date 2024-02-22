@@ -1,6 +1,8 @@
 ---
 title: "📓 Pure Functions"
 day: weekend
+id: pure-functions
+hide_table_of_contents: true
 ---
 
 When we program in a functional style, the functions we write must always be **pure**. Let's take a look at what makes a **pure function**.

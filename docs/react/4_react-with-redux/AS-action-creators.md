@@ -1,6 +1,8 @@
 ---
 title: "📓 Action Creators"
 day: tuesday
+id: action-creators
+hide_table_of_contents: true
 ---
 
 Over the next two lessons, we will learn some simple techniques that will allow us to clean up our code. These techniques are considered Redux best practices.

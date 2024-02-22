@@ -1,6 +1,8 @@
 ---
 title: "📓 2.0.0.2 JS Documentation and Resources"
 day: weekend
+id: 2-0-0-2-js-documentation-and-resources
+hide_table_of_contents: true
 ---
 
 In this course your evolution as a developer will go from outside observer to a fully participating member of the developer community.  To find direction for our JavaScript applications, we will be spending much more time using the same online documentation that JS developers use in the field.  

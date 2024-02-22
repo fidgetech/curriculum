@@ -1,6 +1,8 @@
 ---
 title: "📓 3.6.0.02 Scaffolding a .NET Application with dotnet new"
 day: weekend
+id: 3-6-0-02-scaffolding-a--net-application-with-dotnet-new
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll learn more about the **.NET 6.0 CLI** and build an ASP.NET Core API project with the **dotnet new** command. Later, we'll build an ASP.NET Core MVC project using the `dotnet new` command.

@@ -1,6 +1,8 @@
 ---
 title: "📓 Planning Our Application: Part 2"
 day: monday
+id: planning-our-application-part-2
+hide_table_of_contents: true
 ---
 
 In the last lesson, we briefly covered local and shared state. The plan we made for our static Help Queue is a good start but we will need to make some changes to its structure. That means rethinking some parts of our application and creating a new diagram.

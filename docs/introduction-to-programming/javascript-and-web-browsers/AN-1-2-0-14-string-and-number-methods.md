@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.0.14 String and Number Methods"
 day: weekend
+id: 1-2-0-14-string-and-number-methods
+hide_table_of_contents: true
 ---
 
 Let's dive more into methods. JavaScript offers built-in methods for strings and numbers. Let's take a look at a few of these methods, including some we've learned about already. Note that the list below isn't comprehensive — there are many more methods out there that we'll take a look at soon!

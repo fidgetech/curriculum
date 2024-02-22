@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.20 Configuration Reference, Suggested Workflows, and Optional Review"
 day: weekend
+id: 2-2-0-20-configuration-reference-suggested-workflows-and-optional-review
+hide_table_of_contents: true
 ---
 
 We've learned about a lot of new concepts and tools over the weekend homework, so it's time to explain a typical workflow with the new tools we've learned, and share a configuration reference. 

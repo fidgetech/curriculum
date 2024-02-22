@@ -1,6 +1,8 @@
 ---
 title: "📓 Optimizing Hashing Algorithms"
 day: wednesday
+id: optimizing-hashing-algorithms
+hide_table_of_contents: true
 ---
 
 In the last lesson, we covered all the basic concepts in building a hash table. Our hash table only had 26 buckets for a reason — because it's easier to visualize a bucket for each letter of the alphabet.

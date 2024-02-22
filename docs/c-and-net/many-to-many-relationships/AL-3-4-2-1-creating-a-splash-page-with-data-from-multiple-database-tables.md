@@ -1,6 +1,8 @@
 ---
 title: "📓 3.4.2.1 Creating a Splash Page with Data from Multiple Database Tables"
 day: tuesday
+id: 3-4-2-1-creating-a-splash-page-with-data-from-multiple-database-tables
+hide_table_of_contents: true
 ---
 
 In this lesson we're going to learn how to create a splash page that lists all of the objects saved in multiple database tables. A **splash page** is the first page that a user sees when they visit your site. They might contain promotions, offers, a beautiful image, or just be the homepage of your site. 

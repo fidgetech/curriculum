@@ -1,6 +1,8 @@
 ---
 title: "📓 Conclusion"
 day: weekend
+id: conclusion
+hide_table_of_contents: true
 ---
 
 ## Thank You!

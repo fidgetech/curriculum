@@ -1,6 +1,9 @@
 ---
 title: "📓 React with NoSQL Objectives"
 day: weekend
+id: react-with-nosql-objectives
+hide_table_of_contents: true
+paginationPrev: null
 ---
 
 In this course section, we'll learn how to persist data with a NoSQL database. We'll use Google's Firebase, an app development platform that provides many services including NoSQL databases, authentication, and hosting.

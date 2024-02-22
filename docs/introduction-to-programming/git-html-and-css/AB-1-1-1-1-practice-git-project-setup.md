@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.1.1 Practice: Git Project Setup'
 day: monday
+id: 1-1-1-1-practice-git-project-setup
+hide_table_of_contents: true
 ---
 
 **Goal**: In this lesson, we'll create a one-page website that says "hello" to the world. In the process, we'll learn about Git, a tool for tracking changes to our code. The steps we follow in this lesson will reflect the daily workflow we'll use when coding all of our projects throughout our time at Epicodus. You can also use the cheat sheet as a reference for starting your projects during this section — but using Git for your projects will soon become second nature.

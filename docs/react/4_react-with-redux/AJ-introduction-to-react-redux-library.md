@@ -1,6 +1,8 @@
 ---
 title: "📓 Introduction to React Redux Library"
 day: weekend
+id: introduction-to-react-redux-library
+hide_table_of_contents: true
 ---
 
 In this lesson, we will learn how to use the [React Redux](https://github.com/reactjs/react-redux) library, which contains the official bindings for adding Redux to a React project.

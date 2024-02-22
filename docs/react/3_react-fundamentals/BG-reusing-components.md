@@ -1,6 +1,8 @@
 ---
 title: "📓 Reusing Components"
 day: wednesday
+id: reusing-components
+hide_table_of_contents: true
 ---
 
 One of React's many advantages is its ability to reuse components. Whenever we are in a situation where we might need to reuse code, we should think carefully about whether that code can be extracted into another component and then used where needed.

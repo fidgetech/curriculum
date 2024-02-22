@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.1.1 Practice: Review of JavaScript Basics'
 day: monday
+id: 1-2-1-1-practice-review-of-javascript-basics
+hide_table_of_contents: true
 ---
 
 **Goal:** Discuss and apply these JavaScript concepts with your pair:

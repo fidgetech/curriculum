@@ -1,6 +1,8 @@
 ---
 title: "📓 Further Exploration: Creating a Custom React Environment"
 day: tuesday
+id: further-exploration-creating-a-custom-react-environment
+hide_table_of_contents: true
 ---
 
 We've used create-react-app to build React applications because it's easy to get started and we can bypass the additional work of setting up our own webpack configuration. create-react-app comes with a lot of tools right out of the box and we can always add additional libraries as needed.

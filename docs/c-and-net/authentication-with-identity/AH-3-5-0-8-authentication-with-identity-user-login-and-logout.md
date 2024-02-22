@@ -1,6 +1,8 @@
 ---
 title: "📓 3.5.0.8 Authentication with Identity: User Login and Logout"
 day: weekend
+id: 3-5-0-8-authentication-with-identity-user-login-and-logout
+hide_table_of_contents: true
 ---
 
 Now that users can successfully register for new accounts, let's add the logic necessary for them to sign in and out of their accounts.

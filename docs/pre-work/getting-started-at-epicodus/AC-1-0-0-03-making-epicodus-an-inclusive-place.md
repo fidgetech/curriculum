@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.03 Making Epicodus an Inclusive Place"
 day: weekend
+id: 1-0-0-03-making-epicodus-an-inclusive-place
+hide_table_of_contents: true
 ---
 
 One part of being at Epicodus is making it a place where everybody can feel like part of our class's community. Before class starts, read this article about the experience of a black woman after 13 years of working in tech:

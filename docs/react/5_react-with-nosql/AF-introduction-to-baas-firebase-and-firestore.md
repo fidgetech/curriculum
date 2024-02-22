@@ -1,6 +1,8 @@
 ---
 title: "📓 Introduction to BaaS, Firebase, and Firestore"
 day: weekend
+id: introduction-to-baas-firebase-and-firestore
+hide_table_of_contents: true
 ---
 
 Firebase is a cloud-based NoSQL database solution offered by Google. In this lesson, we'll give some background on Firebase and Firestore, the realtime database we'll be using. Then, in the next lesson, we'll discuss NoSQL in detail — including how it's different from SQL.

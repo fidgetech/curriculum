@@ -1,6 +1,8 @@
 ---
 title: "📓 Technical Interviews"
 day: weekend
+id: technical-interviews
+hide_table_of_contents: true
 ---
 
 ## Technical Interviews

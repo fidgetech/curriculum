@@ -1,6 +1,8 @@
 ---
 title: "📓 3.5.2.2 Deserializing API Responses with Newtonsoft.Json"
 day: tuesday
+id: 3-5-2-2-deserializing-api-responses-with-newtonsoft-json
+hide_table_of_contents: true
 ---
 
 If we were making our API console application for users, they wouldn't want to copy and paste the response of an API call into a JSON formatter. It's our job to clean up the data and make it more human-readable. We can do this by **deserializing** the data. We can think of serialization as the process of turning data into a format that can be streamed while deserialization is the process of returning that data back to its original state. In this case, we're using deserialization to better make sense of JSON data and make it easier for users to read. 

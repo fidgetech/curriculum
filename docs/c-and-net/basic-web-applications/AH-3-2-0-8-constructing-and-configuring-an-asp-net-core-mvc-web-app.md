@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.8 Constructing and Configuring an ASP.NET Core MVC Web App"
 day: weekend
+id: 3-2-0-8-constructing-and-configuring-an-asp-net-core-mvc-web-app
+hide_table_of_contents: true
 ---
 
 Now that we have a basic understanding of server-side frameworks and MVC, let's build our first ASP.NET Core MVC web application together.

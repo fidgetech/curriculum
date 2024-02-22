@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.20 Hello World! Compiling and Executing C# Programs"
 day: weekend
+id: 3-0-0-20-hello-world-compiling-and-executing-c-programs
+hide_table_of_contents: true
 ---
 
 In this lesson we'll discuss how to configure, write, and run basic C# programs by creating a very basic "Hello World" console application. Then, in the next lesson we'll start on our Shape Tracker project.

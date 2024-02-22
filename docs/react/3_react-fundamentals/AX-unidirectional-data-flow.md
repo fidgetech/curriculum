@@ -1,6 +1,8 @@
 ---
 title: "📓 Unidirectional Data Flow"
 day: tuesday
+id: unidirectional-data-flow
+hide_table_of_contents: true
 ---
 
 So far we have only been working with local state. However, when a user inputs data in our form, we somehow need to get that data from our `NewTicketForm` component to its parent `TicketControl` component.

@@ -1,6 +1,8 @@
 ---
 title: "📓 3.5.0.7 Authentication with Identity: User Registration ViewModel, Validation, and Views"
 day: weekend
+id: 3-5-0-7-authentication-with-identity-user-registration-viewmodel-validation-and-views
+hide_table_of_contents: true
 ---
 
 In the last lesson, we added a controller for registering new users. In this lesson, we'll create the corresponding views as well as our first `ViewModel`. In the process, we'll learn about a few new validation attributes (also called "data annotations") and Identity's default password requirements and how to override them.

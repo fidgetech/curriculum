@@ -1,6 +1,8 @@
 ---
 title: "📓 Further Exploration: Animations with React"
 day: wednesday
+id: further-exploration-animations-with-react
+hide_table_of_contents: true
 ---
 
 We can use animation for a wide range of effects such as guided focus, loading wheels, visualizations, and for improving a user's experience, among other things.

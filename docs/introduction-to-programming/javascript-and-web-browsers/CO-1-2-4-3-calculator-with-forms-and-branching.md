@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.4.3 Calculator with Forms and Branching"
 day: thursday
+id: 1-2-4-3-calculator-with-forms-and-branching
+hide_table_of_contents: true
 ---
 
 The last time we added to our calculator project, we were using `window` methods to prompt and alert information from and to the user. We also carefully separated our business and user interface logics. The functionality of our calculator was limited to adding, and in the following practice prompt, you expanded the functionality with your pair by adding subtraction, multiplication, and division.

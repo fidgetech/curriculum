@@ -1,6 +1,8 @@
 ---
 title: "📓 Backend Course Preparation: Software Installation"
 day: weekend
+id: backend-course-preparation-software-installation
+hide_table_of_contents: true
 ---
 
 It's time to prepare for the next course by installing all relevant software! Depending on what track you signed up for, you will install software for C#/.NET or Ruby/Rails. 

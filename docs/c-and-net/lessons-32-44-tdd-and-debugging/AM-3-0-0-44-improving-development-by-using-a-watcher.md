@@ -1,6 +1,9 @@
 ---
 title: "📓 3.0.0.44 Improving Development by Using a Watcher"
 day: weekend
+id: 3-0-0-44-improving-development-by-using-a-watcher
+hide_table_of_contents: true
+paginationNext: null
 ---
 
 Right now our applications run until they end, but we can change that with the help of a watcher, which will run our app continuously and (in most cases) reload when our source code changes.

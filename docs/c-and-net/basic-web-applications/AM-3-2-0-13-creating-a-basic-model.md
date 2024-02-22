@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.13 Creating a Basic Model"
 day: weekend
+id: 3-2-0-13-creating-a-basic-model
+hide_table_of_contents: true
 ---
 
 We've covered both the V and the C in MVC but we haven't gotten to M yet — the **model**. Remember that a model represents data. Currently, the controller in our virtual postcard application just passes along strings and a view. Let's create a class to _model_ what our application's data should look like.

@@ -1,6 +1,8 @@
 ---
 title: "📓 Using Glitch"
 day: weekend
+id: using-glitch
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll go over how to start a Glitch session and share it with a pair. 

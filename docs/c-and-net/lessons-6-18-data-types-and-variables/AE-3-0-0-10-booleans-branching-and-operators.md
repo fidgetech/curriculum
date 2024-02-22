@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.10 Booleans, Branching, and Operators"
 day: weekend
+id: 3-0-0-10-booleans-branching-and-operators
+hide_table_of_contents: true
 ---
 
 As we learned in Intro, we can use **branching** to execute different code depending on specific conditions. In this lesson, we'll learn how to create booleans in C#. Then, we'll learn how to use both if/else and switch statements. We'll end this lesson by reviewing the operators we can use within conditionals and other resources for continued learning and exploration.

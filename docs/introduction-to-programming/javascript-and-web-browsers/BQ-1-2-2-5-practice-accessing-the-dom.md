@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.2.5 Practice: Accessing the DOM'
 day: tuesday
+id: 1-2-2-5-practice-accessing-the-dom
+hide_table_of_contents: true
 ---
 
 **Goal:** Practice accessing the DOM by using the `document` methods we learned about in the previous lesson.

@@ -1,6 +1,8 @@
 ---
 title: '✏️ 2.2.2.1 Test It Out, Sudoku Checker, Project Euler'
 day: tuesday
+id: 2-2-2-1-test-it-out-sudoku-checker-project-euler
+hide_table_of_contents: true
 ---
 
 **Goal**: Use test-driven development to write your business logic. Practice using Jest to run your unit tests. Aim for 100% coverage of your code. Continue using webpack.

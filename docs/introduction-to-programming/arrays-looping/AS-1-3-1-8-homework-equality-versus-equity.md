@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.1.8 Homework: Equality Versus Equity"
 day: monday
+id: 1-3-1-8-homework-equality-versus-equity
+hide_table_of_contents: true
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week we will cover equity and how it differs from equality. 

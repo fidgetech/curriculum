@@ -1,6 +1,8 @@
 ---
 title: "📓 Using JSX Expressions with Arguments"
 day: wednesday
+id: using-jsx-expressions-with-arguments
+hide_table_of_contents: true
 ---
 
 Before we continue, let's discuss an important gotcha related to evaluating JavaScript functions in JSX curly braces.

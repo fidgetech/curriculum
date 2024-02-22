@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.1.4 Practice: Command Line Git'
 day: monday
+id: 1-1-1-4-practice-command-line-git
+hide_table_of_contents: true
 ---
 
 **Goal**:  Here at Epicodus, we use the command line, Git and Github on a daily basis. The goal for this exercise is to practice the workflow you'll use daily.

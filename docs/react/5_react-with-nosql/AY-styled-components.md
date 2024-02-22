@@ -1,6 +1,8 @@
 ---
 title: "📓 Styled Components"
 day: wednesday
+id: styled-components
+hide_table_of_contents: true
 ---
 
 Up to this point, we've covered only two basic approaches to styling React applications:

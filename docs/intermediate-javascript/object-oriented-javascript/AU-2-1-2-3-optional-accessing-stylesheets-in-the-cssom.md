@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.2.3 Optional: Accessing Stylesheets in the CSSOM"
 day: tuesday
+id: 2-1-2-3-optional-accessing-stylesheets-in-the-cssom
+hide_table_of_contents: true
 ---
 
 Currently, we know two ways to adjust our website styling from our JavaScript: 

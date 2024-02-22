@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.0.9 Exception Handling for API Calls"
 day: weekend
+id: 2-3-0-9-exception-handling-for-api-calls
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll complete our OpenWeather API website by incorporating error handling into our API request. What this means is having our code do something when an API call is not 200 OK, but instead any of the other possible HTTP status codes, like:

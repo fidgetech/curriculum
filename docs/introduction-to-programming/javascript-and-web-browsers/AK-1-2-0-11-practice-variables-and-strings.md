@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.0.11 Practice: Variables and Strings'
 day: weekend
+id: 1-2-0-11-practice-variables-and-strings
+hide_table_of_contents: true
 ---
 
 **Goal:** Practice creating and utilizing variables and strings by completing the exercises listed below. Variables and strings are both a fundamental building block of programming, so begin getting comfortable with them now!

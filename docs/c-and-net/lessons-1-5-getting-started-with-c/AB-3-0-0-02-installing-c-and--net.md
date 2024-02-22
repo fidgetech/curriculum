@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.02 Installing C# and .NET"
 day: weekend
+id: 3-0-0-02-installing-c-and--net
+hide_table_of_contents: true
 ---
 
 First we'll install .NET, which provides access to the C# language. Follow along with instructions for your operating system below.

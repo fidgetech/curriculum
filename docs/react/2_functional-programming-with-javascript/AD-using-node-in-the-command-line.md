@@ -1,6 +1,8 @@
 ---
 title: "📓 Using Node in the Command Line"
 day: weekend
+id: using-node-in-the-command-line
+hide_table_of_contents: true
 ---
 
 So far, we've used JavaScript to build browser applications. When we want to try out snippets of code, we've used the console in Chrome Developer Tools or an online development environment like Codepen.

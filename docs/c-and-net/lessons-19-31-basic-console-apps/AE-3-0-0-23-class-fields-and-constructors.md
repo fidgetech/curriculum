@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.23 Class Fields and Constructors"
 day: weekend
+id: 3-0-0-23-class-fields-and-constructors
+hide_table_of_contents: true
 ---
 
 We know a lot about classes and namespaces at this point, but our Shape Tracker application doesn't do much at all. Let's update our `Triangle` class to have **fields** and a **constructor**. 

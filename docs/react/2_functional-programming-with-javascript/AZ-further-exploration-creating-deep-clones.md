@@ -1,6 +1,8 @@
 ---
 title: "📓 Further Exploration: Creating Deep Clones"
 day: tuesday
+id: further-exploration-creating-deep-clones
+hide_table_of_contents: true
 ---
 
 You will not be expected to create deep clones of objects this course section. However, it's still helpful to know how we might go about creating a deep clone instead of a shallow clone.

@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.2.5 Using ViewBag"
 day: tuesday
+id: 3-3-2-5-using-viewbag
+hide_table_of_contents: true
 ---
 
 Before updating the rest of our application so that our users can actually associate a `Category` with an `Item`, let's learn about a place to store data called a **ViewBag**.

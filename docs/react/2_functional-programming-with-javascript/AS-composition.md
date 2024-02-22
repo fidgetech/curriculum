@@ -1,6 +1,8 @@
 ---
 title: "📓 Composition"
 day: monday
+id: composition
+hide_table_of_contents: true
 ---
 
 Functional programming favors **composition**, not inheritance. In fact, composition is an extremely important computer science concept and it is commonly applied in object-oriented programming as well.

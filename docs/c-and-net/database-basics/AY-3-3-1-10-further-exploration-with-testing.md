@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.1.10 Further Exploration with Testing"
 day: monday
+id: 3-3-1-10-further-exploration-with-testing
+hide_table_of_contents: true
 ---
 
 We've been refactoring our controllers to utilize the Entity Framework Core functionality but we haven't updated any tests. Entity Framework Core and LINQ allow us to drastically reduce the code in our models and controllers because they do so much work behind the scenes. As long as we follow proper naming conventions, we don't need to add custom code for our models to properly interact with our database. These frameworks are already heavily tested, so it would be redundant for us to test our constructors, getters, and setters.

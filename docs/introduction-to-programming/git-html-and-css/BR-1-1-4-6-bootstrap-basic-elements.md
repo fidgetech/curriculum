@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.4.6 Bootstrap Basic Elements"
 day: thursday
+id: 1-1-4-6-bootstrap-basic-elements
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll learn how to implement several of the most common Bootstrap resources and styles. These resources will make our projects look considerably nicer without much additional work.

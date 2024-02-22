@@ -1,6 +1,8 @@
 ---
 title: "📓 3.6.0.10 Scaffolding API Controllers"
 day: weekend
+id: 3-6-0-10-scaffolding-api-controllers
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll learn how to use the `aspnet-codegenerator` tool to scaffold files within our application. While `dotnet new` scaffolds entire projects based on templates, the `aspnet-codegenerator` tool can create files like controllers. This can save us a lot of work!

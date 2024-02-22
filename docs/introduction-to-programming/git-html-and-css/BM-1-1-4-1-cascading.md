@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.4.1 Cascading"
 day: thursday
+id: 1-1-4-1-cascading
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll dive a bit deeper into the **cascading** aspect of cascading style sheets (CSS). **Cascading** simply means that many rules can "cascade" down and apply to HTML elements. For instance, in past lessons, we defined a style for `<ul>`. This style was applied to the text that was inside of `<li>` tags. In other words, the style cascaded down from the parent element to the child element. This concept is also known as **inheritance** and it's a big part of computer programming. Since the `<li>` tags are nested within the `<ul>` tags, the `<li>` tags inherit the styles given to the `<ul>`s.

@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.1.15 Practice: Calculator UI and Business Logic'
 day: monday
+id: 1-2-1-15-practice-calculator-ui-and-business-logic
+hide_table_of_contents: true
 ---
 
 **Goal:** Continue to practice writing JavaScript functions by creating the calculator app.

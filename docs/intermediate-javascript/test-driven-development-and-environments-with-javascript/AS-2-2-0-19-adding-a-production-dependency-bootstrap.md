@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.19 Adding A Production Dependency: Bootstrap"
 day: weekend
+id: 2-2-0-19-adding-a-production-dependency-bootstrap
+hide_table_of_contents: true
 ---
 
 We're almost done setting up our environment. Let's finish up by adding a dependency for our production code: Bootstrap! 

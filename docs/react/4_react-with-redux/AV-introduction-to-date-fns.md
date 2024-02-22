@@ -1,6 +1,8 @@
 ---
 title: "📓 Introduction to date-fns"
 day: wednesday
+id: introduction-to-date-fns
+hide_table_of_contents: true
 ---
 
 **Note:** You are not expected to incorporate any of the concepts from the homework on the date-fns library for the independent project.

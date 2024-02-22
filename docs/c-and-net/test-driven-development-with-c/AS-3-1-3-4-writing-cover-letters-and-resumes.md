@@ -1,6 +1,8 @@
 ---
 title: "📓 3.1.3.4 Writing Cover Letters and Resumes"
 day: wednesday
+id: 3-1-3-4-writing-cover-letters-and-resumes
+hide_table_of_contents: true
 ---
 
 A good cover letter and resume will make it easy to see how your skills and experience match an employer's job description. Many companies use automated tools to scan cover letters and resumes for keywords that match their job descriptions, then automatically reject applications that don't have those words.

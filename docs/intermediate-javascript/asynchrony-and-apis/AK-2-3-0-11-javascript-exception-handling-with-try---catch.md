@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.0.11 JavaScript Exception Handling with try...catch"
 day: weekend
+id: 2-3-0-11-javascript-exception-handling-with-try---catch
+hide_table_of_contents: true
 ---
 
 In this lesson, we're going to familiarize ourselves with a JavaScript exception handling tool called `try...catch`. This tool can be used for any JavaScript, as well as code that makes API calls. In a future lesson, we'll use a `try...catch` with an API call, but in this lesson, we'll use it with regular, synchronous JavaScript. So, take the opportunity to absorb the concepts covered here with the understanding that they will be incorporated later in this section.

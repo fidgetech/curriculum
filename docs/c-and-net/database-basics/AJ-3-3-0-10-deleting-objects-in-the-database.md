@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.0.10 Deleting Objects in the Database"
 day: weekend
+id: 3-3-0-10-deleting-objects-in-the-database
+hide_table_of_contents: true
 ---
 
 In the last lesson, we updated our teardown method for `Item` tests so that it utilizes our test database. However, our `ClearAll()` method doesn't have logic to clear `Item`s from the database yet. In this lesson, we'll discuss how to write a method that deletes all table entries in a database. Once this is done, our teardown test method will be functional, allowing us to develop further database-driven functionality with the "Red, Green, Refactor" TDD workflow.

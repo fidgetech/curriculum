@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.12 Namespaces and Checking the Type of an Object"
 day: weekend
+id: 3-0-0-12-namespaces-and-checking-the-type-of-an-object
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll learn how .NET organizes its classes into namespaces. We'll also learn how to check the exact type (or class) of a data type you are working with. This information will better prepare us to access and use the docs, so that we can learn about _more_ built-in methods that we can use in our projects! 

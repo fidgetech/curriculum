@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.1.5 Static Methods and Properties"
 day: monday
+id: 2-3-1-5-static-methods-and-properties
+hide_table_of_contents: true
 ---
 
 All of the custom methods we've written up to this point have been **instance methods**. In this lesson, we'll learn how to write a **static method** which can be called directly on an object type. We'll also learn how to create **static properties**.

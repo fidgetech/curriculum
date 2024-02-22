@@ -1,6 +1,8 @@
 ---
 title: "📓 Help Queue: Planning and Setup for Context"
 day: weekend
+id: help-queue-planning-and-setup-for-context
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll use React context in our Help Queue application to add a button that toggles between a light and dark theme. We'll need to do a few things to create this new functionality:

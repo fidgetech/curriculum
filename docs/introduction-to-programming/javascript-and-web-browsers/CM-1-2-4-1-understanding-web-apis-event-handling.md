@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.4.1 Understanding Web APIs: Event Handling"
 day: thursday
+id: 1-2-4-1-understanding-web-apis-event-handling
+hide_table_of_contents: true
 ---
 
 Let's continue to learn how to navigate Mozilla Developer Network (MDN) documentation and where to find more information about the Web APIs we learn about in this section. In this lesson, we'll learn about where to find more information about event handling and the Web API interfaces (object types) that contain the functionality for event handling. 

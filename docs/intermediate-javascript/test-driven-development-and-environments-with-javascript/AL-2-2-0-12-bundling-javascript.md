@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.12 Bundling JavaScript"
 day: weekend
+id: 2-2-0-12-bundling-javascript
+hide_table_of_contents: true
 ---
 
 Let's update our shape tracker application to use `import` and `export` statements. By the end of this lesson, we will be using webpack to bundle all of our JavaScript files for us.

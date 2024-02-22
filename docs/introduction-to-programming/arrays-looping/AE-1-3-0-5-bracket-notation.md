@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.0.5 Bracket Notation"
 day: weekend
+id: 1-3-0-5-bracket-notation
+hide_table_of_contents: true
 ---
 
 Now that we know what an array is, let's learn how to work with them. In this lesson, we'll learn how to peek inside an array to look at a value. We'll also learn about the `length` property of arrays as well as a gotcha that can cause major bugs when we are working with arrays.

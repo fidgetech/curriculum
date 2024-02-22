@@ -1,6 +1,8 @@
 ---
 title: "📓 Intro to JavaScript"
 day: weekend
+id: intro-to-javascript
+hide_table_of_contents: true
 ---
 
 We've added new HTML content to our site and styled it with CSS. Next, we'll explore the basics of a programming language called **JavaScript**, which will allow us to add interactivity into our site. JavaScript is more complex than the topics we've covered so far so we'll spend two lessons discussing it.

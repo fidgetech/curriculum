@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.03 Installing dotnet-script"
 day: weekend
+id: 3-0-0-03-installing-dotnet-script
+hide_table_of_contents: true
 ---
 
 Now that .NET 6 and C# are installed on our machines, we'll install **dotnet-script**.

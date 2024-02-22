@@ -1,6 +1,8 @@
 ---
 title: "📓 Introduction to Functional Programming"
 day: weekend
+id: introduction-to-functional-programming
+hide_table_of_contents: true
 ---
 
 Up to this point, we have mostly focused on object-oriented programming. We've built objects that store information and have methods attached to them. Object-oriented programming relies on techniques like **inheritance** and **encapsulation**.

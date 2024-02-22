@@ -1,6 +1,8 @@
 ---
 title: "📓 Telling Your Story"
 day: weekend
+id: telling-your-story
+hide_table_of_contents: true
 ---
 
 ## Why Your Story Matters

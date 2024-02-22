@@ -1,6 +1,8 @@
 ---
 title: "📓 UUID Library"
 day: tuesday
+id: uuid-library
+hide_table_of_contents: true
 ---
 
 So far each of our tickets in the `TicketList` component use a key set to the index of a `map()` function. While this works as a temporary solution, it's not a good practice in a real world application. Instead, each of our tickets should have its own unique ID.

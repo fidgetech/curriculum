@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.3.13 Practice: Event Listeners'
 day: wednesday
+id: 1-2-3-13-practice-event-listeners
+hide_table_of_contents: true
 ---
 
 **Goal:**  In the three lessons on event handling with event listeners, we learned about:

@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.2.4 Accessing the DOM"
 day: tuesday
+id: 1-2-2-4-accessing-the-dom
+hide_table_of_contents: true
 ---
 
 Now we're ready to try accessing the `document` object. Just like with JavaScript objects, the `document` object is made up of properties that we can access to get the DOM's data (like HTML elements), and to modify the DOM (like adding a new HTML element). Remember that we use dot notation to access object properties. As we go along, type out the commands in your DevTools console.

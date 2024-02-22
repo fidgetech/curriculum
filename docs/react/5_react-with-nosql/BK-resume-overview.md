@@ -1,6 +1,8 @@
 ---
 title: ✏️ Resume Overview
 day: thursday
+id: resume-overview
+hide_table_of_contents: true
 ---
 
 # Resume Overview

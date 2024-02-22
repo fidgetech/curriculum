@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.0.6 JavaScript Data Types"
 day: weekend
+id: 1-2-0-6-javascript-data-types
+hide_table_of_contents: true
 ---
 
 Now that you have the basics of HTML and CSS under your belt, we're going to start learning our first programming language: JavaScript.

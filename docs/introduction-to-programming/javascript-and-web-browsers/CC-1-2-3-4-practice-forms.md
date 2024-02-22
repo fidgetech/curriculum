@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.3.4 Practice: Forms'
 day: wednesday
+id: 1-2-3-4-practice-forms
+hide_table_of_contents: true
 ---
 
 **Goal**: Practice creating HTML forms and debugging:

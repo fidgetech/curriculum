@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.1.5 Configuration for Entity Framework Core"
 day: monday
+id: 3-3-1-5-configuration-for-entity-framework-core
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll explain how to configure a project to use Entity Framework Core with a MySQL database. The instructions in this lesson can be used for any app you build to use EF Core with a MySQL database. 

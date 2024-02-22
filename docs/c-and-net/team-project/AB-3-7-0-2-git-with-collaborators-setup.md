@@ -1,6 +1,8 @@
 ---
 title: "📓 3.7.0.2 Git with Collaborators: Setup"
 day: weekend
+id: 3-7-0-2-git-with-collaborators-setup
+hide_table_of_contents: true
 ---
 
 Working in a team rather than alone can allow you to build more advanced projects, but it can be a little tricky to divide up the work and make sure that no one is overwriting anyone else's code unintentionally. We have used Git to backup our work and save our changes as we go, but it is also a powerful tool for working in a group.  

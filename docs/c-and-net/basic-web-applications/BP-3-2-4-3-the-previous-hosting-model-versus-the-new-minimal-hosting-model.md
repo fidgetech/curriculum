@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.4.3 The Previous Hosting Model versus the New Minimal Hosting Model"
 day: thursday
+id: 3-2-4-3-the-previous-hosting-model-versus-the-new-minimal-hosting-model
+hide_table_of_contents: true
 ---
 
 With the release of .NET 6, a new [Minimal Hosting Model](https://learn.microsoft.com/en-us/aspnet/core/migration/50-to-60?view=aspnetcore-6.0&tabs=visual-studio-code#nhm) was introduced to create, configure, and run a host for our ASP.NET Core web apps. A **hosting model** is the way we create the host for our web apps, and a **host** includes all of the application's resources and configurations needed to run as a web app in a browser. We create our web app host in `Program.cs`, and whether or not you knew it, we've been using the Minimal Hosting Model this whole time. 

@@ -1,6 +1,8 @@
 ---
 title: "📓 Action Constants"
 day: tuesday
+id: action-constants
+hide_table_of_contents: true
 ---
 
 In the last lesson, we learned how to use action creators to clean up our code. In this lesson, we'll make another small refactor to use action constants.

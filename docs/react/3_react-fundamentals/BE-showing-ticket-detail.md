@@ -1,6 +1,8 @@
 ---
 title: "📓 Showing Ticket Detail"
 day: wednesday
+id: showing-ticket-detail
+hide_table_of_contents: true
 ---
 
 In the lesson called _Planning Our Application: Part 3_, we updated the plan for our Help Queue application to include a `TicketDetail` component. A user should be able to click on a ticket and then go to that ticket's detail page.

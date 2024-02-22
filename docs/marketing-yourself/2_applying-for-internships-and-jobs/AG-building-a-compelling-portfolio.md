@@ -1,6 +1,8 @@
 ---
 title: "📓 Building a Compelling Portfolio"
 day: weekend
+id: building-a-compelling-portfolio
+hide_table_of_contents: true
 ---
 
 # How to Create a Compelling Portfolio

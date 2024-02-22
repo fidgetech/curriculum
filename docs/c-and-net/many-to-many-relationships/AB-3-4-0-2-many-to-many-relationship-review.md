@@ -1,6 +1,8 @@
 ---
 title: "📓 3.4.0.2 Many-to-Many Relationship Review"
 day: weekend
+id: 3-4-0-2-many-to-many-relationship-review
+hide_table_of_contents: true
 ---
 
 Before we begin implementing many-to-many relationships, let's review what they look like and how they work.

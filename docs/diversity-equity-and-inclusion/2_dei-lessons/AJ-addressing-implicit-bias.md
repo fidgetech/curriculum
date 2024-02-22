@@ -1,6 +1,8 @@
 ---
 title: "📓 Addressing Implicit Bias"
 day: weekend
+id: addressing-implicit-bias
+hide_table_of_contents: true
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum.

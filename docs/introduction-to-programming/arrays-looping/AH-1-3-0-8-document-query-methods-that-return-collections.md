@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.0.8 Document Query Methods that Return Collections"
 day: weekend
+id: 1-3-0-8-document-query-methods-that-return-collections
+hide_table_of_contents: true
 ---
 
 Since we're now familiar with arrays, let's review `document` query methods that return collections. An array is a type of collection, but in this case we're using the term collection to describe two array-like objects: `NodeList` and `HTMLCollection`. Both of these objects are Web APIs that make up the functionality of the Document Object Model (DOM). As we'll learn later, objects can be structured so they look and act like arrays, though they are not arrays!

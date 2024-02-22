@@ -1,6 +1,8 @@
 ---
 title: "📓 Job Boards"
 day: weekend
+id: job-boards
+hide_table_of_contents: true
 ---
 
 # Job Boards

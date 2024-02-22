@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.4.6 Optional Review: Which Loop Should I Use?"
 day: thursday
+id: 1-3-4-6-optional-review-which-loop-should-i-use
+hide_table_of_contents: true
 ---
 
 **Note: You can use any kind of loop for this section's independent project provided that you correctly solve the problem.** We recommend using `Array.prototype.forEach()` or `for` loops for the independent project.

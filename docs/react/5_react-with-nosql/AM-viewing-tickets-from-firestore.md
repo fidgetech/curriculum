@@ -1,6 +1,8 @@
 ---
 title: "📓 Viewing Tickets from Firestore"
 day: weekend
+id: viewing-tickets-from-firestore
+hide_table_of_contents: true
 ---
 
 We now have the ability to add tickets to Firestore in our Help Queue application. However, we can't see the tickets in our application yet. There are two ways we can get data from Firestore:

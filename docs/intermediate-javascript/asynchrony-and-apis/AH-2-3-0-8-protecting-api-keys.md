@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.0.8 Protecting API Keys"
 day: weekend
+id: 2-3-0-8-protecting-api-keys
+hide_table_of_contents: true
 ---
 
 In the real world, API keys shouldn't be stored in client-side JavaScript files. This simply isn't secure, especially if the API has a rate limit, charges for use, or provides access to sensitive information. If your API key is accessible directly in the source code, anyone can access it, including bots!

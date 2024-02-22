@@ -1,6 +1,8 @@
 ---
 title: "📓 Writing HTML"
 day: weekend
+id: writing-html
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll learn how to write HTML in Glitch.

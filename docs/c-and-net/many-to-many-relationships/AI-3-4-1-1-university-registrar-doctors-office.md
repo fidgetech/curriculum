@@ -1,6 +1,8 @@
 ---
 title: '✏️ 3.4.1.1 University Registrar, Doctor''s Office'
 day: monday
+id: 3-4-1-1-university-registrar-doctors-office
+hide_table_of_contents: true
 ---
 
 **Goal**: Practice using join statements to connect tables in your database. You should also be getting more practice creating and using many to many relationships with your tables.

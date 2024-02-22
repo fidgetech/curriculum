@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.1.6 TDD with Jest: Testing the Triangle() Constructor"
 day: monday
+id: 2-2-1-6-tdd-with-jest-testing-the-triangle-constructor
+hide_table_of_contents: true
 ---
 
 Now that Jest is set up, it's time to test some code. We're now ready to write the business logic to check if three lengths make a triangle (and what kind of triangle they make) in our shape tracker application. As we write our business logic, we'll use the Red, Green, Refactor workflow, and commit our code after _each_ passing test.

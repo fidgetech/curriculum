@@ -1,6 +1,8 @@
 ---
 title: "📓 Firebase Documentation"
 day: weekend
+id: firebase-documentation
+hide_table_of_contents: true
 ---
 
 Let's briefly review some important details about referencing Firebase documentation. With so much information in the docs, it can be easy to get lost or find yourself incorrectly referencing the wrong docs. 

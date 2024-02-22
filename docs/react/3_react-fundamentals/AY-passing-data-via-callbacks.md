@@ -1,6 +1,8 @@
 ---
 title: "📓 Passing Data Via Callbacks"
 day: tuesday
+id: passing-data-via-callbacks
+hide_table_of_contents: true
 ---
 
 In the last lesson, we covered the tricky concept of unidirectional data flow. In this lesson, we'll apply what we've learned. To recap, we'll need to do the following:

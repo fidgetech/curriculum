@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.0.8 Practice: Arithmetic'
 day: weekend
+id: 1-2-0-8-practice-arithmetic
+hide_table_of_contents: true
 ---
 
 **Goal:**   In the Arithmetic lesson, we learned:

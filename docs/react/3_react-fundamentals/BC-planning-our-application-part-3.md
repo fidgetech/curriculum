@@ -1,6 +1,8 @@
 ---
 title: "📓 Planning Our Application: Part 3"
 day: wednesday
+id: planning-our-application-part-3
+hide_table_of_contents: true
 ---
 
 We can now successfully create tickets and view the queue. So far, our `TicketControl` component handles all state in our application. It includes local state (determining whether the form or the ticket list should be showing) and shared state (our main ticket list).

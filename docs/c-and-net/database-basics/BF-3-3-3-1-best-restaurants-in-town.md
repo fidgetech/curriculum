@@ -1,6 +1,8 @@
 ---
 title: ✏️ 3.3.3.1 Best Restaurants in Town
 day: wednesday
+id: 3-3-3-1-best-restaurants-in-town
+hide_table_of_contents: true
 ---
 
 **Goal**: Build out an application using a one-to-many relationship with Entity. The application should include two models, both with full CRUD functionality.

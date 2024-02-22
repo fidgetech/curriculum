@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.2.6 Create and Update with a One-To-Many Relationship"
 day: tuesday
+id: 3-3-2-6-create-and-update-with-a-one-to-many-relationship
+hide_table_of_contents: true
 ---
 
 Now it's time to update the rest of our application so that our users can actually associate a `Category` with an `Item`. We'll also make two other valuable updates: we'll list the `Category` that an `Item` belongs to on its details page, and we'll make an update to our CREATE action to prevent unhandled database errors.

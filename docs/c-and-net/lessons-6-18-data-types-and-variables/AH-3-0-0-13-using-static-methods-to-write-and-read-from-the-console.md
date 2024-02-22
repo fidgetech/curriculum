@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.13 Using Static Methods to Write and Read from the Console"
 day: weekend
+id: 3-0-0-13-using-static-methods-to-write-and-read-from-the-console
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll learn how to use two methods that will allow us to write something to the terminal, as well as how to read something that we write into the terminal:

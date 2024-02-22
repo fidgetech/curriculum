@@ -1,6 +1,8 @@
 ---
 title: '✏️ Whiteboard Practice: Closures'
 day: monday
+id: whiteboard-practice-closures
+hide_table_of_contents: true
 ---
 
 You will get a chance to practice whiteboarding a lot during this course section. Time will be set aside during most class sessions at the discretion of your teacher. Use this time wisely to improve both your whiteboarding and functional programming skills!

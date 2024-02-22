@@ -1,6 +1,8 @@
 ---
 title: "📓 3.4.0.3 Code First Development and Migrations"
 day: weekend
+id: 3-4-0-3-code-first-development-and-migrations
+hide_table_of_contents: true
 ---
 
 So far, we've manually created and updated our database using MySQL Workbench. However, this approach isn't very effective for a large production application where many developers are collaborating together. Let's say we have many different teams that are working on different features in an application and we're working on a team that makes changes to the database. How can we convey the changes to other teams working on the application? We'd need to give everyone exact instructions on the changes we made, which could get tedious fast, especially if we're making a lot of changes.

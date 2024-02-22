@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.2.7 Accessing HTML Element Attributes and Properties in the DOM"
 day: tuesday
+id: 1-2-2-7-accessing-html-element-attributes-and-properties-in-the-dom
+hide_table_of_contents: true
 ---
 
 In this lesson, we're going to learn how to access and change the attributes of HTML elements in the DOM. We'll work with specific examples for the `id`, `class` and `style` attributes, but all of the examples we cover can be applied to any attribute. We'll also learn about the `innerText` property of DOM elements, which allows us to change the text of an element, like a `<p>` paragraph element, and the read-only `tagName` property that tells us the tag name of the HTML element we have accessed. 

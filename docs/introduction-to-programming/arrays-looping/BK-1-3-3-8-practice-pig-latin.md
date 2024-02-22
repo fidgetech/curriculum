@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.3.3.8 Practice: Pig Latin'
 day: wednesday
+id: 1-3-3-8-practice-pig-latin
+hide_table_of_contents: true
 ---
 
 **Goal**: Focus on breaking your project down into small pieces of functionality, and tackling them one at a time with TDD. Also, as our projects grow in size, continue to practice good organization by keeping business logic and user interface logic distinctly separate.

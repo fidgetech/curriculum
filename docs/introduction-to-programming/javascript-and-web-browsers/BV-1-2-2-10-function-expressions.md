@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.2.10 Function Expressions"
 day: tuesday
+id: 1-2-2-10-function-expressions
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll explain another method of defining a function called **function expressions**. We'll be using function expressions in the next lesson when we learn about event handling with event handler properties.

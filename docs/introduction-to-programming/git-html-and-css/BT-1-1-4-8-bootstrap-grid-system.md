@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.4.8 Bootstrap Grid System"
 day: thursday
+id: 1-1-4-8-bootstrap-grid-system
+hide_table_of_contents: true
 ---
 
 Lining up content evenly with only HTML and CSS can prove to be pretty challenging. That's why another most commonly-used Bootstrap feature is their grid system. The [grid system](http://getbootstrap.com/css/#grid) allows us to use several Bootstrap classes to quickly create a wide variety of invisible grids that neatly space and line up content.

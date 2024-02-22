@@ -1,6 +1,8 @@
 ---
 title: "📓 Map, Reduce and Filter"
 day: weekend
+id: map-reduce-and-filter
+hide_table_of_contents: true
 ---
 
 JavaScript provides some built-in methods that are commonly used in functional programming. In fact, we already have experience with `Array.prototype.map()`, one of the most popular of these methods.

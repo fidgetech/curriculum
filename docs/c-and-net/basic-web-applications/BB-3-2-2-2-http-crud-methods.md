@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.2.2 HTTP CRUD Methods"
 day: tuesday
+id: 3-2-2-2-http-crud-methods
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll discuss **CRUD** functionality and cover the remaining two HTTP methods: PATCH and DELETE. Together, the functionality offered by the full range of HTTP methods (GET, POST, PATCH and DELETE) is commonly referred to as **CRUD** in the industry.

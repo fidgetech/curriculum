@@ -1,6 +1,8 @@
 ---
 title: "📓 3.1.3.5 Write Your Cover Letter"
 day: wednesday
+id: 3-1-3-5-write-your-cover-letter
+hide_table_of_contents: true
 ---
 
 After following the steps depicted in the previous lesson, we're now ready to actually write the cover letter.

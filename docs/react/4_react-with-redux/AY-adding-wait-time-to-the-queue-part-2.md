@@ -1,6 +1,8 @@
 ---
 title: "📓 Adding Wait Time to the Queue Part 2"
 day: wednesday
+id: adding-wait-time-to-the-queue-part-2
+hide_table_of_contents: true
 ---
 
 In the last lesson, we covered the "business" logic for updating a ticket's elapsed time in the Redux store. In the process, we had to write and test a reducer action, update and test another reducer action, and write action creators.

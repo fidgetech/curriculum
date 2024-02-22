@@ -1,6 +1,8 @@
 ---
 title: "📓 Introduction to Hash Tables"
 day: wednesday
+id: introduction-to-hash-tables
+hide_table_of_contents: true
 ---
 
 Hash tables are one of the most important data structures you can possibly learn. They are used to efficiently store key-value pairs and are designed for super-fast lookup, insertion, and removal. The key underlying principle of a hash table is a hashing algorithm which converts keys into an index in an array. We'll discuss this more in a moment. Hashing algorithms are also an essential feature of encryption, allowing us to ensure passwords and other sensitive data remain secure.

@@ -1,6 +1,8 @@
 ---
 title: "📓 3.1.3.2 Career Prep Day"
 day: wednesday
+id: 3-1-3-2-career-prep-day
+hide_table_of_contents: true
 ---
 
 We're going to dedicate all of the next class session to working on job application materials. We'll write a practice resume and cover letter, and we'll spruce up our LinkedIn and Github profiles.

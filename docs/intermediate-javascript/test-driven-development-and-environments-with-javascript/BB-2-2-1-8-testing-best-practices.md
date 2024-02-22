@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.1.8 Testing Best Practices"
 day: monday
+id: 2-2-1-8-testing-best-practices
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll cover some testing best practices — as well as go into a deeper dive regarding the differences between good and bad fails. Writing good fails instead of bad ones can really trip students up at first. And the implications of bad fails can be significant — extra time trying to find bugs, frustration, and less understanding about what's going wrong in the code. The implications get even bigger once we are out in the real world — for instance, if we don't test our code correctly, we might introduce breaking changes to production code, making our customers, coworkers, and employers upset. If possible, we don't want to do that. 

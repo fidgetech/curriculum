@@ -1,6 +1,8 @@
 ---
 title: "📓 The Rules of Hooks, Custom Hooks, and Why Hooks Are Awesome"
 day: weekend
+id: the-rules-of-hooks-custom-hooks-and-why-hooks-are-awesome
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll recap the best practices and rules of hooks. We'll also review why hooks are so beloved in the React developer community by explaining how hooks improve how we can reuse stateful logic in our apps. In the process, we'll write our own custom hook. 

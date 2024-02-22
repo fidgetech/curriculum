@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.4.1 Array Mapping"
 day: thursday
+id: 1-3-4-1-array-mapping
+hide_table_of_contents: true
 ---
 
 **Note:** While you are not required to use `Array.prototype.map()` for this independent project, it is one of the most powerful JavaScript looping methods. We will be covering it more in depth in the React curriculum as well.

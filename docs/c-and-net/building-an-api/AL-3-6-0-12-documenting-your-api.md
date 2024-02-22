@@ -1,6 +1,8 @@
 ---
 title: "📓 3.6.0.12 Documenting Your API"
 day: weekend
+id: 3-6-0-12-documenting-your-api
+hide_table_of_contents: true
 ---
 
 In this lesson we'll learn the details that you should include in a README to document your API. 

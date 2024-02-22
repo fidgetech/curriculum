@@ -1,6 +1,8 @@
 ---
 title: "📓 Building Graphs Part 2"
 day: tuesday
+id: building-graphs-part-2
+hide_table_of_contents: true
 ---
 
 Let's start building our application now using the testing structure from the [Computer Science Testing Environment](https://www.learnhowtoprogram.com/computer-science/big-o-notation-and-binary-trees/computer-science-testing-environment) lesson.

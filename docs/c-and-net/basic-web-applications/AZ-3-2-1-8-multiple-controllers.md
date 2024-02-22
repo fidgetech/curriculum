@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.1.8 Multiple Controllers"
 day: monday
+id: 3-2-1-8-multiple-controllers
+hide_table_of_contents: true
 ---
 
 So far we've been using a single controller to handle our routes. However, larger projects often use many controllers and it's common to create a controller for each model in our application. In this lesson, we'll walk through the correct way to implement more than one controller.

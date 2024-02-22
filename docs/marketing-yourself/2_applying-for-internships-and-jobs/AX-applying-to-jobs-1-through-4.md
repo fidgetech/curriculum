@@ -1,6 +1,8 @@
 ---
 title: "📓 Applying to Jobs 1 through 4"
 day: weekend
+id: applying-to-jobs-1-through-4
+hide_table_of_contents: true
 ---
 
 # Applying to Jobs

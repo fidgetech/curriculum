@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.12 Creating and Using Views"
 day: weekend
+id: 3-2-0-12-creating-and-using-views
+hide_table_of_contents: true
 ---
 
 We've set up a few routes that return strings. However, that's not very helpful for building a functional site. Let's add HTML to our site by using **views** — the "V" in MVC.

@@ -1,6 +1,8 @@
 ---
 title: "📓 Adding Redux to React: Part 2"
 day: weekend
+id: adding-redux-to-react-part-2
+hide_table_of_contents: true
 ---
 
 We're ready to refactor our Help Queue application to incorporate Redux. We'll start by creating the Redux store.

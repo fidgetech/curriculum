@@ -1,6 +1,8 @@
 ---
 title: "📓 3.5.0.5 The Identity Model"
 day: weekend
+id: 3-5-0-5-the-identity-model
+hide_table_of_contents: true
 ---
 
 We've just updated our To Do List database to store Identity data. Let's pause for a second to check out the changes in MySQL Workbench. Or, check out the contents of the most recent migration file, which should be called something similar to `20230102230735_AddIdentity.cs` and be located in the `ToDoList/Migrations/` directory. We'll see many new tables created for Identity-related data! What we're seeing here is Identity's model.

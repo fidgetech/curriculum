@@ -1,6 +1,8 @@
 ---
 title: "📓 Props"
 day: weekend
+id: props
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll learn how to pass data between React components. For now, this data will be hard-coded, not dynamic, because we aren't quite ready to work with state yet.

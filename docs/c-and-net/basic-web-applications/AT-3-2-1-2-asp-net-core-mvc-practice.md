@@ -1,6 +1,8 @@
 ---
 title: ✏️ 3.2.1.2 ASP.NET Core MVC Practice
 day: monday
+id: 3-2-1-2-asp-net-core-mvc-practice
+hide_table_of_contents: true
 ---
 
 **Goal:** Become familiar with setting up an ASP.NET Core MVC application and solve simple problems that use forms and dynamic views.

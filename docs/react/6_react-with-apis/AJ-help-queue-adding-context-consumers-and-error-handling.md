@@ -1,6 +1,8 @@
 ---
 title: "📓 Help Queue: Adding Context Consumers and Error Handling"
 day: weekend
+id: help-queue-adding-context-consumers-and-error-handling
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll complete the functionality of a light and dark theme in the Help Queue. In the process, we'll learn how to use context consumers in class and function components. 

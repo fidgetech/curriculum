@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.4.4 Further Exploration: Looping with for...of"
 day: thursday
+id: 1-3-4-4-further-exploration-looping-with-for---of
+hide_table_of_contents: true
 ---
 
 **Note: This lesson is a _further exploration_, and it is not required that you read it!**  `for...of` loops are more syntactic sugar on regular `for` loops. They are useful for certain kinds of problems such as looping directly over strings.

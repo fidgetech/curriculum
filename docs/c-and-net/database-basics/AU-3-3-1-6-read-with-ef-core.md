@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.1.6 Read with EF Core"
 day: monday
+id: 3-3-1-6-read-with-ef-core
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll begin refactoring our existing To Do List models and controllers, learning how to retrieve and display information from a database using EF Core in the process. We'll also start using the Microsoft **LINQ** library, which gives us access to a simple syntax for querying lists or databases.

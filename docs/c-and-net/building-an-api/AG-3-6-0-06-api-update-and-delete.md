@@ -1,6 +1,8 @@
 ---
 title: "📓 3.6.0.06 API: Update and Delete"
 day: weekend
+id: 3-6-0-06-api-update-and-delete
+hide_table_of_contents: true
 ---
 
 In the last lesson, we added create and read functionality to our Cretaceous Park API. In this lesson, we'll add update and delete functionality as well.

@@ -1,6 +1,8 @@
 ---
 title: "📓 Building a Functional Application (Part 2)"
 day: monday
+id: building-a-functional-application-part-2
+hide_table_of_contents: true
 ---
 
 In the last lesson, we built a function factory for incrementing a plant's attributes. However, we still have no place to save that information. If we wanted this application to be truly functional, we could retrieve the state from the DOM when we need to update it. Feel free to try this approach in class — but don't forget that it's not very efficient to query the DOM!

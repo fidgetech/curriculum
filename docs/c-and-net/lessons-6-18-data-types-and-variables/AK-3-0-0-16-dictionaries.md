@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.16 Dictionaries"
 day: weekend
+id: 3-0-0-16-dictionaries
+hide_table_of_contents: true
 ---
 
 The lists and arrays we just explored are called **numerically indexed arrays** because we can access their elements by referencing their index. For example, we can call `myArray[1]`.

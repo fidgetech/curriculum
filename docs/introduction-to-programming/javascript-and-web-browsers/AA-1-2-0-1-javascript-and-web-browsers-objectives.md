@@ -1,6 +1,9 @@
 ---
 title: "📓 1.2.0.1 JavaScript and Web Browsers Objectives"
 day: weekend
+id: 1-2-0-1-javascript-and-web-browsers-objectives
+hide_table_of_contents: true
+paginationPrev: null
 ---
 
 In this section, we will be learning the basics of JavaScript (JS), the programming language of the web. We'll also learn about the web browser standards and tools that make it possible to have interactive webpages. We'll start our exploration with the basic building blocks of JavaScript:

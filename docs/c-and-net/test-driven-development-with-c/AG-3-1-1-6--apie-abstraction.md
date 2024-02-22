@@ -1,6 +1,8 @@
 ---
 title: "📓 3.1.1.6- APIE: Abstraction"
 day: monday
+id: 3-1-1-6--apie-abstraction
+hide_table_of_contents: true
 ---
 
 C# is an Object-Oriented Programming (OOP) language. We can understand OOP by getting to know its four fundamental principles, often referred to as APIE: 

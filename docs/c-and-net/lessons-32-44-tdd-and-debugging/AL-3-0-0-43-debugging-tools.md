@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.43 Debugging Tools"
 day: weekend
+id: 3-0-0-43-debugging-tools
+hide_table_of_contents: true
 ---
 
 As our applications grow, we'll run into more complex bugs. Fortunately, there are multiple tools, techniques and approaches to quickly locate and squash pesky bugs.

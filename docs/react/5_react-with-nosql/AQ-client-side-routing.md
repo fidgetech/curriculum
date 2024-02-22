@@ -1,6 +1,8 @@
 ---
 title: "📓 Client-Side Routing"
 day: monday
+id: client-side-routing
+hide_table_of_contents: true
 ---
 
 Firebase offers much more than just a database solution — the service also provides an authentication solution that's easy to implement.

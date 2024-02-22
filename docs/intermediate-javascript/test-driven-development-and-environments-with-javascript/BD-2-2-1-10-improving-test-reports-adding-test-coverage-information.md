@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.1.10 Improving Test Reports: Adding Test Coverage Information"
 day: monday
+id: 2-2-1-10-improving-test-reports-adding-test-coverage-information
+hide_table_of_contents: true
 ---
 
 With our test-driven development approach, we should have 100% testing coverage of our business logic. What do we mean by testing coverage? Well, if we have ten lines of code and our tests only "hit" five lines of code, then we'd have 50% coverage. If there is a function or another piece of code that's untouched by our tests, it won't be included in the test coverage.

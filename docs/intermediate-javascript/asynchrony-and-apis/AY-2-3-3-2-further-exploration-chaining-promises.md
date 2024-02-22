@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.3.2 Further Exploration: Chaining Promises"
 day: wednesday
+id: 2-3-3-2-further-exploration-chaining-promises
+hide_table_of_contents: true
 ---
 
 **Note:** This lesson is a further exploration. You will not be expected to chain promises together for this section's independent project. However, we recommend that you follow along with this lesson closely because you'll learn more about coding best practices including using services, handling errors, and other things we can do to clean up our code.

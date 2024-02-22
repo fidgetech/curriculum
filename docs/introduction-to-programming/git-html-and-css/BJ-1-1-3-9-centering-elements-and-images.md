@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.3.9 Centering Elements and Images"
 day: wednesday
+id: 1-1-3-9-centering-elements-and-images
+hide_table_of_contents: true
 ---
 
 It's common to want to center elements on a page — and as we've already learned, it's easy to do so with text. All we have to do is add the following property:

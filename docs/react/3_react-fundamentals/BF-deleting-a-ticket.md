@@ -1,6 +1,8 @@
 ---
 title: "📓 Deleting a Ticket"
 day: wednesday
+id: deleting-a-ticket
+hide_table_of_contents: true
 ---
 
 In the last lesson, we added the ability for a user to see an individual ticket's detail page. We had to alter or create four different components in order to add this relatively small piece of functionality.

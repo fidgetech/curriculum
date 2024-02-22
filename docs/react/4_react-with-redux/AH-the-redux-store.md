@@ -1,6 +1,8 @@
 ---
 title: "📓 The Redux Store"
 day: weekend
+id: the-redux-store
+hide_table_of_contents: true
 ---
 
 Now we have a reducer that can handle some actions. Everything we've done so far is vanilla JavaScript. We're ready to start working with Redux itself.

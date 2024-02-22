@@ -1,6 +1,8 @@
 ---
 title: "📓 Testing Functional Code"
 day: weekend
+id: testing-functional-code
+hide_table_of_contents: true
 ---
 
 Because we are focusing on teaching the concepts of functional programming, we will not include tests in the lessons. However, you are still expected to write tests for all of your functions. We can still use Jest in exactly the same way whether our code is functional or object-oriented. That means the tests themselves will not change significantly from how we wrote them in Intermediate JavaScript. Focus on the following process:

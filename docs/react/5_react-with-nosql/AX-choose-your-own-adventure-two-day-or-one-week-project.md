@@ -1,6 +1,8 @@
 ---
 title: ✏️ Choose Your Own Adventure (Two-Day or One-Week Project)
 day: wednesday
+id: choose-your-own-adventure-two-day-or-one-week-project
+hide_table_of_contents: true
 ---
 
 **Goal:** Either continue with the project you began at the start of the course section or begin a new multi-day project:

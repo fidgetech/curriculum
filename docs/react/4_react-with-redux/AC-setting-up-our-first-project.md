@@ -1,6 +1,8 @@
 ---
 title: "📓 Setting Up Our First Project"
 day: weekend
+id: setting-up-our-first-project
+hide_table_of_contents: true
 ---
 
 Over the next several lessons, we will learn about reducers and use them to create all the CRUD functionality we'll need in our Help Queue. In this lesson, we'll start the project set up process. We will:

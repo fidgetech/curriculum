@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.3.2 ACID Databases"
 day: wednesday
+id: 3-3-3-2-acid-databases
+hide_table_of_contents: true
 ---
 
 One of the biggest advantages of SQL database is that they are incredibly stable. In computer science, the acronym **ACID** is used to describe the ways in which a SQL database is reliable. In this lesson, we'll cover **ACID** and why it is important. The content in this lesson isn't required for Friday's independent project. However, it is a key part of understanding how SQL databases work and how they are different from NoSQL databases. We will be using a NoSQL database in the React course.

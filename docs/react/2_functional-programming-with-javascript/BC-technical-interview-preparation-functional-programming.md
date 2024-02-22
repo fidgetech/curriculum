@@ -1,6 +1,8 @@
 ---
 title: '✏️ Technical Interview Preparation: Functional Programming'
 day: thursday
+id: technical-interview-preparation-functional-programming
+hide_table_of_contents: true
 ---
 
 ## Technical Interview Questions

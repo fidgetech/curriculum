@@ -1,6 +1,9 @@
 ---
 title: '✏️ 1.1.5.1 Git, HTML, and CSS Independent Project'
 day: friday
+id: 1-1-5-1-git-html-and-css-independent-project
+hide_table_of_contents: true
+paginationNext: null
 ---
 
 ## Independent Projects Overview

@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.2.9 Practice: Branching and Merging'
 day: tuesday
+id: 1-1-2-9-practice-branching-and-merging
+hide_table_of_contents: true
 ---
 
 **Goal:**  Now that you have spent some time learning about branching and merging, let’s practice! The goal of this exercise is to work on branching and merging along with your new CSS skills.

@@ -1,6 +1,8 @@
 ---
 title: ✏️ Applying for Jobs
 day: thursday
+id: applying-for-jobs
+hide_table_of_contents: true
 ---
 
 While coding skills are important for getting a job in the field, it's absolutely crucial to send job applications to companies if you want to open up communication. Every job you apply for should have its own unique resume and cover letter to show employers that you're interested in them specifically. For this reason, you should not use any "Quick Apply" feature to apply to jobs. Your career advisors will be checking your applications to make sure that your resumes and cover letters are targeted towards job postings.

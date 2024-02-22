@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.2.4 Further Exploration: IIFEs"
 day: tuesday
+id: 2-3-2-4-further-exploration-iifes
+hide_table_of_contents: true
 ---
 
 This lesson is **optional further exploration**. You can skip it entirely if you want. We'll use a more advanced technique called an IIFE to refactor the code we wrote in the last lesson. 

@@ -1,6 +1,8 @@
 ---
 title: "📓 3.5.0.6 Authentication with Identity: User Registration Controller"
 day: weekend
+id: 3-5-0-6-authentication-with-identity-user-registration-controller
+hide_table_of_contents: true
 ---
 
 Now that we've added Identity to our application, let's add functionality that allows users to **register** for accounts. Later, we'll add functionality that allows users to sign in and out.

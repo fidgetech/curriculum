@@ -1,6 +1,8 @@
 ---
 title: "📓 Further Exploration: Data Visualization"
 day: tuesday
+id: further-exploration-data-visualization
+hide_table_of_contents: true
 ---
 
 Data visualization is the process of creating a visual representation of information. Data visualization can make data really pop. It's a tool for making information more digestible, immersive, and generally interesting.

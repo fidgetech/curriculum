@@ -1,6 +1,8 @@
 ---
 title: "📓 The Hidden Job Market"
 day: weekend
+id: the-hidden-job-market
+hide_table_of_contents: true
 ---
 
 # Taking Advantage of the Hidden Job Market

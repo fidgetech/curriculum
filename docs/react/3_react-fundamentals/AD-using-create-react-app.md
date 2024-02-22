@@ -1,6 +1,8 @@
 ---
 title: "📓 Using create-react-app"
 day: weekend
+id: using-create-react-app
+hide_table_of_contents: true
 ---
 
 Some developers build React applications from scratch. This involves creating custom webpack configurations, adding Node packages, and customizing Babel to fit the needs of the project. While this is a valid approach to building React applications, we've had plenty of practice with webpack, Node packages, and Babel during the Intermediate JavaScript course.

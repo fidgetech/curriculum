@@ -1,6 +1,8 @@
 ---
 title: "📓 Capstone Prep: Introduction to Idea Boards"
 day: thursday
+id: capstone-prep-introduction-to-idea-boards
+hide_table_of_contents: true
 ---
 
 For this section’s independent project, you’ll be doing something different as we’ve mentioned earlier. Instead of focusing on a project directly related to Functional Programming, you’ll start exploring ideas to pursue for your large capstone project that will bookend your Epicodus experience. 

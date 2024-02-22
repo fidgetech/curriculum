@@ -1,6 +1,8 @@
 ---
 title: "📓 Job Boards 2"
 day: monday
+id: job-boards-2
+hide_table_of_contents: true
 ---
 
 Now that you're ready to apply for jobs, you need to know where to look!

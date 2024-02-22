@@ -1,6 +1,8 @@
 ---
 title: "📓 After Your Internship"
 day: weekend
+id: after-your-internship
+hide_table_of_contents: true
 ---
 
 ## Internships

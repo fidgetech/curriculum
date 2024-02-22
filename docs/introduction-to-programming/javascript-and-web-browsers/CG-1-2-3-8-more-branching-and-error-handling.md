@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.3.8 More Branching and Error Handling"
 day: wednesday
+id: 1-2-3-8-more-branching-and-error-handling
+hide_table_of_contents: true
 ---
 
 Sometimes, our branching logic can get more complicated. Let's build a website to determine which amusement park ride someone can go on based on their age and height. In the process, we'll learn about using the logical "and" `&&` and "or" `||` operators, nesting if statements, and the concepts of "truthy" and "falsey". We'll also include polish our website by adding error handling and a button to clear the form and results.

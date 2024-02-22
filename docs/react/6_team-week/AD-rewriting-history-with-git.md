@@ -1,6 +1,8 @@
 ---
 title: "📓 Rewriting History with Git"
 day: weekend
+id: rewriting-history-with-git
+hide_table_of_contents: true
 ---
 
 We always want to include clear and detailed messages with our commits. However, even the most careful developers can make mistakes. Thankfully, git offers several options to re-write commits.

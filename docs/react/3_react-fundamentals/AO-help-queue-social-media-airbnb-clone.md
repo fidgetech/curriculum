@@ -1,6 +1,8 @@
 ---
 title: '✏️ Help Queue, Social Media, Airbnb Clone'
 day: monday
+id: help-queue-social-media-airbnb-clone
+hide_table_of_contents: true
 ---
 
 **Goal:** Get comfortable with the basics of React by following along with this weekend's homework and creating basic applications of your own. Make sure you break each application up into a tree of self-contained components.

@@ -1,6 +1,8 @@
 ---
 title: "📓 Non-Technical Mock Interview"
 day: weekend
+id: non-technical-mock-interview
+hide_table_of_contents: true
 ---
 
 # 📓 Non-Technical Interview

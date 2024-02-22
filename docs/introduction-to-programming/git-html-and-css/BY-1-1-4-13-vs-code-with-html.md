@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.4.13 VS Code with HTML"
 day: thursday
+id: 1-1-4-13-vs-code-with-html
+hide_table_of_contents: true
 ---
 
 Before we move on, let's cover a few basic tips and tricks for working with HTML in VS Code. This lesson is optional but the content here is highly recommended. The VS Code features mentioned below make it easier to work with HTML and other coding languages.

@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.2.14 Writing a README"
 day: tuesday
+id: 1-1-2-14-writing-a-readme
+hide_table_of_contents: true
 ---
 
 Every GitHub repository should include a `README.md` file that provides any visitor to the repository with detailed information about the project. The name README is self-explanatory — it's a document that users should read to get more information about the contents of a project. The most common format for READMEs is Markdown, which is why our README files will include the `.md` extension. Markdown is perfect for READMEs because it provides simple formatting — which is really all we need for a README.

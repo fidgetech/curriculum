@@ -1,6 +1,8 @@
 ---
 title: "📓 Firestore Queries"
 day: tuesday
+id: firestore-queries
+hide_table_of_contents: true
 ---
 
 As our data gets more complex, we'll want to use queries to filter our data. In Rails and .NET, we used each framework's respective ORM (Active Record and Entity) to write queries that include `where` clauses.

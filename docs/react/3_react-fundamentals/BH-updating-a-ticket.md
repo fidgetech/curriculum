@@ -1,6 +1,8 @@
 ---
 title: "📓 Updating a Ticket"
 day: wednesday
+id: updating-a-ticket
+hide_table_of_contents: true
 ---
 
 In this lesson, we will add the final piece of CRUD functionality to our Help Queue application: the ability to update a ticket. The actual Help Queue doesn't have this functionality — however, it's helpful for us to learn and apply CRUD functionality in our own applications so we are including it here. Also, update functionality is required on this upcoming independent project.

@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.29 Troubleshooting Remote Issues"
 day: weekend
+id: 1-0-0-29-troubleshooting-remote-issues
+hide_table_of_contents: true
 ---
 
 We will often run into issues in our code - one of the most important parts of being a good developer is learning how to debug and troubleshoot issues.

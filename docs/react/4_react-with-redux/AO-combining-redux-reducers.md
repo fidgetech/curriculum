@@ -1,6 +1,8 @@
 ---
 title: "📓 Combining Redux Reducers"
 day: monday
+id: combining-redux-reducers
+hide_table_of_contents: true
 ---
 
 Because our Help Queue is a simple application, we can handle all of our actions with a single reducer. However, what should we do once our reducers start handling multiple slices of state?

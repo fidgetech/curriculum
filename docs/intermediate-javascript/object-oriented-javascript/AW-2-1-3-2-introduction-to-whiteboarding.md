@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.3.2 Introduction to Whiteboarding"
 day: wednesday
+id: 2-1-3-2-introduction-to-whiteboarding
+hide_table_of_contents: true
 ---
 
 Many jobs have a multi-step interview process that includes a technical interview where you'll **whiteboard** a solution to a coding problem. **Whiteboarding** is the process of solving a coding problem on a dry erase whiteboard. It can be a very stressful process, even for experienced developers, and the practice has fallen out of favor in some tech companies. Proponents of whiteboarding argue that it's a quick way to get a sense of someone's actual coding ability. However, there are a number of issues with whiteboarding as well:

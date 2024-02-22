@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.0.9 Adding and Removing HTML Elements"
 day: weekend
+id: 1-3-0-9-adding-and-removing-html-elements
+hide_table_of_contents: true
 ---
 
 In the last course section we learned two ways to add and remove content from our webpages:

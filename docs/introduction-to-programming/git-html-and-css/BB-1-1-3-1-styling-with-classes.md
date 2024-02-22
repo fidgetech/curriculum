@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.3.1 Styling with Classes"
 day: wednesday
+id: 1-1-3-1-styling-with-classes
+hide_table_of_contents: true
 ---
 
 Let's make a new page with two types of paragraphs: regular paragraphs, and a summary at the top of the page:

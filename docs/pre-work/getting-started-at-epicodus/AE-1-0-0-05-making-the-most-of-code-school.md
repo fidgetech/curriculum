@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.05 Making the Most of Code School"
 day: weekend
+id: 1-0-0-05-making-the-most-of-code-school
+hide_table_of_contents: true
 ---
 
 You've done it, you're in code school! You've committed time, energy and dedication toward learning how to code. We can’t wait to see what you create and want to do everything we can to support your success. To be successful, it's important to consider how you can best approach the challenging months that lie ahead.

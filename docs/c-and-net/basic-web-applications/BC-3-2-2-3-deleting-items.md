@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.2.3 Deleting Items"
 day: tuesday
+id: 3-2-2-3-deleting-items
+hide_table_of_contents: true
 ---
 
 In the last lesson we discussed CRUD actions and their corresponding HTTP request methods. So far, our To Do List can create `Item`s with a POST request via our form and read `Item`s with a GET request so users can see the full To Do List.

@@ -1,6 +1,8 @@
 ---
 title: "📓 Conditional Rendering"
 day: monday
+id: conditional-rendering
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll cover **conditional rendering**. Conditional rendering is exactly what it sounds like — using a conditional to determine what content should be rendered. Conditional rendering is a great example of local state and it's very common in dynamic applications. It's really also just mostly plain old JavaScript.

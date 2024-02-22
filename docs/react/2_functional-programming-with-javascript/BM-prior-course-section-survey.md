@@ -1,6 +1,8 @@
 ---
 title: "📓 Prior Course Section Survey"
 day: monday
+id: prior-course-section-survey
+hide_table_of_contents: true
 ---
 
 This is a survey for the previous course section you just completed at the end of last week. We rely on this survey to get a general view of is and isn’t working well in the program, the curriculum, or our classroom model.

@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.3.7 Layouts and Partials"
 day: wednesday
+id: 3-2-3-7-layouts-and-partials
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll learn a few ways to DRY up the project structure of our front-end files.

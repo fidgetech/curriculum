@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.1.8 HTML Helper Methods, Lambda Expressions, and String Interpolation"
 day: monday
+id: 3-3-1-8-html-helper-methods-lambda-expressions-and-string-interpolation
+hide_table_of_contents: true
 ---
 
 In the last lesson, we added code to our `ItemsController` to create `Item`s. In this lesson, we'll add the necessary views to allow users to create `Item`s through a form. In the process, we'll cover several HTML **helper methods**. A helper method is exactly what it sounds like — a method that helps make our lives as developers a little easier. In this case, our helper methods will specifically make it easier to render HTML in a `.cshtml` file.

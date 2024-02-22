@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.3.5 Using Floats"
 day: wednesday
+id: 1-1-3-5-using-floats
+hide_table_of_contents: true
 ---
 
 So far, everything we've done has been laid out very simply, from top to bottom for block elements, and left to right for inline ones. But often we'll want to have text wrap around an image, or have a sidebar on one side, or create a page with multiple columns. We can design all of these layouts using **floats**.

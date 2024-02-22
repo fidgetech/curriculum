@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.3.7 Practice: Branching'
 day: wednesday
+id: 1-2-3-7-practice-branching
+hide_table_of_contents: true
 ---
 
 **Goal:** In the Branching lesson, we learned:

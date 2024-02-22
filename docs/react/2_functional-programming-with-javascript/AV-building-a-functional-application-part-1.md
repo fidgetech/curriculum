@@ -1,6 +1,8 @@
 ---
 title: "📓 Building a Functional Application (Part 1)"
 day: monday
+id: building-a-functional-application-part-1
+hide_table_of_contents: true
 ---
 
 Let's use all the concepts we've learned so far to build a simple application. In this application, a user is growing a plant. The plant needs water, soil, and sunshine. The user may increment a plant's values through the functions `hydrate()`, `feed()`, and `giveLight()`.

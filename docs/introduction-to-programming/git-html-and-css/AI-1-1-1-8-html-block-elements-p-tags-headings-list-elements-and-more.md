@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.1.8 HTML Block Elements: <p> Tags, Headings, List Elements, and More"
 day: monday
+id: 1-1-1-8-html-block-elements-p-tags-headings-list-elements-and-more
+hide_table_of_contents: true
 ---
 
 We're going to start our HTML writing by working with **block elements**.  These are HTML elements that when displayed start on a line of their own, in effect making a block on the page.

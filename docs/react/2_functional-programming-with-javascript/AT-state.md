@@ -1,6 +1,8 @@
 ---
 title: "📓 State"
 day: monday
+id: state
+hide_table_of_contents: true
 ---
 
 **State** is an extremely important concept in computer programming. In simple, very general terms, state is anything we are asking a computer to remember. We can think of it as a "snapshot" of the application at any given time. It defines the current conditions of an application.

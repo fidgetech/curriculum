@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.3.2 Other Ways to Organize UI Logic"
 day: wednesday
+id: 1-2-3-2-other-ways-to-organize-ui-logic
+hide_table_of_contents: true
 ---
 
 Not all UI logic should automatically be placed inside of the `window.onload` event handler! Even though we need to make sure that our page loads before setting up any event handlers, that doesn't mean that _all_ event handler logic needs to be inside of the `window.onload` event handler. In this lesson, we're going to get a sense of what exactly this means by looking at other configurations for our Mad Libs' UI logic. 

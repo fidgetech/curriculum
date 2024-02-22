@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.2.7 Git Branching"
 day: tuesday
+id: 1-1-2-7-git-branching
+hide_table_of_contents: true
 ---
 
 So far we've learned what Git and GitHub are, how to set up a project, track changes, push code to GitHub, and clone projects back down from GitHub into a local Git repository.

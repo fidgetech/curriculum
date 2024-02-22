@@ -1,6 +1,8 @@
 ---
 title: '✏️ Technical Interview Practice: NoSQL'
 day: thursday
+id: technical-interview-practice-nosql
+hide_table_of_contents: true
 ---
 
 ## Technical Interview Questions

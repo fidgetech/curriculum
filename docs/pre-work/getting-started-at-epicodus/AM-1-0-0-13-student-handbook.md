@@ -1,6 +1,9 @@
 ---
 title: "📓 1.0.0.13 Student Handbook"
 day: weekend
+id: 1-0-0-13-student-handbook
+hide_table_of_contents: true
+paginationNext: null
 ---
 
 _Below is our student handbook. Please read it thoroughly before your first day of class, and review regularly throughout the program, and as need arises._

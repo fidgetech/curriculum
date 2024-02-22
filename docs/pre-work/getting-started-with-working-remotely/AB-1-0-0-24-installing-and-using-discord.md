@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.24 Installing and Using Discord"
 day: weekend
+id: 1-0-0-24-installing-and-using-discord
+hide_table_of_contents: true
 ---
 
 We use Discord as our online classroom. With Discord, we can message, talk, and share screens with each other. 

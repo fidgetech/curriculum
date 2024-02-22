@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.0.02 Introduction to Databases"
 day: weekend
+id: 3-3-0-02-introduction-to-databases
+hide_table_of_contents: true
 ---
 
 Before we begin connecting databases to our MVC apps, let's explore how databases work. This lesson will walk through basic database vocabulary and discuss how most standard databases organize information.

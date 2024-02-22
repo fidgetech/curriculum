@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.18 Improving Development by Linting Code"
 day: weekend
+id: 2-2-0-18-improving-development-by-linting-code
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll add a linter to our project. This will be the last tool we'll use to improve our developer experience, though there are many other tools out there! Linters check our code for errors, but even better, linters tell us when we're writing code that's not very good!

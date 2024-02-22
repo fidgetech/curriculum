@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.1.6 Lists and Redirects in a Controller"
 day: monday
+id: 3-2-1-6-lists-and-redirects-in-a-controller
+hide_table_of_contents: true
 ---
 
 We can display a single item in our To Do List but that's not very helpful in itself. After all, this is a _list_ of things to do, not a single item.

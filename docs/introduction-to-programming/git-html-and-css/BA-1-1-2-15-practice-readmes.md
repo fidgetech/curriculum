@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.2.15 Practice: READMEs'
 day: tuesday
+id: 1-1-2-15-practice-readmes
+hide_table_of_contents: true
 ---
 
 **Goal**: Now that you know how to clone repositories and how to write `README.md` files, let's practice by adding `README.md` files written in Markdown to the repositories you've created so far.

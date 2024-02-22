@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.3.1.5 Practice: Looping'
 day: monday
+id: 1-3-1-5-practice-looping
+hide_table_of_contents: true
 ---
 
 **Goal:**  In the Looping lesson, we learned:

@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.26 Working with a Dev Team"
 day: weekend
+id: 1-0-0-26-working-with-a-dev-team
+hide_table_of_contents: true
 ---
 
 Enterprise companies, especially larger ones, often assign their developers to development teams. These teams work together to build features and fix bugs. At Epicodus, students work with an assigned team every course section (known as a dev team) and pair with someone new from that team every day in class. At the start of every course section, you will be assigned a new dev team.

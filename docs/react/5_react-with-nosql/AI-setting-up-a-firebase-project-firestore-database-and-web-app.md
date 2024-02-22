@@ -1,6 +1,8 @@
 ---
 title: "📓 Setting up a Firebase Project, Firestore Database, and Web App"
 day: weekend
+id: setting-up-a-firebase-project-firestore-database-and-web-app
+hide_table_of_contents: true
 ---
 
 In this lesson, we will go through the steps to setting up a Firebase account, and setting up project with a web app and Firestore database. In the next lesson, we will integrate our new Firebase project with our Help Queue application.

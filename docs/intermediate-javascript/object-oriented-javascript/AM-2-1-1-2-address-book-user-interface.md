@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.1.2 Address Book: User Interface"
 day: monday
+id: 2-1-1-2-address-book-user-interface
+hide_table_of_contents: true
 ---
 
 After following along with the weekend homework(previous lessons), we have a simple address book application that can create contacts and add, delete, and find them in an address book. Now let's start building the UI!

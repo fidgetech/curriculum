@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.0.12 Overriding Equals and GetHashCode"
 day: weekend
+id: 3-3-0-12-overriding-equals-and-gethashcode
+hide_table_of_contents: true
 ---
 
 Before we add functionality to our To Do List app that will save new `Item`s to our database, we need to consider a specific problem that comes up when comparing two objects.

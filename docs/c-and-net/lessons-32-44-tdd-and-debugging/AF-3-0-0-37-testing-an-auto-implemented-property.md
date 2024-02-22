@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.37 Testing An Auto-Implemented Property"
 day: weekend
+id: 3-0-0-37-testing-an-auto-implemented-property
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll work on implementing the next simplest behavior for our `Triangle` logic, which is giving triangles a second side:

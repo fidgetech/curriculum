@@ -1,6 +1,8 @@
 ---
 title: "📓 Following Up During the Job Application Process"
 day: wednesday
+id: following-up-during-the-job-application-process
+hide_table_of_contents: true
 ---
 
 During the application process, it's important to follow up with your potential employer regularly. They may have many competing priorities and may even be disorganized. By following up, you can help your application stay at the top of their list. Our career services advisors will often follow up with an employer up to 6 times without a response before the company commits to an internship! When we hear back, the employers often thank us for our persistence. So don't be afraid to keep following up. Here are opportune times to follow up throughout the process.

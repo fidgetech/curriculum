@@ -1,6 +1,8 @@
 ---
 title: ✏️ 3.3.4.1 Technical Interview Practice
 day: thursday
+id: 3-3-4-1-technical-interview-practice
+hide_table_of_contents: true
 ---
 
 Chances are, you're likely attending Epicodus because you're planning to begin a new career in the tech industry. We're so glad to help you on your journey! After your time with us, you'll begin applying and interviewing for positions. Usually, in addition to the more "standard" interview questions about your work experience, career goals, and education, applications in the tech industry are _also_ asked to answer technical questions.

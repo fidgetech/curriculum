@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.0.7 Making API Calls with JavaScript"
 day: weekend
+id: 2-3-0-7-making-api-calls-with-javascript
+hide_table_of_contents: true
 ---
 
 Over the last several lessons, we've learned quite a bit about API calls to third-party APIs. We've learned what they are and how to make an API call using Postman. We also took a more in-depth look at working with and parsing JSON. The skills we've covered so far are applicable for working with APIs no matter what programming language you use. Whether you are writing in Ruby, JavaScript, C#, or another language, there are tools for making and receiving requests and then parsing JSON or any other type of data the API returns.

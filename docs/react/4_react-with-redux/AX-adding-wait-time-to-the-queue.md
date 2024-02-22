@@ -1,6 +1,8 @@
 ---
 title: "📓 Adding Wait Time to the Queue"
 day: wednesday
+id: adding-wait-time-to-the-queue
+hide_table_of_contents: true
 ---
 
 **Note:** The next two lessons provide a walk through of implementing wait times in the queue. Most of the material reviews concepts we've learned already. You will not be expected to implement lifecycle methods outside of `constructor()` and `render()` in your independent project.

@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.17 Improving Development with a Live Development Server"
 day: weekend
+id: 2-2-0-17-improving-development-with-a-live-development-server
+hide_table_of_contents: true
 ---
 
 We'll improve our developer experience further by using a live development server for webpack. With a **live development server**, any time we make changes to our code, it's automatically re-bundled and our browser window is reloaded.

@@ -1,6 +1,8 @@
 ---
 title: '✏️ Journal #12 Discussion'
 day: monday
+id: journal-12-discussion
+hide_table_of_contents: true
 ---
 
 As discussed in the _[Journaling at Epicodus](/introduction-to-programming/git-html-and-css/homework-journaling-at-epicodus)_ lesson, each weekend you'll receive a journaling assignment in addition to your coding homework. You'll then discuss your responses with a partner at the beginning of the next class session.

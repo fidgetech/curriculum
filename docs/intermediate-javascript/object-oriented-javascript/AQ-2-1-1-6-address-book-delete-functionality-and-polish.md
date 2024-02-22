@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.1.6 Address Book: Delete Functionality and Polish"
 day: monday
+id: 2-1-1-6-address-book-delete-functionality-and-polish
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll add a user interface for our Address Book's delete functionality. We'll need to add a delete button to our HTML, an event listener for the new button, as well as a user interface function to handle actually calling `AddressBook.prototype.deleteContact()` to delete the contact.

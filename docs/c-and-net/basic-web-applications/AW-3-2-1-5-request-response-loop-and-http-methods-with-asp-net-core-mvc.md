@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.1.5 Request-Response Loop and HTTP Methods with ASP.NET Core MVC"
 day: monday
+id: 3-2-1-5-request-response-loop-and-http-methods-with-asp-net-core-mvc
+hide_table_of_contents: true
 ---
 
 In the _How the Web Works_ series of lessons from the weekend homework, we learned how websites and applications communicate with users' clients to display their content in the browser. We discussed clients and servers, uniform resource locators (URLs), server-side MVC patterns, and the request-response loop.

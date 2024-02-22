@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.2.8 Separation of Concerns in Text Analyzer: boldPassage() UI Function"
 day: tuesday
+id: 1-3-2-8-separation-of-concerns-in-text-analyzer-boldpassage-ui-function
+hide_table_of_contents: true
 ---
 
 We now have a very basic application where our business and user interface logic are completely separate. Our business logic is tested with pseudocode tests. Our user interface doesn't include any business logic. Instead, whenever the UI logic needs to interact with business logic, it calls one of the functions in our business logic.

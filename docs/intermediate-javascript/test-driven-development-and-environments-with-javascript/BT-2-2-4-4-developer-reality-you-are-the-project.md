@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.4.4 Developer Reality: You Are the Project"
 day: thursday
+id: 2-2-4-4-developer-reality-you-are-the-project
+hide_table_of_contents: true
 ---
 
 ## The Developer Reality Series

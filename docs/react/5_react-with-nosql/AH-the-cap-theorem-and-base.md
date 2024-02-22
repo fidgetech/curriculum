@@ -1,6 +1,8 @@
 ---
 title: "📓 The CAP Theorem and BASE"
 day: weekend
+id: the-cap-theorem-and-base
+hide_table_of_contents: true
 ---
 
 In this lesson, we will discuss the CAP theorem, a key concept developed by the computer scientist Eric Brewer that governs why and how NoSQL databases are scalable and good for big data. We'll also touch on Eric Brewer's acronym BASE, which describes how NoSQL databases achieve the requirements of the CAP theorem when distributed across multiple locations.

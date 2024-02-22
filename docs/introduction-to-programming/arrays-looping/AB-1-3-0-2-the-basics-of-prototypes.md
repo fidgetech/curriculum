@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.0.2 The Basics of Prototypes"
 day: weekend
+id: 1-3-0-2-the-basics-of-prototypes
+hide_table_of_contents: true
 ---
 
 When we look at Mozilla's documentation for JavaScript methods, we'll often see the term **prototype**. We first learned about the term "prototype" in the last course section when we learned [how to use MDN documentation for JavaScript]( https://old.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/using-mdn-documentation-for-javascript). Since we'll be learning how to use new methods on JavaScript arrays, now's a good time to review what prototype means. 

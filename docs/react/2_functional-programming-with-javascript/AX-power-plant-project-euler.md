@@ -1,6 +1,8 @@
 ---
 title: '✏️ Power Plant, Project Euler'
 day: tuesday
+id: power-plant-project-euler
+hide_table_of_contents: true
 ---
 
 **Goal:** Use closures to store state. Practice using composition to add functionality to objects. Focus on testing your applications thoroughly and keeping your business logic functional.

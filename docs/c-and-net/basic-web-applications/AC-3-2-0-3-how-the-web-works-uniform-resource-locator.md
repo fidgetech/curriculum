@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.3 How the Web Works: Uniform Resource Locator"
 day: weekend
+id: 3-2-0-3-how-the-web-works-uniform-resource-locator
+hide_table_of_contents: true
 ---
 
 As discussed in the last lesson, when we navigate to `https://old.learnhowtoprogram.com/courses` in our browser, the browser (or _client_) makes a request to the web server where that page's content is stored.

@@ -1,6 +1,8 @@
 ---
 title: "📓 React Router"
 day: monday
+id: react-router
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll incorporate the React Router library and create a "separate" sign-in page that uses client-side routing. In the next lesson, we'll actually incorporate Firebase authentication.

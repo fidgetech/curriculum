@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.0.4 Introduction to Arrays"
 day: weekend
+id: 1-3-0-4-introduction-to-arrays
+hide_table_of_contents: true
 ---
 
 Until now, we've always dealt with one piece of information at a time: one number, one string, one element on a page. However, we often need to group things together when we are coding. In programming, a group of things is often referred to as a **collection**.

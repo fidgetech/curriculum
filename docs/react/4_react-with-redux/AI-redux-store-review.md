@@ -1,6 +1,8 @@
 ---
 title: "📓 Redux Store Review"
 day: weekend
+id: redux-store-review
+hide_table_of_contents: true
 ---
 
 In the last lesson, we built a small application and learned about the Redux library. Redux on its own is relatively simple. However, Redux will become more complicated when we combine it with our React applications using the React Redux library, and start to build more complex reducers. Before we move on, let's review the basics. 

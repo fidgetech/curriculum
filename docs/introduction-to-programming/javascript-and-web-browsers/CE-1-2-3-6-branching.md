@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.3.6 Branching"
 day: wednesday
+id: 1-2-3-6-branching
+hide_table_of_contents: true
 ---
 
 Now that we've learned the basics of DOM manipulation and event handling, we're going to add some logic to our pages that will allow us to control the flow of our code based on certain conditions. This kind of logic is called **branching**.  

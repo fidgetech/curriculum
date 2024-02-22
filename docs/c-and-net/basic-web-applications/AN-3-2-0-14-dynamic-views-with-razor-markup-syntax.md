@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.14 Dynamic Views with Razor Markup Syntax"
 day: weekend
+id: 3-2-0-14-dynamic-views-with-razor-markup-syntax
+hide_table_of_contents: true
 ---
 
 So far, our views have only used basic HTML. In this lesson, we'll explore how to add logic to our views using the model we created in the last lesson with the **Razor markup syntax**.

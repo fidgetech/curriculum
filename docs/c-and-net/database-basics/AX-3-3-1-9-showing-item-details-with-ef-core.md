@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.1.9 Showing Item Details with EF Core"
 day: monday
+id: 3-3-1-9-showing-item-details-with-ef-core
+hide_table_of_contents: true
 ---
 
 Our To Do List application currently has an option for users to click on an item's details. However, we haven't added that route or its corresponding view yet. Let's do that now.

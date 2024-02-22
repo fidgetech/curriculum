@@ -1,6 +1,8 @@
 ---
 title: "📓 3.5.1.3 Further Exploration Opportunities with Identity"
 day: monday
+id: 3-5-1-3-further-exploration-opportunities-with-identity
+hide_table_of_contents: true
 ---
 
 In this lesson we'll highlight some further exploration opportunities with ASP.NET Core authentication and authorization. There's actually quite a lot of authentication and authorization options to explore in the ASP.NET Core docs. That makes sense! Microsoft wants its ASP.NET Core applications and APIs to be able to work with all of the modern tools for securing websites. 

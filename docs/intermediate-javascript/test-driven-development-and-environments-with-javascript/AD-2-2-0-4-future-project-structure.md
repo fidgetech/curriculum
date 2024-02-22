@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.4 Future Project Structure"
 day: weekend
+id: 2-2-0-4-future-project-structure
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll provide an overview of what our file's project structure will look like by the end of this course section. We'll also briefly describe the purpose of each file. **Do not add any files to your project just yet.** We will add them as they are needed. This lesson just provides an introduction to how our file structure will change, including contrasting it with our project's current file structure.

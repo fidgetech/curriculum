@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.1.4 To Do List with MVC Forms"
 day: monday
+id: 3-2-1-4-to-do-list-with-mvc-forms
+hide_table_of_contents: true
 ---
 
 In the last lesson, we successfully set up an ASP.NET Core MVC framework into a new To Do List application, and we added a basic home page. In this lesson, we'll update our application so users can create their own custom items through a form. In the next lesson, we'll explore what's happening in the HTTP request-response cycle when we use forms in our MVC applications.

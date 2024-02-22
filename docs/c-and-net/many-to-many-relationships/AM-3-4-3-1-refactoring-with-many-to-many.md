@@ -1,6 +1,8 @@
 ---
 title: ✏️ 3.4.3.1 Refactoring with Many-To-Many
 day: wednesday
+id: 3-4-3-1-refactoring-with-many-to-many
+hide_table_of_contents: true
 ---
 
 **Goal**: Continue your practice with many-to-many relationships by refactoring an old project. 

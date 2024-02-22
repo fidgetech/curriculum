@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.36 Testing A Private Field through its Public Property and Organizing Tests with Arrange, Act, Assert"
 day: weekend
+id: 3-0-0-36-testing-a-private-field-through-its-public-property-and-organizing-tests-with-arrange-act-assert
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll begin working on the next simplest behavior our `Triangle` logic should have: three sides. Since the `Triangle` logic we create now will mirror exactly the `Triangle` logic we created at the end of the last pre-work section, we'll test for the following:

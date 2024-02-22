@@ -1,6 +1,8 @@
 ---
 title: "📓 Bubble Sort"
 day: thursday
+id: bubble-sort
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll cover the **bubble sort algorithm**. It isn't efficient for either large _or_ small collections, so there's no reason to use it in the real world. However, it is a conceptually interesting way of sorting a collection — and this gives us an opportunity to explore yet another method for sorting.

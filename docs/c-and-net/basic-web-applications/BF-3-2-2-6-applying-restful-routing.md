@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.2.6 Applying RESTful Routing"
 day: tuesday
+id: 3-2-2-6-applying-restful-routing
+hide_table_of_contents: true
 ---
 
 In the last lesson, we covered RESTful principles. In this lesson, we'll continue developing our application following RESTful routing best practices. First, we'll update our existing `CreateForm()` route to follow RESTful convention. Then we'll add a `Show()` route to display a detail page for individual `Item`s.

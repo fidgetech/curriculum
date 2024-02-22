@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.3.12 Removing Event Listeners"
 day: wednesday
+id: 1-2-3-12-removing-event-listeners
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll learn how to remove event listeners with the `removeEventListener()` method. In the applications that you build at Epicodus, there won't be a lot of cases in which we'll need to remove event listeners, but it is helpful to know when and why we might want or need to do that.

@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.4.7 Practice: Installing and Implementing Bootstrap'
 day: thursday
+id: 1-1-4-7-practice-installing-and-implementing-bootstrap
+hide_table_of_contents: true
 ---
 
 **Goal:** Begin exploring Bootstrap by creating an HTML page that integrates multiple Bootstrap elements into its styles.

@@ -1,6 +1,8 @@
 ---
 title: "📓 3.3.0.11 Testing for an Empty Database"
 day: weekend
+id: 3-3-0-11-testing-for-an-empty-database
+hide_table_of_contents: true
 ---
 
 Now that we have both `ClearAll()` and `GetAll()` methods that interact with our database, let's begin writing tests for our methods. As always, we begin by testing the simplest possible behavior. In this case, we'll start with a test to make sure the database is empty.

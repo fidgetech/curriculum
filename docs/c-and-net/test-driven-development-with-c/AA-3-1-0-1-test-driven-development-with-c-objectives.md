@@ -1,6 +1,9 @@
 ---
 title: "📓 3.1.0.1 Test-Driven Development with C# Objectives"
 day: weekend
+id: 3-1-0-1-test-driven-development-with-c-objectives
+hide_table_of_contents: true
+paginationPrev: null
 ---
 
 Welcome to C# and .NET! We'll spend this course section unpacking concepts from the pre-work and familiarizing ourselves with C# development in general. We'll dive deeper into object-oriented programming, C# tools, and build console applications.

@@ -1,6 +1,9 @@
 ---
 title: "📓 1.0.0.23 Installing Software on Your Machine"
 day: weekend
+id: 1-0-0-23-installing-software-on-your-machine
+hide_table_of_contents: true
+paginationPrev: null
 ---
 
 We hope you're as excited about the first day of class as we are! Here is an installation guide to help you get ready. Your instructor can provide setup assistance if you run into any problems.

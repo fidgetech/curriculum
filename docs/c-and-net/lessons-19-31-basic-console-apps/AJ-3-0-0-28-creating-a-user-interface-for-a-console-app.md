@@ -1,6 +1,8 @@
 ---
 title: "📓 3.0.0.28 Creating a User Interface for a Console App"
 day: weekend
+id: 3-0-0-28-creating-a-user-interface-for-a-console-app
+hide_table_of_contents: true
 ---
 
 All of the user interface logic we've written in `Program.cs` so far has been to practice the business logic we created in `Triangle.cs`, and not to create an interactive console application that a user can run and interact with through text commands. Well, we're now at a point where we've fully developed our business logic and it is time to fully develop our UI logic. 

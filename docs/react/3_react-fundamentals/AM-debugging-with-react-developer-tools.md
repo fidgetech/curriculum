@@ -1,6 +1,8 @@
 ---
 title: "📓 Debugging with React Developer Tools"
 day: weekend
+id: debugging-with-react-developer-tools
+hide_table_of_contents: true
 ---
 
 While we can use `console.log()` statements and `debugger` to debug our React applications, there is another very useful tool called React Developer Tools which we can use to debug our code as well.

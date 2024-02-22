@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.8 Installing Dependencies with npm: webpack and webpack-cli"
 day: weekend
+id: 2-2-0-8-installing-dependencies-with-npm-webpack-and-webpack-cli
+hide_table_of_contents: true
 ---
 
 We're now ready to start installing the packages we'll work with. We can install any npm package with the `$ npm install [PACKAGE-NAME]` command where `[PACKAGE-NAME]` is the package we want to install. 

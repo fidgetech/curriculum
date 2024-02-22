@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.1.2 TDD Review"
 day: monday
+id: 2-2-1-2-tdd-review
+hide_table_of_contents: true
 ---
 
 We learned about the basics of [Test-Driven Development](https://old.learnhowtoprogram.com/lessons/overview-of-test-driven-development-tdd-with-text-analyzer) in Introduction to Programming. So far, we have used the basic principles of TDD to help organize and plan our code — but we aren't actually executing any tests yet. Well, we're about to start doing that!

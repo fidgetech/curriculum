@@ -1,6 +1,8 @@
 ---
 title: "📓 3.1.2.4 APIE: Polymorphism"
 day: tuesday
+id: 3-1-2-4-apie-polymorphism
+hide_table_of_contents: true
 ---
 
 We have one last principle of Object-Oriented Programming (OOP) to learn about: polymorphism! As a reminder, polymorphism is one of four principles of OOP that we can remember by the easy acronym **APIE**: 

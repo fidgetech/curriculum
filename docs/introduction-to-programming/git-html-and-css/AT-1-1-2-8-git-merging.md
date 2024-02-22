@@ -1,6 +1,8 @@
 ---
 title: "📓 1.1.2.8 Git Merging"
 day: tuesday
+id: 1-1-2-8-git-merging
+hide_table_of_contents: true
 ---
 
 In the last lesson we explored creating and managing multiple branches in a single Git repository. As we learned, branches allow us to create multiple copies of our code. These copies may be used to experiment with implementing new code, without putting the "final version" or `main` branch at risk of bugs or errors.

@@ -1,6 +1,8 @@
 ---
 title: "📓 Writing Our Second Redux Test"
 day: weekend
+id: writing-our-second-redux-test
+hide_table_of_contents: true
 ---
 
 We're ready to move on to our second test. Our goal is to give our Help Queue full CRUD functionality with Redux. In order to do that, we will need to be able to add a ticket.

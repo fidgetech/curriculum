@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.3.1 Forms, Hiding and Showing Elements, and the Event Object"
 day: wednesday
+id: 1-2-3-1-forms-hiding-and-showing-elements-and-the-event-object
+hide_table_of_contents: true
 ---
 
 So far, the only way we've been able to capture user input is by using `window.confirm()` and `window.prompt()`. Let's learn about forms so that we can build more interesting pages. In this lesson, we'll learn about:

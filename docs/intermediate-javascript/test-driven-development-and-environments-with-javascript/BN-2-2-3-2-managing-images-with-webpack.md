@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.3.2 Managing Images with webpack"
 day: wednesday
+id: 2-2-3-2-managing-images-with-webpack
+hide_table_of_contents: true
 ---
 
 The primary focus of this section should be test-driven development, including writing more complex business logic along with tests. However, many students also want to incorporate images into their projects. While this should be a lower priority than using test-driven development (and adding images isn't required for this section's project), you are welcome to experiment with adding images if you have completed other key aspects of your project.

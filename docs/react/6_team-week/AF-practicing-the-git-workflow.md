@@ -1,6 +1,8 @@
 ---
 title: "📓 Practicing the Git Workflow"
 day: weekend
+id: practicing-the-git-workflow
+hide_table_of_contents: true
 ---
 
 We've covered the basics of using a git workflow — now it's time to practice a little. We recommend going through this practice _before_ you actually start working on your group project. This way, you'll be more equipped to use this workflow, and to deal with any issues that come up.

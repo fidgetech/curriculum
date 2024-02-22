@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.2.6 Separation of Logic: Adding a UI to Text Analyzer"
 day: tuesday
+id: 1-3-2-6-separation-of-logic-adding-a-ui-to-text-analyzer
+hide_table_of_contents: true
 ---
 
 Over the last two lessons, we used test-driven development to build some basic functionality for a word counter program called "Text Analyzer". This program can count the number of words in a passage of text and also count the number of occurrences of that word.

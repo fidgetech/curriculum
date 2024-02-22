@@ -1,6 +1,8 @@
 ---
 title: '✏️ 3.5.1.2 Library Catalog, Recipe Box Week-Long Project - Part 1'
 day: monday
+id: 3-5-1-2-library-catalog-recipe-box-week-long-project---part-1
+hide_table_of_contents: true
 ---
 
 **Goal**: Practice creating many-to-many relationships with your applications. Use Identity to allow users to register, log in and log out. Explore using authorization to limit what users can and can't do in an application.

@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.4.2 Practice: Cascading'
 day: thursday
+id: 1-1-4-2-practice-cascading
+hide_table_of_contents: true
 ---
 
 **Goal:**   In the Cascading lesson, we learned:

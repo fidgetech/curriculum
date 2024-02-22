@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.6 How the Web Works: Server-Side Rendering"
 day: weekend
+id: 3-2-0-6-how-the-web-works-server-side-rendering
+hide_table_of_contents: true
 ---
 
 We just mentioned that the ASP.NET Core MVC framework we'll use is something called a **server-side MVC**. This is a type of design pattern that _tons_ of different web frameworks in different languages follow. So, before we begin writing our first C# web apps, let's learn more about what it means to be **server-side**.

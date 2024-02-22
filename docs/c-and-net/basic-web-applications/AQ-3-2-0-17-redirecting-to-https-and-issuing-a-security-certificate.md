@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.17 Redirecting to HTTPS and Issuing a Security Certificate"
 day: weekend
+id: 3-2-0-17-redirecting-to-https-and-issuing-a-security-certificate
+hide_table_of_contents: true
 ---
 
 In this lesson, we'll learn how to enable HTTPS redirection and set up security certificates for our web apps during development. While it's not always necessary to use HTTPS during development, it does provide additional security. 

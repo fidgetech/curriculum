@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.2.5 Introduction to RESTful Routing"
 day: tuesday
+id: 3-2-2-5-introduction-to-restful-routing
+hide_table_of_contents: true
 ---
 
 Before we add new routes to our app, we're going to discuss an industry best practice for organizing routes called **REST**.

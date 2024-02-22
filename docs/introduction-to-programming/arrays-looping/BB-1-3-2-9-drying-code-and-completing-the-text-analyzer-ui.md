@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.2.9 DRYing Code and Completing the Text Analyzer UI"
 day: tuesday
+id: 1-3-2-9-drying-code-and-completing-the-text-analyzer-ui
+hide_table_of_contents: true
 ---
 
 In the last lesson, we focused on the importance of keeping our business logic and UI logic separate. We could've updated our `numberOfOccurrencesInText()` function to do multiple things but this is a bad practice. A function should just do one thing if possible. We want to have **separation of concerns**, which means each function is concerned about just one thing and doesn't worry about anything else. That means `numberOfOccurrencesInText()` just cares about counting the number of occurrences of a substring in a string while `boldPassage()` should bold matches. Writing a function that did both things wouldn't be good even if it results in fewer lines of code.

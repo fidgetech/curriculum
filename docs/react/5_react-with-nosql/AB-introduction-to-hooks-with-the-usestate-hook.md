@@ -1,6 +1,8 @@
 ---
 title: "📓 Introduction to Hooks with the useState Hook"
 day: weekend
+id: introduction-to-hooks-with-the-usestate-hook
+hide_table_of_contents: true
 ---
 
 In this course section, we'll be leaving behind class components to focus on a purely functional approach to developing React components. To do this, we'll need to use special functions that are called **hooks**. [As the React docs](https://reactjs.org/docs/hooks-overview.html) explain,

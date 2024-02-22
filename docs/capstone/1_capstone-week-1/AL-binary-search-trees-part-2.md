@@ -1,6 +1,8 @@
 ---
 title: "📓 Binary Search Trees Part 2"
 day: monday
+id: binary-search-trees-part-2
+hide_table_of_contents: true
 ---
 
 In the last lesson, we made a small application with a method that can build a binary search tree. In this lesson, we'll use our application to create a larger binary search tree that we can then search with several different kinds of algorithms.

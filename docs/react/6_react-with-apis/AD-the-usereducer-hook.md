@@ -1,6 +1,8 @@
 ---
 title: "📓 The useReducer Hook"
 day: weekend
+id: the-usereducer-hook
+hide_table_of_contents: true
 ---
 
 The first thing to know about the `useReducer()` hook is that it is an alternative to the `useState()` hook. That means `useReducer()` is a way to initialize and manage state in a function component. This also means that anything we can do with the `useReducer()` hook, we can also do with the `useState()` hook. So, when would we use `useReducer()`? Before getting into the use cases and benefits of the `useReducer()` hook, let's first get to know how to use it.

@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.2.1.11 Practice: Interactivity with Window Methods'
 day: monday
+id: 1-2-1-11-practice-interactivity-with-window-methods
+hide_table_of_contents: true
 ---
 
 **Goal:**  In the "Interactivity with Window Methods" lesson, we learned:

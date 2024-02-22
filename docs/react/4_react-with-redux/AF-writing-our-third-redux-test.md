@@ -1,6 +1,8 @@
 ---
 title: "📓 Writing Our Third Redux Test"
 day: weekend
+id: writing-our-third-redux-test
+hide_table_of_contents: true
 ---
 
 In the last lesson, we added a reducer action called `ADD_TICKET`. Our reducer can now take the current state of our ticket list and return the ticket list's new state with a new ticket added to the list. It does this without making alterations to the current state or storing that data anywhere.

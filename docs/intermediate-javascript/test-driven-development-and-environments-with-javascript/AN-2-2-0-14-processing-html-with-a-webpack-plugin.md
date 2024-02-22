@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.14 Processing HTML with a webpack Plugin"
 day: weekend
+id: 2-2-0-14-processing-html-with-a-webpack-plugin
+hide_table_of_contents: true
 ---
 
 So far we've used webpack to bundle our JavaScript and CSS files. We can also use webpack to generate HTML files for us. Note that we're not using webpack to bundle HTML with our JS and CSS — instead, we're using webpack to do some additional work for us by having webpack process and generate our HTML based on a template we provide to webpack.

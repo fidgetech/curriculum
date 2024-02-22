@@ -1,6 +1,8 @@
 ---
 title: "📓 1.2.1.6 Web APIs"
 day: monday
+id: 1-2-1-6-web-apis
+hide_table_of_contents: true
 ---
 
 Since being introduced to the `window` and `document` objects, as well as the DOM and events, we've stepped away from JavaScript to learn about structures and tools that web browsers make available to web developers. Now is a good time to learn where we can find documentation references on Mozilla Developer Network (MDN) Documentation for these tools. 

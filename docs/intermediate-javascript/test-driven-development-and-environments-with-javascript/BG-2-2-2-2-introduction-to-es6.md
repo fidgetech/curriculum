@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.2.2 Introduction to ES6"
 day: tuesday
+id: 2-2-2-2-introduction-to-es6
+hide_table_of_contents: true
 ---
 
 JavaScript development is in a constant state of evolution. A big part of being a JS developer is keeping up with changes to popular libraries, frameworks, and the language itself. Frameworks that were popular a few years ago (such as backbone.js) are quickly replaced by cutting edge frameworks (like react.js). Node modules become outdated and deprecated. Libraries are in a constant state of churn.

@@ -1,6 +1,8 @@
 ---
 title: "📓 1.0.0.02 Growth Mindset"
 day: weekend
+id: 1-0-0-02-growth-mindset
+hide_table_of_contents: true
 ---
 
 People come to Epicodus with a wide range of experience in and natural aptitude for programming. But the effect of those differences on your pace of learning will pale in comparison to the effect of developing a "growth mindset".

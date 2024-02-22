@@ -1,6 +1,8 @@
 ---
 title: "📓 Writing Cover Letters and Resumes (pre-October)"
 day: monday
+id: writing-cover-letters-and-resumes-pre-october
+hide_table_of_contents: true
 ---
 
 A good cover letter and resume will make it easy to see how your skills and experience match an employer's job description. Many companies use automated tools to scan cover letters and resumes for keywords that match their job descriptions, then automatically reject applications that don't have those words.

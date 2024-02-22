@@ -1,6 +1,8 @@
 ---
 title: "📓 Context Best Practices, Alternatives, and Further Exploration"
 day: weekend
+id: context-best-practices-alternatives-and-further-exploration
+hide_table_of_contents: true
 ---
 
 To wrap-up to the whirlwind of information about context, let's review some of the best practices for using context, the alternatives to context, and a few further exploration opportunities.

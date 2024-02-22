@@ -1,6 +1,8 @@
 ---
 title: "📓 React Context"
 day: weekend
+id: react-context
+hide_table_of_contents: true
 ---
 
 Now let's turn our attention to learning a new React tool for sharing data called **context**. In this lesson we'll get a conceptual introduction to context: what it is, its common use cases, and its alternatives. 

@@ -1,6 +1,8 @@
 ---
 title: "📓 Equality versus Equity"
 day: weekend
+id: equality-versus-equity
+hide_table_of_contents: true
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week we will cover equity and how it differs from equality. 

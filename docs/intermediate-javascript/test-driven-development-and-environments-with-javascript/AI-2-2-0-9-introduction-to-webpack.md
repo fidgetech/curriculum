@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.0.9 Introduction to webpack"
 day: weekend
+id: 2-2-0-9-introduction-to-webpack
+hide_table_of_contents: true
 ---
 
 webpack is a **module bundler** that bundles our code. A **module** is a single JavaScript file. As a bundler, webpack stitches together separate modules (JavaScript files) into a single file called a bundle. By bundling our code, we can make our website more efficient at loading and processing its resources, because the source code has been optimized. 

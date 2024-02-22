@@ -1,6 +1,8 @@
 ---
 title: '✏️ Build Your Own RPG, Haiku Checker (Two-day Project)'
 day: wednesday
+id: build-your-own-rpg-haiku-checker-two-day-project
+hide_table_of_contents: true
 ---
 
 **Goal:** For this project, continue building functional applications. Try incorporating all the different tools you've learned so far from closures to recursion to composition. You may incorporate object-oriented elements in your applications, but try to keep your code functional where possible.

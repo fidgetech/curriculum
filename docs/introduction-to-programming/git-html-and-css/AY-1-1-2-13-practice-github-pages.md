@@ -1,6 +1,8 @@
 ---
 title: '✏️ 1.1.2.13 Practice: GitHub Pages'
 day: tuesday
+id: 1-1-2-13-practice-github-pages
+hide_table_of_contents: true
 ---
 
 **Goal**:  Walk through the process of creating and publishing to a GitHub pages page by publishing one of our previous projects.

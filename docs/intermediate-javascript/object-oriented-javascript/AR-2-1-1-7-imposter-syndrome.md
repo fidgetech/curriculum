@@ -1,6 +1,8 @@
 ---
 title: "📓 2.1.1.7 Imposter Syndrome"
 day: monday
+id: 2-1-1-7-imposter-syndrome
+hide_table_of_contents: true
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum.

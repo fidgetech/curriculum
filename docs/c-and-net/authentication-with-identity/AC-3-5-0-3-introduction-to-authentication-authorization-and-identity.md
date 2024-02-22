@@ -1,6 +1,8 @@
 ---
 title: "📓 3.5.0.3 Introduction to Authentication, Authorization, and Identity"
 day: weekend
+id: 3-5-0-3-introduction-to-authentication-authorization-and-identity
+hide_table_of_contents: true
 ---
 
 In this lesson we'll introduce authentication in general as well as Identity, the authentication tool built into ASP.NET Core.

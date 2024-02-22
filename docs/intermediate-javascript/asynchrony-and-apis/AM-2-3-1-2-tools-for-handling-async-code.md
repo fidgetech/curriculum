@@ -1,6 +1,8 @@
 ---
 title: "📓 2.3.1.2 Tools for Handling Async Code"
 day: monday
+id: 2-3-1-2-tools-for-handling-async-code
+hide_table_of_contents: true
 ---
 
 So far, we've learned how to use an `XMLHttpRequest` object to make our API call. To handle the asynchrony of the request, or, waiting for the request to be sent out and a response returned to us, we used event listeners and callback functions. Why? Well, we only want our code to call the functions that process the API response once the API call is complete, and not before. 

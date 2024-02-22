@@ -1,6 +1,8 @@
 ---
 title: '✏️ 3.2.2.1 To Do List, Car Dealership, Parcels, Job Board'
 day: tuesday
+id: 3-2-2-1-to-do-list-car-dealership-parcels-job-board
+hide_table_of_contents: true
 ---
 
 **Goal:** Continue familiarizing yourselves with the ASP.NET Core MVC framework, paying special attention to the difference between GET and POST requests and creating multi-controller applications.

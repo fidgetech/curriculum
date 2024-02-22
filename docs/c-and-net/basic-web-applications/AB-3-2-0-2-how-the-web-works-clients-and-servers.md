@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.0.2 How the Web Works: Clients and Servers"
 day: weekend
+id: 3-2-0-2-how-the-web-works-clients-and-servers
+hide_table_of_contents: true
 ---
 
 You're about to learn your first web framework! But before we begin we'll address several concepts that apply to the internet in general. A series of lessons this section, all prefixed with _How the Web Works_, will walk through the basic concepts that create the Internet, and allow users to visit sites like those we're about to create. This will provide context to understand how our websites will function, both in our code and behind-the-scenes.

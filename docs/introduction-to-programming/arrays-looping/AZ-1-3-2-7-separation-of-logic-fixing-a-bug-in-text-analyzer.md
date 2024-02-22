@@ -1,6 +1,8 @@
 ---
 title: "📓 1.3.2.7 Separation of Logic: Fixing a Bug in Text Analyzer"
 day: tuesday
+id: 1-3-2-7-separation-of-logic-fixing-a-bug-in-text-analyzer
+hide_table_of_contents: true
 ---
 
 We have a bug in our Text Analyzer application. But what exactly is it? You'll find it if you test the application out in the browser. This GIF below demonstrates exactly what is happening. In this lesson, we'll solve the bug, but we'll also do it while keeping our UI and business logic separated. At the end of the lesson, we'll look at two examples of poorly separated logic.

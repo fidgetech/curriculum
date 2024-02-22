@@ -1,6 +1,8 @@
 ---
 title: "📓 3.2.1.3 To Do List MVC Setup"
 day: monday
+id: 3-2-1-3-to-do-list-mvc-setup
+hide_table_of_contents: true
 ---
 
 Now that we've had basic practice with the Model-View-Controller aspect of MVC web apps, let's create a more complex ASP.NET Core MVC application. We'll then continue building upon this codebase throughout the remainder of the C# and .NET course.

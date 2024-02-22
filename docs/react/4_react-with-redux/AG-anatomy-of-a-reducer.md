@@ -1,6 +1,8 @@
 ---
 title: "📓 Anatomy of a Reducer"
 day: weekend
+id: anatomy-of-a-reducer
+hide_table_of_contents: true
 ---
 
 Over the last several lessons, we've built and tested a reducer that will allow us to take CRUD actions in our Help Queue application. Reducers can get considerably more complex — and we'll eventually learn more advanced techniques such as splitting and combining reducers — but for now, we'll focus on reviewing what we've learned so far. Having a clear understanding of how reducers work will make learning Redux much easier.

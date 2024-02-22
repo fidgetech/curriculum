@@ -1,6 +1,8 @@
 ---
 title: "📓 Negotiating a Salary"
 day: weekend
+id: negotiating-a-salary
+hide_table_of_contents: true
 ---
 
 Epicodus graduates start in a variety of positions, from 1-3 month paid internships, set contracts with a stipend, contract-to-hire arrangements, and full-time positions. It's very common to start in some sort of trial position before being hired full-time. These are great learning opportunities, as well as a chance to really find out if you like the company and its culture.

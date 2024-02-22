@@ -1,6 +1,8 @@
 ---
 title: "📓 Tools for Email Management"
 day: wednesday
+id: tools-for-email-management
+hide_table_of_contents: true
 ---
 
 Keeping track of your employment search emails can be challenging. Fortunately, there are some great tools to help with this. One great (and free) tool is Streak, which integrates with Gmail.

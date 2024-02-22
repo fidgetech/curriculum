@@ -1,6 +1,8 @@
 ---
 title: "📓 2.2.2.3 ES6 Classes"
 day: tuesday
+id: 2-2-2-3-es6-classes
+hide_table_of_contents: true
 ---
 
 We've already covered ES6 support for modules, which are implemented with `import` and `export`. In this lesson, we'll go over ES6's native support for classes. Classes make JavaScript more accessible and easier to read from an object-oriented (OO) perspective. However, they don't fundamentally change the way JavaScript works.
