@@ -1,0 +1,297 @@
+section: 1.2 JavaScript and Web Browsers
+order: 5
+repo: introduction-to-programming
+directory: javascript-and-web-browsers
+lessons:
+  - title: 1.2.0.1 JavaScript and Web Browsers Objectives
+    filename: 0a_javascript_and_web_browsers_objectives.md
+    day: weekend
+    type: lesson
+  - title: 1.2.0.2 Welcome to JavaScript and Web Browsers
+    filename: 0b_welcome_to_javascript_and_web_browsers.md
+    day: weekend
+    type: lesson
+  - title: 1.2.0.3 Documentation and Resources
+    filename: 0c_documentation_and_resources.md
+    day: weekend
+    type: lesson
+  - title: 1.2.0.4 Accessing and Configuring the Browser DevTools Console
+    filename: 0d_devtools_access_and_configuration.md
+    day: weekend
+    type: lesson
+  - title: 1.2.0.5 Using the DevTools Console for Practice and Pair Programming
+    filename: 0e_using_devtools_for_practice_and_pair_programming.md
+    day: weekend
+    type: lesson
+  - title: 1.2.0.6 JavaScript Data Types
+    filename: 0f_javascript_data_types.md
+    day: weekend
+    type: lesson
+  - title: 1.2.0.7 Arithmetic
+    filename: 0g_arithmetic.md
+    day: weekend
+    type: lesson
+  - title: '1.2.0.8 Practice: Arithmetic'
+    filename: 0h_classwork_practice_arithmetic.md
+    day: weekend
+    type: exercise
+  - title: 1.2.0.9 JavaScript Variables
+    filename: 0i_javascript_variables.md
+    day: weekend
+    type: lesson
+  - title: 1.2.0.10 Strings
+    filename: 0j_strings.md
+    day: weekend
+    type: lesson
+  - title: '1.2.0.11 Practice: Variables and Strings'
+    filename: 0k_classwork_practice_variables_and_strings.md
+    day: weekend
+    type: exercise
+  - title: 1.2.0.12 Methods
+    filename: 0l_methods.md
+    day: weekend
+    type: lesson
+  - title: 1.2.0.13 Functions
+    filename: 0m_functions.md
+    day: weekend
+    type: lesson
+  - title: 1.2.0.14 String and Number Methods
+    filename: 0n_string_and_number_methods.md
+    day: weekend
+    type: lesson
+  - title: '1.2.0.15 Practice: String and Number Methods'
+    filename: 0o_classwork_practice_string_and_number_methods.md
+    day: weekend
+    type: exercise
+  - title: 1.2.0.16 Using MDN Documentation for JavaScript
+    filename: 0p_using_mdn_documentation.md
+    day: weekend
+    type: lesson
+  - title: '1.2.0.17 Practice: Using MDN Documentation JavaScript'
+    filename: 0q_classwork_practice_using_mdn_documentation.md
+    day: weekend
+    type: exercise
+  - title: 1.2.0.18 Assignment, Comparison, and Equality Operators
+    filename: 0r_assignment_comparison_and_equality_operators.md
+    day: weekend
+    type: lesson
+  - title: '1.2.0.19 Practice: Assignment, Comparison, and Equality Operators'
+    filename: 0s_classwork_practice_assignment_comparison_and_equality_operators.md
+    day: weekend
+    type: exercise
+  - title: '1.2.0.20 Data Types: Detection, Conversion, and Review'
+    filename: 0t_data_types_detection_conversion_and_review.md
+    day: weekend
+    type: lesson
+  - title: 1.2.0.21 Another Look at JavaScript Objects
+    filename: 0u_javascript_objects.md
+    day: weekend
+    type: lesson
+  - title: 1.2.0.22 Review of JavaScript Conventions
+    filename: 0v_review_of_javascript_conventions.md
+    day: weekend
+    type: lesson
+  - title: '1.2.1.1 Practice: Review of JavaScript Basics'
+    filename: 1a_classwork_practice_review_of_javascript_basics.md
+    day: monday
+    type: exercise
+  - title: 1.2.1.2 Writing Functions
+    filename: 1b_writing_functions.md
+    day: monday
+    type: lesson
+  - title: '1.2.1.3 Practice: Writing Functions'
+    filename: 1c_classwork_practice_writing_functions.md
+    day: monday
+    type: exercise
+  - title: 1.2.1.4 How Web Browsers Work
+    filename: 1d_how_web_browsers_work.md
+    day: monday
+    type: lesson
+  - title: 1.2.1.5 Accessing Window Properties
+    filename: 1e_accessing_window_properties.md
+    day: monday
+    type: lesson
+  - title: 1.2.1.6 Web APIs
+    filename: 1f_web_apis.md
+    day: monday
+    type: lesson
+  - title: '1.2.1.7 Practice: Accessing Window Properties'
+    filename: 1g_practice_classwork_accessing_window_properties.md
+    day: monday
+    type: exercise
+  - title: '1.2.1.8 Debugging in JavaScript: Reading Console Errors'
+    filename: 1h_debugging_in_javascript_console_errors.md
+    day: monday
+    type: lesson
+  - title: 1.2.1.9 Interactivity with Window Methods
+    filename: 1i_interactivity_with_window_methods.md
+    day: monday
+    type: lesson
+  - title: 1.2.1.10 A Common Data Type Error and Data Type Coercion
+    filename: 1j_a_common_data_type_error.md
+    day: monday
+    type: lesson
+  - title: '1.2.1.11 Practice: Interactivity with Window Methods'
+    filename: 1k_classwork_practice_interactivity_with_window_methods.md
+    day: monday
+    type: exercise
+  - title: 1.2.1.12 Adding JS to a Project
+    filename: 1l_adding_js_to_a_project.md
+    day: monday
+    type: lesson
+  - title: 1.2.1.13 Business and User Interface Logic
+    filename: 1m_business_and_user_interface_logic.md
+    day: monday
+    type: lesson
+  - title: 1.2.1.14 Calculator UI and Business Logic
+    filename: 1n_calculator_ui_and_business_logic.md
+    day: monday
+    type: lesson
+  - title: '1.2.1.15 Practice: Calculator UI and Business Logic'
+    filename: 1o_classwork_practice_calculator_ui_and_business_logic.md
+    day: monday
+    type: exercise
+  - title: '1.2.1.16 Homework: Identifying and Preventing Microaggressions'
+    filename: 2_identifying_and_preventing_microaggressions.md
+    day: monday
+    type: lesson
+  - title: 1.2.2.1 Variable Scope
+    filename: 2a_homework_variable_scope.md
+    day: tuesday
+    type: lesson
+  - title: '1.2.2.2 Practice: More Function Writing'
+    filename: 2b_classwork_practice_more_function_writing.md
+    day: tuesday
+    type: exercise
+  - title: '1.2.2.3 Understanding Web APIs: The DOM'
+    filename: 2c_understanding_web_APIs_the_DOM.md
+    day: tuesday
+    type: lesson
+  - title: 1.2.2.4 Accessing the DOM
+    filename: 2d_accessing_the_DOM.md
+    day: tuesday
+    type: lesson
+  - title: '1.2.2.5 Practice: Accessing the DOM'
+    filename: 2e_classwork_practice_accessing_the_DOM.md
+    day: tuesday
+    type: exercise
+  - title: 1.2.2.6 JavaScript's Global Object
+    filename: 2f_global_js_scope_is_represented_by_a_global_object.md
+    day: tuesday
+    type: lesson
+  - title: 1.2.2.7 Accessing HTML Element Attributes and Properties in the DOM
+    filename: 2g_accessing_DOM_element_attributes_and_properties.md
+    day: tuesday
+    type: lesson
+  - title: '1.2.2.8 Understanding Web APIs: Interfaces (Object Types) and Inheritance'
+    filename: 2h_understanding_web_apis_inheritance_object_types.md
+    day: tuesday
+    type: lesson
+  - title: '1.2.2.9 Practice: Accessing HTML Element Attributes and Properties in the DOM'
+    filename: 2i_classwork_accessing_DOM_element_attributes_and_properties.md
+    day: tuesday
+    type: exercise
+  - title: 1.2.2.10 Function Expressions
+    filename: 2j_function_expressions.md
+    day: tuesday
+    type: lesson
+  - title: 1.2.2.11 Event Handling with Event Handler Properties
+    filename: 2k_event_handling_with_event_handler_properties.md
+    day: tuesday
+    type: lesson
+  - title: '1.2.2.12 Event Handler Properties in a Project: Using window.onload'
+    filename: 2l_window_onload_and_event_handler_properties_in_a_project.md
+    day: tuesday
+    type: lesson
+  - title: '1.2.2.13 Practice: Event Handling with Event Handler Properties'
+    filename: 2m_classwork_practice_event_handling_with_event_handler_properties.md
+    day: tuesday
+    type: exercise
+  - title: 1.2.3.1 Forms, Hiding and Showing Elements, and the Event Object
+    filename: 3a_forms_hiding_showing_elements_and_event_object.md
+    day: wednesday
+    type: lesson
+  - title: 1.2.3.2 Other Ways to Organize UI Logic
+    filename: 3aa_organizing_UI_logic_outside_of_window_onload.md
+    day: wednesday
+    type: lesson
+  - title: '1.2.3.3 Debugging in JavaScript: Using console.log()'
+    filename: 3b_debugging_using_console_log.md
+    day: wednesday
+    type: lesson
+  - title: '1.2.3.4 Practice: Forms'
+    filename: 3c_classwork_practice_forms.md
+    day: wednesday
+    type: exercise
+  - title: 1.2.3.5 Practical Tips for Researching Web APIs
+    filename: 3d_practical_tips_for_researching.md
+    day: wednesday
+    type: lesson
+  - title: 1.2.3.6 Branching
+    filename: 3e_homework_branching.md
+    day: wednesday
+    type: lesson
+  - title: '1.2.3.7 Practice: Branching'
+    filename: 3f_classwork_practice_branching.md
+    day: wednesday
+    type: exercise
+  - title: 1.2.3.8 More Branching and Error Handling
+    filename: 3g_more_branching.md
+    day: wednesday
+    type: lesson
+  - title: '1.2.3.9 Practice: More Branching'
+    filename: 3h_classwork_practice_more_branching.md
+    day: wednesday
+    type: exercise
+  - title: 1.2.3.10 Event Handling with Event Listeners
+    filename: 3i_event_listening.md
+    day: wednesday
+    type: lesson
+  - title: 1.2.3.11 Using Function Declarations in Event Handling
+    filename: 3j_using_function_declarations_in_event_handling.md
+    day: wednesday
+    type: lesson
+  - title: 1.2.3.12 Removing Event Listeners
+    filename: 3k_removing_event_listeners.md
+    day: wednesday
+    type: lesson
+  - title: '1.2.3.13 Practice: Event Listeners'
+    filename: 3l_classwork_practice_with_event_listeners.md
+    day: wednesday
+    type: exercise
+  - title: '1.2.4.1 Understanding Web APIs: Event Handling'
+    filename: 4a_understanding_web_APIs_event_handling.md
+    day: thursday
+    type: lesson
+  - title: 1.2.4.2 Form Input Types
+    filename: 4b_form_input_types.md
+    day: thursday
+    type: lesson
+  - title: 1.2.4.3 Calculator with Forms and Branching
+    filename: 4c_calculator_with_branching.md
+    day: thursday
+    type: lesson
+  - title: '1.2.4.4 Practice: Calculator and More'
+    filename: 4d_classwork_practice_more_branching_form_input_types.md
+    day: thursday
+    type: exercise
+  - title: 1.2.4.5 Function Scope Versus Block Scope
+    filename: 4e_function_versus_block_scope.md
+    day: thursday
+    type: lesson
+  - title: '1.2.4.6 Debugging in JavaScript: Pausing on Exceptions'
+    filename: 4f_debugging_pausing_on_exceptions.md
+    day: thursday
+    type: lesson
+  - title: '1.2.4.7 Debugging in JavaScript: Using debugger and Breakpoints'
+    filename: 4g_debugging_with_debugger.md
+    day: thursday
+    type: lesson
+  - title: '1.2.4.8 Practice: Triangle Tracker'
+    filename: 4h_classwork_practice_triangle_tracker.md
+    day: thursday
+    type: exercise
+  - title: 1.2.5.1 JavaScript and Web Browsers Independent Project
+    filename: 5a_classwork_javascript_and_web_browsers_independent_project.md
+    day: friday
+    type: exercise

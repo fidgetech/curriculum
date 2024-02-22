@@ -1,0 +1,33 @@
+section: Preparing for Job Interviews
+order: 3
+repo: career-services
+directory: 3_preparing-for-job-interviews
+lessons:
+  - title: Non-Technical Interview
+    filename: 0_non_technical_interview.md
+    day: weekend
+    type: lesson
+  - title: Technical Interviews
+    filename: 1_technical_interviews.md
+    day: weekend
+    type: lesson
+  - title: Interview Research
+    filename: 2_interview_research.md
+    day: weekend
+    type: lesson
+  - title: Interview Tips
+    filename: 3_interview_tips.md
+    day: weekend
+    type: lesson
+  - title: Negotiating a Salary
+    filename: 4_negotiating_a_salary.md
+    day: weekend
+    type: lesson
+  - title: 'Review: How the Web Works'
+    filename: 5_review_how_the_web_works.md
+    day: weekend
+    type: lesson
+  - title: React Technical Interview Questions
+    filename: 6_react_technical_interview_questions.md
+    day: weekend
+    type: lesson

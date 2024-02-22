@@ -1,0 +1,213 @@
+section: 1.1 Git, HTML and CSS
+order: 4
+repo: introduction-to-programming
+directory: git-html-and-css
+lessons:
+  - title: 1.1.0.1 Git, HTML, and CSS Objectives
+    filename: 0a_git_html_and_css_objectives.md
+    day: weekend
+    type: lesson
+  - title: '1.1.1.1 Practice: Git Project Setup'
+    filename: 1c_classwork_practice_git_project_setup.md
+    day: monday
+    type: exercise
+  - title: '1.1.1.2 Practice: Tracking Changes with Git'
+    filename: 1d_classwork_practice_tracking_changes_with_git.md
+    day: monday
+    type: exercise
+  - title: '1.1.1.3 Practice: GitHub Remote Repositories'
+    filename: 1e_classwork_practice_github_remote_repositories.md
+    day: monday
+    type: exercise
+  - title: '1.1.1.4 Practice: Command Line Git'
+    filename: 1f_classwork_practice_command_line_git_and_github.md
+    day: monday
+    type: exercise
+  - title: 1.1.1.5 Hypertext Markup Language (HTML)
+    filename: 1g_hypertext_markup_language_html.md
+    day: monday
+    type: lesson
+  - title: 1.1.1.6 HTML Indentation, Spacing, and Comments
+    filename: 1h_html_indentation_and_spacing.md
+    day: monday
+    type: lesson
+  - title: '1.1.1.7 Practice: Indentation and Spacing'
+    filename: 1i_classwork_practice_indentation_and_spacing.md
+    day: monday
+    type: exercise
+  - title: '1.1.1.8 HTML Block Elements: <p> Tags, Headings, List Elements, and More'
+    filename: 1j_html_block_elements.md
+    day: monday
+    type: lesson
+  - title: 1.1.1.9 HTML Block Elements Part 2
+    filename: 1k_html_block_elements_part_two.md
+    day: monday
+    type: lesson
+  - title: '1.1.1.10 Practice: Block Elements'
+    filename: 1l_classwork_practice_block_elements.md
+    day: monday
+    type: exercise
+  - title: '1.1.1.11 Homework: Social Identities'
+    filename: 1_social_identities.md
+    day: monday
+    type: lesson
+  - title: 1.1.2.1 Commit Trailers and Github Contributions
+    filename: 2ab_tracking_contributions_on_github.md
+    day: tuesday
+    type: lesson
+  - title: '1.1.2.2 HTML Inline Elements and Attributes: <strong>, <em>, <img>, <a>, and More'
+    filename: 1m_html_inline_elements.md
+    day: tuesday
+    type: lesson
+  - title: '1.1.2.3 Practice: Inline Elements'
+    filename: 1n_classwork_practice_inline_elements.md
+    day: tuesday
+    type: exercise
+  - title: '1.1.2.4 CSS: Styling Text and Best Practices'
+    filename: 2b_css_styling_text.md
+    day: tuesday
+    type: lesson
+  - title: 1.1.2.5 Debugging HTML and CSS
+    filename: 2c_debugging_html_and_css.md
+    day: tuesday
+    type: lesson
+  - title: '1.1.2.6 Practice: Styling Text'
+    filename: 2d_classwork_practice_styling_text.md
+    day: tuesday
+    type: exercise
+  - title: 1.1.2.7 Git Branching
+    filename: 2g_git_branching.md
+    day: tuesday
+    type: lesson
+  - title: 1.1.2.8 Git Merging
+    filename: 2h_git_merging.md
+    day: tuesday
+    type: lesson
+  - title: '1.1.2.9 Practice: Branching and Merging'
+    filename: 2i_classwork_practice_branching_and_merging.md
+    day: tuesday
+    type: exercise
+  - title: 1.1.2.10 Markdown
+    filename: 1fa_markdown.md
+    day: tuesday
+    type: lesson
+  - title: '1.1.2.11 Practice: Markdown'
+    filename: 1fb_classwork_practice_markdown.md
+    day: tuesday
+    type: exercise
+  - title: 1.1.2.12 GitHub Pages
+    filename: 2e_github_pages.md
+    day: tuesday
+    type: lesson
+  - title: '1.1.2.13 Practice: GitHub Pages'
+    filename: 2f_classwork_practice_github_pages.md
+    day: tuesday
+    type: exercise
+  - title: 1.1.2.14 Writing a README
+    filename: 1o_homework_readmes.md
+    day: tuesday
+    type: lesson
+  - title: '1.1.2.15 Practice: READMEs'
+    filename: 2a_classwork_practice_readmes.md
+    day: tuesday
+    type: exercise
+  - title: 1.1.3.1 Styling with Classes
+    filename: 3a_styling_with_classes.md
+    day: wednesday
+    type: lesson
+  - title: '1.1.3.2 Practice: Styling with Classes'
+    filename: 3b_classwork_practice_styling_with_classes.md
+    day: wednesday
+    type: exercise
+  - title: 1.1.3.3 Divs and Spans
+    filename: 3c_divs_and_spans.md
+    day: wednesday
+    type: lesson
+  - title: '1.1.3.4 Practice: Divs and Spans'
+    filename: 3d_classwork_practice_divs_and_spans.md
+    day: wednesday
+    type: exercise
+  - title: 1.1.3.5 Using Floats
+    filename: 3e_using_floats.md
+    day: wednesday
+    type: lesson
+  - title: '1.1.3.6 Practice: Using Floats'
+    filename: 3f_classwork_practice_using_floats.md
+    day: wednesday
+    type: exercise
+  - title: 1.1.3.7 Box Model
+    filename: 3g_box_model.md
+    day: wednesday
+    type: lesson
+  - title: '1.1.3.8 Practice: Box Model'
+    filename: 3h_classwork_practice_box_model.md
+    day: wednesday
+    type: exercise
+  - title: 1.1.3.9 Centering Elements and Images
+    filename: 3ha_centering_elements_and_images.md
+    day: wednesday
+    type: lesson
+  - title: 1.1.3.10 Preparing for Your First Code Review
+    filename: 4l_preparing_for_your_first_code_review.md
+    day: wednesday
+    type: lesson
+  - title: 1.1.3.11 Git Expectations for Independent Projects
+    filename: 1db_git_expectations_for_independent_projs.md
+    day: wednesday
+    type: lesson
+  - title: 1.1.4.1 Cascading
+    filename: 3i_cascading.md
+    day: thursday
+    type: lesson
+  - title: '1.1.4.2 Practice: Cascading'
+    filename: 3j_classwork_practice_cascading.md
+    day: thursday
+    type: exercise
+  - title: 1.1.4.3 Classes and Ids
+    filename: 3k_class_vs_id.md
+    day: thursday
+    type: lesson
+  - title: 1.1.4.4 Introduction to Bootstrap
+    filename: 4b_introduction_to_bootstrap.md
+    day: thursday
+    type: lesson
+  - title: 1.1.4.5 Downloading and Installing Bootstrap
+    filename: 4c_bootstrap_downloading_and_installing.md
+    day: thursday
+    type: lesson
+  - title: 1.1.4.6 Bootstrap Basic Elements
+    filename: 4d_bootstrap_basic_elements.md
+    day: thursday
+    type: lesson
+  - title: '1.1.4.7 Practice: Installing and Implementing Bootstrap'
+    filename: 4e_classwork_practice_installing_and_implementing_bootstrap.md
+    day: thursday
+    type: exercise
+  - title: 1.1.4.8 Bootstrap Grid System
+    filename: 4f_bootstrap_grid_system.md
+    day: thursday
+    type: lesson
+  - title: 1.1.4.9 Customizing Styles with Bootstrap
+    filename: 4g_bootstrap_customizing_styles.md
+    day: thursday
+    type: lesson
+  - title: '1.1.4.10 Practice: Grid System, Custom Styles, and More'
+    filename: 4h_classwork_practice_grid_system_custom_styles_and_more.md
+    day: thursday
+    type: exercise
+  - title: '1.1.4.11 Bootstrap: Navigating Documentation'
+    filename: 4i_bootstrap_navigating_documentation.md
+    day: thursday
+    type: lesson
+  - title: '1.1.4.12 Practice: Recreate a Site with Bootstrap'
+    filename: 4j_classwork_practice_recreate_a_site_with_bootstrap.md
+    day: thursday
+    type: exercise
+  - title: 1.1.4.13 VS Code with HTML
+    filename: 4fa_html_with_vscode.md
+    day: thursday
+    type: lesson
+  - title: 1.1.5.1 Git, HTML, and CSS Independent Project
+    filename: 5a_classwork_git_html_and_css_independent_project.md
+    day: friday
+    type: exercise

@@ -1,0 +1,193 @@
+section: 1.3 Arrays & Looping
+order: 6
+repo: introduction-to-programming
+directory: arrays-looping
+lessons:
+  - title: 1.3.0.1 Arrays and Looping Objectives
+    filename: 0a_arrays_and_looping_objectives.md
+    day: weekend
+    type: lesson
+  - title: 1.3.0.2 The Basics of Prototypes
+    filename: 0c_what_is_a_prototype.md
+    day: weekend
+    type: lesson
+  - title: 1.3.0.3 Static versus Instance with Built-In JS Objects
+    filename: 0d_static_and_instance_with_built_in_js_objects.md
+    day: weekend
+    type: lesson
+  - title: 1.3.0.4 Introduction to Arrays
+    filename: 0e_javascript_arrays.md
+    day: weekend
+    type: lesson
+  - title: 1.3.0.5 Bracket Notation
+    filename: 0f_looking_into_an_array.md
+    day: weekend
+    type: lesson
+  - title: '1.3.0.6 Array Methods'
+    filename: 0g_array_methods.md
+    day: weekend
+    type: lesson
+  - title: '1.3.0.7 Comparing and Cloning Arrays'
+    filename: 0h_comparing_and_cloning_arrays.md
+    day: weekend
+    type: lesson
+  - title: '1.3.0.8 Document Query Methods that Return Collections'
+    filename: 0i_document_query_methods_that_return_collections.md
+    day: weekend
+    type: lesson
+  - title: '1.3.0.9 Adding and Removing HTML Elements'
+    filename: 0j_adding_and_removing_HTML_elements.md
+    day: weekend
+    type: lesson
+  - title: '1.3.0.10 Debugging in JavaScript: Using a linter'
+    filename: 0k_debugging_with_a_linter.md
+    day: weekend
+    type: lesson
+  - title: '1.3.0.11 Mentorship Lunch Talk'
+    filename: 1_lower_cohort_lesson.md
+    day: weekend
+    type: lesson
+  - title: '1.3.1.1 Practice: Adding and Removing HTML Elements'
+    filename: 1a_classwork_practice_adding_and_removing_html_elements.md
+    day: monday
+    type: exercise
+  - title: '1.3.1.2 Practice: JavaScript Arrays'
+    filename: 1b_classwork_practice_javascript_arrays.md
+    day: monday
+    type: exercise
+  - title: '1.3.1.3 Introduction to Looping'
+    filename: 1c_introduction_to_looping.md
+    day: monday
+    type: lesson
+  - title: '1.3.1.4 forEach Loops'
+    filename: 1d_looping.md
+    day: monday
+    type: lesson
+  - title: '1.3.1.5 Practice: Looping'
+    filename: 1e_classwork_practice_looping.md
+    day: monday
+    type: exercise
+  - title: '1.3.1.6 Gathering Data with Checkboxes'
+    filename: 1f_gathering_data_with_checkboxes.md
+    day: monday
+    type: lesson
+  - title: '1.3.1.7 Practice: forEach loops'
+    filename: 1g_classwork_practice_foreach.md
+    day: monday
+    type: exercise
+  - title: '1.3.1.8 Homework: Equality Versus Equity'
+    filename: 3_equity_vs_equality.md
+    day: monday
+    type: lesson
+  - title: '1.3.2.1 Building a Text Analyzer'
+    filename: 2a_building_a_text_analyzer_app.md
+    day: tuesday
+    type: lesson
+  - title: '1.3.2.2 Overview of Test-Driven Development (TDD) with Text Analyzer'
+    filename: 2b_test_driven_development_overview.md
+    day: tuesday
+    type: lesson
+  - title: '1.3.2.3 Text Analyzer with TDD: wordCounter()'
+    filename: 2c_text_analyzer_tdd_part_1.md
+    day: tuesday
+    type: lesson
+  - title: '1.3.2.4 Text Analyzer with TDD: numberOfOccurrencesInText()'
+    filename: 2d_text_analyzer_tdd_part_2.md
+    day: tuesday
+    type: lesson
+  - title: '1.3.2.5 Practice: Extending Text Analyzer Business Logic with TDD'
+    filename: 2e_ classwork_tdd_with_text_analyzer_business_logic.md
+    day: tuesday
+    type: exercise
+  - title: '1.3.2.6 Separation of Logic: Adding a UI to Text Analyzer'
+    filename: 2f_separation_of_logic_adding_a_ui.md
+    day: tuesday
+    type: lesson
+  - title: '1.3.2.7 Separation of Logic: Fixing a Bug in Text Analyzer'
+    filename: 2g_separation_of_logic_part_2_fixing_a_bug.md
+    day: tuesday
+    type: lesson
+  - title: '1.3.2.8 Separation of Concerns in Text Analyzer: boldPassage() UI Function'
+    filename: 2h_separation_of_logic_part_3_adding_ui_function.md
+    day: tuesday
+    type: lesson
+  - title: '1.3.2.9 DRYing Code and Completing the Text Analyzer UI'
+    filename: 2i_dry_code_and_finishing_text_analyzer.md
+    day: tuesday
+    type: lesson
+  - title: '1.3.2.10 Practice: Using TDD with Text Analyzer'
+    filename: 2j_classwork_extending_text_analyzer_tdd_practice.md
+    day: tuesday
+    type: exercise
+  - title: '1.3.3.1 Rewriting Git History with Rebase'
+    filename: 3a_git_rewriting_history_with_rebase.md
+    day: wednesday
+    type: lesson
+  - title: '1.3.3.2 Practice: Rewriting Git History with Rebase'
+    filename: 3b_classwork_practice_git_rebase.md
+    day: wednesday
+    type: exercise
+  - title: '1.3.3.3 Printing an Array to a Webpage'
+    filename: 3ga_printing_an_array_to_a_webpage.md
+    day: wednesday
+    type: lesson
+  - title: '1.3.3.4 Looping with for'
+    filename: 3c_looping_with_for.md
+    day: wednesday
+    type: lesson
+  - title: '1.3.3.5 Practice: Looping with for'
+    filename: 3d_classwork_practice_looping_with_for.md
+    day: wednesday
+    type: exercise
+  - title: '1.3.3.6 When to use for'
+    filename: 3e_when_to_use_for.md
+    day: wednesday
+    type: lesson
+  - title: '1.3.3.7 for Loops with Text Analyzer'
+    filename: 3f_for_loops_with_text_analyzer.md
+    day: wednesday
+    type: lesson
+  - title: '1.3.3.8 Practice: Pig Latin'
+    filename: 3g_classwork_practice_pig_latin.md
+    day: wednesday
+    type: exercise
+  - title: '1.3.3.9 Further Exploration: Introduction to Regular Expressions'
+    filename: 3h_regular_expressions.md
+    day: wednesday
+    type: lesson
+  - title: '1.3.3.10 Further Exploration: Regular Expressions with Text Analyzer'
+    filename: 3i_regex_with_text_analyzer.md
+    day: wednesday
+    type: lesson
+  - title: '1.3.4.1 Array Mapping'
+    filename: 4a_array_mapping.md
+    day: thursday
+    type: lesson
+  - title: '1.3.4.2 Practice: Array Mapping'
+    filename: 4b_classwork_practice_array_mapping.md
+    day: thursday
+    type: exercise
+  - title: '1.3.4.3 Practice: Credit Card Validator, Roman Numerals, or Cryptosquare'
+    filename: 4c_classwork_practice_roman_numerals.md
+    day: thursday
+    type: exercise
+  - title: '1.3.4.4 Further Exploration: Looping with for...of'
+    filename: 4d_looping_with_for_of.md
+    day: thursday
+    type: lesson
+  - title: '1.3.4.5 Further Exploration: While Loops'
+    filename: 4e_while_loops.md
+    day: thursday
+    type: lesson
+  - title: '1.3.4.6 Optional Review: Which Loop Should I Use?'
+    filename: 4f_which_loop_should_i_use.md
+    day: thursday
+    type: lesson
+  - title: '1.3.4.7 LinkedIn'
+    filename: 3_linkedin_classwork.md
+    day: thursday
+    type: exercise
+  - title: '1.3.5.1 Arrays and Looping Independent Project'
+    filename: 5a_classwork_arrays_and_looping_independent_project.md
+    day: friday
+    type: exercise

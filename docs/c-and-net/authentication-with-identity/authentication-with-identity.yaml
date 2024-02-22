@@ -1,0 +1,89 @@
+section: 3.5 Authentication with Identity
+order: 9
+repo: c-and-net
+directory: authentication-with-identity
+lessons:
+  - title: 3.5.0.1 Authentication with Identity Objectives
+    filename: 0a_authentication_with_identity_objectives.md
+    day: weekend
+    type: lesson
+  - title: 3.5.0.2 Async and Await
+    filename: 2b_async_and_await.md
+    day: weekend
+    type: lesson
+  - title: 3.5.0.3 Introduction to Authentication, Authorization, and Identity
+    filename: 2c_introduction_to_authentication_and_identity.md
+    day: weekend
+    type: lesson
+  - title: 3.5.0.4 Identity Setup and Configuration
+    filename: 2d_identity_setup_and_configuration.md
+    day: weekend
+    type: lesson
+  - title: 3.5.0.5 The Identity Model
+    filename: 2da_identity_model.md
+    day: weekend
+    type: lesson
+  - title: '3.5.0.6 Authentication with Identity: User Registration Controller'
+    filename: 2e_identity_user_registration_controller.md
+    day: weekend
+    type: lesson
+  - title: '3.5.0.7 Authentication with Identity: User Registration ViewModel, Validation, and Views'
+    filename: 2f_identity_user_registration_views.md
+    day: weekend
+    type: lesson
+  - title: '3.5.0.8 Authentication with Identity: User Login and Logout'
+    filename: 2g_identity_user_logins.md
+    day: weekend
+    type: lesson
+  - title: 3.5.0.9 Adding Authorization and Associating Users with Items
+    filename: 2h_authorization.md
+    day: weekend
+    type: lesson
+  - title: 3.5.1.1 Prior Course Section Survey
+    filename: course_section_survey.md
+    day: monday
+    type: lesson
+  - title: 3.5.1.2 Library Catalog, Recipe Box Week-Long Project - Part 1
+    filename: 3a_classwork_library_catalog_or_recipe_box_two_day_project.md
+    day: monday
+    type: exercise
+  - title: 3.5.1.3 Further Exploration Opportunities with Identity
+    filename: 3c_further_exploration_opportunities_with_identity.md
+    day: monday
+    type: lesson
+  - title: 3.5.1.4 Jokes and Appropriate Humor
+    filename: 8_jokes_and_humor.md
+    day: monday
+    type: lesson
+  - title: 3.5.2.1 Making an API Call with RestSharp
+    filename: 0i_apis_with_restsharp.md
+    day: tuesday
+    type: lesson
+  - title: 3.5.2.2 Deserializing API Responses with Newtonsoft.Json
+    filename: 0j_deserializing_responses.md
+    day: tuesday
+    type: lesson
+  - title: 3.5.2.3 API Calls in an ASP.NET Core MVC App
+    filename: 0k_apis_with_mvc.md
+    day: tuesday
+    type: lesson
+  - title: Library Catalog, Recipe Box Week-Long Project - Part 3
+    filename: 3a_classwork_library_catalog_or_recipe_box_two_day_project.md
+    day: wednesday
+    type: exercise
+  - title: 3.5.3.2 Whiteboard Practice
+    filename: 4a_whiteboarding_practice.md
+    day: wednesday
+    type: lesson
+  - title: 3.4.1.1 Library Catalog, Recipe Box Week-Long Project - Part 4
+    filename: 3a_classwork_library_catalog_or_recipe_box_two_day_project.md
+    day: thursday
+    type: exercise
+  - title: 3.4.1.2 Weekly Technical Interview Prep
+    filename: 4b_weekly_technical_interview_prep_week_5.md
+    day: thursday
+    type: lesson
+  - title: 3.5.5.1 Authentication with Identity Independent Project
+    filename: 5a_advanced_databases_independent_project.md
+    day: friday
+    type: exercise

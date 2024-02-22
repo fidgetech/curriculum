@@ -1,0 +1,172 @@
+section: Applying for Internships and Jobs
+order: 2
+repo: career-services
+directory: 2_applying-for-internships-and-jobs
+lessons:
+  - title: 'Goal Setting & Career Services Overview - Part 1'
+    filename: 1_week_1_goal_setting_and_career_services_overview_part_1.md
+    day: weekend
+    type: lesson
+  - title: 'Goal Setting & Career Services Overview - Part 2'
+    filename: 1_week_1_goal_setting_and_career_services_overview_part_2.md
+    day: weekend
+    type: lesson
+  - title: 'Career Exploration'
+    filename: 1_week_1_career_exploration.md
+    day: weekend
+    type: lesson
+  - title: 'Identifying Important Skills'
+    filename: 1_week_3_indentifying_important_skills.md
+    day: weekend
+    type: lesson     
+  - title: 'Identifying Your Skills, Strengths, and Weaknesses'
+    filename: 1_week_3_indentifying_your_skills_strengths_weaknesses.md
+    day: weekend
+    type: lesson  
+  - title: 'Telling Your Story'
+    filename: 1_week_4_telling_your_story.md
+    day: weekend
+    type: lesson 
+  - title: 'Building a Compelling Portfolio'
+    filename: 1_week_6_building_a_compelling_portfolio.md
+    day: weekend
+    type: lesson
+  - title: LinkedIn Profiles
+    filename: 3_linkedin_classwork_new.md
+    day: weekend
+    type: lesson
+  - title: Indeed Resume
+    filename: 3_indeed_resume_classwork_new.md
+    day: weekend
+    type: lesson
+  - title: Leveraging LinkedIn
+    filename: 3_leveraging_linkedin.md
+    day: weekend
+    type: lesson
+  - title: 'LinkedIn Profiles (pre-October)'
+    filename: 3_linkedin_classwork.md
+    day: weekend
+    type: lesson
+  - title: Portfolio Update and Personal Brand
+    filename: portfolio_update_and_personal_brand.md
+    day: weekend
+    type: lesson
+  - title: Writing Your Cover Letter
+    filename: writing_your_cover_letter.md
+    day: weekend
+    type: lesson
+  - title: Resume Overview
+    filename: 3_resume_overview.md
+    day: weekend
+    type: lesson
+  - title: Writing Your Resume 2
+    filename: 3_writing_your_resume.md
+    day: weekend
+    type: lesson
+    # 
+  - title: Modular Cover Letter and Resume
+    filename: creating_modular_resume_cl.md
+    day: weekend
+    type: lesson
+  - title: Application Screening Methods
+    filename: application_screening_methods.md
+    day: weekend
+    type: lesson
+  - title: The Hidden Job Market
+    filename: the_hidden_job_market.md
+    day: weekend
+    type: lesson
+  - title: Non-Technical Mock Interview
+    filename: mock_interview_curriculum_updates.md
+    day: weekend
+    type: lesson
+  - title: Demonstrating Skills to Employers
+    filename: demonstrating_skills_to_employers.md
+    day: weekend
+    type: lesson
+  - title: Formulate Answers to Most Common Interview Questions
+    filename: most_common_interview_questions.md
+    day: weekend
+    type: lesson
+  - title: How to Research Job Companies
+    filename: how_to_research_companies.md
+    day: weekend
+    type: lesson
+  - title: Job Boards
+    filename: job_board_updated.md
+    day: weekend
+    type: lesson
+  - title: Applying to Jobs 1 through 4
+    filename: applying_to_jobs_1-4.md
+    day: weekend
+    type: lesson
+  - title: Identifying Enterprise Skills and Creating a Job Tracker
+    filename: identifying_enterprise_skills_job_tracker.md
+    day: weekend
+    type: lesson
+  - title: Status Update and Goal Setting
+    filename: status_update_goal_setting.md
+    day: weekend
+    type: lesson
+    # 
+  - title: After Your Internship
+    filename: after_your_internship.md
+    day: weekend
+    type: lesson
+  - title: Preparing to Apply for Jobs
+    filename: preparing_to_apply.md
+    day: weekend
+    type: lesson
+  - title: Job Boards 2
+    filename: 5_job_boards.md
+    day: monday
+    type: lesson
+  - title: 'Writing Cover Letters and Resumes (pre-October)'
+    filename: 0_writing_cover_letters_and_resumes.md
+    day: monday
+    type: lesson
+  - title: Writing Your Cover Letter 2
+    filename: 1_write_your_cover_letter.md
+    day: monday
+    type: lesson
+  - title: Writing Your Resume
+    filename: 2_write_your_resume.md
+    day: monday
+    type: lesson
+  - title: Sample Job Post
+    filename: sample_job_post.md
+    day: monday
+    type: lesson
+  - title: Resume and Cover Letter Review
+    filename: resume_and_cover_letter_review.md
+    day: monday
+    type: lesson
+  - title: Continuing to Code
+    filename: continuing_to_code.md
+    day: tuesday
+    type: lesson
+  - title: Job Application Goals
+    filename: job_app_goals.md
+    day: tuesday
+    type: lesson
+  - title: Following Up During the Job Application Process
+    filename: 6_Follow-Up_During_the_Job_Application_Process.md
+    day: wednesday
+    type: lesson
+  - title: Expand Your Job Search Network Through Cold Emailing
+    filename: 7_Expand_your_Job_Search_Network_through_Cold_Emailing.md
+    day: wednesday
+    type: lesson
+  - title: Tools for Email Management
+    filename: 8_Tools_for_Email_Management.md
+    day: wednesday
+    type: lesson
+  - title: Sprucing Up GitHub
+    filename: sprucing_up_github.md
+    day: thursday
+    type: lesson
+  - title: Meetups and Networking
+    filename: meetups-and-networking.md
+    day: thursday
+    type: lesson
+    repo: career-services
