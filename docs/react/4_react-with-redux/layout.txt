@@ -23,12 +23,12 @@ forum-word-puzzle-tic-tac-toe-three-day-project---part-1
 action-creators
 action-constants
 hosting-a-react-project-with-gh-pages
-forum-word-puzzle-tic-tac-toe-three-day-project---part-2
+forum-word-puzzle-tic-tac-toe-three-day-project---part-2-day-2
 introduction-to-date-fns
 component-lifecycle-methods
 adding-wait-time-to-the-queue
 adding-wait-time-to-the-queue-part-2
-forum-word-puzzle-tic-tac-toe-three-day-project---part-3
+forum-word-puzzle-tic-tac-toe-three-day-project---part-3-day-3
 technical-interview-practice-react-and-redux
 whiteboard-practice
 applying-for-jobs
