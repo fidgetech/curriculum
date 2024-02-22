@@ -1,58 +1,36 @@
-# LHTP 2.0 - Docusaurus
+# Fidgetech Code Curriculum on Docusaurus
 
-This is a rewrite of LearnHowToProgram ([textbook](https://github.com/epicodus/textbook)) using Docusaurus 2, a React-based static site generator.
+This is a Docusaurus 2 project for the Fidgetech Code curriculum.
 
-## Pulling course docs and images from GitHub
+- All lessons are located in the `docs` folder.
+- Lessons must be in alphabetical order.
+- Lesson filenames (minus the first 3 characters (e.g. `AA-`) and minus the `.md` extension) are used as slug in URL.
+- Ignore `sidebar.js` files in the section subdirectories; they are overwritten on every build.
+- Ignore `old-layout.yaml` files.
+- `category.json` file defines the name of the section itself for the sidebar.
+- `sidebar.js` files in the _course_ directories (not section subdirectories) define the order of sections for the course.
 
-The scripts to pull content from GitHub repos are written to work with a GitHub App.
+## Prep, build, deploy via GitHub Actions
 
-- [Create a GitHub app](https://docs.github.com/en/apps/creating-github-apps) on the user or organization.
-- For repository permissions, set `Contents` as `Read-only`
-- Generate a private key for the app, copy its contents into `.env`
-- Copy App ID from the overview screen and add to `.env`
-- Install the app on the user or organization (all repos permission)
-- Copy Installation ID from the URL and add to `.env`
+Not quite ready yet...
 
-For local development, add the following to `.env`.
-For running the Github workflow, set these as Github secrets on this repo.
+## Prep, build, deploy from development machine
 
-#### **`.env`**
-```
-ORG = 'GITHUB_USER_OR_ORG_NAME'
-APP_ID = 'GITHUB_APP_ID'
-INSTALLATION_ID = 'GITHUB_APP_INSTALLATION_ID'
-PRIVATE_KEY = 'GITHUB_APP_PEM_KEY'
-```
+To prep, build, and deploy all tracks to gh-pages, run the `manually-update-lhtp` script. (May have to update values.)
 
-Update values if needed in `config.mjs` in the scripts folder.
+## Prep only (development)
 
-## Fetch, build, deploy via GitHub Actions
-
-Manually run the [fetch-build-deploy-manually](https://github.com/epicodus/lhtp/actions/workflows/fetch-build-deploy-manually.yml) workflow via GitHub actions.
-This will fetch, build, and deploy all tracks to the appropriate gh-pages.
-
-## Fetch, build, deploy from development machine
-
-To fetch, build, and deploy all tracks to gh-pages, run the `manually-update-lhtp` script. (May have to update values.)
-
-## Fetch only (development)
-
-Or run the following to fetch docs and prep each track.
+Or to prep:
 
 ```
-npm run fetch
+cd scripts
+node generateSidebars.js
+node updateFrontMatter.js
 ```
 
-This will build the docs directory, generate front matter and sidebars. It will also fetch static homepages and images. 
-Images are placed in subdirectories of `static/images` named the same as the repo (e.g. `static/images/intro-curriculum`).
-The root website is fetched into the root directory's docs folder, while each track is fetched into a subfolder of `tracks`.
+This will update the front matter and sidebars, based on alphabetical order of filenames.
 
 ---
-
-## Build only (development)
-
-Once the docs are in place in the `docs` folder and the images in `static/images`, you can run Docusaurus itself.
-To build the root website, run this from the project root folder. To build each track, run this from the appropriate `tracks` subfolder.
 
 ### Installation (development)
 
