@@ -12,7 +12,6 @@ module.exports = {
     "introduction-to-programming/arrays-looping/1-3-0-8-document-query-methods-that-return-collections",
     "introduction-to-programming/arrays-looping/1-3-0-9-adding-and-removing-html-elements",
     "introduction-to-programming/arrays-looping/1-3-0-10-debugging-in-javascript-using-a-linter",
-    "introduction-to-programming/arrays-looping/1-3-0-11-mentorship-lunch-talk",
     "introduction-to-programming/arrays-looping/1-3-1-1-practice-adding-and-removing-html-elements",
     "introduction-to-programming/arrays-looping/1-3-1-2-practice-javascript-arrays",
     "introduction-to-programming/arrays-looping/1-3-1-3-introduction-to-looping",
