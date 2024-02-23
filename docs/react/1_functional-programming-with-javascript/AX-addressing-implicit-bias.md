@@ -38,14 +38,6 @@ How can we face our implicit biases if we don't even know we have them? There ar
 
 * We can question our assumptions. When we notice ourselves making judgements about someone being a good coder or not, we can ask ourselves what specifically led to that belief. Have we actually paired with that person and seen their code often? Were there specific actions or statements that have made us believe they're bad at coding (or vice versa)? And if the same behavior was done by someone of a different age, gender, or race, would we have interpreted it in the same way?
 
-### [Ready to Write Your Reflection?](#ready-to-write-your-reflection)
-
-There is a reflective assignment for this lesson. If you are ready to write your reflection, head on over to Epicenter to find the prompt. If you are logged in to Epicenter, you can access the prompt by navigating to this link:
-
-**<span class="glyphicon glyphicon-link"></span> [Reflection Prompt: Addressing Implicit Bias](https://epicenter.epicodus.com/journals?title=Addressing+Implicit+Bias)** 
-
-Otherwise, you can find detailed instructions on accessing the reflection prompts in the [DEI Reflective Assignments](/pre-work/getting-started-at-epicodus/dei-reflective-assignments#finding-the-reflection-prompts) lesson.
-
 ### [Do you have feedback?](#do-you-have-feedback)
 
 We want to hear about your experience of the DEI curriculum. We outline all of the ways you can give feedback in [the student handbook](/student-handbook#giving-feedback).

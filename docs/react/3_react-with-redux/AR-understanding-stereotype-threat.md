@@ -25,14 +25,6 @@ How can we reduce stereotype threat at Epicodus and in the workplace? Here are a
 
 * **Keep feedback constructive and refrain from disparaging comments.** It is inappropriate to say something like "you're terrible at coding" to any other student at Epicodus. In addition to being rude, these kinds of comments can reinforce stereotype threat for people from underrepresented communities. Note that comments like "you type really slow" or "wow, you were in the bathroom a long time" can be seen as microaggressions while also increasing the risk of stereotype threat.
 
-### [Ready to Write Your Reflection?](#ready-to-write-your-reflection)
-
-There is a reflective assignment for this lesson. If you are ready to write your reflection, head on over to Epicenter to find the prompt. If you are logged in to Epicenter, you can access the prompt by navigating to this link:
-
-**<span class="glyphicon glyphicon-link"></span> [Reflection Prompt: Understanding Stereotype Threat](https://epicenter.epicodus.com/journals?title=Understanding+Stereotype+Threat)** 
-
-Otherwise, you can find detailed instructions on accessing the reflection prompts in the [DEI Reflective Assignments](/pre-work/getting-started-at-epicodus/dei-reflective-assignments#finding-the-reflection-prompts) lesson.
-
 ### [Do you have feedback?](#do-you-have-feedback)
 
 We want to hear about your experience of the DEI curriculum. We outline all of the ways you can give feedback in [the student handbook](/student-handbook#giving-feedback).
