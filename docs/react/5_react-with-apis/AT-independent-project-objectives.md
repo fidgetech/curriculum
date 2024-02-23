@@ -1,6 +1,6 @@
 ---
 title: "📓 Independent Project Objectives"
-day: thursday
+day: friday
 id: independent-project-objectives
 hide_table_of_contents: true
 paginationNext: null

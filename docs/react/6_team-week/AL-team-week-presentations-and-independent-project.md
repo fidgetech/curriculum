@@ -1,6 +1,6 @@
 ---
 title: "📓 Team Week Presentations and Independent Project"
-day: thursday
+day: friday
 id: team-week-presentations-and-independent-project
 hide_table_of_contents: true
 paginationNext: null
