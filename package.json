@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "fetch": "node scripts/fetchCurriculum.mjs",
-    "fetch:fidgetech": "node scripts/fetchCurriculum.mjs fidgetech",
+    "alphabetize": "node scripts/alphabetizeFiles.cjs",
+    "generate-sidebars": "node scripts/generateSidebars.js",
+    "update-frontmatter": "node scripts/updateFrontmatter.js",
+    "prep": "node scripts/generateSidebars.js && node scripts/updateFrontmatter.js",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "deploy": "docusaurus deploy",

@@ -1,8 +1,10 @@
-import { readFileSync, readdirSync, statSync, writeFileSync } from 'fs';
+// add id and pagination to frontmatter based on alphabetical order of section lessons
+
+import { readFileSync, readdirSync, statSync } from 'fs';
 import { join, extname } from 'path';
 import matter from 'gray-matter';
-
-const DOCS_DIR = '/Users/ash/fidgetech/docusaurus/docs/';
+import { writeMarkdown, isFirstTwoLettersFollowedByDash } from './utils.js';
+const docsPath = join(process.cwd().replace(/(scripts|docs)/, ''), 'docs');
 
 function processMarkdownFile({ filePath, isFirstFile, isLastFile }) {
   const fileContent = readFileSync(filePath, 'utf8');
@@ -38,14 +40,5 @@ function processAllMarkdownFiles(directory) {
   });
 }
 
-function writeMarkdown({ filePath, content, data }) {
-  const frontMatterContent = matter.stringify(content, data, { lineWidth: -1 });
-  const updatedFrontMatterContent = frontMatterContent.replace(/\\U0001F4D3/g, '📓');
-  writeFileSync(filePath, updatedFrontMatterContent);
-}
-
-processAllMarkdownFiles(DOCS_DIR);
-
-function isFirstTwoLettersFollowedByDash(str) {
-  return /^[A-Za-z]{2}-/.test(str);
-}
+processAllMarkdownFiles(docsPath);
+console.log('Added id and pagination to frontmatter based on lesson filenames and alphabetical order');

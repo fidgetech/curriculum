@@ -10,6 +10,14 @@ This is a Docusaurus 2 project for the Fidgetech Code curriculum.
 - `category.json` file defines the name of the section itself for the sidebar.
 - `sidebar.js` files in the _course_ directories (not section subdirectories) define the order of sections for the course.
 
+## Re-alphabetize files based on sidebar.js
+
+I wrote a little script to make reordering section lessons easier.
+To re-alphabetize the markdown files in a directory without having to manually rename files:
+
+- reorder the items in a section `sidebar.js`
+- `npm run alphabetize` and follow instructions provided
+
 ## Prep, build, deploy via GitHub Actions
 
 Not quite ready yet...
@@ -20,12 +28,8 @@ To prep, build, and deploy all tracks to gh-pages, run the `manually-update-lhtp
 
 ## Prep only (development)
 
-Or to prep:
-
 ```
-cd scripts
-node generateSidebars.js
-node updateFrontMatter.js
+npm run prep
 ```
 
 This will update the front matter and sidebars, based on alphabetical order of filenames.

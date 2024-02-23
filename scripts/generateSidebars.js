@@ -1,7 +1,8 @@
+// generate Docusaurus section sidebar.js files based on alphabetical order of section lessons
+
 import { existsSync, readFileSync, readdirSync, writeFileSync, statSync } from 'fs';
 import { join } from 'path';
-
-const DOCS_DIR = '/Users/ash/fidgetech/docusaurus/docs/';
+const docsPath = join(process.cwd().replace(/(scripts|docs)/, ''), 'docs');
 
 function generateSidebarForDirectory(directoryPath) {
   const categoryFilePath = join(directoryPath, 'category.json');
@@ -19,7 +20,7 @@ function generateSidebarForDirectory(directoryPath) {
       label: label,
       items: items,
     };
-    
+
     writeFileSync(
       join(directoryPath, 'sidebar.js'),
       `module.exports = ${JSON.stringify(sidebarContent, null, 2)};`
@@ -38,4 +39,5 @@ function traverseDirectories(directoryPath) {
   });
 }
 
-traverseDirectories(DOCS_DIR);
+traverseDirectories(docsPath);
+console.log('Generated sidebar.js files based on alphabetical order of section lessons');
