@@ -30,10 +30,13 @@ function generateSidebarForDirectory(directoryPath) {
       const lessonNumber = segmentCounter[segment];
       const emoji = data.title.includes('✏️') ? '✏️' : '📓';
       const title = `${emoji} ${courseNumber}.${sectionNumber}.${segment}.${lessonNumber} ${data.title.replace(/(✏️ |📓 )/, '')}`;
+      const id = titleToId(title);
       data.title = title;
+      data.id = id;
       console.log(data.title);
+      console.log(data.id);
       const prefix = generatePrefix(index);
-      const newFilename = `${prefix}-${titleToId(title)}.md`;
+      const newFilename = `${prefix}-${id}.md`;
       const newFilePath = join(directoryPath, newFilename);
       if (filename.split('-').slice(1).join('-') === newFilename.split('-').slice(5).join('-')) {
         console.log(`renaming ${filename} to ${newFilename}`);
