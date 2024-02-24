@@ -37,8 +37,8 @@ function generateSidebarForDirectory(directoryPath) {
       const newFilePath = join(directoryPath, newFilename);
       if (filename.split('-').slice(1).join('-') === newFilename.split('-').slice(5).join('-')) {
         console.log(`renaming ${filename} to ${newFilename}`);
-        // writeMarkdown(newFilePath, content, data);
-        // unlinkSync(filePath);
+        writeMarkdown({ filePath: newFilePath, content, data });
+        unlinkSync(filePath);
       } else {
         console.log('filenames do not match', filename, newFilename);
       }
