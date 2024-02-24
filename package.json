@@ -7,6 +7,7 @@
     "generate-sidebars": "node scripts/generateSidebars.js",
     "update-frontmatter": "node scripts/updateFrontmatter.js",
     "prep": "node scripts/generateSidebars.js && node scripts/updateFrontmatter.js",
+    "number-lessons": "node scripts/numberLessons.js",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "deploy": "docusaurus deploy",
