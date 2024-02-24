@@ -15,8 +15,8 @@ hide_table_of_contents: true
     <a className="track-button" target="_self" href="/pre-work">Pre-work</a>
     <a className="track-button" target="_self" href="/introduction-to-programming">Introduction to Programming</a>
     <a className="track-button" target="_self" href="/intermediate-javascript">Intermediate JavaScript</a>
-    <a className="track-button" target="_self" href="/react">React</a>
     <a className="track-button" target="_self" href="/c-and-net">C#/.NET</a>
+    <a className="track-button" target="_self" href="/react">React</a>
     <a className="track-button" target="_self" href="/workshop">Workshop</a>
     <a className="track-button" target="_self" href="/marketing-yourself">Marketing Yourself</a>
     <a className="track-button" target="_self" href="/diversity-equity-and-inclusion">DEI</a>
