@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "alphabetize": "node scripts/alphabetizeFiles.cjs",
     "generate-sidebars": "node scripts/generateSidebars.js",
     "update-frontmatter": "node scripts/updateFrontmatter.js",
     "prep": "node scripts/generateSidebars.js && node scripts/updateFrontmatter.js",
+    "alphabetize": "node scripts/alphabetizeFiles.cjs",
+    "create-syllabus": "node scripts/createSyllabus.js",
     "number-lessons": "node scripts/numberLessons.js",
     "start": "docusaurus start",
     "build": "docusaurus build",
