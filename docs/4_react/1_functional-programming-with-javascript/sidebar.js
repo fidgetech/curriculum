@@ -1,6 +1,6 @@
 module.exports = {
   "type": "category",
-  "label": "Functional Programming with JavaScript",
+  "label": "4.1 Functional Programming with JavaScript",
   "items": [
     "react/functional-programming-with-javascript/4-1-0-1-functional-programming-with-javascript-objectives",
     "react/functional-programming-with-javascript/4-1-0-2-introduction-to-functional-programming",

@@ -1,6 +1,6 @@
 module.exports = {
   "type": "category",
-  "label": "React Fundamentals",
+  "label": "4.2 React Fundamentals",
   "items": [
     "react/react-fundamentals/4-2-0-1-react-fundamentals-objectives",
     "react/react-fundamentals/4-2-0-2-introduction-to-react",

@@ -1,6 +1,6 @@
 module.exports = {
   "type": "category",
-  "label": "React with NoSQL",
+  "label": "4.4 React with NoSQL",
   "items": [
     "react/react-with-nosql/4-4-0-1-react-with-nosql-objectives",
     "react/react-with-nosql/4-4-0-2-introduction-to-hooks-with-the-usestate-hook",

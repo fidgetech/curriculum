@@ -1,6 +1,6 @@
 module.exports = {
   "type": "category",
-  "label": "React with Redux",
+  "label": "4.3 React with Redux",
   "items": [
     "react/react-with-redux/4-3-0-1-react-with-redux-objectives",
     "react/react-with-redux/4-3-0-2-introduction-to-redux",

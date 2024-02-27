@@ -1,6 +1,6 @@
 module.exports = {
   "type": "category",
-  "label": "Team Week",
+  "label": "4.6 Team Week",
   "items": [
     "react/team-week/4-6-0-1-team-week-objectives",
     "react/team-week/4-6-0-2-git-with-collaborators-setup",

@@ -1,6 +1,6 @@
 module.exports = {
   "type": "category",
-  "label": "React with APIs",
+  "label": "4.5 React with APIs",
   "items": [
     "react/react-with-apis/4-5-0-1-react-with-apis-objectives",
     "react/react-with-apis/4-5-0-2-react-with-apis-development-project",
