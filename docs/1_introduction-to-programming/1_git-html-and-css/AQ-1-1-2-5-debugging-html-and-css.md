@@ -15,19 +15,19 @@ We use [Google Chrome](https://www.google.com/chrome/browser/) at Epicodus so we
 
 In Chrome, click on the menu button. It's on the right side of the address bar and looks like ☰ in older versions of Chrome or three vertical dots in newer versions. Click _More Tools_ and then click _Developer Tools_.
 
-![GIF shows opening menu and clicking on Developer Tools.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/open-dev-tools-2.gif)
+![GIF shows opening menu and clicking on Developer Tools.](/images/INTRO/week1-html-css/Week-1-2020-images/open-dev-tools-2.gif)
 
 As a shortcut, you can also press `Cmd + Option + J` ( `Windows + Alt + J` on Epicodus keyboards) to open DevTools.
 
 Next, let's take a look at the DevTools window.
 
-![This image shows the DevTools tab.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/dev-tools-tab.png)
+![This image shows the DevTools tab.](/images/INTRO/week1-html-css/Week-1-2020-images/dev-tools-tab.png)
 
 As the image above shows, there are a number of different tabs in the DevTools window. We will regularly use the Elements and Console tabs throughout the program. While the other tabs (such as Sources and Network) also contain useful information and can be helpful for debugging, we won't use them as much.
 
 The Console tab is selected in the image above. This is the JavaScript console where all errors in our web page are logged. We aren't using JavaScript yet but the console will also show us descriptive errors that can be helpful now. For instance, if your CSS file isn't properly linked, you'll see an error message that looks like this one: 
 
-![Image shows a "Failed to load resource" error](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/file-not-found-error.png)
+![Image shows a "Failed to load resource" error](/images/INTRO/week1-html-css/Week-1-2020-images/file-not-found-error.png)
 
 The error reads `Failed to load resource: net::ERR_FILE_NOT_FOUND`. Then, on the right side of the error message, it reads `styles.css:1`. 
 
@@ -47,7 +47,7 @@ You will likely see this error many times — not just as a student but even as 
 
 We can also see the elements on an individual page. Click on the Elements tab in DevTools and we'll see a list of all the elements ranging from `p` tags to `div`s and so on.
 
-![Image shows the elements tab of a page.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/elements-tab.png)
+![Image shows the elements tab of a page.](/images/INTRO/week1-html-css/Week-1-2020-images/elements-tab.png)
 
 In the image above, the Elements tab is open. We've clicked on an unordered list element with a class of `breadcrumb`. Clicking on this element highlights the actual element on the page.
 
@@ -63,7 +63,7 @@ As you can imagine, this is a great tool to debug CSS styles. If a style isn't s
 
 Here's another really cool thing we can do — we can actively edit our CSS in the browser without changing it in our code. This allows us to experiment with changing styles. Check out the GIF below.
 
-![We alter the color of the title in the image.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/changing-styles-dev-tools.gif)
+![We alter the color of the title in the image.](/images/INTRO/week1-html-css/Week-1-2020-images/changing-styles-dev-tools.gif)
 
 We've already highlighted the element that holds the tile "Introduction to Programming / Getting Started at Epicodus / Learn How to Program." Let's say we want to see how this heading looks with a different color.
 
@@ -83,7 +83,7 @@ We can also inspect individual elements on a page. This trick is especially usef
 
 On the far left, we'll see a square with an arrow icon on it. The icon will generally be gray, but we can click on it to activate the inspect element tool. (It will turn blue when it's activated.) The GIF below shows the inspect element tool in action.
 
-![Using the inspect element tool](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/inspecting-element.gif)
+![Using the inspect element tool](/images/INTRO/week1-html-css/Week-1-2020-images/inspecting-element.gif)
 
 Once we activate the tool, we can hover over any element on the page to see the CSS rules that apply to it. If you look at the graphic above, you'll see how the information changes as we hover over different elements. We see the new CSS rules on the left and we see the specific element on the right (in the Elements panel).
 

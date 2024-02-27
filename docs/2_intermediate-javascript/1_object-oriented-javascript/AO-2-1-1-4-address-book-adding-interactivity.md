@@ -168,7 +168,7 @@ Now each time we add a new `Contact`, the page will update and add the contact's
 
 If we open Chrome Developer Tools and inspect elements on the page (right-click and then select _Inspect_) we'll see each `Contact`'s `<li>` entry has a unique `id` corresponding to the `Contact` object's automatically-assigned `id` property. The GIF below demonstrates this:
 
-![In the image, we can see that both of the contacts created have an ID.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/dynamic-id-in-dom.gif)
+![In the image, we can see that both of the contacts created have an ID.](/images/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/dynamic-id-in-dom.gif)
 
 While this ID isn't doing anything yet, we'll soon be adding functionality so that we can click on a contact and get additional information based on its ID.
 

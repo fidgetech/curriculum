@@ -24,4 +24,4 @@ Anytime you are looking at a build guide or the API reference, make sure that yo
 
 The same is true for any code snippets: anytime you are looking at code examples in a build guide, make sure that you are looking at code from _Web_ or _JavaScript version 9_ (the modular version). For example, in the following code example from the [Firestore docs on getting a document](https://firebase.google.com/docs/firestore/query-data/get-data#get_a_document), we have the _Web version 9_ selected, which is circled in red in the image below.
 
-![Use _Web_ or _JavaScript version 9_ when viewing Firebase code snippets or docs.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firebase-docs-web-version-9.png)
+![Use _Web_ or _JavaScript version 9_ when viewing Firebase code snippets or docs.](/images/React/Week-4-React-2020/firebase-docs-web-version-9.png)

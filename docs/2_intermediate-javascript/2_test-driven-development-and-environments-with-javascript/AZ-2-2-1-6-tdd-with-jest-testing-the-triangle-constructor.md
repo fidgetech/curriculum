@@ -138,7 +138,7 @@ Now that we have a test written for our `Triangle()` constructor, and no logic i
 $ npm test
 ```
 
-![Test is failing and shows an error.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD-2020/bad-failing-test.png)
+![Test is failing and shows an error.](/images/Intermediate+JavaScript/TDD-2020/bad-failing-test.png)
 
 Jest provides nice color coding for us. Green means the test passed while red indicates a fail. We've got a pretty obvious fail here, but it's not a meaningful one. 
 
@@ -163,7 +163,7 @@ export default function Triangle(side1, side2, side3) {
 
 We now have a constructor that's successfully exported, even if no properties are initialized when the constructor makes a new instance of a `Triangle` object. If we run `$ npm test` again, our test will fail — as expected — but in a different way:
 
-![We get a different failure message this time.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD-2020/good-failing-test.png)
+![We get a different failure message this time.](/images/Intermediate+JavaScript/TDD-2020/good-failing-test.png)
 
 The failure message highlights the values of the expected value versus the received (actual or derived) value: 
 
@@ -197,7 +197,7 @@ export default function Triangle(side1, side2, side3) {
 
 Once we do that, we can run `$ npm test` again.
 
-![Jest shows one passing test.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD-2020/first-passing-triangle-test.png)
+![Jest shows one passing test.](/images/Intermediate+JavaScript/TDD-2020/first-passing-triangle-test.png)
 
 As we can see, our test is color coded green now. We've passed our first test — and we can see why this is called the red-green-refactor workflow.
 

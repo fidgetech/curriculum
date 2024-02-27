@@ -41,7 +41,7 @@ Take note that you can generate a new key with a unique name instead of using _D
 
 Keep the information about your key handy since we'll be using it in the next lesson to make our first API call.
 
-![Click on the API keys tab to access your API keys.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/api-key-open-weather.png)
+![Click on the API keys tab to access your API keys.](/images/Intermediate+JavaScript/Async-and-APIs-2020/api-key-open-weather.png)
 
 ### API Limits 
 
@@ -63,7 +63,7 @@ In our case, we want current weather conditions. This could be useful for a wide
 
 We can click on the _API_ tab to get information about all the endpoints OpenWeather provides, or navigate to [this webpage](https://openweathermap.org/api). If you scroll down on this page, you'll find a section called _Current & Forecast weather data collection_. In this section, we'll find an API called _Current Weather Data_, which is exactly what we need. You'll also see a button called _API Docs_. Go ahead and click that and it will take you to [the documentation on the Current Weather Data API](https://openweathermap.org/current).
 
-![This shows the APIs tab on OpenWeatherMap.org. We've scrolled down on this page to find the _Current Weather Data_ API. This also highlights the _API Docs_ button that we'll want to click to get to the documentation for the _Current Weather Data_ API.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/open-weather-current-weather-data-option.png)
+![This shows the APIs tab on OpenWeatherMap.org. We've scrolled down on this page to find the _Current Weather Data_ API. This also highlights the _API Docs_ button that we'll want to click to get to the documentation for the _Current Weather Data_ API.](/images/Intermediate+JavaScript/Async-and-APIs-2020/open-weather-current-weather-data-option.png)
 
 In the documentation for the Current Weather Data API, we'll see that we can search the current weather by a range of different search parameters including city name, longitude and latitude, or zip code. We'll go with city name for now.
 
@@ -85,7 +85,7 @@ Note that your API key needs to go in place of `[YOUR-API-KEY]`. You should not 
 
 Next, take that URL and enter it in the browser search bar. We'll see the following:
 
-![Current weather conditions in JSON format.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/open-weather-json-for-pdx.png)
+![Current weather conditions in JSON format.](/images/Intermediate+JavaScript/Async-and-APIs-2020/open-weather-json-for-pdx.png)
 
 As we can see, we can actually make our API call right in the browser! The response we receive is in [JSON (JavaScript Object Notation)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON), a format we are already familiar with. But why is the format in JSON if our API call itself has nothing to do with JavaScript?
 

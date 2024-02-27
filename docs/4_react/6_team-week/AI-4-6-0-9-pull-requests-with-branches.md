@@ -56,7 +56,7 @@ At this point, we're ready to make our first pull request.
 At this point, we can go to the repository in GitHub and click on the _Branches_ tab. This will show all of the branches you've created as well as all of the active branches in the project.
 
 ![We can see all the active branches in our project.]
-(https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/making-pr-requests/click-on-pr-request-button.png)
+(/images/Intermediate+JavaScript/making-pr-requests/click-on-pr-request-button.png)
 
 In the image above, we can also see that our branches have a button on the right side of the screen that reads _New Pull Request_. That's exactly what we want. Click on this button to open a new pull request.
 
@@ -65,7 +65,7 @@ In the image above, we can also see that our branches have a button on the right
 Once we click on the _New Pull Request_ button, we'll be taken to a screen that looks like this:
 
 ![Image shows screen with option to add comment and create pull request.]
-(https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/making-pr-requests/add-a-comment-to-pr.png)
+(/images/Intermediate+JavaScript/making-pr-requests/add-a-comment-to-pr.png)
 
 There are several important things to note about this screen.
 
@@ -87,13 +87,13 @@ Click on _Create pull request_ and we're done making the request.
 
 After we create the pull request, GitHub will display the page with the pull request. We can also navigate to our new PR, or any other PR in the repository, by clicking on the _Pull requests_ tab in the repository.
 
-![See a list of pull requests in the repository.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/making-pr-requests/list-of-pull-requests.png)
+![See a list of pull requests in the repository.](/images/Intermediate+JavaScript/making-pr-requests/list-of-pull-requests.png)
 
 As we can see in the image above, the _New feature_ title isn't so great — it's fine for practice, but if we had many pull requests, the purpose of this one wouldn't be clear.
 
 The image below shows the page for the PR itself:
 
-![PR page gives us several options which we'll discuss below.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/making-pr-requests/merge-pull-request.png)
+![PR page gives us several options which we'll discuss below.](/images/Intermediate+JavaScript/making-pr-requests/merge-pull-request.png)
 
 There are several important things to note about the PR page:
 
@@ -111,7 +111,7 @@ Now let's click on the _Merge pull request_ button to actually merge the pull re
 
 Once the branch is merged, we'll be given the option to delete it by clicking on the _Delete Branch_ button.
 
-![We can click on the Delete Branch button to delete it.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/making-pr-requests/delete-branch.png)
+![We can click on the Delete Branch button to delete it.](/images/Intermediate+JavaScript/making-pr-requests/delete-branch.png)
 
 Generally, once a feature is complete, the branch should be deleted. Then a new branch should be created for new features. For that reason, it's a good idea to delete the branch so it doesn't clutter the GitHub repository. The branch will still be available locally (unless it is deleted there, too).
 
@@ -152,7 +152,7 @@ Go to the _Branches_ tab of the repository in GitHub and click on the _New Pull 
 
 Now, when we're taken to the page to make a PR, we'll see a message that states we can't automatically merge.
 
-![Message states we can't automatically merge.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/making-pr-requests/cant-automatically-merge.png)
+![Message states we can't automatically merge.](/images/Intermediate+JavaScript/making-pr-requests/cant-automatically-merge.png)
 
 In our own projects, we should definitely heed this message if we weren't expecting a merge conflict. Generally, this means that two different teams have been working on the same code in different ways, which is a likely sign of a communication breakdown.
 
@@ -160,11 +160,11 @@ Go ahead and submit the PR following the same steps as stated for our first PR. 
 
 Now we're ready to merge our PR. If you haven't already, navigate to the PR in GitHub. Instead of the green _Merge pull request_ button, we'll see a new message:
 
-![This branch has conflicts that must be resolved.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/making-pr-requests/click-resolve-conflicts.png)
+![This branch has conflicts that must be resolved.](/images/Intermediate+JavaScript/making-pr-requests/click-resolve-conflicts.png)
 
 The message reads _This branch has conflicts that must be resolved_. We can click the button to the right of this message to _Resolve conflicts_. Click that button now. The GitHub UI will allow us to resolve the merge conflicts.
 
-![GitHub UI shows the merge conflict.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/making-pr-requests/resolve-merge-conflict.png)
+![GitHub UI shows the merge conflict.](/images/Intermediate+JavaScript/making-pr-requests/resolve-merge-conflict.png)
 
 In this example, there is only one file with a merge conflict. However, if there are multiple files that have merge conflicts, we'll see the name of each file in the left-hand pane. At the top right hand corner of the pane, we'll see a greyed-out _Mark as resolved_ button. We cannot click this button until we remove all lines that indicate where the conflicts are. These lines will always include `=======`, `<<<<<<<`, and `>>>>>>>`.
 
@@ -204,7 +204,7 @@ When the merge conflict lines are removed, the _Mark as resolved_ button will no
 
 Once our merge conflict is marked as resolved, we'll see some changes in the UI.
 
-![We can now click the commit merge button.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/making-pr-requests/resolved-conflict.png)
+![We can now click the commit merge button.](/images/Intermediate+JavaScript/making-pr-requests/resolved-conflict.png)
 
 Most importantly, we can now click _Commit merge_. When we click on this button, we'll be able to make a new commit (as always, with a clear, concise commit message) that commits the changes we just made to resolve the conflict. At this point, we've just made a new commit, but we still haven't merged the PR yet! Now that the conflict is resolved, we'll see the green _Merge pull request_ button. We can click that button and finish merging the PR.
 

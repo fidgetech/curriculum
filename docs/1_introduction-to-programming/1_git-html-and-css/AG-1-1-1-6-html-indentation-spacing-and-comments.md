@@ -24,7 +24,7 @@ Make sure that you are updating _User_ settings, and not only _Workspace_ settin
 
 Later in this lesson, we'll briefly discuss 2 versus 4 spaces and tabs versus spaces. 
 
-![Type in 2 in Editor: Tab Size.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/tab-size-setting.png)
+![Type in 2 in Editor: Tab Size.](/images/INTRO/week1-html-css/Week-1-2020-images/tab-size-setting.png)
 
 ## Indenting HTML
 
@@ -130,7 +130,7 @@ In this next example, the spaces before and after the text (the content of the `
 <h1> Here's a heading. </h1>
 ```
 
-![There is a space after the opening `<h1>` tag and before the start of "Here's", and a space after the period "." and before the start of the closing `</h1>` tag.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/leading_and_trailing_whitespace_html.png)
+![There is a space after the opening `<h1>` tag and before the start of "Here's", and a space after the period "." and before the start of the closing `</h1>` tag.](/images/INTRO/week1-html-css/leading_and_trailing_whitespace_html.png)
 
 In this last example, there are extra spaces in each `<p>` tag (both the opening and closing tags) before the closing angle bracket `>`. Both of these whitespaces will be ignored. See the image below, underlining the extra whitespace in green.
 
@@ -138,7 +138,7 @@ In this last example, there are extra spaces in each `<p>` tag (both the opening
 <p >The `<p>` element represents a paragraph.</p >
 ```
 
-![This image highlights the extra spaces in each `<p>` tag (both the opening and closing tags) before the closing angle bracket `>`](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/extra_whitespace_in_tag_html.png)
+![This image highlights the extra spaces in each `<p>` tag (both the opening and closing tags) before the closing angle bracket `>`](/images/INTRO/week1-html-css/extra_whitespace_in_tag_html.png)
 
 ### More Examples of Whitespace in HTML
 

@@ -17,7 +17,7 @@ Let’s return to our `my-first-webpage` project folder. Go ahead and make a fol
 
 Here's what our `my-first-webpage` directory structure should look like now:
 
-![directory structure with CSS folder](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/directory-structure-with-css.png)
+![directory structure with CSS folder](/images/INTRO/week1-html-css/directory-structure-with-css.png)
 
 ### Linking Our HTML and CSS Files
 

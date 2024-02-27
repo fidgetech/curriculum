@@ -18,7 +18,7 @@ In the board below we have a user that has broken up their idea board into Outdo
 
 For example, below in the Hobbies category our user has expressed interests in Travel, Cooking, and Finance
 
-![An example visualization of an idea board](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/idea-board-example.png)
+![An example visualization of an idea board](/images/React/idea-board-example.png)
 
 Finally, in the example, there are distilled ideas that can be attached to those interests, places, people, activities, and so on. An example application could be something that enhances an experience, or solves a problem. 
 
@@ -28,20 +28,20 @@ Now that we have a basic overview of what an Idea Board might look like, or how 
 Let’s take a look at an example student’s work in progress idea board to take a closer look at the workflow that someone might take to discover their ideal Capstone project. 
 
 
-![Image representing the beginning of John Doe’s idea board](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-1-React-2019/idea-board-1.PNG)
+![Image representing the beginning of John Doe’s idea board](/images/React/Week-1-React-2019/idea-board-1.PNG)
 
 Above, we have an example of John Doe’s idea board which is currently empty. Thinking about his day-to-day life, John defines a list of interests, hobbies, activities, and his friends. 
 
 John might write that he’s interested in Gaming, Fitness, Volunteering, and Friends. He might fill out his idea board like so: 
 
-![An image representing an example idea board with four interest groups](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-1-React-2019/idea-board-2.PNG)
+![An image representing an example idea board with four interest groups](/images/React/Week-1-React-2019/idea-board-2.PNG)
 
 
 For brevity, we'll now focus on just one section of the tree; Fitness. 
 
 John has determined that he has three major focal points that make him passionate about fitness. Running, Lifting, and Eating.
 
-![An image representing an updated idea board tree with Running, Lifting, and Eating](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-1-React-2019/idea-board-3.PNG)
+![An image representing an updated idea board tree with Running, Lifting, and Eating](/images/React/Week-1-React-2019/idea-board-3.PNG)
 
 Here’s a quick breakdown of what John may have considered when he chose these three items within Fitness:
 
@@ -66,7 +66,7 @@ Alternatively, John could think about what might *enhance* his interests as they
 
 Using these potential avenues, John might write application ideas that could help pursue overcoming obstacles or improving his interests: 
 
-![An image with several projects ideas connected to each fitness focal point](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-1-React-2019/idea-board-4.PNG)
+![An image with several projects ideas connected to each fitness focal point](/images/React/Week-1-React-2019/idea-board-4.PNG)
 
 John’s gone ahead and spitballed some ideas that might fit his needs, even without really knowing what technologies or hurdles he might encounter during the development process. But now he has a list of applications that he could consider later on when wanting to practice new skills. 
 

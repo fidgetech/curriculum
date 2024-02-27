@@ -22,7 +22,7 @@ Fortunately, there is also a browser-based demo of ESLint here: [ESLint Demo](ht
 
 If we take a look, we'll see the following:
 
-![ESLint window with a code snippet on the left and errors on the right.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week2-js-jquery/debugging-js/eslint-demo.png)
+![ESLint window with a code snippet on the left and errors on the right.](/images/INTRO/week2-js-jquery/debugging-js/eslint-demo.png)
 
 The window on the left is where we can insert any code we want to lint. The code that's already there (`var foo = bar;`) is the default code that ESLint provides. We can replace it by pasting or typing any code we want into the window.
 

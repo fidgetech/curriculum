@@ -68,7 +68,7 @@ We've talked about the Same Origin Policy (SOP) with regards to making API calls
 
 We saw an example of a Web API that provides live-updated data in the optional lesson on how to access our project's stylesheets via the CSS Object Model (CSSOM). The Web API that provides live-updated data is [the `CSSStyleSheet.cssRules` property](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet/cssRules), which provides a "live" list of all CSS rules in a given stylesheet.
 
-![This shows the reference page on MDN for the `CSSStyleSheet.cssRules`, with an added highlight and arrow pointing to "live" in the description.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/live-list-for-cssRules.png)
+![This shows the reference page on MDN for the `CSSStyleSheet.cssRules`, with an added highlight and arrow pointing to "live" in the description.](/images/Intermediate+JavaScript/Async-and-APIs-2020/live-list-for-cssRules.png)
 
 If you did not read the lesson [Optional: Accessing Stylesheets in the CSSOM](https://old.learnhowtoprogram.com/lessons/optional-accessing-stylesheets-in-the-cssom), don't worry. We don't need to know how the CSSOM works (or about its object types) in order to understand the implication of live data. So, let's continue. 
 

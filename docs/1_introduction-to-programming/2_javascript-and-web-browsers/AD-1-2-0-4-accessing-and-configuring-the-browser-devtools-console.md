@@ -41,7 +41,7 @@ The DevTools inspector and console are different. Each lives on a separate tab i
 
 The DevTools console is a JavaScript console that lets us write and execute JavaScript code. It is found in the _Console_ tab of the DevTools window. This console is also used for logging errors and warning messages. We'll learn how to use the console in this section. As a preview, see the image below with the DevTools console open and a line of JavaScript (`3 + 4;`) written.
 
-![This image shows the DevTools console open with a line of JavaScript written (`3 + 4;`)](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/dev-tools/devtools-console.png)
+![This image shows the DevTools console open with a line of JavaScript written (`3 + 4;`)](/images/dev-tools/devtools-console.png)
 
 ## Tips for Using the Console
 ---
@@ -69,7 +69,7 @@ You can configure the console's location, size, and colors! Review the instructi
 
 *  Select the menu represented by three vertical dots in the top right corner of the window. This will be next to the settings cog. Once open, find the option for _dock side_ and select the option that works best for you.
 
-![A gif that covers the above information in this order: set theme preferences, resize window, in/decrease text size, change DevTools location from right to left to bottom of browser](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/dev-tools/devtools-console-configuration.gif)
+![A gif that covers the above information in this order: set theme preferences, resize window, in/decrease text size, change DevTools location from right to left to bottom of browser](/images/dev-tools/devtools-console-configuration.gif)
 
 ### Formatting Code
 
@@ -82,7 +82,7 @@ When typing code into the console, we have some options to format what we write:
 
 This can be very helpful, but when you are just starting out with the DevTools console, it can be more confusing than helpful. Check out the following image. In the image, I've only typed out `thi` in the console. I haven't even completed what I've wanted to type, which is `this`, a JavaScript concept we'll learn about later in the course. However, autocomplete has already suggested an `s` to complete the word `this` and a host of other suggestions, as well as a possible answer (`Window {0: ...}`). Like I said earlier, this can be confusing when you are just starting out.
 
-![An image that shows the autocomplete suggestions after typing in "thi" into the console.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/dev-tools/devtools-auto-complete2.png)
+![An image that shows the autocomplete suggestions after typing in "thi" into the console.](/images/dev-tools/devtools-auto-complete2.png)
 
 We'll be working with the autocomplete feature later in this section. If autocomplete is bugging you as you work through the upcoming lessons, you can turn autocomplete off by going to _Settings_ > _Preferences_ > _Sources_ and unchecking the box for "Autocompletion". 
 
@@ -96,7 +96,7 @@ Or, you can work with autocompletion turned on. Here's how to do that:
 
 You can clear the contents of the DevTools console by clicking the icon of a circle with a slash at the top toolbar of the console. See the following image, where the icon is circled in red:
 
-![This image shows the button to clear the console circled in red. This clear-console button is an icon of a circle with a slash.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/dev-tools/devtools-console-clear.png)
+![This image shows the button to clear the console circled in red. This clear-console button is an icon of a circle with a slash.](/images/dev-tools/devtools-console-clear.png)
 
 ### DevTools Documentation
 

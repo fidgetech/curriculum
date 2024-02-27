@@ -49,7 +49,7 @@ Next, add the following code:
 
 Let's take a look in the browser and then discuss what we're doing here.
 
-![An example of two columns in the browser.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/Bootstrap+images/bootstrap-two-columns.png)
+![An example of two columns in the browser.](/images/INTRO/week1-html-css/Week-1-2020-images/Bootstrap+images/bootstrap-two-columns.png)
 
 As we can see, we have two columns of equal width. Just as with other Bootstrap elements, they are responsive if we resize the page.
 
@@ -132,7 +132,7 @@ Let's take a look at what happens when we have multiple rows. Replace all the co
 
 Here's what this looks like in the browser:
 
-![An example of multiple Bootstrap rows.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/Bootstrap+images/bootstrap-rows.png)
+![An example of multiple Bootstrap rows.](/images/INTRO/week1-html-css/Week-1-2020-images/Bootstrap+images/bootstrap-rows.png)
 
 Unlike with columns, which have a certain width, rows do not have a specific preset height. Additional CSS and Bootstrap rules are necessary to alter the height of rows.
 
@@ -161,7 +161,7 @@ The media query portion of the column class name has several options:
 
 The `xs`, `sm`, `md`, and `lg` prefixes in column classes denote how narrow the viewport may become before the columns stack upon one another. In other words, Bootstrap has established an ideal breakpoint for when the columns should be. For example, here's the breakpoint for the `sm` media query:
 
-![This GIF demonstrates where the breakpoint is for the small media query. The columns stack when the breakpoint is reached.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/Bootstrap+images/bootstrap-small-breakpoint.gif)
+![This GIF demonstrates where the breakpoint is for the small media query. The columns stack when the breakpoint is reached.](/images/INTRO/week1-html-css/Week-1-2020-images/Bootstrap+images/bootstrap-small-breakpoint.gif)
 
 This is really nice because we wouldn't want to have two tiny and difficult to read columns on a smaller device like a phone or a tablet.
 
@@ -284,6 +284,6 @@ Each row contains three columns with a class of `"col-md-4"` and each of these c
 
 Try it out in the browser. We'll see two rows, each with three cards. Each card has equal width while the height of the row is determined by the tallest card. The height of the card itself is determined by the amount of text in it. It's nowhere near perfect but it's a good start.
 
-![Bootstrap grid with rows, columns, and cards.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Bootstrap+Lessons/bootstrap-grid-updated.png)
+![Bootstrap grid with rows, columns, and cards.](/images/INTRO/week1-html-css/Bootstrap+Lessons/bootstrap-grid-updated.png)
 
 As you might've guessed, it's also responsive, with a breakpoint designed for medium-sized devices.

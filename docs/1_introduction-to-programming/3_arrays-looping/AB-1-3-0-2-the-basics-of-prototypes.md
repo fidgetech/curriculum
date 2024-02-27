@@ -100,7 +100,7 @@ So let's reiterate what we do need to know. We'll see `prototype` in a JS method
 
 Check out the following image that shows a common error message:s `Uncaught TypeError: {name of method in code} is not a function`.
 
-![This image shows the error in response to entering `"Red".join(" and Blue.")` into the DevTools console.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/error-method-does-not-exist.png)
+![This image shows the error in response to entering `"Red".join(" and Blue.")` into the DevTools console.](/images/INTRO/week3-branching-looping-arrays/error-method-does-not-exist.png)
 
 If you get a `TypeError` error message similar to the above example, this usually means the object you are calling the method on doesn't have a definition for that method. In other words, you've called a method that doesn't exist for that object type. In the example, I've called the `join` method on a string, but this method actually belongs to arrays: `Array.prototype.join()`.  
 

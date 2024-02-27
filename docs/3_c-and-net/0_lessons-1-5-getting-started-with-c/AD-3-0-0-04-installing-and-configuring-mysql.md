@@ -146,7 +146,7 @@ To do this, we must include MySQL in the **System Environment "Path" Variable**.
   * From this window, click "New" (green circle) and add the exact location of your Postgres installation (green square), and click OK (orange circle) to save your changes. Exit out of all of the windows.
   * This location is likely `C:\Program Files\MySQL\MySQL Server 8.0\bin`, but may differ depending on your specific installation.
 
-![This image shows steps 2 and 3, both the windows and buttons that should be clicked.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/mysql-setting-system-env-variables-RESIZED.png)
+![This image shows steps 2 and 3, both the windows and buttons that should be clicked.](/images/mysql-setting-system-env-variables-RESIZED.png)
 
 ### Confirm That Both Programs Are Working
 

@@ -123,7 +123,7 @@ $("#goal-list").append("I want to learn to code!");
 
 Let's take a look at what happens when we add this code to our Glitch application:
 
-![The JS code is on the left. It shows our new jQuery code. The site preview on the right shows the appended code.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/ucode-glitch-photos/jquery-append.png)
+![The JS code is on the left. It shows our new jQuery code. The site preview on the right shows the appended code.](/images/ucode-glitch-photos/jquery-append.png)
 
 We now have a new item at the bottom of our list of goals. This item isn't included in our HTML. Instead, we used jQuery to append it to the list.
 
@@ -170,7 +170,7 @@ Here, we've added a new jQuery function.
 
 Let's see how this looks in Glitch:
 
-![The new code for a click function shows on the left. On the right, the site preview shows "I want to learn to code!" being appended many times.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/ucode-glitch-photos/jquery-append-2.png)
+![The new code for a click function shows on the left. On the right, the site preview shows "I want to learn to code!" being appended many times.](/images/ucode-glitch-photos/jquery-append-2.png)
 
 The image shows how our page will look if we keep clicking the button. Our site has a little interactivity now! We can click the button to add "I want to learn to code!" to the screen. However, it's not quite the interactivity we'd like.
 
@@ -197,7 +197,7 @@ $("#goal-list").append("<li>" + $("#new-goal").val() + "</li>");
 
 Now we can actually add items to our list. Every time we click the button, our function is activated and the value of the form field is appended.
 
-![The new code shows on the left. On the right, the site preview shows that the value inputted in the form is appended to the site.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/ucode-glitch-photos/jquery-append-3.png)
+![The new code shows on the left. On the right, the site preview shows that the value inputted in the form is appended to the site.](/images/ucode-glitch-photos/jquery-append-3.png)
 
 There's one more thing we can do to clean this up a bit. It would be nice if the form field was cleared after submission for users. Fortunately, this is easy. We can also use the `val()` function to clear the field. We just need to add one more line to our script:
 

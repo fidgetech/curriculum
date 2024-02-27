@@ -45,7 +45,7 @@ $ firebase init hosting
 
 You'll be prompted with the question: `You're about to initialize a Firebase project in this directory. Are you ready to proceed?`. As a response, input `Y` into the command line.
 
-![Terminal output from running `firebase init hosting`.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firebase-init-hosting.png)
+![Terminal output from running `firebase init hosting`.](/images/React/Week-4-React-2020/firebase-init-hosting.png)
 
 ## Connecting To a Firebase Project
 ---
@@ -177,7 +177,7 @@ $ firebase init
 
 You'll see output similar to what follows:
 
-![Terminal output from running `firebase init`.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firebase-init.png)
+![Terminal output from running `firebase init`.](/images/React/Week-4-React-2020/firebase-init.png)
 
 Generally you won't be configuring Firebase services via the command line until you learn exactly what is involved with the service you are implementing, so make sure to reference [the docs on the Firebase CLI](https://firebase.google.com/docs/cli), as well as [the general Firebase user guides for their product offerings](https://firebase.google.com/docs/build).
 

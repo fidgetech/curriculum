@@ -11,7 +11,7 @@ At this point, we have CREATE functionality as well as READ (all) functionality,
 
 First, we need to think about where our `TicketDetail` component should go in our component diagram. It may be tempting to place it below our `Ticket` component. After all, isn't it almost the same thing? However, we will be making our coding lives more complicated if we have to go through the `Ticket` component to access `TicketDetail`. The following picture illustrates why:
 
-![The diagram on the left shows that data needs to be passed through multiple components to get to TicketDetail while the diagram on the right shows data being passed directly from TicketControl to TicketDetail](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-1-React-2019/passing-data-to-ticket-detail-updated.jpg)
+![The diagram on the left shows that data needs to be passed through multiple components to get to TicketDetail while the diagram on the right shows data being passed directly from TicketControl to TicketDetail](/images/React/Week-1-React-2019/passing-data-to-ticket-detail-updated.jpg)
 
 Let's start with the diagram on the left. If `TicketControl` holds our shared state, it would need to be passed through `TicketList` and `Ticket` before it reaches `TicketDetail`. That's a lot of props. There's a term for passing props through many components: **prop drilling**. If possible, it should be avoided — after all, the more components that have to pass down props, the more places our application could break down.
 
@@ -19,7 +19,7 @@ Meanwhile, in the diagram on the right, if we just pass data from `TicketControl
 
 For that reason, we can make our lives easier by updating our component diagram to look like this:
 
-![This diagram shows the updated Help Queue component diagram with the new TicketDetail component.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-1-React-2019/help-queue-with-new-ticket-control-and-ticket-detail-updated.jpg)
+![This diagram shows the updated Help Queue component diagram with the new TicketDetail component.](/images/React/Week-1-React-2019/help-queue-with-new-ticket-control-and-ticket-detail-updated.jpg)
 
 `TicketControl` will be able to pass props and state directly to `TicketDetail`. `TicketControl` also already has conditional rendering so we will just need to add one more conditional to determine whether `TicketDetail` should render instead of `TicketList` or `NewTicketForm`.
 

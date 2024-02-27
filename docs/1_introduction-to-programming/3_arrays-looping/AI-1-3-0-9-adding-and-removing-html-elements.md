@@ -35,7 +35,7 @@ Also notice that the `document.createElement()` method returns an empty paragrap
 
 Keep in mind that HTML element objects, like `HTMLParagraphElement` or `HTMLImageElement`, inherit functionality from multiple other objects. MDN offers a helpful graphic on the reference page for each HTML element object to show us this chain of inherited functionality. For example, if we look at [the `HTMLInputElement` reference page](https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement), we'll see this image in the initial description:
 
-![This image shows all of the objects that `HTMLInputElement` inherits functionality from.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/htmlinputelement-object-inheritance.png)
+![This image shows all of the objects that `HTMLInputElement` inherits functionality from.](/images/new-section2-js-and-web-browsers/htmlinputelement-object-inheritance.png)
 
 This tells us that some properties and methods are inherited from these objects:
 
@@ -131,7 +131,7 @@ In the following image, we've created a new p tag with the text `"This is a supe
 > document.querySelector("div").append(p);
 ```
 
-![This image shows the above code entered into the DevTools console and the newly added p tag on the webpage.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/code-to-add-p-tag-to-LHTP-homepage.png)
+![This image shows the above code entered into the DevTools console and the newly added p tag on the webpage.](/images/INTRO/week3-branching-looping-arrays/code-to-add-p-tag-to-LHTP-homepage.png)
 
 
 But how do we know where exactly this new paragraph has been added in the DOM? Did we add it inside of the div or after the div? We can use the DevTools Elements tab to inspect our HTML and find the exact location of the newly added paragraph. The following image shows the results of doing just that. 
@@ -143,7 +143,7 @@ Here's the breakdown of the different highlights in the image:
 * The inspector has done its job, by highlighting the HTML for the p tag in the DevTools console. This is circled in the orange rectangle. 
 * The green rectangle highlights the first div on the webpage. We have now verified that the code `document.querySelector("div").append(p);` actually adds the p tag to the inside of the div at the end.
 
-![This image shows the process of inspecting the newly added p tag with in the Elements tab of the DevTools console.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/using-elements-tab-finding-newly-added-p-tag.png)
+![This image shows the process of inspecting the newly added p tag with in the Elements tab of the DevTools console.](/images/INTRO/week3-branching-looping-arrays/using-elements-tab-finding-newly-added-p-tag.png)
 
 ### `Element.prepend()`
 

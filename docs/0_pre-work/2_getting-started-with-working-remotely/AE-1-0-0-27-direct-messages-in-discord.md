@@ -17,15 +17,15 @@ In order to DM with other students, you first need to be friends in Discord. In 
 
 To add someone as your friend in Discord, right click their Discord name and select _Add Friend_. In the example below, Brooke has right-clicked Cathy’s name and a menu has popped up.
 
-!["Add friend" is showing in the menu in Discord.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/remote_images_2021/add-friend-in-discord.png)
+!["Add friend" is showing in the menu in Discord.](/images/INTRO/week1-html-css/remote_images_2021/add-friend-in-discord.png)
 
 Alternatively, you can also add friends from your _Home_ screen, which tracks direct messages, friends, and people on the server. To navigate to your _Home_ screen, click the Discord icon at the top left hand corner of the screen. (It looks like a video game controller.)
 
-![The Discord icon is in the top left hand corner of the screen.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/remote_images_2021/home-discord-image.png)
+![The Discord icon is in the top left hand corner of the screen.](/images/INTRO/week1-html-css/remote_images_2021/home-discord-image.png)
 
 You'll then be able to view your current friends, see friend requests, and add friends.
 
-![The menu shows options related friends that will be discussed below.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/remote_images_2021/discord-friends-menu.png)
+![The menu shows options related friends that will be discussed below.](/images/INTRO/week1-html-css/remote_images_2021/discord-friends-menu.png)
 
 * _Online_ shows the friends which are currently online.
 
@@ -44,15 +44,15 @@ You'll then be able to view your current friends, see friend requests, and add f
 
 To start a group DM (or to DM with anyone, including your pair), click on the Discord icon in the upper left corner.
 
-![The Discord icon is in the top left hand corner of the screen.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/remote_images_2021/home-discord-image.png)
+![The Discord icon is in the top left hand corner of the screen.](/images/INTRO/week1-html-css/remote_images_2021/home-discord-image.png)
 
 Once you're on your _Home_ screen, you'll be able to start a conversation with another person or create a group DM. Find and click the `+` icon next to _DIRECT MESSAGES_. If you hover over it, a message will pop up that says _Create DM_.
 
-![Click on the + icon next to DIRECT MESSAGES in the Home screen.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/remote_images_2021/click-on-dm-plus-icon.png)
+![Click on the + icon next to DIRECT MESSAGES in the Home screen.](/images/INTRO/week1-html-css/remote_images_2021/click-on-dm-plus-icon.png)
 
 A window will pop up listing all of your friends on the Discord server. Select the checkbox next to a person's user name to add them to the group DM. When you are done, select _Create Group DM_.
 
-![Click the "Create Group DM" button.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/remote_images_2021/create-group-dm.png)
+![Click the "Create Group DM" button.](/images/INTRO/week1-html-css/remote_images_2021/create-group-dm.png)
 
 When you create a group DM for your dev team or any other groups you might be working with (such as on a team project), make sure that _everyone_ in the group is included. This applies even when you think you might only need to communicate with a few people in a group. There are several reasons for this:
 

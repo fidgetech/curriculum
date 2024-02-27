@@ -15,7 +15,7 @@ However, even with these facts in place, it's often hard for Epicodus students t
 
 Here's one more motivation — the commits and repositories we make are tracked on our Github profile. These are collectively called **GitHub contributions**. You can see a calendar view of your GitHub contributions by navigating to [Github](https://github.com/), signing in and clicking on your avatar in the upper right corner of the screen. Select "Your Profile" from the dropdown.
 
-![Select "Your profile" from the dropdown in the upper right.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/gh-contributions-lesson/your-gh-profile.png)
+![Select "Your profile" from the dropdown in the upper right.](/images/INTRO/week1-html-css/Week-1-2020-images/gh-contributions-lesson/your-gh-profile.png)
 
 You'll see a graph that measures all of your GitHub contributions over the course of the year. Unless you were using GitHub regularly before you started Epicodus, you'll likely only have a few commits so far. This is totally fine and expected. However, over the course of your time at Epicodus, you will make hundreds — likely even thousands — of commits.
 
@@ -23,9 +23,9 @@ Here are the contributions of two graduates from the same Epicodus cohort. Their
 
 If you take a look, the first student made three times as many commits while they were a student at Epicodus.
 
-![This student has lots of contributions — about 1500.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/gh-contributions-lesson/many-contributions.png)
+![This student has lots of contributions — about 1500.](/images/INTRO/week1-html-css/Week-1-2020-images/gh-contributions-lesson/many-contributions.png)
 
-![This student doesn't have as many contributions — about 500.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/gh-contributions-lesson/few-contributions.png)
+![This student doesn't have as many contributions — about 500.](/images/INTRO/week1-html-css/Week-1-2020-images/gh-contributions-lesson/few-contributions.png)
 
 Based on the commit histories above, which of these students do you think did more work? And just as importantly, which of these students was more diligent and thorough?
 

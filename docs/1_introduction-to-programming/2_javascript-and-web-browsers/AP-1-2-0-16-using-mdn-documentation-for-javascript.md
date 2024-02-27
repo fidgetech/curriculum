@@ -48,13 +48,13 @@ Also note that the image below highlights two additional features located in the
 
 The light/dark theme and search features are on every page of MDN.
 
-![This image shows the homepage of MDN, highlighting the References menu tab, the JavaScript reference menu option, the search feature, and the light/dark theme feature](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/using-documentation/mdn_homepage_options.png)
+![This image shows the homepage of MDN, highlighting the References menu tab, the JavaScript reference menu option, the search feature, and the light/dark theme feature](/images/using-documentation/mdn_homepage_options.png)
 
 ### Working with the JavaScript Reference
 
 Once on the JavaScript References homepage, note the left vertical menu bar. Here there will be links to tutorials and references. Scroll down to find the references section — this is the documentation that we'll primarily be working with. We've highlighted the start of this section with a green square and an arrow in the image.
 
-![This image shows where the "references" section starts in the left vertical menu bar](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/using-documentation/mdn_javascript_reference_section.png)
+![This image shows where the "references" section starts in the left vertical menu bar](/images/using-documentation/mdn_javascript_reference_section.png)
 
 ## Tips to Using MDN
 ---
@@ -69,7 +69,7 @@ MDN has great search functionality! Check out the image below that shows a searc
 
 If we click the last option, we'll be taken to a search page with more search results. However, in the first two search hits for "uppercase string", we have new, unfamiliar syntax, so let's cover that next.
 
-![This image shows a search query of "uppercase string" on MDN.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/using-documentation/mdn_site_search_for_upper_case_string.png)
+![This image shows a search query of "uppercase string" on MDN.](/images/using-documentation/mdn_site_search_for_upper_case_string.png)
 
 ### Understanding `prototype`
 
@@ -127,7 +127,7 @@ There are 6 Number methods and 33 String methods (specifically instance methods)
 
 Note the left vertical sidebar menu — here we can see an overview of every topic covered on this page. Scroll down on this menu bar and we'll find a section called "Methods". In the image below, we've highlighted the start of the string "Methods" section in green:
 
-![This image shows the "Methods" section highlighted in green.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/using-documentation/methods_in_mdn_vertical_left_sidebar_menu.png)
+![This image shows the "Methods" section highlighted in green.](/images/using-documentation/methods_in_mdn_vertical_left_sidebar_menu.png)
 
 In the left sidebar menu we can view all methods at a glance by name. 
 
@@ -145,7 +145,7 @@ See the image below that shows these icons applied to three methods:
 
 We recommend staying away from deprecated, experimental, and non-standard methods while you are learning JavaScript. However, it's up to you if you want to explore more.
 
-![This image shows an example of deprecated, experimental and non-standard methods.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/using-documentation/deprecated_experimental_and_nonstandard_MDN_icons.png)
+![This image shows an example of deprecated, experimental and non-standard methods.](/images/using-documentation/deprecated_experimental_and_nonstandard_MDN_icons.png)
 
 ### Features of MDN Reference Pages for Methods
 
@@ -170,7 +170,7 @@ Using the image below of the console on the `String.prototype.toUpperCase()` ref
 * **Execute or reset our code**: The blue box highlights two buttons: "Run" to execute our code or "Reset" to set the console to have its original demo code in it.
 * **View results**: The orange box highlights the output area where the results of running our code goes. 
 
-![This image shows the console and highlights the different parts of it with colored boxes.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/using-documentation/features_of_MDN_consoles.png)
+![This image shows the console and highlights the different parts of it with colored boxes.](/images/using-documentation/features_of_MDN_consoles.png)
 
 <br />
 
@@ -178,7 +178,7 @@ Using the image below of the console on the `String.prototype.toUpperCase()` ref
 
 Optionally, watch the gif below that demonstrates how to use the console.
 
-![This gif shows how to use the MDN console: executing the existing demo code, chaining .toLowerCase() onto the .toUpperCase() method call, and adjusting the receiver of the method call.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/using-documentation/using-MDN-console.gif)
+![This gif shows how to use the MDN console: executing the existing demo code, chaining .toLowerCase() onto the .toUpperCase() method call, and adjusting the receiver of the method call.](/images/using-documentation/using-MDN-console.gif)
 
 #### What is `console.log`?
 
@@ -200,7 +200,7 @@ We'll revisit `console.log()` in future lessons and learn how we can use it to d
 
 When you are in a rabbit hole, you are jumping from one concept to the next, to the next. This is really easy to do when referencing documentation. We may initially reference the documentation to learn about a specific method. In the process, we see new terminology and go to investigate it. This in turn leads us to more new terminology, concepts, and questions that we investigate. And here we are far down a rabbit hole.
 
-![A meme about getting into a rabbit hole on the internet, featuring Alice in Wonderland looking down a rabbit hole](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/using-documentation/rabbit-holes.jpg)
+![A meme about getting into a rabbit hole on the internet, featuring Alice in Wonderland looking down a rabbit hole](/images/using-documentation/rabbit-holes.jpg)
 
 Rabbit holes can be good and bad. The good is learning about new things. The bad is getting overwhelmed and lost, and potentially not understanding what you originally were trying to look up. It's at this point that I want to remind you that **you don't need to know everything about how JavaScript works in order to use JavaScript**.
 
@@ -212,7 +212,7 @@ So, be patient with yourself. As you learn JavaScript and how to use MDN's docum
 
 Doing a search on Google or another search engine can help you quickly access MDN. If you want to target MDN, make sure to include "mdn" in your search query. See the example below, where we've updated our previous example search query: "uppercase string mdn".
 
-![This image shows a search query of "uppercase string mdn" on Google and the first two returns are resources on MDN.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/using-documentation/using_google_to_access_mdn.png)
+![This image shows a search query of "uppercase string mdn" on Google and the first two returns are resources on MDN.](/images/using-documentation/using_google_to_access_mdn.png)
 
 ### Other Links to Specific Documentation
 

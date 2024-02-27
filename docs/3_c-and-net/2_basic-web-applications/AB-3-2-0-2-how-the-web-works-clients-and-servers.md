@@ -70,7 +70,7 @@ Then, when we interact with the site again by clicking a link or navigating to a
 
 This process we've just discussed can also be visualized in the following diagram:
 
-![Client-Server Process](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/web-clients-and-servers/Web+Clients+and+Servers+Diagram.png)
+![Client-Server Process](/images/SHARED/web-clients-and-servers/Web+Clients+and+Servers+Diagram.png)
 
 ## Other Client Types
 ---

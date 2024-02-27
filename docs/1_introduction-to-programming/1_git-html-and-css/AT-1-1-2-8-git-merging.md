@@ -23,19 +23,19 @@ In the last lesson, we created a website to practice branching together. It curr
 
 The `main` branch looks like this:
 
-![master-version](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/test-site-blue-headers.png)
+![master-version](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/test-site-blue-headers.png)
 
 `blue_theme` was branched off of `main`. It contains one possible set of CSS rules for our site. They look like this:
 
-![blue-version](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/test-site-blue-theme.png)
+![blue-version](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/test-site-blue-theme.png)
 
 `red_theme` was also branched from `main`. It contains an alternate set of CSS rules to style our site. They make our site look like this:
 
-![red-version](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/red-theme-with-sans-serif.png)
+![red-version](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/red-theme-with-sans-serif.png)
 
 The commits across all branches should look something like this:
 
-![project-flowchart](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/flow-chart-3.png)
+![project-flowchart](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/flow-chart-3.png)
 
 Now that we have two different options in place, we can decide which branch's styles we like best, and merge it into `main`.
 
@@ -124,7 +124,7 @@ Notice that the two most recent commits from `red_theme` are now part of the com
 
 The commit structure of our project across all branches currently looks like this:
 
-![branches-with-merged-commits](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/flow-chart-4.png)
+![branches-with-merged-commits](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/flow-chart-4.png)
 
 Notice that merging `red_theme` with `main` has brought all commits previously exclusive to `red_theme` here in `main`. Also, notice that the `red_theme` commits don't instantly disappear when we merge them into `main`. They still exist in the `red_theme` branch.
 

@@ -220,7 +220,7 @@ Now, we need to actually get the values from the form. With the Mad Libs project
 "Mohammed"
 ```
 
-![This image shows the Mad Libs website and the DevTools console with the above code input into it.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/getting-form-input-value.png)
+![This image shows the Mad Libs website and the DevTools console with the above code input into it.](/images/new-section2-js-and-web-browsers/getting-form-input-value.png)
 
 In the above example, I've targeted the first HTML input element with `document.getElementById("person1Input")` and then I've accessed the `value` property of the returned `input` object. Let's break that down into steps.
 

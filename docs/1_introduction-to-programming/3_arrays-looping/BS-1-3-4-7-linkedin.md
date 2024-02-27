@@ -86,7 +86,7 @@ Recruiters often find candidates through connections and endorsements. Add conne
 
 Once you're connected, ask your classmates and friends to endorse you for the skills you've listed on your profile. They can click the _+_ button next to the skill. Having more endorsements for the skills recruiters are looking for will make it more likely they will find you.
 
-![An example of endorsements on LinkedIn so recruiters can find you.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Soft+Skills+&+Career+Prep/HelpRecruitersFindYou.png)
+![An example of endorsements on LinkedIn so recruiters can find you.](/images/Soft+Skills+&+Career+Prep/HelpRecruitersFindYou.png)
 
 #### Connect with people in your field
     
@@ -102,11 +102,11 @@ Creating your profile is a great first step. But it's important you also remain 
 
 - **Follow hashtags on subjects that interest you.** Anytime someone uses the hashtag you follow, it will appear in your feed. If you really like the post, you can share it yourself or simply like the post. To follow hashtags, start in the search bar on LinkedIn and type the pound key '#' followed by any topic you're interested in. For example: #startups #remoteworkers #javascript
 
-![This image shows how we can type pound key to follow hashtags.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Soft+Skills+&+Career+Prep/FollowHashtags.png)
+![This image shows how we can type pound key to follow hashtags.](/images/Soft+Skills+&+Career+Prep/FollowHashtags.png)
 
 - **Join groups of people that have shared interests.** Often people post jobs in these groups to focus their candidate search. Find groups by typing a subject in the search bar and wait for a dropdown to appear. You should see the subject _in Groups_ the third option down.
 
-![This image shows a dropdown with the "groups" subject as the third option.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Soft+Skills+&+Career+Prep/JoinGroups.png)
+![This image shows a dropdown with the "groups" subject as the third option.](/images/Soft+Skills+&+Career+Prep/JoinGroups.png)
 
 #### Post, Share, Like, Comment
 

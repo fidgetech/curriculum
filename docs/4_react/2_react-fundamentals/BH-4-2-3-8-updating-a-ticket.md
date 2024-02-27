@@ -9,7 +9,7 @@ In this lesson, we will add the final piece of CRUD functionality to our Help Qu
 
 Before we add an `EditTicketForm` component, we will need to do a bit more planning. In the interest of keeping things simple, our new component will be a direct child of `TicketControl`. Here's an updated diagram of our components:
 
-![Our component tree will have our new `EditTicketForm` as a direct child of `TicketControl`.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-1-React-2019/adding-editticketform-component-updated.jpg)
+![Our component tree will have our new `EditTicketForm` as a direct child of `TicketControl`.](/images/React/Week-1-React-2019/adding-editticketform-component-updated.jpg)
 
 There are a few benefits to this approach:
 

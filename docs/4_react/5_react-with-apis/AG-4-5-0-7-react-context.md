@@ -19,7 +19,7 @@ Context is a mechanism that allows developers to **share data** in a React appli
 
 Check out the following visualization that demonstrates the difference.
 
-![Data flow between React context and props.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-5-React-2020/context-vs-props-data-flow.png)
+![Data flow between React context and props.](/images/React/Week-5-React-2020/context-vs-props-data-flow.png)
 
 In both cases, data flows down, but the power of context comes in its ability to share data between two components without having to explicitly pass data between any intermediary components. Because of this, context helps developers avoid prop drilling when data is shared across many components. 
 
@@ -58,17 +58,17 @@ Context should only be used in two cases:
 
 In theory, in each of the above cases many components will need the same information in order to function. To help us understand the two use cases for context, let's visualize them. Let's pretend we have an application with a component tree that looks like this:
 
-![An example component tree with `App.js` as the root component and many nested components.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-5-React-2020/context-application-state-1.png)
+![An example component tree with `App.js` as the root component and many nested components.](/images/React/Week-5-React-2020/context-application-state-1.png)
 
 The root component of our tree is `App.js` and each component in the tree is represented by a square. Let's first visualize what an application that uses globally shared data might look like. We'll update our app's component tree to fill in components that use the global data with the color yellow:
 
-![An example component tree that uses shared data that's considered global.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-5-React-2020/context-application-state-2-global.png)
+![An example component tree that uses shared data that's considered global.](/images/React/Week-5-React-2020/context-application-state-2-global.png)
 
 As we can see, "global" data in a React app doesn't mean that every component uses that data, but that _most_ or _many_ components do. This is a great use case for React context.
 
 The other use case for context is when multiple components that are very far apart in the component tree need access to the same data. Let's visualize what that looks like: 
 
-![An example component tree that uses shared data that is used by multiple components that are very far a part in the component tree.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-5-React-2020/context-application-state-3-multiple-remote.png)
+![An example component tree that uses shared data that is used by multiple components that are very far a part in the component tree.](/images/React/Week-5-React-2020/context-application-state-3-multiple-remote.png)
 
 In the above example, the components that use the shared data are in a light purple color, and they are pretty far apart in the component tree. Using context in the above example will help us avoid lifting data (as in ["lifting state up"](https://reactjs.org/docs/lifting-state-up.html)) to the nearest ancestor component (`App.js`) and passing props down through many components (also called "prop drilling") to get the shared data where it needs to go.
 

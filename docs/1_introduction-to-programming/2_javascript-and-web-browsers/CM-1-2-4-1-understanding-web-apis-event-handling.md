@@ -45,7 +45,7 @@ To explore other properties and methods from the `Event` object, visit its docum
 
 As noted above, there are many object types that inherit from the `Event` object type. For example, when a form submission event happens, this event is represented by an object type called `SubmitEvent`. Take a look at the following image of the homepage of the [`SubmitEvent`](https://developer.mozilla.org/en-US/docs/Web/API/SubmitEvent):
 
-![This is an image of the top of the MDN `SubmitEvent` documentation, which includes a diagram indicating that `SubmitEvent` inherits from `Event`.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/submit-event-inheritance.png)
+![This is an image of the top of the MDN `SubmitEvent` documentation, which includes a diagram indicating that `SubmitEvent` inherits from `Event`.](/images/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/submit-event-inheritance.png)
 
 The diagram in the above image communicates the chain of inheritance: `SubmitEvent` inherits from `Event`. This is just another example of two Web API interfaces that share functionality through inheritance. Many Web APIs do this and it's something to keep in mind as you use documentation online. If you want a more in depth review of inheritance, [visit this lesson]( https://old.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/understanding-web-apis-interfaces-object-types-and-inheritance).
 

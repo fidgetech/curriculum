@@ -245,4 +245,4 @@ Built-in C# and .NET classes and methods often use overloads. For example, if we
 
 As the image below shows, we can quickly get a sense of all overloads for `Console.WriteLine()` by looking at the "In this article" right-hand menu, or we can start scrolling on the main page to look through the "Overloads" section.
 
-![Documentation for `Console.WriteLine()` that shows multiple overloads for the method.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/Section_One/overloaded-methods-on-MS-docs.png)
+![Documentation for `Console.WriteLine()` that shows multiple overloads for the method.](/images/c%23/Section_One/overloaded-methods-on-MS-docs.png)

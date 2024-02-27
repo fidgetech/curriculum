@@ -162,11 +162,11 @@ We'll use `Array.prototype.forEach()` to loop through the checkbox selections. B
 
 To check the type of the `userSelections` variable, we should add a breakpoint to the line right after it. This is actually the last line of the `handleForm()` function.
 
-![This images shows that we add a breakpoint after we create the `userSelections` variable.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/checkboxes-using-breakpoints.png)
+![This images shows that we add a breakpoint after we create the `userSelections` variable.](/images/INTRO/week3-branching-looping-arrays/checkboxes-using-breakpoints.png)
 
 Then, let's submit the form. We'll see the "Paused in debugger" message, and we should be able to hover over the `userSelections` variable to determine the type. 
 
-![This image shows that we can hover over the `userSelections` variable to determine that it is a `NodeList` object.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/checkboxes-finding-nodelist-type.png)
+![This image shows that we can hover over the `userSelections` variable to determine that it is a `NodeList` object.](/images/INTRO/week3-branching-looping-arrays/checkboxes-finding-nodelist-type.png)
 
 As the image shows, we can tell we're dealing with a `NodeList` object. Every element in the `NodeList` object is an `HTMLInputElement` object. The number of elements inside of the `NodeList` object will vary based on how many checkbox inputs we've selected before submitting the form. In this case, I've selected two transportation options: carpooling and walking.
 
@@ -229,7 +229,7 @@ The above callback function will be run for every element in the array. The `ele
 
 If we now save our project, refresh the browser, and resubmit the form, we'll see our selections at the bottom of the page! Cool!
 
-![This image shows the working project: we've selected checkbox options, submitted the form, and we see the results printed to the page.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/working-transportation-survey.png)
+![This image shows the working project: we've selected checkbox options, submitted the form, and we see the results printed to the page.](/images/INTRO/week3-branching-looping-arrays/working-transportation-survey.png)
 
 ### Why Use a Loop?
 

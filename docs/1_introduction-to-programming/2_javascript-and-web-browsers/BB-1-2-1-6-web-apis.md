@@ -30,7 +30,7 @@ It's normal to feel overwhelmed with a bunch of new information. Talk about what
 ## The DOM, `window` and `document` Objects, and Events Are Web APIs
 ---
 
-![This image shows the References menu on the MDN homepage expanded, and the option for Web APIs highlighted.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/webapis-on-mdn.png)
+![This image shows the References menu on the MDN homepage expanded, and the option for Web APIs highlighted.](/images/new-section2-js-and-web-browsers/webapis-on-mdn.png)
 
 The DOM, the `window` object and `document` objects are a part of the structures and tools that web browsers make available to web developers. We call this collection of structures and tools **Web APIs**. Let's break down what this means:
 

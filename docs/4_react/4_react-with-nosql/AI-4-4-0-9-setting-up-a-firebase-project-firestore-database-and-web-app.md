@@ -27,13 +27,13 @@ In the console, we will have the option to _Create a Project_. [According to the
 
 Click on _Create a Project_. When we do this, we'll be taken to a page where we can name our project. We'll call our project `help-queue`, and we'll select the checkbox that confirms that we'll use our project appropriately.
 
-![Firebase screen for naming a project](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firebase-project-step-1-name.png)
+![Firebase screen for naming a project](/images/React/Week-4-React-2020/firebase-project-step-1-name.png)
 
 The next step will ask us if we want to use Google Analytics in our project. There's a toggle button _Enable Google Analytics for this project_ that is on. We will click the toggle button to disable Google Analytics, unless you'd like to add it to your own project. It won't affect our project development. If you are planning to build out your project long term, you may want to add this feature.
 
 Clicking continue on the Google Analytics page will prompt Firebase to create your project. Once complete, click continue again to be taken to the homepage of our newly created Help Queue project.
 
-![Success message for creating a Firebase project.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firebase-project-is-ready.png)
+![Success message for creating a Firebase project.](/images/React/Week-4-React-2020/firebase-project-is-ready.png)
 
 ### Navigating the Help Queue Project Homepage
 
@@ -46,7 +46,7 @@ There are quite a few options from the Help Queue project homepage, and we'll re
 * Now, notice the cog symbol to the right of the _Project Overview_ button (circled in red). This is where we'll find our project settings. We'll revisit our project settings as needed to get information about our project's configuration.
 * In the middle of the homepage we'll see the message "Get started by adding Firebase to your app". This area gives us options to configure our firebase to connect to a web app, an Android app, or an iOS app. This is something we'll do later in this lesson. The `</>` icon with the black circle represents web apps. 
 
-![The Help Queue project homepage on Firebase, and the various navigation options.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firebase-project-homepage-navigation.png)
+![The Help Queue project homepage on Firebase, and the various navigation options.](/images/React/Week-4-React-2020/firebase-project-homepage-navigation.png)
 
 ## Step 3: Set Up Firestore
 ---
@@ -55,17 +55,17 @@ Next, we will set up our Firestore database. For more information on Firestore, 
 
 One the homepage of our Help Queue project, click on the _Build_ tab in the left-hand  menu, and then select _Firestore Database_:
 
-![Click on "Firestore Database" in the "Build" drop-down menu.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firebase-click-on-firestore-database.png)
+![Click on "Firestore Database" in the "Build" drop-down menu.](/images/React/Week-4-React-2020/firebase-click-on-firestore-database.png)
 
 You'll be taken to the following page:
 
-![This image shows the screen for adding Firebase to an application. The button for adding Firebase to a web application is circled.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/cloud-firestore-click-create-database.png)
+![This image shows the screen for adding Firebase to an application. The button for adding Firebase to a web application is circled.](/images/React/Week-4-React-2020/cloud-firestore-click-create-database.png)
 
 Click on the _Create database_ button. 
 
 A popup will appear:
 
-![Click on _Start in Test Mode_.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/start-in-production-mode.png)
+![Click on _Start in Test Mode_.](/images/React/Week-4-React-2020/start-in-production-mode.png)
 
 Within this popup, do the following:
 
@@ -82,11 +82,11 @@ Next, we need to add Firebase to our Help Queue application. First, head back to
 
 Then, click on the `</>` icon from underneath the message "Get started by adding Firebase to your app". In the image below, this icon is circled in black.
 
-![This image shows the screen for adding Firebase to an application. The icon for adding Firebase to a web application is circled.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firebase-step-4.png)
+![This image shows the screen for adding Firebase to an application. The icon for adding Firebase to a web application is circled.](/images/React/Week-4-React-2020/firebase-step-4.png)
 
 When we click on the `</>` button, we'll be taken to a page that reads _Add Firebase to your web app_.
 
-![This image shows the screen for giving our Firebase project a nickname.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/register-app-web.png)
+![This image shows the screen for giving our Firebase project a nickname.](/images/React/Week-4-React-2020/register-app-web.png)
 
 We'll need to enter an app nickname. We'll call ours `help-queue-web`. The nickname we choose should be something that we can differentiate from other apps that we add to our Help Queue Firebase project. We don't have other apps right now, but this could be a mobile app, or yet another web app. 
 
@@ -98,7 +98,7 @@ Click on _Continue to console_, which will take us back to the Help Queue projec
 
 Anytime we need to access the firebase configuration script, we can do so by clicking on the gear icon to the right of _Project Overview_ in the upper-left corner of the screen. Then, click on _Project settings_, which will take you to a page which includes the script (make sure to scroll down on that page). See the image below for the location of _Project settings_:
 
-![You can access _Project settings_ in the upper left-hand corner of the Firebase console.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firebase-project-settings.png)
+![You can access _Project settings_ in the upper left-hand corner of the Firebase console.](/images/React/Week-4-React-2020/firebase-project-settings.png)
 
 At this point, we've finished all the steps for setting up our Firebase project. In the next lesson, we'll integrate Firebase with our Help Queue application. 
 
@@ -111,7 +111,7 @@ Let's revisit our database by clicking on the _Firestore Database_, from the _Bu
 
 We can update our database's read/write rules by clicking the _Rules_ tab as pictured in the image below: 
 
-![Image shows tabs for database. The rules tab is circled.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firestore-database-rules.png)
+![Image shows tabs for database. The rules tab is circled.](/images/React/Week-4-React-2020/firestore-database-rules.png)
 
 These are the current rules:
 

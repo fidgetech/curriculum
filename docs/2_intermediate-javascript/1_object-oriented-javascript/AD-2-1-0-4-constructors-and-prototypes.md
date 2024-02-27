@@ -351,7 +351,7 @@ So, all instances that we create with the `String` constructor inherit from the 
 
 Note that we can explore this prototypal inheritance in the DevTools as well. In the following image, the blue square highlights the properties that belong to `testGreeting2` (the string instance) and the green square highlights the properties that `testGreeting2` inherits from the `String` object type.
 
-![This image highlights the properties that belong to the `testGreeting2` instance, and which properties it inherits from the `String` object.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/OOP-JS/string-instance-inheriting-from-prototype.png)
+![This image highlights the properties that belong to the `testGreeting2` instance, and which properties it inherits from the `String` object.](/images/OOP-JS/string-instance-inheriting-from-prototype.png)
 
 Prototypal inheritance is what allows every string we create (with or without the constructor function) to have access to the same set of methods. Note that _we_ can also add to the prototype object!
 
@@ -429,11 +429,11 @@ Woof!
 
 Just like we did with the string `testGreeting2`, we can view the properties of `myPuppy` in the DevTools console, and see which ones are inherited through the prototype object and which belong to the instance:
 
-![This image highlights which properties belong to the instance `myPuppy` and which are inherited from the `Dog` object type.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/OOP-JS/dog-instance-inheriting-from-dog-type.png)
+![This image highlights which properties belong to the instance `myPuppy` and which are inherited from the `Dog` object type.](/images/OOP-JS/dog-instance-inheriting-from-dog-type.png)
 
 We can also access the prototype object through the `__proto__` property:
 
-![This image shows the prototype that `myPuppy` inherits from the `Dog` object type, which includes the `Dog()` constructor and the two methods `Dog.prototype.speak()` and `Dog.prototype.humanYears()`.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/OOP-JS/myPuppy-proto-property.png)
+![This image shows the prototype that `myPuppy` inherits from the `Dog` object type, which includes the `Dog()` constructor and the two methods `Dog.prototype.speak()` and `Dog.prototype.humanYears()`.](/images/OOP-JS/myPuppy-proto-property.png)
 
 In summary, every time we create a new dog using the `new` keyword, it calls the `Dog()` constructor, which provides the blueprint for creating an instance of the `Dog` type, giving it certain properties. The new instance of the `Dog` type also automatically gains access to all methods defined on the shared `Dog` prototype. 
 
@@ -456,7 +456,7 @@ Being familiar with the `Object` type is important, because all JavaScript objec
 
 In this first example, we'll see that an object literal gets its functionality from the `Object` type:
 
-![This images shows the results from creating an object literal with `const obj = {}`. We then call `obj.__proto__` and we're able to see that `obj` inherits functionality from the `Object` type.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/OOP-JS/object-prototype.png)
+![This images shows the results from creating an object literal with `const obj = {}`. We then call `obj.__proto__` and we're able to see that `obj` inherits functionality from the `Object` type.](/images/OOP-JS/object-prototype.png)
 
 Note, too, that we can confirm the name of the constructor for our object `obj` by entering the following:
 
@@ -469,13 +469,13 @@ And remember that the name of a constructor matches the name of the object type.
 
 If an object inherits functionality from the `Object` type, what does `Object` inherit its functionality from? We can move up the chain of prototypes by simply accessing the next `__proto__` property: `obj.__proto__.__proto__;`. Let's try entering that into the console:
 
-![This image shows the result of calling `obj.__proto__.__proto__;` which returns `null`, which designates that we've reached the end of the chain of inheritance.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/OOP-JS/null-is-the-end-of-the-prototype-chain.png)
+![This image shows the result of calling `obj.__proto__.__proto__;` which returns `null`, which designates that we've reached the end of the chain of inheritance.](/images/OOP-JS/null-is-the-end-of-the-prototype-chain.png)
 
 Notably, we get `null` returned to us. So, what does this mean? Well, when we get `null` returned from accessing a `__proto__` property, it means we've reached the end of the chain of inheritance. 
 
 Let's see another example with a string. As we'll see, an instance of a string inherits from the `String` object type, which itself inherits from the `Object` object type. In the following example, we'll use a string literal.
 
-![This image shows the result of doing the following: (1) creating a string with `const myCat = "Kitty Poppins;"`, (2) chaining and accessing `__proto__` properties, first with `myCat.__proto__`, then with `myCat.__proto__.__proto__`, and finally with `myCat.__proto__.__proto__.__proto__`. This shows how `myCat` inherits from `String`, which inherits from `Object`.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/OOP-JS/string-chain-of-inheritance.png)
+![This image shows the result of doing the following: (1) creating a string with `const myCat = "Kitty Poppins;"`, (2) chaining and accessing `__proto__` properties, first with `myCat.__proto__`, then with `myCat.__proto__.__proto__`, and finally with `myCat.__proto__.__proto__.__proto__`. This shows how `myCat` inherits from `String`, which inherits from `Object`.](/images/OOP-JS/string-chain-of-inheritance.png)
 
 There's a couple things to note in the above code snippet:
 
@@ -484,7 +484,7 @@ There's a couple things to note in the above code snippet:
 
 Now let's try this same process of accessing the chain of inheritance for our `Dog` object. Similar to the example with the string, we'll see that an instance of the `Dog` type (`myPuppy`) inherits from the `Dog` object type, which itself inherits from the `Object` object type, which itself does not inherit from anything and ends the chain of inheritance. 
 
-![This image shows the result of doing the following: (1) creating a dog object with `let myPuppy = new Dog("Ernie", ["brown", "black"], 3);`, (2) chaining and accessing `__proto__` properties, first with `myPuppy.__proto__`, then with `myPuppy.__proto__.__proto__`, and finally with `myPuppy.__proto__.__proto__.__proto__`. This shows how `myPuppy` inherits from `Dog`, which inherits from `Object`.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/OOP-JS/dog-chain-of-inheritance.png)
+![This image shows the result of doing the following: (1) creating a dog object with `let myPuppy = new Dog("Ernie", ["brown", "black"], 3);`, (2) chaining and accessing `__proto__` properties, first with `myPuppy.__proto__`, then with `myPuppy.__proto__.__proto__`, and finally with `myPuppy.__proto__.__proto__.__proto__`. This shows how `myPuppy` inherits from `Dog`, which inherits from `Object`.](/images/OOP-JS/dog-chain-of-inheritance.png)
 
 ## Summary
 ---

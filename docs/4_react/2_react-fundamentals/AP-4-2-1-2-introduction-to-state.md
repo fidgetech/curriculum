@@ -36,7 +36,7 @@ There are many challenges to working with shared state. For example, where shoul
 
 We'll demonstrate what this means with the following diagram.
 
-![The following diagram demonstrates how to lift state between multiple components](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-1-React-2019/state-diagram.jpg)
+![The following diagram demonstrates how to lift state between multiple components](/images/React/Week-1-React-2019/state-diagram.jpg)
 
 In this diagram, there are six different components. Let's say that component D and component E need access to shared state. The lowest common ancestor for those components is component B. In this case, we'd only need to lift this shared state to component B.
 

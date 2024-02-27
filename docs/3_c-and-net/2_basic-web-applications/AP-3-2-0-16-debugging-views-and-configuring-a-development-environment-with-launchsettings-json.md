@@ -9,7 +9,7 @@ Sometimes we have written a good program that compiles nicely. We build the proj
 
 Well, we can configure our ASP.NET Core app to run a service called [Developer Exception Page](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-6.0#developer-exception-page) that provides a more detailed error message when a webpage fails to load due to a server error. To get a sense of what these exception pages look like, check out the image below which shows an error in the Friend Letter project. On the left is the generic message from the browser, and on the right is the developer exception page that highlights the exact line of code that's throwing an error. 
 
-![A generic error message is pictured on the left and an error message via Developer Exception Pages is pictured on the right.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/Week+two/error-messages-aspnetcore.png)
+![A generic error message is pictured on the left and an error message via Developer Exception Pages is pictured on the right.](/images/c%23/Week+two/error-messages-aspnetcore.png)
 
 As the image shows, having access to the detailed error messages in Developer Exception Pages is clearly an important tool for debugging. 
 

@@ -61,7 +61,7 @@ To set this up on a Mac machine, we need to do the following:
 * Type in "shell command."
 * Click on "**Shell Command**: Install 'code' command in PATH".
 
-![The following image shows the command that needs ](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/prework/vs-code-shell-command.png)
+![The following image shows the command that needs ](/images/INTRO/prework/vs-code-shell-command.png)
 
 This will automatically install the `code` command so we can use it in the terminal. Note that in the image above it says "recently used" — this will only show up on your machine if you installed the `code` command recently.
 

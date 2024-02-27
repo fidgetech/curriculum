@@ -76,7 +76,7 @@ On the left of the Sources tab, we'll see our project's file tree. Open up the `
 
 Check the GIF below, which walks through the whole process — including adding breakpoints, which we'll discuss further in a moment.
 
-![First make sure you've chosen the right file to add a breakpoint to, then add the breakpoint.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/breakpoints-stepping-through.gif)
+![First make sure you've chosen the right file to add a breakpoint to, then add the breakpoint.](/images/new-section2-js-and-web-browsers/breakpoints-stepping-through.gif)
 
 In the GIF above, several things happen. After opening the Sources tab, we first ensure that we are looking at the correct file by selecting `scripts.js` in the left-hand window (the _Page_ tab within the _Sources_ tab). When we start creating projects with more JS files, it's especially useful to be able to switch between them in this window.
 
@@ -88,7 +88,7 @@ Notice that after we run line 23, the variable `operator` is still `undefined`! 
 
 We can use the `scripts.js` in the Sources tab to verify this. Check out the gif below that demonstrates this.
 
-![This gif shows how to edit the scripts.js in the Sources tab to try out different code to solve the first bug. Specifically, we change `vale` to `value`. Hovering over line 23 shows us the value returned from executing that code.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/breakpoints-fixing-error.gif)
+![This gif shows how to edit the scripts.js in the Sources tab to try out different code to solve the first bug. Specifically, we change `vale` to `value`. Hovering over line 23 shows us the value returned from executing that code.](/images/new-section2-js-and-web-browsers/breakpoints-fixing-error.gif)
 
 When we first hover over `document.querySelector("input[name='operator']:checked").vale;` the DevTools debugger tells us that `undefined` is returned (highlighted by the green square). 
 
@@ -106,13 +106,13 @@ Also, the breakpoint should always be added to the line right _after_ the line w
 
 With this in mind, an easier way to evaluate the values of `number1`, `number2`, and `operator` would be to set a breakpoint for the line afterwards. Check out the gif below that demonstrates this. 
 
-![This gif adds a breakpoint to line 25 `let result;`. In this case, using just one breakpoint lower in our scripts allows us to check all of the variables (`number1`, `number2`, and `operator`) from the code before it.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/breakpoints-using-line-25.gif)
+![This gif adds a breakpoint to line 25 `let result;`. In this case, using just one breakpoint lower in our scripts allows us to check all of the variables (`number1`, `number2`, and `operator`) from the code before it.](/images/new-section2-js-and-web-browsers/breakpoints-using-line-25.gif)
 
 As we can see in the gif, adding one breakpoint to line 25 (with `let result;`) lets us immediately see the values of all of the variables `number1`, `number2`, and `operator` (highlighted by the red square) right after we submit the form. 
 
 The last tip is that if there are multiple function calls on one line of code, we can optionally set a breakpoint for the additional function(s). Check out the gif below that demonstrates this. 
 
-![This gif shows how to add multiple breakpoints on one line.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/breakpoints-multiple-breakpoints-on-one-line.gif)
+![This gif shows how to add multiple breakpoints on one line.](/images/new-section2-js-and-web-browsers/breakpoints-multiple-breakpoints-on-one-line.gif)
 
 This just gives you a finer grained control. There likely won't be a lot need for that extra fine grained control in the applications you build at Epicodus, but that depends how you are writing your code (for example, if you are chaining multiple method calls) and where the bug is that you are trying to locate! 
 
@@ -126,7 +126,7 @@ Let's continue with the breakpoint on `let result;` on line 25 and see what happ
 
 Note that in the GIF below, we don't see the usual grayed out webpage and "Paused in debugger" message, even though we are in fact paused in debugger and have a breakpoint on line 25. This just seems to be an occasional glitch with DevTools. If this happens to you in your own debugging process and it's throwing you off, the best thing to do is to refresh the page and submit the form again.
 
-![This GIF shows the process of stepping through our scripts, line by line, starting with line 25. As we click through our scripts, we can see how the different statements get processed and ultimately see the value of the `result` variable.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/breakpoints-stepping-through-second-error.gif)
+![This GIF shows the process of stepping through our scripts, line by line, starting with line 25. As we click through our scripts, we can see how the different statements get processed and ultimately see the value of the `result` variable.](/images/new-section2-js-and-web-browsers/breakpoints-stepping-through-second-error.gif)
 
 When we first hit the breakpoint on line 25 `let result;`, we can see that the three variables `number1`, `number2`, and `operator` are all defined. `result` is not defined, because we haven't worked our way through the if/else branching statements. 
 
@@ -138,7 +138,7 @@ Then, we move through our scripts one line at a time. In total, we click the but
 
 Since all of our variables are defined and our if/else statement is working correctly, that points to an issue on line 36. A quick review of the line should reveal the bug in our code, but, let's try something else: taking this line of code and exploring it in the DevTools console. That's right, when actively in the debugger using breakpoints, we can call on and explore the variables in our scripts directly in the DevTools console.
 
-![This gif shows the process of solving the second bug. We first hover over variables in scripts.js when we're paused in the debugger. Then, we copy a line our scripts code and put it in the DevTools console to explore it more. In the DevTools console, we're able to spot the typo in the `innerText` property.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/breakpoints-exploring-second-error-in-console.gif)
+![This gif shows the process of solving the second bug. We first hover over variables in scripts.js when we're paused in the debugger. Then, we copy a line our scripts code and put it in the DevTools console to explore it more. In the DevTools console, we're able to spot the typo in the `innerText` property.](/images/new-section2-js-and-web-browsers/breakpoints-exploring-second-error-in-console.gif)
 
 As we can see from the gif, this bug is one of those tricky ones. A simple typo in the property name `inerText` makes JavaScript think that you are creating a brand new property, instead of mistakenly trying to access the `innerText` property of the HTML element. We can see in the debugger that JavaScript properly sets the value of the incorrect `inerText` property to `5`. We found that out by hovering over the variables and lines of code in `scripts.js` in the Sources tab. 
 
@@ -151,7 +151,7 @@ At the very end of the gif, we see that we are able to correct the typo and corr
 
 The not-so-great way to use DevTools' debugger is to drop a `debugger;` statement directly in our code where we want the code to stop. Not the code in the Source tab, but our code in VS Code! The image below shows a `debugger;` statement added to line 26 of our scripts.
 
-![This image shows a `debugger;` statement added to line 26 of our scripts.js file in VS Code.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/using-debugger-statement-in-code.png)
+![This image shows a `debugger;` statement added to line 26 of our scripts.js file in VS Code.](/images/new-section2-js-and-web-browsers/using-debugger-statement-in-code.png)
 
 When we refresh our website, open DevTools to the Sources tab, and submit our form again, our DevTools will stop the execution of our code right when it hits the `debugger;` statement and we'll be paused in debugger. Everything that we can do with breakpoints, we can also do via the `debugger;` statement.
 

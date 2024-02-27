@@ -73,7 +73,7 @@ Since React components are just functions, we can `console.log` these values, li
 
 Provider and consumer components wrap around the components that they are modifying to give and gain access to the context. Using the Help Queue as an example, if we wanted to provide `ThemeContext` data to our component tree, we might wrap `App.js` in `<ThemeContext.Provider>`, and any component that consumes that data would be wrapped with `<ThemeContext.Consumer>`:
 
-![The Help Queue component tree with ThemeContext provider and consumer components.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-5-React-2020/context-help-queue-component-tree-context-provider-consumer.png)
+![The Help Queue component tree with ThemeContext provider and consumer components.](/images/React/Week-5-React-2020/context-help-queue-component-tree-context-provider-consumer.png)
 
 As demonstrated in the component tree above, we can use as many consumer components as we need in our component tree. However, we'll use just one provider component that is lifted to the lowest common ancestor to all of the consumer components that consume the provider's data. 
 

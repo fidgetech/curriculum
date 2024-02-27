@@ -13,7 +13,7 @@ Let's add an image to our Help Queue. You can pick an image of your choice or si
 
 We've added a picture of tickets to our application as the image below shows:
 
-![Header component has a tickets image.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-1-React-2019/tickets-image.png)
+![Header component has a tickets image.](/images/React/Week-1-React-2019/tickets-image.png)
 
 It's not a stylistically impressive site — but it'll do for learning purposes.
 

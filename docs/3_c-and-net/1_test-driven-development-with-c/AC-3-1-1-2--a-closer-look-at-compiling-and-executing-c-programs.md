@@ -78,4 +78,4 @@ So in the end, our C# code gets compiled twice — once to the CLI, and a second
 
 Here's a diagram of how C# programs are compiled and executed to help you visualize the process:
 
-![A diagram of the process of writing, compiling, and running C# code.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/prework/c-sharp-compilation-and-execution.png)
+![A diagram of the process of writing, compiling, and running C# code.](/images/c%23/prework/c-sharp-compilation-and-execution.png)

@@ -43,7 +43,7 @@ The CSSOM is a Web API. Just like the DOM, the CSSOM is a specification that is 
 * **Web browsers create an object model of a website's CSS when it renders the webpage in the browser.** This object model is called the **CSSOM**, and it is made up of objects with properties and methods that we can use in our scripts to access and manipulate our webpage's CSS.
 * **The CSSOM specification describes the functionality that the CSS Object Model must include.** When we visit [the documentation for the CSSOM on MDN](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model) we can see all of the many interfaces (object types) that make up the functionality of the CSSOM.
  
-![This image is a graphic representation of the categorization of Web APIs into specifications and interfaces.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/webapi-specifications-and-interfaces.png)
+![This image is a graphic representation of the categorization of Web APIs into specifications and interfaces.](/images/INTRO/week3-branching-looping-arrays/webapi-specifications-and-interfaces.png)
  
 It can be overwhelming to wrap your head around all of the object types and specifications out there for Web APIs. Honestly, you really shouldn't know them all by name, or understand how all of the objects relate to each other. What's important to have is a basic conceptual understanding of Web APIs, which we've just outlined above. This will help you be able to better navigate MDN and write search queries, which ultimately will help you become a more resourceful developer.
  
@@ -101,7 +101,7 @@ Let's pause for a second. Do you have more than just two stylesheets? Maybe the 
  
 I have [a browser extension installed that creates a global dark theme](https://chrome.google.com/webstore/detail/dark-mode/dmghijelimhndkbmpgbldicpogfkceaj?hl=en) that I can toggle on or off for any web page I visit. This extension creates a dark mode on any webpage I visit by actually adding a new style sheet to my webpage. So, when I access `document.styleSheets` after I've served my Mad Libs project, I actually have three `CSSStyleSheet` objects:
  
-![This image shows the result of typing in `document.styleSheets` into the DevTools console: there's 3 separate `CSSStyleSheet` objects, each representing a different style sheet in our webpage.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/3-cssstylesheet-objects-with-madlibs.png)
+![This image shows the result of typing in `document.styleSheets` into the DevTools console: there's 3 separate `CSSStyleSheet` objects, each representing a different style sheet in our webpage.](/images/INTRO/week3-branching-looping-arrays/3-cssstylesheet-objects-with-madlibs.png)
 
 While I might have three stylesheets, you might just have two, or you might have four! The important implication here is that any user accessing our webpage can have any number of stylesheets, which means that the `styles.css` file that we want to access could be at any location in the list of stylesheets. We need to always keep this in mind during development.
 
@@ -391,7 +391,7 @@ So, let's do a review of the new objects types and properties that we've worked 
 
 Check out the following image that shows CSSOM object types as they relate to an actual CSS stylesheet. Take note that the CSS stylesheet in the image below is fictional, and does not belong to the Address Book project. 
 
-![This image shows all of the nested objects that we automatically are working with when we input `document.styleSheets[0]`.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/nested-css-rule-objects-CSSOM.png)
+![This image shows all of the nested objects that we automatically are working with when we input `document.styleSheets[0]`.](/images/INTRO/week3-branching-looping-arrays/nested-css-rule-objects-CSSOM.png)
 
 In the image to the right, we can see how all of these object types nest inside of each other. In the image on the left, we see a series of nested boxes that visualize what each object type corresponds to in the CSS stylesheet.
 

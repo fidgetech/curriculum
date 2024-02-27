@@ -154,13 +154,13 @@ Our data is sorted into three columns. The left column has the `trails` collecti
 
 There's a small icon at the top of the middle column (circled in red in the image below) that allows us to filter data in a collection:
 
-![Icon shows how we can filter data in Firebase.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firebase-console-filter.png)
+![Icon shows how we can filter data in Firebase.](/images/React/Week-4-React-2020/firebase-console-filter.png)
 
 If we click on this icon, we can create our own filters. We just need to specify the field and condition we want to filter by. 
 
 In the following example, we are looking for all trails in the Enchantments region:
 
-![This filter shows just trails in the Enchantments region.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/example-of-filter.png)
+![This filter shows just trails in the Enchantments region.](/images/React/Week-4-React-2020/example-of-filter.png)
 
 One thing that's nice is that the console helpfully shows us what the query actually looks like, so we can use this to test simple queries and actually copy and paste the query code into our application.
 

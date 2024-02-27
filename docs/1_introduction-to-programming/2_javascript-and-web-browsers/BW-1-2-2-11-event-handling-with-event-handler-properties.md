@@ -162,7 +162,7 @@ In this example, we can see that we've set 3 different elements in the DOM to re
 
 Optionally, open your cookie recipe project and type in the above code into your DevTools console to try it out. Make sure to remove the `>` angle brackets, as those will throw an error. The angle brackets are just to denote that the code is meant for the DevTools console. We encourage you to type out your code instead of copy/pasting so that you can develop your typing ability and muscle memory. 
 
-![This gif shows the above example in the cookie recipe that targets mouse events making the paragraph, image, and H1 elements change.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/mouseover-events.gif)
+![This gif shows the above example in the cookie recipe that targets mouse events making the paragraph, image, and H1 elements change.](/images/new-section2-js-and-web-browsers/mouseover-events.gif)
 
 ## Keyboard Events: `onkeydown` and `onkeyup`
 ---
@@ -196,7 +196,7 @@ Next, we create two different reactions to the body element's `onkeydown` event 
 
 The gif below demonstrates the results of this new code. The code is input into the DevTool console on the right, then the cursor clicks back into the webpage, then some keys are pressed down and let go.
 
-![This gif shows the above example in the cookie recipe that targets keyboard events making the background and text color change.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/keyboard-events.gif)
+![This gif shows the above example in the cookie recipe that targets keyboard events making the background and text color change.](/images/new-section2-js-and-web-browsers/keyboard-events.gif)
 
 ## Outmoded: Inline HTML Event Handler Attributes
 ---

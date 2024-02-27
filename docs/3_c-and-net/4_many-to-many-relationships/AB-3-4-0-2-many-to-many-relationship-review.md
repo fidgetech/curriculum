@@ -180,10 +180,10 @@ Database column names are also called database **fields**. In this example, ther
 
 When designing database schemas, it's often helpful to draw out the relationships among tables like this:
 
-![A simple database schema diagram.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/schema_simple.png)
+![A simple database schema diagram.](/images/schema_simple.png)
 
 It's especially helpful if you're trying to figure out a more complex schema:
 
-![drawing of complex schema](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/schema_complex.png)
+![drawing of complex schema](/images/schema_complex.png)
 
 You can make schema diagrams like this with this online [SQL Designer](http://ondras.zarovi.cz/sql/demo/). The SQL Designer has a lot of options, but ignore most of them. Just add tables and add fields to tables, and don't worry about data types or other options. To connect tables for your one-to-many and many-to-many relationships, click on the ID of the table, click _connection foreign key_ (on the right), and then click the corresponding field that references that ID.

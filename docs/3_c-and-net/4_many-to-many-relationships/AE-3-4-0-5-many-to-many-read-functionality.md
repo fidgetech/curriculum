@@ -243,7 +243,7 @@ As always, we end our database query with `FirstOrDefault()` if we want to fetch
 
 Next, we'll update our category details view to display not just the items that belong to each category, but also the tags that belong to each item. This is what the finished product will look like:
 
-![To Do List app's category details page that lists items and tags that belong to each item.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/c-sharp-category-details-many-to-many.png)
+![To Do List app's category details page that lists items and tags that belong to each item.](/images/c%23/c-sharp-category-details-many-to-many.png)
 
 To make the above possible, we'll need a loop within a loop and some additional code to format our tags to display inline. Here's the updated code:
 

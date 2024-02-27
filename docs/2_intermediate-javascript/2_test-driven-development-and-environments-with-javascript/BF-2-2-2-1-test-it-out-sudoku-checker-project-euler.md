@@ -33,7 +33,7 @@ Practice with Jest and testing is your top priority!
 
 [Sudoku](https://simple.wikipedia.org/wiki/Sudoku) is a game where players must fill in a 9 x 9 board with the numbers 1 through 9. The Sudoku board looks like this:
 
-![sudoku-board-example](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/javascript-new/sudoku-board-example.png)
+![sudoku-board-example](/images/javascript-new/sudoku-board-example.png)
 
 Create an application that checks if a completed Sudoku puzzle is “legal.” In other words, it should ensure the following rules are met:
 

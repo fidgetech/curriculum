@@ -76,7 +76,7 @@ Woah! That's a lot of information. What's happening here is that the `location` 
 
 We can expand this object in the DevTools console to look at all of the information by clicking the triangle symbol to the left of the object, like in the image below.
 
-![This image shows the window.location object expanded](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/window-location-expanded.png)
+![This image shows the window.location object expanded](/images/new-section2-js-and-web-browsers/window-location-expanded.png)
 
 As we can see, `window.location` holds information about the webpage we are on, and some properties like `host` or `href` have string values, and some properties have methods as values like `reload: ƒ reload()`.
 
@@ -136,7 +136,7 @@ The two ways to call `window.open()` is showing us how methods (both in JavaScri
 
 Using `window.open()` as an example, see the section called ["Parameters" on the MDN reference page for `window.open()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/open#parameters). This is also pictured in the image below. Here, we can see two parameters, `url` and `target`, are listed as "Optional". (There are also other optional parameters that are not pictured.) 
 
-![This image shows how two window.open() parameters are listed as "Optional".](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/optional-parameters-on-mdn-window-open.png)
+![This image shows how two window.open() parameters are listed as "Optional".](/images/new-section2-js-and-web-browsers/optional-parameters-on-mdn-window-open.png)
 
 We won't worry about learning about how to write custom functions with optional parameters, but it is helpful to know that they exist and how to spot them. In the next lesson, we'll take time to review more aspects about MDN documentation for `window`, `document`, and events.
 

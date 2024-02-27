@@ -148,7 +148,7 @@ This is a method that's listed in our `Contact` object! The `Contact.prototype.f
 
 Let's take a closer look at the `newContact` object in the console:
 
-![This object contains a "proto" property which in turn contains the "fullName" function.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/Week-3-2020-images/contact-properties.png)
+![This object contains a "proto" property which in turn contains the "fullName" function.](/images/INTRO/week3-branching-looping-arrays/Week-3-2020-images/contact-properties.png)
 
 In the above image, we see that in addition to the three properties we created, `Contact` also has a `__proto__` property. If you are following along now in your DevTools console, note that this property may also be labeled as `[[Prototype]]` instead of `__proto__`. As we learned in a previous lesson, if we want to access an object's prototype, we do so by accessing the `__proto__` property like so:
 
@@ -203,7 +203,7 @@ For every object in JavaScript, the `Object` type ends the chain of prototypes. 
 * The blue box highlights the properties belonging to `Object`, accessed through `newContact.__proto__.__proto__;`.
 * The red underline highlights the `Object.prototype.hasOwnProperty()` method.
 
-![This image shows `newContact` expanded in the DevTools console and the two `__proto__` properties that need to be accessed to get to `Object.prototype.hasOwnProperty()`.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/OOP-JS/contact-prototype-chain.png)
+![This image shows `newContact` expanded in the DevTools console and the two `__proto__` properties that need to be accessed to get to `Object.prototype.hasOwnProperty()`.](/images/OOP-JS/contact-prototype-chain.png)
 
 Well, so much for the syntactic sugar of a `for...in` loop. While we can verify that properties actually belong to objects, it's probably just better to iterate using `Object.keys()` instead. In fact, the Mozilla documentation mostly recommends `for...in` loops for debugging. Check out the [documentation on `for...in`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) for more information.
 

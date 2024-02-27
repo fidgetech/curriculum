@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 In the last lesson, we briefly covered local and shared state. The plan we made for our static Help Queue is a good start but we will need to make some changes to its structure. That means rethinking some parts of our application and creating a new diagram.
 
-![This diagram shows a few changes to the structure of our application, including a control component to determine which child component should be displayed.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-1-React-2019/help-queue-with-ticket-control-updated.jpg)
+![This diagram shows a few changes to the structure of our application, including a control component to determine which child component should be displayed.](/images/React/Week-1-React-2019/help-queue-with-ticket-control-updated.jpg)
 
 The main addition here is a component called `TicketControl`. Our application will be an SPA (single-page application) that shows the `TicketList` component. However, when a user clicks the "Add Ticket" button, the `TicketList` component will be hidden and the user will see the `NewTicketForm` component instead.
 

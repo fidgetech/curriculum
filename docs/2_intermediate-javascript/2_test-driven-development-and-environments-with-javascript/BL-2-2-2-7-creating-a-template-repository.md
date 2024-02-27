@@ -50,19 +50,19 @@ As we can see, this README contains headers for all of the items that are requir
 
 The next step is to commit the code, create a GitHub repo, and push your local code to the remote repo. Once that's finished, go to the repository in GitHub and click on _Settings_. 
 
-![Click the checkbox marked "Template Repository" to make the repository a template.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD-2020/template-repo-in-settings.png)
+![Click the checkbox marked "Template Repository" to make the repository a template.](/images/Intermediate+JavaScript/TDD-2020/template-repo-in-settings.png)
 
 As the image above shows, once you click on _Settings_, you can click the checkbox marked _Template repository_. A little green checkmark will pop up by the box, which means that GitHub has auto-saved the update.
 
 After checking the box, navigate back to the main page of the repository. You'll see it has a _Template_ label by the name of the repository:
 
-![The template label has been added by the name of the repo.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD-2020/template-label.png)
+![The template label has been added by the name of the repo.](/images/Intermediate+JavaScript/TDD-2020/template-label.png)
 
 If there's not a _Template_ label, you'll need to go back to the _Settings_ and make sure you checked the box.
 
 You'll also see that the repository now has a green _Use This Template_ button.
 
-![There's a green "Use This Template" button by the commits in the repository now.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD-2020/use-this-template-button.png)
+![There's a green "Use This Template" button by the commits in the repository now.](/images/Intermediate+JavaScript/TDD-2020/use-this-template-button.png)
 
 If we want to create a new repository using this template, we just need to click the _Use This Template_ button. We'll be taken to a page for creating a new repository. It looks almost exactly the same as the new repository page we've been using so far. The only difference is that we are now creating the repository from a template. We can create the repository as usual, but this time once the repository is created, all of the files from the template will be included in the new repository. Finally, we can clone the repository to our desktop and modify it as needed, changing the README or any other files it already has such as configuration or code files.
 

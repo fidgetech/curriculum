@@ -30,11 +30,11 @@ If your email is verified, you won't see a bullet point specifying this. Your em
 
 In the left-hand menu of your GitHub settings, click on _Developer Settings_. You'll be directed to a new page and a new left-hand menu will come up.
 
-![Left-hand menu includes three options. The bottom left item is _Personal access tokens_.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/prework/PAT+Lesson/pat-menu.png)
+![Left-hand menu includes three options. The bottom left item is _Personal access tokens_.](/images/INTRO/prework/PAT+Lesson/pat-menu.png)
 
 Click on _Personal access tokens_, which is the third and final item on the left-hand menu. When you need to create or delete a personal access token, this is where you'll do it. There are two buttons in the upper right corner of the screen.
 
-![There are two buttons, one for generating a new token and the other for revoking all tokens.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/prework/PAT+Lesson/create-pat-button.png)
+![There are two buttons, one for generating a new token and the other for revoking all tokens.](/images/INTRO/prework/PAT+Lesson/create-pat-button.png)
 
 The button on the left is _Generate new token_ while the button on the right is _Revoke all_. You will likely only want to _Revoke all_ (which will delete all PATs) if you're worried others may have gained access to one or more of your PATs.
 
@@ -44,14 +44,14 @@ First, add a _Note_ to describe what the token is for. In the photo before, we p
 
 You also have the option to set an expiration date for your PAT, including selecting from pre-filled options or creating a custom expiration date.
 
-![This image shows the new personal access token menu. The _repo_ checkbox is clicked.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/prework/PAT+Lesson/GH_PAT_creation.png)
+![This image shows the new personal access token menu. The _repo_ checkbox is clicked.](/images/INTRO/prework/PAT+Lesson/GH_PAT_creation.png)
 
 
 There are a lot of options in terms of what kind of access your PAT should have. Generally, you will only need basic repo access. You can click on the _repo_ checkbox to add this. If you don't click on the _repo_ checkbox, you won't be able to have the necessary privileges to access, push, and pull all of your repositories.
 
 Once you are finished, click on the _Generate token_ button at the bottom of the page.
 
-![A token is generated. You need to copy the string of characters to reuse it.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/prework/PAT+Lesson/generated-token.png)
+![A token is generated. You need to copy the string of characters to reuse it.](/images/INTRO/prework/PAT+Lesson/generated-token.png)
 
 As you can see from the example above, there's a notice: _Make sure to copy your new personal access token now. You won't be able to see it again!_ If you navigate away from this page without copying it, you won't be able to access the characters that are specific to this PAT. Of course, if that happens, it's no big deal. Delete the PAT by clicking the _Delete_ button just to the right of the PAT. Then create a new one.
 
@@ -112,7 +112,7 @@ If you allow Git Credential Manager to store your credentials, the next time you
 
 If you delete your PAT in the Credential Manager, next time you try to push to GitHub, you'll be prompted with this dialogue box to enter your PAT or sign into GitHub:
 
-![Image of Git Credential Manager dialogue.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/prework/PAT+Lesson/git_credentials__PAT_signin_PC_windows_users.png)
+![Image of Git Credential Manager dialogue.](/images/INTRO/prework/PAT+Lesson/git_credentials__PAT_signin_PC_windows_users.png)
 
 If you are not prompted with the dialogue box after you delete your PAT (on GitHub or through the Credential Manager), and after you've tried to push your changes to a remote repo, try pushing one more time. Sometimes it takes Git a while to see that a change in credentials has been made. If you are still not prompted with a dialogue box after you've tried pushing your changes multiple times, reach out to your instructor for help. 
 

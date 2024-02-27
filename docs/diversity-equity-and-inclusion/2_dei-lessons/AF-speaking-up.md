@@ -57,7 +57,7 @@ In general, speaking up can be very challenging. If you have been the target of 
  
 The tweet below sums up this process well.
  
-![Tweet that describes the learning process.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/DEI-Images/we-do-our-best-to-learn.png)
+![Tweet that describes the learning process.](/images/DEI-Images/we-do-our-best-to-learn.png)
  
 It reads: "PSA: There is no shame in adding that you were previously speaking from a less informed place. There's a lot of info in the world. No one has all of it. We do our best, and at our best, we help each other learn."
  

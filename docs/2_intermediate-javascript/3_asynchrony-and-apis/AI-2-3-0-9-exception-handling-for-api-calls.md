@@ -150,7 +150,7 @@ Start your application, and enter in a phony input like "wefsdvx". We should see
 There was an error accessing the weather data for wefsdvx: 404 Not Found
 ```
 
-![The error message "There was an error accessing the weather data for wefsdvx: 404 Not Found" is successfully printed to the webpage.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/404-error-message.png)
+![The error message "There was an error accessing the weather data for wefsdvx: 404 Not Found" is successfully printed to the webpage.](/images/Intermediate+JavaScript/Async-and-APIs-2020/404-error-message.png)
 
 Very cool! We can see our error handling working as expected.
 
@@ -164,7 +164,7 @@ If we enter a location, even a bogus one, we should see a new status code printe
 There was an error accessing the weather data for Portland, Oregon: 401 Unauthorized
 ```
 
-![The error message "There was an error accessing the weather data for Portland, Oregon: 401 Unauthorized" is successfully printed to the webpage.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/401-unauthorized.png)
+![The error message "There was an error accessing the weather data for Portland, Oregon: 401 Unauthorized" is successfully printed to the webpage.](/images/Intermediate+JavaScript/Async-and-APIs-2020/401-unauthorized.png)
 
 Alright, let's move onto our last test. Before we do, be sure to close your server, fix your API key, and restart it. 
 
@@ -186,7 +186,7 @@ Enter in a location to see what sort of error message this typo in our parameter
 There was an error accessing the weather data for portland: 400 Bad Request
 ```
 
-![The error message "There was an error accessing the weather data for portland: 400 Bad Request" is successfully printed to the webpage.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/400-bad-request.png)
+![The error message "There was an error accessing the weather data for portland: 400 Bad Request" is successfully printed to the webpage.](/images/Intermediate+JavaScript/Async-and-APIs-2020/400-bad-request.png)
 
 Sure enough, we'll get an error message about our request being incorrect in some way. 
 
@@ -359,7 +359,7 @@ Now our error messages will print look like this:
 There was an error accessing the weather data for fake city: 404 Not Found: city not found
 ```
 
-![The error message "There was an error accessing the weather data for fake city: 404 Not Found: city not found"" is successfully printed to the webpage.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/updated-404-with-detailed-message.png)
+![The error message "There was an error accessing the weather data for fake city: 404 Not Found: city not found"" is successfully printed to the webpage.](/images/Intermediate+JavaScript/Async-and-APIs-2020/updated-404-with-detailed-message.png)
 
 Of course, you don't have to stick with this formatting for the error message — as long as you inform the user why there was an error, including the HTTP status code and description, that's sufficient for basic error handling.
 

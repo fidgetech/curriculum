@@ -20,7 +20,7 @@ We are going to use a site called [Codepen](https://codepen.io/pen/) to explore 
 
 Here's what the Codepen panel looks like. As you can see, we can add HTML, CSS and JavaScript here, too. Codepen is a popular site for sharing snippets of code. You are welcome to create an account but it's not required for experimenting with Codepen. Today we will just focus on the panel on the right, which is for JavaScript code.
 
-![An image of panels in Codepen. JS is on the right.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/ucode-glitch-photos/codepen-1.png)
+![An image of panels in Codepen. JS is on the right.](/images/ucode-glitch-photos/codepen-1.png)
 
 Go ahead and enter the following code into the JavaScript panel:
 
@@ -28,7 +28,7 @@ Go ahead and enter the following code into the JavaScript panel:
 alert("Hello World!");
 ```
 
-![An image showing an alert in Codepen. The alert code is showing on the right.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/ucode-glitch-photos/codepen-2.png)
+![An image showing an alert in Codepen. The alert code is showing on the right.](/images/ucode-glitch-photos/codepen-2.png)
 
 Our page just said hi. The box that popped up is called an **alert**.
 

@@ -66,7 +66,7 @@ Typically security certificates are set up during the process of hosting a web a
 
 First let's learn how to recognize when there are issues with the security certificate. If we ever navigate to _https://localhost:5001/_ and we get the following message in the browser, that means that there's something wrong with our security certificate:
 
-![Message in the web browser that indicates the connection is not safe.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/Week+two/security-cert-connection-not-private.png)
+![Message in the web browser that indicates the connection is not safe.](/images/c%23/Week+two/security-cert-connection-not-private.png)
 
 The good thing to note is that it's very easy to fix this issue. Simply open your terminal and enter the following command:
 
@@ -88,7 +88,7 @@ And with that, we're ready to go! You should only have to do this once for your 
 
 With `app.UseHttpsRedirection();` enabled, students who are working on macs in person or remotely may be asked to be granted keychain access to get the details of the dev cert for each new application they create. The request will pop up after you run your web app with `dotnet watch run`, and it will look similar to the following image with some details being different.
 
-![Pop-up box with request to access keychain to get the details of the dev cert on a mac.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/Week+two/dotnet-dev-cert-password-request.png)
+![Pop-up box with request to access keychain to get the details of the dev cert on a mac.](/images/c%23/Week+two/dotnet-dev-cert-password-request.png)
 
 **If you see this request after running your app, enter in your password and select "always allow".** For  mac computers on campus at Epicodus, the password is "epicodus". 
 

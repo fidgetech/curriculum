@@ -18,7 +18,7 @@ In this lesson, we'll create visual representations of database schema and talk 
 
 Here's a visual representation of our record store's database schema so far:
 
-![record store schema](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/RUBY/Week+3+-+Databases+with+SQL/one-to-many.png)
+![record store schema](/images/RUBY/Week+3+-+Databases+with+SQL/one-to-many.png)
 
 This representation includes both of our tables, the properties of each table, and the relationship between the two tables.
 
@@ -35,7 +35,7 @@ It's evident that an `Artist` should be able to have many `Album`s. However, a o
 
 Let's take a look at a visual representation of the many-to-many relationship we'll build:
 
-![record store schema with many-to-many relationship](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/RUBY/Week+3+-+Databases+with+SQL/many-to-many.png)
+![record store schema with many-to-many relationship](/images/RUBY/Week+3+-+Databases+with+SQL/many-to-many.png)
 
 In this case, we have a join table called `albums_artists` that stores the relationships between the `artists` table and the `albums` table.
 
@@ -50,7 +50,7 @@ One-to-one relationships are less common but are still very important. It's not 
 
 Two tables have a **one-to-one relationship** when a row on one table is related to _only one_ row on the other table. A common example is a relationship between `customers` and `accounts`:
 
-![Customers-accounts schema](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/database-schema/customers-accounts-schema.png)
+![Customers-accounts schema](/images/database-schema/customers-accounts-schema.png)
 
 According to this schema, a customer can only have one account and an account can belong to only one customer.  The relationship between the customers table and the accounts table represents a one-to-one relationship.
 

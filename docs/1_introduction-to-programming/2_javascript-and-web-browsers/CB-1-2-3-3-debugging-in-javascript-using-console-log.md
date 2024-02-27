@@ -62,7 +62,7 @@ Save the script and refresh the page in the browser. Make sure the DevTools cons
 
 You'll see that our second message very briefly logs to the console and then disappears. The gif below demonstrates this. So what exactly is happening?
 
-![This gif shows the second `console.log` message briefly appear and disappear.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/debugging-with-js-console-log.gif)
+![This gif shows the second `console.log` message briefly appear and disappear.](/images/new-section2-js-and-web-browsers/debugging-with-js-console-log.gif)
 
 This is a very common error, especially for beginners, and there are a couple of clues that show what's happening.
 
@@ -194,7 +194,7 @@ It's helpful to include a descriptive message that explains what the `console.lo
 
 Fill out and submit the form again and look in the DevTools console for the message. We should see something similar to the following:
 
-![This image shows the result of console.log("verbInput = " + verbInput); in the DevTools console.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/debugging-with-consolelog-madlibs-verbInput.png)
+![This image shows the result of console.log("verbInput = " + verbInput); in the DevTools console.](/images/new-section2-js-and-web-browsers/debugging-with-consolelog-madlibs-verbInput.png)
 
 Notice in the image above that there's `scripts.js:11` listed. This indicates the location of the `console.log()` in our code, including the file name and the line number.
 
@@ -254,7 +254,7 @@ We've added 3 new `console.log()` statements, each with a different piece of cod
 
 Go ahead and save your scripts, refresh your browser, fill out the form, and submit it. In the DevTools console, we should see four logs (note that your values may look different depending on the words you input into your form): 
 
-![This image shows the result of console.log("verbInput = " + verbInput); in the DevTools console.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/debugging-with-consolelog-madlibs-verbspan.png)
+![This image shows the result of console.log("verbInput = " + verbInput); in the DevTools console.](/images/new-section2-js-and-web-browsers/debugging-with-consolelog-madlibs-verbspan.png)
 
 So what can understand from the above logs? A few things:
 

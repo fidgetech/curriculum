@@ -20,7 +20,7 @@ Just because you mark your HTML input field as _number_, _date_, or _tel_, don't
 
 Select boxes are form inputs where the user can only select one item. These are often called "dropdown menus".
 
-![select-boxes-form-input-type](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week2-js-jquery/select-box-form-input.png)
+![select-boxes-form-input-type](/images/INTRO/week2-js-jquery/select-box-form-input.png)
 
 This goes inside the form in your html:
 
@@ -72,7 +72,7 @@ Now when you gather the input with `document.getElementById("beverage").value` y
 
 Radio buttons allow the user to select one and only one option from a list.
 
-![form-input-types-radio-buttons](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week2-js-jquery/radio-button-form-input.png)
+![form-input-types-radio-buttons](/images/INTRO/week2-js-jquery/radio-button-form-input.png)
 
 Here's an example of doing radio buttons:
 
@@ -174,7 +174,7 @@ So why bother specifying a button's `type` attribute? It makes the functionality
 
 The date input type provides an easier interface for users to browse, select, and input dates:
 
-![form-input-type-date-picker](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week2-js-jquery/date-select-form-input.png)
+![form-input-type-date-picker](/images/INTRO/week2-js-jquery/date-select-form-input.png)
 
 ```html
 <label for="born">Date of birth:</label>
@@ -189,7 +189,7 @@ const dob = document.getElementById("born").value;
 
 You may not have seen this one before! The color form input type, when clicked, opens a special panel where users can fine-tune and select specific colors:
 
-![form-input-type-color-selector](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week2-js-jquery/color-select-form-input.png)
+![form-input-type-color-selector](/images/INTRO/week2-js-jquery/color-select-form-input.png)
 
 ```html
 <label for="color">What is your favorite color?</label>

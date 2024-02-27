@@ -9,7 +9,7 @@ In this lesson, we'll cover a new debugging tactic: **pausing on exceptions**. T
 
 An **uncaught exception** or **unhandled exception** is an error that our code doesn't "catch" or "handle". When an error happens in our code that we don't respond to, it stops the function of our application and breaks our code. Here's a simple example of an uncaught error that we can create in our DevTools console:
 
-![This shows the DevTools console open and an Uncaught ReferenceError by referencing a variable that doesn't exist.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/uncaught-ref-error.png)
+![This shows the DevTools console open and an Uncaught ReferenceError by referencing a variable that doesn't exist.](/images/new-section2-js-and-web-browsers/uncaught-ref-error.png)
 
 On the other hand, a **caught exception** is an error that we've predicted may happen in our code and that we've already written code to specifically respond to. We learned about error handling with `else` statements in the "More Branching" lesson. Remember the following if/else statement from the Amusement Park webpage? This code checks the age and height of a user and displays only the rides they are allowed to ride.
 
@@ -141,7 +141,7 @@ window.addEventListener("load", function() {
 
 The issue that we've introduced into our scripts will cause JavaScript to report an error. If we open our Calculator website (or refresh the page), enter in two numbers, select the "add" option, and then submit our form, we'll immediately see a console error `Uncaught ReferenceError: ad is not defined`:
 
-![This image shows the console error after submitting the form to calculate the addition of 3 and 2.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/pause-on-exceptions-console-error.png)
+![This image shows the console error after submitting the form to calculate the addition of 3 and 2.](/images/new-section2-js-and-web-browsers/pause-on-exceptions-console-error.png)
 
 As we know, console errors can already give us a great deal of information! Based on the context, we know the error has something to do with the addition operation. We can see that the error message has to do with [a variable that doesn't exist](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError), and that we can see that the error is coming from line 27 of `scripts.js`. With this information alone, we can solve this error. However, DevTools can make debugging this error an even easier process. 
 
@@ -149,11 +149,11 @@ As we know, console errors can already give us a great deal of information! Base
 
 Let's open the **Sources** tab of our DevTools console. If your DevTools window is small, you may have to select the arrow icon `>>` to get a menu of other tabs options. 
 
-![This image shows the menu within the DevTools window to find other tab options.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/devtools-sources-tab.png)
+![This image shows the menu within the DevTools window to find other tab options.](/images/new-section2-js-and-web-browsers/devtools-sources-tab.png)
 
 **Note:** We show content with the DevTools pane at the bottom of the browser window or on the right side. You can pick whatever orientation you prefer. You can change the orientation by clicking on the three vertical dots in the upper right corner and clicking the _Dock side_ icon of your choice as shown in the image below:
 
-![Click on three vertical dots to pick a Dock side option.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/selecting-devtools-dock-orientation.png)
+![Click on three vertical dots to pick a Dock side option.](/images/new-section2-js-and-web-browsers/selecting-devtools-dock-orientation.png)
 
 The **Sources** tab is used to view and edit the files in our project, and to debug JavaScript. There are other things that the Sources tab lets you do that we won't cover in the program. The image below highlights the different tools of the Sources tab in different colored boxes.
 
@@ -164,7 +164,7 @@ The **Sources** tab is used to view and edit the files in our project, and to de
 
 If you have an additional window within the Sources tab that shows a console or a "what's new" section, you can simply exit out of that. 
 
-![This image shows the contents of the Sources tab.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/sources-tab-all-windows-highlighted.png)
+![This image shows the contents of the Sources tab.](/images/new-section2-js-and-web-browsers/sources-tab-all-windows-highlighted.png)
 
 ### Pausing on Exceptions
 
@@ -172,13 +172,13 @@ Now, let's configure our debugging tools to pause on exceptions. Click the butto
 
 When you turn on the debugging option to pause on exceptions, a checkbox that reads "Pause on caught exceptions" will show up just below the octagon. Checking this checkbox will configure the DevTools debugger to pause on errors that we already have code in place to handle. Just like the error handling for a user's age and height in the Amusement Park website. We won't be using this option in the program, so do not select it!
 
-![This gif shows the "pause on exceptions" button in the Source tab.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/turning-on-off-pause-on-exceptions.gif)
+![This gif shows the "pause on exceptions" button in the Source tab.](/images/new-section2-js-and-web-browsers/turning-on-off-pause-on-exceptions.gif)
 
 With the DevTools Sources tab open and the "pause on exceptions" debugging tool turned on, let's go ahead and resubmit our form with the "add" operation selected and the numbers 2 and 3 (or any other). This time, the `uncaught ReferenceError` will cause our DevTools debugger to fire, and we'll see a host of new information in the Sources tab. Let's review each new change that we see.
 
 First, in the two windows at the bottom of the Source tabs, we'll see new information about the "Call Stack", the "Scope", and more. 
 
-![This image shows the bottom of the Source tab with information about the error message, call stack, and scope.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/bottom-of-sources-tab-with-exception-info.png)
+![This image shows the bottom of the Source tab with information about the error message, call stack, and scope.](/images/new-section2-js-and-web-browsers/bottom-of-sources-tab-with-exception-info.png)
 
 There are a couple things to notice:
 
@@ -194,7 +194,7 @@ The other handy thing about using the pause on exceptions DevTools debugging fea
 
 The DevTools debugger also marks up the `scripts.js` file with the same information about the variables in scope (that are listed in the "Scope" area of the Sources tab) when the exception occurs. Watch the gif below that demonstrates this, and notice how some information is listed and highlighted in a different color, like `operator = "add"`, and other variables' values can be shown by hovering over the variable names. For viewing purposes, we've made the scripts.js file large enough to easily see all of the contents.
 
-![This gif shows how we can hover over the variables in scope to get their values.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/viewing-var-values-in-sources-tab-debugging.gif)
+![This gif shows how we can hover over the variables in scope to get their values.](/images/new-section2-js-and-web-browsers/viewing-var-values-in-sources-tab-debugging.gif)
 
 ### Resolving the Error
 
@@ -212,4 +212,4 @@ Now that we've figured out the issue in our code, we're ready to move on to the 
 * Select the right-pointing arrow that's rounded over a dot (in the blue circle) to call the next function. Just like with the play symbol, if we haven't fixed our code yet, our website will still be stopped at the error. So in this case, since the error has stopped our scripts, there's effectively no other function to call. This means that selecting this icon will do the same thing as selecting the play symbol to resume the scripts. In the next lesson, we'll see a more useful application of this button to call the next operation. 
 * If you want to turn off the pause on exceptions feature of the DevTools' debugger, then make sure to click the octagon icon (in the red circle). Even if you refresh your page, the pause on exceptions feature will stay on until you deselect it in the Sources tab. 
 
-![This image highlights the ways to exit the DevTools debugger.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/exiting-devtools-pausing-on-exceptions.png)
+![This image highlights the ways to exit the DevTools debugger.](/images/new-section2-js-and-web-browsers/exiting-devtools-pausing-on-exceptions.png)

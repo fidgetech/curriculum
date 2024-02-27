@@ -22,7 +22,7 @@ Let's create a test database for our To Do List.
 
 * Select _Data Export_ from the list of available options.
 
-![In the "Navigator" window, select the "Administration" tab and then select "Data Export".](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/mysql-workbench-how-to/mysql_data_export.gif)
+![In the "Navigator" window, select the "Administration" tab and then select "Data Export".](/images/mysql-workbench-how-to/mysql_data_export.gif)
 
 * Select the `to_do_list` in the left hand _Tables to Export_ window. Choose _Dump Structure Only_ in the drop down on the right.
 
@@ -36,7 +36,7 @@ Let's create a test database for our To Do List.
 
 We now have a `.sql` file that we can use to recreate our `to_do_list_with_mysqlconnector` database.
 
-![To export a database, select the database from those listed, select the option to export to self contained file (including the desired target location), and then select "Start Export".](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/mysql-workbench-how-to/mysql_data_export_process.gif)
+![To export a database, select the database from those listed, select the option to export to self contained file (including the desired target location), and then select "Start Export".](/images/mysql-workbench-how-to/mysql_data_export_process.gif)
 
 ### Importing `to_do_list_with_mysqlconnector`
 
@@ -55,7 +55,7 @@ We now have a `.sql` file that we can use to recreate our `to_do_list_with_mysql
 
 After you are finished with the above steps, reopen the _Navigator_ > _Schemas_ tab. Right click and select _Refresh All_. Our new test database will appear.
 
-![To import a database, select "Import from Self-Contained File", then select "new" under the section called "Default Schema to be Imported To" and in the input that appears put in the name of your database with "_test" appended to the end. Finally, select "Start Import" on in the window tab called "Import Progress".](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/mysql-workbench-how-to/mysql_data_import_process.gif)
+![To import a database, select "Import from Self-Contained File", then select "new" under the section called "Default Schema to be Imported To" and in the input that appears put in the name of your database with "_test" appended to the end. Finally, select "Start Import" on in the window tab called "Import Progress".](/images/mysql-workbench-how-to/mysql_data_import_process.gif)
 
 ### Important Note
 

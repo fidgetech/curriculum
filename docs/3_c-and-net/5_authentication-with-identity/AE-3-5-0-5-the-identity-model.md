@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 We've just updated our To Do List database to store Identity data. Let's pause for a second to check out the changes in MySQL Workbench. Or, check out the contents of the most recent migration file, which should be called something similar to `20230102230735_AddIdentity.cs` and be located in the `ToDoList/Migrations/` directory. We'll see many new tables created for Identity-related data! What we're seeing here is Identity's model.
 
-![To Do List database schema with new Identity entities.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/to-do-list-with-auth-database-schema.png)
+![To Do List database schema with new Identity entities.](/images/c%23/to-do-list-with-auth-database-schema.png)
 
 ## The Identity Model
 ---
@@ -28,7 +28,7 @@ In fact, we only created the `ApplicationUser` model in our application so that 
 
 Because all of the Identity entities are added to our database implicitly, the docs make sure to clearly explain the Identity model and the purpose of each. First, check our the following table [from the MS docs](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/customize-identity-model?view=aspnetcore-6.0) that explains each entity type:
 
-![Table listing the Identity model and entities.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/aspnet-identity-model.png)
+![Table listing the Identity model and entities.](/images/c%23/aspnet-identity-model.png)
 
 While the table does a good job listing what each entity represents, some of these could use more explanation. 
 
@@ -50,7 +50,7 @@ There are further exploration opportunities to implement other authentication sc
 
 It's also helpful to take a look at the relationships between each Identity entity. [The MS docs](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/customize-identity-model?view=aspnetcore-6.0) has a handy list that clearly explains the relationships in the Identity model:
 
-![List describing the relationship between each Identity entity.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/aspnet-identity-relationships.png)
+![List describing the relationship between each Identity entity.](/images/c%23/aspnet-identity-relationships.png)
 
 Again, we'll only be using the `Users` model — the `ApplicationUser` model in our To Do List app.
 

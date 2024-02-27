@@ -264,7 +264,7 @@ Well, that's the basic principle. If we look at the code we have so far, it's st
 
 The fact that we need to repeat the process offers a strong clue for what needs to happen next: we need to add either a loop or recursion. Let's write a test first. This test will see if our method can correctly insert a node so that our binary search tree has a height of three. Here's an image of what this would look like if we were first going to insert a child node to the left and then add a node to that child's right:
 
-![Image of adding a child node to the root node and then adding a node to the child.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/go_left_then_right.png)
+![Image of adding a child node to the root node and then adding a node to the child.](/images/computer-science-curriculum-2020/go_left_then_right.png)
 
 To recreate the process of what's happening in the image above, we first need to insert a child node to the left of the root node. Then, to create the next node, our method needs to traverse to the child node we just created. Finally, the method needs to insert another child node (we can think of this one as being the "grandchild" of the root node) that's to the _right_ of its parent node.
 
@@ -272,7 +272,7 @@ This is our eventual goal, anyway. We'll break it down even more with TDD. Let's
 
 The image below shows what we'll test first:
 
-![In the image below, we go left twice.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/go_left_twice.png)
+![In the image below, we go left twice.](/images/computer-science-curriculum-2020/go_left_twice.png)
 
 As we can see in the image, we need to create a root node, then a child node to the left of the root node, and then a child node to the left of that child node. Here's the test:
 
@@ -447,7 +447,7 @@ As you can see, the code for inserting nodes on the right side is almost exactly
 
 At this point, our code should work regardless of whether our method has to traverse left, right, or both. However, it would be good to verify that it can traverse one direction and then the other. Remember the following image from earlier in the lesson?
 
-![Image of adding a child node to the root node and then adding a node to the child.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/go_left_then_right.png)
+![Image of adding a child node to the root node and then adding a node to the child.](/images/computer-science-curriculum-2020/go_left_then_right.png)
 
 Let's add a test for that now:
 

@@ -177,7 +177,7 @@ The process of an object like `SubmitEvent` being based on the `Event` object is
 
 This same process of inheritance happens for the `SubmitEvent` object. In this case, `SubmitEvent` inherits from one other object type, `Event`. We can confirm this by looking at the [`SubmitEvent` object on MDN](https://developer.mozilla.org/en-US/docs/Web/API/SubmitEvent), which contains a graphic that indicates that `SubmitEvent` inherits from `Event`:
 
-![This image shows the reference page on MDN for `SubmitEvent` and the graphic that demonstrates how `SubmitEvent` inherits functionality from the `Event` object.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/submit-event-inheritance.png) 
+![This image shows the reference page on MDN for `SubmitEvent` and the graphic that demonstrates how `SubmitEvent` inherits functionality from the `Event` object.](/images/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/submit-event-inheritance.png) 
 
 ### `EventTarget` versus `Event`
 
@@ -230,13 +230,13 @@ In the following image, I've added a breakpoint after the line `event.preventDef
   * `defaultPrevented`: this is set to true, indicating that we've called `event.preventDefault()` in our code.
   * `target`: this is pointing to the `<form>` element, because that is the element that the submit event originated from.
 
-![This image shows the _Sources_ tab opened with a breakpoint added to the Address Book's scripts.js file right below the code `event.preventDefault()` in the `handleFormSubmission()` UI function.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/submit-event-inspected-in-devtools.png)
+![This image shows the _Sources_ tab opened with a breakpoint added to the Address Book's scripts.js file right below the code `event.preventDefault()` in the `handleFormSubmission()` UI function.](/images/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/submit-event-inspected-in-devtools.png)
 
 This is by far the easiest way to inspect an event in the context of our code. And since we're using a breakpoint to pause our code mid-execution, this means we can also switch to the DevTools console and explore the variables in scope.
 
 The following image above shows a few explorations of the `event.target` property.
 
-![This shows the results of inputting](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/exporing-event-in-console-when-paused-in-debugger.png)
+![This shows the results of inputting](/images/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/exporing-event-in-console-when-paused-in-debugger.png)
 
 This demonstrates a few things:
 

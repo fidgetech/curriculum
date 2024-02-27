@@ -74,7 +74,7 @@ We can easily navigate to any branch in the project this way.
 
 We can also download the project directly by selecting the _Download ZIP_ options, as the image below shows.
 
-![Image shows we can download the project directly.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/download-zip.png)
+![Image shows we can download the project directly.](/images/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/download-zip.png)
 
 When we download a project at a specific reference point, whether that's from the main branch, or a different branch, the code from that reference point will be downloaded. This is also the case if you download a project from a commit other than the most recent one. There's no need to switch branches or commits — you've already got the code from that reference point. While this can be convenient, **the downloaded code is not linked to the Git repository**. If you run `git status` on it, you'll get the error `fatal: not a git repository (or any of the parent directories): .git`. So while you have a reference from that moment in time, you can't switch branches or commits because it's just the code without any git information.
 

@@ -45,7 +45,7 @@ Given a number `n`, return the `n`-th number from the **Fibonacci Sequence**, al
 
 The Fibonacci numbers are the numbers in the following integer sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
 
-![A visualization of the fibonacci sequence](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/fibonacci-visualization.png)
+![A visualization of the fibonacci sequence](/images/INTRO/fibonacci-visualization.png)
 
 In other words, each number is the *sum* of the previous two integers in the sequence. Example: the *3rd* number (where `n` = 3) in the sequence is *1*, because it is the sum of *0* and *1* - which are the previous two integers in the sequence.
 

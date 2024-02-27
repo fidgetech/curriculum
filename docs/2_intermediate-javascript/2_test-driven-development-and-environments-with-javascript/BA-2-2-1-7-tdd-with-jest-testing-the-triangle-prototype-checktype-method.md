@@ -63,7 +63,7 @@ When testing, we always write our test as if the method (or whatever we are test
 
 Let's run `$ npm test`.
 
-![The outcome of our test.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD+with+JS+images/jest-4.png)
+![The outcome of our test.](/images/Intermediate+JavaScript/TDD+with+JS+images/jest-4.png)
 
 There's a fail as expected. Here's the error:
 
@@ -85,7 +85,7 @@ Triangle.prototype.checkType = function() {
 
 If we run the test, we'll get a meaningful fail:
 
-![Now we have a meaningful fail again because we've added a `Triangle.prototype.checkType()` method.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD+with+JS+images/jest-5.png)
+![Now we have a meaningful fail again because we've added a `Triangle.prototype.checkType()` method.](/images/Intermediate+JavaScript/TDD+with+JS+images/jest-5.png)
 
 This is a meaningful fail because the method is actually called. It returns exactly what we'd expect: `undefined`. Now that we know our test is correctly calling our method, we can be sure that any changes we make to the method will also change the result of the test. 
 
@@ -158,7 +158,7 @@ The code above checks to see if all three sides are different. If they are, our 
 
 However, if we run our tests again, we'll get a failure:
 
-![Our new test passes but our previous test fails.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD+with+JS+images/jest-6.png)
+![Our new test passes but our previous test fails.](/images/Intermediate+JavaScript/TDD+with+JS+images/jest-6.png)
 
 **It's important to read the output carefully.** If we take a closer look, we'll see that our new test is passing. Our method correctly checks if a triangle is scalene. However, our new code broke our previous test because an object can have three different length properties and _not_ be a triangle.
 

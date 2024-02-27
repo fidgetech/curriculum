@@ -49,11 +49,11 @@ Let's reflect on our own social identities using the activity below from [YW Bos
 *  whether this identity is invisible, and 
 *  whether or not the perceived identity aligns with how you feel about yourself.
 
-![This is an activity that helps you to reflect on your social identities: (1) which ones you align with, (2) which ones are invisible, and (3) whether or not a perceived identity aligns with how you feel about yourself.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/DEI-Images/Social-Identity-Activity-ywboston-1.png)
+![This is an activity that helps you to reflect on your social identities: (1) which ones you align with, (2) which ones are invisible, and (3) whether or not a perceived identity aligns with how you feel about yourself.](/images/DEI-Images/Social-Identity-Activity-ywboston-1.png)
 
 Finally, we'd like you to consider how many different sources of power and privilege there are. Take a look at the chart below from [Frame Shift Consulting's Ally Skills Workshop](https://frameshiftconsulting.com/ally-skills-workshop/), which illustrates different sources of power and privilege.
 
-![Chart shows examples of power and privilege.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/DEI-Images/image3.png)
+![Chart shows examples of power and privilege.](/images/DEI-Images/image3.png)
 
 Remember, we all have intersecting identities, and some have more privileges, and some have less. As you think about your own social  identities, consider what privileges they give you at Epicodus, and what privileges you don't have.
 

@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 In this lesson, we'll learn a bit more about the `Node` object. We've previously encountered the `Node` object when we discussed the series of objects that HTML element objects inherit from. Remember this graphic for the `HTMLHeadingElement` object?
 
-![This image shows the objects that the `HTMLHeadingElement` object inherits from](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/HTMLHeadingElement-inheritance-on-MDN.png)
+![This image shows the objects that the `HTMLHeadingElement` object inherits from](/images/new-section2-js-and-web-browsers/HTMLHeadingElement-inheritance-on-MDN.png)
 
 In the image we can see that the `HTMLHeadingElement` object (and all other HTML element objects like `HTMLLIElement`, `HTMLAnchorElement`, and so on) inherits from 4 other objects:
 
@@ -39,7 +39,7 @@ A tree is a collection of nodes that are organized hierarchically. There's alway
 
 The following image is an example of a tree from [Wikipedia's entry on the tree data structure](https://en.wikipedia.org/wiki/Tree_(data_structure)).
 
-![This is an images of a tree data structure with a single root node at the top, and a series of child nodes.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/tree-data-structure-from-wikipedia.png)
+![This is an images of a tree data structure with a single root node at the top, and a series of child nodes.](/images/new-section2-js-and-web-browsers/tree-data-structure-from-wikipedia.png)
 
 There are many types of trees (with specific names), but we don't need to concern ourselves with the details. We care about trees because the Document Object Model is a tree. In technical terms, the DOM is a hierarchical collection of nodes, and each node in the DOM is an object that represents some aspect of the document, like text, a comment, an element, or the document itself! 
 
@@ -57,7 +57,7 @@ In fact the terms "parent", "child or "children", and "siblings" are how we desc
 * The three `<li>` elements are all siblings, as well as children of the `<ul>` element.
 * `<body>` is the parent of `<h1>`, `<p>`, and `<ul>`
 
-![This image shows one HTML document as source code (on the left) and as a DOM (on the right).](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/html-source-simple-with-tree.png)
+![This image shows one HTML document as source code (on the left) and as a DOM (on the right).](/images/new-section2-js-and-web-browsers/html-source-simple-with-tree.png)
 
 Take note that the above image is a bit deceiving. It only describes some of the nodes present in the HTML — the elements. Text and commentary, among others, are also nodes. Let's look at another example to better understand different types of nodes in the DOM tree. 
 
@@ -69,7 +69,7 @@ The following image breaks down the different node types of the P tag with a nes
 <p id="test">Visit us <a href="www.example.com">here</a>!</p>
 ```
 
-![This image highlights that the P and A tags are both node elements, and the "Visit us ", "here", and "!" are all text nodes.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/OOP-JS/node+types.png)
+![This image highlights that the P and A tags are both node elements, and the "Visit us ", "here", and "!" are all text nodes.](/images/OOP-JS/node+types.png)
 
 To see a full list of node types, visit the following documentation on MDN:
 
@@ -83,7 +83,7 @@ Next, let's look at one more example that demonstrates the relationships between
 
 In the following image, we'll see the same paragraph element as in the previous example, still broken into a hierarchy of nodes, but this time with the relationships between each node labeled.
 
-![This image shows the `<p id="test">Visit us <a href="www.example.com">here</a>!</p>` html as a hierarchical tree of nodes with the relationships between each node labeled.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/OOP-JS/node-relationships.png)
+![This image shows the `<p id="test">Visit us <a href="www.example.com">here</a>!</p>` html as a hierarchical tree of nodes with the relationships between each node labeled.](/images/OOP-JS/node-relationships.png)
 
 Here are a few relationships between the nodes in the above image:
 

@@ -11,7 +11,7 @@ We can use a VS Code setting called _bracket pair colorization_ to add color to 
 
 Here's an example of these settings in action.
 
-![Bracket colorizer changes the color of opening and closing brackets.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/bracket-colorizer.png)
+![Bracket colorizer changes the color of opening and closing brackets.](/images/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/bracket-colorizer.png)
 
 As we can see in the image above, the opening and closing brackets for this function are now different colors. Each opening bracket has a corresponding color with its closing bracket. Also, when we click on a bracket, there is a line guide that shows exactly where the brackets open and close — and the line guide will help us see the exact code that's contained inside the brackets.
 
@@ -20,7 +20,7 @@ As we can see in the image above, the opening and closing brackets for this func
 
 To configure these settings, open _Settings_ in VS Code. First search for "bracket pair colorizer" or "bracket pair colorization".
 
-![Search for the "bracket pair colorizer" or "bracket pair colorization" setting in VS Code.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/bracket-colorizer-vscode-setting.png)
+![Search for the "bracket pair colorizer" or "bracket pair colorization" setting in VS Code.](/images/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/bracket-colorizer-vscode-setting.png)
 
 There will be a couple of options returned from the search. The setting we want is called _Bracket Pair Colorization_, highlighted by the red square in the image above. To enable bracket pair colorization, select the checkbox for this setting. Also note whether you want to enable this for your workspace or for the user. 
 
@@ -34,7 +34,7 @@ Next search for "bracket pair guides". There will be multiple options returned t
 
 As you configure your settings, note whether you want to make changes to your workspace or for the user.
 
-![Search for the "bracket pair guides" setting in VS Code.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/setting-bracket-guides.png)
+![Search for the "bracket pair guides" setting in VS Code.](/images/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/setting-bracket-guides.png)
 
 ## Optional: Customizing Colors
 ----
@@ -43,7 +43,7 @@ You can optionally customize the colors for your colorized brackets and guides. 
 
 Start by searching for "workbench color customizations". Within the first returned result for _Workbench: Color Customizations_, select the link _Edit in Settings.json_. This will open up a new file called `settings.json`.
 
-![select the option to _Edit in Settings.json_.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/edit-bracket-colors.png)
+![select the option to _Edit in Settings.json_.](/images/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/edit-bracket-colors.png)
 
 Within VS Code's `settings.json` file, there will be a JavaScript object, with a series of key-value pairs and some nested objects. We'll be adding to the value of the key `"workbench.colorCustomizations"`. As the image below demonstrates we can use VS Code's autocompletion suggestions to explore the possible properties we can set. All we have to type in is `"editorB` in order to get a list of suggestions. 
 

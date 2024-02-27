@@ -25,7 +25,7 @@ In other words, access level modifiers control the **visibility** of a class or 
 
 We're familiar with the access modifier `public`, but there are many others, all of which control how a class or class member is accessed. To get to know these other access modifiers, let's borrow a helpful table from [the Microsoft (MS) Docs](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers):
 
-![Table of access modifiers and how they restrict (or not) access to the class or class member.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/prework/access-modifier-table.png)
+![Table of access modifiers and how they restrict (or not) access to the class or class member.](/images/c%23/prework/access-modifier-table.png)
 
 Horizontally across the top of the table, the access modifiers are listed as each column's name:
 

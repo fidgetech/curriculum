@@ -18,7 +18,7 @@ $ code .
 ```
 Here is our project directory in a text editor with the empty file open.  
 
-![Project directory screenshot](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/git-tracking-changes/project-directory.png)
+![Project directory screenshot](/images/git-tracking-changes/project-directory.png)
 
 In the coming lessons, we are going to learn all about HTML but for now, copy and paste this text into your `hello-world.html` file into your text editor:
 
@@ -45,7 +45,7 @@ We save our file in our text editor and see the circle on the _hello-world_ tab 
 
 We can view our HTML in the web browser by going to our Desktop GUI folder and double-clicking on `hello-world.html`.
 
-![Hello world](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/hello-world-browser.png)
+![Hello world](/images/INTRO/week1-html-css/hello-world-browser.png)
 
 ## Git tracking
 
@@ -221,6 +221,6 @@ This may seem like more details than we want for a simple Hello World website bu
 
 Let's take a final look at our website to see our changes.
 
-![Hello world](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/hello-world-browser-2.png)
+![Hello world](/images/INTRO/week1-html-css/hello-world-browser-2.png)
 
 Hurray! Hello, World!

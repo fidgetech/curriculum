@@ -28,7 +28,7 @@ Click the _Download_ button of the first option, which is _Compiled CSS and JS_.
 
 This will download a `.zip` file. Click on the file to decompress it. Here's what's inside:
 
-![Contents of Bootstrap folder](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/Bootstrap+images/bootstrap-contents.png)
+![Contents of Bootstrap folder](/images/INTRO/week1-html-css/Week-1-2020-images/Bootstrap+images/bootstrap-contents.png)
 
 There are two directories: `css` and `js`.
 
@@ -64,7 +64,7 @@ As we see here, we can link to multiple stylesheets. However, it's very importan
 
 We can also add Bootstrap into a project via a **content delivery network**, or **CDN**. This is the option under the section titled "jsDelivr" on Bootstrap's [download page](https://getbootstrap.com/docs/4.5/getting-started/download/#jsdelivr). jsDelivr is a content delivery network.
 
-![CDN-links-on-bootstraps-website](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/bootstrap-cdn-with-jsdeliver.png)
+![CDN-links-on-bootstraps-website](/images/bootstrap-cdn-with-jsdeliver.png)
 
 A content delivery network is exactly what it sounds like — a network of servers that make content available for users. In this case, Bootstrap is making its stylesheets available online, which means we can just load the online version directly to our project without needing to add any files to our `css` directory.
 

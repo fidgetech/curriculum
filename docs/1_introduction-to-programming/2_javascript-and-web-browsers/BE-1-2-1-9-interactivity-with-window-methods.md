@@ -78,7 +78,7 @@ undefined
 
 It is good to be conscious of what arguments a method or function takes, and what data type it returns. Here is a table showing that information for the three `window` methods introduced in this lesson:
 
-![window methods arguments and return values table](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week2-js-jquery/window-methods-arguments-returns.png)
+![window methods arguments and return values table](/images/INTRO/week2-js-jquery/window-methods-arguments-returns.png)
 
 The `window.alert()` method does not return anything useful, which is fine because we'd only use it to display some information to the user. It's a way to output information, not collect it. 
 

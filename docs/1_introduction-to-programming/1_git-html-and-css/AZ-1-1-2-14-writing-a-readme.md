@@ -25,7 +25,7 @@ When we create a `README.md` file, it should always be stored at the top level o
 
 The most important reason is that when we push a repository to GitHub, GitHub will _automatically_ take the file named `README.md` and add its contents to the front page of the repository. For instance, take a look at the repository for [Bootstrap](https://github.com/twbs/bootstrap), a popular open source toolkit for styling websites that we will be learning about later in this section. If you scroll down the page, you'll see that the README is visible — and if you look at the file structure of the project, you'll also see that `README.md` is in the top level of the directory. You can also see this in the image below:
 
-![This image shows the README.md file as well as part of the README for Bootstrap in GitHub.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/bootstrap-readme.png)
+![This image shows the README.md file as well as part of the README for Bootstrap in GitHub.](/images/INTRO/week1-html-css/bootstrap-readme.png)
 
 In this image, we can see that the `README.md` file is one of many in the top level of the project repository. It was updated just a few weeks before this photo was taken. A README isn't just something that we add to a project and forget about. Instead, it's **a living document** that often changes as the project changes. We can also see that the README is automatically rendered beneath the file directory. GitHub will take care of this for us as long as the file is named `README.md` and is stored in the top level of the project.
 
@@ -57,7 +57,7 @@ READMEs vary widely from one repository to the next. A project that has many use
 
 Here is an example bare-bones README:
 
-![This sample README for a Northwest Gardener application shows all of the basic requirements from above.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/nw-gardener-readme-NO-CONTACT-INFO.jpg)
+![This sample README for a Northwest Gardener application shows all of the basic requirements from above.](/images/INTRO/week1-html-css/nw-gardener-readme-NO-CONTACT-INFO.jpg)
 
 This screenshot shows a very basic README that incorporates all of the required items. It doesn't look fancy but it does use basic Markdown such as headings and bullets to make it more readable. A README that looks like this is perfectly fine for now. However, keep in mind that your portfolio projects (and any projects that you are really proud of) should have more visually appealing READMEs. We will cover tips for creating great READMEs later in the program. For now, just make sure you get used to adding the basics above.
 

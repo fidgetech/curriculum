@@ -30,7 +30,7 @@ In technical terms, the DOM is our HTML represented as a hierarchical "tree" mad
 
 At its most basic, a tree consists of a root node that branches to child nodes, which in turn branch off into more child nodes. By default, nodes don't have any value — they can be of any data type. A node is just a data point along the tree, and it is always defined as in relation to other nodes. The following image from [Wikipedia](https://en.wikipedia.org/wiki/Tree_(data_structure)) shows a tree with a root node of `2`, and a series connected and branching nodes, going downwards:
 
-![This is an images of a tree data structure with a single root node at the top, and a series of child nodes.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/tree-data-structure-from-wikipedia.png)
+![This is an images of a tree data structure with a single root node at the top, and a series of child nodes.](/images/new-section2-js-and-web-browsers/tree-data-structure-from-wikipedia.png)
 
 The tree data structure is similar to how trees in nature start at the trunk (the root node) and extend into a canopy, moving from limbs to branches to twigs (or, moving from node to node to node). We also use trees outside of computer programming to represent hierarchical relationships, like in a family tree or a species classification tree. And this is the main goal of trees — to represent hierarchical relationships between data.
 
@@ -43,7 +43,7 @@ The way we describe the relationships between each node in a tree is to identify
 
 Let's look at another example of a tree, this time of an HTML document.
 
-![This image shows one HTML document as source code (on the left) and as a DOM (on the right).](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/html-source-simple-with-tree.png)
+![This image shows one HTML document as source code (on the left) and as a DOM (on the right).](/images/new-section2-js-and-web-browsers/html-source-simple-with-tree.png)
 
 This image shows one HTML document: on the left it's represented as source code, and on the right it's represented as a Document Object Model. In the DOM tree (the right in the image), the root node is the `document` object, which is a built-in object provided by the browser, just like the `window` object. Every node that branches from the `document` object in the DOM is an object that represents either an HTML element, text, or attribute. **The `document` object** is the entry point to accessing all of the DOM, including HTML elements, attributes, and text.
 
@@ -54,7 +54,7 @@ It's also important to note that every node in the DOM is an object. In terms of
 
 The `document` and `window` objects we have learned about so far are not separate objects. **In fact, by definition a `window` object represents our current browsing context with an HTML DOM inside of it**. This means that the `document` object belongs to the `window` object. Check out this image that visualizes the relationship:
 
-![This image shows a DOM tree with the root node as `window`, next to a browser window that shows two nested squares that represent the `document` object inside of the `window` object.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/window-is-global-object.png)
+![This image shows a DOM tree with the root node as `window`, next to a browser window that shows two nested squares that represent the `document` object inside of the `window` object.](/images/new-section2-js-and-web-browsers/window-is-global-object.png)
 
 The image shows the DOM tree next to the DOM in the browser. In the DOM tree, we can see that we've added `window` above `document`. Because trees show hierarchical relationships, what this means is that the `document` object is nested inside of the `window` object. Or, in other words, the `document` object is a property of the `window` object. 
 

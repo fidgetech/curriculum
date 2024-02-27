@@ -27,7 +27,7 @@ React was originally developed by Facebook to manage the dynamic, complex needs 
 
 Create a site that looks like the mock-up depicted below using only React components. Take care in determining which portions warrant their own components:
 
-![social-media-wireframe](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/social-media-mockup.png)
+![social-media-wireframe](/images/React/social-media-mockup.png)
 
 Make sure to draw a component diagram and include it in your README.
 

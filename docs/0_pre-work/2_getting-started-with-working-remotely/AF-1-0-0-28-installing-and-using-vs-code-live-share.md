@@ -40,7 +40,7 @@ If you haven't already installed VS Code by following along with the previous le
 
 After you install VS Code, click the four squares on the left side of the screen to access the Extensions menu. In the image below, the icon with four squares is the bottom icon.
  
-![ Click the 4 squares icon in bottom left of screen.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/live-share-images/image7.png)
+![ Click the 4 squares icon in bottom left of screen.](/images/live-share-images/image7.png)
  
 Search for and install **Live Share**. Next, search for and install the VS Code **Live Server extension (by Ritwick Dei)**. Finally, search for and install the **Live Share Audio** extension. It's helpful to know the process of searching for and installing extensions through VS Code, because you will likely want to extend your code editor's functionality with extensions in the future.
 
@@ -66,7 +66,7 @@ To share your code, terminal, and browser with another student or teacher, you'l
 
 Once you've opened your project in VS Code, you should see the files listed in the left-hand pane. If the file tree isn't showing, click the top left icon that shows two overlapping squares to show the file tree.
 
-![VS Code file explorer icon](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/vscode_file_explorer.png)
+![VS Code file explorer icon](/images/vscode_file_explorer.png)
 
 If only one file is showing, or you're not seeing the expected files, close the VS Code window, make sure you are in the correct directory in the terminal, and type `code .` again.
 
@@ -74,7 +74,7 @@ Once you've ensured that the project you want to share is open in VS Code, follo
 
 * Click the circle with an arrow on the left side of your screen to access Live Share. That is the bottom icon on the left in the image below. (This icon will be added after you've installed Live Share.) The user interface (UI) of programs change often, so if your icon looks slightly different, or doesn't have the same highlight, that is normal.
  
-![Image of tab with circle with arrow on left side and Live Share menu options.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/live-share-images/start_liveshare_session.png)
+![Image of tab with circle with arrow on left side and Live Share menu options.](/images/live-share-images/start_liveshare_session.png)
  
 * Make sure the file you're working on is saved. Live Share won't work on new, unsaved files. 
 
@@ -82,13 +82,13 @@ Once you've ensured that the project you want to share is open in VS Code, follo
 
 * When you start a Live Share session, a link will automatically be copied to your clipboard that you can share with your pair. Anybody with that link can now view and edit code along with you! If you need to get the link again, just click on "Invite participants", which is highlighted in the image below.
 
-![ Click on the "Invite participants link" on left side of screen.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/live-share-images/image2.png)
+![ Click on the "Invite participants link" on left side of screen.](/images/live-share-images/image2.png)
 
 #### A Few Notes
 
 If this is your first time starting a Live Share session on your personal computer, you may be prompted to give the program permissions. Select the option that you are comfortable with. You may also be prompted to sign in via your GitHub account, like in the image below. We suggest that you sign in to your Live Share sessions, so that you are listed by your user name and not "anonymous". Typically you will sign in once, and VS Code will save that information for future sessions.
 
-![This is a prompt that is asking you to sign into your GitHub account.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/live-share-images/sign_in_to_join_liveshare_session.png).
+![This is a prompt that is asking you to sign into your GitHub account.](/images/live-share-images/sign_in_to_join_liveshare_session.png).
  
 ### [Sharing the Terminal](#sharing-the-terminal)
  
@@ -100,11 +100,11 @@ We recommend only giving your instructors read access to your terminal just to b
  
 Once you've given read (or read/write) access, you'll have a terminal at the bottom of your screen that you and the people you're sharing with can use together.
  
-![ Image of the shared terminal.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/live-share-images/image6.png)
+![ Image of the shared terminal.](/images/live-share-images/image6.png)
  
 For the people joining your session, they can go to the bottom left corner of their screen and click on the terminal under Shared Terminals to see and use your terminal.
  
-![ You can click on terminal beneath "Shared Terminals." ](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/live-share-images/image8.png)
+![ You can click on terminal beneath "Shared Terminals." ](/images/live-share-images/image8.png)
  
 ### [Starting a Server](#starting-a-server)
  
@@ -112,20 +112,20 @@ Technically, you can't actually share your browser, but you can let your VS Code
  
 To use a server to share a file with other people, click "Go Live" in the bottom right corner of your screen.
  
-![ Click the blue "Go Live" bar at bottom of screen.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/live-share-images/image1.png)
+![ Click the blue "Go Live" bar at bottom of screen.](/images/live-share-images/image1.png)
  
  
 ### [Sharing a Server](#sharing-a-server)
  
 Once you have a server running, you can share it with others in VS Code Live Share. In Live Share, in the upper left corner, click "Share server" and type "5500" for the port to share (or whatever port you're using).
  
-![ Click share server.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/live-share-images/image9.png)
+![ Click share server.](/images/live-share-images/image9.png)
  
-![ Type 5500 for the port to share.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/live-share-images/image3.png)
+![ Type 5500 for the port to share.](/images/live-share-images/image3.png)
  
 Now, participants can go to the lower left corner of their screen. Under "Shared Servers", click "localhost:5500" to launch the browser and access the server.
  
-![ Now you can click on localhost:5500 on the left side of the screen.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/live-share-images/image5.png)
+![ Now you can click on localhost:5500 on the left side of the screen.](/images/live-share-images/image5.png)
  
 ### [Debugging Live Server](#debuggin-live-server)
  
@@ -135,7 +135,7 @@ Occasionally a server will fail to display your page or will display an error me
  
 If Discord goes down, you can switch to using audio through VS Code Live Share. In the upper right corner, under Session Details, under Audio Call, click "Start audio call". When Discord comes back up, switch back to Discord (so that teachers can visit your audio channel).
  
-![Image shows that you can "Start Audio Call" on left side of screen.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/live-share-images/image4.png)
+![Image shows that you can "Start Audio Call" on left side of screen.](/images/live-share-images/image4.png)
 
 ### [Joining a Live Share Session](#joining-a-live-share-session)
 
@@ -153,7 +153,7 @@ After you work through the configuration options, you will be able to see and wo
 
 If this is the first time you are joining a Live Share session, you will encounter a dialogue box that will ask you if you want to _Continue in Web_ or _Open in Visual Studio Code_. See the image below as an example of this dialogue box. 
 
-![Dialogue box asking you to select whether to open links in browser or via the web.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/live-share-images/option_to_use_live_share_in_browser_or_on_computer.png)
+![Dialogue box asking you to select whether to open links in browser or via the web.](/images/live-share-images/option_to_use_live_share_in_browser_or_on_computer.png)
 
 We strongly suggest that you select to open the project in VS Code. Why? The VS Code installed to your computer has access to your computer's terminal, and it also has all of your configurations and extensions enabled. When you use VS Code in the web browser, it will not have these configurations set up, nor will it have access to your computer's terminal. 
 
@@ -172,7 +172,7 @@ If you decide you want to use Live Share in the browser, or otherwise, here's ho
 
 If this is your first time joining a Live Share session, you may be prompted to _Sign in_ or _Continue as anonymous_, like in the image below. When you sign in, you will do so via GitHub. We suggest that you always sign in to your Live Share sessions, so that you are listed by your user name and not "anonymous". Typically you will sign in once, and VS Code will save that information for future sessions.
 
-![VS Code Live Share will prompt you to sign into your GitHub account.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/live-share-images/sign_in_to_join_liveshare_session.png).
+![VS Code Live Share will prompt you to sign into your GitHub account.](/images/live-share-images/sign_in_to_join_liveshare_session.png).
 
 #### Method #2 — Joining a Live Share Session in VS Code
 
@@ -186,4 +186,4 @@ Here's another way to join a Live Share session. Though it's not as convenient a
 
 You will now be able to see and work in any file in the project that has been shared with you.
 
-![Enter the collaboration session URL into the input after you click "join" or "join collaboration session"](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/live-share-images/join_liveshare_session.png)
+![Enter the collaboration session URL into the input after you click "join" or "join collaboration session"](/images/live-share-images/join_liveshare_session.png)

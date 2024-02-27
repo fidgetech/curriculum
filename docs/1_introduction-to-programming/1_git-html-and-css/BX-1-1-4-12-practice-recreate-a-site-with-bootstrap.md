@@ -20,7 +20,7 @@ hide_table_of_contents: true
 
 Now let’s use Bootstrap to rebuild the [Wikipedia homepage](https://en.wikipedia.org). Use divs, spans, classes, floats, etc to style the page exactly as it appears in your browser. Feel free to use placeholder text and images in your project.
 
-![Wikipedia homepage](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/wikipedia.png)
+![Wikipedia homepage](/images/INTRO/week1-html-css/wikipedia.png)
 
 The goal of this exercise is to rebuild how the site _looks_ not how it behaves, so your links don't need to link anywhere. To make a dummy link, use the `#` as the value of the `href` attribute on your link. For example: `<a href="#">`.
 

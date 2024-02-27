@@ -17,7 +17,7 @@ We're going to complete all of the above in this lesson, except for the last bul
 
 By the end of this walkthrough the Help Queue app will look like this:
 
-![Gif of Help Queue homepage and creating a new ticket meanwhile toggling between the light and dark theme.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-5-React-2020/help-queue-light-dark-theme.gif)
+![Gif of Help Queue homepage and creating a new ticket meanwhile toggling between the light and dark theme.](/images/React/Week-5-React-2020/help-queue-light-dark-theme.gif)
 
 ## Project Setup and Planning
 ---
@@ -77,7 +77,7 @@ export default App;
 
 After this update, this is what our Help Queue component tree should now look like:
 
-![The Help Queue component tree with the new `<ToggleTheme>` component.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-5-React-2020/context-help-queue-component-tree-with-toggle.png)
+![The Help Queue component tree with the new `<ToggleTheme>` component.](/images/React/Week-5-React-2020/context-help-queue-component-tree-with-toggle.png)
 
 ### Determining Which Elements Need Styling
 
@@ -85,7 +85,7 @@ If we want to create a light/dark theme, we'll need to update the color of the t
 
 So, the first question we need to answer is where our buttons and inputs are! It turns out we have buttons and inputs in four components. We can visualize their locations in our component tree:
 
-![The Help Queue component tree with the `<button>` and `<input>` elements listed.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-5-React-2020/context-help-queue-component-tree-with-UI-elements.png)
+![The Help Queue component tree with the `<button>` and `<input>` elements listed.](/images/React/Week-5-React-2020/context-help-queue-component-tree-with-UI-elements.png)
 
 * `TicketControl.js`: one `<button>` element.
 * `ToggleTheme.js`: one `<button>` element.
@@ -121,7 +121,7 @@ You're welcome to pick your own instead!
 
 Next up, we need to plan out where the theme state will live. This is easy, thanks to the leg work we did when we determined which components have button and input elements that need a theme applied to them. Let's take another look at our component tree:
 
-![The Help Queue component tree with the `<button>` and `<input>` elements listed, and their corresponding components highlighted with an orange rectangle.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-5-React-2020/context-help-queue-component-tree-with-UI-elements-highlighted.png)
+![The Help Queue component tree with the `<button>` and `<input>` elements listed, and their corresponding components highlighted with an orange rectangle.](/images/React/Week-5-React-2020/context-help-queue-component-tree-with-UI-elements-highlighted.png)
 
 The above diagram highlights the four components that will need access to the shared theme data: `TicketControl.js`, `ToggleTheme.js`, `TicketDetail.js`, and `ReusableForm.js`. Our next step is to lift state up to the nearest ancestor that all of these components share so that state can easily be shared between all of them: that's `App.js`! 
 

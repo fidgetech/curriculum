@@ -24,7 +24,7 @@ Because RESTful routing demands we communicate this information in the names of 
 
 RESTful routing conventions for applications that use objects within objects look like this:
 
-<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/objects-within-objects-screenshot-1.png" width="100%" />
+<img src="/images/c%23/objects-within-objects-screenshot-1.png" width="100%" />
 
 However, **not all applications use all routes depicted here**. Following RESTful routing doesn't require we use all routes. It just requires that the routes we _do_ need in our applications follow these conventions.
 
@@ -32,7 +32,7 @@ However, **not all applications use all routes depicted here**. Following RESTfu
 
 For our To Do List, we'll use these routes. Notice how they differ from our current setup:
 
-<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/objects-within-objects-screenshot-2.png" width="100%" />
+<img src="/images/c%23/objects-within-objects-screenshot-2.png" width="100%" />
 
 URL paths for all `Item` routes now include a fragment detailing their parent `Category` _before_ the fragment containing `Item` information.
 
@@ -376,7 +376,7 @@ We should now be able to build and run our application and navigate through it i
 
 If you're having a hard time conceptualizing how to plan your routes, controllers, and views, consider creating a diagram like the one below. Route names here don't follow RESTful convention exactly, but this is just a demonstration:
 
-<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/ToDoListActions%20.png" style={{width: "75%"}} />
+<img src="/images/c%23/ToDoListActions%20.png" style={{width: "75%"}} />
 
 Note: Open the image in a separate tab to see it at full size.
 

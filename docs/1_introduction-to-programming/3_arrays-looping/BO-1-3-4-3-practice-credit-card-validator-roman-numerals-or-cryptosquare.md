@@ -133,7 +133,7 @@ A classic method for composing secret messages is called a *square code*.
 
 The spaces and punctuation are removed from the English text and the characters are written into a square (or rectangle) and the entire message is downcased. For example, the sentence _"don't compare yourself to others, compare yourself to the person you were yesterday"_ is 69 characters long, so it is written into a rectangle with 9 rows and 8 columns.
 
-![Cryptosquare image](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/cryptosquare/cryptosquare.png)
+![Cryptosquare image](/images/cryptosquare/cryptosquare.png)
 
 The coded message is obtained by reading down the columns going left to right, outputting encoded text in groups of five letters. For example, the message above is coded as:
 

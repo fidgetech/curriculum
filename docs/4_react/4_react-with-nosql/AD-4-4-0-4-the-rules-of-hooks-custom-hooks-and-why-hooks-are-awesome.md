@@ -232,7 +232,7 @@ Prior to hooks, developers would use a combination of mixins, higher-order compo
 
 Courtesy of [reactjs.org](https://reactjs.org/), we can get a sense of what wrapper hell is by inspecting the component tree with our React DevTools:
 
-![The React DevTools show a series of nested components that transfer data, but do not render anything to the UI. This is considered "wrapper hell".](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/react-component-wrapper-hell.png)
+![The React DevTools show a series of nested components that transfer data, but do not render anything to the UI. This is considered "wrapper hell".](/images/React/Week-4-React-2020/react-component-wrapper-hell.png)
 
 All of the components pictured are wrapper components that do not actually render anything in the page, but instead transfer data. The React docs offer a helpful description of what we are seeing:
 

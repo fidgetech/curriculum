@@ -9,7 +9,7 @@ In this lesson, we'll take a look at the **insertion sort** algorithm. This algo
 
 So how does the insertion sort work? Well, we can think of it as separating a collection into two parts. The first part is a sorted section and the second is an unsorted section. At first, the sorted part is just the first item in the collection. Let's take a look at an example that uses the array `[9,5,7,3,15,12]`.
 
-![The illustration shows what will happen each time through the loop.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/insertion-sort.png)
+![The illustration shows what will happen each time through the loop.](/images/computer-science-curriculum-2020/insertion-sort.png)
 
 The first time through the loop, the algorithm takes the first element in the unsorted section and then determines where it should go in the sorted section. Right now, the sorted section is only one element `[9]`. Meanwhile, the unsorted section is the rest of the array. The first element of the unsorted section is `5`. So the algorithm will insert the `5` before the `9`.
 

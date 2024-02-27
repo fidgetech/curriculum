@@ -18,7 +18,7 @@ We recommend using [https://www.draw.io](https://www.draw.io/) for component dra
 
 Here is a diagram of our Help Queue:
 
-![A diagram of our Help Queue shows how we can break our application into smaller components.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/wk1-prework-static-react-site.jpg)
+![A diagram of our Help Queue shows how we can break our application into smaller components.](/images/React/wk1-prework-static-react-site.jpg)
 
 As our diagram demonstrates, our application will start with the following function components:
 

@@ -72,7 +72,7 @@ It just colors the content itself and the padding around it.
 
 The box model is perhaps easiest to understand with a picture:
 
-![A diagram of the CSS box model.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/intro-box-model-diagram.png)
+![A diagram of the CSS box model.](/images/INTRO/week1-html-css/intro-box-model-diagram.png)
 
 You'll run into the box model a *lot* when building web pages, so it's a good idea to get familiar with it.
 
@@ -137,7 +137,7 @@ As we can see, all of the boxes are set to a `width` of `50%`. Each box has diff
 
 Here's how this HTML looks in the browser:
 
-![Each box has a different width despite being set to 50% width.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/different-width-boxes.png)
+![Each box has a different width despite being set to 50% width.](/images/INTRO/week1-html-css/Week-1-2020-images/different-width-boxes.png)
 
 This is frustrating, especially when we are working with widths in percentages. They _all_ have different widths — despite the fact that we specified that we want them all to be 50% of the width of the window. This is even more painful when the boxes are side by side — any border or padding can cause them to overlap with each other.
 
@@ -192,7 +192,7 @@ This property will _include_ the padding and border width in the width we specif
 
 Now if we take a look, we'll see that all the boxes are the same width:
 
-![With border-box property, boxes are the same size.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/even-width-boxes.png)
+![With border-box property, boxes are the same size.](/images/INTRO/week1-html-css/Week-1-2020-images/even-width-boxes.png)
 
 Note, however, that this only affects width, not height.
 

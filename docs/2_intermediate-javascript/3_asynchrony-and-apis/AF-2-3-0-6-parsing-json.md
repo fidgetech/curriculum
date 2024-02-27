@@ -139,7 +139,7 @@ Pay close attention to how key-value pairs are nested inside of JSON objects. If
 
 For instance, here is the process we might use to find the `["id"]` property in the OpenWeather API's response. Remember that we can use either dot notation or bracket notation. The example below uses bracket notation — just to ensure you are familiar with both forms of notation:
 
-![An example of using the console to find a deeply nested property](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/exploring-json-in-console.png)
+![An example of using the console to find a deeply nested property](/images/exploring-json-in-console.png)
 
 ### Looping Through Arrays
 

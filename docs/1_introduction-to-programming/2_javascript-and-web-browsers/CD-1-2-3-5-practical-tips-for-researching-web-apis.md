@@ -83,13 +83,13 @@ To check on or change your DevTools settings for autocompletion, follow these in
 
 Check out the image below that demonstrates the power of the autocompletion feature.
 
-![This image shows the result of entering `let h1 = document.` into the DevTools console: a pop-up box with autocompletion suggestions.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/autocompletion-document-dot.png)
+![This image shows the result of entering `let h1 = document.` into the DevTools console: a pop-up box with autocompletion suggestions.](/images/new-section2-js-and-web-browsers/autocompletion-document-dot.png)
 
 In the image above, we've typed in `let h1 = document.` and a box appears with autocompletion suggestions. Here, suggestions are listed alphabetically, and we can scroll through and look at all of the `document` properties. Take note — there's a limit to the number of properties that the autocompletion box can list, so oftentimes the list in the box won't be complete.
 
 We can type in a letter to narrow down the list of autocompleted suggestions. In the image below, we've typed in `let h1 = document.q`, and we can see that there's grayed out letters offering a suggestion of `let h1 = document.queryCommandEnabled`, and the box of autocompletion suggestions have narrowed down to only `document` properties that start with `q`.
 
-![This image shows the autocompletion suggestions from entering `let h1 = document.q` into the DevTools console.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/autocompletion-document-dot-q.png)
+![This image shows the autocompletion suggestions from entering `let h1 = document.q` into the DevTools console.](/images/new-section2-js-and-web-browsers/autocompletion-document-dot-q.png)
 
 Also notice in the image above the suggestion in the autocompletion pop-up box of `> let h1 = document.querySelector("h1");` — this is a suggestion that matches one of my previously inputted commands to the console.
 
@@ -97,11 +97,11 @@ Everything that we've just done with the autocompletion feature and the `documen
 
 However, keep in mind that the autocompletion suggestion box has a limit to what it can list. If we scroll down to the bottom of the box (pictured on the right), we can see that the list ends in the `b`s and there's a bar with `. . .`. This simply means that it's not a complete list of all `style` properties. In this case, try typing in another letter, like `h1.style.b`, to get a list of all `style` properties beginning with a `b`.
 
-![This image shows two views of entering `h1.style.` into the DevTools console: on the left, the beginning of the list of autocompletion suggestions, and on the right, the end of the list that shows that the list of `style` properties is cut off and incomplete.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/autocompletion-element-dot-style.png)
+![This image shows two views of entering `h1.style.` into the DevTools console: on the left, the beginning of the list of autocompletion suggestions, and on the right, the end of the list that shows that the list of `style` properties is cut off and incomplete.](/images/new-section2-js-and-web-browsers/autocompletion-element-dot-style.png)
 
 There's also a limit to how helpful this information is — we can see all of the property names associated with an object, but we don't know what they do. One option is to simply access the property and see what you get. In the image below, I've done just that — I tried out `document.all` and I got back a large object. However, when I researched [the property on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/all), I learned that it's a deprecated property that I shouldn't use. The important lesson here is that you always need to research any property that you find via autocompletion to make sure that it is relevant to your code.
 
-![This image shows the results of entering `document.all` into the console.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/autocompletion-document-dot-all.png)
+![This image shows the results of entering `document.all` into the console.](/images/new-section2-js-and-web-browsers/autocompletion-document-dot-all.png)
 
 ## Tool #3: Using Reference Pages Effectively
 ---
@@ -149,7 +149,7 @@ Let's cover a few features of MDN documentation for Web APIs. Many of these feat
 
 This section covers helpful features of the reference pages for Web API interfaces.
 
-![This is an image of the top of the reference page for HTMLElement.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/mdn-docs-explanation-HTMLElement.png)
+![This is an image of the top of the reference page for HTMLElement.](/images/new-section2-js-and-web-browsers/mdn-docs-explanation-HTMLElement.png)
 
 The start of every reference page includes a short description of the object type. You should always start here. What follows are various sections that detail the object's properties, events, and more. Take not of a few features about these reference pages:
 
@@ -169,7 +169,7 @@ The start of every reference page includes a short description of the object typ
 
 This section covers helpful features of the reference pages for a Web API interface's property.
 
-![This is an image of the top of the reference page for HTMLElement.innerText.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/mdn-docs-explanation-HTMLElement-innerText.png)
+![This is an image of the top of the reference page for HTMLElement.innerText.](/images/new-section2-js-and-web-browsers/mdn-docs-explanation-HTMLElement-innerText.png)
 
 There are many similarities between reference pages for objects and a property of an object, so we'll just highlight the important differences. 
 

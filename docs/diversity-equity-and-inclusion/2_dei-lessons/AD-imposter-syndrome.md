@@ -46,7 +46,7 @@ Just as it's common in the tech industry, we've found that imposter syndrome is 
  
 As a former Epicodus instructor, I often had students come to me saying they felt they were struggling more than everyone else in their cohort. This self-assessment was usually inaccurate though the feeling was all too real. Students and developers may have the feeling that they must "fake it until they make it," but this can lead to the feeling that they're only faking it and never making it. You will often solve problems while only having a murky understanding of what's really going on — and that's an inevitable part of solving problems in tech. That's why the following meme is so popular in the dev community.
  
-![Meme showing a common feeling in coding.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/DEI-Images/idontknowmeme.jpg)
+![Meme showing a common feeling in coding.](/images/DEI-Images/idontknowmeme.jpg)
  
 The meme above states "My code doesn't work and I don't know why. My code works and I don't know why."
  

@@ -43,13 +43,13 @@ Go ahead and do this now!
 
 With the `--coverage` flag added, let's see what happens when we run our tests:
 
-![Our tests now include test coverage.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD-2020/100-percent-coverage.png)
+![Our tests now include test coverage.](/images/Intermediate+JavaScript/TDD-2020/100-percent-coverage.png)
 
 Our tests now include a chart that shows our total test coverage. It specifies the file `triangle.js` as well as the percentage of statements, branches, functions and lines that are covered. We have 100% test coverage, which is what we should be aiming for. The final column for `Uncovered Line #s` is blank. This column will show all lines that aren't covered in our tests.
 
 Here's how the test coverage looks if we comment out our test for an equilateral triangle.
 
-![Our test coverage shows slightly less coverage.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD-2020/90-percent-coverage.png)
+![Our test coverage shows slightly less coverage.](/images/Intermediate+JavaScript/TDD-2020/90-percent-coverage.png)
 
 Now we can see that a line has been added to the `Uncovered Lines #` section. Our test coverage will show us exactly which lines aren't covered in our code so we can check them and then add tests if needed. Since we are using TDD, we should always have 100% coverage, and this is a great way to confirm that our coverage is complete.
 
@@ -105,7 +105,7 @@ Now we're ready to write the code for `Triangle.prototype.isBigTriangle()` to ge
 
 With this code, I would expect my test to pass and to be done with my function. Let's run `$ npm run test` and see what we get!
 
-![The results of `$ npm run test` show ](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD-2020/partial-coverage.png)
+![The results of `$ npm run test` show ](/images/Intermediate+JavaScript/TDD-2020/partial-coverage.png)
 
 The last thing I would expect is for Jest to tell me that I have an `Uncovered Line #`. But this is also confusing. Jest is telling me that line 21 is not covered, but that's the if statement that my test is testing for. What's going on? This seems like a false negative.
 
@@ -180,7 +180,7 @@ However, we can and should assume that we have more testing to do if we _don't_ 
 
 Finally, when we run our tests with the `--coverage` flag, Jest will generate an HTML report in a directory called `coverage`. We can go to `coverage/lcov-report/` and then open its `index.html` file in the browser if we want a nicer looking version of our tests.
 
-![Our coverage information looks nicer in the browser.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD-2020/html-coverage.png)
+![Our coverage information looks nicer in the browser.](/images/Intermediate+JavaScript/TDD-2020/html-coverage.png)
 
 As we can see here, we get a little more information as well, such as the exact number of statements and paths we have in our code.
 

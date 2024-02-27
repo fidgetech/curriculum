@@ -17,11 +17,11 @@ Let's copy our local `.git` repository to a remote repository on GitHub now.
 
 First, we need to create the remote repository on GitHub.  Each pair partner creates a remote repository using their own GitHub account.
 
-![GitHub new repo button](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/new-repo-button.jpg)
+![GitHub new repo button](/images/INTRO/week1-html-css/new-repo-button.jpg)
 
 Once logged in, we'll select the _New Repository_ or _New_ button to go to the _Create a new repository_ screen:
 
-![GitHub new repository](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/create-new-repo.png)
+![GitHub new repository](/images/INTRO/week1-html-css/create-new-repo.png)
 
 Let's walk through the options we need to complete for our new repository.
 
@@ -126,7 +126,7 @@ If you're working with a pair, you might get a little jealous with all your co-a
 
 When you're done working on a project with your pair and you've made your last push to your pair's account, visit the repository on Github (eg https://github.com/your-pairs-name/hello-world). In the upper right corner, click Fork. The image below shows what the Fork button should look like.
 
-![The 'Fork' button on GitHub.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/git-fork/forking_on_github.png)
+![The 'Fork' button on GitHub.](/images/git-fork/forking_on_github.png)
 
 After GitHub does it's magic, you'll have a copy of the repo in your account.
 

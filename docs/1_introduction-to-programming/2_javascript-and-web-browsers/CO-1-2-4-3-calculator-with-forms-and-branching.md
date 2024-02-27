@@ -73,7 +73,7 @@ Below the form, there's a "Results" section with an empty P tag. This is where w
 
 Now, if we launch our HTML page in the browser we should see our two inputs and radio buttons:
 
-![calculator with radio buttons.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/calculator-app-in-browser.png)
+![calculator with radio buttons.](/images/new-section2-js-and-web-browsers/calculator-app-in-browser.png)
 
 Our website isn't very pretty or well-formatted right now. If you want, you can add styling later. 
 
@@ -164,7 +164,7 @@ function handleCalculation(event) {
 
 Notice that we've added a description to each variable that we are logging. We can combine strings and variables with a plus sign `+` or a comma `,`. If we run this project, we'll get positive confirmation that we're correctly grabbing the form values, just like in the image below. Note that if you are coding along with this lesson, your logged values may be different based on the numbers and operation you've inputted.
 
-![This image shows the console.log statements in the DevTools console.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/logged-form-variables-in-calc-project.png)
+![This image shows the console.log statements in the DevTools console.](/images/new-section2-js-and-web-browsers/logged-form-variables-in-calc-project.png)
 
 Using `console.log()` in this manner is a great debugging approach. If our form were not functioning correctly, or if our calculator was providing us odd, unexpected results (such as `NaN`) we could use `console.log()` to double-check that our values are being retrieved. And, if they weren't, we could pinpoint _which_ value is causing the issue, and double-check that we're retrieving this value with the correct HTML id. 
 

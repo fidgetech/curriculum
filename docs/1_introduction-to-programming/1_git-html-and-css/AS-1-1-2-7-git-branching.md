@@ -29,11 +29,11 @@ In Git, **branching** is the act of creating multiple copies of similar code in 
 
 You may be surprised to learn that you've been interacting with branches since the beginning of the course! At this point in the curriculum, you've most likely pushed several projects to GitHub already. Your current GitHub repositories should look something like this:
 
-![basic-github-repo](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/basic-github-repo.png)
+![basic-github-repo](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/basic-github-repo.png)
 
 Notice the dropdown menu on the left side labeled _Branch_:
 
-![branch-dropdown-on-github](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/branch-dropdown-on-github.png)
+![branch-dropdown-on-github](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/branch-dropdown-on-github.png)
 
 If we click this dropdown we see it contains one entry: `main`.
 
@@ -184,7 +184,7 @@ Note that we don't have to `cd` into the `css` directory — we can just specify
 
 Our project structure should look like this:
 
-![project-structure-with-css-in-atom](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/project-structure-with-css-in-atom.png)
+![project-structure-with-css-in-atom](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/project-structure-with-css-in-atom.png)
 
 Note that the image above looks a little different because it uses a different text editor.
 
@@ -231,7 +231,7 @@ h1 {
 
 If we open the `branching-website.html` file in our browser, we should see that the text in the `<h1>` tags is blue:
 
-![blue-headings](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/test-site-blue-headers.png)
+![blue-headings](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/test-site-blue-headers.png)
 
 Let's add and commit this new CSS rule to our project:
 
@@ -387,7 +387,7 @@ body {
 
 If we refresh our page in the browser, we can see these new styles:
 
-![test-site-blue-theme](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/test-site-blue-theme.png)
+![test-site-blue-theme](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/test-site-blue-theme.png)
 
 As always, we'll add these changes to our Git repository and commit them:
 
@@ -474,13 +474,13 @@ Date:   Mon Oct 10 11:49:54 2016 -0700
 
 Notice that the new commit we just made on `blue_theme` is **_not_** present in `main`! Our `blue_theme` branch's most recent commit reads _"Add styles to h1, h2, p, and body to fit blue theme."_ Whereas `main`'s most recent commit reads _"Add CSS rule to make H1 headings blue."_  And if we refresh our page in the browser again, we can see our blue styles are no longer present:
 
-![no-blue-theme](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/test-site-blue-headers.png)
+![no-blue-theme](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/test-site-blue-headers.png)
 
 Also, if you view the `styles.css` stylesheet in Visual Studio Code, you'll notice that the CSS rules we just added are _gone_. Don't worry; this is entirely normal. Because we switched branches, the version of the project we're seeing in VS Code is different. The `main` branch does not have the same CSS rules as the `blue_theme` branch.
 
 Remember, when we create a  branch the new branch will inherit all commits from the branch it is branched off from. That is, the branch we are located in when we create the new branch. However, when we make _new_ commits on our _new_ branch, they remain **on that branch**.  The organization of our current commits between branches look something like this:
 
-![flowchart-of-branches](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/flow-chart-1.png)
+![flowchart-of-branches](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/flow-chart-1.png)
 
 We can see our first three commits on `main`. When we branched off of `main` to create `blue_theme`, it inherited all of `main`'s commits. However, when we made subsequent commits in `blue_theme`  they remained exclusive to `blue_theme` and were not shared with `main`.
 
@@ -600,7 +600,7 @@ body {
 
 If we refresh our page in the browser, we can see our new CSS at work:
 
-![red-theme-styles](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/test-site-red-theme.png)
+![red-theme-styles](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/test-site-red-theme.png)
 
 We'll add these changes to our Git repository, and commit:
 
@@ -644,7 +644,7 @@ Date:   Mon Oct 10 11:49:54 2016 -0700
 
 Perfect. We now have the commits that came along with the new branch when we branched from `main`, _and_ the new commit we've just made on the `red_theme` branch. Our organization of commits between branches currently looks like this:
 
-![flow-chart-2](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/flow-chart-2.png)
+![flow-chart-2](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/flow-chart-2.png)
 
 Now, let's say we want to improve the styles in `red_theme` even further by changing the site's text.  We'll include the following additional CSS rules in `styles.css`:
 
@@ -674,7 +674,7 @@ body {
 
 Here, we denote that everything located in the `<body>` tags should have `sans-serif` style font that is center-aligned. Because we're now styling _everything_ in `<body>` tags we can remove `text-align: center;` from the existing `h1` and `h2` CSS rules. The `<h1>` and `<h2>` tags exist _within_ the `<body>` tags, so this rule will automatically apply to them too. We can save our changes and refresh the site to see our new styles:
 
-![red-theme-sans-serif](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/red-theme-with-sans-serif.png)
+![red-theme-sans-serif](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/red-theme-with-sans-serif.png)
 
 Again, we'll add these changes to our Git repository:
 
@@ -720,7 +720,7 @@ Date:   Mon Oct 10 12:04:27 2016 -0700
 
 The commits across all branches of the project currently look like this:
 
-![flow-chart-3](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/flow-chart-3.png)
+![flow-chart-3](/images/INTRO/week1-html-css/Git+Branching+and+Merging+Lessons/flow-chart-3.png)
 
 ## Benefits of Branching
 

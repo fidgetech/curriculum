@@ -28,7 +28,7 @@ Another nice thing about the `npx` command is that it can automatically execute 
 
 In the case of `create-react-app`, npx will first ask permission to download the package, to which you should enter 'y'.
 
-![Message from npx asking to install `create-react-app`](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/npx-install-cra-message.png)
+![Message from npx asking to install `create-react-app`](/images/React/npx-install-cra-message.png)
 
 ### Versioning Issues
 
@@ -39,7 +39,7 @@ However, there's one important thing to know about `npx`. It will download the l
 
 As of July, 2022, the most recent version of `create-react-app` does in fact have a small bug when we run `$ npm run start`. Take a look:
 
-![Message about deprecated technology after running `npm start` in our `create-react-app` app.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/cra-npm-start-warning-message.png) 
+![Message about deprecated technology after running `npm start` in our `create-react-app` app.](/images/React/cra-npm-start-warning-message.png) 
 
 This bug is a warning. While this warning doesn't impact the normal functioning of our application, this does demonstrate what the issues we might run into look like when using the latest technology.
 

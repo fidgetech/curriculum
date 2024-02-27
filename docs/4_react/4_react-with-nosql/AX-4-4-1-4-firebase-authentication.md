@@ -21,7 +21,7 @@ Regardless of how we choose to incorporate Firebase authentication, we need to a
 
 Navigate to your Help Queue project in the Firebase console, expand the _Build_ menu in the left-hand menu, and then click _Authentication_.
 
-![The _Authentication_ menu item from the _Build_ menu.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firebase-authentication.png)
+![The _Authentication_ menu item from the _Build_ menu.](/images/React/Week-4-React-2020/firebase-authentication.png)
 
 By default, authentication isn't enabled. So to get started, we'll click the _Get started_ button. This will open to the _Sign-in method_ tab within the authentication console. 
 
@@ -29,13 +29,13 @@ We'll see quite a few different ways Firebase can authenticate users ranging fro
 
 So, within the _Sign-in providers_ section, select _Email/Password_. In the image below this is circled in red:
 
-![Select _Email/Password_ from the many listed options for _Sign-in providers_.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firebase-auth-email-password-option.png)
+![Select _Email/Password_ from the many listed options for _Sign-in providers_.](/images/React/Week-4-React-2020/firebase-auth-email-password-option.png)
 
 On the next screen make sure to enable the first option _Email/Password_. We're not going to work with an email link (a passwordless sign in), though you are welcome to explore that on your own time. Finally, click the _Save_ button to save your selection and complete the setup process. 
 
 We'll now see _Email/Password_ listed under a _Sign-in providers_ section.
 
-![_Email/Password_ is not listed as an active authentication provider in the _Authentication_ section of the Firebase console. Also, the _Users_ tab is highlighted in a red circle.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firebase-auth-users-tab-option.png)
+![_Email/Password_ is not listed as an active authentication provider in the _Authentication_ section of the Firebase console. Also, the _Users_ tab is highlighted in a red circle.](/images/React/Week-4-React-2020/firebase-auth-users-tab-option.png)
 
 Note that there is a _Users_ tab at the upper left corner of the screen. This is circled in red in the above image. If we click on this tab, we'll see there are no users yet. This is a great place to add admins manually for a smaller site so other users can't access that functionality via the browser. We won't add users manually right now but keep this in mind if you just want admins to access the UI of a site.
 

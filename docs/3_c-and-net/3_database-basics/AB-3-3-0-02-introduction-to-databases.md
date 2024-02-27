@@ -97,10 +97,10 @@ class Artist
 In order to store these objects in a database, our database tables would be structured like this:
 
 **_stages_ table**<br />
-![stages table](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/relational-database-concepts/stages-empty.png)<br /><br />
+![stages table](/images/relational-database-concepts/stages-empty.png)<br /><br />
 
 **_artists_ table**<br />
-![artists table](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/relational-database-concepts/artists-empty.png)<br /><br />
+![artists table](/images/relational-database-concepts/artists-empty.png)<br /><br />
 
 * The C# class name matches the name of the corresponding database table.
 
@@ -114,11 +114,11 @@ When we create new C# objects, we assign each object property a value in the con
 
 #### `stages` Table
 
-![stages table populated](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/relational-database-concepts/stages-populated.png)<br /><br />
+![stages table populated](/images/relational-database-concepts/stages-populated.png)<br /><br />
 
 #### `artists` Table
 
-![artists table populated](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/relational-database-concepts/artists-populated.png)<br /><br />
+![artists table populated](/images/relational-database-concepts/artists-populated.png)<br /><br />
 
 Here, each **row** in the database represents a C# `Artist` or `Stage` object. Each of the object's properties is stored under the database column of the same name.
 

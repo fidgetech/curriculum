@@ -60,7 +60,7 @@ Here's the CSS so far:
 
 Now let's take a look at how this looks in the browser:
 
-![Image of kitten along with boxes.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/non-centered-elements.png)
+![Image of kitten along with boxes.](/images/INTRO/week1-html-css/Week-1-2020-images/non-centered-elements.png)
 
 Other than the kitten, this site isn't looking very visually appealing. The kitten image and the first box are side by side because they are **inline** elements. Spans are always inline elements and images are inline by default as well.
 
@@ -104,7 +104,7 @@ We've added `margin: auto;` to both rules and `width: 50%` to `.my-class`. By th
 
 Let's take a look at our page now:
 
-![The bottom box is centered but the image and span aren't.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/bottom-box-centered.png)
+![The bottom box is centered but the image and span aren't.](/images/INTRO/week1-html-css/Week-1-2020-images/bottom-box-centered.png)
 
 As we can see here, our rule is working correctly for the bottom box but not for the image or the top box.
 
@@ -141,5 +141,5 @@ Let's add that to both rules now:
 
 Now if we refresh our page, everything will be correctly centered. Note that none of the elements are inline anymore — they all start on new lines because they are now block elements.
 
-![All elements are centered now.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/centered-elements.png)
+![All elements are centered now.](/images/INTRO/week1-html-css/Week-1-2020-images/centered-elements.png)
 

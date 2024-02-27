@@ -18,7 +18,7 @@ The _Network_ tab in our browser's DevTools logs all requests made on the networ
 
 With our project opened in our browser, when we first open the DevTools to the _Network_ tab, we probably won't see anything in it. However, if you refresh the page, we'll see all of the requests made to localhost to populate the webpage. The requests made when we first load our webpage are highlighted by the red rectangle below. 
 
-![This image highlights all of the requests made to populate our webpage in the DevTools _Network_ tab.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/network-tab-requests.png)
+![This image highlights all of the requests made to populate our webpage in the DevTools _Network_ tab.](/images/Intermediate+JavaScript/Async-and-APIs-2020/network-tab-requests.png)
 
 Generally, we won't need any of the data from those requests. Though if we were working on performance optimization, we'd use that data. What we're interested in is any information about our API call to the OpenWeather API. Let's see what happens when we submit the form to get weather data for Portland. 
 
@@ -33,7 +33,7 @@ As highlighted in red in the image below, we'll see a new request listed. We can
 
 Also, the API response object is conveniently added to the small console at the bottom of the DevTools, which we can expand and explore. This is highlighted in green in the following image.
 
-![This image highlights our OpenWeather API call in the DevTools _Network_ tab, as well as the response object that's automatically added to the console.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/our-api-call-in-networks-tab.png)
+![This image highlights our OpenWeather API call in the DevTools _Network_ tab, as well as the response object that's automatically added to the console.](/images/Intermediate+JavaScript/Async-and-APIs-2020/our-api-call-in-networks-tab.png)
 
 When we click on the name of a request, a new window will open to the right of it with even more data about this request. There's many tabs in this new window, and we're opened directly to the _Headers_ tab. The headers of an API call include additional information about the request or response, including:
 
@@ -43,15 +43,15 @@ When we click on the name of a request, a new window will open to the right of i
 
 We won't spend a lot of time changing our headers, since we'll stick to basic configurations. To optionally explore more about headers, [visit the MDN documentation on HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers). 
 
-![This shows the _Headers_ tab opened in the _Network_ tab for our OpenWeather API call.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/request-headers-devtools-network-tab.png)
+![This shows the _Headers_ tab opened in the _Network_ tab for our OpenWeather API call.](/images/Intermediate+JavaScript/Async-and-APIs-2020/request-headers-devtools-network-tab.png)
 
 The next tab over is called _Payload_ and this lists the parameters that are included in the request URL, as well as any data that we're sending along with the request. Not data about the request, but data like user input that we need to add to an API call to get the right data we're looking for. 
 
-![This shows the _Payload__ tab opened in the _Network_ tab for our OpenWeather API call.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/request-payload-devtools-network-tab.png)
+![This shows the _Payload__ tab opened in the _Network_ tab for our OpenWeather API call.](/images/Intermediate+JavaScript/Async-and-APIs-2020/request-payload-devtools-network-tab.png)
 
 The next two tabs, _Preview_ and _Response_, both show the API's response in different formats. The _Preview_ tab nicely formats the response in a way that makes the object easy to explore.
 
-![This shows the _Preview_ tab opened in the _Network_ tab for our OpenWeather API call.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/request-preview-devtools-network-tab.png)
+![This shows the _Preview_ tab opened in the _Network_ tab for our OpenWeather API call.](/images/Intermediate+JavaScript/Async-and-APIs-2020/request-preview-devtools-network-tab.png)
 
 The last two tabs, _Initiator_ and _Timing_, include information about where in our code the request came from (the `getWeather` function in `index.js`), and how long it took for our request to complete. We won't use these last two tabs much. 
 
@@ -59,7 +59,7 @@ The last two tabs, _Initiator_ and _Timing_, include information about where in 
 
 The DevTools _Network_ tab includes an option for throttling. When we [**throttle** the network connection](https://developer.mozilla.org/en-US/docs/Glossary/Network_throttling), we're telling it how fast or slow our internet connection should be. This tool helps developers test their applications under a variety of internet connections that their users might experience.
 
-![This image shows the throttling option in the DevTools _Network_ tab.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/devtools-network-tab-throttling.png)
+![This image shows the throttling option in the DevTools _Network_ tab.](/images/Intermediate+JavaScript/Async-and-APIs-2020/devtools-network-tab-throttling.png)
 
 The default option is "no throttling", and at its most extreme we can tell our DevTools to make our webpage think it is offline. If we select offline and then submit our form to make an API call to the OpenWeather API, this simulates another type of error called a "network error". 
 

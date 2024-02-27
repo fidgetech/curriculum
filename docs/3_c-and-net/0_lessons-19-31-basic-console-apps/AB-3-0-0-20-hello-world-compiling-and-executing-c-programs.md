@@ -176,7 +176,7 @@ $ dotnet run
 
 We'll then see `Hello World` in our terminal! 
 
-![The terminal output from running our program: `Hello World`.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/hello-world-console-app.png)
+![The terminal output from running our program: `Hello World`.](/images/c%23/hello-world-console-app.png)
 
 That means we just wrote our first C# program! 
 

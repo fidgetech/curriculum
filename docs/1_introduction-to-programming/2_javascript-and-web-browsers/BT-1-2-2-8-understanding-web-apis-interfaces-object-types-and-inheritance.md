@@ -33,7 +33,7 @@ Let's look at an example: `window` is an actual object with data saved in a vari
 
 Notably, we can't access the object type `Window` (with a capital `W`) to use its properties. Check out the image below that's an example of this using the DevTools console. In the first input we access the `window` object and get the value of the `innerHeight` property. This works as expected because we're using the actual object. In the second input, we enter `Window.innerHeight` and get `undefined`. This doesn't work because we're referencing the object type.
 
-![This image shows that we can't access `Window` directly by showing how `undefined` is returned when we enter `Window.innerHeight` into the DevTools console.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/window-vs-Window.png)
+![This image shows that we can't access `Window` directly by showing how `undefined` is returned when we enter `Window.innerHeight` into the DevTools console.](/images/new-section2-js-and-web-browsers/window-vs-Window.png)
 
 We can think of an object type like a recipe to make cookies — it defines exactly what a cookie contains, but it isn't the cookie itself. On the other hand, the actual object with data corresponds to the actual cookie that we can eat. 
 
@@ -90,7 +90,7 @@ Check out the following picture from MDN's docs on the `HTMLHeadingElement`. In 
 * [`Node`](https://developer.mozilla.org/en-US/docs/Web/API/Node)
 * [`EventTarget`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)
 
-![This image shows the objects that the `HTMLHeadingElement` object inherits from](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/HTMLHeadingElement-inheritance-on-MDN.png)
+![This image shows the objects that the `HTMLHeadingElement` object inherits from](/images/new-section2-js-and-web-browsers/HTMLHeadingElement-inheritance-on-MDN.png)
 
 This diagram is describing a **chain of inheritance**: `HTMLHeadingElement` inherits from `HTMLElement`, which inherits from `Element`, which inherits from `Node`, which inherits from `EventTarget`. This means that all of the properties that belong to the `HTMLElement` object also belong to the `HTMLHeadingElement`. And, all of the properties that belong to the `Element` object also belong to the `HTMLElement` object, which also belong to the `HTMLHeadingElement`. 
 

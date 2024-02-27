@@ -62,7 +62,7 @@ Students familiar with SQL databases might be tempted to try to recreate one-to-
 
 A document can have its own subcollections. In fact, we can easily add a subcollection to our Help Queue project via the Firestore database UI:
 
-![Example shows how we can add a subcollection to a record in Firestore's UI.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/Adding-firestore-subcollection.png)
+![Example shows how we can add a subcollection to a record in Firestore's UI.](/images/React/Week-4-React-2020/Adding-firestore-subcollection.png)
 
 In the example above, we could click on a ticket from our Help Queue database, then click on "Start collection" (circled in red in the image above) in the rightmost panel to add a collection to that document. This wouldn't just be a collection, it would be a subcollection within the `tickets` collection.
 

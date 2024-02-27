@@ -47,7 +47,7 @@ Start by completing your business logic, and then move onto your user interface 
 
 Remember to create a `BankAccount` constructor and a prototype that includes methods for deposit and withdrawal and any other properties needed. Here is an example wireframe to help you visualize the app:
 
-![A mock up of the bank account webpage](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week4-oo/bank-assignment-wireframe.png)
+![A mock up of the bank account webpage](/images/INTRO/week4-oo/bank-assignment-wireframe.png)
 
 Your project is not required to look like this; this is only an example.
 

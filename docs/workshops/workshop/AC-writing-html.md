@@ -39,7 +39,7 @@ Here are the tags we are using in the code above:
 
 If you make any errors in your HTML, Glitch will add a red dot to the left of the line where the error is. You can hover the cursor over the red dot to see what the error is. If you accidentally type `<body>` like `<<body>`, you'll get the following error: "Special characters can't be escaped."
 
-![Here's an example of an error showing in Glitch.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/ucode-glitch-photos/brooke-ucode-glitch-update-5.20.21/glitch-images-MAY-2022/linter-error.jpg)
+![Here's an example of an error showing in Glitch.](/images/ucode-glitch-photos/brooke-ucode-glitch-update-5.20.21/glitch-images-MAY-2022/linter-error.jpg)
 
 Even if an error message doesn't make sense yet, it can still provide useful information. The error message above doesn't help us much - it's happening because the **linter** reading our software is confused. A linter looks for errors in our code and points them out to us. In this case, the linter is still being helpful: it tells us exactly where the error is so we can fix it. We just need to remove the extra `<`.
 

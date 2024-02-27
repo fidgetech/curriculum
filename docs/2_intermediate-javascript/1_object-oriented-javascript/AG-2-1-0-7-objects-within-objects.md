@@ -151,7 +151,7 @@ Note that the `stuff` inside `smallestBox` is a completely different property th
 
 If getting properties from this object was a bit confusing, that's okay. It was meant to be a confusing object. You'll find plenty of other confusing objects out in the wild, though! Don't forget that you can always explore an object one level at a time in the DevTools console:
 
-![We can look at an object's properties in the console, then dig deeper and look more closely at the objects inside of the objects.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/exploring-an-object.gif)
+![We can look at an object's properties in the console, then dig deeper and look more closely at the objects inside of the objects.](/images/Intermediate+JavaScript/Object-Oriented-JavaScript-2020/exploring-an-object.gif)
 
 In the GIF above, we use the console to navigate through `boxOfStuff`, gradually getting closer to the array that contains `"paper clips"`.
 

@@ -15,7 +15,7 @@ This lesson covers optional settings you can change in Discord to customize and 
 
 Right-click on the server icon and you’ll see an option to _Mute Server_. During class hours, you may want to temporarily mute other servers. Another option, if you have a free email address and multiple servers to mute, is to make another Discord account just for Epicodus classes.
 
-![Right-click the server icon to see option to "Mute Server".](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/prework/discord-mute-server.png)
+![Right-click the server icon to see option to "Mute Server".](/images/INTRO/prework/discord-mute-server.png)
 
 ## [Changing Notifications](#changing-notifications)
 
@@ -45,7 +45,7 @@ If you find that your phone is also sending you notifications while you are at y
 
 You can mute and hide channels you're not interested in. This makes the number of visible channels less cluttered. Right-click on a channel you want to hide set _Mute Channel_ to _Until I turn it back on_. Then right-click on the server icon and select _Hide Muted Channels_. You’ll still be able to see the category name but it will be greyed out.
 
-![Option to mute and hide channels](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/prework/discord-mute-categories.png)
+![Option to mute and hide channels](/images/INTRO/prework/discord-mute-categories.png)
 
 ## [Setting a Custom Status](#setting-a-custom-status)
 
@@ -53,7 +53,7 @@ You can mute and hide channels you're not interested in. This makes the number o
 
 You can set a custom status to let others know you are in class and shouldn't be disturbed. Click on your profile icon in the bottom left corner and click the _Set a custom status_ option. Your custom status will appear under your profile picture in the members list to the right.
 
-![Profile icon with custom status](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/prework/discord-custom-status.png)
+![Profile icon with custom status](/images/INTRO/prework/discord-custom-status.png)
 
 ## [Sharing Your Pronouns](#sharing-your-pronouns)
 
@@ -63,7 +63,7 @@ We do not require that you share your pronouns, but we recommend doing so, both 
 
 * You can update your nickname. To do so, find your name on the right pane of the Discord server and right click. Choose the _Change Nickname_ option. Then you can append your pronouns, like "they/them" or "she/they", to your nickname. This puts your pronouns on the same level as your name.
 
-![Image shows option to update nickname or profile](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/prework/update-profile.png)
+![Image shows option to update nickname or profile](/images/INTRO/prework/update-profile.png)
 
 * You can update your custom status as noted above. This makes your pronoun visible to everyone just below the level of your nickname. The disadvantage of this approach is that you may want to save your status for other temporary status updates.
 

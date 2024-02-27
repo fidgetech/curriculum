@@ -340,7 +340,7 @@ XMLHttpRequest {readyState: 4, timeout: 0, withCredentials: false, upload: XMLH
 
 If we expand the `XMLHttpRequest` object in the DevTools console, it will look something like this:
 
-![This image shows the properties of an XMLHttpRequest object. It has a lot of properties.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/xml-http-response-object-CROPPED.png)
+![This image shows the properties of an XMLHttpRequest object. It has a lot of properties.](/images/Intermediate+JavaScript/xml-http-response-object-CROPPED.png)
 
 We cropped this image — there's much more listed for both the `response` and `responseText` properties. As you can see, an `XMLHttpRequest` object has a lot of functionality. You don't need to worry about most of these properties right now. However, there are a few that will be helpful during this section:
 
@@ -356,7 +356,7 @@ The `readyState` property is always set to a number, and each number represents 
 
 Check out the image below from [MDN's reference on `XMLHttpRequest.readyState`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState). As we can see, `XMLHttpRequest` objects have five states they can be in. (Take note that an "`XMHttpRequest` client" is simply an instance of that object type.)
 
-[This table shows the states, 0 through 4, that an `XMLHttpRequest` object can be in](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/xml-http-request-obj-states.png)
+[This table shows the states, 0 through 4, that an `XMLHttpRequest` object can be in](/images/Intermediate+JavaScript/Async-and-APIs-2020/xml-http-request-obj-states.png)
 
 Each state describes a step in the process of making an API call using the `XMLHttpRequest` object. Once we get to 4, "DONE", we know that the API call has been completed.
 

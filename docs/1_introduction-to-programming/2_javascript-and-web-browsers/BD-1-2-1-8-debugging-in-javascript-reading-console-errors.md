@@ -45,7 +45,7 @@ A helpful first step in resolving an error is to research it so you can understa
 
 > an error when a variable that doesn't exist (or hasn't yet been initialized) in the current scope is referenced.
 
-![The DevTools console shows two errors related to `wndow.innerWidth` and `window.innerHeigt`.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/reading-console-errors-window-errors.png)
+![The DevTools console shows two errors related to `wndow.innerWidth` and `window.innerHeigt`.](/images/new-section2-js-and-web-browsers/reading-console-errors-window-errors.png)
 
 If we revisit our error message, we should quickly see the issue in the error message `wndow is not defined`: we have a typo! We wrote `wndow` instead of `window`, and the variable `wndow` doesn't exist in our code (we didn't create it and it's also not built-in). Encountering an error that's caused by a typo is _incredibly common_ among computer programmers new and old. 
 
@@ -72,7 +72,7 @@ We can confirm that we can add a new property to the window object by giving our
 Window {0: Window, 1: Window, window: Window, self: Window, document: document, name: '', location: Location, …}
 ```
 
-![This image shows the new `innerHeigt` property in the `window` object.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/incorrect-inner-height-property-for-console-errors.png)
+![This image shows the new `innerHeigt` property in the `window` object.](/images/new-section2-js-and-web-browsers/incorrect-inner-height-property-for-console-errors.png)
 
 So, remember to always work with your DevTools console open and keep an eye out for error messages! If something is wrong and there is no error message, a helpful starting point is to compare what you expect from the code you wrote to the actual result. This can give you ideas of where to look in your code for the error. Generally speaking, retracing your steps is always helpful when debugging an error in your code. 
 

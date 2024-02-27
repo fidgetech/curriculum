@@ -18,13 +18,13 @@ The code that handles arithmetic is the **business logic**. It's the 'inner work
 
 The code that handles interacting with users is the **user interface logic**. It retrieves and displays information from the user and provides it to the business logic to calculate. While buttons on a calculator may be _labeled_ with numbers, they're just visual buttons. User interface logic is what translates clicking on this area of the page:
 
-![button-on-calculator](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week2-js-jquery/button-on-calculator.png)
+![button-on-calculator](/images/INTRO/week2-js-jquery/button-on-calculator.png)
 
 ... into the number `4`.  After all, we cannot perform addition on _buttons_, but you can perform addition on _numbers_. The user interface logic registers that the user has pushed the button labeled "4". It then provides the number `4` to the business logic where we may perform calculations with it.
 
 Let's say we also press the buttons labeled "+" and "5". The user interface logic also translates these interactions into the number `5` and recognizes it will need a method for addition. The business logic then adds the numbers `4` and `5` together, and returns `9`. The user interface logic can then display this result to the user:
 
-![result-from-calculator](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week2-js-jquery/result-displayed-from-calculator.png)
+![result-from-calculator](/images/INTRO/week2-js-jquery/result-displayed-from-calculator.png)
 
 User interface logic handles interacting with the user including displaying or gathering information. The business logic handles calculating or manipulating information behind the scenes.
 

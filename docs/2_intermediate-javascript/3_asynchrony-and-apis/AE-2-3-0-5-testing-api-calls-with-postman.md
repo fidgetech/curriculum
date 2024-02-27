@@ -21,13 +21,13 @@ Finish your installation process and then open Postman. While Postman has a lot 
 
 To make an API call, we need to create a new request. There's two ways to do this: you can open a new tab or select _Create a request_ from the overview tab. In the following image these options are highlighted by a red circle. 
 
-![This shows the Postman overview tab with the options to create a new request highlighted in red circles.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/postman-history-tab.png)
+![This shows the Postman overview tab with the options to create a new request highlighted in red circles.](/images/Intermediate+JavaScript/Async-and-APIs-2020/postman-history-tab.png)
 
 Next, we need to type in our query into the URL bar. 
 
 The default type of API call is a GET request (the request type is just to the left of the URL bar). You will probably only be making GET requests during this section, but if you need to make a POST or other type of request, this is where you'd update the query to reflect that.
 
-![In this GIF, we type in the query we want and then send it.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/basic-postman-query-2022.gif)
+![In this GIF, we type in the query we want and then send it.](/images/Intermediate+JavaScript/Async-and-APIs-2020/basic-postman-query-2022.gif)
 
 In the GIF above, we paste in the query we want. The _Params_ tab is open and the parameters of the API call are automatically populated if the URL includes any parameters. 
 
@@ -52,7 +52,7 @@ Once we're ready to make our API call, we click the _Send_ button.
 
 We intentionally put in a bogus API key here but we still get an informative response from the API. We'll see that response in the bottom tab of Postman.
 
-![JSON response plus information about response code.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/postman-response-tab.gif)
+![JSON response plus information about response code.](/images/Intermediate+JavaScript/Async-and-APIs-2020/postman-response-tab.gif)
 
 Every API response comes with a **response code**. If all goes well, we'll get a _200 OK_. A 200 code means the query was successful. In this case, though, we get a _401_ code, which means the query was unauthorized. The message tells us exactly why: "Invalid API key." That's to be expected. We intentionally didn't put in a valid key. We can hover over the response code in the upper right corner to see what it means. Postman also has tabs so we can look at the response in different ways — but as you can see from the GIF, the _Pretty_ option is the best way to go.
 
@@ -60,7 +60,7 @@ One other really nice thing about Postman is the _History_ tab in the left-hand 
 
 We can also open a new tab (above the URL bar) if we want to be able to toggle between testing multiple requests at once.
 
-![This highlights the _History_ tab in a red rectangle.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/Async-and-APIs-2020/postman-history-tab.png)
+![This highlights the _History_ tab in a red rectangle.](/images/Intermediate+JavaScript/Async-and-APIs-2020/postman-history-tab.png)
 
 We've just scratched the surface of what Postman can do, but this functionality is likely all you'll need for making and testing API calls while you're a student at Epicodus. Feel free to explore Postman further — the [documentation](https://learning.postman.com/docs/getting-started/introduction/) is extensive.
 

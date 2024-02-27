@@ -152,7 +152,7 @@ Ahh, light blue. Very relaxing. Don't forget to take care of yourself and take a
 
 We can now open our project in the browser and see what we have:
 
-![Our very rudimentary shape tracker application.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD-2020/first-triangle-tracker-pic.png)
+![Our very rudimentary shape tracker application.](/images/Intermediate+JavaScript/TDD-2020/first-triangle-tracker-pic.png)
 
 Well, that's really not much. But we needed four files and nearly fifty lines of code to do next to nothing. Would this way of doing things work with an application like Flickr? No way. 
 

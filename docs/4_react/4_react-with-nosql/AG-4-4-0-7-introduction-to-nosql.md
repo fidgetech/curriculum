@@ -163,7 +163,7 @@ Next, let's look at how a Firestore Database is structured. Firestore Databases 
 
 Let's restructure our friend data into Firestore documents and collections. In this case `friends` would be our collection, and each friend would correspond to a `document`. Here's what our data would look like:
 
-![This image shows example "friends" data structured like it would be in the Firestore database: a friends collection and three friend documents.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firestore-datastructure-collection-document.png)
+![This image shows example "friends" data structured like it would be in the Firestore database: a friends collection and three friend documents.](/images/React/Week-4-React-2020/firestore-datastructure-collection-document.png)
 
 In the example above, the folder icon is meant to represent a Firestore collection, and the document icon, a Firestore document. Also, take note that there are no subcollections in this example. With the document-driven Firestore database, we can group data together (related documents are in the same collection), but also keep data distinctly separated (each document is separate and unique, and so is each collection).
 

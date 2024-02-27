@@ -112,7 +112,7 @@ After installing Git Bash on your Windows machine, as instructed in the [Introdu
 
 If you have not already created a personal GitHub account to store your code, head over to the [GitHub website](https://github.com/) and sign up for a free account now.  
 
-![GitHub account signup](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/github-account/github-account-signup.png)
+![GitHub account signup](/images/github-account/github-account-signup.png)
 
 When creating an account, consider choosing a username that you will feel comfortable sharing in a professional setting.  Also, keep in mind that all of the work that you will be adding to your GitHub account is viewable to the public.  Make a commitment to always present the best version of your code. Again, your GitHub profile will serve as your resume and portfolio of coding abilities.
 

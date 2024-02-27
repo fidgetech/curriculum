@@ -15,13 +15,13 @@ Before we get started, let's take a look at how a merge sort actually works. We'
 
 First, a merge sort algorithm splits the larger array into smaller and smaller arrays — until each array is only one element.
 
-![In a merge sort, the array is split in half repeatedly until it is a series of arrays of just one element](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/split-before-merge-sort.png)
+![In a merge sort, the array is split in half repeatedly until it is a series of arrays of just one element](/images/computer-science-curriculum-2020/split-before-merge-sort.png)
 
 As we can see from the illustration, this is the _divide_ part of a merge sort's _divide and conquer_ approach.
 
 You can probably guess what happens next: the arrays are _merged_ again — but they are sorted as they're merged.
 
-![Next, each smaller array is merged and sorted until all the arrays have merged into one sorted array.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/merge-array-again.png)
+![Next, each smaller array is merged and sorted until all the arrays have merged into one sorted array.](/images/computer-science-curriculum-2020/merge-array-again.png)
 
 The end result is a fully sorted array — and while the process may seem complicated, it's more efficient than the sorting algorithms we've learned so far — at least for large collections.
 
@@ -170,23 +170,23 @@ The fourth time through the loop, we are taking advantage of how JavaScript hand
 
 Let's also demonstrate how this works with an illustration because this is the first time we've used two pointers to point at and compare values from two different arrays at different indexes of each array. Let's say we want to merge the following two arrays: `[3, 7, 12]` and `[2, 5, 9]`.
 
-![First iteration through the loop.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/merge-sort-pointer/first-iteration.png)
+![First iteration through the loop.](/images/computer-science-curriculum-2020/merge-sort-pointer/first-iteration.png)
 
 The first time through the loop, we have pointers at the first element of both arrays. That's what the illustration above shows. Because `2` is the lower value, it will get pushed to `mergedArray` and the pointer for the array on the right will move forward one element.
 
-![Second iteration through the loop.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/merge-sort-pointer/second-iteration.png)
+![Second iteration through the loop.](/images/computer-science-curriculum-2020/merge-sort-pointer/second-iteration.png)
 
 The illustration above shows where we are at the second time through the loop. We are now comparing `3` and `5`. `3` is smaller — and that value from the left array is going to get pushed to `mergedArray`. The pointer for the array on the left gets moved forward one element.
 
-![Third iteration through the loop.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/merge-sort-pointer/third-iteration.png)
+![Third iteration through the loop.](/images/computer-science-curriculum-2020/merge-sort-pointer/third-iteration.png)
 
 Each pointer has moved forward one by the time we start our third iteration. Now we are comparing `7` and `5`. `5` is smaller so that value gets pushed to `mergedArray` and the pointer for the array on the right gets moved forward one element.
 
-![Fourth iteration through the loop.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/merge-sort-pointer/fourth-iteration.png)
+![Fourth iteration through the loop.](/images/computer-science-curriculum-2020/merge-sort-pointer/fourth-iteration.png)
 
 Now we are comparing `7` and `9`. `7` is less, so push that to `mergedArray` and move the pointer forward for the array on the left.
 
-![Fifth iteration through the loop.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/merge-sort-pointer/fifth-iteration.png)
+![Fifth iteration through the loop.](/images/computer-science-curriculum-2020/merge-sort-pointer/fifth-iteration.png)
 
 For our fifth and last time through the loop, we'll compare `9` and `12`. `9` is less so it will get pushed to `mergedArray`.
 

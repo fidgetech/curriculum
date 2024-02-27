@@ -15,7 +15,7 @@ We can actually get a sense of how many resources a site is loading via the _Net
 
 Let's take a look at Flickr's home page:
 
-![This shows all the resources being downloaded to the browser for Flickr's splash page.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD-2020/flickr-network-panel-v2.gif)
+![This shows all the resources being downloaded to the browser for Flickr's splash page.](/images/Intermediate+JavaScript/TDD-2020/flickr-network-panel-v2.gif)
 
 Notice the red box that pops up in the gif when we go to www.flickr.com — it's tracking the number of requests for resources that Flickr's homepage makes as it loads. At the end of the gif, the number of requests total to 94! That's a ton of resources! And that's just for Flickr's _splash page_, without even logging in.
 

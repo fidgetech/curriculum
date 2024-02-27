@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 We have a bug in our Text Analyzer application. But what exactly is it? You'll find it if you test the application out in the browser. This GIF below demonstrates exactly what is happening. In this lesson, we'll solve the bug, but we'll also do it while keeping our UI and business logic separated. At the end of the lesson, we'll look at two examples of poorly separated logic.
 
-![Application correctly shows the occurrence of a word unless we don't enter anything into the selected-count field](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/Week-3-2021-images/text-analyzer-bug.gif)
+![Application correctly shows the occurrence of a word unless we don't enter anything into the selected-count field](/images/INTRO/week3-branching-looping-arrays/Week-3-2021-images/text-analyzer-bug.gif)
 
 ## Fixing the Bug While Keeping Logic Separated
 ---
@@ -32,11 +32,11 @@ If we load our page, there aren't any errors, which means there's nothing obviou
 
 Next, click on the _Sources_ tab. If you dragged `index.html` into your browser to open the application, your `scripts.js` code should already be showing. If not, you may need to manually add the code by clicking _Filesystem_ in the left pane of _Sources_ and then clicking the _+_ icon as the GIF below shows.
 
-![Opening a new workspace for debugging.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/Week-3-2021-images/add-folder-to-workspace.gif)
+![Opening a new workspace for debugging.](/images/INTRO/week3-branching-looping-arrays/Week-3-2021-images/add-folder-to-workspace.gif)
 
 Once we have our code open, we need to insert a breakpoint. The GIF below demonstrates the whole debugging process using a breakpoint. We'll also explain it in detail after the GIF and you should walk through the process on your own as well.
 
-![We insert a breakpoint to pinpoint where the bug is, then test our function in the console.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/text-analyzer-debugging-biz-logic-bug.gif)
+![We insert a breakpoint to pinpoint where the bug is, then test our function in the console.](/images/INTRO/week3-branching-looping-arrays/text-analyzer-debugging-biz-logic-bug.gif)
 
 First, we click on the line of code where we want the code to pause. Since the error is occurring in the line where we'd expect to see `numberOfOccurrencesInText()` correctly rendered, let's start by verifying that our `numberOfOccurrencesInText()` function is working correctly. That means we will add the breakpoint to the line right _after_ the line `const occurrencesOfWord = numberOfOccurrencesInText(word, passage);`. This is line 39 in the GIF, though it might be a slightly different line number in your code.
 

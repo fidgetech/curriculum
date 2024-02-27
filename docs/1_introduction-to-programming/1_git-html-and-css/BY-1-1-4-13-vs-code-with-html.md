@@ -17,7 +17,7 @@ When we are working with longer sections of code, it's helpful to be able to hid
 
 We can "fold" sections of code in VS Code, as this GIF shows.
 
-![Fold code by clicking on the arrow between the line number and the code.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/VS+Code+Lessons/folding-code.gif)
+![Fold code by clicking on the arrow between the line number and the code.](/images/VS+Code+Lessons/folding-code.gif)
 
 In the GIF above, we fold sections of code (code enclosed in tags). To do this, we hover over the gutter between the line numbers and the code. This will show arrows for each section of code.
 
@@ -27,7 +27,7 @@ We can click on the arrows to either expand or hide our code. As the GIF above s
 
 If we take a look at the image below, we'll see that folding code can help us make sure that we have the correct number of rows and columns — with closing tags for each — without looking at all of our card content:
 
-![Code in cards is folded so that only rows and columns are showing.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/VS+Code+Lessons/folded-code.png)
+![Code in cards is folded so that only rows and columns are showing.](/images/VS+Code+Lessons/folded-code.png)
 
 This can be _very_ helpful when we are trying to add rows and columns to our code.
 
@@ -39,7 +39,7 @@ Sometimes we'll want to see exactly where a div begins and ends. While folding c
 
 First, we can click on a div to highlight it. When we do, the closing div will also automatically be highlighted. Take a look at the GIF below.
 
-![In this GIF, we can click on a div to highlight its closing div. It also emphasizes the line guide.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/VS+Code+Lessons/line-guides.gif)
+![In this GIF, we can click on a div to highlight its closing div. It also emphasizes the line guide.](/images/VS+Code+Lessons/line-guides.gif)
 
 As we can see in the GIF above, there are vertical guidelines showing us exactly where each tag opens and closes. Even better, we can click on a tag to _emphasize_ the vertical line that corresponds with that level of indentation. In this GIF, we click on the div with the `"row"` class. This emphasizes the vertical line for that level of indentation within the div. We can follow it all the way down to the closing tag — and look — VS Code has automatically highlighted the closing tag for us!
 
@@ -51,7 +51,7 @@ Of course, to fully use this functionality, we need to have clear, consistent in
 
 Like other powerful code editors, VS Code has a built-in ability to "sense" what you might be typing in. You've probably noticed this before — VS Code will provide a dropdown of items as you're typing. It might seem annoying at first, at least until you know how to harness the power of what's called Intellisense. Let's take a look at a basic example. In the process, we'll demonstrate another piece of cool VS Code functionality as well.
 
-![We can use VS Code's Intellisense to autofill code for us. And we can use Emmet snippets to autofill even more.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/VS+Code+Lessons/intellisense.gif)
+![We can use VS Code's Intellisense to autofill code for us. And we can use Emmet snippets to autofill even more.](/images/VS+Code+Lessons/intellisense.gif)
 
 In the example above, when we type in the letter "d", VS Code knows that we might mean `<div>`. It will provide a dropdown that includes `div` as the first option. If we hit _Tab_, VS Code will automatically create a div and its closing tag for us — all we had to do is type in "d" and then hit _Tab_. That can save us a lot of typing in the long run.
 

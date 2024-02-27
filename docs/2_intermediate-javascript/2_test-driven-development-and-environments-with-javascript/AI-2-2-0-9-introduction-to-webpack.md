@@ -14,7 +14,7 @@ That may not seem like much, but imagine a large, complex application with hundr
 
 The following gif from [webpack's homepage](https://webpack.js.org/) is a very helpful visualization of what it does as a module bundler.
 
-![A visualization of taking several modules and bundling them into single outputs.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD-2020/webpack-homepage-gif.gif)
+![A visualization of taking several modules and bundling them into single outputs.](/images/Intermediate+JavaScript/TDD-2020/webpack-homepage-gif.gif)
 
 As the gif suggests, other than JavaScript, webpack can also bundle styles, images, and other assets (like fonts). These files are also considered modules. To bundle files types other than JavaScript, webpack uses loaders. A webpack **loader** is a tool that enables webpack to work with a certain type of file, so it can process it and bundle it. Loaders don't come installed with webpack — we always need to install packages to use loaders in our projects.
 

@@ -190,7 +190,7 @@ Let's use our new `Post()` action to add an animal to our database. We'll send a
 
 Here's how adding a body to a POST request to `http://localhost:5000/api/animals` looks using Postman:
 
-[Adding a body to a POST request to `http://localhost:5000/api/animals` using Postman.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/aspnet-web-api-postman-post-request-with-body.png)
+[Adding a body to a POST request to `http://localhost:5000/api/animals` using Postman.](/images/c%23/aspnet-web-api-postman-post-request-with-body.png)
 
 When we make the POST request, we'll get a `201 Created` status, which means the call was successful.
 

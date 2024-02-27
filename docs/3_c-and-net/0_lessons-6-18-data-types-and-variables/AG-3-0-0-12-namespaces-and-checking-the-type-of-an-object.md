@@ -80,7 +80,7 @@ We can do a browser search of an object's type/class to access documentation to 
 
 For example, we can learn more about string methods by looking up "system.string C#", just like in the image below.
 
-![A view of the Google search engine results for "system.string C#".](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/browser-search-csharp-system-string.png)
+![A view of the Google search engine results for "system.string C#".](/images/c%23/browser-search-csharp-system-string.png)
 
 The first answer that pops up is the .NET reference for the `System.String` class: [https://learn.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0](https://learn.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0). Be careful, though! You may be taken to the most recent version of .NET rather than the one you are using, so **double check that you are looking at documentation for .NET 6.**
 

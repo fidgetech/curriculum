@@ -23,7 +23,7 @@ Let's start working with numbers instead of alerts. Our first example will just 
 
 In the example above, our loop calls the anonymous callback function six times — once for each element in the array. Try it out yourself in the DevTools console.
 
-![Image shows the doubled values being logged to the console. The last line in the console states "undefined."](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/Week-3-2020-images/doubled-loop.png)
+![Image shows the doubled values being logged to the console. The last line in the console states "undefined."](/images/INTRO/week3-branching-looping-arrays/Week-3-2020-images/doubled-loop.png)
 
 The first time through the loop, the callback (`function(number) { console.log(number * 2); }`) is executed on the first element in the array. The first element is `0`, and `0 * 2` is `0`, which is logged to the console.
 
@@ -102,7 +102,7 @@ We are telling JavaScript to take the value of our `sum` variable (called `oldSu
 
 Here's how this looks each iteration through the loop:
 
-![This chart shows the changes each iteration through the loop.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/Week-3-2020-images/loop-chart.png)
+![This chart shows the changes each iteration through the loop.](/images/INTRO/week3-branching-looping-arrays/Week-3-2020-images/loop-chart.png)
 
 In the table above, the first column denotes the number of times the loop has run. The second column is the value of `sum` when that iteration begins — what we called `oldSum` in our pseudocode. The third column shows what is being evaluated during that iteration of the loop. Finally, the last column shows the value of what we call `newSum` in our pseudocode — which is the value after the code in that iteration has run.
 
@@ -127,13 +127,13 @@ Note that we've added a `debugger;` statement to freeze execution just inside th
 
 Before we step through our code, we are going to make sure we're watching our new variables. Let's add a new tool to our Chrome DevTools repertoire:
 
-![We can watch variables by adding them in the _Watch_ tab in _Sources.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/Week-3-2020-images/watching-variables.gif)
+![We can watch variables by adding them in the _Watch_ tab in _Sources.](/images/INTRO/week3-branching-looping-arrays/Week-3-2020-images/watching-variables.gif)
 
 In the right-hand pane, we can click _Watch_ to add variables we want to watch the values of. Note that these values are also available in the _Scope_ section in the same pane. The benefit of _Watch_ is that we can manually make sure we are watching the value of variables as they come in and out of scope. You should take advantage of both of these features when you are debugging!
 
 Next, we can step through our code by clicking the blue arrow. When our code is executed, each time the `debugger;` statement is reached, the code will pause. That means the code will pause six times in all — once for each iteration through the loop. Take a look at how the values change with each iteration.
 
-![Step through the code to see how the variables change.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/debugger-with-foreach-loop-to-sum-numbers.gif)
+![Step through the code to see how the variables change.](/images/INTRO/week3-branching-looping-arrays/debugger-with-foreach-loop-to-sum-numbers.gif)
 
 While the GIF above can be helpful, take the time to step through the function in the DevTools debugger at your own pace to make sure you are clear on what's happening. Note that you'll need to clear the console in between each time that you want to run the loop — that way, you'll clear `let` and `const` variables so they can be declared anew again. Otherwise, you'll get `Uncaught SyntaxError: Identifier has already been declared`.
 

@@ -113,7 +113,7 @@ We use the HTML helper method `EditorFor` for our `Password` and `ConfirmPasswor
 
 We're also using a new HTML helper method to display error messages if our validation determines that our model is invalid: `ValidationSummary()`. This method generates a bullet point list of all of the current errors. We can optionally pass an argument to the `ValidationSummary()` method to give an introduction to our list. Because we've passed "Please fix the following error(s) and then resubmit the form:", the result will look like this:
 
-![Error messages visible in the registration page due to invalid model.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/aspnet_identity_form_validation.png)
+![Error messages visible in the registration page due to invalid model.](/images/c%23/aspnet_identity_form_validation.png)
 
 Using `ValidationSummary()` is particularly helpful for us, because it handles displaying all of the Identity errors that we (possibly) generate when we try to create a new user. This means that we don't have to worry about itemizing each of error with the `ValidationMessage()` or `ValidationMessageFor()` methods, which only handles displaying one single error message each. 
 

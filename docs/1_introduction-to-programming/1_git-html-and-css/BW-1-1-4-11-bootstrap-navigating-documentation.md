@@ -37,7 +37,7 @@ Many Bootstrap elements have visual effects or animations that require JavaScrip
 
 If you do want to explore JavaScript features, the easiest way to do this is to include the CDN link to Bootstrap's JavaScript file in the `<head>` tags of your HTML document. That means adding the `<script>` tag seen in the image below, which you can find on [the download page for Bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/download/#jsdelivr).
 
-![This image show's Bootstraps CDN links for CSS and JS](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/bootstrap-cdn-with-jsdeliver.png)
+![This image show's Bootstraps CDN links for CSS and JS](/images/bootstrap-cdn-with-jsdeliver.png)
 
 Remember, using a CDN will ensure your project has access to the necessary JavaScript without requiring you to download and insert JavaScript into your own project.
 

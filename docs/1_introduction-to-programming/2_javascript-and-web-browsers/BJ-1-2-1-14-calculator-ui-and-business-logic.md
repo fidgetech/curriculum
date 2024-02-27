@@ -94,7 +94,7 @@ Whenever we are running JavaScript in the browser and something isn't working co
 
 Let's review a very common error: `Failed to load resource: net::ERR_FILE_NOT_FOUND  scipts.js:1`:
 
-![Console shows an error and a warning.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week2-js-jquery/debugging-js/error-and-warning.png)
+![Console shows an error and a warning.](/images/INTRO/week2-js-jquery/debugging-js/error-and-warning.png)
 
 At the time this lesson was written, there was an error _and_ a warning. The warning appears to be related to a bug in the latest Chrome update — it doesn't affect our code and it's something we can ignore.
 

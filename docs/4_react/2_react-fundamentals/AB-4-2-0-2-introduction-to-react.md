@@ -82,7 +82,7 @@ React utilizes a **virtual DOM**. We'll explore what this is and how it works in
 
 For a long time, all websites were multi-page applications. Many still are, including future MVC applications we will eventually create with .NET in the next course. Whenever we request to see information or complete an action, we navigate to a new page. For example, check out the way a user interacts with the multi-page site [kiva.org](https://www.kiva.org):
 
-![kiva-multi-page-app-example](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/kiva-multi-page-app-example.gif)
+![kiva-multi-page-app-example](/images/React/kiva-multi-page-app-example.gif)
 
 Each time we request to see different information, we navigate to a new page entirely.
 
@@ -90,7 +90,7 @@ Now many popular sites like Gmail, Facebook, Instagram, and Twitter are **single
 
 For instance, check out a user on Instagram's single-page application can navigate another user's profile. Notice how it differs from the experience above:
 
-![instagram-spa-example](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/instagram-spa-example.gif)
+![instagram-spa-example](/images/React/instagram-spa-example.gif)
 
 The user can complete multiple actions without navigating to a new page, reloading, or refreshing. The page the user is already on is simply updated dynamically.
 

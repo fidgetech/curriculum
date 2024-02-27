@@ -35,7 +35,7 @@ Hints: To do this, build an array of the inputted items. (Make sure you don't in
 
 The start of your output should look something like this:
 
-![This image shows a bullet point list of cards names. This is what the output of this webpage should look like.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/deck.png)
+![This image shows a bullet point list of cards names. This is what the output of this webpage should look like.](/images/INTRO/week3-branching-looping-arrays/deck.png)
 
 ### Word Order
 

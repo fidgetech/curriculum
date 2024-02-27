@@ -18,7 +18,7 @@ Because `document` is a property of the `window` object, we access it like this:
 
 You should see returned to you the HTML for the webpage you are on. The next few examples will be from the webpage ` https://old.learnhowtoprogram.com/tracks`. When we enter `window.document`, this is what we get returned in the console:
 
-![This image shows the return value of accessing the `window.document` object on learnhowtoprogram.com/tracks. In the image, the return value is an object, and we've expanded it to see its contents.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/using-documentation/window-document-from-LHTP-tracks.png)
+![This image shows the return value of accessing the `window.document` object on learnhowtoprogram.com/tracks. In the image, the return value is an object, and we've expanded it to see its contents.](/images/using-documentation/window-document-from-LHTP-tracks.png)
 
 In the image above, we've expanded the returned `#document` object by clicking the triangle to its left. As we can see, the `document` object includes all of the HTML that makes up the webpage we are on, and even though it looks like HTML, we're in fact dealing with an object.
 
@@ -104,7 +104,7 @@ The first method we'll learn about is `window.document.querySelector()`. This me
 
 When we input this into the console, we get this returned:
 
-![This image shows the return value of entering `window.document.querySelector("h1");` into the DevTools console based on the sample HTML above.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/queryselector-h1.png)
+![This image shows the return value of entering `window.document.querySelector("h1");` into the DevTools console based on the sample HTML above.](/images/new-section2-js-and-web-browsers/queryselector-h1.png)
 
 Since the argument we input to `window.document.querySelector()` works like a CSS selector, we can target the same `<h1>` element by doing this as well:
 
@@ -123,7 +123,7 @@ If we want to target an element using its class name, we'd need to use a `.` to 
 
 When we input this into the console, we get this returned:
 
-![This image shows the return value of entering `window.document.querySelector("ol.ol-style");` into the DevTools console based on the sample HTML above.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/queryselector-ol-ol-style.png)
+![This image shows the return value of entering `window.document.querySelector("ol.ol-style");` into the DevTools console based on the sample HTML above.](/images/new-section2-js-and-web-browsers/queryselector-ol-ol-style.png)
 
 Note that in the image above we've expanded the `<ol>` tags in the DevTools console. When this element is first returned to us it has an ellipses `<ol>...</ol>` indicating that there are nested elements inside of these tags. Anytime we access an HTML element that has elements nested in it, we will be able to expand the returned element in the DevTools console to see what's inside. 
 
@@ -135,7 +135,7 @@ Let's try using the angle bracket `>` CSS selector to get children elements of a
 
 When we input this into the console, we get this returned:
 
-![This image shows the return value of entering `window.document.querySelector("ol>li");` into the DevTools console based on the sample HTML above.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/queryselector-ol-to-li.png)
+![This image shows the return value of entering `window.document.querySelector("ol>li");` into the DevTools console based on the sample HTML above.](/images/new-section2-js-and-web-browsers/queryselector-ol-to-li.png)
 
 Notice that only the first list element is returned. Any time there are multiple instances of the tag we are targeting, `window.document.querySelector()` will return the first one it finds.
 
@@ -152,7 +152,7 @@ The next method that we'll practice with lets us target an HTML element by its `
 
 When we input this into the console, we get this returned:
 
-![This image shows the return value of entering `window.document.getElementById("specialHeader");` into the DevTools console based on the sample HTML above.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/getelementbyid-h1-specialheader.png)
+![This image shows the return value of entering `window.document.getElementById("specialHeader");` into the DevTools console based on the sample HTML above.](/images/new-section2-js-and-web-browsers/getelementbyid-h1-specialheader.png)
 
 Here we can see that the entire H1 element has been returned, which we've successfully targeted using the value of its `id` attribute as a string.
 

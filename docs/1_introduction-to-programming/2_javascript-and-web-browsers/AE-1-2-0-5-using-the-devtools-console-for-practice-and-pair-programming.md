@@ -14,19 +14,19 @@ Whether you are working alone or pairing with another student or instructor, **a
 
 The image below is an example of working through the upcoming lesson on JavaScript arithmetic with the console open: on the left is the lesson with practice prompts, and on the right is the DevTools console with JavaScript arithmetic entered into it. Yes — `4 - 3;` is JavaScript arithmetic, and the value `1` is the answer! In this way we can get immediate practice and feedback with the new JS concepts we are learning.
 
-![In this image, the lesson is prompting the student to practice some arithmetic, and the DevTools console is open and the student is doing just that!](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/dev-tools/working-with-devtools-open.png)
+![In this image, the lesson is prompting the student to practice some arithmetic, and the DevTools console is open and the student is doing just that!](/images/dev-tools/working-with-devtools-open.png)
 
 ### General Tips for Pairing
 
 When you are using the console to test out JavaScript, make sure to continue switch who's driving and who's observing regularly. When trying out new JavaScript concepts, we suggest switching roles more often than the 20 – 30 minutes we usually suggest. If there's a practice lesson with multiple JavaScript exercises, it's best to switch roles between each exercise. Take this practice lesson for example:
 
-![This practice lesson is from the arithmetic exercises. It shows many different prompts for addition, subtraction, multiplication, etc. Find the exercises at this location:  https://old.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/practice-arithmetic](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/dev-tools/devtools-and-pairing.png)
+![This practice lesson is from the arithmetic exercises. It shows many different prompts for addition, subtraction, multiplication, etc. Find the exercises at this location:  https://old.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/practice-arithmetic](/images/dev-tools/devtools-and-pairing.png)
 
 ### Tips for Pairing Remotely
 
 If you are pairing and using the DevTools while remote, we suggest that you screen share your browser window and increase the size of the text in the DevTools window so that your pair can read your console easily. The following picture is an example of this, where the browser window is full screen, and the DevTools console text has been increased so that it is easy to read:
 
-![This image shows a browser window that is full screen and opened to a LHTP lesson. The DevTools console is also open and the text size is increased so it is really easy to read.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/dev-tools/increasing-devtools-font-for-readability.png)
+![This image shows a browser window that is full screen and opened to a LHTP lesson. The DevTools console is also open and the text size is increased so it is really easy to read.](/images/dev-tools/increasing-devtools-font-for-readability.png)
 
 We suggest that everyone in a pair or group have their browser window open to the relevant LearnHowToProgram.com (LHTP) lesson and their DevTools open to the console tab. When it is time for you to observe, simply watch your pair's screen share on Discord. When it is time for you to drive, your pair(s) should watch your screen share on Discord while you type in your DevTools console. 
 

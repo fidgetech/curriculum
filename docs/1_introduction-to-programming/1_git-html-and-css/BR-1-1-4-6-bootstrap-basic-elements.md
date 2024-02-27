@@ -78,7 +78,7 @@ Now let's add some starter code to `index.html`:
 
 Let's take a look at our site:
 
-![example-site-without-bootstrap](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Bootstrap+Lessons/example-site-without-bootstrap-updated.png)
+![example-site-without-bootstrap](/images/INTRO/week1-html-css/Bootstrap+Lessons/example-site-without-bootstrap-updated.png)
 
 Not very exciting so far. It's time to add Bootstrap!
 
@@ -120,7 +120,7 @@ _(**Note:** Remember, when `...` is in a code snippet, this simply means that we
 
 If we refresh our page, we'll see it already looks different:
 
-![example-site-with-bootstrap](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Bootstrap+Lessons/example-site-with-bootstrap-updated.png)
+![example-site-with-bootstrap](/images/INTRO/week1-html-css/Bootstrap+Lessons/example-site-with-bootstrap-updated.png)
 
 It looks a little better, but we've hardly scratched the surface of what we can do. Bootstrap provides many styling rules we can apply to our HTML. Let's add one now.
 
@@ -153,7 +153,7 @@ Here we've placed a div directly inside our `<body>` tags with a class of `conta
 
 If we refresh the page, we'll see that padding has been added around the edges of our content:
 
-![When we add a Bootstrap container, padding is automatically added.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Bootstrap+Lessons/site-with-container-updated.png)
+![When we add a Bootstrap container, padding is automatically added.](/images/INTRO/week1-html-css/Bootstrap+Lessons/site-with-container-updated.png)
 
 Also, if we resize the width of the browser window, we can see that the amount of padding automatically changes depending on the size of the viewport. When we integrate Bootstrap elements and components into our pages, they're automatically responsive.
 
@@ -184,7 +184,7 @@ Just like the container, we can add a Jumbotron by including a div with the `jum
 
 We can refresh the page and see our new Jumbotron:
 
-![site-with-jumbotron](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Bootstrap+Lessons/site-with-jumbotron-updated.png)
+![site-with-jumbotron](/images/INTRO/week1-html-css/Bootstrap+Lessons/site-with-jumbotron-updated.png)
 
 Once again, this element is automatically responsive. Our jumbotron will re-center itself and its text as the width of the viewport changes.
 
@@ -220,7 +220,7 @@ Let's add another section to our site. We'll call it "Partnering" and it will co
 
 To do this, we need to add a `blockquote` with a class of `"blockquote"`. Inside that class, we can specify a `footer` with a class of `"blockquote-footer"` for the attribution of the quote. Check it out:
 
-![A Bootstrap blockquote](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/Bootstrap+images/blockquote.png)
+![A Bootstrap blockquote](/images/INTRO/week1-html-css/Week-1-2020-images/Bootstrap+images/blockquote.png)
 
 ### Built-in Classes
 
@@ -261,7 +261,7 @@ Let's highlight a few concepts we found enjoyable during this course section in 
 ...
 ```
 
-![The bg-success class adds a green background to our list items.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Bootstrap+Lessons/bootstrap-bg-success-updated.png)
+![The bg-success class adds a green background to our list items.](/images/INTRO/week1-html-css/Bootstrap+Lessons/bootstrap-bg-success-updated.png)
 
 Similarly, we could use the `bg-info` class on our existing blockquote to add some color. Try it out on some of the `<li>`s in the project.
 
@@ -289,7 +289,7 @@ Another simple effect that can easily organize a page is a [card](https://getboo
 
 Our card has a class of `"card"` and then we have various classes inside the card depending on the element: `"card-body"` for the body of the card, `"card-title"` for the title, and `"card-text"` for the text. Here's what it looks like:
 
-![This is an example of a very basic card.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week1-html-css/Week-1-2020-images/Bootstrap+images/bootstrap-card.png)
+![This is an example of a very basic card.](/images/INTRO/week1-html-css/Week-1-2020-images/Bootstrap+images/bootstrap-card.png)
 
 This is a very basic card and we can do a lot more with it — for instance, there's an option to add images that fit inside the card as well. Just check out the [documentation](https://getbootstrap.com/docs/4.5/components/card/).
 

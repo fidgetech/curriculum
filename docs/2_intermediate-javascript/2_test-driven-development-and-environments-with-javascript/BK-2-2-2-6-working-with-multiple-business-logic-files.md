@@ -29,7 +29,7 @@ Also, don't forget to move `triangle.js` into the `js` directory. We don't need 
 
 VS Code has a handy little feature where it can automatically update any import statements in the code for you. Here's an example of the prompt (though this one is for `rectangle.js`).
 
-![VSCode prompt offers to automatically update imports.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/TDD-2020/separating-files/automatically-update-imports.png)
+![VSCode prompt offers to automatically update imports.](/images/Intermediate+JavaScript/TDD-2020/separating-files/automatically-update-imports.png)
 
 If you want to do it manually (or VS Code doesn't automatically update the import statements), the relative path for the `triangle.js` import statement in `triangle.test.js` looks like this:
 

@@ -18,7 +18,7 @@ Essentially, RESTful routing is a naming pattern. It asserts that routes complet
 
 What does this look like? Here's a table outlining standard RESTful routing conventions:
 
-<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/intro-to-restful-routing-rest-routes.png" width="100%" />
+<img src="/images/c%23/intro-to-restful-routing-rest-routes.png" width="100%" />
 
 * Everything that reads _object_ refers to the model used in the application and its routes. For instance, our To Do List works with `Item` objects. We would use the term _items_ wherever we see _object_ in the table above. A blog application might work with `Post` objects. It would use the term _posts_ wherever we see _object_ in the table above.
 
@@ -36,7 +36,7 @@ What does this look like? Here's a table outlining standard RESTful routing conv
 
 Here's how these same standards would look applied to our To Do List. _Routes we haven't created yet are in italics_:
 
-<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/c%23/intro-to-restful-routing-rest-routes-2.png" width="100%" />
+<img src="/images/c%23/intro-to-restful-routing-rest-routes-2.png" width="100%" />
 
 Our existing `Index()` and `Create()` routes already follow RESTful convention. For example, here's the `Index()` route from `ItemsController`:
 

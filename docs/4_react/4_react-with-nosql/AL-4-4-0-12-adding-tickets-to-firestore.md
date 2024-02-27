@@ -65,7 +65,7 @@ Let's break down this new code:
 * The `addDoc()` function allows us to add a new document to a specified collection. This function takes two arguments: a collection reference and the data to be added to the new document. 
   * Take note: the data that we add as the second argument must always be a JavaScript object! Each object key and value will become the Firestore document's field and value. The image below is a representation of this transformation.
 
-![A representation of how JS objects get turned into Firestore documents.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firestore-JS-obj-to-doc.png)
+![A representation of how JS objects get turned into Firestore documents.](/images/React/Week-4-React-2020/firestore-JS-obj-to-doc.png)
 
 Also, if it's easier to read and reason about, we can re-write the new code in `handleAddingNewTicketToList` to separate the `collection()` and `addDoc()` function calls onto multiple lines:
 
@@ -108,7 +108,7 @@ However, you can manually delete an entire collection from the Firebase console.
 * Within the _Data_ tab, click the three vertical dots next to the name of the collection. In the image below this is circled in red 
 * From the menu that pops up, click _Delete collection_.
 
-![How to delete a collection via the online Firestore database UI.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firestore-manual-delete.png)
+![How to delete a collection via the online Firestore database UI.](/images/React/Week-4-React-2020/firestore-manual-delete.png)
 
 ### Using Firestore Auto-Generated IDs
 
@@ -165,7 +165,7 @@ Now, navigate to the Firebase console, then open your Help Queue project, then s
 * The middle column lists the documents in the selected collection. As we can see, documents are listed by their ID. An ID can be any string, and we've used Firestore's auto-generated ID. 
 * The rightmost column list the data from the selected document.
 
-![Data in the Firestore database: a `tickets` collection with one ticket in it. The ticket has an auto-generated ID from Firestore.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/React/Week-4-React-2020/firestore-ticket-data-and-id.png)
+![Data in the Firestore database: a `tickets` collection with one ticket in it. The ticket has an auto-generated ID from Firestore.](/images/React/Week-4-React-2020/firestore-ticket-data-and-id.png)
 
 ### A Consideration When Using Random IDs
 

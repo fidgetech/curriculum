@@ -19,7 +19,7 @@ You have a few different options for this next step. You can look through each j
 
 You can also feed these job descriptions into a [Word Cloud generator](https://www.jasondavies.com/wordcloud/), which will visually emphasize the most common words and phrases.  For best results, select only the desired skills and edit them to remove irrelevant phrases such as  “experience with”, “exposure to”, “an appreciation for”. Remove any connecting words like “and”, or “with”. You can also exclude degree and years of experience requirements. Your end result should look something like this: 
 
-![An example Wordcloud featuring job keywords](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Soft+Skills+%26+Career+Prep/WordcloudExample.png)
+![An example Wordcloud featuring job keywords](/images/Soft+Skills+%26+Career+Prep/WordcloudExample.png)
 
 A third option is to use a tool like ChatGPT to pull key skills from each description. Prompt ChatGPT to identify the key skills in each job post, and analyze which ones show up more than once. Here’s an example prompt:
 “Out of these 3 job descriptions, identify the key skills in each post and analyze which key skills show up more than once.” 

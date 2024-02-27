@@ -31,7 +31,7 @@ https://old.learnhowtoprogram.com/tracks
 
 We'll see the following appear in the _Network_ area:
 
-<img alt="Developer Tools Network Tab" src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/how-the-web-works/developer-tools-screenshot-1.png" width="100%" />
+<img alt="Developer Tools Network Tab" src="/images/SHARED/how-the-web-works/developer-tools-screenshot-1.png" width="100%" />
 
 * Each of these lines represents a request made from our client to the LearnHowToProgram server.
 
@@ -43,23 +43,23 @@ We'll see the following appear in the _Network_ area:
 
 When we click on a request we can see more details about it. In the _General_ section we see the IP address for the server and the URL sent in the request, among other things:
 
-<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/how-the-web-works/developer-tools-screenshot-2.png" width="100%" />
+<img src="/images/SHARED/how-the-web-works/developer-tools-screenshot-2.png" width="100%" />
 
 Under _Request Headers_ we can see the headers, including several previously noted in the [URL](https://old.learnhowtoprogram.com/c-and-net/basic-web-applications/how-the-web-works-uniform-resource-locator) lesson: the host name (a subcomponent of `authority`), path, scheme, etc:
 
-<img src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/how-the-web-works/developer-tools-screenshot-3.png" width="100%" />
+<img src="/images/SHARED/how-the-web-works/developer-tools-screenshot-3.png" width="100%" />
 
 ### Response Details
 
 We can also see response details for the `tracks` request in the _Response Headers_ section:
 
-<img alt="Dev Tools Response Headers" src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/how-the-web-works/developer-tools-screenshot-4.png" width="100%" />
+<img alt="Dev Tools Response Headers" src="/images/SHARED/how-the-web-works/developer-tools-screenshot-4.png" width="100%" />
 
 We see that the _Status Code_ shows a `200`. This means that the server completed the successful processing of the request. We can also see the content type, date, etc. returned in the response message.
 
 To see the raw response that also includes the response body, click the _Response_ tab to the right of _Headers_:
 
-<img alt="Dev Tools Response Body" src="https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/how-the-web-works/developer-tools-screenshot-5.png" width="100%" />
+<img alt="Dev Tools Response Body" src="/images/SHARED/how-the-web-works/developer-tools-screenshot-5.png" width="100%" />
 
 And check it out! There's all the HTML for the page!
 

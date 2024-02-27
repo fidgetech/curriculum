@@ -87,7 +87,7 @@ Before we dive into accessing DOM element properties, we should pause to review 
 
 First, we should remind ourselves that the HTML elements we write in VS Code are just that — HTML. This is in contrast to the DOM elements in the browser, which are all objects that happen to represent HTML elements within the DOM. The Document Object Model (DOM) is the interactive representation of our HTML document that we can use JavaScript to access and modify. As the name suggests, it's an object model of our HTML, meaning that the DOM is a series of nested objects that are arranged in a hierarchy. So, when we reference "**HTML element**", we're referring to an element in our HTML (generally speaking or specifically in our source code). When we reference "**DOM element**" or "**HTML DOM element**", we're referring to an object in the DOM that represents an HTML element.
 
-![This image shows the Cookie Recipe document displayed in the browser and in VS COde, side by side. The Cookie Recipe document in the browser is labeled "DOM", and the Cookie Recipe in VS Code is labeled "HTML".](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/DOM_versus_HTML.jpg)
+![This image shows the Cookie Recipe document displayed in the browser and in VS COde, side by side. The Cookie Recipe document in the browser is labeled "DOM", and the Cookie Recipe in VS Code is labeled "HTML".](/images/new-section2-js-and-web-browsers/DOM_versus_HTML.jpg)
 
 ### Accessing DOM Element Properties to Change `id` and `class` Attributes
 
@@ -187,7 +187,7 @@ The `CSSStyleDeclaration` object is actually a part of the CSSOM — [the CSS Ob
 
 You can expand the `CSSStyleDeclaration` object in the console by clicking the triangle icon to the left of the object's name. This object shows all of the different styles that we can add inline to our DOM element. 
 
-![This image shows the `h1.style` property (with a value of a `CSSStyleDeclaration` object) expanded in the DevTools console.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/CSSstyledeclaration-obj-in-dom-element-attributes.png)
+![This image shows the `h1.style` property (with a value of a `CSSStyleDeclaration` object) expanded in the DevTools console.](/images/new-section2-js-and-web-browsers/CSSstyledeclaration-obj-in-dom-element-attributes.png)
 
 This is a big object with lots of unfamiliar properties. However, there's one I'm certain that you'll recognize: `backgroundColor`. See if you can find that property in the image above or in your DevTools console. We can use the `backgroundColor` property to set the background color of a DOM element. Let's do that now:
 
@@ -198,7 +198,7 @@ This is a big object with lots of unfamiliar properties. However, there's one I'
 
 In this example, we've accessed the variable `h1` representing our HTML DOM element, then we've accessed the DOM element's `style` property (which itself is an object), and then we've accessed the `style` object's `backgroundColor` property to assign it a value of `"hotpink"`. And what do we see in the browser? We've changed the background color of our H1 element to hot pink. Neat!
 
-![This image shows the H1 element of our cookie recipe in the DOM with a background color of hot pink.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/h1-hot-pink-dom-style-attribute.png)
+![This image shows the H1 element of our cookie recipe in the DOM with a background color of hot pink.](/images/new-section2-js-and-web-browsers/h1-hot-pink-dom-style-attribute.png)
 
 With the code `h1.style.backgroundColor = "hotpink";`, we've set the inline style for the CSS background color. If we did this in our CSS stylesheet `styles.css` instead, the code would look like this:
 
@@ -218,7 +218,7 @@ Notice that the `background-color` CSS property is hyphenated in our CSS stylesh
 > h1.style.fontSize = "72px";
 ```
 
-![This image shows the H1 element of our cookie recipe in the DOM with a background color of hot pink, a text color of "olive", and a font size of 72px.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/h1-dom-style-color-and-fontsize.png)
+![This image shows the H1 element of our cookie recipe in the DOM with a background color of hot pink, a text color of "olive", and a font size of 72px.](/images/new-section2-js-and-web-browsers/h1-dom-style-color-and-fontsize.png)
 
 When we view the H1 element, we'll see that all of the inline styles we've added are listed in the `style` attribute of the DOM element:
 

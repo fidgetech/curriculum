@@ -51,7 +51,7 @@ Let's try this new code out in the browser! After creating the `scripts.js` file
 
 Hmm... it turns out our mouseover events are NOT working. What's going on? When I check the DevTools console, I see an error:
 
-![This image shows an error in the DevTools console related to our event handler properties.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/new-section2-js-and-web-browsers/missing-window-onload-cookie-recipe.png)
+![This image shows an error in the DevTools console related to our event handler properties.](/images/new-section2-js-and-web-browsers/missing-window-onload-cookie-recipe.png)
 
 This error says:
 

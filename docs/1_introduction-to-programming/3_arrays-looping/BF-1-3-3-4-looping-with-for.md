@@ -24,7 +24,7 @@ Here's a loop that logs the value of `index`. We'll be talking about what the `i
 
 Let's see what this logs to the DevTools console.
 
-![The for loop logs 1, 2, then 3 and finally undefined.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/Week-3-2020-images/consolelog-for-loop.png)
+![The for loop logs 1, 2, then 3 and finally undefined.](/images/INTRO/week3-branching-looping-arrays/Week-3-2020-images/consolelog-for-loop.png)
 
 As we can see, the `index` is an incrementing number. We can also see that the return of a `for` loop is `undefined`, just like it is with `Array.prototype.forEach()`. (This isn't surprising — remember, under the hood, `Array.prototype.forEach()` is using a `for` loop.)
 
@@ -65,7 +65,7 @@ for (let index = 1; index < 7; index += 2) {
 
 Now let's take a look at the code:
 
-![Console shows index incrementing 1,3,5 and then undefined.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/Week-3-2020-images/consolelog-for-loop2.png)
+![Console shows index incrementing 1,3,5 and then undefined.](/images/INTRO/week3-branching-looping-arrays/Week-3-2020-images/consolelog-for-loop2.png)
 
 There are a couple of little gotchas here. First, we are incrementing by 2, not 1. That means the value of index will increase like this... `1`, `3`, `5`... The most common increment and decrement is 1, but it's important to see exactly what's happening with the final expression parameter.
 
@@ -171,7 +171,7 @@ Try this out in the DevTools console. You'll see it gives the same result as if 
 
 Here's a corresponding chart that shows what happens each iteration through the loop:
 
-![for loop summands charts](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/for-loop-summands.png)
+![for loop summands charts](/images/INTRO/week3-branching-looping-arrays/for-loop-summands.png)
 
 Note that when `index` is 0 here, `summands[index]` is 1 because the first element of the array is 1. `index` is just being used here to refer to a specific element of the array by its index position. It's a bit confusing in this case because the elements of the array are also numbers.
 
@@ -190,7 +190,7 @@ Here's a version of our sum code that uses a `for` loop but doesn't require an a
 
 When the loop begins we initialize our loop variable `currentNumber` to 1. Note that we could have used `index` as the variable name here but `currentNumber` is a bit clearer since we'll be making use of the variable for something other than accessing an array by index. Specifically, we'll be adding `currentNumber` to `total` each time through the loop in addition to using it as an iterator. We then execute our loop as long as `currentNumber` is less than or equal to 5, increasing `currentNumber` by 1 after each run through the loop. Here's a chart showing the steps:
 
-![for loop sum chart](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/INTRO/week3-branching-looping-arrays/for-loop-sum.png)
+![for loop sum chart](/images/INTRO/week3-branching-looping-arrays/for-loop-sum.png)
 
 The first time through the loop, `currentNumber` is 1, which is `<= 5`, so we go ahead and execute the statement in the code block: `total += currentNumber`. `total` is now 1 after this first time through the loop. At the end of each time through the loop we're incrementing `currentNumber`, so `currentNumber` is now 2.
 
