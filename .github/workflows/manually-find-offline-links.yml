@@ -22,7 +22,7 @@ jobs:
         run: npm run find-broken-links
         env:
           NODE_ENV: 'production'
-          SENDGRID_API_KEY: ${{ secrets.SCRIPT_BROKEN_LINKS_SENDGRID_API_KEY }}
-          FROM: ${{ secrets.SCRIPT_BROKEN_LINKS_FROM }}
-          TO: ${{ secrets.SCRIPT_BROKEN_LINKS_TO }}
-          CC: ${{ secrets.SCRIPT_BROKEN_LINKS_CC }}
+          SCRIPT_BROKEN_LINKS_SENDGRID_API_KEY: ${{ secrets.SCRIPT_BROKEN_LINKS_SENDGRID_API_KEY }}
+          SCRIPT_BROKEN_LINKS_FROM: ${{ secrets.SCRIPT_BROKEN_LINKS_FROM }}
+          SCRIPT_BROKEN_LINKS_TO: ${{ secrets.SCRIPT_BROKEN_LINKS_TO }}
+          SCRIPT_BROKEN_LINKS_CC: ${{ secrets.SCRIPT_BROKEN_LINKS_CC }}
