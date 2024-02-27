@@ -42,7 +42,7 @@ To re-alphabetize the markdown files in a directory without having to manually r
 
 ## Prep, build, deploy via GitHub Actions
 
-Not quite ready yet...
+- Run Update Curriculum workflow
 
 ## Prep, build, deploy from development machine
 
@@ -75,7 +75,7 @@ This command starts a local development server and opens up a browser window. Mo
 ### Build
 
 ```
-$ npm build
+$ npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.

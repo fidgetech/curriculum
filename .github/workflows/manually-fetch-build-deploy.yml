@@ -27,14 +27,11 @@ jobs:
           installation_id: ${{ secrets.INSTALLATION_ID }}
           private_key: ${{ secrets.PRIVATE_KEY }}
 
-      - name: Fetch docs and create docusaurus source directories for each track
-        run: npm run fetch
-        env:
-          ORG: ${{ secrets.ORG }}
-          INSTALLATION_TOKEN: ${{ steps.github-app-token.outputs.token }}
+      - name: Update sidebars and front matter
+        run: npm run prep
 
-      - name: Build track
-        run: cd ./tracks/${{ secrets.ORG }} && npm run build
+      - name: Build docusaurus site
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
