@@ -13,6 +13,7 @@ deploy/
 # Generated files
 .docusaurus
 .cache-loader
+fidgetech-broken-links.txt
 
 # Misc
 .DS_Store

@@ -10,6 +10,28 @@ This is a Docusaurus 2 project for the Fidgetech Code curriculum.
 - `category.json` file defines the name of the section itself for the sidebar.
 - `sidebar.js` files in the _course_ directories (not section subdirectories) define the order of sections for the course.
 
+## Find broken links script
+
+Include in `.env` and as Github secrets:
+
+```sh
+SCRIPT_BROKEN_LINKS_SENDGRID_API_KEY
+SCRIPT_BROKEN_LINKS_FROM
+SCRIPT_BROKEN_LINKS_TO
+SCRIPT_BROKEN_LINKS_CC
+```
+
+Running locally:
+
+```sh
+npm run find-broken-links
+```
+
+For Github workflow:
+
+- also set `NODE_ENV` secret to production
+
+
 ## Re-alphabetize files based on sidebar.js
 
 I wrote a little script to make reordering section lessons easier.
