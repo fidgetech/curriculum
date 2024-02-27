@@ -25,5 +25,6 @@ export async function sendEmailWithAttachment(filePath) {
     console.log('Email sent.');
   } catch(error) {
     console.error('There was an error while sending the email:', error);
+    process.exit(1);
   }
 }
