@@ -55,6 +55,7 @@ const traverseDir = async (dir) => {
   }
 };
 
+console.log('SCRIPT_BROKEN_LINKS_FROM', process.env.SCRIPT_BROKEN_LINKS_FROM);
 await deleteLogFile();
 await traverseDir(docsPath);
 await distributeLogFile();

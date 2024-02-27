@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  prep-build-deploy:
+  prep-build-deploy-curriculum:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

@@ -6,7 +6,7 @@ on:
     - cron: '0 12 * * 1-4'
 
 jobs:
-  fetch-data:
+  find-offline-links:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

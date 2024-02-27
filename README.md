@@ -27,10 +27,7 @@ Running locally:
 npm run find-broken-links
 ```
 
-For Github workflow:
-
-- also set `NODE_ENV` secret to production
-
+(Or run github workflow)
 
 ## Re-alphabetize files based on sidebar.js
 
