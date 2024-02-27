@@ -3,7 +3,7 @@
 import { existsSync, readFileSync, readdirSync, statSync, unlinkSync } from 'fs';
 import { join } from 'path';
 import matter from 'gray-matter';
-import { titleToId, generatePrefix, writeMarkdown } from './utils.js';
+import { titleToId, generatePrefix, writeMarkdown } from './utils.mjs';
 const docsPath = join(process.cwd().replace(/(scripts|docs)/, ''), 'docs');
 const dayMapping = { 'weekend': 0, 'monday': 1,'tuesday': 2, 'wednesday': 3, 'thursday': 4, 'friday': 5, 'saturday': 6 };
 

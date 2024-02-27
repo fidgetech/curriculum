@@ -3,7 +3,7 @@
 import { readFileSync, readdirSync, statSync } from 'fs';
 import { join, extname } from 'path';
 import matter from 'gray-matter';
-import { writeMarkdown, isFirstTwoLettersFollowedByDash } from './utils.js';
+import { writeMarkdown, isFirstTwoLettersFollowedByDash } from './utils.mjs';
 const docsPath = join(process.cwd().replace(/(scripts|docs)/, ''), 'docs');
 
 function processMarkdownFile({ filePath, isFirstFile, isLastFile }) {
