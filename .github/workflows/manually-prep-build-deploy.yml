@@ -39,7 +39,7 @@ jobs:
           personal_token: ${{ steps.github-app-token.outputs.token }}
           external_repository: ${{ secrets.ORG }}/lhtp-build
           publish_branch: gh-pages
-          publish_dir: ./tracks/${{ secrets.ORG }}/build
+          publish_dir: ./build
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
           commit_message: 'Deploy to GitHub Pages'
