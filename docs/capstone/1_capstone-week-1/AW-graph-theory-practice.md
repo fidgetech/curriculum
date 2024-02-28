@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 Now that we've learned the basics of graph theory, it's time to practice! First, walk through all the examples in the graph theory lessons and code along if you haven't already. Once you are done, you are ready for some additional challenges.
 
-* Create an application that shows connections in a **directed** graph. To do this, create an application with ten nodes which are all locations. They could be locations for your hometown, for a mythical realm, or for an imaginary city. First, use [draw.io](draw.io) to draw your graph. Add nodes that are both one-way and two-way. (There are both one-way and two-way arrows in draw.io.) Make sure that some nodes are unreachable to others.
+* Create an application that shows connections in a **directed** graph. To do this, create an application with ten nodes which are all locations. They could be locations for your hometown, for a mythical realm, or for an imaginary city. First, use [draw.io](https://draw.io) to draw your graph. Add nodes that are both one-way and two-way. (There are both one-way and two-way arrows in draw.io.) Make sure that some nodes are unreachable to others.
 
 * Once you have completed your diagram, you will need to make some updates to your code. For instance, the `Graph.prototype.addNode()` method we wrote is undirected. You can update this method or add additional methods such as `Graph.prototype.addDirectedEdge()` and `Graph.prototype.addUndirectedEdge()`. It's up to you to determine how you want to implement a directed graph application. Just make sure to use TDD.
 

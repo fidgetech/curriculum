@@ -26,7 +26,7 @@ function printResult(sum) {
 printResult(add(5, 7));
 ```
 
-Our `add()` function simply sums two numbers. Our `printResult()` function simply takes a number and places it in a string. (The example above uses a [template literal](/intermediate-javascript/test-driven-development-and-environments-with-javascript-part-2/es6-template-literals).)
+Our `add()` function simply sums two numbers. Our `printResult()` function simply takes a number and places it in a string. (The example above uses a [template literal](/intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-2-5-es6-template-literals).)
 
 We can pass our `add()` function into our `printResult()` function just like we could pass any other variable in as an argument.
 

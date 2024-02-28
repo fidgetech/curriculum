@@ -18,7 +18,7 @@ Once you know how to submit a PR via a fork, you can start contributing to open 
 ## Making a PR Request Via a Fork
 ---
 
-We covered the basics of forking in [Practice: GitHub Remote Repositories](/introduction-to-programming/git-html-and-css/practice-github-remote-repositories). 
+We covered the basics of forking in [Practice: GitHub Remote Repositories](/introduction-to-programming/git-html-and-css/1-1-1-3-practice-github-remote-repositories). 
 
 To fork a repository, we just need to click the _Fork_ button in the upper right corner of the repository we want to fork.
 

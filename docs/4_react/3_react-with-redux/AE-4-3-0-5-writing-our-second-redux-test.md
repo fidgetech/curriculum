@@ -136,7 +136,7 @@ Ran all test suites related to changed files.
 
 Now we're ready to add logic to the reducer to pass our new test. Ultimately, a reducer is just a pure function that contains a conditional. What the reducer does is dependent on the action passed in as an argument.
 
-We'll use a switch case to do this. A switch case is really just simplified syntax for writing a conditional statement. If you need a refresher on switch cases, [revisit this lesson](/intermediate-javascript/object-oriented-javascript-part-2/switch-cases).
+We'll use a switch case to do this. A switch case is really just simplified syntax for writing a conditional statement. If you need a refresher on switch cases, [revisit this lesson](/intermediate-javascript/object-oriented-javascript/2-1-3-3-switch-cases).
 
 <div class="filename">ticket-list-reducer.js</div>
 

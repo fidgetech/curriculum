@@ -47,5 +47,5 @@ Each team member should have a copy of the project repo on their own GitHub acco
 
 It's easy to forget to submit by the deadline. Because of this, we suggest submitting your code review **before the end of class** after the trade show is finished.
 
-Visit [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/independent-projects-and-code-reviews) lesson for details on how to submit your code, how feedback works and course completion requirements.
+Visit [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson for details on how to submit your code, how feedback works and course completion requirements.
 

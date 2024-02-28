@@ -15,9 +15,9 @@ The second reason is that you'll be ready to tackle the remaining pre-work for t
 
 Install the packages in the following lessons.
 
-* [Installing C# and .NET](/c-and-net/getting-started-with-c/installing-c-and-net)
-* [Installing dotnet script](/c-and-net/getting-started-with-c/installing-dotnet-script)
-* [Installing and Configuring MySQL](/c-and-net/getting-started-with-c/installing-and-configuring-mysql)
+* [Installing C# and .NET](/c-and-net/lessons-1-5-getting-started-with-c/3-0-0-02-installing-c-and--net)
+* [Installing dotnet script](/c-and-net/lessons-1-5-getting-started-with-c/3-0-0-03-installing-dotnet-script)
+* [Installing and Configuring MySQL](/c-and-net/lessons-1-5-getting-started-with-c/3-0-0-04-installing-and-configuring-mysql)
 
 
 ## Installation Issues and Setup Assistance

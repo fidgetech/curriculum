@@ -30,7 +30,7 @@ If you do not want to engage with a reflection prompt, please write in "decline"
 
 The reflection prompt is found on Epicenter in the same course that the DEI lesson reading is assigned. In the homepage of every technical course on Epicenter, there are code reviews listed as well as personal reflection prompts.
 
-For example, in “Arrays and Looping”, the third section of the _Introduction to Programming_ course, we assign the lesson [Equity versus Equality](/introduction-to-programming/arrays-and-looping/homework-equality-versus-equity). That means the reflection prompt for “Equity versus Equality” can be found on Epicenter in the _Introduction to Programming_ course. 
+For example, in “Arrays and Looping”, the third section of the _Introduction to Programming_ course, we assign the lesson [Equity versus Equality](/introduction-to-programming/arrays-looping/1-3-1-8-homework-equality-versus-equity). That means the reflection prompt for “Equity versus Equality” can be found on Epicenter in the _Introduction to Programming_ course. 
 
 To make things straightforward, every DEI lesson has a link at the bottom of the page that you can click to navigate directly to the reflection prompt on Epicenter.
 

@@ -13,7 +13,7 @@ When we work on a development project as a collaborator, we have commit privileg
 ---
 
 ### 1.  Setup Github Repo
-Build a repo on Github and [add all team members as collaborators](/c-and-net/team-week/git-with-collaborators-setup). Clone the GitHub main repo to each pair's desktop with `$ git clone <repo-url>`. Navigate to the project with `$ cd <project-directory-name>`.
+Build a repo on Github and [add all team members as collaborators](/c-and-net/team-project/3-7-0-2-git-with-collaborators-setup). Clone the GitHub main repo to each pair's desktop with `$ git clone <repo-url>`. Navigate to the project with `$ cd <project-directory-name>`.
 
 ### 2.  Create Branches
 Each pair creates (and switches to) their own feature branch locally by running `$ git checkout -b <branch-name>`. Note that repos come with a main branch by default; you will not need to create one manually.

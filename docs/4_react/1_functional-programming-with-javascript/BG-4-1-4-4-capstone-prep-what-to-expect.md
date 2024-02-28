@@ -118,7 +118,7 @@ Staying on top of industry trends, you might opt for a project that utilizes in-
 * Consider using the language that is utilized in your area. For example, C# is saturated in the Seattle area because of Microsoft
 * Consider using AWS or other cloud-based architecture in your application
   
-Please note that these technologies that are "trendy" or "modern" will change constantly and quickly. Take a look back at the previous lesson [Capstone Prep: Using Employable Skills](/react/functional-programming-with-javascript/capstone-prep-using-employable-skills) and use current job postings to get a better expectation as to what those technologies might be *right now*.
+Please note that these technologies that are "trendy" or "modern" will change constantly and quickly. Take a look back at the previous lesson [Capstone Prep: Using Employable Skills](/react/functional-programming-with-javascript/4-1-4-3-capstone-prep-using-employable-skills) and use current job postings to get a better expectation as to what those technologies might be *right now*.
 
 You might also want to reference the Career Services lesson on [Identifying Important Skills](/marketing-yourself/applying-for-internships-and-jobs/identifying-important-skills). 
 

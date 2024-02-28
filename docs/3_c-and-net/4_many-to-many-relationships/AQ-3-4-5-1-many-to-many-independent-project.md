@@ -9,7 +9,7 @@ paginationNext: null
 ## Independent Projects Overview
 ---
 
-Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/independent-projects-and-code-reviews) lesson.
+Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## Many-To-Many Relationships Project Objectives
 ---

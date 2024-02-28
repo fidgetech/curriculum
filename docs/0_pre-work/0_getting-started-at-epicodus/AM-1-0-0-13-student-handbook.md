@@ -223,7 +223,7 @@ Epicodus staff will give an Academic Warning to a student when an assignment is 
 
 The number of times you have been given an Academic Warning is tracked in Epicenter. If you have been given three Academic Warnings, your advisor(s) and teacher(s) will meet with you to discuss your academic standing, which includes the possibility of retaking all or part of the coursework or being asked to leave the program. 
 
-For students participating in the Income Share Agreement (ISA), you agreed to higher academic standards. If you do not meet those standards, you agreed to be removed from the ISA program. Please review the requirements around Academic Warnings in [the student handbook's section on the ISA](/pre-work/getting-started-at-epicodus/student-handbook#income-share-agreement).  
+For students participating in the Income Share Agreement (ISA), you agreed to higher academic standards. If you do not meet those standards, you agreed to be removed from the ISA program. Please review the requirements around Academic Warnings in [the student handbook's section on the ISA](/pre-work/getting-started-at-epicodus/1-0-0-13-student-handbook#income-share-agreement).  
 
 We will notify you by email if you are given an Academic Warning. Additionally, a red banner will appear in your Epicenter account to indicate you currently have a project nearing the final deadline. It is possible to have multiple projects with Academic Warnings at once. We list the number of times that you have been given an Academic Warning on the Courses tab on Epicenter.
 
@@ -289,7 +289,7 @@ For full-time full-stack students, if you are absent more than 5 days of class, 
 
 For part-time full-stack students or students enrolled in the 6-Week Intro to Programming Course, Sunday classes count as two days. If you are absent more than 10 days of class, a teacher will talk to you about your attendance, remind you of this policy, and send you an email. You may be expelled if you are absent more than 20 days of class, or are absent 3 days in two weeks. Staff may make an exception to this policy at their discretion. No exceptions will be granted after 30 absent days.
 
-For students enrolled in the Income Share Agreement (ISA), you agreed to higher academic standards. If you do not meet those standards, you agreed to be removed from the ISA program. Please review attendance requirements in [the student handbook's section on the ISA](/pre-work/getting-started-at-epicodus/student-handbook#income-share-agreement). 
+For students enrolled in the Income Share Agreement (ISA), you agreed to higher academic standards. If you do not meet those standards, you agreed to be removed from the ISA program. Please review attendance requirements in [the student handbook's section on the ISA](/pre-work/getting-started-at-epicodus/1-0-0-13-student-handbook#income-share-agreement). 
 
 Your allowed absences are available for you to use for any reason. You may need to use them if you're sick, need a mental health break, or have a personal emergency. You are also welcomed to use them to work solo (without pairing with another student). If you choose to work solo, you are still welcome to attend class and ask questions of your teachers and advisors.
 
