@@ -95,7 +95,7 @@ With the above CSS rule, we've created a class called `hidden` that hides any el
 
 When we want to show our story, all we'll have to do is remove the `hidden` class from the div element. We'll remove the `hidden` class with the `Element.removeAttribute()` method in our scripts file.
 
-As a refresher, when we write `Element.removeAttribute()`, we're referring to the `removeAttribute()` method that belongs to the `Element` object. The `Element` object represents an HTML element and it has properties and methods that let us interact with the HTML elements on our webpage. If you want to review the `Element` object along with the topics of inheritance and object types, [visit this lesson]( https://old.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/understanding-web-apis-interfaces-object-types-and-inheritance).
+As a refresher, when we write `Element.removeAttribute()`, we're referring to the `removeAttribute()` method that belongs to the `Element` object. The `Element` object represents an HTML element and it has properties and methods that let us interact with the HTML elements on our webpage. If you want to review the `Element` object along with the topics of inheritance and object types, [visit this lesson](/introduction-to-programming/javascript-and-web-browsers/1-2-2-8-understanding-web-apis-interfaces-object-types-and-inheritance).
 
 ### Adding an `onsubmit` Event Handler
 

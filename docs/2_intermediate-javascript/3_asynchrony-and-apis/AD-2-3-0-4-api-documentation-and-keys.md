@@ -102,7 +102,7 @@ During the classwork for this section, you'll have an opportunity to pick your o
 * Is there a free tier? If so, how many API calls can you make on this tier? Is it enough for your project?
 * Does the API provide the data you need for your project? You might find yourself building an application around what the API _does_ offer — but you may also want to build an application that needs specific data. In that case, make sure that the API's endpoints provide the data you need.
 * What kind of authentication does the API use? An API key (token-based authentication) is best for now. Steer clear of OAuth unless you want a challenge.
-* Does the API allow CORS? We'll discuss CORS in a [future lesson](https://old.learnhowtoprogram.com/intermediate-javascript/asynchrony-and-apis/sop-and-cors). If it does allow CORS, you're good to go. If it doesn't, you should use a different API.
+* Does the API allow CORS? We'll discuss CORS in a [future lesson](/intermediate-javascript/asynchrony-and-apis/2-3-1-7-sop-and-cors). If it does allow CORS, you're good to go. If it doesn't, you should use a different API.
 
 ## Summary
 ----

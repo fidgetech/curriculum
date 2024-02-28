@@ -72,7 +72,7 @@ Using a template repository is especially helpful for projects that include boil
 
 Now that you've created a template repo for a README, the next step is to create a template for a project that uses webpack. We'll be using a very similar JavaScript environment in the next section so you'll be able to reuse this template then, too.
 
-You can base your template off of the Shape Tracker repo (linked below) or a project you created in this course section. If you decide to use the Shape Tracker project repo, make sure to use the branch titled `3_multiple_business_logic_files` as your point of reference. As needed, review the lesson on [accessing code from different branches](https://old.learnhowtoprogram.com/intermediate-javascript/object-oriented-javascript/accessing-code-from-different-branches).
+You can base your template off of the Shape Tracker repo (linked below) or a project you created in this course section. If you decide to use the Shape Tracker project repo, make sure to use the branch titled `3_multiple_business_logic_files` as your point of reference. As needed, review the lesson on [accessing code from different branches](/intermediate-javascript/object-oriented-javascript/2-1-0-6-accessing-code-from-different-branches).
 
 ---
 

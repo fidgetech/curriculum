@@ -9,7 +9,7 @@ paginationNext: null
 ## Independent Projects Overview
 ---
 
-Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews]( https://old.learnhowtoprogram.com/fidgetech-1-introduction-to-programming/1-0-getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson. This lesson details:
+Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson. This lesson details:
 
 * How to submit your code
 * How feedback works
@@ -79,4 +79,4 @@ Once you've completed your project, submit your code for review to the **JavaScr
   * Hit the submit button — you will be taken to a confirmation page.
   * On the submission confirmation page, select whether or not you want to request a meeting with your teacher
 
-Visit the [Independent Projects and Code Reviews]( https://old.learnhowtoprogram.com/fidgetech-1-introduction-to-programming/1-0-getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson for details on deadlines, how to submit your code, how feedback works, and course completion requirements.
+Visit the [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson for details on deadlines, how to submit your code, how feedback works, and course completion requirements.

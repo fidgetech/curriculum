@@ -9,7 +9,7 @@ paginationNext: null
 ## Independent Projects Overview
 ---
 
-Welcome to your first C# independent project! Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](https://old.learnhowtoprogram.com/fidgetech-1-introduction-to-programming/1-0-getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Welcome to your first C# independent project! Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## Test-Driven Development with C# Project Objectives
 ---
@@ -51,4 +51,4 @@ All independent coding projects at Epicodus have these baseline requirements:
 
 Submit your code for review to the **Test-Driven Development with C#** code review on [Epicenter](https://epicenter.epicodus.com/).
 
-Visit [Independent Projects and Code Reviews](https://old.learnhowtoprogram.com/fidgetech-1-introduction-to-programming/1-0-getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) for details on how to submit, how feedback works and course completion requirements.
+Visit [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) for details on how to submit, how feedback works and course completion requirements.

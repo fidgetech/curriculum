@@ -16,7 +16,7 @@ For this next example project, you may build the application from scratch or sca
 $ dotnet new mvc -o MvcApiCall -f net6.0
 ```
 
-If you create your MVC app from scratch, follow along with the basic structure for an ASP.NET Core MVC app outlined [in this LearnHowToProgram.com lesson](https://old.learnhowtoprogram.com/fidgetech-3-c-and-net/3-2-basic-web-applications/3-2-0-18-configuration-quick-reference). The directory name for our project will be `MvcApiCall`. 
+If you create your MVC app from scratch, follow along with the basic structure for an ASP.NET Core MVC app outlined [in this LearnHowToProgram.com lesson](/c-and-net/basic-web-applications/3-2-0-18-configuration-quick-reference). The directory name for our project will be `MvcApiCall`. 
 
 **Don't initialize or save your changes to Git until you've completed the setup steps for protecting your API key.** 
 

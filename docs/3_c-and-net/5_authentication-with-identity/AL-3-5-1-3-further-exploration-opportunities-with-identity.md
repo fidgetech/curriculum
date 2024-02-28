@@ -31,7 +31,7 @@ With those warnings, let's get into the further exploration opportunities.
 
 This first further exploration opportunity is all about adding new properties to the `ApplicationUser` class to create a more robust and interesting user profile. What exactly you have users enter will certainly depend on what your website offers. For example, it's probably not necessary to gather a user's date of birth for a site that sells products. However, on a social media site, users may want to add that information to their profiles. 
 
-We already covered how to add properties to the `ApplicationUser` class in the lesson [identity Setup and Configuration](https://old.learnhowtoprogram.com/c-and-net/authentication-with-identity/identity-setup-and-configuration). If you want more information, check out this resources:
+We already covered how to add properties to the `ApplicationUser` class in the lesson [identity Setup and Configuration](/c-and-net/authentication-with-identity/3-5-0-4-identity-setup-and-configuration). If you want more information, check out this resources:
 
 * [An overview of adding custom user data.](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/customize-identity-model?view=aspnetcore-6.0#custom-user-data)
 * The [`IdentityUser`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.identityuser?view=aspnetcore-6.0) class that our `ApplicationUser` extends functionality from.

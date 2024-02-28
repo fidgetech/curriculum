@@ -327,4 +327,4 @@ Below is a repository for the complete project.
 ---
 **[<i class="glyphicon glyphicon-folder-open"></i>  Example GitHub Repo for Shape Tracker](https://github.com/epicodus-lessons/section-5-shape-tracker/tree/3_multiple_business_logic_files)**
 
-Make sure to use the branch titled `3_multiple_business_logic_files` as your point of reference. As needed, review the lesson on [accessing code from different branches](https://old.learnhowtoprogram.com/intermediate-javascript/object-oriented-javascript/accessing-code-from-different-branches).
+Make sure to use the branch titled `3_multiple_business_logic_files` as your point of reference. As needed, review the lesson on [accessing code from different branches](/intermediate-javascript/object-oriented-javascript/2-1-0-6-accessing-code-from-different-branches).

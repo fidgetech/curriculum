@@ -119,7 +119,7 @@ Take a look at this and other documentation to gather the tools you'll need befo
 
 ### Further Exploration with Pig Latin: Refactor with Regular Expressions
 
-We haven't covered regular expressions yet because we want you to primarily focus on looping. But if you want to try out regular expressions and you are comfortable with looping, now is your chance to refactor Pig Latin using regular expressions as described in the lesson [Further Exploration: Introduction to Regular Expressions]( https://old.learnhowtoprogram.com/introduction-to-programming/arrays-and-looping/further-exploration-introduction-to-regular-expressions).
+We haven't covered regular expressions yet because we want you to primarily focus on looping. But if you want to try out regular expressions and you are comfortable with looping, now is your chance to refactor Pig Latin using regular expressions as described in the lesson [Further Exploration: Introduction to Regular Expressions](/introduction-to-programming/arrays-looping/1-3-3-9-further-exploration-introduction-to-regular-expressions).
 
 **Note:** Once again, do not worry about using regex if you are still trying to understand loops. You do _not_ need to use regex on any code reviews!
 

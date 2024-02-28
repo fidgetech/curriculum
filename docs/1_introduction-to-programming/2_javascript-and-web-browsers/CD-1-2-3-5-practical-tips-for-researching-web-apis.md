@@ -24,7 +24,7 @@ Please revisit this lesson as necessary.
 When researching for information online about Web APIs, we need to remember a few things:
 
 * Web API interfaces (the object types) share functionality with each other through inheritance. Inheritance is the mechanism by which one object type, like `HTMLInputElement`, has access to properties that are defined in another object type, like `HTMLElement`. That means that the documentation for a property may be associated with a different object type that you may initially expect.
-  * If you want to review the discussion on inheritance, [visit this lesson]( https://old.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/understanding-web-apis-interfaces-object-types-and-inheritance).
+  * If you want to review the discussion on inheritance, [visit this lesson](/introduction-to-programming/javascript-and-web-browsers/1-2-2-8-understanding-web-apis-interfaces-object-types-and-inheritance).
 * Events are always tied to specific object types (Web API interfaces), like `Window`, `Document`, or `Element`. This means that an event is categorized as belonging to the browser window, like when a user prints a page, or as belonging to the DOM, like when a user copies text on a webpage.
 * Sometimes multiple Web APIs can respond to the same event type:
   * For the "keyup" keyboard event, there's an `onkeyup` event handler property for [`Element`](https://developer.mozilla.org/en-US/docs/Web/API/Element#keyboard_events) and [`Document`](https://developer.mozilla.org/en-US/docs/Web/API/Document#keyboard_events). 

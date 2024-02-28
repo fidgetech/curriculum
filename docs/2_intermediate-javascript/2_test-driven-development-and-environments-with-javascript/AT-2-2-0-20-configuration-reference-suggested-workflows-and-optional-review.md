@@ -26,7 +26,7 @@ We're providing a reference repository for the Shape Tracker project, which also
 ---
 **[<i class="glyphicon glyphicon-folder-open"></i>  Example GitHub Repo for Shape Tracker](https://github.com/epicodus-lessons/section-5-shape-tracker)**
 
-Make sure that you are referencing the code from the branch called `1_functioning_environment`. This is the default branch, so running `git clone...` with the URL of the repo homepage will automatically clone down the branch called `1_functioning_environment`. If you need a review on how to navigate between branches, review the lesson on [accessing code from different branches](https://old.learnhowtoprogram.com/lessons/accessing-code-from-different-branches). 
+Make sure that you are referencing the code from the branch called `1_functioning_environment`. This is the default branch, so running `git clone...` with the URL of the repo homepage will automatically clone down the branch called `1_functioning_environment`. If you need a review on how to navigate between branches, review the lesson on [accessing code from different branches](/intermediate-javascript/object-oriented-javascript/2-1-0-6-accessing-code-from-different-branches). 
 
 Once the repo is downloaded to your computer, you simply need to install packages in order to set it up. In the root of the Shape Tracker directory, run this command to install all packages listed in the `package.json`:
 
@@ -169,7 +169,7 @@ $ npm install [PACKAGE-NAME]
 $ npm uninstall [PACKAGE-NAME]
 ```
 
-When installing packages, we often include a version number. npm packages use **semantic versioning**. Review the lesson on [semantic versioning](https://old.learnhowtoprogram.com/lessons/semantic-versioning) if you need a refresher.
+When installing packages, we often include a version number. npm packages use **semantic versioning**. Review the lesson on [semantic versioning](/intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-0-7-semantic-versioning) if you need a refresher.
 
 You can also manually remove or add a package to the list of dependencies in `package.json`, and then ensure that your `node_modules` and `package-lock.json` are updated by running this command:
 
@@ -198,7 +198,7 @@ webpack's core functionality is to concatenate and minify JavaScript files. Howe
 
 We install loaders and plugins with npm, and we configure them in `webpack.config.js`.
 
-To enable webpack to bundle our code, we specify an entry point in our source code (`index.js`), and we connect any files into that entry point that we want bundled. To connect files together we export a file and import it into another file. If you need a review on importing and exporting files, revisit the lesson [ES6 Imports and Exports](https://old.learnhowtoprogram.com/lessons/es6-imports-and-exports).
+To enable webpack to bundle our code, we specify an entry point in our source code (`index.js`), and we connect any files into that entry point that we want bundled. To connect files together we export a file and import it into another file. If you need a review on importing and exporting files, revisit the lesson [ES6 Imports and Exports](/intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-0-11-es6-imports-and-exports).
 
 In order to invoke the functionality of webpack and webpack's dev server, we've set up npm scripts in `package.json` that run commands in the terminal to bundle our code and server it all in development mode.
 

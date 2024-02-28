@@ -13,7 +13,7 @@ npm originally started as a package manager for Node.js (used for server-side or
 
 There's another very popular package manager called [Yarn](https://yarnpkg.com/). You'll likely see many references to both yarn and npm when you are looking through online resources. In some ways, yarn improves on npm, but npm is the older, more established standard.
 
-You should already have [Node installed](https://old.learnhowtoprogram.com/intermediate-javascript/setting-up-javascript/installing-node-js) on your computer, which comes with npm. If not, install Node now, as we will need it to use npm. To check if you have node and npm installed, run these commands in the terminal:
+You should already have [Node installed](/intermediate-javascript/getting-started-with-javascript/2-0-0-3-installing-node-js) on your computer, which comes with npm. If not, install Node now, as we will need it to use npm. To check if you have node and npm installed, run these commands in the terminal:
 
 ```shell
 $ node -v

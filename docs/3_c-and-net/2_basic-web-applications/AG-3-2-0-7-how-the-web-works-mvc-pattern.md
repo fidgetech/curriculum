@@ -5,7 +5,7 @@ id: 3-2-0-7-how-the-web-works-mvc-pattern
 hide_table_of_contents: true
 ---
 
-In the [_Introduction to ASP.NET Core MVC_](https://old.learnhowtoprogram.com/c-and-net/basic-web-applications/introduction-to-asp-net-core) lesson, we stated that there were two _very_ important things to know about the ASP.NET Core MVC framework we're using this section:
+In the [_Introduction to ASP.NET Core MVC_](/c-and-net/basic-web-applications/3-2-0-5-introduction-to-asp-net-core) lesson, we stated that there were two _very_ important things to know about the ASP.NET Core MVC framework we're using this section:
 
 > 1. It's a **server-side** framework.
 > 2. It follows the **MVC** (Model-View-Controller) pattern.

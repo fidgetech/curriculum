@@ -126,7 +126,7 @@ There's a few things to note about this pseudocode syntax:
 
 If this syntax is confusing, or you are worried about being able to remember it, don't worry about either of those. Practice with it a bit, and reference MDN when you find yourself in need of object destructuring to review usage options and syntax. 
 
-By the way, the syntax for object destructuring should already look familiar from the import statements we've used with named exports. For instance, as we discussed in the [ES6 Imports and Exports](https://old.learnhowtoprogram.com/intermediate-javascript/test-driven-development-and-environments-with-javascript/es6-imports-and-exports) lesson, we can do the following: 
+By the way, the syntax for object destructuring should already look familiar from the import statements we've used with named exports. For instance, as we discussed in the [ES6 Imports and Exports](/intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-0-11-es6-imports-and-exports) lesson, we can do the following: 
 
 ```js
 import { Triangle, Rectangle, Circle } from './shapes.js';

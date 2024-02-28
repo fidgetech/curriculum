@@ -26,7 +26,7 @@ What do we know so far about functions?
 * A function is a bundle of code that performs a set of operations.
 * Functions allow us to _do_ things in JavaScript.
 * A method is a type of function that belongs to an object, and a function is just a set of operations that isn't necessarily a method.
-* There are a few built-in functions in JavaScript, like `parseInt()`, but mostly we will be writing our own custom functions. This is in contrast to methods: we will only be using built-in JavaScript methods until we revisit objects in the [Object-Oriented JavaScript]( https://old.learnhowtoprogram.com/intermediate-javascript/object-oriented-javascript/) course section.
+* There are a few built-in functions in JavaScript, like `parseInt()`, but mostly we will be writing our own custom functions. This is in contrast to methods: we will only be using built-in JavaScript methods until we revisit objects in the [Object-Oriented JavaScript](/intermediate-javascript/object-oriented-javascript/2-1-0-1-object-oriented-javascript-objectives) course section.
 
 
 ### Function Declarations

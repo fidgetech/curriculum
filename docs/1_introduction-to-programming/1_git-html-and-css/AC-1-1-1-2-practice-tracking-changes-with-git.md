@@ -128,7 +128,7 @@ Our initial commit has been assigned a unique identifier of numbers and letters,
 
 Before we move on, we'll need to make a small change to our Git repository. Note that this may be confusing at first but it will become second nature. 
 
-If you followed all the configuration instructions in the [Git Configurations]( https://old.learnhowtoprogram.com/fidgetech-1-introduction-to-programming/1-0-getting-started-with-intro-to-programming/1-0-0-21-git-configurations) lesson, you should be on the following branch when you run `$ git status`:
+If you followed all the configuration instructions in the [Git Configurations](/pre-work/getting-started-with-intro-to-programming/1-0-0-21-git-configurations) lesson, you should be on the following branch when you run `$ git status`:
 
 ```
 On branch main

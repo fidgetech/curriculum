@@ -5,14 +5,14 @@ id: 1-2-1-2-writing-functions
 hide_table_of_contents: true
 ---
 
-We were first introduced to JavaScript functions in the [Functions]( https://old.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/functions) lesson. In that lesson we familiarized ourselves with function syntax and other important terminology and features. In this lesson, we'll review what we learned and start writing our own custom functions.
+We were first introduced to JavaScript functions in the [Functions](/introduction-to-programming/javascript-and-web-browsers/1-2-0-13-functions) lesson. In that lesson we familiarized ourselves with function syntax and other important terminology and features. In this lesson, we'll review what we learned and start writing our own custom functions.
 
 What do we know so far about functions? 
 
 * A function is a bundle of code that performs a set of operations.
 * Functions allow us to _do_ things in JavaScript.
 * A method is a type of function that belongs to an object, and a function is just a set of operations that isn't necessarily a method.
-* There are a few built-in functions in JavaScript, like `parseInt()`, but mostly we will be writing our own custom functions. This is in contrast to methods: we will only be using built-in JavaScript methods until we revisit objects in the [Object-Oriented JavaScript]( https://old.learnhowtoprogram.com/intermediate-javascript/object-oriented-javascript/) course section.
+* There are a few built-in functions in JavaScript, like `parseInt()`, but mostly we will be writing our own custom functions. This is in contrast to methods: we will only be using built-in JavaScript methods until we revisit objects in the [Object-Oriented JavaScript](/intermediate-javascript/object-oriented-javascript/2-1-0-1-object-oriented-javascript-objectives) course section.
 
 Let's review function syntax, terminology and get started with writing our own custom functions.
 

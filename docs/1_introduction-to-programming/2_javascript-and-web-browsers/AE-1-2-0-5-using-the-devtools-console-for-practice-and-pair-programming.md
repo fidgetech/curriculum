@@ -20,7 +20,7 @@ The image below is an example of working through the upcoming lesson on JavaScri
 
 When you are using the console to test out JavaScript, make sure to continue switch who's driving and who's observing regularly. When trying out new JavaScript concepts, we suggest switching roles more often than the 20 – 30 minutes we usually suggest. If there's a practice lesson with multiple JavaScript exercises, it's best to switch roles between each exercise. Take this practice lesson for example:
 
-![This practice lesson is from the arithmetic exercises. It shows many different prompts for addition, subtraction, multiplication, etc. Find the exercises at this location:  https://old.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/practice-arithmetic](/images/dev-tools/devtools-and-pairing.png)
+![This practice lesson is from the arithmetic exercises. It shows many different prompts for addition, subtraction, multiplication, etc. Find the exercises at this location: https://fidgetechcode.org/introduction-to-programming/javascript-and-web-browsers/1-2-0-8-practice-arithmetic](/images/dev-tools/devtools-and-pairing.png)
 
 ### Tips for Pairing Remotely
 
@@ -41,7 +41,7 @@ Whether it's code that you are reading about in lessons or in online references,
 
 ### You can read the errors and warnings.
 
-A lot of issues with your JavaScript code will show up as an error or warning in the DevTools console. We first learned about this when we learned about the DevTools console in [Debugging HTML and CSS]( https://old.learnhowtoprogram.com/introduction-to-programming/git-html-and-css/debugging-html-and-css), and we'll revisit this at different points in this section. We'll cover common errors that pop up, and what they mean. There's also a lot that we won't cover. So, whenever you see something new in your JavaScript console, make sure that you:
+A lot of issues with your JavaScript code will show up as an error or warning in the DevTools console. We first learned about this when we learned about the DevTools console in [Debugging HTML and CSS](/introduction-to-programming/git-html-and-css/1-1-2-5-debugging-html-and-css), and we'll revisit this at different points in this section. We'll cover common errors that pop up, and what they mean. There's also a lot that we won't cover. So, whenever you see something new in your JavaScript console, make sure that you:
 
   1. **Read the error/warning.** Even though most messages won't make sense to you at first, reading the message will help you practice  common errors and terminology. When paired with solutions and the context of the issue, you'll quickly become better at debugging.
   2. **Do a quick Google search to learn what the message means.** 

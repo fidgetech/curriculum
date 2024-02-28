@@ -9,7 +9,7 @@ paginationNext: null
 ## Independent Projects Overview
 ---
 
-Before you begin your project, take a moment to revisit and review the [Independent Projects and Code Reviews](https://old.learnhowtoprogram.com/fidgetech-1-introduction-to-programming/1-0-getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Before you begin your project, take a moment to revisit and review the [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## Authentication with Identity Project Objectives
 ---
@@ -45,4 +45,4 @@ All independent coding projects at Epicodus have these baseline requirements:
 
 Submit your Github repository to the **Authentication with Identity** Code Review on [Epicenter](https://epicenter.epicodus.com).
 
-Visit [Independent Projects and Code Reviews](https://old.learnhowtoprogram.com/fidgetech-1-introduction-to-programming/1-0-getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews)  for details on how to submit your code, how feedback works and course completion requirements.
+Visit [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews)  for details on how to submit your code, how feedback works and course completion requirements.

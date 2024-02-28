@@ -86,7 +86,7 @@ Not very exciting so far. It's time to add Bootstrap!
 
 ---
 
-As described in the [Bootstrap: Downloading & Installing]( https://old.learnhowtoprogram.com/fidgetech-1-introduction-to-programming/1-1-git-html-and-css/1-1-4-5-downloading-and-installing-bootstrap) lesson, let's download a copy of Bootstrap and place the `bootstrap.css` stylesheet into our project's `css` folder.
+As described in the [Bootstrap: Downloading & Installing](/introduction-to-programming/git-html-and-css/1-1-4-5-downloading-and-installing-bootstrap) lesson, let's download a copy of Bootstrap and place the `bootstrap.css` stylesheet into our project's `css` folder.
 
 **Note:** We are taking this approach instead of a CDN because it can be useful to take a look at the `bootstrap.css` file for development purposes. That's also why we aren't using the minified version.
 
@@ -157,7 +157,7 @@ If we refresh the page, we'll see that padding has been added around the edges o
 
 Also, if we resize the width of the browser window, we can see that the amount of padding automatically changes depending on the size of the viewport. When we integrate Bootstrap elements and components into our pages, they're automatically responsive.
 
-Bootstrap is essentially a really big CSS stylesheet. Earlier, we learned how to [add classes to HTML elements]( https://old.learnhowtoprogram.com/fidgetech-1-introduction-to-programming/1-1-git-html-and-css/1-1-3-1-styling-with-classes) to style our pages. Adding Bootstrap's built-in `container` class is very similar. But instead of manually defining CSS rules that style anything with the `container` class in our _own_ stylesheet, the Bootstrap stylesheet we included in our project _already has_ CSS rules for the `container` class defined. All we need to do is add this class in order to make use of the CSS in the  `bootstrap.css` file!
+Bootstrap is essentially a really big CSS stylesheet. Earlier, we learned how to [add classes to HTML elements](/introduction-to-programming/git-html-and-css/1-1-3-1-styling-with-classes) to style our pages. Adding Bootstrap's built-in `container` class is very similar. But instead of manually defining CSS rules that style anything with the `container` class in our _own_ stylesheet, the Bootstrap stylesheet we included in our project _already has_ CSS rules for the `container` class defined. All we need to do is add this class in order to make use of the CSS in the  `bootstrap.css` file!
 
 ### Jumbotron
 

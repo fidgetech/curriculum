@@ -121,7 +121,7 @@ Let's go over this method line by line.
 
 * Next, we use **type casting** to ensure that `otherItem` is in fact an `Item`. With type casting, we turn `System.Object otherItem` into `Item otherItem`. 
   * This may seem like a redundant piece of code but our method will break without it. If we omit the type casting `(Item)` in the previous line, we'll get the following error when we try to run our tests: `'object' does not contain a definition for 'Description' and no accessible extension method 'Description' accepting a first argument of type 'object' could be found`.
-  * To learn about type casting, [check out this lesson](https://old.learnhowtoprogram.com/fidgetech-3-c-and-net/3-0-lessons-6-18-data-types-and-variables/3-0-0-18-type-casting).
+  * To learn about type casting, [check out this lesson]/c-and-net/lessons-6-18-data-types-and-variables/3-0-0-18-type-casting).
 
 * We can now compare the `Description` of `this` (the `Item` our method will be called on) to the `Description` of the `newItem`. If they have the same value for `Description`, our application should consider both `Item`s to be exactly the same. 
 

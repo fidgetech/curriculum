@@ -32,7 +32,7 @@ let mathematician = {
 
 We _could_ just display each property individually (such as by doing `mathematician.firstName`) but that becomes less and less feasible the more properties our objects have — and results in more and more work.
 
-So let's turn it into one long string instead. In [Address Book: Finding and Deleting Contacts](https://old.learnhowtoprogram.com/intermediate-javascript/object-oriented-javascript/address-book-finding-and-deleting-contacts), we learned about `Object.keys()`, a method that returns an array of all the keys in an object. We can take advantage of this method to grab the keys in an array and then loop over them:
+So let's turn it into one long string instead. In [Address Book: Finding and Deleting Contacts](/intermediate-javascript/object-oriented-javascript/2-1-0-10-address-book-finding-and-deleting-contacts), we learned about `Object.keys()`, a method that returns an array of all the keys in an object. We can take advantage of this method to grab the keys in an array and then loop over them:
 
 ```js
 > const adaKeys = Object.keys(mathematician);

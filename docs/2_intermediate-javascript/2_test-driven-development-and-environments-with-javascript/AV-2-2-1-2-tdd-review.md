@@ -5,7 +5,7 @@ id: 2-2-1-2-tdd-review
 hide_table_of_contents: true
 ---
 
-We learned about the basics of [Test-Driven Development](https://old.learnhowtoprogram.com/lessons/overview-of-test-driven-development-tdd-with-text-analyzer) in Introduction to Programming. So far, we have used the basic principles of TDD to help organize and plan our code — but we aren't actually executing any tests yet. Well, we're about to start doing that!
+We learned about the basics of [Test-Driven Development](/introduction-to-programming/arrays-looping/1-3-2-2-overview-of-test-driven-development-tdd-with-text-analyzer) in Introduction to Programming. So far, we have used the basic principles of TDD to help organize and plan our code — but we aren't actually executing any tests yet. Well, we're about to start doing that!
 
 **At this point, you will no longer need to add pseudocode tests in your READMEs.** That was practice for writing actual tests which we can run with software, and that's exactly what we're about to start doing with Jest!
 

@@ -47,7 +47,7 @@ Don't forget to consider how to handle any input that might be submitted:
 
 ### Turn forEach() into For
 
-Go back through the [looping practice]( https://old.learnhowtoprogram.com/introduction-to-programming/arrays-and-looping/practice-looping) problems, and redo one of them with a `for` loop instead of a `forEach()` loop.
+Go back through the [looping practice](/introduction-to-programming/arrays-looping/1-3-1-5-practice-looping) problems, and redo one of them with a `for` loop instead of a `forEach()` loop.
 
 ### Word Puzzle
 

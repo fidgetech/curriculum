@@ -18,7 +18,7 @@ Considering the latter option, couldn't we just hide the selected word count and
 
 Well, sure, we _could_. And at least from a user perspective, there'd no longer be a bug. But that would be like sweeping dust under the rug so no one else will see it. It's still there. And it could eventually morph into a terrifying dust monster from another dimension if it's left there. Okay, that's not technically true, but the point is, we can't just hide bugs. We need to fix them.
 
-This also gives us a perfect opportunity to revisit some of the debugging techniques we covered in the last course section. Remember those? We are especially referring to the techniques in [Debugging in JavaScript: Using debugger and Breakpoints]( https://old.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/debugging-in-javascript-using-debugger-and-breakpoints).
+This also gives us a perfect opportunity to revisit some of the debugging techniques we covered in the last course section. Remember those? We are especially referring to the techniques in [Debugging in JavaScript: Using debugger and Breakpoints](/introduction-to-programming/javascript-and-web-browsers/1-2-4-7-debugging-in-javascript-using-debugger-and-breakpoints).
 
 So let's solve this by adding a breakpoint! We'll review the techniques covered in the lesson linked above because they are absolutely essential tools for debugging your code. Consider this a refresher. Whether or not you are feeling good about using breakpoints yet, they are so important that it's worth covering them again.
 

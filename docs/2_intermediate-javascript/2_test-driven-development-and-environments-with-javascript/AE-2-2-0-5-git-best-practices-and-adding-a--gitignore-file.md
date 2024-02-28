@@ -10,7 +10,7 @@ The very first step in creating any project that uses multiple JS dependencies t
 ## Adding a `.gitignore` File
 ---
 
-We briefly discussed `.gitignore` files in [Git Configurations](https://old.learnhowtoprogram.com/introduction-to-programming/getting-started-with-intro-to-programming/git-configurations). That lesson discussed setting up a `.gitignore_global` file which we can use to ensure that git ignores files we don't want to commit to GitHub. 
+We briefly discussed `.gitignore` files in [Git Configurations](/pre-work/getting-started-with-intro-to-programming/1-0-0-21-git-configurations). That lesson discussed setting up a `.gitignore_global` file which we can use to ensure that git ignores files we don't want to commit to GitHub. 
 
 Just like with `.gitignore_global`, `.gitignore` files aren't specific to project written in JavaScript. In general, they should be included in all projects being pushed to GitHub, and we'll continue to use `.gitignore` files for the remained of the program.
 

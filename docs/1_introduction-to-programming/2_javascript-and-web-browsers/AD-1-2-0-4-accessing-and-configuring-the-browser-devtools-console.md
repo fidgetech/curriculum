@@ -37,7 +37,7 @@ Shortcuts for accessing the DevTools _Elements_ inspector are:
 
 ### DevTools Inspector Versus Console
 
-The DevTools inspector and console are different. Each lives on a separate tab in the DevTools window. The DevTools inspector is found in the _Elements_ tab and helps us inspect HTML elements. This includes being able to look at an element's CSS rules and adjust them. You can optionally review [the features of the elements tab in this lesson]( https://old.learnhowtoprogram.com/introduction-to-programming/git-html-and-css/debugging-html-and-css) from the previous section. 
+The DevTools inspector and console are different. Each lives on a separate tab in the DevTools window. The DevTools inspector is found in the _Elements_ tab and helps us inspect HTML elements. This includes being able to look at an element's CSS rules and adjust them. You can optionally review [the features of the elements tab in this lesson](/introduction-to-programming/git-html-and-css/1-1-2-5-debugging-html-and-css) from the previous section. 
 
 The DevTools console is a JavaScript console that lets us write and execute JavaScript code. It is found in the _Console_ tab of the DevTools window. This console is also used for logging errors and warning messages. We'll learn how to use the console in this section. As a preview, see the image below with the DevTools console open and a line of JavaScript (`3 + 4;`) written.
 

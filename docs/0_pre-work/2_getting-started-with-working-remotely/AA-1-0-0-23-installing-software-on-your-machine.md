@@ -26,11 +26,11 @@ Regardless of whether you have Windows, Mac, or another OS — or whether your m
 
 All students should follow the instructions in the lesson below to install necessary packages for Introduction to Programming.
 
-* [Installation and Setup]( https://old.learnhowtoprogram.com/introduction-to-programming/getting-started-with-intro-to-programming/installation-and-setup)
+* [Installation and Setup](/pre-work/getting-started-with-intro-to-programming/1-0-0-15-installation-and-setup)
 
 ### [Intermediate JavaScript and React](#intermediate-javascript-and-react)
 
-* [Installing Node.js]( https://old.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript/installing-node-js)
+* [Installing Node.js](/intermediate-javascript/getting-started-with-javascript/2-0-0-3-installing-node-js)
 
 ### [C#/.NET](#c-net)
 
