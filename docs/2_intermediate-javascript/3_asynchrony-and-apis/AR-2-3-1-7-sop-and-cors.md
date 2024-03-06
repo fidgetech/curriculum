@@ -70,7 +70,7 @@ We saw an example of a Web API that provides live-updated data in the optional l
 
 ![This shows the reference page on MDN for the `CSSStyleSheet.cssRules`, with an added highlight and arrow pointing to "live" in the description.](/images/Intermediate+JavaScript/Async-and-APIs-2020/live-list-for-cssRules.png)
 
-If you did not read the lesson [Optional: Accessing Stylesheets in the CSSOM](/intermediate-javascript/object-oriented-javascript/2-1-2-3-optional-accessing-stylesheets-in-the-cssom), don't worry. We don't need to know how the CSSOM works (or about its object types) in order to understand the implication of live data. So, let's continue. 
+If you did not read the lesson [Optional: Accessing Stylesheets in the CSSOM](../../intermediate-javascript/object-oriented-javascript/2-1-2-3-optional-accessing-stylesheets-in-the-cssom), don't worry. We don't need to know how the CSSOM works (or about its object types) in order to understand the implication of live data. So, let's continue. 
 
 Anytime a Web API provides live data, the Web API does so by making regular requests to get updated information. This means if we don't serve our project from localhost, we'll run into errors. 
 

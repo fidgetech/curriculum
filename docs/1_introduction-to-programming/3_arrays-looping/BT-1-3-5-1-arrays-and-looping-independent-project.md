@@ -11,7 +11,7 @@ paginationNext: null
 
 Project prompts will be published on Epicenter at 8:00 am Friday for full-time students and 8:00 am on Thursday for part-time students. Before the prompt is published, only the objectives will be visible (the same that are listed below).
 
-Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson. This lesson details:
+Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson. This lesson details:
 
 * Independent project deadlines
 * How to submit your code
@@ -89,4 +89,4 @@ The deadlines for the initial submission are:
   * Friday at 5:00 pm for full-time students.
   * Sunday at 8:00 am for part-time students.
 
-Keep in mind that _resubmission_ deadlines are different! Visit the [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson for details on deadlines, how to submit your code, how feedback works, and course completion requirements.
+Keep in mind that _resubmission_ deadlines are different! Visit the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson for details on deadlines, how to submit your code, how feedback works, and course completion requirements.

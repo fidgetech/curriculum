@@ -226,7 +226,7 @@ if (weatherResponse instanceof Error) {
 }
 ```
 
-As we discussed in [JavaScript Exception Handling with `try...catch`](/intermediate-javascript/asynchrony-and-apis/2-3-0-11-javascript-exception-handling-with-try---catch), `instanceof` is actually an operator and it's very helpful for checking to see whether or not something is a certain type of object. 
+As we discussed in [JavaScript Exception Handling with `try...catch`](../../intermediate-javascript/asynchrony-and-apis/2-3-0-11-javascript-exception-handling-with-try---catch), `instanceof` is actually an operator and it's very helpful for checking to see whether or not something is a certain type of object. 
 
 In this case, if `weatherResponse` is an instance of an `Error` object, we need to throw another error. This one will revert control to the _nearest_ catch block, which actually comes at the end of our chained promise. That catch block will call a `printError()` function which will display an error for the user.
 

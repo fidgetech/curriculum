@@ -31,4 +31,4 @@ Your code will be reviewed for the following objectives:
 * The prompt’s required functionality and baseline project requirements are in place by the deadline.
 
 
-**You can preview the exact instructions and requirements for the React with Redux code review by reading the [React with Redux Independent Project](/react/react-with-redux/4-3-5-1-react-with-redux-independent-project) lesson at the end of this section.**
+**You can preview the exact instructions and requirements for the React with Redux code review by reading the [React with Redux Independent Project](../../react/react-with-redux/4-3-5-1-react-with-redux-independent-project) lesson at the end of this section.**

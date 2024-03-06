@@ -15,9 +15,9 @@ Students will brainstorm, plan, and complete a final capstone project, in a mini
 
 Listed below is an outline of capstone-related events that occur in the React course. The bolded titles below correspond to the names of each learning section within the React course.
 
-* **Functional Programming:** Learn about the [MVP](/react/functional-programming-with-javascript/4-1-0-13-capstone-planning-the-minimum-viable-product) (Minimum Viable Product) and begin brainstorming capstone ideas.
+* **Functional Programming:** Learn about the [MVP](../../react/functional-programming-with-javascript/4-1-0-13-capstone-planning-the-minimum-viable-product) (Minimum Viable Product) and begin brainstorming capstone ideas.
 
-* **React Fundamentals:** Begin working on your [capstone proposal](/react/react-fundamentals/4-1-0-15-independent-capstone-project-proposal).
+* **React Fundamentals:** Begin working on your [capstone proposal](../../react/react-fundamentals/4-1-0-15-independent-capstone-project-proposal).
 
 * **React with Redux:** Turn in your capstone proposal. Your instructors will review your proposal and give feedback as needed. Also, your normally scheduled independent project time will be spent working on your capstone project.
 

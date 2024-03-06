@@ -18,9 +18,9 @@ Below is a general explanation and walk-through of the internship process. Exact
 
 Please refer to this general schedule of career services:
 <br />
-[Full-Time Students](/pre-work/getting-started-at-epicodus/career-services-schedule)
+[Full-Time Students](../../pre-work/getting-started-at-epicodus/career-services-schedule)
 <br />
-[Part-Time Students](/pre-work/getting-started-at-epicodus/career-services-schedule)
+[Part-Time Students](../../pre-work/getting-started-at-epicodus/career-services-schedule)
 
 Before you interact with potential internship companies, you will have class time to practice writing application materials and interviewing.
 
@@ -88,17 +88,17 @@ The most obvious companies to reach out to are tech companies, so you might star
 
 Another good way to source companies is to look at job postings, as if you were looking for roles to apply to. Try the tech jobs section of your local Craigslist, or do a search for developer jobs on Indeed, LinkedIn, or other job search websites.
 
-For example, you can search for openings at local tech companies around you with keywords such as: “software developer”, “software engineer”, “junior developer”, “web developer”, "intern" or "internship". These will most often be jobs that aren't appropriate to apply for yet, but they'll clue you in that they have a developer presence and might be a good fit for an internship. You can also reference this lesson on [Job Boards](/marketing-yourself/applying-for-internships-and-jobs/job-boards) for more suggestions about job boards to check out or tactics to try.
+For example, you can search for openings at local tech companies around you with keywords such as: “software developer”, “software engineer”, “junior developer”, “web developer”, "intern" or "internship". These will most often be jobs that aren't appropriate to apply for yet, but they'll clue you in that they have a developer presence and might be a good fit for an internship. You can also reference this lesson on [Job Boards](../../marketing-yourself/applying-for-internships-and-jobs/job-boards) for more suggestions about job boards to check out or tactics to try.
 
 ### How to Reach Out
 
-Once you've found some companies to reach out to, the next step is to get in touch with someone at the company. If you already know someone at the company, that's great! You can lean on that, and either reach out to them or ask them who the appropriate person to get in touch with is. If you do not know someone already, refer to this lesson on [Expand Your Job Search Network Through Cold Emailing](/marketing-yourself/applying-for-internships-and-jobs/expand-your-job-search-network-through-cold-emailing). It gives some advice on identifying the right contact, and how to go about reaching out if you don't already have a connection at a company.
+Once you've found some companies to reach out to, the next step is to get in touch with someone at the company. If you already know someone at the company, that's great! You can lean on that, and either reach out to them or ask them who the appropriate person to get in touch with is. If you do not know someone already, refer to this lesson on [Expand Your Job Search Network Through Cold Emailing](../../marketing-yourself/applying-for-internships-and-jobs/expand-your-job-search-network-through-cold-emailing). It gives some advice on identifying the right contact, and how to go about reaching out if you don't already have a connection at a company.
 
 It's completely okay to reach out to a company, introduce yourself, and ask if they are interested in hosting you for an internship — even if they don't have an internship position listed anywhere! Tech is wonderful in that it is an industry that wants to work with newcomers. Even if the company doesn't have an internship listed, you may spark a conversation within their company about bringing in a junior developer. It's a plus if you have an interest in the company you can share such as you value their mission/goals or the company is related to a similar field you worked in.
 
 ### Other Tips
 
-There are lots of lessons on [Applying to Internships and Jobs](/marketing-yourself). A very important lesson is [Following Up During the Job Application Process](/marketing-yourself/applying-for-internships-and-jobs/following-up-during-the-job-application-process) If you're not following up with people you have reached out to, you could very easily miss out on some good leads.
+There are lots of lessons on [Applying to Internships and Jobs](../../marketing-yourself). A very important lesson is [Following Up During the Job Application Process](../../marketing-yourself/applying-for-internships-and-jobs/following-up-during-the-job-application-process) If you're not following up with people you have reached out to, you could very easily miss out on some good leads.
 
 ### Coordinating With Epicodus
 

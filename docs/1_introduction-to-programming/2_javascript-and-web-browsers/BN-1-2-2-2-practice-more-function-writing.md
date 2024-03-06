@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 **Goal:** Continue practicing writing and calling custom functions. It is simply additional practice. You may speak with your instructor about these extra prompts, if you feel comfortable enough with the concepts to move on.
 
-* Follow the [Calculator Business Logic Exercise](/introduction-to-programming/javascript-and-web-browsers/1-2-1-15-practice-calculator-ui-and-business-logic) in order to write your code in VS Code, while launching it in the browser with an HTML file.
+* Follow the [Calculator Business Logic Exercise](../../introduction-to-programming/javascript-and-web-browsers/1-2-1-15-practice-calculator-ui-and-business-logic) in order to write your code in VS Code, while launching it in the browser with an HTML file.
 * Remember to use descriptive variable names and be mindful of your indentation.
 * Don't forget to make regular commits and push to GitHub.
 

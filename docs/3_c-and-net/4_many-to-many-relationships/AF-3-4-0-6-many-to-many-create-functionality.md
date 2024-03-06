@@ -126,7 +126,7 @@ For the second scenario, to prevent creating duplicate join relationships we nee
 * To use nullable reference types in particular, we must also have a nullable annotation context enabled so that our C# compiler can process the nullable reference types. We can enable a nullable annotation context for our entire app via our `.csproj` file, or for a file or a few lines of code with nullable directives: `#nullable enable` and `#nullable disable`. We're opting for the latter in our code because it will require less refactoring across our whole app.
 * To complete the checking process for duplicate join relationships, we simply need to check if `joinEntity == null` in our conditional. If the result of our search for duplicates is `null`, it means that we can move forward with creating the new join relationship in our database.
 
-To review more information about nullable types, start with the LearnHowToProgram.com lesson on [Nullable Types](/c-and-net/test-driven-development-with-c/3-1-2-6-nullable-types). 
+To review more information about nullable types, start with the LearnHowToProgram.com lesson on [Nullable Types](../../c-and-net/test-driven-development-with-c/3-1-2-6-nullable-types). 
 
 Note that we can also check if a join relationship has already been saved to the database using the `Enumerable.Contains()` method and a custom equality comparer. To learn how to do this, visit [this section of the `Enumerable.Contains()` docs](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.contains?view=net-6.0#system-linq-enumerable-contains-1(system-collections-generic-ienumerable((-0))-0-system-collections-generic-iequalitycomparer((-0)))).
 

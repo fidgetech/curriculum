@@ -58,7 +58,7 @@ class TicketControl extends React.Component {
 export default TicketControl;
 ```
 
-We briefly covered state components over the weekend homework. We recommend quickly reviewing the [React Components](/react/react-fundamentals/4-2-0-5-react-components) lesson if the code above doesn't look familiar. We will add more code to this component shortly. Since this component will be a parent to `NewTicketForm` and `TicketList`, we need to make sure we import both.
+We briefly covered state components over the weekend homework. We recommend quickly reviewing the [React Components](../../react/react-fundamentals/4-2-0-5-react-components) lesson if the code above doesn't look familiar. We will add more code to this component shortly. Since this component will be a parent to `NewTicketForm` and `TicketList`, we need to make sure we import both.
 
 Next, let's make a small update to our `App` component. It needs to render the `TicketControl` component now, not the `TicketList` component.
 

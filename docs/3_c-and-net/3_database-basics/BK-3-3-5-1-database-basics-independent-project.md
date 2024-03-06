@@ -9,7 +9,7 @@ paginationNext: null
 ## Independent Projects Overview
 ---
 
-Before you begin your project, take a moment to revisit and review the [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Before you begin your project, take a moment to revisit and review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## Database Basics Project Objectives
 ---
@@ -53,4 +53,4 @@ For reference, here are the previous sections' objectives:
 
 Submit your code for review to the **Database Basics** code review on [Epicenter](https://epicenter.epicodus.com/).
 
-Visit [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) for details on how to submit your code, how feedback works and course completion requirements.
+Visit [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) for details on how to submit your code, how feedback works and course completion requirements.

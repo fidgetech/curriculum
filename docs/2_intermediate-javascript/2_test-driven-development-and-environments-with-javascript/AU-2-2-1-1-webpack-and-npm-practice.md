@@ -44,7 +44,7 @@ You'll need to generate a grid of cards. Each card can have a word or number on 
 
 All cards should start face down. Each time the user takes a turn, they click on two cards. When a card is clicked, the pictures should be revealed. If the user gets a pair of cards with the same picture, the cards remain face-up.  If the user's selected cards are different, they should return to face down. When all the cards are face up, the user has won. The object of the game is to find all the pairs in as few turns as possible.
 
-If you'd like to try this prompt with images instead of numbers or words, you will need to use `image-loader`, which we haven't covered yet. See the lesson on [Managing Images with webpack](/intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-3-2-managing-images-with-webpack) for more information.
+If you'd like to try this prompt with images instead of numbers or words, you will need to use `image-loader`, which we haven't covered yet. See the lesson on [Managing Images with webpack](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-3-2-managing-images-with-webpack) for more information.
 
 ### Most Challenging: Simon
 

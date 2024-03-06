@@ -5,7 +5,7 @@ id: 1-3-0-2-the-basics-of-prototypes
 hide_table_of_contents: true
 ---
 
-When we look at Mozilla's documentation for JavaScript methods, we'll often see the term **prototype**. We first learned about the term "prototype" in the last course section when we learned [how to use MDN documentation for JavaScript](/introduction-to-programming/javascript-and-web-browsers/1-2-0-16-using-mdn-documentation-for-javascript). Since we'll be learning how to use new methods on JavaScript arrays, now's a good time to review what prototype means. 
+When we look at Mozilla's documentation for JavaScript methods, we'll often see the term **prototype**. We first learned about the term "prototype" in the last course section when we learned [how to use MDN documentation for JavaScript](../../introduction-to-programming/javascript-and-web-browsers/1-2-0-16-using-mdn-documentation-for-javascript). Since we'll be learning how to use new methods on JavaScript arrays, now's a good time to review what prototype means. 
 
 ## What We Know So Far About Prototypes
 ---
@@ -50,7 +50,7 @@ This is really the key thing we need to know for now. Prototypes are just a way 
 
 ### All Objects Have Access to Prototypes
 
-In the [JavaScript Data Types](/introduction-to-programming/javascript-and-web-browsers/1-2-0-6-javascript-data-types) lesson in the last section, we discussed how everything is either a primitive or an object. We've worked with just about all of the primitive types (other than symbols and bigint), including strings, numbers, and booleans. Since everything that isn't a primitive is an object, that means things like functions (and arrays!) are also a type of object. 
+In the [JavaScript Data Types](../../introduction-to-programming/javascript-and-web-browsers/1-2-0-6-javascript-data-types) lesson in the last section, we discussed how everything is either a primitive or an object. We've worked with just about all of the primitive types (other than symbols and bigint), including strings, numbers, and booleans. Since everything that isn't a primitive is an object, that means things like functions (and arrays!) are also a type of object. 
 
 We also learned that JavaScript implicitly turns certain primitives into objects. Why? In order to give them more complex functionality, including the ability to have properties and methods. The ["Primitive" reference page](https://developer.mozilla.org/en-US/docs/Glossary/Primitive#primitive_wrapper_objects_in_javascript) on MDN describes this:
 

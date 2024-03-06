@@ -83,7 +83,7 @@ The next thing we'll want to do is disable a nullable context for the entire pro
 </Project>
 ```
 
-With this change, we can still use nullable types in any file throughout our project, we just need to create [a nullable context](https://learn.microsoft.com/en-us/dotnet/csharp/nullable-references#nullable-contexts) using a directive like `#nullable enable`. To review more information about nullable types, start with the LearnHowToProgram.com lesson on [Nullable Types](/c-and-net/test-driven-development-with-c/3-1-2-6-nullable-types). 
+With this change, we can still use nullable types in any file throughout our project, we just need to create [a nullable context](https://learn.microsoft.com/en-us/dotnet/csharp/nullable-references#nullable-contexts) using a directive like `#nullable enable`. To review more information about nullable types, start with the LearnHowToProgram.com lesson on [Nullable Types](../../c-and-net/test-driven-development-with-c/3-1-2-6-nullable-types). 
 
 If you are wondering, we'll leave implicit using directives enabled in our `.csproj` file. However, you are welcome to comment it out if you prefer.
 

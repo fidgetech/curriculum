@@ -30,7 +30,7 @@ Try reaching out to connections you have made already at events or other network
 Once you've found someone you'd like to connect with and interview, the next step is to reach out! Like we've talked about in other lessons about cold outreach and following up, keep your message short, professional, and action-oriented.
 
 *  You can reach out via email or LinkedIn, depending on where you've made the initial connection 
-* Review the lesson on [Expanding Your Job Search Network through Cold Outreach](/marketing-yourself/applying-for-internships-and-jobs/expand-your-job-search-network-through-cold-emailing) on LearnHowToProgram.com.
+* Review the lesson on [Expanding Your Job Search Network through Cold Outreach](../../marketing-yourself/applying-for-internships-and-jobs/expand-your-job-search-network-through-cold-emailing) on LearnHowToProgram.com.
 * If you need any help or want a second set of eyes on your message before you send it, feel free to reach out to your advisor!
 
 ### Example — Asking for an Informational Interview

@@ -38,7 +38,7 @@ Another type of question you get in a technical interview may not require you to
 
 Here are some sample interview questions. (adapted from [hiringthing](http://www.hiringthing.com/2012/05/12/conducting-a-great-technical-interview.html)) Practice answering these questions, and consider how the answers could form excellent talking points as you work through a technical coding question.
 
-Here are the [React Specific Interview Prep Questions](/marketing-yourself/preparing-for-job-interviews/react-technical-interview-questions)
+Here are the [React Specific Interview Prep Questions](../../marketing-yourself/preparing-for-job-interviews/react-technical-interview-questions)
 
 
   * What is a framework, and why use it?

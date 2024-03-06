@@ -9,7 +9,7 @@ paginationNext: null
 ## Independent Projects Overview
 ---
 
-Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## React with NoSQL Project Objectives
 ---
@@ -29,4 +29,4 @@ Your instructor will plan out when you will conduct the group whiteboard intervi
 
 After each student's whiteboard interview in your group, you will submit the feedback rubric you complete via the form available in the [_Peer Evaluations_ tab](https://epicenter.epicodus.com/peer_evaluations/new) on Epicenter. After you are finished with the entire group whiteboard interview, you will submit your whiteboard solution to the **Functional Programming with JavaScript** code review on [Epicenter](https://epicenter.epicodus.com/). 
 
-Visit [Independent Projects and Code Reviews](/pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) for details on how to submit, how feedback works and course completion requirements.
+Visit [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) for details on how to submit, how feedback works and course completion requirements.

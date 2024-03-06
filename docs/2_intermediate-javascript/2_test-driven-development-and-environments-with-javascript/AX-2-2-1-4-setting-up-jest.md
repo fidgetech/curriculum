@@ -12,7 +12,7 @@ We'll continue building out our shape tracker application. Here's the project so
 ---
 **[<i class="glyphicon glyphicon-folder-open"></i>  Example GitHub Repo for Shape Tracker](https://github.com/epicodus-lessons/section-5-shape-tracker)**
 
-Make sure that you are referencing the code from the branch called `1_functioning_environment`. This is the default branch, so running `git clone...` with the URL of the repo homepage will automatically clone down the branch called `1_functioning_environment`. If you need a review on how to navigate between branches, review the lesson on [accessing code from different branches](/intermediate-javascript/object-oriented-javascript/2-1-0-6-accessing-code-from-different-branches). 
+Make sure that you are referencing the code from the branch called `1_functioning_environment`. This is the default branch, so running `git clone...` with the URL of the repo homepage will automatically clone down the branch called `1_functioning_environment`. If you need a review on how to navigate between branches, review the lesson on [accessing code from different branches](../../intermediate-javascript/object-oriented-javascript/2-1-0-6-accessing-code-from-different-branches). 
 
 At this point, our application has a fully functioning environment along with user interface logic. However, there's hardly any business logic other than a `Triangle` constructor function and a `Triangle.prototype.checkType*()` method that returns `"I can't answer that yet!"`. Now we're ready to use Jest and TDD to build out our business logic.
 

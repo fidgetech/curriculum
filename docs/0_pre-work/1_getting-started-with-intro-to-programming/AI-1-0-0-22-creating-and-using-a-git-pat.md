@@ -12,7 +12,7 @@ When we need to grab code from a repository, we can _pull_ it to our local machi
 
 To access repositories in GitHub via the command line, we need to use a **personal access token**, which is also called a PAT for short. A PAT is a bit like a password. The difference is that GitHub will generate it for you. Another key difference is that it's easy to delete and create new PATs in GitHub if you need to. This is different from how we generally use a password. With a password, we might update it from time to time (hopefully), but we don't delete and replace it.
 
-Let's go through the steps to generate and use a PAT. You will be using PATs every day while you are a student at Epicodus, so it's really important that you know how to do it. If you are reviewing this lesson before starting at Epicodus, you should follow the steps below to learn how to use a PAT, but you won't be expected to actually use it until your first day of Epicodus when you do the following lesson: [Practice: GitHub Remote Repositories](/introduction-to-programming/git-html-and-css/1-1-1-3-practice-github-remote-repositories).
+Let's go through the steps to generate and use a PAT. You will be using PATs every day while you are a student at Epicodus, so it's really important that you know how to do it. If you are reviewing this lesson before starting at Epicodus, you should follow the steps below to learn how to use a PAT, but you won't be expected to actually use it until your first day of Epicodus when you do the following lesson: [Practice: GitHub Remote Repositories](../../introduction-to-programming/git-html-and-css/1-1-1-3-practice-github-remote-repositories).
 
 ## [Verifying Your Email in GitHub](#verifying-your-email-in-github)
 
@@ -57,13 +57,13 @@ As you can see from the example above, there's a notice: _Make sure to copy your
 
 You might be wondering why a secure PAT was shared in the image above. Well, it was deleted directly after being created for this example. This is one of those advantages over using a password. It's very easy to get rid of tokens.
 
-If you don't need to use a PAT yet (because it's not your first day of Epicodus), there's no need to copy this yet. You can refer back to this lesson when you get to [Practice: GitHub Remote Repositories](/introduction-to-programming/git-html-and-css/1-1-1-3-practice-github-remote-repositories) on your first day of class.
+If you don't need to use a PAT yet (because it's not your first day of Epicodus), there's no need to copy this yet. You can refer back to this lesson when you get to [Practice: GitHub Remote Repositories](../../introduction-to-programming/git-html-and-css/1-1-1-3-practice-github-remote-repositories) on your first day of class.
 
 ## [Using a PAT](#using-a-pat)
 
 ---
 
-In [Practice: GitHub Remote Repositories](/introduction-to-programming/git-html-and-css/1-1-1-3-practice-github-remote-repositories), you'll push code to a remote repository (in your GitHub account) for the first time.
+In [Practice: GitHub Remote Repositories](../../introduction-to-programming/git-html-and-css/1-1-1-3-practice-github-remote-repositories), you'll push code to a remote repository (in your GitHub account) for the first time.
 
 When you push your code (or pull code from GitHub), you will be prompted to enter a username and password. Enter your GitHub username and then enter the string of characters associated with the PAT (in the example above, the string of characters is `f8bfdfd5bf51046ea51eb0c4c00c95a563bdbdd8`). Password inputs in the command line are not printed to the command line — so, trust that you are still typing even though nothing is being displayed. And remember, you can always add a new PAT if you don't have access to the string of characters anymore.
 
@@ -99,7 +99,7 @@ You can verify this by doing a spotlight search (the magnifying glass in the upp
 
 ### [Windows Users — Managing PATs with Window's Credential Manager](#windows-users-managing-pats-with-windows-credential-manager)
 
-When you installed Git Bash in [Introduction to the Command Line](/pre-work/getting-started-with-intro-to-programming/1-0-0-17-introduction-to-the-command-line), you were prompted to install _Git Credential Manager_. The first time you push or pull a repo from your GitHub account, Git Bash will ask you to log in by opening GitHub in the browser. Then you'll be prompted to give permission to Git Credential Manager to store your credentials. As long as you are on your personal computer and not a shared computer, you should do so. Alternatively, if you are on a shared machine, you'll be given the option to use a PAT instead.
+When you installed Git Bash in [Introduction to the Command Line](../../pre-work/getting-started-with-intro-to-programming/1-0-0-17-introduction-to-the-command-line), you were prompted to install _Git Credential Manager_. The first time you push or pull a repo from your GitHub account, Git Bash will ask you to log in by opening GitHub in the browser. Then you'll be prompted to give permission to Git Credential Manager to store your credentials. As long as you are on your personal computer and not a shared computer, you should do so. Alternatively, if you are on a shared machine, you'll be given the option to use a PAT instead.
 
 If you allow Git Credential Manager to store your credentials, the next time you push or pull, you won't need to worry about entering your credentials and you won't be prompted to log into GitHub.
 

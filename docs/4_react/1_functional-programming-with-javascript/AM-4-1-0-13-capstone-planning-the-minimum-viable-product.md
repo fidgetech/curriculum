@@ -43,7 +43,7 @@ By following this MVP process to create our product, we reap two distinct benefi
 ## The MVP Process in Your Capstone Project
 ---
 
-As described in the [independent project expectations lesson](/react/functional-programming-with-javascript/4-1-0-1-functional-programming-with-javascript-objectives) for this week, you'll submit an idea board and an outline of your idea to your instructor. Instructors will give you feedback that will help you eventually work toward developing your MVP before integrating additional features. This will happen later in the next course, but keep this in mind for larger projects, Team Week projects, and other projects going forward to help you qualify your project. Here's what the workflow will look like:
+As described in the [independent project expectations lesson](../../react/functional-programming-with-javascript/4-1-0-1-functional-programming-with-javascript-objectives) for this week, you'll submit an idea board and an outline of your idea to your instructor. Instructors will give you feedback that will help you eventually work toward developing your MVP before integrating additional features. This will happen later in the next course, but keep this in mind for larger projects, Team Week projects, and other projects going forward to help you qualify your project. Here's what the workflow will look like:
 
 1.  In your proposal, you'll identify the primary goal or purpose of the application. What problem is this project meant to solve? What service is it meant to offer the user?
 

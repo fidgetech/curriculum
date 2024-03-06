@@ -25,7 +25,7 @@ At Epicodus, your coding instructor will review the independent project you subm
 
 Independent projects must be completed individually. You may reference online resources, Learn How To Program, and your own code, but you may _not_ view or copy current or former students' work. 
 
-As explained in our [Student Handbook](/pre-work/getting-started-at-epicodus/1-0-0-13-student-handbook#academic-honesty), these projects are an opportunity to receive personalized feedback, and to ensure you're developing skills for success after graduation. If you plagiarize work you both lose this valuable opportunity and risk setting yourself up for failure at a job or internship. This will not only harm you, but the reputation of all Epicodus students as well.
+As explained in our [Student Handbook](../../pre-work/getting-started-at-epicodus/1-0-0-13-student-handbook#academic-honesty), these projects are an opportunity to receive personalized feedback, and to ensure you're developing skills for success after graduation. If you plagiarize work you both lose this valuable opportunity and risk setting yourself up for failure at a job or internship. This will not only harm you, but the reputation of all Epicodus students as well.
 
 For these reasons, projects are carefully reviewed to confirm all work is your own. **Students found to have plagiarized or received help from others will be expelled.** 
 

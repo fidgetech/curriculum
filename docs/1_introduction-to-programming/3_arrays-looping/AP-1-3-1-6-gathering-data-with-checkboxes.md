@@ -5,7 +5,7 @@ id: 1-3-1-6-gathering-data-with-checkboxes
 hide_table_of_contents: true
 ---
 
-We've learned how to use a [variety of HTML form inputs](/introduction-to-programming/javascript-and-web-browsers/1-2-4-2-form-input-types). We held off on learning about checkboxes because we needed to learn about arrays first. Now that we have a basic understanding of arrays, let's learn how to use checkboxes. In this lesson, we'll also learn how to use `Array.prototype.forEach()` on an array of checkbox elements.
+We've learned how to use a [variety of HTML form inputs](../../introduction-to-programming/javascript-and-web-browsers/1-2-4-2-form-input-types). We held off on learning about checkboxes because we needed to learn about arrays first. Now that we have a basic understanding of arrays, let's learn how to use checkboxes. In this lesson, we'll also learn how to use `Array.prototype.forEach()` on an array of checkbox elements.
 
 ## Transportation Survey
 ---

@@ -9,10 +9,10 @@ Take time to ensure all necessary tools are correctly installed on your personal
 
 This is where you can find the setup and installation instructions for each piece of software:
 
-* [Text Editor: VS Code](/pre-work/getting-started-with-intro-to-programming/1-0-0-16-text-editor-visual-studio-code)
-* [Command Line](/pre-work/getting-started-with-intro-to-programming/1-0-0-17-introduction-to-the-command-line) — Only Windows users will need to install a program to utilize the Command Line. Mac computers should have a built-in program called Terminal, as described in this lesson.
-* [Git and GitHub](/pre-work/getting-started-with-intro-to-programming/1-0-0-20-git-and-github).
-* [Git Configurations](/pre-work/getting-started-with-intro-to-programming/1-0-0-21-git-configurations).
+* [Text Editor: VS Code](../../pre-work/getting-started-with-intro-to-programming/1-0-0-16-text-editor-visual-studio-code)
+* [Command Line](../../pre-work/getting-started-with-intro-to-programming/1-0-0-17-introduction-to-the-command-line) — Only Windows users will need to install a program to utilize the Command Line. Mac computers should have a built-in program called Terminal, as described in this lesson.
+* [Git and GitHub](../../pre-work/getting-started-with-intro-to-programming/1-0-0-20-git-and-github).
+* [Git Configurations](../../pre-work/getting-started-with-intro-to-programming/1-0-0-21-git-configurations).
 
 ## [We Use the Google Chrome Browser](#we-use-the-chrome-browser)
 

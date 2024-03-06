@@ -15,7 +15,7 @@ Because the most common roadblock to getting hired is not applying for enough jo
 
 ## Searching for Job Postings
 
-Before you write your application materials, find a job you'd like to apply for following this [lesson on job boards](/marketing-yourself/applying-for-internships-and-jobs/job-boards).
+Before you write your application materials, find a job you'd like to apply for following this [lesson on job boards](../../marketing-yourself/applying-for-internships-and-jobs/job-boards).
 
 ### Creating Documents
 
@@ -31,7 +31,7 @@ If you use No More Cover Letter, please paste this link (https://nomorecoverlett
 
 ### Application Materials
 
-Using the above method of creating Google Docs, follow this [lesson on cover letters](/marketing-yourself/applying-for-internships-and-jobs/writing-your-cover-letter) and this [lesson on resumes](/marketing-yourself/applying-for-internships-and-jobs/writing-your-resume) to create documents specific to the job you are applying for. It is a common pitfall for students to tailor their cover letters to different employers but send the same resume over and over.
+Using the above method of creating Google Docs, follow this [lesson on cover letters](../../marketing-yourself/applying-for-internships-and-jobs/writing-your-cover-letter) and this [lesson on resumes](../../marketing-yourself/applying-for-internships-and-jobs/writing-your-resume) to create documents specific to the job you are applying for. It is a common pitfall for students to tailor their cover letters to different employers but send the same resume over and over.
 
 Since you've already gotten feedback on a practice resume and cover letter, you should have a good idea of what to do now that you are applying for a real job. However, we want you to keep getting feedback on how to improve your applications. While working on your resume and cover letter in class, ask for help from your advisor and teacher if you have any questions or want feedback. When you're done, you'll submit your applications to your advisor for review.
 

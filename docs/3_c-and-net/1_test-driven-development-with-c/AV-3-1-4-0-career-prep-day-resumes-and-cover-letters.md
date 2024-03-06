@@ -9,10 +9,10 @@ Today we'll be working on job application materials. We'll write a practice resu
 
 As needed revisit these lessons on the internship process and writing your resume and cover letter:
 
-* [Internship Overview](/marketing-yourself/internship-process/internship-overview)
-* [Writing Cover Letters and Resumes](/c-and-net/test-driven-development-with-c/3-1-3-4-writing-cover-letters-and-resumes)
-* [Write Your Cover Letter](/marketing-yourself/applying-for-internships-and-jobs/writing-your-cover-letter)
-* [Write Your Resume](/marketing-yourself/applying-for-internships-and-jobs/writing-your-resume)
+* [Internship Overview](../../marketing-yourself/internship-process/internship-overview)
+* [Writing Cover Letters and Resumes](../../c-and-net/test-driven-development-with-c/3-1-3-4-writing-cover-letters-and-resumes)
+* [Write Your Cover Letter](../../marketing-yourself/applying-for-internships-and-jobs/writing-your-cover-letter)
+* [Write Your Resume](../../marketing-yourself/applying-for-internships-and-jobs/writing-your-resume)
 
 Remember, you have two career reviews due soon! Go to Epicenter, navigate to the Internship course, and review the prompts for **Resume Review** and **Cover Letter Review**.
 

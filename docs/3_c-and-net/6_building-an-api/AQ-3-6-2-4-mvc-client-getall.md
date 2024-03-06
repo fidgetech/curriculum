@@ -28,7 +28,7 @@ Next, run the following command within the `CretaceousClient.Solution/` director
 $ dotnet new mvc -o CretaceousClient --framework net6.0
 ``` 
 
-Next, add the `RestSharp` and `NewtonSoft.Json` packages as shown in [Making an API Call with RestSharp](/c-and-net/authentication-with-identity/3-5-2-1-making-an-api-call-with-restsharp) and [Deserializing API Responses with Newtonsoft.Json](/c-and-net/authentication-with-identity/3-5-2-2-deserializing-api-responses-with-newtonsoft-json):
+Next, add the `RestSharp` and `NewtonSoft.Json` packages as shown in [Making an API Call with RestSharp](../../c-and-net/authentication-with-identity/3-5-2-1-making-an-api-call-with-restsharp) and [Deserializing API Responses with Newtonsoft.Json](../../c-and-net/authentication-with-identity/3-5-2-2-deserializing-api-responses-with-newtonsoft-json):
 
 ```
 $ dotnet add package RestSharp --version 108.0.3
@@ -62,7 +62,7 @@ Because we're disabling a project-wide nullable context, we'll also have to upda
 ...
 ```
 
-Just as we can see in `ErrorViewModel.cs`, we can still use nullable types in any file throughout our project, we just need to create [a nullable context](https://learn.microsoft.com/en-us/dotnet/csharp/nullable-references#nullable-contexts) using a directive like `#nullable enable`. To review more information about nullable types, start with the LearnHowToProgram.com lesson on [Nullable Types](/c-and-net/test-driven-development-with-c/3-1-2-6-nullable-types).
+Just as we can see in `ErrorViewModel.cs`, we can still use nullable types in any file throughout our project, we just need to create [a nullable context](https://learn.microsoft.com/en-us/dotnet/csharp/nullable-references#nullable-contexts) using a directive like `#nullable enable`. To review more information about nullable types, start with the LearnHowToProgram.com lesson on [Nullable Types](../../c-and-net/test-driven-development-with-c/3-1-2-6-nullable-types).
 
 ## Create the `Animal` and `ApiHelper` Models
 ---

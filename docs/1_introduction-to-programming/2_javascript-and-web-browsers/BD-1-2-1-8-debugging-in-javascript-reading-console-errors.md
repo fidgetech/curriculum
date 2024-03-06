@@ -12,7 +12,7 @@ One of the most important parts of being a developer is debugging. We'll often r
 * Using `console.log;` to log values in our code
 * Using `debugger;` and breakpoints to freeze our code
 
-We've looked in the DevTools console for errors before — such as when we learned how to see if our project can't find a CSS file in the [Debugging HTML and CSS](/introduction-to-programming/git-html-and-css/1-1-2-5-debugging-html-and-css) lesson. However, the other three tools are new.
+We've looked in the DevTools console for errors before — such as when we learned how to see if our project can't find a CSS file in the [Debugging HTML and CSS](../../introduction-to-programming/git-html-and-css/1-1-2-5-debugging-html-and-css) lesson. However, the other three tools are new.
 
 In this lesson, we'll revisit a key debugging technique: looking for errors in the DevTools console.
 

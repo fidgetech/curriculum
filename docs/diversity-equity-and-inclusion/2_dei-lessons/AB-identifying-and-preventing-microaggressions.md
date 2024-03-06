@@ -168,7 +168,7 @@ There is a reflective assignment for this lesson. If you are ready to write your
 
 **<span class="glyphicon glyphicon-link"></span> [Reflection Prompt: Identifying and Preventing Microaggressions](https://epicenter.epicodus.com/journals?title=Identifying+and+Preventing+Microaggressions)** 
 
-Otherwise, you can find detailed instructions on accessing the reflection prompts in the [DEI Reflective Assignments](/diversity-equity-and-inclusion/dei-curriculum-overview/dei-reflective-assignments#finding-the-reflection-prompts) lesson.
+Otherwise, you can find detailed instructions on accessing the reflection prompts in the [DEI Reflective Assignments](../../diversity-equity-and-inclusion/dei-curriculum-overview/dei-reflective-assignments#finding-the-reflection-prompts) lesson.
 
 ### [Do you have feedback?](#do-you-have-feedback)
 

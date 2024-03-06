@@ -12,7 +12,7 @@ Note that this lesson will show you how to create an object, but only as a demon
 ## Another Look at Objects
 ---
 
-When [we first talked about objects](/introduction-to-programming/javascript-and-web-browsers/1-2-0-6-javascript-data-types) we introduced these as containers for related data, data that can be _any_ JavaScript data type. 
+When [we first talked about objects](../../introduction-to-programming/javascript-and-web-browsers/1-2-0-6-javascript-data-types) we introduced these as containers for related data, data that can be _any_ JavaScript data type. 
 
 > In JavaScript, we use objects to represent things and concepts — like animals, political parties, and computers. A JavaScript **object** is simply a container for related data. We can describe an object by listing its data and functionality, the same as describing a computer by listing its features and what it can do.
 

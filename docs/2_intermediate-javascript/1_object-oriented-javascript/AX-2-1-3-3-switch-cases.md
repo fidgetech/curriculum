@@ -5,7 +5,7 @@ id: 2-1-3-3-switch-cases
 hide_table_of_contents: true
 ---
 
-In [JavaScript and Web Browsers](/introduction-to-programming/javascript-and-web-browsers/1-2-0-1-javascript-and-web-browsers-objectives), we explored branching in depth. In this lesson, we'll learn about **switch statements**, which is another way of writing a conditional. Switch statements are also called **switch cases**. Switch cases do not add any additional functionality that we can't do with the branching we've already learned. However, you will likely see them in code samples on the internet (if you haven't already). They can also be a very convenient way to write conditionals that have many branches.
+In [JavaScript and Web Browsers](../../introduction-to-programming/javascript-and-web-browsers/1-2-0-1-javascript-and-web-browsers-objectives), we explored branching in depth. In this lesson, we'll learn about **switch statements**, which is another way of writing a conditional. Switch statements are also called **switch cases**. Switch cases do not add any additional functionality that we can't do with the branching we've already learned. However, you will likely see them in code samples on the internet (if you haven't already). They can also be a very convenient way to write conditionals that have many branches.
 
 You won't be expected to use switch statements for this section's independent project — and you may not even get a chance to explore them in this section (depending on whether you incorporate branching in your projects). However, it's important to know what they look like — and this lesson will provide a reference if you want to use them in the future.
 

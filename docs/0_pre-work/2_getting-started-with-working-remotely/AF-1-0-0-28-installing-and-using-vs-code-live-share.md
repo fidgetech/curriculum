@@ -18,23 +18,23 @@ For working and collaborating remotely, Epicodus uses Visual Studio Code Live Sh
 
 ### Table of Contents
 
-[Installation](/pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share#installation)
+[Installation](../../pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share#installation)
  
-[Sharing Code](/pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share#sharing-code)
+[Sharing Code](../../pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share#sharing-code)
  
-[Sharing the Terminal](/pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share#sharing-the-terminal)
+[Sharing the Terminal](../../pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share#sharing-the-terminal)
  
-[Starting a Server](/pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share#starting-a-server)
+[Starting a Server](../../pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share#starting-a-server)
  
-[Sharing a Server](/pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share#sharing-a-server)
+[Sharing a Server](../../pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share#sharing-a-server)
  
-[Sharing Audio](/pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share#sharing-audio)
+[Sharing Audio](../../pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share#sharing-audio)
 
-[Joining a Live Share Session](/pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share#joining-a-live-share-session)
+[Joining a Live Share Session](../../pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share#joining-a-live-share-session)
  
 ### [Installation](#installation)
  
-If you haven't already installed VS Code by following along with the previous lesson, do so now. [Instructions are located here](/pre-work/getting-started-with-intro-to-programming/1-0-0-16-text-editor-visual-studio-code).
+If you haven't already installed VS Code by following along with the previous lesson, do so now. [Instructions are located here](../../pre-work/getting-started-with-intro-to-programming/1-0-0-16-text-editor-visual-studio-code).
 
 **Note:** If you are using a Mac, VS Code Live Share will only work on macOS High Sierra 10.13 and above. If you're on a lower version of macOS, please upgrade your computer now. Contact your teacher or advisor if you have any issues.
 
@@ -62,7 +62,7 @@ To share your code, terminal, and browser with another student or teacher, you'l
   * Select _File_ > _Open Folder..._
   * Open whichever folder you want to practice with
 
-2. Use the terminal to open up VS Code. We cover how to use the terminal starting in this [introduction lesson](/pre-work/getting-started-with-intro-to-programming/1-0-0-17-introduction-to-the-command-line) and in the two lessons that follow. Using the terminal, we can navigate to the root directory of the project we want to share in the terminal and then type `code .`. This will open all the files in that directory. **Take note:** You must run `code .` in the directory of the project you are working on — not a directory higher up in the file tree. You will be sharing access (including write access) of all these files with your pair. For instance, if you were to run `code .` in the root directory of your computer, you'd be giving your pair both read and write access to _every_ file on your computer — not just the files in your project. This is a security risk — someone could install malware, damage system files, or access files you don't want to share. While the risk of a fellow Epicodus student doing this is low, there is no good reason to take this risk!
+2. Use the terminal to open up VS Code. We cover how to use the terminal starting in this [introduction lesson](../../pre-work/getting-started-with-intro-to-programming/1-0-0-17-introduction-to-the-command-line) and in the two lessons that follow. Using the terminal, we can navigate to the root directory of the project we want to share in the terminal and then type `code .`. This will open all the files in that directory. **Take note:** You must run `code .` in the directory of the project you are working on — not a directory higher up in the file tree. You will be sharing access (including write access) of all these files with your pair. For instance, if you were to run `code .` in the root directory of your computer, you'd be giving your pair both read and write access to _every_ file on your computer — not just the files in your project. This is a security risk — someone could install malware, damage system files, or access files you don't want to share. While the risk of a fellow Epicodus student doing this is low, there is no good reason to take this risk!
 
 Once you've opened your project in VS Code, you should see the files listed in the left-hand pane. If the file tree isn't showing, click the top left icon that shows two overlapping squares to show the file tree.
 

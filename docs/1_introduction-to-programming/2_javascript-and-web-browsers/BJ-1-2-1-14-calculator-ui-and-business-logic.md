@@ -98,7 +98,7 @@ Let's review a very common error: `Failed to load resource: net::ERR_FILE_NOT_FO
 
 At the time this lesson was written, there was an error _and_ a warning. The warning appears to be related to a bug in the latest Chrome update — it doesn't affect our code and it's something we can ignore.
 
-The error, however, is code breaking. It should be a familiar error at this point because we addressed the exact same thing in the [Debugging HTML and CSS](/introduction-to-programming/git-html-and-css/1-1-2-5-debugging-html-and-css) lesson. In that lesson, we stated that there are three reasons this error will occur: 
+The error, however, is code breaking. It should be a familiar error at this point because we addressed the exact same thing in the [Debugging HTML and CSS](../../introduction-to-programming/git-html-and-css/1-1-2-5-debugging-html-and-css) lesson. In that lesson, we stated that there are three reasons this error will occur: 
 
 1. The file doesn't exist
 2. The file is in a different directory than the one we specified

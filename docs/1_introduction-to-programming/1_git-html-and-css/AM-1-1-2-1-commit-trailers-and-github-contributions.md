@@ -61,7 +61,7 @@ We start by writing our commit message as usual. However, instead of closing out
 
 For each co-author, we start by adding `Co-authored-by:` followed by a space. Next, we add the preferred name of the co-author as well as the email associated with their Github account. It's very important that the right email is added — otherwise, the co-author won't be correctly attributed in the commit.
 
-Once we are done, we complete the commit with the usual quote marks. Grace Hopper and Ada Lovelace are now contributors on this commit. If we were working on a computer that has a different user in the global git configuration ([see Git Project Setup](/introduction-to-programming/git-html-and-css/1-1-1-1-practice-git-project-setup) if you need a refresher), that user would also be a contributor.
+Once we are done, we complete the commit with the usual quote marks. Grace Hopper and Ada Lovelace are now contributors on this commit. If we were working on a computer that has a different user in the global git configuration ([see Git Project Setup](../../introduction-to-programming/git-html-and-css/1-1-1-1-practice-git-project-setup) if you need a refresher), that user would also be a contributor.
 
 Let's do one more example — this one will follow the example of having one user hosting a VS Code Live Share session with their pair. The host should already have a global git user and email set up on their machine. For that reason, the commit trailer only needs to include the pair that's being hosted (not the host).
 

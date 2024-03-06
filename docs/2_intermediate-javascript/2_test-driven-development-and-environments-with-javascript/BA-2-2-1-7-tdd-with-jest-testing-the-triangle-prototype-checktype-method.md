@@ -309,11 +309,11 @@ Good developers think through these problems, write tests for them, and then upd
 ## Next Steps
 ---
 
-**You will be expected to write thorough tests for the upcoming independent project.** The next lesson will cover testing best practices that we want you to implement in your practice projects in preparation for the independent project. Optionally, review the [TDD and Environments with JavaScript Independent Project](/intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-5-1-tdd-and-environments-with-javascript-independent-project) lesson for a preview of expectations for the independent project. 
+**You will be expected to write thorough tests for the upcoming independent project.** The next lesson will cover testing best practices that we want you to implement in your practice projects in preparation for the independent project. Optionally, review the [TDD and Environments with JavaScript Independent Project](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-5-1-tdd-and-environments-with-javascript-independent-project) lesson for a preview of expectations for the independent project. 
 
 The following repository link includes all code in the `shape-tracker` project up to this point. It also includes several configuration updates that we'll be making in the next few lessons to add testing coverage and debugging.
 
 ---
 **[<i class="glyphicon glyphicon-folder-open"></i>  Example GitHub Repo for Shape Tracker](https://github.com/epicodus-lessons/section-5-shape-tracker/tree/2_full_testing_with_jest)**
 
-Make sure to use the branch titled `2_full_testing_with_jest` as your point of reference. As needed, review the lesson on [accessing code from different branches](/intermediate-javascript/object-oriented-javascript/2-1-0-6-accessing-code-from-different-branches).
+Make sure to use the branch titled `2_full_testing_with_jest` as your point of reference. As needed, review the lesson on [accessing code from different branches](../../intermediate-javascript/object-oriented-javascript/2-1-0-6-accessing-code-from-different-branches).

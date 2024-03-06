@@ -138,7 +138,7 @@ Then solve the program so it works with any number of bits.
 
 ### Encrypter
 
-Next, write a function that encrypts a five-letter string using bitwise manipulation. You will need to use methods that convert letters to numbers and then back to do so. See the [ASCII lesson](/capstone/capstone-week-1/introduction-to-ascii) for a refresher. You may come up with your own implementation, or you may try the one below:
+Next, write a function that encrypts a five-letter string using bitwise manipulation. You will need to use methods that convert letters to numbers and then back to do so. See the [ASCII lesson](../../capstone/capstone-week-1/introduction-to-ascii) for a refresher. You may come up with your own implementation, or you may try the one below:
 
 The encrypter should do the following:
 

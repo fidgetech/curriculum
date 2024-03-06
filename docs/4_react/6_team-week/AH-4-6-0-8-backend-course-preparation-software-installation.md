@@ -11,13 +11,13 @@ We have students install software during the weekend before team week for a coup
 
 The second reason is that you'll be ready to tackle the remaining pre-work for the next course when it comes time to complete it. Students are required complete pre-work for the next course before the first day of the course. Most students complete the pre-work during the weekend before the course starts, but you can start as early as you like. Take a moment to follow the link below to look at your upcoming course, and notice all of the sections that are labeled "pre-work": 
 
-* [Full-time C# and .NET](/c-and-net)
+* [Full-time C# and .NET](../../c-and-net)
 
 Install the packages in the following lessons.
 
-* [Installing C# and .NET](/c-and-net/lessons-1-5-getting-started-with-c/3-0-0-02-installing-c-and--net)
-* [Installing dotnet script](/c-and-net/lessons-1-5-getting-started-with-c/3-0-0-03-installing-dotnet-script)
-* [Installing and Configuring MySQL](/c-and-net/lessons-1-5-getting-started-with-c/3-0-0-04-installing-and-configuring-mysql)
+* [Installing C# and .NET](../../c-and-net/lessons-1-5-getting-started-with-c/3-0-0-02-installing-c-and--net)
+* [Installing dotnet script](../../c-and-net/lessons-1-5-getting-started-with-c/3-0-0-03-installing-dotnet-script)
+* [Installing and Configuring MySQL](../../c-and-net/lessons-1-5-getting-started-with-c/3-0-0-04-installing-and-configuring-mysql)
 
 
 ## Installation Issues and Setup Assistance

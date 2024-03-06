@@ -33,7 +33,7 @@ For the second half of this section, you and your pair will build an application
 
 You can choose to continue working with your pair that you worked with to build the API or you can choose to work with another pair.
 
-**On short weeks**, you'll have less time to build an API-consuming application. Remember that you'll be expected to build an API and put your best effort into implementing at least one of the five objectives from the [Further Exploration](/c-and-net/building-an-api/3-6-0-11-further-exploration-with-apis) lesson for this section's independent project, so if you don't feel comfortable with any of these objectives yet, take the time to practice further.
+**On short weeks**, you'll have less time to build an API-consuming application. Remember that you'll be expected to build an API and put your best effort into implementing at least one of the five objectives from the [Further Exploration](../../c-and-net/building-an-api/3-6-0-11-further-exploration-with-apis) lesson for this section's independent project, so if you don't feel comfortable with any of these objectives yet, take the time to practice further.
 
 ## Peer/Instructor Code Review
 ---

@@ -32,7 +32,7 @@ You may work with a pair for the entire course section or split the section into
 
 Select an API to build from the options below, and make sure to complete the following requirements:
 
-**1. Whatever API you choose to build, you'll be expected to implement a further exploration topic from the lesson [Further Exploration with APIs](/c-and-net/building-an-api/3-6-0-11-further-exploration-with-apis).** Take some time to learn a bit about each further exploration topic, and then pick at least one to implement in your API.
+**1. Whatever API you choose to build, you'll be expected to implement a further exploration topic from the lesson [Further Exploration with APIs](../../c-and-net/building-an-api/3-6-0-11-further-exploration-with-apis).** Take some time to learn a bit about each further exploration topic, and then pick at least one to implement in your API.
 
 **2. You are expected to create robust documentation of your API's endpoints in your project's README.md.** For any further exploration topic that you implement in your API you should explain what it is and how to interact with it.
 
@@ -65,6 +65,6 @@ APIs aren't just used for data interaction and manipulation. They can also be us
 
 * Application successfully returns responses for each API call.
 * README thoroughly describes all endpoints along with parameters that can be used.
-* A [further exploration topic](/c-and-net/building-an-api/3-6-0-11-further-exploration-with-apis) has been implemented in the API.
+* A [further exploration topic](../../c-and-net/building-an-api/3-6-0-11-further-exploration-with-apis) has been implemented in the API.
 * README thoroughly describes the further exploration topic that's been implemented in the API.
 * Application works as expected.

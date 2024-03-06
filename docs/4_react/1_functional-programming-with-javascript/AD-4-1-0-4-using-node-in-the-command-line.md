@@ -11,7 +11,7 @@ So far, we've used JavaScript to build browser applications. When we want to try
 
 Both Node and Chrome use the V8 JavaScript engine. The V8 JavaScript engine is an open-source project developed by Google and written in C++. It uses just-in-time (JIT) compiling to translate JavaScript into code our machines can understand. This makes the V8 engine extremely fast, which is part of the reason Node is a popular solution for server-side projects.
 
-We will not cover Node in depth in this course. However, we can use Node both as a REPL (Read - Evaluate - Print - Loop) and as a tool to run our JavaScript programs. (If Node is not installed on your personal machine yet, see the [installation instructions here](/intermediate-javascript/getting-started-with-javascript/2-0-0-3-installing-node-js)).
+We will not cover Node in depth in this course. However, we can use Node both as a REPL (Read - Evaluate - Print - Loop) and as a tool to run our JavaScript programs. (If Node is not installed on your personal machine yet, see the [installation instructions here](../../intermediate-javascript/getting-started-with-javascript/2-0-0-3-installing-node-js)).
 
 To use Node as a REPL, simply type `node` in the Terminal.
 

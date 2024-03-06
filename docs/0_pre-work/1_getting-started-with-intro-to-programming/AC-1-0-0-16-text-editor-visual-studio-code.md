@@ -77,7 +77,7 @@ You should also install the following extensions:
 *  [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 *  [Live Share Audio](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-audio)
 
-These extensions allow us to collaborate remotely, all students learn remote collaboration tools. We go into detail about how to use these extensions in the lesson [Installing and Using Live Share](/pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share).
+These extensions allow us to collaborate remotely, all students learn remote collaboration tools. We go into detail about how to use these extensions in the lesson [Installing and Using Live Share](../../pre-work/getting-started-with-working-remotely/1-0-0-28-installing-and-using-vs-code-live-share).
 
 ### [Additional Resources](#additional-resources)
 

@@ -119,7 +119,7 @@ For additional details on choosing a license for your code, visit GitHub's [Choo
 
 Moving forward, you're expected to include a detailed `README.md` file for every project you create here at Epicodus. This ensures that anyone who views your portfolios can quickly understand what you've created.
 
-Towards the end of the program, all students spend time preparing materials for internship interviews and their future job search. In addition to writing cover letters, preparing a LinkedIn profile, and practicing interview questions, students are also required to ensure all their GitHub repos have detailed READMEs, as seen in [this assignment](/marketing-yourself/applying-for-internships-and-jobs/sprucing-up-github). Make sure to create a README for each project now so you don't have to go back and add them later.
+Towards the end of the program, all students spend time preparing materials for internship interviews and their future job search. In addition to writing cover letters, preparing a LinkedIn profile, and practicing interview questions, students are also required to ensure all their GitHub repos have detailed READMEs, as seen in [this assignment](../../marketing-yourself/applying-for-internships-and-jobs/sprucing-up-github). Make sure to create a README for each project now so you don't have to go back and add them later.
 
 Also, the independent projects you turn in at the end of each section are _required_ to include a README. If they don't, they won't be marked as passing.
 

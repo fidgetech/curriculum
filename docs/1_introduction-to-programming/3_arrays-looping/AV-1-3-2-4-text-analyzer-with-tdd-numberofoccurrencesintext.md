@@ -277,6 +277,6 @@ Yes, the word `"redo"` _contains_ the word `"red"` — but it's _not_ an occurre
 
 So our `numberOfOccurrencesInText()` function isn't perfect but that's okay. Once again, the main purpose here is to learn about Test-Driven Development: how it works, how to apply it, and how to write pseudocode tests to gradually build up robust functions and solve problems. 
 
-For the next several sections, you will use this Test-Driven Development approach with pseudocode tests. As we've mentioned before, in the [Test Driven Development and Environments with JavaScript](/intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-0-1-test-driven-development-and-environments-with-javascript-objectives) course section, we will start using Jest for our tests.
+For the next several sections, you will use this Test-Driven Development approach with pseudocode tests. As we've mentioned before, in the [Test Driven Development and Environments with JavaScript](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-0-1-test-driven-development-and-environments-with-javascript-objectives) course section, we will start using Jest for our tests.
 
 **To view all of the tests that we wrote for both `wordCounter()` and `numberOfOccurrencesInText()`, check out the cheat sheet.**

@@ -14,7 +14,7 @@ After that, the next lesson will detail what an **MVC** is, before we finally be
 
 ASP.NET Core MVC is a server-side MVC framework. In a **server-side** application the client's request to view a page depends on the server delivering the correct content for that specific page (HTML, CSS, files, etc.) to the client. The client then renders this content for the user.
 
-Before we can discuss what server-side means, we must first understand the difference between a client and a server. We covered this in the [_How the Web Works: Clients and Servers_](/c-and-net/basic-web-applications/3-2-0-2-how-the-web-works-clients-and-servers) lesson; but let's quickly review.
+Before we can discuss what server-side means, we must first understand the difference between a client and a server. We covered this in the [_How the Web Works: Clients and Servers_](../../c-and-net/basic-web-applications/3-2-0-2-how-the-web-works-clients-and-servers) lesson; but let's quickly review.
 
 ## Clients & Servers
 ---
@@ -35,7 +35,7 @@ A **client** is usually a web browser, like Chrome, but can be anything that fac
 
 * As we continue navigating the site, our client begins a sort of discussion with the server. Each time a new page is visited, the client must send _another_ request to the server for information for _that specific_ area of the site. And, unless something goes wrong, the server continues to respond with new content. This ongoing conversation is called a **request-response loop.**
 
-(If any of this feels unclear, we recommend revisiting and reviewing the [_How the Web Works: Clients and Servers_](/c-and-net/basic-web-applications/3-2-0-2-how-the-web-works-clients-and-servers) lesson before advancing.)
+(If any of this feels unclear, we recommend revisiting and reviewing the [_How the Web Works: Clients and Servers_](../../c-and-net/basic-web-applications/3-2-0-2-how-the-web-works-clients-and-servers) lesson before advancing.)
 
 This process is considered **server-side** because the server is responsible for sending required content for the specific page a user attempts to view. The server is also continually contacted as the user navigates the page, in that **request-response loop**.
 

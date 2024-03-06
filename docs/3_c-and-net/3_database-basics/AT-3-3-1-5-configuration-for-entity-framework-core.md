@@ -73,7 +73,7 @@ appsettings.json
 We recommend creating a new database for this walkthrough of using EF Core to communicate with a MySQL database. Doing so will preserve the database we set up with version of the To Do List that uses MySqlConnector. To Do this, follow these steps:
 
 1. Update the `database` key in the database connection string in `appsettings.json` to `to_do_list_with_ef_core`.
-2. Copying the `to_do_list_with_mysqlconnector` database by exporting it, and then importing it with the new name of `to_do_list_with_ef_core`. For exact instructions on importing and exporting databases, visit [this lesson from the weekend homework](/c-and-net/database-basics/3-3-0-08-creating-a-test-database-exporting-and-importing-databases-with-mysql-workbench).
+2. Copying the `to_do_list_with_mysqlconnector` database by exporting it, and then importing it with the new name of `to_do_list_with_ef_core`. For exact instructions on importing and exporting databases, visit [this lesson from the weekend homework](../../c-and-net/database-basics/3-3-0-08-creating-a-test-database-exporting-and-importing-databases-with-mysql-workbench).
 
 ### Remove `DatabaseConfig.cs`
 
