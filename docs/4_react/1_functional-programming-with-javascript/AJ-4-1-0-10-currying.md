@@ -96,6 +96,6 @@ function aThingIMaybeLike(howMuchILikeIt, thing, reason) {
 
 This method may be fewer lines but it doesn't have nearly as much flexibility as our curried version. It has no reusability while we were able to use our curried function to create new functions that use 1, 2 or 3 arguments.
 
-Over the next few class sessions, try writing unary functions. Because each function should take only one argument, you will need to curry functions that would otherwise take multiple arguments. Note that you won't always be able to create an unary function. However, if a function takes too many arguments, that may also be a sign that it's trying to do too much.
+Over the next few class sessions, try writing unary functions. Because each function should take only one argument, you will need to curry functions that would otherwise take multiple arguments. Note that you won't always be able to create a unary function. However, if a function takes too many arguments, that may also be a sign that it's trying to do too much.
 
 Currying is another complex concept that often takes some time to absorb. Don't worry — you will get more practice and we will cover more use cases in upcoming lessons.

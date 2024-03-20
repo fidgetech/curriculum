@@ -9,7 +9,7 @@ You will get a chance to practice whiteboarding a lot during this course section
 
 ### Practice with Composition
 
-Alternate problem #1 and #2 with your pair. Then alternate problem #3 and #4. If someone gets stuck, you may help your pair whiteboard a problem or brainstorm a solution.
+Practice these problems with your pair/instructors.
 
 #### Problem #1
 

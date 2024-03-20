@@ -66,7 +66,7 @@ const summedArray = numArray.reduce(function(currentValue, element) {
 }, 0);
 ```
 
-In the example above, reduce takes two arguments. The first is the `currentValue` of the `reduce()` function. The second is the `element` of the array. Finally, note the `0` after the function itself. This is an initial value that we can optionally provide. That way, `reduce()` knows what the `currentValue` will start with. Note that if we wanted to multiply or divide, this initial value would be `1`. Otherwise, we'd be multipling or dividing by zero!
+In the example above, reduce takes two arguments. The first is the `currentValue` of the `reduce()` function. The second is the `element` of the array. Finally, note the `0` after the function itself. This is an initial value that we can optionally provide. That way, `reduce()` knows what the `currentValue` will start with. Note that if we wanted to multiply or divide, this initial value would be `1`. Otherwise, we'd be multiplying or dividing by zero!
 
 While this functionality is very helpful, we can use `reduce()` to do so much more. For example, we can use `reduce()` to do things like find the longest or shortest string in an array. However, we won't provide a code snippet for that here. Instead, let's look at a more complex example.
 
