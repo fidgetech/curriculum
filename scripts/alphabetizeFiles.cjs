@@ -42,6 +42,7 @@ function renameMarkdownFilesBasedOnSidebar(directory, sidebarPath) {
   removePrefixes(directory);
 
   console.log(`Adding prefixes for files in ${directory}...`)
+  console.log(sidebar.items);
   sidebar.items.forEach((item, index) => {
     const id = item.substring(item.lastIndexOf('/') + 1);
     const markdownFilePath = path.join(directory, `${id}.md`);
@@ -51,6 +52,8 @@ function renameMarkdownFilesBasedOnSidebar(directory, sidebarPath) {
       const newFilePath = path.join(directory, newFilename);
       fs.renameSync(markdownFilePath, newFilePath);
       console.log(`${markdownFilePath.replace(`${directory}/`,'')} => ${newFilePath.replace(`${directory}/`,'')}`);
+    } else {
+      console.error(`! file not found: ${markdownFilePath}`);
     }
   });
   console.log(`Prefixes added for files in ${directory}\n`);
@@ -87,7 +90,7 @@ console.log('Renamed files to be in alphabetical order based on the order in sid
 // helpers
 
 function isFirstTwoLettersFollowedByDash(str) {
-  return /^[A-Za-z]{2}-/.test(str);
+  return /^[A-Z]{2}-/.test(str);
 }
 
 function generatePrefix(index) {

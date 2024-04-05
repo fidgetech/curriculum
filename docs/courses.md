@@ -20,6 +20,7 @@ hide_table_of_contents: true
     <a className="track-button" target="_self" href="/workshop">Workshop</a>
     <a className="track-button" target="_self" href="/marketing-yourself">Marketing Yourself</a>
     <a className="track-button" target="_self" href="/diversity-equity-and-inclusion">DEI</a>
+    <a className="track-button" target="_self" href="/capstone">Capstone</a>
     </div>
   </div>
 </div>
