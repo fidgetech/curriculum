@@ -2,7 +2,7 @@ import { writeFileSync } from 'fs';
 import matter from 'gray-matter';
 
 export function isFirstTwoLettersFollowedByDash(str) {
-  return /^[A-Za-z]{2}-/.test(str);
+  return /^[A-Z]{2}-/.test(str);
 }
 
 export function generatePrefix(index) {
