@@ -62,7 +62,7 @@ We'll walk through creating this project structure together in the next lesson.
 
 Check out this diagram illustrating how the request/response cycle works in an MVC architecture:
 
-![MVC request response cycle](/images/c%23/mvc-request-response-dotnet.png)
+![MVC request response cycle](/images/c-sharp/mvc-request-response-dotnet.png)
 
 For now, we will use local storage for our apps so you don't need to understand how the model communicates with a database just yet. Instead, just know that the controller calls on the model to retrieve the data needed for the view.
 

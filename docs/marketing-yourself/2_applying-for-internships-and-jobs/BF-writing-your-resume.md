@@ -13,7 +13,7 @@ You may also find that some aspects of your experience aren't as relevant to som
 
 Here's what the resume might look like:
 
-![This image shows an example resume.](/images/Soft+Skills+&+Career+Prep/example-resume.png)
+![This image shows an example resume.](/images/soft-skills-and-career-prep//example-resume.png)
 
 (As with the cover letter, **do not copy this example resume** — it will be very obvious to Epicodus staff and to employers if you do, especially if your resume looks suspiciously like other students who ignore this warning and copy it.)
 

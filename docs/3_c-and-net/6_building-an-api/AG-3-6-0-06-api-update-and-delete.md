@@ -92,7 +92,7 @@ According to the HTTP specification, a PUT request requires the client to send t
 
 This specifies that an animal with an `AnimalId` property of 1 (as specified in the URL of `http://localhost:5000/api/animals/1`) should be updated so that it's now Matilda the Woolly Mammoth with an age of 8. Here's how this request will look in Postman:
 
-![Adding a body to a PUT request to `http://localhost:5000/api/animals/1` using Postman.](/images/c%23/aspnet-web-api-postman-put-request-with-body.png)
+![Adding a body to a PUT request to `http://localhost:5000/api/animals/1` using Postman.](/images/c-sharp/aspnet-web-api-postman-put-request-with-body.png)
 
 We'll see a 204 No Content response from the API if our request is successful. 
 
@@ -146,7 +146,7 @@ Other than that, the code is largely the same as what we'd see in a MVC web appl
 
 We can make our delete request by specifying the DELETE verb in Postman and making an API call to the following URL: `http://localhost:5000/api/animals/1`. This will delete Matilda the Woolly Mammoth, just like time did.
 
-![Sending a DELETE request to `http://localhost:5000/api/animals/1` using Postman.](/images/c%23/aspnet-web-api-postman-delete-request.png)
+![Sending a DELETE request to `http://localhost:5000/api/animals/1` using Postman.](/images/c-sharp/aspnet-web-api-postman-delete-request.png)
 
 We'll see a 204 No Content response from the API if our request is successful. 
 

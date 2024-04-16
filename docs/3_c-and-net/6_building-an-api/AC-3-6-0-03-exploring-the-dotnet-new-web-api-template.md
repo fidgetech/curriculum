@@ -49,7 +49,7 @@ Notice how our folder contains a `Controllers/` directory (with a `WeatherForeca
 
 [The MS Docs on ASP.NET Core web APIs](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio) have a helpful graphic that shows how an API handles the HTTP requests, and delivers HTTP responses.
 
-![Graphic of request-response loop between client and API.](/images/c%23/aspnet-web-api-request-response-model.png)
+![Graphic of request-response loop between client and API.](/images/c-sharp/aspnet-web-api-request-response-model.png)
 
 If the requested resource is found, our API will return a response of 200 OK with the data (or 201 Created, without data). If the requested resource is not found, our API will return a 404 Not Found. If the client is not authorized to access a resource on our API, the API will return a 401 Unauthorized. 
 
@@ -315,7 +315,7 @@ Note that the above information in the terminal comes directly from the logging 
 
 This message confirms that our API has been queried but has returned a 404 error. This is different than what will happen if we send a bogus request to a server that doesn't exist. If we try sending a GET request to `http://localhost:5555`, we'll get the following message:
 
-![Postman says it can't get a response from the server](/images/c%23/Week+6+API/couldnt_get_response.png)
+![Postman says it can't get a response from the server](/images/c-sharp/Week+6+API/couldnt_get_response.png)
 
 When we send a GET request to `http://localhost:5000`, we are communicating with our local running application. However, the application is telling Postman that it couldn't find any resources at `http://localhost:5000`.
 
@@ -330,7 +330,7 @@ Alternatively, when we run our project with a watcher with `dotnet watch run`, S
 
 When we access Swagger UI, we'll see the name of our app, `CretaceousApi`, we'll see the name of our controller `WeatherForecast`, and one `GET` route at `/WeatherForecast`. That means there's one endpoint that we can access by making a GET request to `http://localhost:5000/WeatherForecast`. We can make the request via Postman, or via the Swagger UI. If we click on the endpoint `GET` `/WeatherForecast` within the Swagger UI, we can see expanded details about this endpoint and make a request to this endpoint.
 
-![The expanded GET /WeatherForecast endpoint within the Swagger UI.](/images/c%23/aspnet-swagger-ui.png)
+![The expanded GET /WeatherForecast endpoint within the Swagger UI.](/images/c-sharp/aspnet-swagger-ui.png)
 
 To make a request to `GET` `/WeatherForecast`, click the `Try it out` button, and then the `Execute` button. We'll see more information pop up: the [cURL](https://en.wikipedia.org/wiki/CURL) command for that endpoint (which would make the same request from the command line), the request URL, the API's response, and an HTTP status code for the response, among other info. As we can see, Swagger UI makes it very easy to test out our API.
 

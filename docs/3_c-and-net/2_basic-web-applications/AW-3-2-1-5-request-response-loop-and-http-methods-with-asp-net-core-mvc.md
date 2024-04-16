@@ -75,11 +75,11 @@ Remember, we can view HTTP requests and responses right in Chrome's developer to
 *  The second-from-top toolbar contains a checkbox titled _Preserve log_. Select this box.
 *  Keeping this _Network_ area open, hit the _Add a new item_ link on our site's homepage. We should see a new request logged in the developer's tools. We can click this request to see details, including its URL, the GET HTTP request method it used, its headers, and more:
 
-<img src="/images/c%23/Week+two/request-response-loop-and-http-methods-screenshot-2.png" width="100%" />
+<img src="/images/c-sharp/Week+two/request-response-loop-and-http-methods-screenshot-2.png" width="100%" />
 
 * Then we can fill out and submit our form to see yet another request. This time we see it's a POST request. If we scroll down, we can view its response headers and form data included in the request body:
 
-<img src="/images/c%23/Week+two/request-response-loop-and-http-methods-screenshot-2.png" width="100%" />
+<img src="/images/c-sharp/Week+two/request-response-loop-and-http-methods-screenshot-2.png" width="100%" />
 
 ## 2. Routing in MVC Controllers
 ---

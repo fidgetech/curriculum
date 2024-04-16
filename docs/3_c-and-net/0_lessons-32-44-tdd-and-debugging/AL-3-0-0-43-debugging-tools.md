@@ -20,11 +20,11 @@ Let's briefly look at two common errors within the C# REPL.
 
 The first error message lets us know that the variable doesn't exist in the current context. When we get an error message like that, it's almost always because there's a typo. Indeed, that's the issue in the following code.
 
-![Error that tells us that a variable doesn't exist, because of a typo.](/images/c%23/prework/error-variable-doesnt-exist-due-to-typo.png)
+![Error that tells us that a variable doesn't exist, because of a typo.](/images/c-sharp/prework/error-variable-doesnt-exist-due-to-typo.png)
 
 The next error message could actually be due to a handful of issues. Take a look:
 
-![Error that tells us that a method doesn't exist because of incorrect casing.](/images/c%23/prework/error-method-doesnt-exist-due-to-casing.png)
+![Error that tells us that a method doesn't exist because of incorrect casing.](/images/c-sharp/prework/error-method-doesnt-exist-due-to-casing.png)
 
 We could be getting this error because we've forgotten a using directive, there's a typo in the method/field/property/class name that we're referencing, and even if we're using incorrect case. When there are many reasons why something is wrong, we need to look at the context. 
 

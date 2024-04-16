@@ -27,7 +27,7 @@ Follow these same steps to access MySQL Workbench for all future projects.
 
 Once we've opened our MySQL interface, we can look at the current databases by clicking on the _Schemas_ tab:
 
-![Schemas tab](/images/c%23/schema-mysql-workbench.png)
+![Schemas tab](/images/c-sharp/schema-mysql-workbench.png)
 
 A **schema** is simply the structure of a database. In the screenshot above, we have two:
 
@@ -56,7 +56,7 @@ After accessing MySQL Workbench and viewing existing databases, we can create a 
 
 * In MySQL Workbench, click the _Create a new schema in the connected server_ option in the top navbar. It's the fourth icon from the left:
 
-![Create a new schema](/images/c%23/create-a-new-schema.png)
+![Create a new schema](/images/c-sharp/create-a-new-schema.png)
 
 * Alternatively, we can right-click in the _Navigator_ window and select _Create schema..._
 
@@ -106,7 +106,7 @@ Functions
 
 The following screenshot demonstrates what the window should look like after the two columns have been added:
 
-![Adding two columns to table](/images/c%23/add-to-do-list-table.png)
+![Adding two columns to table](/images/c-sharp/add-to-do-list-table.png)
 
 If you make a mistake with one of the columns and want to start over, right-click on the column and click _Delete Selected_.
 
