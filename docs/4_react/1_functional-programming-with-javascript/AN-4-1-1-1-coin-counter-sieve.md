@@ -71,7 +71,7 @@ This is a tricky problem and you should use the Sieve of Eratosthenes to solve i
 
 You also might find [this video](https://www.youtube.com/watch?v=V08g_lkKj6Q) helpful in explaining the Sieve.
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Code uses functional programming and does not mutate state.

@@ -58,7 +58,7 @@ info: Microsoft.Hosting.Lifetime[0]
 
 Note the line `Now listening on: http://localhost:5000`. Let's type _localhost:5000_ into our browser's URL bar. Well, we just get an error message. That's because we don't actually have any webpages built yet!
 
-And while it may not seem like much, but we've still successfully configured, built, and launched our first ASP.NET Core MVC application. Up next, we'll
+And while it may not seem like much, but we've still successfully configured, built, and launched our first ASP.NET Core MVC application.
 
 ## Using a Watcher
 ---

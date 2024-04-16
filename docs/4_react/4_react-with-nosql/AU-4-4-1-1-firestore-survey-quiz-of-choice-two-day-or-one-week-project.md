@@ -57,7 +57,7 @@ Try adding the following:
 * Routing with react-router.
 * Ability to associate memories with specific users.
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Application correctly uses Firestore for data storage.

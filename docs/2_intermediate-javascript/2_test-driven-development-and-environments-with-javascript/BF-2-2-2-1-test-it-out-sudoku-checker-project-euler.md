@@ -59,7 +59,7 @@ Your application should include the following:
 * Complete unit tests for all business logic using TDD and Jest. Aim for 100% test coverage.
 * Complete separation of logic (UI logic in one file, business logic in another). 
 
-## Peer Code Review
+## Instructor/Peer Code Review
 <hr />
 
 * Tests were committed before code.

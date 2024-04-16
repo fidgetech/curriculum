@@ -35,7 +35,7 @@ Create a portfolio site where a user can add `projects`, `skills` and a `bio`. N
 
 Create a choose your own adventure or dungeon crawler game using Firestore to store adventure "scenes" or dungeon "rooms." This is more challenging than it sounds and it's important to think carefully about how data will be structured. How can you associate two scenes with each other, or two rooms? Once you've figured out a data structure, focus on building a simple text-based implementation. If you have the time, you can always work on a GUI after the basics are complete.
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Application correctly uses Firestore for data storage.

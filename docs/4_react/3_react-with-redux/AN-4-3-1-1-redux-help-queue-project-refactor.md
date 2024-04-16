@@ -39,7 +39,7 @@ Make sure to test and write reducers _before_ you begin integrating Redux with y
 
 If you finish the above projects with time to spare, work through upcoming homework.
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Redux successfully manages all shared state.

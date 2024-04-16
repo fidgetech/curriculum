@@ -9,7 +9,7 @@ paginationNext: null
 ## Independent Projects Overview
 ---
 
-Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Project prompts will be available on Epicenter once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## Many-To-Many Relationships Project Objectives
 ---
@@ -20,7 +20,7 @@ Your code will be reviewed for the following objectives:
 * Are you able to view both sides of the many-many relationship? For a particular instance of a class, are you able to view all of the instances of the **other** class that are related to it?
 * Build files and sensitive information are included in `.gitignore` file and is not to be tracked by Git, and includes instructions on how to create the `appsettings.json` and set up the project.
 * Project is in a polished, portfolio-quality state.
-* The prompt’s required functionality and baseline project requirements are in place by the deadline.
+* The prompt’s required functionality and baseline project requirements are in place.
 
 ### What is a polished, portfolio-quality state?
 When a project is both polished and in a portfolio-quality state, this means:

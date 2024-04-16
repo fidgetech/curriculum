@@ -51,7 +51,7 @@ function Header(){
 export default Header;
 ```
 
-Just as with other default imports, we can call the thing we are imported whatever we want — as always, we should be very clear on the name. We've called this `ticketsImage`. We could just call it `tickets`, though that might get confusing later with all of our similarly named components.
+Just as with other default imports, we can call the thing we are importing whatever we want — as always, we should be very clear on the name. We've called this `ticketsImage`. We could just call it `tickets`, though that might get confusing later with all of our similarly named components.
 
 Next, we need a standard `<img>` tag. This has all of the attributes of a typical HTML `<img>` tag — and as always, we should add an `alt` attribute to make our site more accessible to users with disabilities. The key difference is that we use curly braces to render our image inside the `src` attribute.
 

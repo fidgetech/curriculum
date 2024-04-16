@@ -27,7 +27,7 @@ As the interviewee:
 * Ask clarifying questions.
 * Keep talking.
 * Explain your plan at the beginning; recap what you’ve done at the end.
-* Make eye contact.
+* Attempt to occasionally make eye contact with your interviewers/aim your camera so you are looking into it while looking at the screen.
 * Plan your space.
 
 As the interviewer:

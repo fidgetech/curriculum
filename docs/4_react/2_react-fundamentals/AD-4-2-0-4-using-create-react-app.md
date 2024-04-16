@@ -65,7 +65,7 @@ Note the following div in our `index.html` file:
 
 This is where our root React component will be placed. We'll learn more about components in the next lesson — and we will also cover where `root` is coming from later in this lesson.
 
-**src**: `create-react-app` has built a `src` directory for us with some boilerplate code.
+**src**: `create-react-app` has built an `src` directory for us with some boilerplate code.
 
   * **`App`**: Let's start with the three `App` files. `App` is the root component of our application. `App.js` contains the JavaScript code for this component while `App.css` contains the CSS code for it. If you take a look at `App.js`, you'll see that it contains code that looks nothing like JavaScript. This code is written in JSX, which we'll cover in more detail soon.
   

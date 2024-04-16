@@ -48,7 +48,7 @@ A haiku is a poem that consists of three lines. The first has five syllables, th
 Make sure you test your application for each new rule you implement.
 
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Code uses functional programming and avoids mutating state as much as possible.

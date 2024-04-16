@@ -152,7 +152,7 @@ The size of the square (number of columns) should be decided by the length of th
 
 Go back and tackle any _Further Exploration_ exercises from previous classwork in this section that you have not yet completed.
 
-## Peer Code Review
+## Instructor/Peer Code Review
 <hr />
 
 * Are tests included for all functionality?

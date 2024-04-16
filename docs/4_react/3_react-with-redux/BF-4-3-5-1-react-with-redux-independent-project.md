@@ -9,7 +9,7 @@ paginationNext: null
 ## Independent Projects Overview
 ---
 
-Project prompts will be available on Epicenter at 8:00 am Friday for both full-time and part-time students. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Project prompts will be available on Epicenter at 8:00 am Friday for both full-time and part-time students. Project prompts will be available on Epicenter once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## React with Redux Project Objectives
 ---
@@ -22,7 +22,7 @@ Your submission will be reviewed for the following objectives:
 * Actions are successfully dispatched to specify changes to state.
 * Reducers receive and handle actions to correctly mutate the store's state.
 * Project is in a polished, portfolio-quality state.
-* The prompt’s required functionality and baseline project requirements are in place by the deadline.
+* The prompt’s required functionality and baseline project requirements are met.
 
 ### What is a polished, portfolio-quality state?
 When a project is both polished and in a portfolio-quality state, this means:

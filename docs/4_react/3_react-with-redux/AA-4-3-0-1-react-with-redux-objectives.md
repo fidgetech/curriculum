@@ -28,7 +28,7 @@ Your code will be reviewed for the following objectives:
 * Actions are successfully dispatched to specify changes to state.
 * Reducers receive and handle actions to correctly mutate the store's state.
 * Project is in a polished, portfolio-quality state.
-* The prompt’s required functionality and baseline project requirements are in place by the deadline.
+* The prompt’s required functionality and baseline project requirements are met.
 
 
 **You can preview the exact instructions and requirements for the React with Redux code review by reading the [React with Redux Independent Project](../../react/react-with-redux/4-3-5-1-react-with-redux-independent-project) lesson at the end of this section.**

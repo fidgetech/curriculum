@@ -1,5 +1,5 @@
 ---
-title: "📓 3.2.0.1Basic Web Applications Objectives"
+title: "📓 3.2.0.1 Basic Web Applications Objectives"
 day: weekend
 id: 3-2-0-1basic-web-applications-objectives
 hide_table_of_contents: true
