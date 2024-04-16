@@ -17,7 +17,7 @@ const config = {
   show_lesson_numbers: false,
   show_week_numbers: false,
   student_handbook_repo: "shared",
-  shared_files_repo: "shared",
+  shared_files_repo: "lhtp2",
   curriculum_layout_file: "curriculum-layout.yaml",
   root_path,
   org,

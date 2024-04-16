@@ -315,7 +315,7 @@ Because we've added the `[Authorize]` attribute to our `ItemsController`, we kno
 
 So what happens if an unauthorized user (who is not signed in) tries to access our item's `Index.cshtml`? Identity will automatically redirect them to the login page, just like in the following image:
 
-![Identity redirects unauthorized users to the `Account/Login.cshtml` view.](/images/c%23/aspnet_authorization_redirect.png)
+![Identity redirects unauthorized users to the `Account/Login.cshtml` view.](/images/c-sharp/aspnet_authorization_redirect.png)
 
 ### Adjusting Our Splash Page
 

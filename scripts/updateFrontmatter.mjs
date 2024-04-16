@@ -12,7 +12,7 @@ function processMarkdownFile({ filePath, isFirstFile, isLastFile }) {
   const filename = filePath.split('/').pop();
 
   if (isFirstTwoLettersFollowedByDash(filename)) {
-    data.id = filename.substring(3).replace('.md', '');;
+    data.id = filename.substring(3).replace('.md', '');
     data.hide_table_of_contents = true;
     if (isFirstFile) data.paginationPrev = null;
     if (isLastFile) data.paginationNext = null;

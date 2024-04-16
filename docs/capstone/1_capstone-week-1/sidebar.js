@@ -2,12 +2,14 @@ module.exports = {
   "type": "category",
   "label": "Computer Science and Professional Development",
   "items": [
-    "capstone/capstone-week-1/goal-settings-and-expectations",
-    "capstone/capstone-week-1/lesson-and-exercise-expectations-day-2",
+    "capstone/capstone-week-1/goal-setting-and-expectations",
+    "capstone/capstone-week-1/lesson-and-exercise-expectations",
     "capstone/capstone-week-1/computer-science-section-expectations",
     "capstone/capstone-week-1/computer-science-testing-environment-setup",
-    "capstone/capstone-week-1/recap-whiteboarding-best-practices-day-3",
-    "capstone/capstone-week-1/recap-recursion-day-4",
+    "capstone/capstone-week-1/professional-development---employable-skills",
+    "capstone/capstone-week-1/professional-development---archetypes",
+    "capstone/capstone-week-1/professional-development---planning",
+    "capstone/capstone-week-1/professional-development-plan---exercise",
     "capstone/capstone-week-1/introduction-to-big-o-notation",
     "capstone/capstone-week-1/utilizing-big-o-notation-practice",
     "capstone/capstone-week-1/introduction-to-trees",
@@ -38,6 +40,14 @@ module.exports = {
     "capstone/capstone-week-1/selection-sort",
     "capstone/capstone-week-1/bubble-sort",
     "capstone/capstone-week-1/merge-sort",
-    "capstone/capstone-week-1/quicksort"
+    "capstone/capstone-week-1/quicksort",
+    "capstone/capstone-week-1/linked-lists",
+    "capstone/capstone-week-1/linked-lists---exercise",
+    "capstone/capstone-week-1/heaps",
+    "capstone/capstone-week-1/tries",
+    "capstone/capstone-week-1/memory-basics",
+    "capstone/capstone-week-1/memoization",
+    "capstone/capstone-week-1/updating-your-portfolio",
+    "capstone/capstone-week-1/applying-to-jobs---2"
   ]
 };

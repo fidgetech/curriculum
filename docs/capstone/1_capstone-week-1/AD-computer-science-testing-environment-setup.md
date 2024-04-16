@@ -1,8 +1,13 @@
 ---
-title: "📓 Computer Science Testing Environment Setup"
-day: weekend
+title: "\U0001F4D3 Computer Science Testing Environment Setup"
 id: computer-science-testing-environment-setup
+slug: computer-science-testing-environment-setup
 hide_table_of_contents: true
+sidebar_position: 4
+day: weekend
+type: lesson
+url: >-
+  https://github.com/epicodus-curriculum/capstone/blob/main/computer_science_testing_environment.md
 ---
 
 Many of our computer science lessons involve building small logic-based applications to try out new concepts. These applications will not have a UI. Instead, we will use a test-driven environment with JavaScript to build out these applications.

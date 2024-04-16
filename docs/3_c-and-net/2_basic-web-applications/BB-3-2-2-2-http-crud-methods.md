@@ -53,7 +53,7 @@ As its name suggests, **DELETE** removes data from the server. It, too, is like 
 
 It's a bit confusing that CRUD terms don't match the HTTP method names (besides DELETE). However, it'll become second-nature before too long. For now, here's a handy reference:
 
-<img src="/images/c%23/http-crud-methods-screenshot-1.png" width="100%" />
+<img src="/images/c-sharp/http-crud-methods-screenshot-1.png" width="100%" />
 
 ## Limitations of HTML Forms
 ---

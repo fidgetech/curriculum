@@ -76,7 +76,7 @@ public async Task<ActionResult<IEnumerable<Animal>>> Get([FromQuery] string spec
 
 Let's test out our new species search functionality in Postman. Notice the query string `?species=dinosaur` in the request URL (highlighted by the red box). We can also see the query string listed as a key-value pair within the "Params" tab.
 
-![Result of API call with search parameter in Postman](/images/c%23/Week+6+API/0g_adding_parameters_to_get_request.png)
+![Result of API call with search parameter in Postman](/images/c-sharp/Week+6+API/0g_adding_parameters_to_get_request.png)
 
 ## Handling Multiple Parameters
 ---
