@@ -10,7 +10,7 @@ In the next course section, we will be working on group projects for the Epicodu
 ## Homework
 ---
 
-Generate an idea you would like to help develop into a working application. It could be a game, a new business idea, something educational, something fun, something to help others or something to change the world, an application or website a friend or family member could use, etc.
+Generate an idea you would like to help develop into a working application. It could be a game, a new business idea, something educational, something fun, something to help others or something to change the world, an application or website that a friend or family member could use, etc.
 
 ### Past Student Work
 
@@ -76,7 +76,7 @@ For instance:
 * A Discord bot
 * A browser extension
 
-#### Tracking, Aggregating, or Visualize Data
+#### Tracking, Aggregating, or Visualizing Data
 
 Applications that help track and manage data of some kind, such as:
 
@@ -127,4 +127,4 @@ Your instructor will give you a sign up deadline. Everyone is required to sign u
 
 At the end of this section, your instructor will confirm all teams have the correct number of members and an adequate project idea. If teams have too few members we'll help connect you with additional teammates, or re-arrange teams as necessary. 
 
-You won't begin working on your project until the next course section, but you're encouraged trade contact information with your teammates and consider planning and brainstorming together outside of class! 
+You won't begin working on your project until the next course section, but you're encouraged to trade contact information with your teammates and consider planning and brainstorming together outside of class! 

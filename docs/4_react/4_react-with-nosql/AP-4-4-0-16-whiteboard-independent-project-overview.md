@@ -5,7 +5,7 @@ id: 4-4-0-16-whiteboard-independent-project-overview
 hide_table_of_contents: true
 ---
 
-In lieu of an independent project this week, you'll prepare for a group whiteboard interview. Your instructor will plan out when you will conduct the group whiteboard interview, which could be this week or next depending on the program you are enrolled in and other scheduling concerns. Check in with your instructor about the exact schedule, timing, and structure of this event and when your Epicenter submissions are due.
+In lieu of an independent project this week, you'll prepare for a whiteboard interview. Your instructor will plan out when you will conduct the whiteboard interview, which could be this week or next depending on availability and other scheduling concerns. Check in with your instructor about the exact schedule, timing, and structure of this event and when your Epicenter submissions are due.
 
 Your interview will be evaluated on the following objectives:
 
@@ -17,9 +17,11 @@ These objectives will be explained in greater detail over the next several lesso
 
 ### Overview
 
+**Note for Fidgetech students: Please contact your instructor to discuss what this process looks like for your program, as it will differ from the current description below.**
+
 Technical whiteboard sessions are a common and stressful part of many job interviews in the tech industry. Preparation is an essential part of a successful whiteboard interview. Our goal is to simulate the process and better prepare you to find a job.
 
-You will be expected to prepare for and take part in a peer-evaluated technical whiteboard session. During this session, you will get the opportunity both to whiteboard and to take on the role of a panel of interviewers. Here is an overview of the process.
+You will be expected to prepare for and take part in a  technical whiteboard session. During this session, you will get the opportunity both to whiteboard and to take on the role of a panel of interviewers. Here is an overview of the process.
 
 * The independent project prompt will have five whiteboard prompts to study. Take the time to practice whiteboarding your own solutions. You may form study groups and work with other students on your preparation. Your instructor will randomly assign you one of these five prompts for your technical interview.
 * Your instructor will set a time for the group whiteboard session during the same week or in the following week. Your instructor will also randomly assign you to groups of around four. You will not know any details about your group, your prompt assignment, or the time your whiteboard session will occur until shortly before your interview.

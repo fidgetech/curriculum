@@ -7,9 +7,10 @@ paginationNext: null
 ---
 
 ## Independent Projects Overview
+
 ---
 
-Project prompts will be available on Epicenter at 8:00 am Friday for both full-time and part-time students. Project prompts will be available on Epicenter once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Project prompts will be available on Epicenter once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## React with Redux Project Objectives
 ---
@@ -35,8 +36,7 @@ All independent coding projects at Epicodus have these baseline requirements:
 
 * A complete and informative README
 * The project's commit history demonstrates that the project's required work schedule and hours have been met:
-  * 8 hours completed on Friday is required for full-time students
-  * 4 hours completed over the weekend is required for part-time students
+  * 8 hours of work is required for all students.
 * Completion of the project based on the prompt _and_ objectives. The prompt contains details on the project's theme and features that are not always detailed in the objective. Carefully read through the prompt towards the end of your work session to make sure that you are not missing anything.
 
 ## Submission

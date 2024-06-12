@@ -163,7 +163,7 @@ Now, navigate to the Firebase console, then open your Help Queue project, then s
 
 * The leftmost column lists our collections. Here we have our `tickets` collection listed.
 * The middle column lists the documents in the selected collection. As we can see, documents are listed by their ID. An ID can be any string, and we've used Firestore's auto-generated ID. 
-* The rightmost column list the data from the selected document.
+* The rightmost column lists the data from the selected document.
 
 ![Data in the Firestore database: a `tickets` collection with one ticket in it. The ticket has an auto-generated ID from Firestore.](/images/React/Week-4-React-2020/firestore-ticket-data-and-id.png)
 
@@ -205,6 +205,6 @@ Let's break this down!
   * The `doc()` function returns a `DocumentReference` object, which as its name suggests, is an object that acts as a reference to a document within our Firestore database. 
 * The `setDoc()` function is similar to the `addDoc()` function: we can use it to add or update a specified document with the data that's passed in as its second argument. 
 
-In our Help Queue app, we won't use the above code, and instead let Firestore auto-generated unique IDs for us.
+In our Help Queue app, we won't use the above code, but instead let Firestore auto-generate unique ID's for us.
 
 Up next, we'll learn how to read data from Firestore. In the process, we'll learn how to take Firestore's auto-generated ID and add it as a property to each ticket in our local `mainTicketList` so that we can continue to loop through the ticket list and display each ticket.

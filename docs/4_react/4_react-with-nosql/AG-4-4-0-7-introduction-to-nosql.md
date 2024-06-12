@@ -169,4 +169,4 @@ In the example above, the folder icon is meant to represent a Firestore collecti
 
 Turning Firestore data into JavaScript is an easy process: the key-value pairs in documents easily map over JavaScript objects, and Firestore collections can be looped through, transforming them into an array or object. We'll see all of this in action in upcoming lessons.
 
-At this point we should have a sense of the basic differences between NoSQL and SQL databases. In the next lesson, we're going to review the CAP theorem, which seeks to describe the tradeoff using distributed NoSQL databases. 
+At this point, we should have a sense of the basic differences between NoSQL and SQL databases. In the next lesson, we're going to review the CAP theorem, which seeks to describe the tradeoff using distributed NoSQL databases. 
