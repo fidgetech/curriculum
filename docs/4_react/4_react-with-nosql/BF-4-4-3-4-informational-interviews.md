@@ -39,7 +39,7 @@ Once you've found someone you'd like to connect with and interview, the next ste
 
 Hi Jane Doe! 
 
-I'm Jiaqi, a junior developer-in-training at Epicodus, a code school in Portland and Seattle. I attended your talk at the Girls Who Code about JavaScript applications last week, and I was fascinated by your experience with the project you described. I would love to learn more about the work that you do and what your experience in the tech industry has been like. 
+I'm Jiaqi, a junior developer-in-training at Epicodus, a code school in Portland and Seattle. I attended your talk at the Girls Who Code meeting about JavaScript applications last week, and I was fascinated by your experience with the project you described. I would love to learn more about the work that you do and what your experience in the tech industry has been like. 
 
 Can we meet up for an informational interview in the next two weeks? [Online alternative: Can we schedule a time for a phone or video informational interview?] 
 

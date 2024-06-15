@@ -18,7 +18,7 @@ If we were to go with the first option, we'd have to set up code in our app that
 
 We'll add our listener to the `TicketControl` component, so that we can update our `mainTicketList` state variable with the data we retrieve from the Firestore database.
 
-To properly set up this listener, we'll need to set up a `useEffect` hooks that does a few things:
+To properly set up this listener, we'll need to set up a `useEffect` hook that does a few things:
 
 * Runs once after our component first renders, 
 * Sets up an `onSnapshot` listener that gets all of the ticket data in the `tickets` collection and adds it to an array,
@@ -127,7 +127,7 @@ export default TicketControl;
 
 Let's summarize what we're doing with this code: we're looping through the collection of returned ticket documents to construct an array of JavaScript ticket objects. When we've finished constructing the array, we call `setMainTicketList()` to update the `mainTicketList` state variable with the array of tickets.
 
-There's a few things to note in this process. 
+There are a few things to mention in this process. 
 
 First, it's important to note that how the Firestore database stores our data is not the same as how we structure that same data in JavaScript. That's why we need to manually create a JavaScript array, loop through the returned collection (represented by the `collectionSnapshot` parameter), create a JavaScript object for each ticket, and push it to our array. 
 

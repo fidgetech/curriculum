@@ -98,7 +98,7 @@ If you finish creating tic-tac-toe before the end of the course section, try cre
 
 Not sure how to tackle this? Check out [James Meyers' Minesweeper Codepen](https://codepen.io/FullR/pen/qNbRGz). Don't just copy this code.  Take the time to analyze it and see if you can figure out how it works. This is something you'll do a lot at future internships and jobs. Next, try creating your own Minesweeper application based on what you learned.   
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Application state is successfully managed by Redux.

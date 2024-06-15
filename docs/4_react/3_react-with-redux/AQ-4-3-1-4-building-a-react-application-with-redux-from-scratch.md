@@ -60,7 +60,7 @@ Only now are we ready to add Redux to the application. You can follow along with
 $ npm install redux@4.2.0 react-redux@8.0.2
 ```
 
-While the lesson linked above walks through refactoring the Help Queue project, all the same steps apply to your new application. If you've following all the steps outlined in this lesson, it's the same process that we've used to build out the Help Queue application. In the [React with Redux: Adding Redux to React: Part 2](../../react/react-with-redux/4-3-0-12-adding-redux-to-react-part-2) lesson, we wire up Redux to the `TicketControl.js` component. At this point, you likely have a `Control` component or another component that's handling most or all of the state in your application.
+While the lesson linked above walks through refactoring the Help Queue project, all the same steps apply to your new application. If you've been following all the steps outlined in this lesson, it's the same process that we've used to build out the Help Queue application. In the [React with Redux: Adding Redux to React: Part 2](../../react/react-with-redux/4-3-0-12-adding-redux-to-react-part-2) lesson, we wire up Redux to the `TicketControl.js` component. At this point, you likely have a `Control` component or another component that's handling most or all of the state in your application.
 
 ### 6. Be Ready to Debug... Don't Pull Your Hair Out!
 

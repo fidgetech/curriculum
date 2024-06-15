@@ -9,7 +9,7 @@ paginationNext: null
 ## Independent Projects Overview
 ---
 
-Project prompts will be available on Epicenter at 8:00 am Friday for full-time students and 8:00 am on Thursday for part-time students. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Project prompts will be available on Epicenter once you let your instructor know that you have reached the end of a section. Project prompts will be available on Epicenter once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## React Fundamentals Project Objectives
 ---
@@ -24,7 +24,7 @@ Your code will be reviewed for the following objectives:
 * Props are used correctly and always include `PropTypes`.
 * README includes an accurate representation of the application's component tree.
 * Project is in a polished, portfolio-quality state.
-* The prompt's required functionality and baseline project requirements are in place by the deadline.
+* The prompt's required functionality and baseline project requirements are met.
 
 ### What is a polished, portfolio-quality state?
 When a project is both polished and in a portfolio-quality state, this means:
@@ -37,8 +37,7 @@ All independent coding projects at Epicodus have these baseline requirements:
 
 * A complete and informative README
 * The project's commit history demonstrates that the project's required work schedule and hours have been met:
-  * 8 hours completed on Friday is required for full-time students
-  * 4 hours completed over the weekend is required for part-time students
+  * 8 hours of work is required for all students.
 * Completion of the project based on the prompt _and_ objectives. The prompt contains details on the project's theme and features that are not always detailed in the objective. Carefully read through the prompt towards the end of your work session to make sure that you are not missing anything.
 
 ## Submission

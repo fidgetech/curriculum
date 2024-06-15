@@ -100,7 +100,7 @@ Your project could be something outside your comfort zone, challenging you to ac
 
 Think about creating a sleek and functional website using modern design or impressive visuals. This not only demonstrates your coding prowess but also highlights your design sensibilities. A visually appealing application serves as a testament to your holistic approach to web development.
 
-* Create a portfolio that showcases your other projects, while flexing your design on your own person website
+* Create a portfolio that showcases your other projects, while flexing your design on your own personal website
 * Create a data visualization project that takes information from an API and displays it intuitively to the user
 * Make your application responsive for both web and mobile users via media queries or other responsive design principles
 
@@ -141,7 +141,7 @@ It’s really easy to get bogged down in a mundane task, or burn yourself out tr
 
 #### Do Research
 
-Lasty, you most likely know that Epicodus instructors won’t be there forever to answer a question you might have - and eventually, you’ll have questions that we can’t answer at all. By the time you’re leaving Epicodus, we hope that you’re a self-sufficient explorer and learner that can approach any problem with the growth mindset. 
+Lastly, you most likely know that Epicodus instructors won’t be there forever to answer a question you might have - and eventually, you’ll have questions that we can’t answer at all. By the time you’re leaving Epicodus, we hope that you’re a self-sufficient explorer and learner that can approach any problem with the growth mindset. 
 * If the tools you know don’t seem to fit the problem, find a new tool and try it out
 * If there are things that you don’t like about C#, or JavaScript, explore to see if an alternative could do what you want better
 * If you want to switch from Mobile and Web Development to something else entirely, leverage your skills to approach a new problem

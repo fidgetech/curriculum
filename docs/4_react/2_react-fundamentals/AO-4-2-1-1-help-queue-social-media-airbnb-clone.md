@@ -39,7 +39,7 @@ Again, don't worry about functionality. Simply practice the act of breaking a mu
 
 Make sure to draw a component diagram and include it in your README.
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Components are used to create modular UI elements.

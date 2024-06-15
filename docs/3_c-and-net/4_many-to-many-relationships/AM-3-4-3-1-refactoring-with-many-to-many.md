@@ -31,7 +31,7 @@ Build a new project that includes a many-to-many relationship with full CRUD. Ma
 
 Make sure to include model validation for all CREATE and UPDATE actions, and a splash page that lists data from two or more database tables.
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Do database tables and columns follow proper naming conventions?

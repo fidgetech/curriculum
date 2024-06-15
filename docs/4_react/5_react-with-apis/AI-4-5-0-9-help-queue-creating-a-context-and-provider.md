@@ -95,7 +95,7 @@ Since we've determined that `App.js` is our lowest common ancestor to all of the
 import { ThemeContext, themes } from "../context/theme-context";
 ```
 
-Next, let's wrap our component tree with the `ThemeContext.Provider` component. In the following code notice that we're replacing the `<React.Fragment>` components with the `<ThemeContext.Provider>` components:
+Next, let's wrap our component tree with the `ThemeContext.Provider` component. In the following code, notice that we're replacing the `<React.Fragment>` components with the `<ThemeContext.Provider>` components:
 
 ```js
 import React from "react";

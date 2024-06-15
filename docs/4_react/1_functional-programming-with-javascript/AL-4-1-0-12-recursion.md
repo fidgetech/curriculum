@@ -83,7 +83,7 @@ incrementCounter() {
 }
 ```
 
-Note the order that the functions above will be called in. This is because all functions in process go on the JavaScript stack. The stack is a place where all the actions that need to be completed are stored. The JS stack works on the principle of **LIFO**, which means "last in, first out." This is why the innermost function in the example above will complete first while the outermost function will complete last.
+Note the order that the functions above will be called in. This is because all functions in process go on the JavaScript stack. The stack is a place where all the actions that need to be completed are stored. The JS stack works on the principle of **LIFO**, which means "last in, first out." This is why the innermost function in the example above will complete first, while the outermost function will complete last.
 
 Let's look at another implementation of a recursive function. In the process, the concept of LIFO should become clearer. We'll create a function that recursively does the same thing as `reverse()`. When we input a word into our function, it will be returned to us backwards.
 
@@ -104,7 +104,7 @@ Let's see what will happen if we call `recurseReverse("fern")`.
 We call our function:
 
 ```javascript
-string = "fern"
+string = "fern";
 ```
 
 We reach our return statement and call `recurseReverse()` again:

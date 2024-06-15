@@ -70,7 +70,7 @@ Replace the placeholder string values above with the value of each key from your
 
 ### Step 3: Create Configuration File and Initialize Firebase
 
-Next, we'll create a file in our `src` directory called `firebase.js`. This is where we'll initialize Firebase in our application and create a database reference. Note that Firebase is not prescriptive about what we name our configuration file or where we located, so it's up to us to pick a name and location that is sensible and intuitive.
+Next, we'll create a file in our `src` directory called `firebase.js`. This is where we'll initialize Firebase in our application and create a database reference. Note that Firebase is not prescriptive about what we name our configuration file or where it is located, so it's up to us to pick a name and location that is sensible and intuitive.
 
 Add the following code to the file:
 

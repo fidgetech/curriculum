@@ -9,7 +9,7 @@ paginationNext: null
 ## Independent Projects Overview
 ---
 
-Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Project prompts will be available on Epicenter once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## Test-Driven Development and Environments with JavaScript Project Objectives
 ---

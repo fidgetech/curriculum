@@ -60,7 +60,7 @@ Create a message board service that can be accessed via your API. Users should b
 
 APIs aren't just used for data interaction and manipulation. They can also be used for computation as well. Build a database-centered or computation API around an area of interest to you. Make sure you write your own user stories first.
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Application successfully returns responses for each API call.

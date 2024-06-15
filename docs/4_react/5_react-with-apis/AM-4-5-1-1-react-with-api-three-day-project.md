@@ -35,7 +35,7 @@ Spend the next three class sessions building a React application around an API o
 
 For a starting list of potential APIs to choose from, take a look at this [repository containing public APIs](https://github.com/public-apis/public-apis).
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Application parses API response and displays response data in the UI.

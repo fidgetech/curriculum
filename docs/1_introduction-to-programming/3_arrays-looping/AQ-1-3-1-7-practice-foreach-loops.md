@@ -54,7 +54,7 @@ If you finish, and feel comfortable with `Array.prototype.forEach()` loops, try 
 
 Another challenge: for words that appear the same amount of times, order by which word appeared first.
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Is the JavaScript business logic separate from the user interface logic?

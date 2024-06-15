@@ -34,7 +34,7 @@ You've had a chance to solve [Project Euler](https://projecteuler.net/archives) 
 
 Do not worry about implementing a UI. Focus on writing and testing functional code.
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Code correctly uses closures to store state when needed.

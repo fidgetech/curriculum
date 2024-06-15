@@ -160,7 +160,7 @@ Decimal  Hexadecimal
 
 If you get this far, write a method that takes two arguments: the number to be evaluated and the base you would like it to be evaluated in.
 
-## Peer Code Review
+## Instructor/Peer Code Review
 <hr />
 
 * Are there tests for each piece of functionality?

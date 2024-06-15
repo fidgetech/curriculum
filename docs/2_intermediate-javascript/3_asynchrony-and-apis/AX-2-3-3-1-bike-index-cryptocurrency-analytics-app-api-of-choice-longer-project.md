@@ -80,7 +80,7 @@ Otherwise, if you liked the cryptocurrency analytics app prompt, but you want to
 * The free plan for the Polygon.io API has a rate limit of 5 API calls per minute. 
 * [Metadata, like the company name (not "ticker symbol") and description, only exists for stocks](https://polygon.io/docs/stocks/get_v3_reference_tickers__ticker).
 
-## Peer Code Review
+## Instructor/Peer Code Review
 <hr />
 
 * Does the application make at least one API call and work as expected?

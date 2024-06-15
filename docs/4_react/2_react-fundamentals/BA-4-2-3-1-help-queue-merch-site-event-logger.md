@@ -53,7 +53,7 @@ Users should be able to do the following:
 
 * Create a dynamic component that shows the total number of events logged so far. The component should show in the top right corner of every page and should aggregate every different kind of event — so if there are 3 "Spotted Sandpiper" viewings and 4 "Red-Winged Blackbird" viewings total, the aggregator might read "7 total viewings."
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Application effectively uses local and shared state.

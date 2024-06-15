@@ -452,6 +452,6 @@ export default TicketControl;
 
 Now it's time to verify that our project still works as expected after this refactor. 
 
-Optionally you can do a sweep of your code with `ctrl` + `f` to look for and remove any remaining `this` or `this.state` references before building your project. Or, you can directly build your project, and work through any error messages that pop up that point to missed steps in the refactor process.
+Optionally you can do a sweep of your code with `ctrl` + `f` to look for and remove any remaining `this` or `this.state` references before building your project. Or, you can directly build your project and work through any error messages that pop up that point to missed steps in the refactor process.
 
 Also, I invite you to pause and review the code in `TicketControl` — what do you think of it? Is it easier to read and reason about? What do you like most or least about this refactor?

@@ -36,7 +36,7 @@ Whatever you do, don't worry about making a complex UI, like in the Wordle game 
 
 **Note:** Be sure you set your output format to JSON, not HTML or text.
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Does the application have a fully functioning development environment?

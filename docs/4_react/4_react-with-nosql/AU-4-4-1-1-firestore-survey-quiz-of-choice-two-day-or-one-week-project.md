@@ -7,11 +7,6 @@ hide_table_of_contents: true
 
 **Goals:** Use Firestore as a data solution for a React application. Use hooks to manage state and component lifecycle events. **Going forward, you should not use class components.**   
 
-Starting with this class session, students will pick a project to work on for a multi-day project.
-  
-*  For full-time students, you can choose between a two-day or week-long project. If you choose to work on a two-day project, you will start a different two-day project on Wednesday.
-*  For part-time students, you can choose to do a week-long project, one for each of the course section weeks, or one project for the entire course section. If you choose to work on a week-long project, you will start a different week-long project at the start of React with NoSQL Part 2.
-
 Check in with your instructor if you have any questions.
 
 ## Warm Up
@@ -40,7 +35,7 @@ Create an application that allows a user to complete a quiz or survey. Users sho
 Try implementing the following features:
 
 * A user should be able to create, update and delete a survey. All surveys should be stored in the database.
-* A user should be able to fill out and submit surveys. Survey results should be submitted to the database. (A survey result can be associated to a survey by mimicking a one-to-many relationship.)
+* A user should be able to fill out and submit surveys. Survey results should be submitted to the database. (A survey result can be associated with a survey by mimicking a one-to-many relationship.)
 * A user should be able to sign up, sign in, and sign out.
 * A user should have their own dashboard which lists the surveys they've created.
 * **Bonus**: A user should be able to see the combined data on a survey in their dashboard. For instance, if a survey provides a 1-5 rating, return an average rating for all surveys.
@@ -57,7 +52,7 @@ Try adding the following:
 * Routing with react-router.
 * Ability to associate memories with specific users.
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Application correctly uses Firestore for data storage.

@@ -61,7 +61,7 @@ _Puzzle Output:_  "B-l--v- y-- c-n -nd y--'r- h-lfw-y th-r-. Th--d-r- R--s-v-lt"
 
 Do this **without** regular expressions. (If you don't know what a regular expression is yet, don't worry — we will be covering them in a future lesson.)
 
-## Peer Code Review
+## Instructor/Peer Code Review
 <hr />
 
 * Is the business logic and user interface logic distinctly separate?

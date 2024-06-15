@@ -22,7 +22,7 @@ At a minimum, a custom environment will need React, a basic webpack configuratio
 
 There are many tutorials online for creating a React environment from scratch. However, you already have the tools to set up a custom environment from Intermediate JavaScript. If you want to build your own environment, you can follow along with lessons from [Intermediate JavaScript](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-0-9-introduction-to-webpack) — or find a tutorial online specific to webpack environments with React. You can also eject a create-react-app application to get a sense of what libraries you may or may not need.
 
-at the very least, you'll need the following [Babel preset](https://babeljs.io/docs/en/babel-preset-react) to transpile JSX code.
+At the very least, you'll need the following [Babel preset](https://babeljs.io/docs/en/babel-preset-react) to transpile JSX code.
 
 ### Ejecting from create-react-app
 

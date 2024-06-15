@@ -9,7 +9,7 @@ hide_table_of_contents: true
 
 To write an effective resume we want to use many of the keywords from the job description, and tie them to our experience. 
 
-Your resume should include  relevant work and education history, and primarily be written using bullet points.Consider any instances in which you made a tangible change at your position, and keep your bullet points as outcomes-oriented as possible. Use specific numbers and accomplishments, like "Consistently in the top 10% of representatives for customer satisfaction", rather than generic phrases, like "Achieved customer satisfaction". We'll keep the information on it concise, specific, and relevant to the position.
+Your resume should include  relevant work and education history, and primarily be written using bullet points.Consider any instances in which you made a tangible change at your position, and keep your bullet points as outcome-oriented as possible. Use specific numbers and accomplishments, like "Consistently in the top 10% of representatives for customer satisfaction", rather than generic phrases, like "Achieved customer satisfaction". We'll keep the information on it concise, specific, and relevant to the position.
 
 You may also find that some aspects of your experience aren't as relevant to some jobs; feel free to leave things out to keep the resume focused on what the company you're applying with wants. The most effective resume is one that is tailored to each individual job posting.
 

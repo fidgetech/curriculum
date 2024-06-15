@@ -144,17 +144,17 @@ We'll use a switch case to do this. A switch case is really just simplified synt
 const reducer = (state = {}, action) => {
   const { names, location, issue, id } = action;
   switch (action.type) {
-  case 'ADD_TICKET':
-    return Object.assign({}, state, {
-      [id]: {
-        names: names,
-        location: location,
-        issue: issue,
-        id: id
-      }
-    });
-  default:
-    return state;
+    case 'ADD_TICKET':
+      return Object.assign({}, state, {
+        [id]: {
+          names: names,
+          location: location,
+          issue: issue,
+          id: id
+        }
+      });
+    default:
+      return state;
   }
 };
 
@@ -177,7 +177,7 @@ export default reducer;
 
 * We return the value from `Object.assign()`. Our reducer hasn't altered anything. Instead, it made a copy of the state that was passed in as argument, altered the copy, and then returned the altered copy so it can be used elsewhere in our code.
 
-This is really, really important to understand — and cause a lot of problems otherwise. According to the Redux documentation, "Redux assumes that you never mutate the objects it gives to you in the reducer. **Every single time, you must return the new state object.**" (The emphasis is theirs.) If we don't do this, we can get bad bugs that are very difficult to fix. The Redux store (which stores our data and which we'll discuss soon) may still update. However, because the original state has been mutated, Redux won't work properly and the React application won't get re-rendered correctly. In other words, if we mutate state in a reducer, we can end up with a situation where the data gets updated but React doesn't properly re-render components to reflect that. That is bad — and often quite challenging to fix.
+This is really, really important to understand — and causes a lot of problems otherwise. According to the Redux documentation, "Redux assumes that you never mutate the objects it gives to you in the reducer. **Every single time, you must return the new state object.**" (The emphasis is theirs.) If we don't do this, we can get bad bugs that are very difficult to fix. The Redux store (which stores our data and which we'll discuss soon) may still update. However, because the original state has been mutated, Redux won't work properly and the React application won't get re-rendered correctly. In other words, if we mutate state in a reducer, we can end up with a situation where the data gets updated but React doesn't properly re-render components to reflect that. That is bad — and often quite challenging to fix.
 
 If we run our tests, they will both pass:
 

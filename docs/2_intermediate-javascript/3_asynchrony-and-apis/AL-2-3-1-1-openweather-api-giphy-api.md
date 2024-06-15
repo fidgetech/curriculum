@@ -72,7 +72,7 @@ Make sure that your project has the following features:
 * Next, populate a series of cards with trivia questions. A user should be able to click on a trivia question to see the answer.
 * Add other functionality as you see fit. For instance, allow a user to mark whether they answered a question correctly or incorrectly — and then tally the total number of correct and incorrect answers once they are finished.
 
-## Peer Code Review
+## Instructor/Peer Code Review
 ---
 
 * Does the application have a fully functioning development environment?

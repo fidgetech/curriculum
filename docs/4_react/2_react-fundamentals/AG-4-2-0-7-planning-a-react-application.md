@@ -24,7 +24,7 @@ As our diagram demonstrates, our application will start with the following funct
 
 * **Header**: Our header will remain the same regardless of whether the user is looking at all tickets, a specific ticket, or the form for creating a new ticket.
 
-This will be a very small component, which is exactly what we want. Remember, our goal is to compose our application of many smaller components as opposed to fewer larger and cumbersome components.
+This will be a very small component, which is exactly what we want. Remember, our goal is to compose our application of many smaller components, as opposed to fewer larger and cumbersome components.
 
 * **Ticket List**: This component will loop through all of our individual tickets, displaying them on the page. We will cover looping in JSX soon.
 
