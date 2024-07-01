@@ -1,0 +1,57 @@
+section: 3.0 (Lessons 6-18) Data Types and Variables
+order: 2
+repo: c-and-net
+directory: lessons-6-18-data-types-and-variables
+lessons:
+  - title: 3.0.0.06 Using a C# REPL
+    filename: 0a_c_repl.md
+    day: weekend
+    type: lesson
+  - title: 3.0.0.07 Strings, String Concatenation and Interpolation, and Chars
+    filename: 0b_strings_and_concatenation.md
+    day: weekend
+    type: lesson
+  - title: 3.0.0.08 Integers, Decimals, and Arithmetic
+    filename: 0c_integers_and_arithmetic.md
+    day: weekend
+    type: lesson
+  - title: 3.0.0.09 Variables
+    filename: 0d_variables.md
+    day: weekend
+    type: lesson
+  - title: 3.0.0.10 Booleans, Branching, and Operators
+    filename: 0e_branching_and_booleans.md
+    day: weekend
+    type: lesson
+  - title: 3.0.0.11 Classes and Instance Methods
+    filename: 0f_methods_and_classes.md
+    day: weekend
+    type: lesson
+  - title: 3.0.0.12 Namespaces and Checking the Type of an Object
+    filename: 0g_checking_the_type_of_an_object.md
+    day: weekend
+    type: lesson
+  - title: 3.0.0.13 Using Static Methods to Write and Read from the Console
+    filename: 0h_reading_from_and_writing_to_the_console.md
+    day: weekend
+    type: lesson
+  - title: 3.0.0.14 Arrays
+    filename: 0i_arrays.md
+    day: weekend
+    type: lesson
+  - title: 3.0.0.15 Lists
+    filename: 0j_lists.md
+    day: weekend
+    type: lesson
+  - title: 3.0.0.16 Dictionaries
+    filename: 0k_dictionaries.md
+    day: weekend
+    type: lesson
+  - title: '3.0.0.17 Iterators: Foreach and For Loops'
+    filename: 0l_for_each_loops.md
+    day: weekend
+    type: lesson
+  - title: 3.0.0.18 Type Casting
+    filename: 0m_type_casting.md
+    day: weekend
+    type: lesson

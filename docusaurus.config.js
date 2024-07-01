@@ -17,7 +17,9 @@ const config = {
   title: 'LHTP',
   tagline: 'Fidgetech Code',
   favicon: 'img/favicon.ico',
-
+  customFields: {
+    latestVersion: 'v1.1',
+  },
   // Set the production url of your site here
   url: 'https://fidgetechcode.org',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -52,6 +54,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'docs',
+          disableVersioning: false,
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           remarkPlugins: [
@@ -60,6 +64,18 @@ const config = {
               { block: ['indentedCode'] },
             ],
           ],
+          versions: {
+            current: {
+              path: 'v1',
+              label: 'v1',
+              banner: 'none',
+            },
+            '1.1': {
+              path: 'v1.1',
+              label: 'v1.1',
+              banner: 'none',
+            },
+          },
         },
         blog: false,
         theme: {
@@ -90,13 +106,27 @@ const config = {
             type: 'doc',
             docId: 'courses',
             position: 'left',
-            label: 'Fidgetech Code',
+            label: 'Courses',
           },
+          // {
+          //   type: 'doc',
+          //   docId: 'student-handbook',
+          //   position: 'left',
+          //   label: 'Handbook',
+          // },
           {
-            type: 'doc',
-            docId: 'student-handbook',
+            label: 'Versions',
             position: 'left',
-            label: 'Handbook',
+            items: [
+              {
+                label: 'Version 1',
+                to: '/v1',
+              },
+              {
+                label: 'Version 1.1',
+                to: '/v1.1',
+              },
+            ],
           },
         ],
       },

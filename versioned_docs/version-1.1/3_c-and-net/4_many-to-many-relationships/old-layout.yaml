@@ -1,0 +1,73 @@
+section: 3.4 Many-To-Many Relationships
+order: 8
+repo: c-and-net
+directory: many-to-many-relationships
+lessons:
+  - title: 3.4.0.1 Many-To-Many Objectives
+    filename: 0a_advanced_database_objectives.md
+    day: weekend
+    type: lesson
+  - title: 3.4.0.2 Many-to-Many Relationship Review
+    filename: 0b_many_to_many_relationship_review.md
+    day: weekend
+    type: lesson
+  - title: 3.4.0.3 Code First Development and Migrations
+    filename: 0ba_code_first_development_and_migrations.md
+    day: weekend
+    type: lesson
+  - title: '3.4.0.4 Many-to-Many Relationships: Join Entities'
+    filename: 0c_many_to_many_relationships_join_entities.md
+    day: weekend
+    type: lesson
+  - title: 3.4.0.5 Many-to-Many Read Functionality
+    filename: 0d_read_with_many_to_many.md
+    day: weekend
+    type: lesson
+  - title: 3.4.0.6 Many-to-Many Create Functionality
+    filename: 0e_create_with_many_to_many.md
+    day: weekend
+    type: lesson
+  - title: 3.4.0.7 Many-to-Many Update Functionality
+    filename: 0f_update_with_many_to_many.md
+    day: weekend
+    type: lesson
+  - title: 3.4.0.8 Many-to-Many Delete Functionality
+    filename: 0g_delete_with_many_to_many.md
+    day: weekend
+    type: lesson
+  - title: 3.4.1.1 University Registrar, Doctor's Office
+    filename: 1a_classwork_university_registrar_and_doctors_office.md
+    day: monday
+    type: exercise
+  - title: 3.4.1.2 Model Validation with Validation Attributes
+    filename: 1b_using_validation_attributes_to_validate_model.md
+    day: monday
+    type: lesson
+  - title: Customizing Entity Properties with Data Annotations
+    filename: 1c_customizing_entity_properties_with_data_annotations.md
+    day: monday
+    type: lesson
+  - title: 3.4.2.1 Creating a Splash Page with Data from Multiple Database Tables
+    filename: 2a_displaying_data_from_multiple_db_tables.md
+    day: tuesday
+    type: lesson
+  - title: 3.4.3.1 Refactoring with Many-To-Many
+    filename: 3a_classwork_refactoring_with_many_to_many.md
+    day: wednesday
+    type: exercise
+  - title: 3.4.3.2 Open Source Projects
+    filename: open-source.md
+    day: wednesday
+    type: lesson
+  - title: 3.4.4.1 Whiteboard Practice
+    filename: 4a_whiteboarding_practice.md
+    day: thursday
+    type: lesson
+  - title: 3.4.4.2 Technical Interview Prep
+    filename: 4b_weekly_technical_interview_prep_week_4.md
+    day: thursday
+    type: lesson
+  - title: 3.4.5.1 Many-To-Many Independent Project
+    filename: 5a_many_to_many_databases_independent_project.md
+    day: friday
+    type: exercise

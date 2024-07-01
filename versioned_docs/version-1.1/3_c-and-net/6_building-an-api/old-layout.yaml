@@ -1,0 +1,97 @@
+section: 3.6 Building an API
+order: 10
+repo: c-and-net
+directory: building-an-api
+lessons:
+  - title: 3.6.0.01 Building an API Objectives
+    filename: 0a_backend_apis.md
+    day: weekend
+    type: lesson
+  - title: 3.6.0.02 Scaffolding a .NET Application with dotnet new
+    filename: 0b_dotnet_new.md
+    day: weekend
+    type: lesson
+  - title: 3.6.0.03 Exploring the dotnet new Web API Template
+    filename: 0c_new_api_template.md
+    day: weekend
+    type: lesson
+  - title: 3.6.0.04 Adding a Model and Database
+    filename: 0d_establish_models_and_database.md
+    day: weekend
+    type: lesson
+  - title: 3.6.0.07 Seeding the Database
+    filename: 0fa_seeding_database.md
+    day: weekend
+    type: lesson
+  - title: '3.6.0.05 API: Create and Read'
+    filename: 0e_API_create_and_read.md
+    day: weekend
+    type: lesson
+  - title: '3.6.0.06 API: Update and Delete'
+    filename: 0f_API_update_and_delete.md
+    day: weekend
+    type: lesson
+  - title: 3.6.0.08 Adding Parameters to a Get Request to Support Query Strings
+    filename: 0g_adding_parameters_to_get_request.md
+    day: weekend
+    type: lesson
+  - title: 3.6.0.09 Adding API Model Validation
+    filename: 0h_adding_validations.md
+    day: weekend
+    type: lesson
+  - title: 3.6.0.10 Scaffolding API Controllers
+    filename: 0i_scaffolding_api_controller.md
+    day: weekend
+    type: lesson
+  - title: 3.6.0.11 Further Exploration with API's
+    filename: 1b_further_exploration_with_apis.md
+    day: weekend
+    type: lesson
+  - title: 3.6.0.12 Documenting Your API
+    filename: 0j_documenting_an_api.md
+    day: weekend
+    type: lesson
+  - title: 3.6.1.1 Prior Course Section Survey
+    filename: course_section_survey.md
+    day: monday
+    type: lesson
+  - title: 3.6.1.2 Building an API Part 1
+    filename: 1a_classwork_building_an_api.md
+    day: monday
+    type: exercise
+  - title: 3.6.1.3 Configuring Application URLs to Run Two ASP.NET Core Applications
+    filename: 1c_running_two_applications.md
+    day: monday
+    type: lesson
+  - title: Building an API Part 2
+    filename: 1a_classwork_building_an_api.md
+    day: tuesday
+    type: exercise
+  - title: '3.6.2.4 MVC Client: GetAll()'
+    filename: 2a_client_get_all.md
+    day: tuesday
+    type: lesson
+  - title: '3.6.2.5 MVC Client: GetDetails()'
+    filename: 2b_client_get_details.md
+    day: tuesday
+    type: lesson
+  - title: '3.6.2.6 MVC Client: POST, PUT, and DELETE'
+    filename: 2c_client_post_put_delete.md
+    day: tuesday
+    type: lesson
+  - title: 3.6.3.1 Communicating With An API Part 1
+    filename: 3a_classwork_communicating_with_an_api.md
+    day: wednesday
+    type: exercise
+  - title: Communicating With An API Part 2
+    filename: 3a_classwork_communicating_with_an_api.md
+    day: thursday
+    type: exercise
+  - title: 3.6.4.1 Weekly Technical Interview Prep
+    filename: 4b_weekly_technical_interview_prep.md
+    day: thursday
+    type: lesson
+  - title: 3.6.5.1 Building An API Independent Project
+    filename: 5a_building_an_api_independent_project.md
+    day: friday
+    type: exercise

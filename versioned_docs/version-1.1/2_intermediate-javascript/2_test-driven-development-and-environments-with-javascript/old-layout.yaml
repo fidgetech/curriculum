@@ -1,0 +1,193 @@
+section: 2.2 Test-Driven Development and Environments with JavaScript
+order: 3
+repo: intermediate-javascript
+directory: test-driven-development-and-environments-with-javascript
+lessons:
+  - title: 2.2.0.1 Test-Driven Development and Environments with JavaScript Objectives
+    filename: 0a_test_driven_development_objectives.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.2 Modern JavaScript Development
+    filename: 0b_modern_javascript_development.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.3 Basic Project Structure
+    filename: 0c_project_structure.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.4 Future Project Structure
+    filename: 0d_future_project_structure.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.5 Git Best Practices and Adding a .gitignore File
+    filename: 0e_git_best_practices_and_adding_a_gitignore_file.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.6 Creating a package.json with npm
+    filename: 0f_building_a_manifest_file_with_npm.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.7 Semantic Versioning
+    filename: 0g_semantic_versioning.md
+    day: weekend
+    type: lesson
+  - title: '2.2.0.8 Installing Dependencies with npm: webpack and webpack-cli'
+    filename: 0h_installing_dependencies_with_npm.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.9 Introduction to webpack
+    filename: 0i_introduction_to_webpack.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.10 Configuring webpack and Using npm Scripts
+    filename: 0j_configuring_webpack.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.11 ES6 Imports and Exports
+    filename: 0k_es6_imports_and_exports.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.12 Bundling JavaScript
+    filename: 0l_bundling_javascript.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.13 Bundling CSS with webpack Loaders
+    filename: 0m_bundling_css.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.14 Processing HTML with a webpack Plugin
+    filename: 0n_processing_html.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.15 Improving Development by Automating Clean Up Tasks
+    filename: 0o_cleaning_up.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.16 Improving Development with Source Maps for Debugging
+    filename: 0p_source_maps_for_debugging.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.17 Improving Development with a Live Development Server
+    filename: 0q_development_servers.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.18 Improving Development by Linting Code
+    filename: 0r_linting_code.md
+    day: weekend
+    type: lesson
+  - title: '2.2.0.19 Adding A Production Dependency: Bootstrap'
+    filename: 0s_adding_a_production_dependency.md
+    day: weekend
+    type: lesson
+  - title: 2.2.0.20 Configuration Reference, Suggested Workflows, and Optional Review
+    filename: 0t_config_reference_workflow_and_review.md
+    day: weekend
+    type: lesson
+  - title: 2.2.1.1 webpack and npm Practice
+    filename: 1a_classwork_webpack_and_npm_practice.md
+    day: monday
+    type: exercise
+  - title: 2.2.1.2 TDD Review
+    filename: 1b_tdd_review.md
+    day: monday
+    type: lesson
+  - title: 2.2.1.3 Red Green Refactor Workflow
+    filename: 1c_red_green_refactor_workflow.md
+    day: monday
+    type: lesson
+  - title: 2.2.1.4 Setting Up Jest
+    filename: 1d_setting_up_jest.md
+    day: monday
+    type: lesson
+  - title: 2.2.1.5 Setting Up Babel
+    filename: 1e_setting_up_babel.md
+    day: monday
+    type: lesson
+  - title: '2.2.1.6 TDD with Jest: Testing the Triangle() Constructor'
+    filename: 1f_tdd_with_jest_triangle_constructor.md
+    day: monday
+    type: lesson
+  - title: '2.2.1.7 TDD with Jest: Testing the Triangle.prototype.checkType() Method'
+    filename: 1g_tdd_with_jest_checkType_method.md
+    day: monday
+    type: lesson
+  - title: 2.2.1.8 Testing Best Practices
+    filename: 1h_good_fails_and_bad_fails.md
+    day: monday
+    type: lesson
+  - title: '2.2.1.9 Expanding our Testing Tools: Adding Setup and Teardown'
+    filename: 1i_setup_and_teardown.md
+    day: monday
+    type: lesson
+  - title: '2.2.1.10 Improving Test Reports: Adding Test Coverage Information'
+    filename: 1j_adding_test_coverage_information.md
+    day: monday
+    type: lesson
+  - title: 2.2.1.11 Asking and Listening
+    filename: 4_asking_and_listening.md
+    day: monday
+    type: lesson
+  - title: 2.2.2.1 Test It Out, Sudoku Checker, Project Euler
+    filename: 2a_classwork_test_it_out_sudoku_checker_project_euler.md
+    day: tuesday
+    type: exercise
+  - title: 2.2.2.2 Introduction to ES6
+    filename: 2b_introduction_to_es6.md
+    day: tuesday
+    type: lesson
+  - title: 2.2.2.3 ES6 Classes
+    filename: 2c_es6_classes.md
+    day: tuesday
+    type: lesson
+  - title: 2.2.2.4 ES6 Arrow Notation
+    filename: 2d_arrow_functions.md
+    day: tuesday
+    type: lesson
+  - title: 2.2.2.5 ES6 Template Literals
+    filename: 2e_template_literals_in_es6.md
+    day: tuesday
+    type: lesson
+  - title: 2.2.2.6 Working with Multiple Business Logic Files
+    filename: 2f_working_with_multiple_files.md
+    day: tuesday
+    type: lesson
+  - title: 2.2.2.7 Creating a Template Repository
+    filename: 2f_working_with_templates.md
+    day: tuesday
+    type: lesson
+  - title: 2.2.3.1 Haiku Creator, RPG, Sudoku Solver (Longer Project) - Part 1
+    filename: 3a_classwork_haiku_creator_rpg_sudoku_solver.md
+    day: wednesday
+    type: exercise
+  - title: 2.2.3.2 Managing Images with webpack
+    filename: 3b_managing_images_with_webpack.md
+    day: wednesday
+    type: lesson
+  - title: 2.2.3.3 ES6 Array and Object Destructuring
+    filename: 3d_destructuring.md
+    day: wednesday
+    type: lesson
+  - title: 2.2.3.4 ES6 Maps and Sets
+    filename: 3e_es6_maps_and_sets.md
+    day: wednesday
+    type: lesson
+  - title: 2.2.4.1 Haiku Creator, RPG, Sudoku Solver (Longer Project) - Part 2
+    filename: 3a_classwork_haiku_creator_rpg_sudoku_solver.md
+    day: thursday
+    type: exercise
+  - title: '2.2.4.2 Whiteboard Practice: JavaScript Strings'
+    filename: 4a_classwork_whiteboarding_practice_javascript_strings.md
+    day: thursday
+    type: exercise
+  - title: 2.2.4.3 Meetups and Networking
+    filename: meetups-and-networking.md
+    day: thursday
+    type: lesson
+  - title: '2.2.4.4 Developer Reality: You Are the Project'
+    filename: you_are_the_project.md
+    day: thursday
+    type: lesson
+  - title: 2.2.5.1 TDD and Environments with JavaScript Independent Project
+    filename: 5a_classwork_tdd_with_javascript_independent_project.md
+    day: friday
+    type: exercise

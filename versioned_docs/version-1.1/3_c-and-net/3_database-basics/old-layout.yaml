@@ -1,0 +1,153 @@
+section: 3.3 Database Basics
+order: 7
+repo: c-and-net
+directory: database-basics
+lessons:
+  - title: 3.3.0.01 Database Basics Objectives
+    filename: 0a_database_basics_objectives.md
+    day: weekend
+    type: lesson
+  - title: 3.3.0.02 Introduction to Databases
+    filename: 0b_introduction_to_databases.md
+    day: weekend
+    type: lesson
+  - title: '3.3.0.03 SQL Basics: Managing MySQL Databases from the Command Line'
+    filename: 0d_sql_basics.md
+    day: weekend
+    type: lesson
+  - title: '3.3.0.04 Introduction to MySQL Workbench: Creating a Database'
+    filename: 0e_introducing_mysql_workbench.md
+    day: weekend
+    type: lesson
+  - title: 3.3.0.05 Connecting a Database to an ASP.NET Core App with MySqlConnector
+    filename: 0f_creating_the_database_object.md
+    day: weekend
+    type: lesson
+  - title: 3.3.0.06 Retrieving Objects From the Database
+    filename: 0g_retrieving_objects_from_the_database.md
+    day: weekend
+    type: lesson
+  - title: 3.3.0.07 Testing Database Backed Applications
+    filename: 0h_testing_database_backed_applications.md
+    day: weekend
+    type: lesson
+  - title: '3.3.0.08 Creating a Test Database: Exporting and Importing Databases with MySQL Workbench'
+    filename: 0ha_exporting_and_importing_databases.md
+    day: weekend
+    type: lesson
+  - title: 3.3.0.09 Using the Test Database
+    filename: 0hb_using_the_test_database.md
+    day: weekend
+    type: lesson
+  - title: 3.3.0.10 Deleting Objects in the Database
+    filename: 0i_deleting_objects_in_the_database.md
+    day: weekend
+    type: lesson
+  - title: 3.3.0.11 Testing for an Empty Database
+    filename: 0j_testing_for_an_empty_database.md
+    day: weekend
+    type: lesson
+  - title: 3.3.0.12 Overriding Equals and GetHashCode
+    filename: 0k_overriding_equals.md
+    day: weekend
+    type: lesson
+  - title: 3.3.0.13 Saving Objects in the Database
+    filename: 0l_saving_objects_in_the_database.md
+    day: weekend
+    type: lesson
+  - title: 3.3.0.14 Finding Objects in the Database
+    filename: 0n_finding_objects_in_the_database.md
+    day: weekend
+    type: lesson
+  - title: 3.3.0.15 More SQL Queries
+    filename: 0o_more_sql_queries.md
+    day: weekend
+    type: lesson
+  - title: 3.3.1.1 To Do List and Project Rebuild
+    filename: 1a_classwork_to_do_list_and_project_rebuild.md
+    day: monday
+    type: exercise
+  - title: 3.3.1.2 Database Schema and Relationship Types
+    filename: database_schema_and_relationship_types.md
+    day: monday
+    type: lesson
+  - title: 3.3.1.3 Using SQL Designer
+    filename: sql_designer_walkthrough.md
+    day: monday
+    type: lesson
+  - title: 3.3.1.4 Introducing Entity Framework Core
+    filename: 1b_introducing_entity_framework.md
+    day: monday
+    type: lesson
+  - title: 3.3.1.5 Configuration for Entity Framework Core
+    filename: 1c_configuration_for_ef_core.md
+    day: monday
+    type: lesson
+  - title: 3.3.1.6 Read with EF Core
+    filename: 1d_ef_core_with_an_existing_database.md
+    day: monday
+    type: lesson
+  - title: 3.3.1.7 Create with EF Core
+    filename: 1e_crud_with_ef_core_create_and_read.md
+    day: monday
+    type: lesson
+  - title: 3.3.1.8 HTML Helper Methods, Lambda Expressions, and String Interpolation
+    filename: 1f_html_helpers.md
+    day: monday
+    type: lesson
+  - title: 3.3.1.9 Showing Item Details with EF Core
+    filename: 1g_showing_item_detail.md
+    day: monday
+    type: lesson
+  - title: 3.3.1.10 Further Exploration with Testing
+    filename: 1h_further_exploration_with_testing.md
+    day: monday
+    type: lesson
+  - title: 3.3.2.1 To Do List, Animal Shelter, and Inventory
+    filename: 2a_classwork_to_do_list_animal_shelter_and_inventory.md
+    day: tuesday
+    type: exercise
+  - title: 3.3.2.2 Update with EF Core
+    filename: 2g_update_with_ef_core.md
+    day: tuesday
+    type: lesson
+  - title: 3.3.2.3 Delete with EF Core
+    filename: 2h_delete_with_ef_core.md
+    day: tuesday
+    type: lesson
+  - title: 3.3.2.4 Establishing a One-To-Many Relationship with Navigation Properties
+    filename: 2j_relationships_with_entity_framework.md
+    day: tuesday
+    type: lesson
+  - title: 3.3.2.5 Using ViewBag
+    filename: 2k_using_viewbag.md
+    day: tuesday
+    type: lesson
+  - title: 3.3.2.6 Create and Update with a One-To-Many Relationship
+    filename: 2l_create_update_one_to_many.md
+    day: tuesday
+    type: lesson
+  - title: 3.3.3.1 Best Restaurants in Town
+    filename: 3a_classwork_best_restaurants_in_town_two_day_project.md
+    day: wednesday
+    type: exercise
+  - title: 3.3.3.2 ACID Databases
+    filename: 3c_acid_databases.md
+    day: wednesday
+    type: lesson
+  - title: 3.3.4.1 Technical Interview Practice
+    filename: 4a_classwork_weekly_technical_interview_practice.md
+    day: thursday
+    type: exercise
+  - title: 3.3.4.2 Whiteboard Practice
+    filename: 4b_classwork_whiteboard_practice_prime_checker_and_multiples.md
+    day: thursday
+    type: exercise
+  - title: 3.3.4.3 Pull Requests and Submitting Great Work
+    filename: developer_reality_pull_requests_and_submitting_great_work.md
+    day: thursday
+    type: lesson
+  - title: 3.3.5.1 Database Basics Independent Project
+    filename: 5a_database_basics_independent_project.md
+    day: friday
+    type: exercise

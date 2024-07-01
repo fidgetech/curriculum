@@ -1,0 +1,57 @@
+section: 1.0 Getting Started at Epicodus
+order: 1
+repo: pre-work
+directory: getting-started-at-epicodus
+lessons:
+  - title: 1.0.0.01 Learn How to Program
+    filename: 0a_learn_how_to_program.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.02 Growth Mindset
+    filename: 0b_growth_mindset.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.03 Making Epicodus an Inclusive Place
+    filename: 0c_making_epicodus_an_inclusive_place.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.04 Community Agreements
+    filename: 0ca_community_agreements.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.05 Making the Most of Code School
+    filename: 0d_making_the_most_of_code_school.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.06 Pair Programming
+    filename: 0e_pair_programming.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.07 How to Ask for Help
+    filename: 0f_how_to_ask_for_help.md
+    day: weekend
+    type: lesson
+  - title: '1.0.0.08 Curriculum Details: Intro to Programming'
+    filename: 0g_curriculum_details_intro_to_programming.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.09 Independent Projects and Code Reviews
+    filename: 0j_indepndnt_projects_and_code_reviews.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.10 Academic Honesty
+    filename: 0ja_academic_dishonesty.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.11 Final Capstone Project
+    filename: 0k_final_capstone_project.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.12 A Glossary of Epicodus Terminology
+    filename: 0l_glossary_for_epicodus_terminology.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.13 Student Handbook
+    filename: student-handbook.md
+    day: weekend
+    type: lesson

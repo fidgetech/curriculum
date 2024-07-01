@@ -1,0 +1,41 @@
+section: 1.0 Getting Started with Intro to Programming
+order: 2
+repo: pre-work
+directory: getting-started-with-intro-to-programming
+lessons:
+  - title: 1.0.0.14 Welcome to Intro
+    filename: 0a_welcome_to_intro.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.15 Installation and Setup
+    filename: 0h_homework_installation_and_setup.md
+    day: weekend
+    type: lesson
+  - title: '1.0.0.16 Text Editor: Visual Studio Code'
+    filename: 0ab_text_editor_vscode.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.17 Introduction to the Command Line
+    filename: 0b_introduction_to_the_command_line.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.18 Interacting with the Command Line
+    filename: 0c_interacting_with_the_command_line.md
+    day: weekend
+    type: lesson
+  - title: '1.0.0.19 Practice: Command Line'
+    filename: 0d_practice_command_line.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.20 Git and GitHub
+    filename: 0e_git_and_github.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.21 Git Configurations
+    filename: 0f_git_configurations.md
+    day: weekend
+    type: lesson
+  - title: 1.0.0.22 Creating and Using a Git PAT
+    filename: 0g_creating_and_using_a_pat.md
+    day: weekend
+    type: lesson
