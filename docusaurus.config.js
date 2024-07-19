@@ -108,12 +108,11 @@ const config = {
             position: 'left',
             label: 'Courses',
           },
-          // {
-          //   type: 'doc',
-          //   docId: 'student-handbook',
-          //   position: 'left',
-          //   label: 'Handbook',
-          // },
+          {
+            href: 'https://fidgetech.org/fidgetech-catalog',
+            position: 'left',
+            label: 'Handbook',
+          },
           {
             label: 'Versions',
             position: 'left',
