@@ -35,13 +35,13 @@ A [separate article by Dr. Saul McLeod](https://www.simplypsychology.org/social-
 
 Take a moment to think about your social identities. Which ones are more hidden (like class or religion), and which ones are more obvious (like race or gender)? If you're not sure where to start, consider your race, gender, age, class, ability, sexual orientation, religion, and immigration status.
 
-### [Ready to Write Your Reflection?](#ready-to-write-your-reflection)
+<!-- ### [Ready to Write Your Reflection?](#ready-to-write-your-reflection)
 
 There is a reflective assignment for this lesson. If you are ready to write your reflection, head on over to Epicenter to find the prompt. If you are logged in to Epicenter, you can access the prompt by navigating to this link:
 
 **<span class="glyphicon glyphicon-link"></span> [Reflection Prompt: Social Identities](https://epicenter.epicodus.com/journals?title=Social+Identities)**
 
-Otherwise, you can find detailed instructions on accessing the reflection prompts in the [DEI Reflective Assignments](../../diversity-equity-and-inclusion/dei-curriculum-overview/dei-reflective-assignments#finding-the-reflection-prompts) lesson.
+Otherwise, you can find detailed instructions on accessing the reflection prompts in the [DEI Reflective Assignments](../../diversity-equity-and-inclusion/dei-curriculum-overview/dei-reflective-assignments#finding-the-reflection-prompts) lesson. -->
 
 ### [Do you have feedback?](#do-you-have-feedback)
 

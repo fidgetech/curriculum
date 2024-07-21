@@ -27,13 +27,13 @@ At Epicodus, we believe anyone can learn to code. However, that's not the same a
 
 Many forward-thinking tech companies agree with this assessment. Companies may be more willing to hire and train people from underrepresented communities in order to promote equity and diversity. Because people from underrepresented groups face many other challenges in the tech field, one thing tech companies can do is put additional time into the training and hiring process.
 
-### [Ready to Write Your Reflection?](#ready-to-write-your-reflection)
+<!-- ### [Ready to Write Your Reflection?](#ready-to-write-your-reflection)
 
 There is a reflective assignment for this lesson. If you are ready to write your reflection, head on over to Epicenter to find the prompt. If you are logged in to Epicenter, you can access the prompt by navigating to this link:
 
 **<span class="glyphicon glyphicon-link"></span> [Reflection Prompt: Equality Versus Equity](https://epicenter.epicodus.com/journals?title=Equality+Versus+Equity)** 
 
-Otherwise, you can find detailed instructions on accessing the reflection prompts in the [DEI Reflective Assignments](../../diversity-equity-and-inclusion/dei-curriculum-overview/dei-reflective-assignments#finding-the-reflection-prompts) lesson.
+Otherwise, you can find detailed instructions on accessing the reflection prompts in the [DEI Reflective Assignments](../../diversity-equity-and-inclusion/dei-curriculum-overview/dei-reflective-assignments#finding-the-reflection-prompts) lesson. -->
 
 ### [Do you have feedback?](#do-you-have-feedback)
 

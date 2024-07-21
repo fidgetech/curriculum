@@ -9,11 +9,8 @@ paginationNext: null
 ## Independent Projects Overview
 ---
 
-Project prompts will be published on Epicenter at 8:00 am Friday for full-time students and 8:00 am on Thursday for part-time students. Before the prompt is published, only the objectives will be visible (the same that are listed below).
+Project prompts will be available on Fidgetech Code Central once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson. This lesson details:
 
-Project prompts will be available on Epicenter once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson. This lesson details:
-
-* Independent project deadlines
 * How to submit your code
 * How feedback works
 * Course completion requirements
@@ -23,15 +20,14 @@ Project prompts will be available on Epicenter once you let your instructor know
 
 To access your independent project prompt, follow these steps:
 
-*  Login to [Epicenter](https://epicenter.epicodus.com). You should automatically be taken to the _Courses_ page, but if not, select _Courses_ from the navigation bar at the top of the page.
-* Select your current course from the _Your courses_ section.
-* On your course page, select this section's code review from the _Code reviews_ section.
+* Login to [Fidgetech Code Central](https://central.fidgetechcode.org/).
+* Select your current course.
+* On your course page, select this section's code review.
 * This will bring you to a code review detail page with:
   * The prompt theme and requirements
   * A list of objectives
   * A list of optional further exploration objectives
   * A location to submit your project
-  * A survey to fill out about how the section and project went
   * A location to leave a submission note for your teacher to read 
 * Once you've completed your project, submit the GitHub repository containing your project in the  _Submission_ section of the code review detail page. See below for detailed instructions and a review of deadlines.
 
@@ -69,24 +65,16 @@ All independent coding projects at Epicodus have these baseline requirements:
 ## Submission
 <hr />
 
-Once you've completed your project, submit your code for review to the **Arrays and Looping** code review on [Epicenter](https://epicenter.epicodus.com/):
+Once you've completed your project, submit your code for review to the **Arrays and Looping** code review on [Fidgetech Code Central](https://central.fidgetechcode.org/):
 
-* Navigate to the code review detail page on Epicenter: 
-  * Go to the _Courses_ tab,
-  * Select _Intro_ under the _Your courses_ section,
-  * Select the code review title corresponding to the section under the _Code reviews_ section,
+* Navigate to the code review detail page on Fidgetech Code Central: 
+  * Select _Introduction to Programming_ from the list of courses,
+  * Select the code review title corresponding to the section,
 * Once on the code review detail page, scroll down to the _Submission_ section and follow these steps:
-  * Input the GitHub repository URL containing your project into the _Submission link_ input.
+  * Input the GitHub repository URL containing your project into the _GitHub repo URL_ input.
   * Add a submission note for your teacher to review
-  * Complete the survey
-  * Confirm that you "have read and understand the guidelines for Independent Projects" by checking the checkbox. 
-  * Hit the submit button — you will be taken to a confirmation page.
-  * On the submission confirmation page, select whether or not you want to request a meeting with your teacher
+  <!-- * Confirm that you "have read and understand the guidelines for Independent Projects" by checking the checkbox.  -->
+  * Hit the _Submit Project_ button — you will be taken to a confirmation page.
+  <!-- * On the submission confirmation page, select whether or not you want to request a meeting with your teacher -->
 
-### Deadlines
-The deadlines for the initial submission are:
-
-  * Friday at 5:00 pm for full-time students.
-  * Sunday at 8:00 am for part-time students.
-
-Keep in mind that _resubmission_ deadlines are different! Visit the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson for details on deadlines, how to submit your code, how feedback works, and course completion requirements.
+Visit the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson for details on how to submit your code, how feedback works, and course completion requirements. 

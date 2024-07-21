@@ -11,7 +11,7 @@ paginationNext: null
 
 Welcome to your first independent project!
 
-Project prompts will be available on Epicenter once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson. This lesson details:
+Project prompts will be available on Fidgetech Code Central once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson. This lesson details:
 
 * How to submit your code
 * How feedback works
@@ -22,9 +22,9 @@ Project prompts will be available on Epicenter once you let your instructor know
 
 To access your independent project prompt, follow these steps:
 
-*  Login to [Epicenter](https://epicenter.epicodus.com). You should automatically be taken to the _Courses_ page, but if not, select _Courses_ from the navigation bar at the top of the page.
-* Select your current course from the _Your courses_ section.
-* On your course page, select this section's code review from the _Code reviews_ section.
+* Login to [Fidgetech Code Central](https://central.fidgetechcode.org/).
+* Select your current course.
+* On your course page, select this section's code review.
 * This will bring you to a code review detail page with:
   * The prompt theme and requirements
   * A list of objectives
@@ -75,18 +75,17 @@ All independent coding projects at Epicodus have these baseline requirements:
 ## Submission
 ---
 
-Once you've completed your project, submit your code for review to the **Git, HTML and CSS** code review on [Epicenter](https://epicenter.epicodus.com/):
+Once you've completed your project, submit your code for review to the **Git, HTML and CSS** code review on [Fidgetech Code Central](https://central.fidgetechcode.org/):
 
-* Navigate to the code review detail page on Epicenter: 
-  * Go to the _Courses_ tab,
-  * Select _Intro_ under the _Your courses_ section,
-  * Select the code review title corresponding to the section under the _Code reviews_ section,
+* Navigate to the code review detail page on Fidgetech Code Central: 
+  * Select _Introduction to Programming_ from the list of courses,
+  * Select the code review title corresponding to the section,
 * Once on the code review detail page, scroll down to the _Submission_ section and follow these steps:
-  * Input the GitHub repository URL containing your project into the _Submission link_ input.
+  * Input the GitHub repository URL containing your project into the _GitHub repo URL_ input.
     * Do **_not_** submit the link to your live GitHub Pages site, i.e.:  `your-username.github.io/your-portfolio`. Instead, submit the link to the GitHub repository containing your code, i.e.: `github.com/your-username/your-portfolio.git`.
   * Add a submission note for your teacher to review
-  * Confirm that you "have read and understand the guidelines for Independent Projects" by checking the checkbox. 
-  * Hit the submit button — you will be taken to a confirmation page.
-  * On the submission confirmation page, select whether or not you want to request a meeting with your teacher
+  <!-- * Confirm that you "have read and understand the guidelines for Independent Projects" by checking the checkbox.  -->
+  * Hit the _Submit Project_ button — you will be taken to a confirmation page.
+  <!-- * On the submission confirmation page, select whether or not you want to request a meeting with your teacher -->
 
 Visit the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson for details on how to submit your code, how feedback works, and course completion requirements. 

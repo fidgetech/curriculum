@@ -13,7 +13,6 @@ module.exports = {
     "pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews",
     "pre-work/getting-started-at-epicodus/1-0-0-10-academic-honesty",
     "pre-work/getting-started-at-epicodus/1-0-0-11-final-capstone-project",
-    "pre-work/getting-started-at-epicodus/1-0-0-12-a-glossary-of-epicodus-terminology",
-    "pre-work/getting-started-at-epicodus/1-0-0-13-student-handbook"
+    "pre-work/getting-started-at-epicodus/1-0-0-12-a-glossary-of-epicodus-terminology"
   ]
 };

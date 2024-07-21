@@ -77,10 +77,10 @@ Before submitting, do a final check for each objective.  Spend a few minutes che
 When everything is in order, complete the following steps to submit your project:
 
 1.  Push the final code to a GitHub repo.
-2.  Login to [Epicenter](https://epicenter.epicodus.com/) and navigate to the _Courses_ tab, then select your current course, and then locate the _Code Reviews_ section.
+2.  Login to [Fidgetech Code Central](https://central.fidgetechcode.org/) and select your current course.
 3.  Select the link for this section's code review.
 4.  Paste the link to your GitHub repo in the provided field. 
-5.  In the large Epicenter text field below the link, include a brief note to your teacher about your process during this project, and any questions or concerns you may have. This content will be sent with your project submission to your teacher, and is _not_ anonymous. 
+5.  In the large text field below the link, include a brief note to your teacher about your process during this project, and any questions or concerns you may have. This content will be sent with your project submission to your teacher, and is _not_ anonymous. 
 6.  Submit your independent project for review! 
 
 ## [Evaluation & Feedback](#evaluation-feedback)
