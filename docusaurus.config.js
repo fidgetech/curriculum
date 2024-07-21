@@ -66,8 +66,8 @@ const config = {
           ],
           versions: {
             current: {
-              path: 'v1',
-              label: 'v1',
+              path: 'v1.2',
+              label: 'v1.2',
               banner: 'none',
             },
             '1.1': {
@@ -118,12 +118,12 @@ const config = {
             position: 'left',
             items: [
               {
-                label: 'Version 1',
-                to: '/v1',
-              },
-              {
                 label: 'Version 1.1',
                 to: '/v1.1',
+              },
+              {
+                label: 'Version 1.2',
+                to: '/v1.2',
               },
             ],
           },
