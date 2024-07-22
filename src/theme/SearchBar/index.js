@@ -52,6 +52,7 @@ function DocSearch({ contextualSearch, externalUrlRegex, ...props }) {
   const getIndexName = (pathname) => {
     const versionMatch = pathname.match(/^\/(v[0-9]+\.[0-9]+|v[0-9]+)\//);
     const version = versionMatch ? versionMatch[1] : customFields.latestVersion;
+    console.log(`Searching version ${version}`);
     return `fidgetechcode_${version.replace(/\./g, "_")}`;
   };
 
