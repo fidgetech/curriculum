@@ -1,7 +1,7 @@
 ---
-title: '✏️ Library Catalog, Recipe Box Week-Long Project - Part 3 (day 2)'
-day: wednesday
-id: library-catalog-recipe-box-week-long-project---part-3-day-2
+title: '✏️ 3.5.4.1 Library Catalog, Recipe Box Week-Long Project - Part 3'
+day: thursday
+id: 3-5-4-1-library-catalog-recipe-box-week-long-project---part-3
 hide_table_of_contents: true
 ---
 
