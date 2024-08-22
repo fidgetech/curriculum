@@ -1,7 +1,7 @@
 ---
-title: "📓 3.4.1.2 Weekly Technical Interview Prep"
+title: "📓 3.5.4.2 Weekly Technical Interview Prep"
 day: thursday
-id: 3-4-1-2-weekly-technical-interview-prep
+id: 3-5-4-2-weekly-technical-interview-prep
 hide_table_of_contents: true
 ---
 

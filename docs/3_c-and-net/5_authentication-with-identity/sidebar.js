@@ -18,10 +18,10 @@ module.exports = {
     "c-and-net/authentication-with-identity/3-5-2-1-making-an-api-call-with-restsharp",
     "c-and-net/authentication-with-identity/3-5-2-2-deserializing-api-responses-with-newtonsoft-json",
     "c-and-net/authentication-with-identity/3-5-2-3-api-calls-in-an-asp-net-core-mvc-app",
-    "c-and-net/authentication-with-identity/library-catalog-recipe-box-week-long-project---part-3-day-2",
+    "c-and-net/authentication-with-identity/3-5-3-1-library-catalog-recipe-box-week-long-project---part-2",
     "c-and-net/authentication-with-identity/3-5-3-2-whiteboard-practice",
-    "c-and-net/authentication-with-identity/3-4-1-1-library-catalog-recipe-box-week-long-project---part-4-day-3",
-    "c-and-net/authentication-with-identity/3-4-1-2-weekly-technical-interview-prep",
+    "c-and-net/authentication-with-identity/3-5-4-1-library-catalog-recipe-box-week-long-project---part-3",
+    "c-and-net/authentication-with-identity/3-5-4-2-weekly-technical-interview-prep",
     "c-and-net/authentication-with-identity/3-5-5-1-authentication-with-identity-independent-project"
   ]
 };
