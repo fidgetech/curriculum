@@ -65,13 +65,7 @@ As we see here, we can link to multiple stylesheets. However, it's very importan
 We can also add Bootstrap into a project via a **content delivery network**, or **CDN**. This is the option explained in the "Quick start" section on Bootstrap's [introduction page](https://getbootstrap.com/docs/4.5/getting-started/introduction/#quick-start).
 
 
-```
-CSS
-
-Copy-paste the stylesheet <link> into your <head> before all other stylesheets to load our CSS.
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-```
+![CDN-links-on-bootstraps-website](/images/bootstrap-cdn-with-jsdeliver.png)
 
 A content delivery network is exactly what it sounds like — a network of servers that make content available for users. In this case, Bootstrap is making its stylesheets available online, which means we can just load the online version directly to our project without needing to add any files to our `css` directory.
 

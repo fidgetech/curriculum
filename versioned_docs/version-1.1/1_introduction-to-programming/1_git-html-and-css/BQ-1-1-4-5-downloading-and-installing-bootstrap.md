@@ -62,7 +62,8 @@ As we see here, we can link to multiple stylesheets. However, it's very importan
 
 ### Linking to a CDN
 
-We can also add Bootstrap into a project via a **content delivery network**, or **CDN**. This is the option under the section titled "jsDelivr" on Bootstrap's [download page](https://getbootstrap.com/docs/4.5/getting-started/download/#jsdelivr). jsDelivr is a content delivery network.
+We can also add Bootstrap into a project via a **content delivery network**, or **CDN**. This is the option explained in the "Quick start" section on Bootstrap's [introduction page](https://getbootstrap.com/docs/4.5/getting-started/introduction/#quick-start).
+
 
 ![CDN-links-on-bootstraps-website](/images/bootstrap-cdn-with-jsdeliver.png)
 
@@ -90,19 +91,20 @@ Note, you do not need to retain any of the above information. However, it is int
 
 #### What's the `<script>` Tag?
 
-You likely also noticed a `<script>` tag in the Bootstrap CDN links:
+If you scrolled down to the **JS** section of the Bootstrap introduction page, you may have noticed some `<script>` tags:
 
 ```html
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 ```
 
-The `<script>` tag lets us add executable code to our HTML, like JavaScript. This specific script tag lets us use Bootstrap's JavaScript library in our project (which we source via the CDN). 
+The `<script>` tag lets us add executable code to our HTML, like JavaScript. These specific script tags let us use Bootstrap's JavaScript library in our project (which we source via the CDN), as well as the jQuery library, which Bootstrap's JavaScript library depends on.
 
 We'll learn all about JavaScript and the `<script>` tag in the next section. For now, it's helpful to know that JavaScript enables interactivity for webpages, like visual effects or animations. Because of this, many Bootstrap elements require JavaScript. Examples include dropdown menus, modal windows, and so on. If you'd like to see an example, check out [this demo of a Bootstrap modal that uses JavaScript](https://getbootstrap.com/docs/4.5/components/modal/#live-demo). Make sure to click the button "Launch demo modal".
 
-Since we won't begin exploring JavaScript until the next section, we recommend holding off on adding any JavaScript features for now. This means you do not need to include the `<script>` tag for Bootstrap's JS library in your project's `<head>` tags. Also, you will never be expected to add any Bootstrap JavaScript features for an independent project at Epicodus, so it's up to you if you eventually want to explore them further.
+Since we won't begin exploring JavaScript until the next section, we recommend holding off on adding any JavaScript features for now. This means you do not need to include the `<script>` tags in your project's `<head>` tags. Also, you will never be expected to add any Bootstrap JavaScript features for an independent project at Epicodus, so it's up to you if you eventually want to explore them further.
 
-If you do want to explore JavaScript features, the easiest way to do this is to include the CDN link to Bootstrap's JavaScript file in the `<head>` tags of your HTML document. 
+If you do want to explore JavaScript features, the easiest way to do this is to include the CDN link to jQuery and to Bootstrap's JavaScript file in the `<head>` tags of your HTML document. 
 
 To learn which elements require JavaScript, visit [Bootstrap's JavaScript Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/#components). Make sure to select the drop down that says "Show components requiring JavaScript".
 
