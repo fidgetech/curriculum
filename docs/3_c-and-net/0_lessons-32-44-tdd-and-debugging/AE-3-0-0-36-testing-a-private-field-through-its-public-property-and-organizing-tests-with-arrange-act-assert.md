@@ -129,7 +129,7 @@ We recommend following this same organizational process in your own tests throug
 If we run `$ dotnet test` in the `ShapeTracker.Tests` directory, we'll see errors:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ModelTests\TriangleTests.cs(21,34): error CS1729: 'Triangle' does not contain a constructor that takes 1 arguments [C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ShapeTracker.Tests.csproj]
 C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ModelTests\TriangleTests.cs(23,32): error CS1061: 'Triangle' does not contain a definition for 'Side1' and no accessible extension method 'Side1' accepting a first argument of type 'Triangle' could be found (are you missing a using directive or an assembly reference?) [C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ShapeTracker.Tests.csproj]
 </code>
@@ -173,7 +173,7 @@ We're now ready to see if the code we implemented passes our new test.
 When we run `dotnet test` again, we get another compiler error:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ModelTests\TriangleTests.cs(12,34): error CS7036: There is no argument given that corresponds to the required formal parameter 'length1' of 'Triangle.Triangle(int)' [C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ShapeTracker.Tests.csproj]
 </code>
 </pre>
@@ -204,7 +204,7 @@ Here's how we'll update the first test in `TriangleTests.cs`:
 We can run `dotnet test` again and confirm all our tests are passing now.
 
 <pre>
-<code style="color:green">
+<code style={{color:"green"}}>
 Passed!  - Failed:     0, Passed:     2, Skipped:     0, Total:     2, Duration: 67 ms - ShapeTracker.Tests.dll (net6.0)
 </code>
 </pre>
@@ -266,7 +266,7 @@ namespace ShapeTracker.Tests
 Let's confirm that our test fails by running `dotnet test` within the `ShapeTracker.Tests` directory:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ModelTests\TriangleTests.cs(35,7): error CS0200: Property or indexer 'Triangle.Side1' cannot be assigned to -- it is read only [C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ShapeTracker.Tests.csproj]
 </code>
 </pre>
@@ -304,7 +304,7 @@ namespace ShapeTracker.Models
 With the previous update, we can confirm that all of our tests are now passing: 
 
 <pre>
-<code style="color:green">
+<code style={{color:"green"}}>
 Passed!  - Failed:     0, Passed:     3, Skipped:     0, Total:     2, Duration: 67 ms - ShapeTracker.Tests.dll (net6.0)
 </code>
 </pre>

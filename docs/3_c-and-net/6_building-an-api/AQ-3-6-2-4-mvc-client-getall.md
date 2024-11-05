@@ -133,13 +133,13 @@ namespace CretaceousClient.Models
 
 Your API call should include the port that `CretaceousApi` is set to listen to. For the purposes of this project, we assume it listens on port `5000` using HTTP, as it does in the example repo. If you choose to deploy an API at some point, you'll need to update the URL to include the domain of the deployed site instead of `localhost`. The endpoint itself for this particular call will be `api/animals`. Also note that when you are done developing, you should revert back to using HTTPS with your API, and make a corresponding update to the domain in your MVC client requests.
 
-Notice that we're not using the `ExecuteAsync()` RestSharp method as we did in the New York Times API call example project. Now we're using `GetAsync()`. There's actually [a variety of methods](https://restsharp.dev/usage.html#making-a-call) we can use to make an API call with RestSharp. The advantage of using `GetAsync()` is that it will throw an error if the server returns an error to us. This is vital if we want to create a robust frontend application. We'll use similar methods for other requests:
+Notice that we're not using the `ExecuteAsync()` RestSharp method as we did in the New York Times API call example project. Now we're using `GetAsync()`. There's actually [a variety of methods](https://restsharp.dev/docs/usage/execute) we can use to make an API call with RestSharp. The advantage of using `GetAsync()` is that it will throw an error if the server returns an error to us. This is vital if we want to create a robust frontend application. We'll use similar methods for other requests:
 
 * `PostAsync()`
 * `PutAsync()`
 * `DeleteAsync()`
 
-Take note that we won't be including additional error handling or model validation as we put together a basic MVC frontend to communicate with our Cretaceous Park API. If you want to learn more about error handling with RestSharp, [visit the docs](https://restsharp.dev/error-handling.html).
+Take note that we won't be including additional error handling or model validation as we put together a basic MVC frontend to communicate with our Cretaceous Park API. If you want to learn more about error handling with RestSharp, [visit the docs](https://restsharp.dev/docs/advanced/error-handling/).
 
 ## Adding a Controller and View
 ---

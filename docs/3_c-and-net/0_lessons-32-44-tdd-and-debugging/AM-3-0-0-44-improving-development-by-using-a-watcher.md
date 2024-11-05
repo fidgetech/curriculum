@@ -27,7 +27,7 @@ dotnet watch 🔥 Hot reload enabled. For a list of supported edits, see https:/
 dotnet watch 🔧 Building...
   Determining projects to restore...
   All projects are up-to-date for restore.
-  ShapeTracker -> C:\Users\staff\Desktop\ShapeTracker.Soltuion\ShapeTracker\bin\Debug\net6.0\ShapeTracker.dll
+  ShapeTracker -> C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker\bin\Debug\net6.0\ShapeTracker.dll
 dotnet watch 🚀 Started
 ```
 
@@ -43,7 +43,7 @@ dotnet watch 🔥 Hot reload enabled. For a list of supported edits, see https:/
 dotnet watch 🔧 Building...
   Determining projects to restore...
   All projects are up-to-date for restore.
-C:\Users\staff\Desktop\ShapeTracker.Soltuion\ShapeTracker\Models\Triangle.cs(57,14): error CS0103: The name '_instance' does not e
+C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker\Models\Triangle.cs(57,14): error CS0103: The name '_instance' does not e
 xist in the current context [C:\Users\staff\Desktop\ShapeTracker.Soltuion\ShapeTracker\ShapeTracker.csproj]
 dotnet watch ⏳ Waiting for a file to change before restarting dotnet...
 ```

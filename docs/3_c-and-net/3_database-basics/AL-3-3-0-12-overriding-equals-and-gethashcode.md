@@ -27,7 +27,7 @@ public void Equals_ReturnsTrueIfDescriptionsAreTheSame_Item()
 In the eyes of a user, `firstItem` and `secondItem` are exactly the same. Both are `Item`s for mowing the lawn. However, if we run our tests, we'll get the following error:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 Error Message:
  Assert.AreEqual failed. Expected:&lt;ToDoList.Models.Item&gt;. Actual:&lt;ToDoList.Models.Item&gt;.
 </code>

@@ -88,7 +88,7 @@ Keep in mind that we need to include a semicolon after every statement and "usin
 For example, if we remove the semicolon from the end of `Console.WriteLine(testTriangle)` in `Program.cs`, we'll get a loud red error in our terminal stating the following:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red}}>
 /Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/Program.cs(7,36): error CS1002: ; expected [/Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/ShapeTracker.csproj]
 
 The build failed. Fix the build errors and run again.
@@ -182,7 +182,7 @@ $ dotnet run
 Uh-oh... we're getting compiler errors!
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 /Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/Program.cs(10,7): error CS0246: The type or namespace name 'Triangle' could not be found (are you missing a using directive or an assembly reference?) [/Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/test.csproj]
 /Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/Program.cs(10,35): error CS0246: The type or namespace name 'Triangle' could not be found (are you missing a using directive or an assembly reference?) [/Users/staff/Desktop/ShapeTracker.Solution/ShapeTracker/test.csproj]
 

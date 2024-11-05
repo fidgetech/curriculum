@@ -157,7 +157,7 @@ We'll encounter compiler errors often as we write C# code. A **compiler error** 
 For example, if we try to use `Console.WriteLine()` in `Program.cs` and we **don't* include the necessary using directive `using System;`, we'll get a compiler error message similar to this one:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 C:\Users\staff\Desktop\HelloWorld\Program.cs(5,5): error CS0103: The name 'Console' does not exist in the current context [C:\Users\staff\Desktop\HelloWorld\Hel
 lo.csproj]
 </code>

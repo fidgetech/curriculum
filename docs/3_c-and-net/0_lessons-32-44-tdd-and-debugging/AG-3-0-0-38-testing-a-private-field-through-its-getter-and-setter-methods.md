@@ -72,7 +72,7 @@ namespace ShapeTracker.Tests
 If we run `$ dotnet test` in the `ShapeTracker.Tests` directory, we'll get two compiler errors which confirm that our test fails and there are no false positives in our code:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ModelTests\TriangleTests.cs(69,34): error CS1729: 'Triangle' does not contain a constructor that takes 3 arguments [C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ShapeTracker.Tests.csproj]
 C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ModelTests\TriangleTests.cs(71,32): error CS1061: 'Triangle' does not contain a definition for 'GetSide3' and no accessible extension method 'GetSide3' accepting a first argument of type 'Triangle' could be found (are you missing a using directive or an assembly reference?) [C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ShapeTracker.Tests.csproj]
 </code>
@@ -128,7 +128,7 @@ We're now ready to see if the code we implemented passes our new test.
 When we run `dotnet test` again, we get many compiler errors:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ModelTests\TriangleTests.cs(12,34): error CS7036: There is no argument given that corresponds to the required formal parameter 'length3' of 'Triangle.Triangle(int, int, int)' [C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ShapeTracker.Tests.csproj]
 C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ModelTests\TriangleTests.cs(21,34): error CS7036: There is no argument given that corresponds to the required formal parameter 'length3' of 'Triangle.Triangle(int, int, int)' [C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ShapeTracker.Tests.csproj]
 C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ModelTests\TriangleTests.cs(32,34): error CS7036: There is no argument given that corresponds to the required formal parameter 'length3' of 'Triangle.Triangle(int, int, int)' [C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ShapeTracker.Tests.csproj]
@@ -231,7 +231,7 @@ namespace ShapeTracker.Tests
 We can run `dotnet test` again and confirm all our tests are passing now.
 
 <pre>
-<code style="color:green">
+<code style={{color:"green"}}>
 Passed!  - Failed:     0, Passed:     6, Skipped:     0, Total:     2, Duration: 67 ms - ShapeTracker.Tests.dll (net6.0)
 </code>
 </pre>
@@ -294,7 +294,7 @@ namespace ShapeTracker.Tests
 Let's confirm that our test fails by running `dotnet test` within the `ShapeTracker.Tests` directory:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ModelTests\TriangleTests.cs(83,19): error CS1061: 'Triangle' does 
 not contain a definition for 'SetSide3' and no accessible extension method 'SetSide3' accepting a first argument of type 'Triangle' could be found (are you missing a using directive or an assembly reference?) [C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ShapeTracker.Tests.csproj]
 </code>
@@ -347,7 +347,7 @@ namespace ShapeTracker.Models
 With the previous update, we can confirm that all of our tests are now passing: 
 
 <pre>
-<code style="color:green">
+<code style={{color:"green"}}>
 Passed!  - Failed:     0, Passed:     7, Skipped:     0, Total:     2, Duration: 67 ms - ShapeTracker.Tests.dll (net6.0)
 </code>
 </pre>

@@ -35,7 +35,7 @@ Finally, take note that compiler errors typically have an ID number that we can 
 **Remember to carefully read error messages from failed tests.** Test failure messages contain a lot of information about what failed, where, and why. Check out the following failure message:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
   Failed CheckType_DeterminesWhenScalene_String [59 ms]
   Error Message:
    Assert.AreEqual failed. Expected:&lt;scalene&gt;. Actual:&lt;not a triangle&gt;.

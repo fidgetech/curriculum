@@ -147,7 +147,7 @@ $ dotnet test
 From the output, we should see a green message highlighting that our new test passed. See the terminal output below, and take note that some of the MSTest terminal output has been omitted for brevity:
 
 <pre>
-<code style="color:green">
+<code style={{color:"green"}}>
 Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 89 ms - ShapeTracker.Tests.dll (net6.0)
 </code>
 </pre>
@@ -196,7 +196,7 @@ $ dotnet test
 From the output, we should see a green message highlighting that our test is passing. See the terminal output below, and take note that some of the MSTest terminal output has been omitted for brevity:
 
 <pre>
-<code style="color:green">
+<code style={{color:"green"}}>
 Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 187 ms - ShapeTracker.Tests.dll (net6.0)
 </code>
 </pre>

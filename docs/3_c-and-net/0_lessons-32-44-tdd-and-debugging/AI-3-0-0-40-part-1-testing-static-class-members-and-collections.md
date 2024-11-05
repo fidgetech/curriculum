@@ -80,7 +80,7 @@ We're ready to move onto the next step.
 If we run `$ dotnet test` in the `ShapeTracker.Tests` directory, we'll get a compiler error that confirms that our test fails and there are no false positives in our code:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ModelTests\TriangleTests.cs(142,46): error CS0117: 'Triangle' does not contain a definition for 'GetAll' [C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ShapeTracker.Tests.csproj]
 </code>
 </pre>
@@ -165,10 +165,10 @@ namespace ShapeTracker.Models
 
 We're now ready to see if the code we implemented passes our new test.
 
-When we run `dotnet test` again, we our test fails:
+When we run `dotnet test` again, our test fails:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
   Failed GetAll_ReturnsAllTriangleInstances_List [87 ms]
   Error Message:
    CollectionAssert.AreEqual failed. (Different number of elements.)

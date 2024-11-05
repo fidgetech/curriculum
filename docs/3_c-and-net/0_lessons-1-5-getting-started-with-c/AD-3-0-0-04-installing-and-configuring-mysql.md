@@ -22,6 +22,7 @@ Start by downloading the MySQL Community Server .`dmg` file from the MySQL Commu
 *  Students with Catalina, Big Sur, Monterey or a newer OS **and an Intel chip** should [use this link](https://dev.mysql.com/downloads/file/?id=508095). Scroll down and click the _No thanks, just start my download_ link.
 
 *  Students with Catalina, Big Sur, Monterey or a newer OS **and an M1 chip** should [use this link](https://dev.mysql.com/downloads/file/?id=508094). Scroll down and click the _No thanks, just start my download_ link.
+*  Students with Catalina, Big Sur, Monterey or a new OS **and an M2 chip** should [use this link](https://dev.mysql.com/downloads/file/?id=518602). Scroll down and click the _No thanks, just start my download_ link.
 
 Next, follow along with the **Installer** until you reach the **Configuration** page. Once you've reached **Configuration**, select or set the following options (use default if not specified):
 
@@ -143,7 +144,7 @@ To do this, we must include MySQL in the **System Environment "Path" Variable**.
 
 3. Within the "Environment Variables" window, find the section called "System variables" which will have a table listing variable names and their values. In the table, find and double click "Path" under the "variable" column (red square in image below); this will open a new window called "Edit environment variable", listing all environment variables for "Path". **Note:** you won't and shouldn't have all of the same information in your system "Path" variables as shown in the image below.
 
-  * From this window, click "New" (green circle) and add the exact location of your Postgres installation (green square), and click OK (orange circle) to save your changes. Exit out of all of the windows.
+  * From this window, click "New" (green circle) and add the exact location of your MySQL installation (green square), and click OK (orange circle) to save your changes. Exit out of all of the windows.
   * This location is likely `C:\Program Files\MySQL\MySQL Server 8.0\bin`, but may differ depending on your specific installation.
 
 ![This image shows steps 2 and 3, both the windows and buttons that should be clicked.](/images/mysql-setting-system-env-variables-RESIZED.png)

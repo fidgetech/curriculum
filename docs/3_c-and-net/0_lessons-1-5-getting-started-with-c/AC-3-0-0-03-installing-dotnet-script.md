@@ -11,7 +11,7 @@ Now that .NET 6 and C# are installed on our machines, we'll install **dotnet-scr
 
 ---
 
-As mentioned in [Welcome to C#]/c-and-net/lessons-1-5-getting-started-with-c/3-0-0-01-welcome-to-c), C# is a compiled language. In order to experiment with C#, we'll need a tool called a **REPL**, which stands for **read-evaluate-print-loop**. This allows us to run code a line at a time. This way we can practice, test, experiment, and have fun with C#.
+As mentioned in [Welcome to C#](/c-and-net/lessons-1-5-getting-started-with-c/3-0-0-01-welcome-to-c), C# is a compiled language. In order to experiment with C#, we'll need a tool called a **REPL**, which stands for **read-evaluate-print-loop**. This allows us to run code a line at a time. This way we can practice, test, experiment, and have fun with C#.
 
 We'll install and use a REPL called `dotnet-script`. 
 

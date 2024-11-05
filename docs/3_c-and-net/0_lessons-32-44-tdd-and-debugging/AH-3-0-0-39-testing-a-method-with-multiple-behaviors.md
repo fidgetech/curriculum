@@ -81,7 +81,7 @@ namespace ShapeTracker.Tests
 When we run `dotnet test` in the `ShapeTracker.Tests` directory, we'll get a compiler error letting us know that the `Triangle.CheckType()` instance method does not exist: 
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ModelTests\TriangleTests.cs(94,36): error CS1061: 'Triangle' does not contain a definition for 'CheckType' and no accessible extension method 'CheckType' accepting a first argument of type 'Triangle' could be found (are you missing a using directive or an assembly reference?) [C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker.Tests\ShapeTracker.Tests.csproj]
 </code>
 </pre>
@@ -116,6 +116,10 @@ if ((_side1 > (Side2 + _side3)) || (Side2 > (_side1 + _side3)) || (_side3 > (_si
 {
   return "not a triangle";
 } 
+else 
+{
+  return "";
+}
 ```
 
 Both approaches are acceptable.
@@ -125,7 +129,7 @@ Both approaches are acceptable.
 We'll run our tests again, and confirm that our tests are passing:
 
 <pre>
-<code style="color:green">
+<code style={{color:"green"}}>
 Passed!  - Failed:     0, Passed:     8, Skipped:     0, Total:     8, Duration: 91 ms - ShapeTracker.Tests.dll (net6.0)
 </code>
 </pre>
@@ -182,7 +186,7 @@ namespace ShapeTracker.Tests
 When we run `dotnet test` in the `ShapeTracker.Tests` directory, we'll finally get our first failed test!
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
   Failed CheckType_DeterminesWhenScalene_String [59 ms]
   Error Message:
    Assert.AreEqual failed. Expected:&lt;scalene&gt;. Actual:&lt;not a triangle&gt;.
@@ -239,7 +243,7 @@ With our `else` branch, we handle all other cases, which so far is when a triang
 Let's confirm that our new code passes our new test!
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
   Failed CheckType_DeterminesWhenNotATriangle_String [36 ms]
   Error Message:
    Assert.AreEqual failed. Expected:&lt;not a triangle&gt;. Actual:&lt;scalene&gt;.
@@ -292,7 +296,7 @@ namespace ShapeTracker.Models
 Let's run our tests again. When we do, we'll get a compiler error, one that we haven't seen before:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker\Models\Triangle.cs(31,19): error CS0161: 'Triangle.CheckType()': not all code paths return a value [C:\Users\staff\Desktop\ShapeTracker.Solution\ShapeTracker\ShapeTracker.csproj]
 </code>
 </pre>
@@ -345,7 +349,7 @@ Either approach is fine. This time, we'll opt for this second approach. Update t
 We'll run our tests again, and confirm that our tests are passing:
 
 <pre>
-<code style="color:green">
+<code style={{color:"green"}}>
 Passed!  - Failed:     0, Passed:     9, Skipped:     0, Total:     8, Duration: 91 ms - ShapeTracker.Tests.dll (net6.0)
 </code>
 </pre>
@@ -402,7 +406,7 @@ namespace ShapeTracker.Tests
 When we run `dotnet test` in the `ShapeTracker.Tests` directory, we'll see we have a failed test, which confirms that we do not have any false positives.
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
   Failed CheckType_DeterminesWhenIsosceles_String [55 ms]
   Error Message:
    Assert.AreEqual failed. Expected:&lt;isosceles&gt;. Actual:&lt;&gt;.
@@ -453,7 +457,7 @@ We've simply updated our `else` statement to return `"isosceles triangle"`. When
 We'll run our tests again, and confirm that our tests are passing:
 
 <pre>
-<code style="color:green">
+<code style={{color:"green"}}>
 Passed!  - Failed:     0, Passed:     10, Skipped:     0, Total:     8, Duration: 91 ms - ShapeTracker.Tests.dll (net6.0)
 </code>
 </pre>
@@ -510,7 +514,7 @@ namespace ShapeTracker.Tests
 When we run `dotnet test` in the `ShapeTracker.Tests` directory, we'll see we have a failed test, which confirms that we do not have any false positives.
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
   Failed CheckType_DeterminesWhenEquilateral_String [41 ms]
   Error Message:
    Assert.AreEqual failed. Expected:&lt;equilateral&gt;. Actual:&lt;isosceles&gt;.
@@ -565,7 +569,7 @@ It's easier to test for an equilateral triangle than an isosceles triangle, so w
 Let's see if the code we added passes our test! 
 
 <pre>
-<code style="color:green">
+<code style={{color:"green"}}>
 Passed!  - Failed:     0, Passed:     11, Skipped:     0, Total:     8, Duration: 91 ms - ShapeTracker.Tests.dll (net6.0)
 </code>
 </pre>

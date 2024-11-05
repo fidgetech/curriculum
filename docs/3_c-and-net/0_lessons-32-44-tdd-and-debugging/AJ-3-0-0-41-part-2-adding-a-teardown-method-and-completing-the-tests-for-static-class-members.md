@@ -98,7 +98,7 @@ We can now check our tests to see if the code we implemented in the last lesson 
 Within the `ShapeTracker.Tests` directory, run `dotnet test`. 
 
 <pre>
-<code style="color:green">
+<code style={{color:"green"}}>
 Passed!  - Failed:     0, Passed:    12, Skipped:     0, Total:    12, Duration: 138 ms - ShapeTracker.Tests.dll (net6.0)
 </code>
 </pre>
@@ -173,7 +173,7 @@ That's because we already have the code for `ClearAll()` in place within the `Tr
 Let's run `dotnet test` within the `ShapeTracker.Tests` directory, and see if our tests are passing:
 
 <pre>
-<code style="color:green">
+<code style={{color:"green"}}>
 Passed!  - Failed:     0, Passed:     13, Skipped:     0, Total:     8, Duration: 91 ms - ShapeTracker.Tests.dll (net6.0)
 </code>
 </pre>

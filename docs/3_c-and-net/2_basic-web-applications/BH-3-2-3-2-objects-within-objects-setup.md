@@ -207,7 +207,7 @@ Next, we'll test that we can retrieve `Category` IDs:
 However, if we run our tests, they don't pass. We get a failure message:
 
 <pre>
-<code style="color:red">
+<code style={{color:"red"}}>
 Error Message:
  Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;3&gt;.
 Stack Trace:
