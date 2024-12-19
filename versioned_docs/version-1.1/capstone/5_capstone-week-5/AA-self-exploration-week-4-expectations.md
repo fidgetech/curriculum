@@ -8,7 +8,7 @@ day: weekend
 type: lesson
 url: >-
   https://github.com/epicodus-curriculum/capstone/blob/main/self_exploration_week_4.md
-paginationPrev: null
+pagination_prev: null
 ---
 
 ## Self Exploration Section Expectations - Week 3

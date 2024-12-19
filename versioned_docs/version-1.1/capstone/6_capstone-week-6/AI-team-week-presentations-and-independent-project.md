@@ -8,7 +8,7 @@ day: thursday
 type: lesson
 url: >-
   https://github.com/epicodus-curriculum/shared-full-stack/blob/main/team_week_presentations_and_code_review.md
-paginationNext: null
+pagination_next: null
 ---
 
 ## Trade Show Presentations

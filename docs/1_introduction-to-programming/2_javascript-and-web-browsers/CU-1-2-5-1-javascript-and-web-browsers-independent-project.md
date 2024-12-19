@@ -3,7 +3,7 @@ title: ✏️ 1.2.5.1 JavaScript and Web Browsers Independent Project
 day: friday
 id: 1-2-5-1-javascript-and-web-browsers-independent-project
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Independent Projects Overview

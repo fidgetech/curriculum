@@ -3,7 +3,7 @@ title: ✏️ 4.4.5.1 React with NoSQL Independent Project
 day: friday
 id: 4-4-5-1-react-with-nosql-independent-project
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Independent Projects Overview

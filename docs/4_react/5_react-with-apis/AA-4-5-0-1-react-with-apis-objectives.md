@@ -3,7 +3,7 @@ title: "📓 4.5.0.1 React with APIs Objectives"
 day: weekend
 id: 4-5-0-1-react-with-apis-objectives
 hide_table_of_contents: true
-paginationPrev: null
+pagination_prev: null
 ---
 
 In this course section, we'll explore the following:

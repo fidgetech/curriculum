@@ -3,7 +3,7 @@ title: ✏️ 4.2.5.1 React Fundamentals Independent Project
 day: friday
 id: 4-2-5-1-react-fundamentals-independent-project
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Independent Projects Overview

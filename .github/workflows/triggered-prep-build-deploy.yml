@@ -22,9 +22,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Update sidebars and front matter
-        run: npm run prep
-
       - name: Build docusaurus site
         run: npm run build
 

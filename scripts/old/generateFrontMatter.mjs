@@ -18,8 +18,8 @@ export function generateFrontMatter(lesson) {
     type,
     url: `https://github.com/${config.org}/${repo}/blob/main/${repoFilename}`
   }
-  if (isFirst) frontMatter.paginationPrev = null;
-  if (isLast) frontMatter.paginationNext = null;
+  if (isFirst) frontMatter.pagination_prev = null;
+  if (isLast) frontMatter.pagination_next = null;
 
   const frontMatterYaml = matter.stringify('', frontMatter).trim() + '\n\n';
   return frontMatterYaml;

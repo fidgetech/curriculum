@@ -3,7 +3,7 @@ title: ✏️ 3.1.5.1 Test-Driven Development with C# Independent Project
 day: friday
 id: 3-1-5-1-test-driven-development-with-c-independent-project
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Independent Projects Overview

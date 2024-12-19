@@ -3,7 +3,7 @@ title: ✏️ 2.1.5.1 Object-Oriented JavaScript Independent Project
 day: friday
 id: 2-1-5-1-object-oriented-javascript-independent-project
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Independent Projects Overview

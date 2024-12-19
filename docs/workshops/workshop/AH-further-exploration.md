@@ -3,7 +3,7 @@ title: "📓 Further Exploration"
 day: weekend
 id: further-exploration
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 If you'd like to tackle another project, check out the prompts below.

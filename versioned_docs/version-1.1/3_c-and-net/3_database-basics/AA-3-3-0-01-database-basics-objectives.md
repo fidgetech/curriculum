@@ -3,7 +3,7 @@ title: "📓 3.3.0.01 Database Basics Objectives"
 day: weekend
 id: 3-3-0-01-database-basics-objectives
 hide_table_of_contents: true
-paginationPrev: null
+pagination_prev: null
 ---
 
 Up until this point, data for our programs has been stored in our computers' **RAM**, also known as **random-access memory**. This is a fast, temporary place to store information but it's not suitable for long-term storage.

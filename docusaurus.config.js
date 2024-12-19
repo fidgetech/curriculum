@@ -57,7 +57,7 @@ const config = {
           path: 'docs',
           disableVersioning: false,
           routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: 'sidebars.json',
           remarkPlugins: [
             [
               remarkDisableTokenizers,

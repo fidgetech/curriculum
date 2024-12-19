@@ -3,7 +3,7 @@ title: "📓 1.0.0.30 Accommodations for Remote Learning"
 day: weekend
 id: 1-0-0-30-accommodations-for-remote-learning
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 Remote learning comes up with its own set of challenges. These challenges can be even more pronounced for parents taking care of children, people with disabilities, and more. We are dedicated to making our online program accessible to all. Please reach out to your instructor or to career services staff if you have questions about accommodations or accessibility.

@@ -3,7 +3,7 @@ title: "📓 4.2.0.1 React Fundamentals Objectives"
 day: weekend
 id: 4-2-0-1-react-fundamentals-objectives
 hide_table_of_contents: true
-paginationPrev: null
+pagination_prev: null
 ---
 
 During this course section, we will learn how to build a basic React application that uses local and shared state. Over the course of the section, we will create an application that acts as an Epicodus ticketing system that students can use to request help for programming bugs. We'll call this app **Help Queue** and it will have full CRUD functionality including the ability to update and delete tickets. 

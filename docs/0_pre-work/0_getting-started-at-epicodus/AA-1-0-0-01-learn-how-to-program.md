@@ -3,7 +3,7 @@ title: "📓 1.0.0.01 Learn How to Program"
 day: weekend
 id: 1-0-0-01-learn-how-to-program
 hide_table_of_contents: true
-paginationPrev: null
+pagination_prev: null
 ---
 
 Hi! Welcome to _LearnHowToProgram.com_. This site is a step-by-step guide to take you from zero experience to web programmer in a short time. Learn How to Program contains both lessons and practice exercises. This content is the curriculum for [Epicodus](http://www.epicodus.com), a school for people who want to change careers and learn how to code. You are also welcome to go through the site on your own.

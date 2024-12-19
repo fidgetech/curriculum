@@ -3,7 +3,7 @@ title: "📓 2.4.4.1 Team Week Presentations and Code Review"
 day: thursday
 id: 2-4-4-1-team-week-presentations-and-code-review
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Trade Show Presentations

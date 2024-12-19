@@ -3,7 +3,7 @@ title: "📓 4.6.0.11 Prior Course Section Survey"
 day: weekend
 id: 4-6-0-11-prior-course-section-survey
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 This is a survey for the previous course section you just completed at the end of last week. We rely on this survey to get a general view of is and isn’t working well in the program, the curriculum, or our classroom model.

@@ -3,7 +3,7 @@ title: "📓 4.1.1.11 Addressing Implicit Bias"
 day: monday
 id: 4-1-1-11-addressing-implicit-bias
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum.

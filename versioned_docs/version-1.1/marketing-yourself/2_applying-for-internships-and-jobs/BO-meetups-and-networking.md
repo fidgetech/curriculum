@@ -3,7 +3,7 @@ title: "📓 Meetups and Networking"
 day: thursday
 id: meetups-and-networking
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Meetups and Networking

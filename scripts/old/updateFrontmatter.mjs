@@ -1,9 +1,10 @@
+// no longer used
 // add id and pagination to frontmatter based on alphabetical order of section lessons
 
 import { readFileSync, readdirSync, statSync } from 'fs';
 import { join, extname } from 'path';
 import matter from 'gray-matter';
-import { writeMarkdown, isFirstTwoLettersFollowedByDash } from './utils.mjs';
+import { writeMarkdown, isFirstTwoLettersFollowedByDash } from '../utils.mjs';
 const docsPath = join(process.cwd().replace(/(scripts|docs)/, ''), 'docs');
 
 function processMarkdownFile({ filePath, isFirstFile, isLastFile }) {
@@ -14,8 +15,8 @@ function processMarkdownFile({ filePath, isFirstFile, isLastFile }) {
   if (isFirstTwoLettersFollowedByDash(filename)) {
     data.id = filename.substring(3).replace('.md', '');
     data.hide_table_of_contents = true;
-    if (isFirstFile) data.paginationPrev = null;
-    if (isLastFile) data.paginationNext = null;
+    if (isFirstFile) data.pagination_prev = null;
+    if (isLastFile) data.pagination_next = null;
 
     writeMarkdown({ filePath, content, data });
   }

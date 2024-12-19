@@ -3,7 +3,7 @@ title: "📓 3.0.0.06 Using a C# REPL"
 day: weekend
 id: 3-0-0-06-using-a-c-repl
 hide_table_of_contents: true
-paginationPrev: null
+pagination_prev: null
 ---
 
 We're finally ready to craft our first C# code! 

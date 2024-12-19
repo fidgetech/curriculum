@@ -3,7 +3,7 @@ title: ✏️ 3.4.5.1 Many-To-Many Independent Project
 day: friday
 id: 3-4-5-1-many-to-many-independent-project
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Independent Projects Overview

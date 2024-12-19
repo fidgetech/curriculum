@@ -3,7 +3,7 @@ title: ✏️ 3.6.5.1 Building An API Independent Project
 day: friday
 id: 3-6-5-1-building-an-api-independent-project
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Independent Projects Overview

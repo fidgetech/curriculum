@@ -3,7 +3,7 @@ title: ✏️ Preparing For and Ranking Internships
 day: weekend
 id: preparing-for-and-ranking-internships
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 Internship interviews are about to be assigned! This morning, you will rank all the internships based on your preference. You are expected to complete this task by noon today. Career services staff will begin assigning interviews this afternoon.

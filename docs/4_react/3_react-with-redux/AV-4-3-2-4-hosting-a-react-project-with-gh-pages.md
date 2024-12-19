@@ -3,7 +3,7 @@ title: "📓 4.3.2.4 Hosting a React Project with GH-Pages"
 day: tuesday
 id: 4-3-2-4-hosting-a-react-project-with-gh-pages
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 In this lesson we'll learn how to host our webpack project on **GitHub Pages**, also referred to as **gh-pages**. GitHub Pages is free, and lets us host our HTML, CSS, and Javascript right from the repository. It's a great way to quickly host a web app, and since it's integrated into GitHub, it's a nice option for developers. You may have hosted some projects this way by creating a `gh-pages` branch in your project, and while we'll end up with the same result here, the process for setting it up is slightly different. We'll make some edits to our `package.json`, and run some new commands from our terminal. In this lesson we'll also cover how to deploy a React app built with webpack for students in the React course. 

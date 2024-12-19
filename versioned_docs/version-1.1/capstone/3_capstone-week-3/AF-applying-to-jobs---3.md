@@ -8,7 +8,7 @@ day: friday
 type: exercise
 url: >-
   https://github.com/epicodus-curriculum/career-services-full-stack/blob/main/applying_to_jobs_new.md
-paginationNext: null
+pagination_next: null
 ---
 
 

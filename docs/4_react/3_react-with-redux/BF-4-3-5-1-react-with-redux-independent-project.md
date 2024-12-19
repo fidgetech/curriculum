@@ -3,7 +3,7 @@ title: ✏️ 4.3.5.1 React with Redux Independent Project
 day: friday
 id: 4-3-5-1-react-with-redux-independent-project
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Independent Projects Overview

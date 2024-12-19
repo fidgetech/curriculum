@@ -3,7 +3,7 @@ title: "📓 Welcome to the Workshop"
 day: weekend
 id: welcome-to-the-workshop
 hide_table_of_contents: true
-paginationPrev: null
+pagination_prev: null
 ---
 
 This workshop is designed to give you a chance to experience working with some of the basic tools used in everyday web development while pair programming. It doesn't matter if you've coded before or if this is your first time building a project. By completing this workshop you'll get a feel for what goes into building a basic website and why we value pair programming at Epicodus. You might also get a sense of whether this is the kind of career you might be interested in pursuing.

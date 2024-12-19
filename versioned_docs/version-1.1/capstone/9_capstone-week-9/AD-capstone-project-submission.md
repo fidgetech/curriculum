@@ -8,7 +8,7 @@ day: thursday
 type: exercise
 url: >-
   https://github.com/epicodus-curriculum/capstone/blob/main/capstone_independent_project_submission.md
-paginationNext: null
+pagination_next: null
 ---
 
 Congratulations! You've made it through Epicodus's classwork! That's _twenty eight weeks_. We applaud your hard work!

@@ -3,7 +3,7 @@ title: ✏️ 4.1.5.1 Functional Programming with JavaScript Independent Project
 day: friday
 id: 4-1-5-1-functional-programming-with-javascript-independent-project
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Independent Projects Overview

@@ -3,7 +3,7 @@ title: "📓 Internship Overview"
 day: weekend
 id: internship-overview
 hide_table_of_contents: true
-paginationPrev: null
+pagination_prev: null
 ---
 
 Below is a general explanation and walk-through of the internship process. Exact dates and deadlines will differ for each course. You will be provided all dates and deadlines specific to your cohort as internships draw near.

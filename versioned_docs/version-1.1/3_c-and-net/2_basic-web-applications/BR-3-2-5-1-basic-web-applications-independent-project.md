@@ -3,7 +3,7 @@ title: ✏️ 3.2.5.1 Basic Web Applications Independent Project
 day: friday
 id: 3-2-5-1-basic-web-applications-independent-project
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Independent Projects Overview

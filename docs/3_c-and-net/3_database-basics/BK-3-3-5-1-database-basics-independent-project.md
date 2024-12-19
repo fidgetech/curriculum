@@ -3,7 +3,7 @@ title: ✏️ 3.3.5.1 Database Basics Independent Project
 day: friday
 id: 3-3-5-1-database-basics-independent-project
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Independent Projects Overview

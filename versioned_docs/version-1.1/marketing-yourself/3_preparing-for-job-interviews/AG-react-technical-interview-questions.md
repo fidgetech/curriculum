@@ -3,7 +3,7 @@ title: "📓 React Technical Interview Questions"
 day: weekend
 id: react-technical-interview-questions
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 Congratulations! You've finished the React curriculum and you're ready to start the process of looking for work. In order to to present your understanding as clearly as possible, please make sure to have a talking point for each of the following questions. Clearly no interviewer will ask all of these questions, and depending on the job you're interviewing for, it may be that only a specific subset of these questions applies. Work smart! Curate answers to these questions, organize them into specific topics, and consult the list in ways that are specifically useful.

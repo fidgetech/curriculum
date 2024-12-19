@@ -3,7 +3,7 @@ title: "📓 3.0.0.32 What We'll Learn in this Section"
 day: weekend
 id: 3-0-0-32-what-well-learn-in-this-section
 hide_table_of_contents: true
-paginationPrev: null
+pagination_prev: null
 ---
 
 In this C# and .NET pre-work section, we'll learn about testing and debugging tools, and in this lesson, we'll get a sense of what exactly we'll be doing in this section.

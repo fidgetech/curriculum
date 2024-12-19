@@ -8,7 +8,7 @@ day: weekend
 type: lesson
 url: >-
   https://github.com/epicodus-curriculum/capstone/blob/main/1_goal_settings_and_expectations.md
-paginationPrev: null
+pagination_prev: null
 ---
 
 # Goal Setting and Expectations

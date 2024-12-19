@@ -3,7 +3,7 @@ title: ✏️ 2.2.5.1 TDD and Environments with JavaScript Independent Project
 day: friday
 id: 2-2-5-1-tdd-and-environments-with-javascript-independent-project
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Independent Projects Overview

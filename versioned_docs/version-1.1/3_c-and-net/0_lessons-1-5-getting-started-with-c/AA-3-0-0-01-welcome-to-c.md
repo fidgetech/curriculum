@@ -3,7 +3,7 @@ title: "📓 3.0.0.01 Welcome to C#"
 day: weekend
 id: 3-0-0-01-welcome-to-c
 hide_table_of_contents: true
-paginationPrev: null
+pagination_prev: null
 ---
 
 Welcome to the world of C# web development. C# is a **strongly-typed**, **compiled** language developed by Microsoft. In this lesson, we'll take a quick look at the language and its history.

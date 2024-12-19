@@ -3,7 +3,7 @@ title: "📓 Understanding Stereotype Threat"
 day: weekend
 id: understanding-stereotype-threat
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum.

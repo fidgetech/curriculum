@@ -3,7 +3,7 @@ title: "📓 3.7.0.1 Team Project Objectives"
 day: weekend
 id: 3-7-0-1-team-project-objectives
 hide_table_of_contents: true
-paginationPrev: null
+pagination_prev: null
 ---
 
 **You're a team and you're building something awesome!**

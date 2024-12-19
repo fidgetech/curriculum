@@ -8,7 +8,7 @@ day: weekend
 type: lesson
 url: >-
   https://github.com/epicodus-curriculum/capstone/blob/main/team_week_capstone.md
-paginationPrev: null
+pagination_prev: null
 ---
 
 **You're a team and you're building something awesome!**

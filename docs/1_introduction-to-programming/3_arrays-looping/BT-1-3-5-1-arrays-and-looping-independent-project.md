@@ -3,7 +3,7 @@ title: ✏️ 1.3.5.1 Arrays and Looping Independent Project
 day: friday
 id: 1-3-5-1-arrays-and-looping-independent-project
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 ## Independent Projects Overview

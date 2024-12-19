@@ -8,7 +8,7 @@ day: monday
 type: exercise
 url: >-
   https://github.com/epicodus-curriculum/capstone/blob/main/whiteboarding_prompt_6.md
-paginationNext: null
+pagination_next: null
 ---
 
 Expectations to come...

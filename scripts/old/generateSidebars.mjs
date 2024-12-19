@@ -1,3 +1,4 @@
+// no longer used
 // generate Docusaurus section sidebar.js files based on alphabetical order of section lessons
 
 import { existsSync, readFileSync, readdirSync, writeFileSync, statSync } from 'fs';

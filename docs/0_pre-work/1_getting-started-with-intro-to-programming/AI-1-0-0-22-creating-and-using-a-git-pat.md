@@ -3,7 +3,7 @@ title: "📓 1.0.0.22 Creating and Using a Git PAT"
 day: weekend
 id: 1-0-0-22-creating-and-using-a-git-pat
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 While you are a student at Epicodus, you will be using the terminal to push and pull code from GitHub repositories. A repository is just a place where a codebase is stored. Generally, we will be working with new repositories every day, but sometimes we'll use the same repository for longer projects. Enterprise companies generally have repositories that are used for long-term projects. That means in your future career, you'll likely be focused on just a handful of repositories that are used regularly.

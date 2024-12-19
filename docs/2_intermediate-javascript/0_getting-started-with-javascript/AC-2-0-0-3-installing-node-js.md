@@ -3,7 +3,7 @@ title: "📓 2.0.0.3 Installing node.js"
 day: weekend
 id: 2-0-0-3-installing-node-js
 hide_table_of_contents: true
-paginationNext: null
+pagination_next: null
 ---
 
 Before the first week of class, take time to ensure all necessary tools and frameworks are correctly installed on your personal machine, including those we will use later on in the course.
