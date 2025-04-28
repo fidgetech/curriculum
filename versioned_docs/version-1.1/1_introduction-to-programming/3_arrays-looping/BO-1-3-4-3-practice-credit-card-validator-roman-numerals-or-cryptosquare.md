@@ -72,8 +72,10 @@ How to apply Luhn's Algorithm:
 
 Here are two credit card numbers for you to use to test your code:
 
-* A valid number: `4102080860435620`
+* A valid number: `4242424242424242`
 * An invalid number: `4102080880435620`
+
+For more test numbers, check out Stripe's [test card numbers](https://docs.stripe.com/testing#cards).
 
 #### Step 2: Validate the First Digits of the Credit Card Number
 
