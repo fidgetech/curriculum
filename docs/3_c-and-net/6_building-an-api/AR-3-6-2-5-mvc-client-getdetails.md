@@ -77,7 +77,7 @@ namespace CretaceousClient.Models
 
 This should still look familiar as it reflects the code we use to make API calls to the New York Times quite closely. 
 
-As we discussed in the previous lesson, one key difference is using the `GetAsync()` method, which will throw on a server error. To learn about the details of how error handling with RestSharp works, [visit the docs](https://restsharp.dev/error-handling.html). 
+As we discussed in the previous lesson, one key difference is using the `GetAsync()` method, which will throw on a server error. To learn about the details of how error handling with RestSharp works, [visit the docs](https://restsharp.dev/docs/advanced/error-handling). 
 
 ## Adding Controller Action and View
 ---

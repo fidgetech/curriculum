@@ -40,7 +40,7 @@ The arguments passed into the `RestRequest()` method specify the route and metho
 
 When making a POST request to our API (or any request that will be modifying our database), we need to add a header and a body. This way, our API can recognize the data types it receives and pass in the right argument for the controller route parameter(s). 
 
-We're also using the `PostAsync()` method, which will throw on a server error, just like the `GetAsync()` method we used in the last two lessons. To learn about the details of how error handling with RestSharp works, [visit the docs](https://restsharp.dev/error-handling.html). 
+We're also using the `PostAsync()` method, which will throw on a server error, just like the `GetAsync()` method we used in the last two lessons. To learn about the details of how error handling with RestSharp works, [visit the docs](https://restsharp.dev/docs/advanced/error-handling). 
 
 The corresponding method in your `Animal` model should look like this:
 
@@ -408,7 +408,7 @@ You can follow the above steps for the basic troubleshooting of issues with gett
 
 We've just scratched the surface of what we should do to make a robust frontend. What's left? We could...
 
-* Create search or filter functionality in our MVC so that we can make use of the support for query strings that we added to our API's `Get()` route. To learn how to add parameters to an MVC, check out [this RestSharp documentation on query strings](https://restsharp.dev/usage.html#query-string).
+* Create search or filter functionality in our MVC so that we can make use of the support for query strings that we added to our API's `Get()` route. To learn how to add parameters to an MVC, check out [this RestSharp documentation on query strings](https://restsharp.dev/docs/usage/request#query-string).
 * Add model validation in our MVC so that our forms catch errors before sending anything to our database.
 * Add model validation in our API so that our API can deliver quality error messages to any client. Note that even though we covered how to do this, model validation was not actually implemented in the Cretaceous Park API example project.
 * Add error handling in our MVC for API calls that do not return as expected (200, 201, 204 HTTP status codes).
