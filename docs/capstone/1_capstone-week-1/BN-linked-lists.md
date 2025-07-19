@@ -13,7 +13,7 @@ In this lesson, we are going to cover a data structure called a **linked list**.
 
 Here's a depiction of a linked list with three nodes:
 
-![A linked list with three nodes.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/linked_list.png)
+![A linked list with three nodes.](/computer-science-curriculum-2020/linked_list.png)
 
 In this simple depiction, each node has a numerical value (its data) and a `next` property. The first node is the **head**. The node's `next` property is what links it to the next node. In other words, a reference to the next node is stored in the previous node. As you can see, the final node has a `next` property of `null` because there is no node after it that it can link to.
 

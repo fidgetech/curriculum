@@ -29,7 +29,7 @@ bst.insertNode(new BSTNode(7));
 
 We'd end up with a binary search tree that looks like this:
 
-![The image shows a binary search tree where all child nodes are to the right of their parent node.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/unbalanced_tree.png)
+![The image shows a binary search tree where all child nodes are to the right of their parent node.](/computer-science-curriculum-2020/unbalanced_tree.png)
 
 This is an **unbalanced** binary search tree. The image shows exactly how it's unbalanced. It's weighted to one side only. This imbalance leads to a taller binary search tree. The greater the height of a binary search tree, the more inefficient it is. On the other hand, look what happens when we insert the nodes in a slightly different order:
 
@@ -44,7 +44,7 @@ bst.insertNode(new BSTNode(5));
 bst.insertNode(new BSTNode(7));
 ```
 
-![Now the binary search tree has an equal number of nodes on the left and right hand side.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/full_binary_tree.png)
+![Now the binary search tree has an equal number of nodes on the left and right hand side.](/computer-science-curriculum-2020/full_binary_tree.png)
 
 Now our binary search tree has a height of 3 instead of a height of 7. If we were to traverse this tree searching for the number 7, we'd only need to run through two loops — instead of 7 — to find the value we are looking for.
 
@@ -118,7 +118,7 @@ bst
 
 We can then look at the BST object:
 
-![A screenshot of the fully-expanded BST object in the console.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/BST_object.png)
+![A screenshot of the fully-expanded BST object in the console.](/computer-science-curriculum-2020/BST_object.png)
 
 As you can see, the `BST` object's `root` property holds the entire binary search tree. It's a series of deeply nested objects, with each parent node containing information about its child nodes.
 

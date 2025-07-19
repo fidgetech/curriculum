@@ -40,7 +40,7 @@ describe('binarySearchTree', () => {
 
 As the diagram in the last lesson shows, this is how we can visually depict this binary search tree:
 
-![This binary search tree has an equal number of nodes on the left and right hand side.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/full_binary_tree.png)
+![This binary search tree has an equal number of nodes on the left and right hand side.](/computer-science-curriculum-2020/full_binary_tree.png)
 
 Now we have a very basic tree that we can run our tests on.
 

@@ -14,7 +14,7 @@ In the last lesson, we learned about the basics of graph theory and looked at a 
 
 So how can we represent a graph as code? Let's take a look at our interstellar travel again — but this time we'll make it an undirected graph. The aliens of Wobox are relieved!
 
-![Undirected graph showing connections between planets.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/undirected_graph_planets.png)
+![Undirected graph showing connections between planets.](/computer-science-curriculum-2020/undirected_graph_planets.png)
 
 To simplify things even further, we've also made it so there are no circuits. That means that it's not possible to "loop" back to a planet without backtracking.
 
@@ -101,7 +101,7 @@ const adjacencyMatrix = [
 
 It may seem silly to represent a planet's relationship with itself in an adjacency matrix. However, there is a type of graph known as a **multigraph** where nodes can have multiple edges — including an edge that starts and ends at the same node. For example, a multigraph could look like this (some planets omitted for simplicity).
 
-![An example of a multigraph.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/multigraph.png)
+![An example of a multigraph.](/computer-science-curriculum-2020/multigraph.png)
 
 For this reason, it makes sense that an adjacency matrix also checks to see if an edge connects a node to itself.
 

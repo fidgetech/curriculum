@@ -15,7 +15,7 @@ A bubble sort algorithm compares the first two elements in a collection. If the 
 
 Let's take a look at a visual example of a bubble sort's first passthrough of a collection.
 
-![This chart shows a bubble sort comparing elements in a collection and swapping as needed.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/bubble-sort.png)
+![This chart shows a bubble sort comparing elements in a collection and swapping as needed.](/computer-science-curriculum-2020/bubble-sort.png)
 
 As we can see from this illustration, the bubble sort algorithm compares one pair of elements at a time and swaps them as needed. By the end of the first iteration, the last element in the collection will be sorted. It's just a coincidence that the last three elements happen to be sorted in the diagram above. Each iteration through the collection can only guarantee that one more sorted element will be added to the end — though in general, the rest of the collection will gradually become more sorted as well.
 
