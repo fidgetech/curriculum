@@ -27,11 +27,11 @@ We covered the basics of forking in [Practice: GitHub Remote Repositories](/intr
 
 To fork a repository, we just need to click the _Fork_ button in the upper right corner of the repository we want to fork.
 
-![This is the fork button.](/Intermediate+JavaScript/making-pr-requests/fork-button.png)
+![This is the fork button.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/making-pr-requests/fork-button.png)
 
 There's even a little number by the button that shows how many times the repository has been forked. The above repository doesn't have any forks — but check out the _Fork_ button for React:
 
-![The React fork button shows nearly 31K forks.](/Intermediate+JavaScript/making-pr-requests/react-fork-button.png)
+![The React fork button shows nearly 31K forks.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/making-pr-requests/react-fork-button.png)
 
 This one has nearly 31,000 forks at the time this screenshot was taken.
 
@@ -43,7 +43,7 @@ Once the branch is updated, committed, and pushed back to our fork of the projec
 
 To do that, we can open a PR _in our fork of the project_. We don't even need to navigate to the original repository.
 
-![Making a PR from the fork.](/Intermediate+JavaScript/making-pr-requests/make-pr-request-from-a-fork.png)
+![Making a PR from the fork.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/making-pr-requests/make-pr-request-from-a-fork.png)
 
 The image above shows the process of making a PR from a forked repository. GitHub automatically points at the original repository for the base repository while the compare repository is automatically the fork. Note that we should always verify that we are pointing at the correct repositories; we also need to make sure we are pointing at the right branches, too. In the example above, we can see that the compare branch is still on main — not what we want if we've just made changes to a branch on the fork! So even though GitHub should automatically point to the correct repositories, we still need to verify they are correct and update the branches as needed.
 

@@ -46,7 +46,7 @@ Note that we don't put the graph in a `beforeEach()` or `afterEach()` block. We 
 
 Next, let's include a visual representation of the coded graph above. It's the same one we were using in the last lesson.
 
-![The following chart shows all of the nodes and edges in the friend graph we've created.](/computer-science-curriculum-2020/friend-graph.png)
+![The following chart shows all of the nodes and edges in the friend graph we've created.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/friend-graph.png)
 
 There is one small but key difference about our graph that is _not_ included in our illustration. We've also added Sarah, a node that isn't connected to _anyone_ in the graph. We'll need this for one of our tests — which we'll cover in a moment.
 
@@ -286,7 +286,7 @@ This is our entire method. All we added is the `return false;` outside the while
 
 At this point, if you are feeling any confusion about how this algorithm works (and it's very understandable if you are), the next step is to intentionally break one of the tests and get into Jest's debug mode so you can step through the method and watch how variables change. The GIF below shows this — all the relevant variables have been added to _Watch_ in the left-hand pane. This loop runs until the algorithm discovers that the Thomas node is, in fact, reachable from the Jasmine node.
 
-![This GIF walks through the code.](/computer-science-curriculum-2020/dfs.gif)
+![This GIF walks through the code.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/dfs.gif)
 
 It can also be useful to look at what would happen if we didn't flag traversed nodes. In other words, if our code looked like this instead:
 
@@ -315,7 +315,7 @@ depthFirstReachable(startingNode, targetNode) {
 
 Take a look at what happens when we do this:
 
-![Now we have an infinite loop between Rose and Jasmine.](/computer-science-curriculum-2020/depth-first-infinite-loop.gif)
+![Now we have an infinite loop between Rose and Jasmine.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/depth-first-infinite-loop.gif)
 
 We bounce back and forth between Jasmine and Rose because Rose is a friend of Jasmine and Jasmine is a friend of Rose back and forth forever and ever. A truly beautiful friendship! But we don't want this in our code.
 

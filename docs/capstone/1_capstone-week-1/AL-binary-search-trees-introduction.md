@@ -18,13 +18,13 @@ A binary tree is a type of general tree structure. As the name suggests, it's a 
 
 Here's an example of a binary tree:
 
-![Image of a binary tree.](/computer-science-curriculum-2020/binary_tree.png)
+![Image of a binary tree.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/binary_tree.png)
 
 In the diagram above, each parent node has at most two child nodes. However, it's also fine if a parent has one or zero nodes. (In the latter case, it's technically not a parent.) By the way, don't worry about how the keys line up on the nodes. They do not need to be ordered in a specific fashion in a binary tree.
 
 When a parent has two child nodes in a binary tree, the child nodes are referred to as the **left child** and the **right child** based on whether the node is on the left or right.
 
-![When a parent has two nodes, the nodes are referred to as the left and right child.](/computer-science-curriculum-2020/left_and_right_child.png)
+![When a parent has two nodes, the nodes are referred to as the left and right child.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/left_and_right_child.png)
 
 Binary trees have many uses. In fact, compilers often use them to build what is known as an **abstract syntax tree** (or AST) — an intermediate representation of the code that is not yet fully compiled. The JavaScript parser uses an AST as well, though it's a general tree, not a binary tree.
 
@@ -32,7 +32,7 @@ Binary trees have many uses. In fact, compilers often use them to build what is 
 
 A binary search tree is very similar to a binary tree but also has a few additional restrictions. Let's take a look at an example.
 
-![An example of a binary search tree.](/computer-science-curriculum-2020/binary_search_tree.svg)
+![An example of a binary search tree.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/binary_search_tree.svg)
 
 In the example above, you'll see that all child nodes _to the left_ of the root node have a value _less than_ the root node. Meanwhile, all child nodes _to the right_ of the root node have a value _greater than_ the root node. This pattern continues all the way down the tree. The left-hand child always has a value _less than_ its parent while the right-hand child always has a value _greater than_ its parent. Based on this pattern, we automatically know a few things about a few values in a binary search tree. The bottom left leaf node will be the lowest value in the tree while the bottom right leaf node will be the greatest value in the tree.
 

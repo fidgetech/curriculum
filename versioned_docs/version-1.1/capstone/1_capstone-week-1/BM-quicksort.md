@@ -17,7 +17,7 @@ A quicksort algorithm randomly finds a pivot point in a collection. It then adds
 
 First, the quicksort algorithm _randomly_ finds a pivot point.
 
-![This graphic shows a collection of 7 elements. The pivot point is the fifth element, which is 9.](/computer-science-curriculum-2020/pivot-point.png)
+![This graphic shows a collection of 7 elements. The pivot point is the fifth element, which is 9.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/pivot-point.png)
 
 A good quicksort algorithm has built-in ways to intelligently determine a good random pivot point (so it's not entirely random). That is beyond the scope of this lesson, though, both because it's hard to test randomness and also because it involves a good understanding of probability theory. All you really need to know is that this randomness, if applied correctly, actually makes a quicksort algorithm _faster_.
 
@@ -25,19 +25,19 @@ In the image above, the fifth element (which holds the value `9`) is the pivot p
 
 Next, we add pointers to the leftmost and rightmost elements of the collection.
 
-![The algorithm compares the value at the left and right pointers to the pivot point.](/computer-science-curriculum-2020/quicksort/quicksort-pointers.png)
+![The algorithm compares the value at the left and right pointers to the pivot point.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/quicksort/quicksort-pointers.png)
 
 The values at each pointer are compared to the value at the pivot point. The value at the left pointer is `11`, which is greater than the pivot point's value, which is `9`. Meanwhile, the value at the right pointer is `3`, which is less than the pivot point's value. That means we can swap the values and move the pointers inward one spot each.
 
 The second iteration through the algorithm, the collection looks like this:
 
-![The first and last values have been swapped and the pointers have moved one spot inward.](/computer-science-curriculum-2020/quicksort/second-comparison.png)
+![The first and last values have been swapped and the pointers have moved one spot inward.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/quicksort/second-comparison.png)
 
 As we can see, the first and last values of the collection have been swapped. The pointers have each moved inward one position. We do the same comparison again. `13` is greater than the pivot point while `7` is less than the pivot point. We can swap again.
 
 The pointers will be moved inward another position. Since the right pointer is now on the pivot point — and the pivot point is neither less than or greater than itself — the pointer will skip to the next position to evaluate. So here's where we're at now:
 
-![Once again we've swapped values and moved the pointers inward.](/computer-science-curriculum-2020/quicksort/third-comparison.png)
+![Once again we've swapped values and moved the pointers inward.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/quicksort/third-comparison.png)
 
 Now we are comparing `12` and `6` — since the left pointer is pointing at a value greater than the pivot point and the right pointer is pointing at a value less than the pivot point, we can swap again.
 
@@ -47,7 +47,7 @@ Our collection is now a bit more sorted than it was. Every value on the left sid
 
 Now it's time for our second round of sorting. This is where the divide and conquer approach comes in. We now perform the exact same operations on our left and right sub-arrays. The illustration below demonstrates this next step.
 
-![We are now going to sort two partitions.](/computer-science-curriculum-2020/quicksort/partioned-arrays.png)
+![We are now going to sort two partitions.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/quicksort/partioned-arrays.png)
 
 As we can see, we now have a left array and a right array — which are divided based on where the left and right pointers met when we finished our first round of sorting.
 
@@ -69,7 +69,7 @@ First, let's write a test for a `findPivot()` function. A more complex and effic
 
 Before we write our test, let's take a moment to think about the parameters of our `findPivot()` function. Obviously, we'll need to pass in an array so it can find the pivot point. However, unlike with our merge sort algorithm, we aren't actually going to split up arrays into smaller sub-arrays and then merge them again. Instead, we are going to organize the sub-arrays in place. That means we also need parameters for the first and last elements of the sub-array where we need to find a pivot. Let's take another look at the illustration from above:
 
-![We are now going to sort two partitions.](/computer-science-curriculum-2020/quicksort/partioned-arrays.png)
+![We are now going to sort two partitions.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/quicksort/partioned-arrays.png)
 
 As we can see, there are pointers at the left and right element of each sub-array. We can determine where the pivot point should go based on these pointers.
 

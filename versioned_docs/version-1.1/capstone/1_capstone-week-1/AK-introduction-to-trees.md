@@ -20,7 +20,7 @@ You've probably used a tree structure before, especially if you're interested in
 
 Here is an example of a general tree structure.
 
-![Image of a general tree structure](/computer-science-curriculum-2020/general-tree-diagram.png)
+![Image of a general tree structure](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/general-tree-diagram.png)
 
 A tree consists of connected **nodes**. Each connection between nodes is called an **edge**. **Parent nodes** can have many **child nodes**, but a child node can have only one parent. A tree structure will have a single **root node** which is either directly or indirectly the parent of all other nodes in the tree. As you can probably guess, the root node is never a child node to other nodes. Finally, child nodes that don't have any children of their own are called **leaf nodes**. It should be clear how this is similar to an upside-down tree — the leaf nodes are at the bottom while the root node is at the top.
 
@@ -28,7 +28,7 @@ Also, the above tree has a **height** of 4, which we can determine by counting f
 
 We can also break up a tree into a series of **subtrees** or smaller trees. For instance, the image below shows a subtree inside the larger general tree.
 
-![Image showing a subtree](/computer-science-curriculum-2020/subtree.png)
+![Image showing a subtree](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/subtree.png)
 
 In this image, we also show two **sibling nodes**. Nodes that share the same direct parent are siblings. It's important to note, however, that **sibling nodes** aren't connected by edges.
 
@@ -36,7 +36,7 @@ Why is that important? Well, we can traverse a general tree structure because al
 
 Each node also has a key.
 
-![Each node has a key.](/computer-science-curriculum-2020/keys.png)
+![Each node has a key.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/keys.png)
 
 In a general tree, nodes don't necessarily have to be ordered in any specific way. However, in other types of trees, we'll find that the way nodes are placed is very important.
 

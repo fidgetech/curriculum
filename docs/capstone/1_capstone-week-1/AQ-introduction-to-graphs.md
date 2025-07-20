@@ -15,7 +15,7 @@ We've have actually been working with graphs a lot already. That's because the t
 
 First, let's take a look at a hypothetical example of a graph:
 
-![Graph shows interstellar routes between planets.](/computer-science-curriculum-2020/graph_theory_planets.png)
+![Graph shows interstellar routes between planets.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/graph_theory_planets.png)
 
 An advanced interstellar civilization has set up travel routes between five planets. In this graph, the planets represent **nodes**. The travel routes between each planet represent **edges**. Edges can be **directed** (pointing in one direction) or **undirected** (pointing in both directions). If this terminology mostly sounds familiar already, it's because the tree structures we've been working with already are directed graphs!
 
@@ -31,7 +31,7 @@ Zygob -> Lub -> Nu -> Cyra
 
 If the graph above were completely undirected, we'd be able to travel round-trip to Nu without any backtracking:
 
-![We can make a round trip between Lub, Nu, Zygob, and Cyra without backtracking.](/computer-science-curriculum-2020/graph_circuit.png)
+![We can make a round trip between Lub, Nu, Zygob, and Cyra without backtracking.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/graph_circuit.png)
 
 In the image above, we could make a round trip to Nu without backtracking by doing either of the following:
 
@@ -55,7 +55,7 @@ Meanwhile, each node (such as Lub) can also contain information as well. As we m
 
 As we've already mentioned, trees are a special kind of graph. For instance, let's take another look at a binary search tree.
 
-![Image of binary search tree with directed edges.](/computer-science-curriculum-2020/directed_binary_search_tree.png)
+![Image of binary search tree with directed edges.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/directed_binary_search_tree.png)
 
 We've made an update to this image of a binary search tree — now we depict it with directed edges. That's because in a tree data structure, parent nodes have knowledge of their children but child nodes don't know about their parents. To traverse a binary search tree (or other tree data structures), we need to start at the root node and work our way down. We can't start at a child node and work our way up because the edges of tree structures aren't undirected.
 
@@ -65,7 +65,7 @@ We take advantage of graph theory a lot in our daily lives, even if we aren't al
 
 For instance, every day at Epicodus we use git regularly. Here's a graph showing the commit history of a project:
 
-![A project with three branches.](/computer-science-curriculum-2020/git_graph.png)
+![A project with three branches.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/git_graph.png)
 
 Here, we see a project with a main branch plus two other branches (perhaps a feature and a dev branch). As we can see, all edges eventually lead back to the initial commit. From commit D, the history looks like this:
 
@@ -85,7 +85,7 @@ We also take advantage of graph theory every time we use a mapping application l
 
 For instance, if we wanted to go from Powell's Books to Revolution Hall in Portland, we might look up directions to see which way is fastest.
 
-![Image shows series of nodes connected with directed edges.](/computer-science-curriculum-2020/google_maps_directed_graph.png)
+![Image shows series of nodes connected with directed edges.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/google_maps_directed_graph.png)
 
 In order to find the fastest route, Google will calculate the shortest distance between the first node (Powell's Books) and the last node (Revolution Hall). As you might guess, the edges need to be weighted so that the actual distance between each node can be determined.
 

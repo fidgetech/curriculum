@@ -15,13 +15,13 @@ We can visualize a heap as a kind of binary tree that's organized either from lo
 
 The first illustration shows a **min heap**. A min heap, as you might guess, has values organized from lowest to highest.
 
-![The root node has the lowest value. Subsequent rows have higher values.](/computer-science-curriculum-2020/min_heap.png)
+![The root node has the lowest value. Subsequent rows have higher values.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/min_heap.png)
 
 While heaps look like binary trees, note how they are different from binary search trees — a right child doesn't need to be greater than a left child. Also, as you can see from the illustration, a heap can have duplicate values while a binary search tree can not.
 
 Now let's look at a **max heap**, where values go from highest (in the root node) to lowest (in the leaf nodes).
 
-![The root node has the highest value. Subsequent rows have lower values.](/computer-science-curriculum-2020/max_heap.png)
+![The root node has the highest value. Subsequent rows have lower values.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/max_heap.png)
 
 There are two more very important rules about heaps:
 
@@ -31,7 +31,7 @@ There are two more very important rules about heaps:
 
 For instance, this isn't a heap:
 
-![The second from bottom row isn't completely filled in this tree.](/computer-science-curriculum-2020/not_a_heap.png).
+![The second from bottom row isn't completely filled in this tree.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/not_a_heap.png).
 
 Remember, _every row except for the bottom row must be filled_. In this case, there is an incomplete row that's not the bottom row. If we moved the `7` node into the incomplete space, this would be a heap.
 
