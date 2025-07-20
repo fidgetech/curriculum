@@ -45,19 +45,19 @@ They will use a [branching and merging] workflow when they add and modify code f
 To assign a person as a collaborator, the owner will need to follow these steps:
 
 1. Go to the `Settings` menu on the right side of the main repository (see in red box below).
-![GitHub repo settings](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/git-with-teams/git-june-2020/click-on-settings-tab.png)
+![GitHub repo settings](/images/git-with-teams/git-june-2020/click-on-settings-tab.png)
 
 2. Go to `Manage Access` on the left side menu:
 
-![Manage Access is in left-hand menu](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/git-with-teams/git-june-2020/click-manage-access.png)
+![Manage Access is in left-hand menu](/images/git-with-teams/git-june-2020/click-manage-access.png)
 
 3. Click on `Invite Teams or People`: 
 
-![Click "Invite Teams or People"](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/git-with-teams/git-june-2020/click-invite-teams-or-people.png)
+![Click "Invite Teams or People"](/images/git-with-teams/git-june-2020/click-invite-teams-or-people.png)
 
 4. Add a team member by GitHub username, full name or email in the Collaborators form. GitHub will helpfully offer to autopopulate, but be careful! It's easy to give a random account access otherwise.
 
-![Add the team member you want to add.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/git-with-teams/git-june-2020/add-gh-username-or-email.png)
+![Add the team member you want to add.](/images/git-with-teams/git-june-2020/add-gh-username-or-email.png)
 
 5. Click `Select a team or member above` to add the GitHub user to the project. At that point, the GitHub user will be sent a confirmation email. Once they have confirmed, they will be added to the project.
 

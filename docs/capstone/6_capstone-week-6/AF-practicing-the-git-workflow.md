@@ -70,7 +70,7 @@ So let's simulate that process. We'll make another change to our code, this time
 
 We can imitate this process by going to the repository in GitHub and clicking on the pencil icon, which allows us to modify the code directly in GitHub's UI.
 
-![Click on the pencil icon to make an update to the code.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/click-pencil-icon.png)
+![Click on the pencil icon to make an update to the code.](/images/Intermediate+JavaScript/click-pencil-icon.png)
 
 Now let's change the greeting to French in GitHubs:
 
@@ -133,7 +133,7 @@ When there is a merge conflict, a list with the file (or files) that have merge 
 
 Merge conflicts can be scary. Fortunately, VS Code makes managing conflicts much easier. If we navigate to the application in VS Code, we'll see the following:
 
-![Image shows the merge conflict in VS Code.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/Intermediate+JavaScript/merge-conflict.png)
+![Image shows the merge conflict in VS Code.](/images/Intermediate+JavaScript/merge-conflict.png)
 
 VS Code has helpfully organized the code into two parts: the _Current Change_, which is the code from the branch we are on, and the _Incoming Change_, which is the code coming from the branch we are merging. It's easy to remember which is which by thinking of the branch we are merging as being the _incoming_ branch and the branch we are on as being the _current_ branch.
 

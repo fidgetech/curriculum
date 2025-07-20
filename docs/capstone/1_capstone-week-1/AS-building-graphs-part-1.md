@@ -19,7 +19,7 @@ Imagine we've been hired to work on an application that keeps track of friendshi
 
 This graph will not be a **connected** graph. A connected graph is one where a potential path exists between every single node in the graph. However, in an actual social network, we can't assume that everyone knows each other. Our social network could look like this:
 
-![This image shows two groups of nodes. Each group is connected by edges but the two groups have no connection to each other.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/unconnected_graph.png)
+![This image shows two groups of nodes. Each group is connected by edges but the two groups have no connection to each other.](/images/computer-science-curriculum-2020/unconnected_graph.png)
 
 In the image above, Ada, Grace and Eve are friends. However, no one in this group is friends (yet) with Mary and Lina, who have their own friend group.
 

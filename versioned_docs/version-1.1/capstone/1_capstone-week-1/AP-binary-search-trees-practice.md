@@ -30,7 +30,7 @@ Fortunately, we can use a TDD approach to solve this problem one step at a time.
 
   The diagrams below illustrate what happens:
 
-  ![The node is removed and its left child takes its place — which means the right child becomes the child of what used to be its sibling.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/tree-node-removal.png)
+  ![The node is removed and its left child takes its place — which means the right child becomes the child of what used to be its sibling.](/images/computer-science-curriculum-2020/tree-node-removal.png)
 
   In the left diagram, _Node to delete_ hasn't been deleted yet. We see that it has links to its parent node and two child nodes. All of those connections need to be updated.
 
@@ -46,13 +46,13 @@ Next, we'll move onto another challenging problem. The first couple of steps wil
 
 Here's an example of a balanced tree with its height:
 
-![In this illustration, the difference between the subtree's heights is 1.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/balanced-tree-with-height.png)
+![In this illustration, the difference between the subtree's heights is 1.](/images/computer-science-curriculum-2020/balanced-tree-with-height.png)
 
 Here we can see that the height of the left subtree is 1 while the height of the right subtree is 2. The difference between those heights is 1 so this is a balanced tree.
 
 On the other hand, let's review this illustration of an unbalanced tree from a few lessons ago:
 
-![The image shows a binary search tree where all child nodes are to the right of their parent node.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/unbalanced_tree.png)
+![The image shows a binary search tree where all child nodes are to the right of their parent node.](/images/computer-science-curriculum-2020/unbalanced_tree.png)
 
 The tree above has a left subtree with a height of 0 and a right subtree with a height of 6 — a difference much greater than one. This tree isn't balanced at all!
 

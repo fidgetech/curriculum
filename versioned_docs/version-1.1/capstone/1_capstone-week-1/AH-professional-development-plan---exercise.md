@@ -106,7 +106,7 @@ Otherwise, you're welcome to format your plan how you see fit.
 In the top section of our example learning plan, we’ve added a space where you’ll put in your goal, milestones, and resources.
 
 
-![Example of Capstone class planning](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/capstones/capstone-class-planning-example-2.png)
+![Example of Capstone class planning](/images/capstones/capstone-class-planning-example-2.png)
 
 
 
@@ -119,7 +119,7 @@ Next, you’ll want to add in a weekly schedule. As a reminder, all Career Servi
 In our example plan, we used the [Coursera Object Oriented Programming in Java course](https://www.coursera.org/learn/object-oriented-java?irclickid=0R9yn5VzaxyPWR734TQFI1AsUkH3TyX0ExhM0M0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3294490&utm_content=b2c).
 
 
-![Another example of capstone planning](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/capstones/capstone-class-planning-example.png)
+![Another example of capstone planning](/images/capstones/capstone-class-planning-example.png)
 
 
 In the first section, you’ll want to note what you expect to have done by the end of the week. Then, for each day, map out what steps you need to take to complete everything on your list on time. Build this out for the total duration of your plan, which in this particular case, will be the nine weeks of the Capstone course.

@@ -57,7 +57,7 @@ In this example, we use a loop to double each element in an array. If `array` is
 
 For that reason, we can portray the increase in time as linear:
 
-![Linear time increase is constant as the size of the data set increases.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/linear_time_graph.png)
+![Linear time increase is constant as the size of the data set increases.](/images/computer-science-curriculum-2020/linear_time_graph.png)
 
 As we can see from this chart, as the size of the dataset increases, so does the runtime — but the increase is linear.
 
@@ -65,7 +65,7 @@ Let's return to our example of the rocket. Let's say we have a rocket that's ver
 
 Let's compare the two using the graph below.
 
-![Graph shows that over time, the light, fast rocket is not so fast.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/o1_vs_oN_graph.png)
+![Graph shows that over time, the light, fast rocket is not so fast.](/images/computer-science-curriculum-2020/o1_vs_oN_graph.png)
 
 We have a Big, steady rocket which always takes the same amount of time to take cargo to the moon. Then we have a light, fast rocket which can get to the moon much faster — but only if it doesn't have too much cargo. At some point, if you add enough cargo to it, the fast rocket becomes _slower_ than the Big, steady rocket — because it's not so light anymore.
 
@@ -79,7 +79,7 @@ Our rocket example is definitely oversimplified. If we actually added more cargo
 
 The chart looks something like this:
 
-![The difference between O(n) and O(N<sup>2</sup>) on a graph.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/on2_vs_on.png)
+![The difference between O(n) and O(N<sup>2</sup>) on a graph.](/images/computer-science-curriculum-2020/on2_vs_on.png)
 
 As we can see here, O(N<sup>2</sup>) takes a lot longer as a data set gets Bigger. And this kind of runtime is actually not uncommon as you might think. A prime example of O(N<sup>2</sup>) is using a nested loop with a data set.
 

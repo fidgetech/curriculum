@@ -143,8 +143,8 @@ Again, the result should be very similar to one of the code snippets listed in S
 
 If merging was successful, the feature branch may be deleted if it is no longer in use. The easiest way to do this is through the GitHub repo. Simply visit the repository, and select the "branches" option:
 
-![branches-option-in-github-repo](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/git-with-collaborators-workflow/branch-option-in-github-repo.png)
+![branches-option-in-github-repo](/images/SHARED/git-with-collaborators-workflow/branch-option-in-github-repo.png)
 
 Then, in the "branches" area of your GitHub repository, select the red delete icon next to the branch your group would like to delete:
 
-![delete-option-in-github-repo](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/SHARED/git-with-collaborators-workflow/delete-branch-through-github.png)
+![delete-option-in-github-repo](/images/SHARED/git-with-collaborators-workflow/delete-branch-through-github.png)

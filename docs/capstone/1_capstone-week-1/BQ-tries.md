@@ -13,7 +13,7 @@ In this lesson, we will introduce the **trie** (pronounced "try"), which is a ki
 
 A trie always has an "empty" root node with references to other nodes. Because of the references, it's not really empty — but the root node doesn't have a value on its own. It's common to use tries to store words, so if we were going to use a trie to store English words, we'd have a root node with 26 child nodes. Each child node would represent a letter of the alphabet.
 
-![This trie shows an empty root node plus the first three letters of the alphabet.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/trie_1.png)
+![This trie shows an empty root node plus the first three letters of the alphabet.](/images/computer-science-curriculum-2020/trie_1.png)
 
 To simplify things, the trie above just shows the first three letters of the alphabet.
 
@@ -21,7 +21,7 @@ So what happens once we want to add actual words to a trie?
 
 Each child node has a reference to each letter of the alphabet — just like the root node. So we'd construct words by adding more child nodes to the trie.
 
-![This trie includes the words "cat", "call", and "cot".](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/trie2.png)
+![This trie includes the words "cat", "call", and "cot".](/images/computer-science-curriculum-2020/trie2.png)
 
 This trie now includes three words: _cat_, _call_, and _cot_. Each use the _C_ node, which now has two child nodes to represent the three words we've added: an _A_ node and an _O_ node. Cat and call both use the _C_ and its child _A_ node. If we were going to add the word _can_, it would also use these two nodes before diverging.
 

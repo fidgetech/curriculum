@@ -16,7 +16,7 @@ There are two ways we can search a tree — regardless of whether that's a binar
 
 Remember our binary search tree application where we worked with a perfect binary search tree? If we wanted to do a depth-first search, we'd do so in this order.
 
-![Illustration shows the order the nodes will be traversed.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/depth_first_search.png)
+![Illustration shows the order the nodes will be traversed.](/images/computer-science-curriculum-2020/depth_first_search.png)
 
 We can say that the tree in this picture has four **branches**. They all start at the root node and terminate in a leaf node. So the left-most branch terminates at 1, the next branch terminates at 3, the next terminates at 5, and the last branch terminates at 7.
 
@@ -62,7 +62,7 @@ We've completely evaluated the left subtree and now only the right subtree remai
 
 Now that we've looked at a basic example of how a DFS uses a stack, let's apply a more complex example. This time we'll use a graph. After all, we are in the middle of learning about graph theory.
 
-![The following chart shows a graph of friends.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/friend-graph.png)
+![The following chart shows a graph of friends.](/images/computer-science-curriculum-2020/friend-graph.png)
 
 Here's a graph of friends. We will actually be using this very graph when we actually write our BFS and DFS algorithms over the next several lessons. Let's say we want to find a connection between Jasmine and Thomas. How would we do that with a depth-first search?
 
@@ -120,7 +120,7 @@ If this is still confusing, don't worry. It should become clearer when we use TD
 
 On the other hand, a breadth-first search algorithm searches horizontally. The image below demonstrates this:
 
-![The order in which a breadth-first algorithm will traverse a tree.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/breadth_first_search.png)
+![The order in which a breadth-first algorithm will traverse a tree.](/images/computer-science-curriculum-2020/breadth_first_search.png)
 
 As we can see, the algorithm will search each row in the tree completely before moving onto the next one.
 
@@ -158,7 +158,7 @@ As we can see, we've finished an entire "row" of the tree — and all that's lef
 
 Now let's look at the more complex example. Our graph of friends. Here's the picture of the graph again:
 
-![The following chart shows a graph of friends.](https://learnhowtoprogram.s3.us-west-2.amazonaws.com/computer-science-curriculum-2020/friend-graph.png)
+![The following chart shows a graph of friends.](/images/computer-science-curriculum-2020/friend-graph.png)
 
 In this case, we want to check _all_ of Jasmine's friends before we check her friends' friends.
 
