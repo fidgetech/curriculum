@@ -18,7 +18,7 @@ Go to [jsPad](https://jspad.dev) and you should see a "Quick start" box. It shou
 
 Once you see a new website template appear like in the image below, you are ready to begin!
 
-![When you see a new website template you have successfully started your project.](/images/workshop/jspad/jspad-new-project.png)
+![When you see a new website template you have successfully started your project.](/images/Workshop/jspad/jspad-new-project.png)
 
 ### Navigating jsPad
 

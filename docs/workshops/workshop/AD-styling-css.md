@@ -14,7 +14,7 @@ Now that we've added HTML content to our webpage, we can style and format our HT
 
 Click on the `CSS` tab in jsPad. jsPad has already provided some styling for us:
 
-![CSS tab in jsPad](/images/workshop/jspad/jspad-css.png)
+![CSS tab in jsPad](/images/Workshop/jspad/jspad-css.png)
 
 
 Let's start by clearing all the code that jsPad provides. We are going to create our own CSS rules now. Here's our first rule:
