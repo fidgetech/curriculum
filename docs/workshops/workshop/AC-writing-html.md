@@ -5,22 +5,20 @@ id: writing-html
 hide_table_of_contents: true
 ---
 
-In this lesson, we'll learn how to write HTML in Glitch.
+In this lesson, we'll learn how to write HTML in jsPad.
 
 ## Writing HTML
 ---
 
 **HTML** is the basic building block of the internet. HTML is used to display the basic content of every website you've ever visited.
 
-Read the following code and type it into the _index.html_ file. The code that was there previously should be removed.
-
-<div class="filename">index.html</div>
+Read the following code and type it into the `HTML` tab of the jsPad code editor, replacing the code that was previously there.
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Epicodus Workshop Project</title>
+    <title>Fidgetech Workshop Project</title>
   </head>
   <body>
     <h1>My Programming Goals</h1>
@@ -35,19 +33,13 @@ Here are the tags we are using in the code above:
 - `<html>` tells the browser that everything within it is HTML.
 - `<head>` includes important information about the webpage that will not be displayed. For now we are just including a `<title>`. We will cover other elements that go in `<head>` soon.
 - `<body>` contains information that will be displayed to the user. Most of the code we add will go in the body.
-- `<h1>` is a header tag. There are headers 1-6 and they correspond to different text sizes. You can try changing `<h1>` to `<h2>` and so on and see how the preview in the left-hand pane of Glitch changes.
+- `<h1>` is a header tag. There are headers 1-6 and they correspond to different text sizes. You can try changing `<h1>` to `<h2>` and so on and see how the preview in the right-hand pane of jsPad changes.
 
-If you make any errors in your HTML, Glitch will add a red dot to the left of the line where the error is. You can hover the cursor over the red dot to see what the error is. If you accidentally type `<body>` like `<<body>`, you'll get the following error: "Special characters can't be escaped."
-
-![Here's an example of an error showing in Glitch.](/images/ucode-glitch-photos/brooke-ucode-glitch-update-5.20.21/glitch-images-MAY-2022/linter-error.jpg)
-
-Even if an error message doesn't make sense yet, it can still provide useful information. The error message above doesn't help us much - it's happening because the **linter** reading our software is confused. A linter looks for errors in our code and points them out to us. In this case, the linter is still being helpful: it tells us exactly where the error is so we can fix it. We just need to remove the extra `<`.
+If you make any errors in your code, jsPad will add a red dot to the left of the line where the error is. You can hover the cursor over the red dot to see what the error is. Even if an error message doesn't make sense yet, it can still provide useful information. A **linter** looks for errors in our code and points them out to us. This will become especially useful as we write more complex code.
 
 ### Expanding HTML
 
-Let's add more elements to our HTML. Follow along and match your HTML to the following code snippet. We will focus on the code inside the `<body>` element. Each html document should only have **one** set of `body` tags - they should "wrap around" the rest of the html code that isn't inside the `head`.
-
-<div class="filename">index.html</div>
+Let's add more elements to our HTML. Follow along and match your HTML to the following code snippet. We will focus on the code inside the `<body>` element. Each html document should only have **one** set of `body` tags - they should wrap around the rest of the html code that isn't inside the `head` tags.
 
 ```html
 ...
@@ -58,11 +50,9 @@ Let's add more elements to our HTML. Follow along and match your HTML to the fol
 ...
 ```
 
-- The `<p>` element is a paragraph. This is the basic text element used in HTML. It's used to display most basic text. Note how the `<strong>` and `<em>` tags inside the paragraph element have changed the styling in the right-hand pane of Glitch. `strong` tags add **bold** while `em` tags add _italics_.
+- The `<p>` element is a paragraph. This is the basic text element used in HTML. It's used to display most basic text. Note how the `<strong>` and `<em>` tags inside the paragraph element have changed the styling in the right-hand pane of jsPad. `strong` tags add **bold** while `em` tags add _italics_.
 
 Now let's use a new element to display an image on our page.
-
-<div class="filename">index.html</div>
 
 ```html
 ...
@@ -84,8 +74,6 @@ This element has additional information included as well. It has an **attribute*
 
 Let's create a list of goals below the image we're displaying. Add the following code below the `<img>` element:
 
-<div class="filename">index.html</div>
-
 ```html
 ...
 <h3>My Goals:</h3>
@@ -106,8 +94,6 @@ Let's create a list of goals below the image we're displaying. Add the following
 
 Now let's add a link:
 
-<div class="filename">index.html</div>
-
 ```html
 ...
 <h3>My favorite website</h3>
@@ -117,6 +103,6 @@ Now let's add a link:
 
 Here we've used another set of header elements and a new element called an **anchor**. The anchor is defined with the `<a>` element. The anchor has an **attribute** just like an image. The `href` attribute is the hypertext reference. If a user clicks on the link, the `href` states the site where the user will end up.
 
-If you try to open the link in the Glitch panel, it will throw an error. To actually visit the link, you need to do it in a new tab. You can right click your mouse and click "Open link in new tab".
+If you try to open the link in the jsPad Output panel, it won't do anything. To actually visit the link, you need to open it in a new tab. You can right click your mouse and click "Open link in new tab".
 
 Our basic site now has basic elements including a header, paragraph element, an image, a list, and a hyperlink. In the next lesson, we'll add styling with CSS.
