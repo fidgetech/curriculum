@@ -90,7 +90,7 @@ We now have a new item at the bottom of our list of goals. This item isn't inclu
 One little thing: wouldn't it be nice if our new item was also an `<li>` like the other items on the list? Well, we can do that with a small update to our code:
 
 ```js
-$(document).ready(function() {
+document.addEventListener("DOMContentLoaded", function() {
   document.getElementById("goal-list").innerHTML += "<li>I want to learn to code!</li>";
 });
 ```
