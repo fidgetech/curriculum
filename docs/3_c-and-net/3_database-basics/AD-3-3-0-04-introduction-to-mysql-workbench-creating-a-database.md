@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 We'll use a tool called **MySQL Workbench** to manage our databases. It was created to manage MySQL using a graphical interface. In this lesson, we'll walk through how to use the interface to view, configure, and interact with our databases.
 
-**Note:** See the [Installing and Configuring MySQL](/c-and-net/lessons-1-5-getting-started-with-c/3-0-0-04-installing-and-configuring-mysql) lesson for instructions on installing MySQL Workbench.
+**Note:** See the [Installing and Configuring MySQL](../lessons-1-5-getting-started-with-c/3-0-0-04-installing-and-configuring-mysql) lesson for instructions on installing MySQL Workbench.
 
 ## Accessing MySQL Workbench
 
