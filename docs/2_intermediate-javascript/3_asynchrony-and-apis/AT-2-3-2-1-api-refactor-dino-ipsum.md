@@ -28,9 +28,9 @@ Next, refactor one of the projects you worked on in the last class session to us
 
 ### Dino Ipsum API
 
-Use this API to allow your users to generate [dinosaur themed Lorem Ipsum](http://dinoipsum.herokuapp.com/#res). Use it any way you like. 
+Use this API to allow your users to generate [dinosaur themed Lorem Ipsum](https://dinoipsum.com/). Use it any way you like.
 
-For instance, you could create a dinosaur-themed game where someone needs to guess the name of the dinosaur in 7 guesses. You could have users guess letter by letter, or by guessing whole words, like in [the game Wordle](https://wordplay.com/). 
+For instance, you could create a dinosaur-themed game where someone needs to guess the name of the dinosaur in 7 guesses. You could have users guess letter by letter, or by guessing whole words, like in [the game Wordle](https://www.nytimes.com/games/wordle/). 
 
 Whatever you do, don't worry about making a complex UI, like in the Wordle game that's linked above. Keep the UI as simple as possible and focus on completing the functionality of your application first. Once that's in place, you can move onto improving the UI. 
 
