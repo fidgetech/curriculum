@@ -20,7 +20,7 @@ We'll install and use a REPL called `dotnet-script`.
 We can install `dotnet-script` with the following terminal command:
 
 ```bash
-$ dotnet tool install -g dotnet-script
+$ dotnet tool install -g dotnet-script --version 1.5.0
 ```
 
 Note that .NET 6 needs to be installed for this command to work. If you just installed .NET 6, restart the terminal. Otherwise, you will not be able to run `dotnet` commands.
