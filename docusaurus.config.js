@@ -18,7 +18,7 @@ const config = {
   tagline: 'Fidgetech Code',
   favicon: 'img/favicon.ico',
   customFields: {
-    latestVersion: 'v1.1',
+    latestVersion: 'v1.2',
   },
   // Set the production url of your site here
   url: 'https://fidgetechcode.org',
@@ -117,10 +117,10 @@ const config = {
             label: 'Versions',
             position: 'left',
             items: [
-              {
-                label: 'Version 1.1',
-                to: '/v1.1',
-              },
+              // {
+              //   label: 'Version 1.1',
+              //   to: '/v1.1',
+              // },
               {
                 label: 'Version 1.2',
                 to: '/v1.2',
