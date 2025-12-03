@@ -14,9 +14,18 @@ This repository contains the Fidgetech Code curriculum, built with [Docusaurus 2
 
 - **URL structure**: Determined by the directory path and the `id` field in each lesson's frontmatter
 - **Example**: 
-  - File: `docs/pre-work/getting-started-with-intro-to-programming/AA-1-0-0-14-welcome-to-intro.md`
+  - File: `docs/0_pre-work/1_getting-started-with-intro-to-programming/AA-1-0-0-14-welcome-to-intro.md`
   - Frontmatter `id`: `1-0-0-14-welcome-to-intro`
   - Resulting URL: `/pre-work/getting-started-with-intro-to-programming/1-0-0-14-welcome-to-intro`
+
+(Note that the URL does not include the directory prefixes e.g. `0_` or `1_`.)
+
+### Curriculum Numbering System
+
+- 1st digit is course number (4 for react, tho will change to 3 in next version)
+- 2nd digit is 0 for pre-work, 1 for 1st section after pre-work, etc.
+- 3rd digit is segment (based on epicodus day) - pre-work/weekend is 0, monday is 1, etc.
+- last digit is sequence of lesson within day
 
 ## Configuration
 
