@@ -1,9 +1,10 @@
 # runs 12pm UTC Mon-Thu (early morning PT)
-name: Scheduled - find offline links & images
+name: Find offline links & images
 
 on:
   schedule:
     - cron: '0 12 * * 1-4'
+  workflow_dispatch:
 
 jobs:
   find-offline-links:
@@ -24,7 +25,6 @@ jobs:
         run: npm run find-broken-links
         env:
           NODE_ENV: 'production'
-          SCRIPT_BROKEN_LINKS_SENDGRID_API_KEY: ${{ secrets.SCRIPT_BROKEN_LINKS_SENDGRID_API_KEY }}
-          SCRIPT_BROKEN_LINKS_FROM: ${{ secrets.SCRIPT_BROKEN_LINKS_FROM }}
-          SCRIPT_BROKEN_LINKS_TO: ${{ secrets.SCRIPT_BROKEN_LINKS_TO }}
-          SCRIPT_BROKEN_LINKS_CC: ${{ secrets.SCRIPT_BROKEN_LINKS_CC }}
+          SCRIPTS_RESEND_API_KEY: ${{ secrets.SCRIPTS_RESEND_API_KEY }}
+          SCRIPTS_FROM: ${{ secrets.SCRIPTS_FROM }}
+          SCRIPTS_TO: ${{ secrets.SCRIPTS_TO }}

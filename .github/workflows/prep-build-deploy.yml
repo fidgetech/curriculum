@@ -1,9 +1,10 @@
-name: Update curriculum on PR merge or push to main
+name: Update live curriculum on merge to main
 
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   prep-build-deploy-curriculum:
