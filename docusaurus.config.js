@@ -70,11 +70,11 @@ const config = {
               label: 'v1.2',
               banner: 'none',
             },
-            '1.1': {
-              path: 'v1.1',
-              label: 'v1.1',
-              banner: 'none',
-            },
+            // '1.1': {
+            //   path: 'v1.1',
+            //   label: 'v1.1',
+            //   banner: 'none',
+            // },
           },
         },
         blog: false,

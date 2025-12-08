@@ -1,6 +1,0 @@
-# Student Handbook
-
-* * *
-
-## Coming soon...
-
