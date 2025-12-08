@@ -43,10 +43,13 @@ Input: "the sky is blue"
 Output: "blue is sky the"
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: You can split the input string into an array of words.</p>
 <p>Hint 2: Reverse the order of the array.</p>
 <p>Hint 3: Join the array elements into a single string with spaces.</p>
+
 </details>
 
 ---
@@ -66,12 +69,15 @@ Output: [[1,6],[8,10],[15,18]]
 ```
 
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: Sort the intervals based on the start times.</p>
 <p>Hint 2: Initialize an empty list to store the merged intervals.</p>
 <p>Hint 3: Iterate through the sorted intervals, merging overlapping intervals as you go.</p>
 <p>Hint 4: Keep track of the start and end of the current interval and compare them with the next interval to determine if they overlap.</p>
 <p>Hint 5: If they overlap, update the end of the current interval; otherwise, add the current interval to the result and update the current interval.</p>
+
 </details>
 
 ---
@@ -89,12 +95,15 @@ Output: "BANC"
 // Explanation: The minimum window substring "BANC" contains all the characters of "ABC".
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: You can use the sliding window technique for this problem.</p>
 <p>Hint 2: Initialize two pointers, one at the beginning and one at the end of the string.</p>
 <p>Hint 3: Expand the window by moving the end pointer until all characters in `t` are included.</p>
 <p>Hint 4: Once all characters are included, shrink the window by moving the start pointer until some characters of `t` are no longer included.</p>
 <p>Hint 5: Keep track of the minimum window size and update it as you find smaller windows.</p>
+
 </details>
 
 ---
@@ -110,12 +119,15 @@ Output: "bab" or "aba"
 // Explanation: Both "aba" and "bab" are valid answers.
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: You can solve this problem using dynamic programming or expanding around the center.</p>
 <p>Hint 2: For each character in the string, consider it as the center of a palindrome and expand around it.</p>
 <p>Hint 3: Handle both even and odd length palindromes separately.</p>
 <p>Hint 4: Keep track of the longest palindrome found so far.</p>
 <p>Hint 5: Return the longest palindrome found.</p>
+
 </details>
 
 ---
@@ -132,12 +144,15 @@ Output: 3
 // Explanation: The substring "ece" contains 2 distinct characters.
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: You can solve this problem using the sliding window technique.</p>
 <p>Hint 2: Initialize two pointers, one at the beginning and one at the end of the string.</p>
 <p>Hint 3: Expand the window by moving the end pointer until the number of distinct characters exceeds two.</p>
 <p>Hint 4: While expanding, keep track of the maximum length of the substring.</p>
 <p>Hint 5: Shrink the window by moving the start pointer until the number of distinct characters becomes two again.</p>
+
 </details>
 
 ---
@@ -161,17 +176,13 @@ Output: 4
 // Explanation: T4 = T3 + T2 + T1 = 2 + 1 + 1 = 4.
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: You can solve this problem using recursion or iteration.</p>
 <p>Hint 2: If you choose recursion, define a base case for n = 0, n = 1, and n = 2.</p>
 <p>Hint 3: For larger values of n, calculate Tn by recursively calling the function for Tn-1, Tn-2, and Tn-3.</p>
 <p>Hint 4: If you choose iteration, use a loop to calculate the values of Tn from T0 to Tn.</p>
 <p>Hint 5: Use three variables to store the last three values of Tn and update them in each iteration.</p>
+
 </details>
-
-
-
-
-
-
-

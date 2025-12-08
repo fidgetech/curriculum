@@ -41,10 +41,13 @@ Ouput: 7
 // The largest sum of a contiguous subarray is 7 (4 + -1 + -2 + 1 + 5 === 7)
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: You may want to look at Kadane's Algorithm</p>
 <p>Hint 2: You may need to define a "maximum so far"</p>
 <p>Hint 3: You may need to define a "maximum at this point" and compare it to the "maximum so far"</p>
+
 </details>
 
 ---
@@ -64,11 +67,14 @@ Input: arr = [1, 2, 3, 4, 6], N = 6
 Output: 5 // The missing number
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: You can approach this using Hashing.</p>
 <p>Hint 2: Use a temporary array, and fill it with N amount of 0s.</p>
 <p>Hint 3: For each integer that exists in the original array, set the value of the temporary array's index to that value</p>
 <p>Hint 4: The element that is still 0 after the previous step would be the missing number (Index + 1)</p>
+
 </details>
 
 ---
@@ -91,11 +97,14 @@ Input: {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1}
 Output: {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2}
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: You can approach this using any variety of sorting algorithms.</p>
 <p>Hint 2: The "simplest" solution is to count all 0s, 1s, and 2s</p>
 <p>Hint 3: After counting each integer, use those counts to modify the original array</p>
 <p>Hint 4: Using those counts, use a loop that decrements the count of each number while also replacing the numbers in the original array with your counted numbers in order.</p>
+
 </details>
 
 ---
@@ -118,10 +127,13 @@ Output: 8
 Explanation: The longest substring without repeating characters is "EPICODUS, with a length of 8
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: One potentail solution uses the <a href="https://medium.com/@rishu__2701/mastering-sliding-window-techniques-48f819194fd7">Sliding Window approach</a></p>
 <p>Hint 2: Keep track of the current longest substring (our return value).</p>
 <p>Hint 3: Keep track of all characters that have been visited thus far in a series of loops.</p>
 <p>Hint 4: Use an outer loop (using `i` to track the index) to set the beginning of the substring</p>
 <p>Hint 5: Use an inner loop to update the "visited" list of characters. If a character has not been visited yet, add it to the list and increment your "current longest" tracker. If it has been visited already, break the inner loop, which will move i to the next index (sliding the window) and starting again with a new list of "visited".</p>
+
 </details>

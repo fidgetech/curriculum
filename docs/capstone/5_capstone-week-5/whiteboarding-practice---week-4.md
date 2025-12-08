@@ -42,12 +42,15 @@ Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
 Output: [1,2,2,3,5,6]
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: You can start from the end of both arrays and merge them into the end of `nums1`.</p>
 <p>Hint 2: Initialize three pointers: one for the end of `nums1` (using `m`), one for the end of `nums2` (using `n`), and one for the end of the merged array (`array1.length-1`).</p>
 <p>Hint 3: Compare elements from `nums1` and `nums2` from their respective ends and merge them into `nums1` from the end.</p>
 <p>Hint 4: Continue this process until you've merged all elements from `nums2` into `nums1`.</p>
 <p>Hint 5: You will compare elements within each array at their respective pointers, and depending on which item is larger, you will place the larger element at the current third pointer, then decrement the third pointer as well as decrement the pointer that found the larger of the two elements, and compare again.</p>
+
 </details>
 
 ---
@@ -63,7 +66,9 @@ Input: nums = [3,2,1,5,6,4], k = 2
 Output: 5
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: You can solve this problem using a priority queue (min-heap).</p>
 <p>Hint 2: Initialize a min-heap and add elements from `nums` to it.</p>
 <p>Hint 3: If the size of the heap exceeds k, remove the smallest element (the root).</p>
@@ -72,8 +77,7 @@ Output: 5
 <p>Min-Heap Approach:</p>
 <ul>
 <li>Time Complexity: Building a min-heap from an unsorted array has a time complexity of O(n), where n is the number of elements in the array. Extracting the minimum element k times from the heap has a time complexity of O(klogn). Overall, the time complexity is O(n + klogn).</li>
-<li>Space Complexity: The space complexity is O(n) to store the min-heap.
-</li>
+<li>Space Complexity: The space complexity is O(n) to store the min-heap.</li>
 </ul>
 
 <p>Sorting Approach:</p>
@@ -86,8 +90,7 @@ Output: 5
 <ul>
 <li>Size of the Array: If the size of the array is relatively small, sorting the entire array may be more efficient than building a heap.</li>
 <li>Value of k: If k is much smaller than the size of the array, extracting the minimum element k times from a min-heap may be more efficient than sorting the entire array.</li>
-<li>
-Memory Constraints: If memory usage is a concern and you don't want to modify the original array, sorting may require extra memory for a copy of the array, while the min-heap approach operates in-place.</li>
+<li>Memory Constraints: If memory usage is a concern and you don't want to modify the original array, sorting may require extra memory for a copy of the array, while the min-heap approach operates in-place.</li>
 </ul>
 
 </details>
@@ -112,11 +115,14 @@ Output: [0, 1]
 ```
 
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: You can use a hash table to store the indices of elements as you traverse the array.</p>
 <p>Hint 2: Iterate through the array and for each element, check if `target - nums[i]` exists in the hash table.</p>
 <p>Hint 3: If it does, return the current index and the index of `target - nums[i]`.</p>
 <p>Hint 4: If it doesn't, add the current element's index to the hash table.</p>
+
 </details>
 
 
@@ -135,7 +141,9 @@ Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
 Output: [[7,4,1],[8,5,2],[9,6,3]]
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Futher explanation:</p>
 <p>Given an n x n 2D matrix representing an image, the task is to rotate the image by 90 degrees clockwise. This operation should be done in-place, meaning that the original matrix should be modified directly.</p>
 <p>Hint 1: You can rotate the image layer by layer.</p>

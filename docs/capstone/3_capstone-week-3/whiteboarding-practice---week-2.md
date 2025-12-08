@@ -47,10 +47,13 @@ Output: [24, 12, 8, 6]
 // output[3] = 1 * 2 * 3 = 6
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: You can calculate the product of all elements from the left side and the product of all elements from the right side.</p>
 <p>Hint 2: Use two separate arrays to store the product of elements to the left and right of each element.</p>
 <p>Hint 3: Finally, multiply the corresponding elements from both arrays to get the result.</p>
+
 </details>
 
 ---
@@ -75,12 +78,15 @@ Height of container = min(5, 3) = 3.
 So total area = 3 * 2 = 6
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: This problem can be solved using the two-pointer technique.</p>
 <p>Hint 2: Initialize two pointers, one at the beginning and one at the end of the array.</p>
 <p>Hint 3: Calculate the area formed by the two lines at the pointers and update the maximum area if the current area is greater.</p>
 <p>Hint 4: Move the pointer with the smaller height towards the center of the array, as this might lead to a higher area.</p>
 <p>Hint 5: Repeat the process until the pointers meet.</p>
+
 </details>
 
 ---
@@ -103,10 +109,13 @@ Output: [["bat"], ["nat", "tan"], ["ate", "eat", "tea"]]
 // ["ate", "eat", "tea"] - as "ate", "eat", and "tea" are anagrams of each other.
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: You can use a hash table to group anagrams.</p>
 <p>Hint 2: Convert each string into a character count (e.g., "ate" becomes "a1e1t1").</p>
 <p>Hint 3: Use the character counts as keys in the hash table and store all strings with the same character counts together.</p>
+
 </details>
 
 ---
@@ -131,12 +140,15 @@ Input: "([)]"
 Output: false
 ```
 
-<details><summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
+<details>
+
+<summary><i class="glyphicon glyphicon-chevron-right"></i><strong>Click me to view or hide hints</strong><i class="glyphicon glyphicon-chevron-left"></i></summary>
 <p>Hint 1: You can use a stack to solve this problem.</p>
 <p>Hint 2: Traverse the string, pushing opening brackets onto the stack.</p>
 <p>Hint 3: When encountering a closing bracket, pop the top element from the stack and check if it matches the corresponding opening bracket.</p>
 <p>Hint 4: If the stack is empty or the popped bracket does not match, return false.</p>
 <p>Hint 5: At the end, check if the stack is empty. If it is, return true; otherwise, return false.</p>
+
 </details>
 
 ---
@@ -146,7 +158,7 @@ Output: false
 Given an unsorted list of elements, return the same list in the same order but with only unique elements. In other words, remove all duplicate elements in the list and return it in its original order. 
 
 
-Constraints: 1 <= list.length <= 10^6
+Constraints: `1 <= list.length <= 10^6`
 
 Example: 
 
