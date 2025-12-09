@@ -32,7 +32,7 @@ Binary trees have many uses. In fact, compilers often use them to build what is 
 
 A binary search tree is very similar to a binary tree but also has a few additional restrictions. Let's take a look at an example.
 
-![An example of a binary search tree.](/images/computer-science-curriculum-2020/binary_search_tree.svg)
+![An example of a binary search tree.](/images/computer-science-curriculum-2020/binary_search_tree.png)
 
 In the example above, you'll see that all child nodes _to the left_ of the root node have a value _less than_ the root node. Meanwhile, all child nodes _to the right_ of the root node have a value _greater than_ the root node. This pattern continues all the way down the tree. The left-hand child always has a value _less than_ its parent while the right-hand child always has a value _greater than_ its parent. Based on this pattern, we automatically know a few things about a few values in a binary search tree. The bottom left leaf node will be the lowest value in the tree while the bottom right leaf node will be the greatest value in the tree.
 

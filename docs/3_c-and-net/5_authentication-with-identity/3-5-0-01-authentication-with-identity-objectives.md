@@ -17,7 +17,6 @@ We'll also learn how to use ASP.NET Core tools to implement basic **authorizatio
 Finally, we'll take some time to learn how to make API calls using RestSharp and Newtonsoft.Json, partially in preparation for the next section when you will have the opportunity to build your own API.
 
 ## Independent Project Objectives
----
 
 At the end of this section, you will complete an independent project. Take note, you will not be required to make an API call or parse its response for this project. Your code will be reviewed for the following objectives:
 

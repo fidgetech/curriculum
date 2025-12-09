@@ -6,12 +6,10 @@ hide_table_of_contents: true
 
 # Fidgetech Courses
 
-<div className="centering-div" style={{margin: 'auto'  }}>
+<div>
   <br />
-  <h2 style={{textAlign: 'center'}}>Courses &mdash; Fidgetech</h2>
-
-  <div style={{borderStyle: 'solid', borderWidth: '2px', borderColor: 'var(--ifm-color-emphasis-300)', borderRadius: '20px', marginBottom: '20px' }}>
-    <div className='course-row' style={{margin: '10px'}}>
+  <h2 className='centered-label'>Courses &mdash; Fidgetech</h2>
+  <div className='course-row'>
     <a className="track-button" target="_self" href="v1.2/pre-work">Pre-work</a>
     <a className="track-button" target="_self" href="v1.2/introduction-to-programming">Introduction to Programming</a>
     <a className="track-button" target="_self" href="v1.2/intermediate-javascript">Intermediate JavaScript</a>
@@ -20,6 +18,5 @@ hide_table_of_contents: true
     <a className="track-button" target="_self" href="v1.2/workshop">Workshop</a>
     <a className="track-button" target="_self" href="v1.2/marketing-yourself">Marketing Yourself</a>
     <a className="track-button" target="_self" href="v1.2/diversity-equity-and-inclusion">DEI</a>
-    </div>
   </div>
 </div>

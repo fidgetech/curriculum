@@ -10,7 +10,6 @@ During Intermediate JavaScript, we learned how to write asynchronous code and ma
 Why is this relevant now? In the next few lessons, we'll learn how to authenticate users with Identity. This will require our applications to manage asynchronous actions, so we need to learn how to recognize and write asynchronous methods.
 
 ## Synchronous Operations
----
 
 So far the C# code we've written is **synchronous** and our code executes a single line at a time. The `Edit()` action in the `ItemsController.cs` is an example of a synchronous method:
 
@@ -38,7 +37,6 @@ Let's walk through what occurs when this synchronous method is called:
 Because the lines of code are executed in order, this is a **synchronous** operation.
 
 ## Asynchronous Operations
----
 
 On the other hand, an **asynchronous** (also, "async") operation allows other code to run while a method is waiting to return.
 This is very similar to what we learned in JavaScript. However, the code we write to manage this process looks much different.
@@ -123,7 +121,6 @@ using System.Threading.Tasks;
 The `System.Threading.Tasks` namespace contains a lot of classes to help us manage concurrent and asynchronous code. To learn more, visit the [MS Docs for the `System.Threading.Tasks` namespace](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks?view=net-6.0).
 
 ## Additional Resources
----
 
 * To review the official guide on asynchrony with C#, visit the [MS docs on async and await](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/). 
 

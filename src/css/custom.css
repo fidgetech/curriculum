@@ -62,6 +62,10 @@ a.track-button {
   text-decoration: none;
 }
 
+.centered-label {
+  text-align: center;
+}
+
 a.track-button:hover {
   background-color: var(--ifm-menu-color-active);
   color: white;
