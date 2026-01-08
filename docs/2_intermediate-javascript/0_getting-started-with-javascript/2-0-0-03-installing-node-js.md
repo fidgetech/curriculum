@@ -10,14 +10,14 @@ Before the first week of class, take time to ensure all necessary tools and fram
 
 The JavaScript course will require `Node.js`. You are expected to install any tools you do not already have _before_ the course begins. Confirm each tool is functioning properly by following all instructions below.
 
-## MacOS or Linux Installation Instructions
----
-
-On macOS or linux systems, follow the instructions below (per [nodejs.org](https://nodejs.org/en/download)) to install the following:
+Installing Node is done slightly differently depending on your operating system. These installation instructions are based on the NodeJS documentation ([nodejs.org](https://nodejs.org/en/download)) and will install the following:
 
 - `nvm` - a Node.js version manager
 - `node` - Node.js itself
 - `npm` - Node Package Manager (installed automatically with node)
+
+## MacOS or Linux Installation Instructions
+---
 
 Run the following commands in your terminal, from your home directory.
 
@@ -29,28 +29,46 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 \. "$HOME/.nvm/nvm.sh"
 
 # Download and install a specific version of Node.js:
-nvm install 16.2
-
-# Verify the Node.js version:
-node -v # Should print "v16.2.0".
-
-# Verify npm version:
-npm -v # Should print "7.13.0".
+nvm install 16.20.0
 ```
+
+If you already have another Node version installed, you can run the command `nvm use 16.20.0` to use that as your primary version.
 
 Complete the "Working with Node" section below to confirm your installation is functioning correctly.
 
 ## Windows Installation Instructions
 ---
 
-To install Node on Windows, go to the [Node website](https://nodejs.org/en/download/), then download and install the appropriate installer. Note that there are two versions available to download: the _LTS_ version and the _Current_ version. _LTS_ is short for long-term support. Either version is fine, though the _Current_ version will be more recent.
+Install Node Version Manager (nvm) by going to [node-windows GitHub repository](https://github.com/coreybutler/nvm-windows/releases/latest), downloading the ` nvm-setup.exe ` file, and running that.
 
-Choose the _Windows Installer_ option for downloading. Use the Setup Manager for installation, clicking _Next_ through each setup window. This includes clicking _Next_ on the custom setup window as all the options are already preselected (_Node.js runtime_, _npm package manager_, _Online documentation shortcuts_, and _Add to PATH_). When you reach the final setup window, click _Install_.
+While installing it, you can leave everything at their default selections, though you can change the Desktop Notifications options, if you wish.
 
-After installation is complete, go through the "Working with Node" section below to confirm your installation is functioning correctly.
+If you already have a version of Node installed, you'll be prompted to have NVM control that version. If so, select yes.
+
+Run the following command in your terminal:
+
+```
+nvm install 16.20.0
+```
+
+If you already have another Node version installed, you can run the command `nvm use 16.20.0` to use that as your primary version.
+
+Complete the "Working with Node" section below to confirm your installation is functioning correctly.
 
 ## Working with Node
 ---
+
+Confirm you have the correct versions of Node and NPM installed by running these commands in the terminal:
+
+```
+# Verify the Node.js version:
+node -v # Should print "v16.20.0".
+
+# Verify npm version:
+npm -v # Should print "8.19.4".
+```
+
+You can also run the command `nvm list` to list all the installed versions of Node.
 
 Confirm Node.js is functioning correctly by creating a small test project. `cd` to your desktop and then input the following command:
 
