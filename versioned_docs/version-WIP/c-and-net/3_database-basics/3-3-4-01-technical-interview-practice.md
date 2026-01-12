@@ -1,5 +1,5 @@
 ---
-title: ✏️ 3.3.4.1 Technical Interview Practice
+title: ✏️ 3.4.4.1 Technical Interview Practice
 day: thursday
 id: 5-3-4-1-technical-interview-practice
 hide_table_of_contents: true
