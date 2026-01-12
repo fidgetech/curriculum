@@ -1,5 +1,5 @@
 ---
-title: ✏️ 4.4.3.1 Choose Your Own Adventure (Two-Day or One-Week Project)
+title: ✏️ 3.4.3.1 Choose Your Own Adventure (Two-Day or One-Week Project)
 day: wednesday
 id: 3-4-3-1-choose-your-own-adventure-two-day-or-one-week-project
 hide_table_of_contents: true

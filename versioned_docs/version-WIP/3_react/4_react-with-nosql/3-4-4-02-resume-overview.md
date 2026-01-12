@@ -1,5 +1,5 @@
 ---
-title: ✏️ 4.4.4.2 Resume Overview
+title: ✏️ 3.4.4.2 Resume Overview
 day: thursday
 id: 3-4-4-2-resume-overview
 hide_table_of_contents: true

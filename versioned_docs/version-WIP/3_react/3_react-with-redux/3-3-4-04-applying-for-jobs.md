@@ -1,5 +1,5 @@
 ---
-title: ✏️ 4.3.4.4 Applying for Jobs
+title: ✏️ 3.3.4.4 Applying for Jobs
 day: thursday
 id: 3-3-4-4-applying-for-jobs
 hide_table_of_contents: true

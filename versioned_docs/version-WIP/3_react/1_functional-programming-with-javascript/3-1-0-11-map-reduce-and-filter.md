@@ -17,13 +17,13 @@ Let's say we want to take all the numbers in an array and multiply them by 2. We
 ```js
 const numArray = [1, 2, 3, 4, 5];
 let doubledArray = [];
-numArray.forEach(function(element) {
-  doubledArray.push(element * 2);
-});
+for (let i = 0; i < numArray.length; i++) {
+  doubledArray.push(numArray[i] * 2);
+}
 doubledArray;
 ```
 
-In the example above, we use `forEach()` to double each element in an array. From a functional perspective, there are several issues:
+In the example above, we use a for loop to double each element in an array. From a functional perspective, there are several issues:
 
 * We must initialize an empty array and then store the new values in this array. As a result, we are mutating an array instead of creating a new constant. This is something we want to avoid.
 * The example above is imperative instead of declarative. We are telling the computer exactly what to do (imperative) instead of telling the computer the end result we want (declarative).
@@ -45,12 +45,10 @@ The example above is declarative, not imperative. We don't explicitly tell the c
 We can make `map()` even more concise with arrow functions:
 
 ```js
-const doubledArray = numArray.map (e => e * 2);
+const doubledArray = numArray.map(element => element * 2);
 ```
 
 Remember that with arrow functions we can take advantage of implicit return so we don't need to explicitly state `return`.
-
-We also make the variable more abstract (`e` instead of `element`), which makes this even more concise and abstracted.
 
 **Use `Array.prototype.map()` whenever you want to modify every element in an array.**
 
@@ -66,7 +64,7 @@ const summedArray = numArray.reduce(function(currentValue, element) {
 }, 0);
 ```
 
-In the example above, reduce takes two arguments. The first is the `currentValue` of the `reduce()` function. The second is the `element` of the array. Finally, note the `0` after the function itself. This is an initial value that we can optionally provide. That way, `reduce()` knows what the `currentValue` will start with. Note that if we wanted to multiply or divide, this initial value would be `1`. Otherwise, we'd be multiplying or dividing by zero!
+In the example above, `reduce()` takes a function with two parameters: an accumulator (`currentValue`) that stores the result as we go, and the current `element` being processed. The `0` after the function is the initial value for our accumulator. That way, `reduce()` knows what the `currentValue` will start with. Note that if we wanted to multiply or divide, this initial value would be `1`. Otherwise, we'd be multiplying or dividing by zero!
 
 While this functionality is very helpful, we can use `reduce()` to do so much more. For example, we can use `reduce()` to do things like find the longest or shortest string in an array. However, we won't provide a code snippet for that here. Instead, let's look at a more complex example.
 
@@ -128,7 +126,7 @@ This returns the following:
 ```js
 > toDoTally
 {
-  "hike:": 3,
+  "hike": 3,
   "go out to eat": 1,
   "swim": 3,
   "play games": 3,
@@ -143,7 +141,7 @@ Now we have a tally of each `wantToDo` stored in a single object. Finally, we ca
 const mostPopular = Object.entries(toDoTally).sort(function(a,b) { return b[1] - a[1] });
 ```
 
-We pass an object as an argument into `Object.entries()`, which will return all the key-value pairs in that object in the form of an array. Now we can sort these in descending order. If you aren't familiar with how `sort()` works, check the Mozilla [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort). We won't explain it in depth here because `sort()` mutates the array it is called on, which means it's generally a poor choice for functional programming. However, in the example above, at least we aren't mutating a variable. Nor is `Object.entries(toDoTally)` a previously existing array, which makes it more acceptable here. This returns the following array of arrays:
+`Object.entries()` converts the object into an array of key-value pairs, which we then sort in descending order by vote count. This returns the following array of arrays:
 
 ```js
 > mostPopular
@@ -165,10 +163,10 @@ We can use `Array.prototype.filter()` any time we want to filter an array or col
 
 ```js
 const numArray = [7, 14, 32, 8];
-const filteredArray = numArray.filter(e => e > 10);
+const filteredArray = numArray.filter(num => num > 10);
 ```
 
-In the example above, we simply have to specify the condition (`e > 10`) that we want our final array to have. This is very declarative!
+In the example above, we simply have to specify the condition (`num > 10`) that we want our final array to have. This is very declarative!
 
 `filter()` is extremely powerful. For instance, we can use it to "search" an array of objects by a specific property. Here's an example. Let's say we want to find all the employees at a company that are developers from the following array of objects:
 
@@ -196,12 +194,12 @@ const employees = [
 Now we can use filter to see which employees are developers:
 
 ```js
-> const developers = employees.filter(e => e.role === "developer");
+> const developers = employees.filter(employee => employee.role === "developer");
 [ { name: 'Ada', role: 'developer' },
   { name: 'Jasmine', role: 'developer' } ]
 ```
 
-We simply need to specify which employee has a `role` equal to `"developer"`, which we do with `e.role === "developer"`.
+We simply need to specify which employee has a `role` equal to `"developer"`, which we do with `employee.role === "developer"`.
 
 **Use `Array.prototype.filter()` whenever you want to filter an array based on certain conditions.**
 

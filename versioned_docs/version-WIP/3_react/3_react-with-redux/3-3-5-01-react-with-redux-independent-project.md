@@ -1,5 +1,5 @@
 ---
-title: ✏️ 4.3.5.1 React with Redux Independent Project
+title: ✏️ 3.3.5.1 React with Redux Independent Project
 day: friday
 id: 3-3-5-1-react-with-redux-independent-project
 hide_table_of_contents: true

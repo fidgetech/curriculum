@@ -1,5 +1,5 @@
 ---
-title: ✏️ 4.2.4.3 Whiteboard Practice
+title: ✏️ 3.2.4.3 Whiteboard Practice
 day: thursday
 id: 3-2-4-3-whiteboard-practice
 hide_table_of_contents: true

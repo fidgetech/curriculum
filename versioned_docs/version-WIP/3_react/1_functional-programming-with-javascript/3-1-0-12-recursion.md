@@ -5,7 +5,7 @@ id: 3-1-0-12-recursion
 hide_table_of_contents: true
 ---
 
-One common and powerful functional programming technique is called **recursion**. Recursion is simply a function that calls itself. In this lesson, we will talk about how we can use recursion instead of loops such as `forEach` or `for`. Knowing how to write a recursive function is an extremely important part of coding. It is also a common whiteboard question in a technical interview. Even if you aren't asked to write a recursive function in a technical interview, you can solve a problem that involves using a loop both with a traditional loop _and_ recursively — a great way to show potential employers that you know your stuff!
+One common and powerful functional programming technique is called **recursion**. Recursion is simply a function that calls itself. In this lesson, we will talk about how we can use recursion instead of loops such as `forEach` or `for`. Knowing how to write a recursive function is an important part of coding and a common whiteboard question in a technical interview. Even if you aren't asked to write a recursive function in a technical interview, you can solve a problem that involves using a loop both with a traditional loop _and_ recursively — a great way to show potential employers that you know your stuff!
 
 ## Writing a Recursive Function
 ---

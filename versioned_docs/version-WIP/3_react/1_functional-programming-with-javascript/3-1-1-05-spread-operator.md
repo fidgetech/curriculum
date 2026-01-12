@@ -5,12 +5,12 @@ id: 3-1-1-5-spread-operator
 hide_table_of_contents: true
 ---
 
-One of the most popular features of ES6 is the **spread operator**. Spread syntax looks like this: `...`.
+One of the most popular features of ES6+ is the **spread operator**. Spread syntax looks like this: `...`
 
 There are multiple uses for the spread operator, but we are going to focus on two use cases:
 
- * Making copies of objects;
- * Merging multiple objects together.
+ * Making copies of objects
+ * Merging multiple objects together
 
 At the end of the lesson, we'll also briefly cover the JavaScript method `Object.assign()`. This method operates in a similar fashion to the spread operator. We'll also cover a few other uses of the spread operator as well.
 
@@ -99,7 +99,7 @@ Now if we type in `jamaicanFlag`, it will return `{color1: "black"}`.
 
 ### Object.assign()
 
-The spread operator works very similarly to the JavaScript method `Object.assign()`, which is also used to copy and merge objects. You should be familiar with this method as well — and you may even prefer to use it over the spread operator.
+The spread operator works very similarly to the JavaScript method `Object.assign()`, which is also used to copy and merge objects. You should be familiar with this method as well.
 
 For instance, if we wanted to create a `jamaicanFlag` object using the variables above, we'd do the following:
 
@@ -119,7 +119,7 @@ In this example, we omit the empty object `{}`. However, it is fairly common to 
 
 We want to copy objects in functional programming so our code remains immutable. Each time we modify a variable, we are introducing mutability into our application. Copying objects into other constants ensures that each variable is immutable.
 
-There's just one problem: these methods create a **shallow clone** of objects. That means that they don't actually create a new object in memory; they are still referencing the original object. In order for our applications to be truly immutable, we need to create a **deep clone** of objects. Unfortunately, JavaScript doesn't have native support for deep clones. Instead, we need to use an awkward combination of methods or an external library to do that. We will cover this in a future lesson.
+There's an important limitation to be aware of: the spread operator creates a **shallow clone** of objects. For simple objects with only primitive values (numbers, strings, booleans), this works perfectly fine - you get a completely new object in memory. However, for **nested objects**, the spread operator only copies the top level. Any nested objects or arrays are still references to the original. A **deep clone** creates entirely new copies of all nested objects. For simple objects with only primitive values, the spread operator works perfectly fine. But for complex nested objects, you'd need to use another method, which we'll explore in a later lesson.
 
 ### Other Uses for the Spread Operator
 

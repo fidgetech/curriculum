@@ -5,30 +5,89 @@ id: 3-1-0-5-immutability
 hide_table_of_contents: true
 ---
 
-**Immutability** is an essential part of functional programming. In fact, some developers would argue that immutability is the most important aspect of functional programming — and that we can't call code functional if it isn't immutable.
+**Immutability** is an essential part of functional programming. If something is immutable, it cannot change. Conversely, if something is mutable, it can be changed. 
 
-But what is immutability? If something is immutable, it cannot change. Conversely, if something is mutable, it can be changed. Breaking this down further, this means that we can't change values in variables, objects, or even arrays. Instead, we need to create a new variable, object, or array.
+In functional programming, instead of changing existing data, we create new data with our desired changes. This makes code more predictable and prevents bugs.
 
-Let's start with a simple example. From an object-oriented approach, it's okay to do the following:
+## Immutability with Variables
 
+Let's start with a simple example. Here's the mutable approach:
 ```js
-let x = 1
-x = 2 + 1
+let x = 1;
+x = x + 2;  // Changing x
 ```
 
-In the example above, we use `let` because the value of `x` will change. We then modify the value of `x` by adding another number to it. This variable is mutable because it changes.
-
-From a functional approach, we'd need to do something different:
-
+Here's the immutable approach:
 ```js
-const x = 1
-const newX = 2 + x
+const x = 1;
+const newX = x + 2;  // Creating a new value
 ```
 
-Note that we are using `const` instead. When writing in a functional style, we will use `const`, not `let`.
+Why does this matter? In a large codebase, if you see `let x`, you know `x` might change somewhere else in the code. This makes the code harder to reason about - you can't be sure what `x` is at any given moment. With `const x`, you know the value will never change. It's predictable.
 
-Instead of assigning a new value to `x` like we did in the first example, we create a new variable and assign the new value to it. Now both variables are immutable because neither can change.
+**From now on, prefer `const` over `let` whenever possible.** This is the first step toward writing immutable code.
 
-Many developers argue that functional programming is preferred over object-oriented programming in part because of this focus on immutability. Think about it this way. If we see `let x` in a large codebase, we know that `x` is probably going to change somewhere — and maybe even in many places. As a result, it's potentially unreliable — what if `x` is the value we expect in one part of the code but then mutates into something unexpected elsewhere in the code? That could lead to a bug.
+## The Problem with Arrays
 
-However, when we see `const x`, we can be assured that we know what the value of `x` is. It will not change elsewhere in the code. It becomes easier to communicate our intentions to other developers and to prevent bugs.
+This is where immutability gets trickier. Arrays are **reference types**, which means even with `const`, you can still modify their contents:
+```js
+const numbers = [1, 2, 3];
+numbers.push(4);  // This works! The array mutates
+console.log(numbers);  // [1, 2, 3, 4]
+```
+
+Wait, didn't we use `const`? Yes, but `const` only prevents reassignment (you can't do `numbers = [5, 6, 7]`). The array itself can still be modified.
+
+**These array methods mutate the original array:**
+```js
+const numbers = [1, 2, 3];
+numbers.push(4);        // Adds to the array
+numbers.pop();          // Removes from the array
+numbers[0] = 99;        // Changes an element
+numbers.splice(1, 1);   // Removes elements
+```
+
+After any of these operations, `numbers` has changed. This is mutation, and it's what we want to avoid in functional programming.
+
+## The Problem with Objects
+
+Objects have the same issue:
+```js
+const person = { name: 'Ada', age: 28 };
+person.age = 29;  // This works! The object mutates
+console.log(person);  // { name: 'Ada', age: 29 }
+```
+
+The object changed even though we used `const`. Again, `const` prevents reassignment but doesn't prevent mutation of the object's properties.
+
+## Why This Matters
+
+Consider this code:
+```js
+const scores = [100, 95, 88];
+
+function addBonus(scoreArray) {
+  scoreArray.push(10);  // Adds bonus to the array
+  return scoreArray;
+}
+
+const newScores = addBonus(scores);
+console.log(scores);     // [100, 95, 88, 10] - Wait, what?
+console.log(newScores);  // [100, 95, 88, 10]
+```
+
+We called a function to get "new scores," but it also changed our original `scores` array! This is a bug waiting to happen. If other parts of our code rely on `scores` being unchanged, they'll break.
+
+Immutability prevents these kinds of bugs by ensuring data never changes unexpectedly.
+
+## The Solution
+
+So how do we work with arrays and objects without mutating them? We need techniques to create new arrays and objects with our desired changes, leaving the originals untouched.
+
+In the next lesson, we'll learn about the **spread operator**, which is JavaScript's primary tool for working with arrays and objects immutably. You'll see how to:
+- Add items to arrays without `push()`
+- Remove items without `splice()`
+- Update object properties without mutation
+- Copy arrays and objects safely
+
+Let's explore that next.
