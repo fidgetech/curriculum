@@ -7,7 +7,9 @@ hide_table_of_contents: true
 
 When we program in a functional style, the functions we write must always be **pure**. Let's take a look at what makes a **pure function**.
 
+:::info[Pure Function]
 * **Given a specific input, a pure function always returns the same output.**
+:::
 
 Here's a very basic example:
 
@@ -19,7 +21,21 @@ function addOne(num) {
 
 In the example above, no matter how many times we pass in the value `7` as an argument, the function will always return `8`.
 
-In contrast, we can't have a function that returns a random value:
+<!-- :::info[Type Safety]
+**A Quick Note on Type Safety**
+
+While this function works as expected with numbers, JavaScript won't prevent you from accidentally passing in the wrong type:
+```js
+addOne(7);   // Returns 8 ✓
+addOne("7"); // Returns "71" ✗ Unexpected!
+```
+
+When we pass a string to `addOne()`, JavaScript concatenates instead of adding. While we can add validation code to check types, in the next section you'll learn about TypeScript, which helps catch these issues before your code even runs by allowing you to explicitly declare what types a function expects.
+
+For now, just be aware that pure functions should not only return consistent outputs for given inputs, but should also handle unexpected input types appropriately.
+::: -->
+
+In contrast to our `addOne` function, we can't have a function that returns a random value:
 
 ```js
 function guessMyNumber(num) {
@@ -36,9 +52,11 @@ The function above takes a number as an argument. We then use `Math.random()` to
 
 This function isn't pure because we can get different results with the same input. For example, if we input `7`, sometimes we'll get one result and sometimes we'll get the other.
 
-* **A pure function always returns an output.** We've already implied this, but let's make it explicit here: a pure function has to return something. A pure function can't always return the same output for a given input if it doesn't return anything at all!
+:::info[Pure Function]
+* **A pure function can not have side effects.** A side effect is when a function changes something in the application outside of the function. Pure functions should only return a value. They should not alter anything else in the application.
 
-* **A pure function can not have side effects.** A side effect is when a function changes something in the application outside of the function. Pure functions should only return a single thing. They should not alter anything else in the application.
+* **A pure function always returns an output.** We've already implied this, but let's make it explicit here: a pure function has to return something. Without returning a value, a function can only be useful if it causes side effects, which violate the above rule.
+:::
 
 We wrote many functions in JavaScript that had side effects. For instance, UI functions that change something in the DOM have side effects:
 
@@ -50,7 +68,11 @@ function addWord(word) {
 
 The function above appends a word to the DOM, which means it's altering something outside of the function. In fact, the function above is entirely side effects — there is no return value. It's definitely not a pure function!
 
-* **Pure functions cannot rely on external variables or state.** If a pure function could rely on external variables or state, then this could affect the return value of the function. Let's use pig dice as an example. Let's assume we have the following function inside a `Player` class:
+:::info[Pure Function]
+* **Pure functions cannot rely on external variables or state.** If a pure function could rely on external variables or state, then this could affect the return value of the function. 
+:::
+
+Let's use pig dice as an example. Let's assume we have the following function inside a `Player` class:
 
 ```js
 class Player {

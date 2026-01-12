@@ -1,5 +1,5 @@
 ---
-title: ✏️ 4.4.5.1 React with NoSQL Independent Project
+title: ✏️ 3.4.5.1 React with NoSQL Independent Project
 day: friday
 id: 3-4-5-1-react-with-nosql-independent-project
 hide_table_of_contents: true
