@@ -45,21 +45,20 @@ Plant {water: 1, soil: 0, light: 0}
 
 The program above is simple and easy to read. However, from a functional perspective, there are several problems with this approach. Let's discuss these issues. As we do, keep in mind that both functional programming and object-oriented programming have many advantages. We are not advocating for one approach over the other — the most important thing is to use the right tool for the job. Many developers incorporate aspects of both object-oriented and functional programming.
 
-### Problems With Our Object-Oriented Approach
+### Refactoring to a Functional Approach
 
-From a functional perspective, though, this application is not very flexible and may be prone to bugs. Let's look at why:
+The object-oriented approach above works perfectly fine and is actually simpler to understand in this case. However, let's explore how we'd solve this same problem using functional programming principles. This exercise will help us practice important FP concepts that become valuable in certain contexts:
 
-**All methods must be called on instances of the `Plant` class.** While these methods are nicely encapsulated, they aren't very reusable. If we wanted instances of other classes to have the same functionality, we'd need to use inheritance — or have repeated code elsewhere. 
+**In functional programming, we aim for immutability.** Rather than mutating an object's properties, we create and return new objects with updated values. This can be helpful in larger applications because:
+- It makes state changes more predictable and easier to track
+- It enables features like "undo" functionality (since you keep old state around)
+- It works well with frameworks like React that optimize based on object identity changes
 
-From a functional approach, we'll want to use composition instead. That means we won't use a class. It also means that our methods will be more modular and reusable.
+**In functional programming, we favor composition over class hierarchies.** Instead of methods bound to classes, we create reusable functions that can work with different types of data.
 
-**Our methods have side effects.** Remember that pure functions can't have side effects. Our methods definitely have side effects — they are altering the state of a plant object!
+**In functional programming, we prefer pure functions.** Functions that always return values and don't modify their inputs tend to be easier to test and reason about.
 
-**Our methods mutate state.** Not only do our methods have side effects — they are directly mutating state. While this is common in object-oriented programming, it's a no-no in functional programming.
-
-**Our functions don't return anything.** Pure functions also need to return something. However, none of our methods return anything.
-
-So how should we refactor our application to have a more functional approach?
+Let's practice these concepts by refactoring our plant application. Keep in mind that for an application this simple, the OOP approach is probably more practical - but learning these patterns will be valuable as we build more complex applications.
 
 ## A Functional Approach
 ---
@@ -85,9 +84,7 @@ const hydrate = (plant) => {
 };
 ```
 
-In the example above, we create a function literal. The function takes a `plant` as an argument. It will not mutate state. Instead, it will return a new object that represents the plant's new state. We will use the spread operator to return the new state of the plant. The value of `plant.water` will be set to `(plant.water || 0) + 1`. Note that we use the `||` operator here — if an object doesn't contain a `water` property, then `plant.water` will equal `NaN`. This way, the value default to `0` if there is no `water` property.
-
-In theory, the function isn't mutating state because we are returning a new object. (Unfortunately, in reality, JavaScript is still referencing — and mutating — the original object because it creates a shallow clone, not a deep clone. But we'd need to use a special library to ensure we have a deep clone, so we won't worry about that right now!)
+In the example above, we create a function that takes a `plant` as an argument. It will not mutate state. Instead, it will return a new object that represents the plant's new state. We will use the spread operator to return the new state of the plant. The value of `plant.water` will be set to `(plant.water || 0) + 1`. Note that we use the `||` operator here — if an object doesn't contain a `water` property, then `plant.water` will equal `NaN`. This way, the value default to `0` if there is no `water` property.
 
 Just like that, we've addressed the primary issues with our `hydrate()` function!
 
@@ -133,7 +130,7 @@ While this is a good first step in terms of refactoring, we can do more to make 
 
 * It's still specific to plants when we could technically use it to increment any property of any object by 1. We can rename the variables to be more abstract.
 * Why should we limit ourselves to just incrementing a plant property by 1? If we were going to turn this into a game, we'd probably want ways to increment (or decrement) different properties in different ways. Our function would be much more flexible if it could do this.
-* Finally, this function takes multiple arguments, so it might be nice to turn this into an unary function with just one argument. (Hint: we will need to curry our function to do this.)
+* Finally, we can use function factories to create specialized versions of this function for different use cases.
 
 Let's handle this one step at a time.
 
@@ -159,9 +156,9 @@ const changeState = (state, prop, value) => ({
 })
 ```
 
-This is a very small change but it makes our function even more flexible. In the process, though, we've created another problem. We went from having an unary function with just one argument to a function with three arguments.
+This is a very small change but it makes our function even more flexible. In the process, though, we now have a function with three arguments, which is less flexible for reuse.
 
-How can we solve this problem, too? It's time to curry this function! Our outer function will take just one argument. This outer function will return a second function which takes another argument. Finally, this inner function will return yet another inner function that will take the final argument. Here's how our curried function looks:
+How can we make this function more reusable? We can use the function factory pattern! Our outer function will take the property name and return a new function that's pre-configured for that property:
 
 ```js
 const changeState = (prop) => {
@@ -174,7 +171,14 @@ const changeState = (prop) => {
 }
 ```
 
-You may be wondering if there's any value in currying this function. Don't we still have to pass in three arguments? Well, there is a method to our madness — or rather, a function to our funny business. Now we can create some function factories!
+You may be wondering if there's any value in doing this. Don't we still need to provide three pieces of information? Well, there is a method to our madness — or rather, a function to our funny business. Now we can create some function factories!
+
+:::info[Understanding Nested Function Returns]
+The structure above can be confusing at first. Let's break down what each level returns:
+- The outer function `changeState(prop)` returns a function
+- That returned function takes `value` and returns yet another function
+- That innermost function takes `state` and returns an object
+:::
 
 Note that `prop` is passed into the outer function, then `value` is passed to the inner function, and finally, `state` is passed to the innermost function. We could pass in those arguments in any order we like. However, our current setup isn't accidental. We can now use this function to make some smaller, more specific functions. Here are some examples:
 
@@ -206,14 +210,13 @@ blueFood(plant)
 
 This will increase a plant's food level by 5.
 
-None of this flexibility would've been possible without currying!
+None of this flexibility would've been possible without closures and function factories!
 
 We've now incorporated the following:
 
 * Our function is pure, does not mutate state, and has no side effects;
-* Our function is unary and takes only one argument;
-* Our function uses currying, which allows us to reuse it as a function factory;
-* Our function takes advantage of closures (because we wouldn't be able to curry without it);
+* Our function uses the function factory pattern to create specialized helper functions;
+* Our function takes advantage of closures (because we wouldn't be able to create function factories without it);
 * Our function is sufficiently abstracted that it could be used with other types of objects that could be incremented or decremented as well.
 
 That's a lot of extra power that we didn't have with our object-oriented methods!

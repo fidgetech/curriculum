@@ -13,7 +13,7 @@ hide_table_of_contents: true
 * What is a pure function? What are some of the benefits of pure functions?
 * What is immutability? Why is it important in functional programming?
 * What is a closure?
-* Why would we want to curry a function?
+* Why would we want to build a function factory?
 
 ## Code
 ---
@@ -52,8 +52,6 @@ The most basic rule is that you add the value of all the symbols: so II is 2, LX
 The exception is that there may not be more than three of the same characters in a row. Instead, you switch to subtraction. So instead of writing IIII for 4, you write IV (for 5 minus 1); and instead of writing LXXXX for 90, you write XC.
 
 You also have to separate ones, tens, hundreds, and thousands. In other words, 99 is XCIX, not IC.  You cannot count higher than 3,999 in Roman numerals.
-
-**Bonus:** Can you solve this problem using closures and currying?
 
 ### Prime Sifting
 

@@ -24,7 +24,7 @@ const canEat = function(creature) {
 }
 ```
 
-Here we are creating a function literal that returns an object. The object itself has a single property called `eat` which stores a function. Note that the function stored inside the `eat` property is a closure because it "closes over" variables from both the inner and outer function. Because of that, the inner function will have access to the value of `creature` from the outer function even after the outer function has been called and completed.
+Here we are creating a function that returns an object. The object itself has a single property called `eat` which stores a function. Note that the function stored inside the `eat` property is a closure because it "closes over" variables from both the inner and outer function. Because of that, the inner function will have access to the value of `creature` from the outer function even after the outer function has been called and completed.
 
 Let's give a cat the ability to eat:
 
@@ -107,21 +107,21 @@ Now that we have two methods, how can we assign them both to a single cat object
 
 ```js
 const sleepingEatingCreature = function(name) {
-  let state = {
+  const state = {
     name
-  }
+  };
 
   return { ...state, ...canEat(state), ...canSleep(state) };
 }
 ```
 
-In the example above, we create a function literal that contains a variable called `state`. We can think of state as being a "snapshot" of the creature's properties and functions. While we could call this variable something else, state is a commonly used term and one that we'll see frequently in React. This variable only has one property: the name of the creature (in our case, it will be a cat). We could also add additional properties here if needed.
+In the example above, we create a function that contains a variable called `state`. We can think of state as being a "snapshot" of the creature's properties and functions. While we could call this variable something else, state is a commonly used term and one that we'll see frequently in React. This variable only has one property: the name of the creature (in our case, it will be a cat). We could also add additional properties here if needed.
 
-Note that we are also using `let` instead of `const`. This is because the `state` of the object will be modified. But isn't this a big no-no in functional programming? It is, and the technique above can more accurately be called **object composition** because we are combining elements of composition with object creation. We will discuss state further in the next lesson.
+The technique above is called **object composition**. This is the technique of building complex objects by combining simpler objects and functions, rather than inheriting from parent classes. We will discuss state further in the next lesson.
 
 Next, we use the spread operator to merge the three objects together. Remember that both the `canEat()` and `canSleep()` functions return objects. Using these techniques, we can merge any number of objects, which also means that we can compose as many pieces of additional functionality as we need. Note that we could also use `Object.assign()` here instead of the spread operator.
 
-We will need to make a small update to our other methods because we are passing in entire objects to both the `canEat()` and `canSleep()` methods:
+We will need to make a small update to our other methods. Since we're now passing in the entire state object instead of just a string, we need to access the name property with `creature.name`:
 
 ```js
 const canEat = function(creature) {
@@ -149,25 +149,20 @@ Now we can create any kind of sleeping and eating creature. Our application has 
 
 ```js
 > const platypus = sleepingEatingCreature("platypus");
-```
 
-Our `platypus` object should look like this:
+> platypus.name
+'platypus'
 
-```js
-platypus {
-  name: 'platypus', 
-  eat: function(food) {
-    return `The ${creature.name} eats the ${food}.`
-  }, 
-  sleep: function() {
-    return `The ${creature.name} sleeps.`
-  }
-}
+> platypus.eat('bugs')
+'The platypus eats the bugs.'
+
+> platypus.sleep()
+'The platypus sleeps.'
 ```
 
 A platypus can eat and sleep just like other mammals. However, if we need to add a modular method so a platypus can lay eggs, that would be easy to do. We could also reuse that method for birds and any other creatures that lay eggs. We can't do that with classical inheritance!
 
-One further thing: we can refactor our code to use arrow notation. We've omitted arrow notation up to this point because it makes the code appear even more abstract. Here's how our new functions look with arrow notation:
+One further thing: we can refactor our code to use arrow notation. We've omitted arrow notation up to this point because it makes the code appear more abstract. Here's how our new functions look with arrow notation:
 
 ```js
 const canEat = (creature) => ({
@@ -183,14 +178,29 @@ const canSleep = (creature) => ({
 });
 
 const sleepingEatingCreature = (name) => {
-  let creature = {
+  const creature = {
     name
-  }
+  };
 
   return { ...creature, ...canEat(creature), ...canSleep(creature) };
 };
 ```
 
 Note that when we use arrow notation with a function that returns a single object, we don't need to add a return statement. Instead, we can take advantage of the **implicit return**, which is when we can omit a return statement in a function. This cleans up our code further but it does make it a bit more abstract and unfamiliar. While it's important to be able to use and read arrow notation, for now it's fine to use the syntax that feels most comfortable.
+
+```js
+const canEat = (creature) => ({
+  eat: (food) => `The ${creature.name} eats the ${food}.`
+});
+
+const canSleep = (creature) => ({
+  sleep: () => `The ${creature.name} sleeps.`
+});
+
+const sleepingEatingCreature = (name) => {
+  const creature = { name };
+  return { ...creature, ...canEat(creature), ...canSleep(creature) };
+};
+```
 
 In this lesson, we learned how to use composition to make fully functioning objects out of smaller functions. These smaller functions determine what an object can _do_, not what an object _is_. With a handful of functions, we could create creatures from the far reaches of the animal kingdom, from glow worms to platypuses to whales. We could also pick and use which functions are necessary for each object, whether that's `swim()`, `layEggs()`, `fly()`, or something else.

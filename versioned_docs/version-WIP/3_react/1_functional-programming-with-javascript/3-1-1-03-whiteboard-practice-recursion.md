@@ -5,7 +5,7 @@ id: 3-1-1-3-whiteboard-practice-recursion
 hide_table_of_contents: true
 ---
 
-You will get a chance to practice whiteboarding a lot during this course section. Time will be set aside during most class sessions at the discretion of your teacher. Use this time wisely to improve both your whiteboarding and functional programming skills!
+You will get a chance to practice whiteboarding a lot during this course section. Use this time wisely to improve both your whiteboarding and functional programming skills!
 
 ### Practice with Recursion
 

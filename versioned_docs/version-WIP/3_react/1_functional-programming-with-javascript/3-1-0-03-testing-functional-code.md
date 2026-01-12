@@ -5,38 +5,76 @@ id: 3-1-0-3-testing-functional-code
 hide_table_of_contents: true
 ---
 
-Because we are focusing on teaching the concepts of functional programming, we will not include tests in the lessons. However, you are still expected to write tests for all of your functions. We can still use Jest in exactly the same way whether our code is functional or object-oriented. That means the tests themselves will not change significantly from how we wrote them in Intermediate JavaScript. Focus on the following process:
+## Why Functional Code is Easy to Test
 
-* **Start by writing a test for the smallest unit of behavior you can.** In this section, this will usually mean checking to see if an expected output occurs when a function is called. In functional programming, **a function _always_ returns the same output**. We'll discuss this more in a future lesson. This actually makes functional programs _easier_ to test than object-oriented programs.
+Good news: functional code is actually *easier* to test than object-oriented code. Here's why:
 
-* **Verify that the test fails.** The function should be correctly called but the expected output won't be returned because we haven't added code to the function body yet.
+**Pure functions are predictable:**
+```js
+// This function always returns the same output for the same input
+const double = (num) => num * 2;
 
-* **Get the test passing.** This is when you'll use the functional programming techniques we learn throughout this section.
+// Testing it is straightforward
+test('doubles a number', () => {
+  expect(double(5)).toBe(10);
+  expect(double(0)).toBe(0);
+  expect(double(-3)).toBe(-6);
+});
+```
 
-So why aren't we including webpack, testing, and Jest with this section's lessons if we still expect you to write tests? Well, at this point in the program, you are almost ready to continue onto an internship or a future career. It's important to be able to retrieve skills you've learned in the past and refresh them as needed. **This is an essential skill for developers.** You will learn many things throughout your career — and you will forget many, too. There will not always be a tutorial to help you along the way as there often is with Learn How To Program.
+No setup, no teardown, no mocking - just input and output.
 
-We see the transition back to JavaScript as a valuable opportunity to apply a skill you've learned in the past to a new way of doing things. In this case, we are applying a tool we've learned for testing object-oriented JavaScript — but this time we'll be using it to test functional JavaScript code. This is another essential skill for developers — applying a tool you've used in a past familar setting to new, unfamiliar code.
+**No side effects means isolated tests:**
+```js
+// OOP approach - harder to test
+class Counter {
+  constructor() {
+    this.count = 0;
+  }
+  increment() {
+    this.count++;
+  }
+}
 
-Finally, we want the lessons in this section to focus entirely on functional programming. Functional programming is challenging to learn for new developers. Cluttering up the lessons with extraneous steps on incorporating Jest, writing tests, and adding webpack will detract from the key concepts in this section — especially since you've already learned how to use these tools!
+// FP approach - easier to test
+const increment = (count) => count + 1;
 
-You may need to review lessons on test-driven development, using Jest, and setting up webpack. You are also welcome to use your repositories from Intermediate JavaScript to set up a boilerplate environment with webpack and Jest. Having good reference projects in GitHub can be very helpful when you need to revisit concepts you haven't used for a while. If you need to refer back to Intermediate JavaScript lessons to set up webpack and Jest, these links will be helpful:
+test('increments a number', () => {
+  expect(increment(5)).toBe(6);  // That's it!
+});
+```
 
-* We used the example project called "Shape Tracker" to demonstrate how to use TDD with Jest:
-  * [Shape Tracker](https://github.com/epicodus-lessons/section-5-shape-tracker)
-* The following lessons review TDD and how to set up Jest and Babel: 
-  * [TDD Review](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-1-2-tdd-review)
-  * [Red Green Refactor Workflow](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-1-3-red-green-refactor-workflow)
-  * [Setting Up Jest](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-1-4-setting-up-jest)
-  * [Setting Up Babel](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-1-5-setting-up-babel)
-* The following lessons demonstrate using TDD to build out business logic in the Shape Tracker project:
-  * [TDD with Jest: Testing the Triangle() Constructor](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-1-6-tdd-with-jest-testing-the-triangle-constructor)
-  * [TDD with Jest: Testing the Triangle.prototype.checkType() Method](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-1-7-tdd-with-jest-testing-the-triangle-prototype-checktype-method)
-* The following lessons explain best practices and additional tools we can implement to improve our testing experience with Jest:
-  * [Testing Best Practices](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-1-8-testing-best-practices)
-  * [Expanding our Testing Tools: Adding Setup and Teardown](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-1-9-expanding-our-testing-tools-adding-setup-and-teardown)
-  * [Improving Test Reports: Adding Test Coverage Information](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-1-10-improving-test-reports-adding-test-coverage-information)
+## Testing Setup for This Section
 
-You may also want to update your ESLint configuration to include functional programming rules. If so, we recommend the eslint-plugin-fp library:
+You'll use the same Jest setup you learned in Intermediate JavaScript. If you need a refresher:
 
-* [npm page for eslint-plugin-fp](https://www.npmjs.com/package/eslint-plugin-fp)
-* [GitHub page for eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)
+- [Jest setup guide](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-1-4-setting-up-jest)
+- [Shape Tracker example project](https://github.com/epicodus-lessons/section-5-shape-tracker)
+
+## What to Test
+
+For each function:
+1. Test the expected output for typical inputs
+2. Test edge cases (empty arrays, zero, negative numbers)
+3. Test that the original data isn't mutated (for array/object operations)
+
+Example:
+```js
+const filterAdults = (users) => users.filter(user => user.age >= 18);
+
+test('filters users 18 and older', () => {
+  const users = [
+    { name: 'Alice', age: 25 },
+    { name: 'Bob', age: 16 }
+  ];
+  expect(filterAdults(users)).toEqual([{ name: 'Alice', age: 25 }]);
+});
+
+test('does not mutate original array', () => {
+  const users = [{ name: 'Alice', age: 25 }];
+  filterAdults(users);
+  expect(users).toEqual([{ name: 'Alice', age: 25 }]);
+});
+```
+
+You're expected to write tests for all functions in your projects, just like in previous sections.

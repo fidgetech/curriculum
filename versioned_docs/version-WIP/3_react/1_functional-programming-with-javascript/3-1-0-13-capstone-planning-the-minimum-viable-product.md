@@ -5,13 +5,13 @@ id: 3-1-0-13-capstone-planning-the-minimum-viable-product
 hide_table_of_contents: true
 ---
 
-During the final course section of your time at Epicodus, you will craft your Capstone project, and eventually present it to your peers to showcase what you've learned. This will also act as your final independent project of Epicodus.
+During the final course section, you will craft your Capstone project, and eventually present it to your peers to showcase what you've learned. This will also act as your final independent project.
 
 However, "final independent project" doesn't mean that we expect your capstone to be completely finished. The goal is to have the minimum viable product (MVP) in place.
 
 In this lesson, we'll review MVPs and how they apply to our capstone projects. 
 
-For now, this lesson is to introduce you to the concept of the MVP, but you won't be required to submit an MVP or formal capstone proposal for your capstone until much later in the C# course. 
+For now, this lesson is to introduce you to the concept of the MVP, but you won't be required to submit an MVP or formal capstone proposal for your capstone until later. 
 
 ## Minimum Viable Product (MVP)
 ---
@@ -43,7 +43,7 @@ By following this MVP process to create our product, we reap two distinct benefi
 ## The MVP Process in Your Capstone Project
 ---
 
-As described in the [independent project expectations lesson](../../react/functional-programming-with-javascript/4-1-0-1-functional-programming-with-javascript-objectives) for this week, you'll submit an idea board and an outline of your idea to your instructor. Instructors will give you feedback that will help you eventually work toward developing your MVP before integrating additional features. This will happen later in the next course, but keep this in mind for larger projects, Team Week projects, and other projects going forward to help you qualify your project. Here's what the workflow will look like:
+As described in the [independent project expectations lesson](./3-1-0-1-functional-programming-with-javascript-objectives) for this week, you'll submit an idea board and an outline of your idea to your instructor. Instructors will give you feedback that will help you eventually work toward developing your MVP before integrating additional features. This will happen later in the next course, but keep this in mind for larger projects, Team Week projects, and other projects going forward to help you qualify your project. Here's what the workflow will look like:
 
 1.  In your proposal, you'll identify the primary goal or purpose of the application. What problem is this project meant to solve? What service is it meant to offer the user?
 

@@ -1,5 +1,5 @@
 ---
-title: ✏️ 4.2.5.1 React Fundamentals Independent Project
+title: ✏️ 3.2.5.1 React Fundamentals Independent Project
 day: friday
 id: 3-2-5-1-react-fundamentals-independent-project
 hide_table_of_contents: true

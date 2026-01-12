@@ -25,7 +25,19 @@ Here's how we'd do the exact same thing from a declarative perspective:
 
 1. Wash the clothes.
 
-In the first example, we give very specific instructions on how clothes should be washed. Our program will follow each step, which will lead to the desired end result — clean (but not dry) clothes. In the second example, we simply tell the program what to do — wash the clothes — and let our program handle the steps it takes to reach that result.
+In the first example, we give very specific instructions on how clothes should be washed. Our program will follow each step, which will lead to the desired end result. In the second example, we simply tell the program what to do — wash the clothes — and let our program handle the steps it takes to reach that result. 
+
+:::tip[Important Clarification]
+The steps don't disappear in declarative programming—
+they've just been written once and packaged up for reuse. Someone had to program 
+the washing machine to know how to wash clothes. But once that's done, everyone 
+can use "wash clothes" without rewriting those steps.
+
+This is exactly what happens with JavaScript methods like `map()`. Someone wrote 
+the looping logic once, and now we can reuse it. The benefit isn't that the steps 
+vanish—it's that we only write them once, test them once, and then focus on our 
+specific problem (like doubling numbers) instead of rewriting loops over and over.
+:::
 
 We've actually written declarative code before. For instance, when we write HTML, we don't describe where each individual pixel on the screen should be placed. Instead, we describe what the end goal is. When we create an `<input>` field, we're saying "place a form input here." We aren't saying "create a box roughly x pixels high and y pixels wide here, add a cursor if the user clicks on it, and then make sure the box has functionality to accept user text input." We only have to describe the end goal, not every single step required to reach that end goal.
 
@@ -36,11 +48,9 @@ From an imperative perspective, we could double each element in an array like th
 ```js
 const originalArray = [1,2,3];
 let doubledArray = [];
-originalArray.forEach(function(element) {
-  const doubledElement = element * 2;
-  doubledArray.push(doubledElement);
-});
-doubledArray;
+for (let i = 0; i < originalArray.length; i++) {
+  doubledArray[i] = originalArray[i] * 2;
+}
 ```
 
 Here we instruct our code to create an empty array called `doubledArray`, iterate over each element in our `originalArray`, double each of those elements, and then push them into `doubledArray`.
@@ -55,5 +65,15 @@ const newArray = originalArray.map(function(element) {
 ```
 
 Here, we simply tell the program to complete a transformation (`map()`) that doubles every element by 2. We don't state every step explicitly. As a result, our code is cleaner and easier to read.
+
+:::tip[Key Insight]
+Both styles execute the same steps internally. The difference is 
+*where* those steps are written.
+
+With `map()`, someone already wrote the looping logic once, tested it, and made it 
+reusable. Now you can:
+- Focus on your actual problem (doubling numbers) instead of loop mechanics
+- Make your intent immediately clear to other developers
+:::
 
 While imperative code is sometimes necessary, declarative code is widely considered more reusable, readable, and easier for programmers to collaborate on. We will favor this style of coding when we build functional programs.

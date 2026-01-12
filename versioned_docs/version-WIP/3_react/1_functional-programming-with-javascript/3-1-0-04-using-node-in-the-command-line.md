@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 So far, we've used JavaScript to build browser applications. When we want to try out snippets of code, we've used the console in Chrome Developer Tools or an online development environment like Codepen.
 
- A REPL is a tool we can use to evaluate code in the terminal. With JavaScript, we can use Node to run our code in the terminal. Node is a runtime environment just like the browser. The difference is that the browser is a client-side environment while Node is a server-side environment. To distill this a little further, JavaScript in the browser is "front end" code while JavaScript using Node is "back end" code.
+A REPL is a tool we can use to evaluate code in the terminal. With JavaScript, we can use Node to run our code in the terminal. Node is a runtime environment just like the browser. The difference is that the browser is a client-side environment while Node is a server-side environment. To distill this a little further, JavaScript in the browser is "front end" code while JavaScript using Node is "back end" code.
 
 Both Node and Chrome use the V8 JavaScript engine. The V8 JavaScript engine is an open-source project developed by Google and written in C++. It uses just-in-time (JIT) compiling to translate JavaScript into code our machines can understand. This makes the V8 engine extremely fast, which is part of the reason Node is a popular solution for server-side projects.
 
@@ -30,7 +30,7 @@ Now we can type in JavaScript code and the REPL will evaluate it. Here's an exam
 
 We can type the `Tab` key to get a list of Node commands. Some of these commands are JavaScript methods and data types that we've used before. Others are for using server-side Node.
 
-Finally, to exit the REPL, hold down the Ctrl and c keys twice.
+Finally, to exit the REPL, hold down the Ctrl and d keys (or Ctrl and c keys twice).
 
 The Node REPL can be helpful for trying out code.
 
@@ -49,7 +49,7 @@ $ node js-code.js
 Node is server-side.
 ```
 
-Note that the string characters won't show up in the Terminal.
+Note that the quotation marks used to define the string in your code won't be displayed in the Terminal.
 
 It may seem odd to use `console.log()` statements to print commands to the Terminal. However, `console.log()` happens to use a method called `process.stdout.write()` under the hood. `stdout` is short for **standard output**. Standard input is for data streaming into a program while standard output is for data streaming out of a program. It is not specific to Node or JavaScript.
 
