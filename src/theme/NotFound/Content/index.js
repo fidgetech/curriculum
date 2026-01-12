@@ -18,15 +18,7 @@ export default function NotFoundContent({className}) {
             <Translate
               id="theme.NotFound.p1"
               description="The first paragraph of the 404 page">
-              We could not find what you were looking for.
-            </Translate>
-          </p>
-          <p>
-            <Translate
-              id="theme.NotFound.p2"
-              description="The 2nd paragraph of the 404 page">
-              Please contact the owner of the site that linked you to the
-              original URL and let them know their link is broken.
+              We could not find what you were looking for. :(
             </Translate>
           </p>
           <p>

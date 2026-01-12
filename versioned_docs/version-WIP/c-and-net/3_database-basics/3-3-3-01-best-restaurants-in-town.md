@@ -1,5 +1,5 @@
 ---
-title: ✏️ 3.3.3.1 Best Restaurants in Town
+title: ✏️ 3.4.3.1 Best Restaurants in Town
 day: wednesday
 id: 5-3-3-1-best-restaurants-in-town
 hide_table_of_contents: true
