@@ -1,7 +1,7 @@
 ---
-title: '✏️ 3.1.3.1 Build Your Own RPG, Haiku Checker (Two-day Project)'
+title: '✏️ 3.1.3.1 RPG Utilities, Haiku Checker (Two-day Project)'
 day: wednesday
-id: 3-1-3-1-build-your-own-rpg-haiku-checker-two-day-project
+id: 3-1-3-1-rpg-utilities-haiku-checker-two-day-project
 hide_table_of_contents: true
 ---
 
@@ -12,28 +12,36 @@ hide_table_of_contents: true
 
 * What does it mean to mutate state? Why should we generally avoid this in functional programming?
 * What does it mean that functions are first class citizens? 
-* What does LIFO mean in terms of the JavaScript stack? Why is this important for recursive functions?
+* What is a closure, and how do function factories use closures?
 
 ## Code
 ---
 
-### Build Your Own RPG
+### Build Your Own RPG Utilities
 
-In Intermediate JavaScript, you had the opportunity to build your own RPG using object-oriented techniques. Try building another RPG — this time using functional techniques such as composition. You may also choose to refactor an RPG you've already started working on. Refactoring object-oriented code to functional code can be a great way to improve your skills.
+Use function factories to build a set of weapon utilities for a simple RPG.
 
-An RPG (Role Playing Game) is a game where players assume the roles of characters in a fictional world. Build and fully unit test the business logic for a Medieval Role Playing Game (or another genre that you prefer: sci-fi, cyberpunk, '80's high school).
+Weapon factory: Create a function factory that generates different weapons. Each weapon should take a base damage value and return the calculated damage:
 
-Logic could include the following:
+```js
+const sword = createWeapon("Sword", 1.5); // multiplier of 1.5
+const dagger = createWeapon("Dagger", 0.8); // multiplier of 0.8
 
-* **Character creation:** Use composition to generate different character types. Be creative with your character types... warriors, wizards, scientists, prom queen... whatever! Characters should have specific attributes. For instance, in a medieval RPG, characters might have `strength` and `intelligence` attributes among others. In an '80's high school RPG, characters might have `snark` and `charm`. You can add and even update these attributes using composition.
+sword(10);   // "Sword does 15 damage!"
+dagger(10);  // "Dagger does 8 damage!"
+```
 
-* **Battle system:** Many RPGs have a battle system so characters can fight monsters, though that could just as easily be a high school “battle” system where the prom queen has a dance-off with the theater aficionado. Determine conditions for "winning" a battle, whether that's defeating monsters (with swords and spells doing damage), accumulating dance-off style points, or any other system you think of.
+Armor factory: Create a function factory that generates armor with different defense ratings. Armor should reduce incoming damage:
 
-* **Level up:** Determine a leveling system. Characters should be able to go from Level 1 to Level 2 and so on. Generally each level comes with new abilities. How do characters level up in your game? What attributes and powers do they gain? Does their `strength` go up or do they learn new spells? You will need to use some object-oriented programming to complete this objective — characters can be individual objects with their own set of attributes.
+```js
+const leather = createArmor("Leather", 0.1); // reduces damage by 10%
+const plate = createArmor("Plate", 0.5); // reduces damage by 50%
 
-* **Inventory:** Characters should be able to have items that enhance their abilities. Maybe the Magic Armor increases their defense power or legwarmers increase their dance-off ability. Create a limit to the number of items a character can have. Characters should be able to add, drop, buy and sell items.
+leather(20);  // "Leather absorbs 2 damage! You take 18 damage."
+plate(20);    // "Plate absorbs 10 damage! You take 10 damage."
+```
 
-Feel free to build out your RPG as you see fit. Keep in mind that incorporating some object-oriented principles are okay, but try to use functional programming where possible.
+Bonus: Create a potion factory, spell factory, or another game element of your choice using the same pattern.
 
 ### Haiku Checker/Creator
 
@@ -52,6 +60,6 @@ Make sure you test your application for each new rule you implement.
 ---
 
 * Code uses functional programming and avoids mutating state as much as possible.
-* Code is well tested.
-* Code demonstrates an understanding of closures, recursion, and other functional concepts.
+* Code demonstrates an understanding of closures and other functional concepts.
 * Application works as expected.
+* Code is well tested.

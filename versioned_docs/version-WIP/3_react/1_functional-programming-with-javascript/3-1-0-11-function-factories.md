@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.0.10 Function Factories"
+title: "📓 3.1.0.11 Function Factories"
 day: weekend
-id: 3-1-0-10-function-factories
+id: 3-1-0-11-function-factories
 hide_table_of_contents: true
 ---
 
@@ -75,4 +75,4 @@ The pattern of creating specialized functions from generic ones has formal names
 
 Remember: function factories are just a practical application of closures. The inner function remembers the outer function's variables, letting you create customized, reusable functions.
 
-This is another complex concept that often takes some time to absorb. Don't worry — you will get more practice and we will cover more use cases in upcoming lessons.
+This is a complex concept that often takes some time to absorb. Don't worry — you will get more practice in upcoming lessons.

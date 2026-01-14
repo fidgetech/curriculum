@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.0.13 Capstone Planning: The Minimum Viable Product"
+title: "📓 3.1.0.14 Capstone Planning: The Minimum Viable Product"
 day: weekend
-id: 3-1-0-13-capstone-planning-the-minimum-viable-product
+id: 3-1-0-14-capstone-planning-the-minimum-viable-product
 hide_table_of_contents: true
 ---
 

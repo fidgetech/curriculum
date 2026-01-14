@@ -17,8 +17,10 @@ In this course section, we'll cover the following:
 * **Pure functions** - predictable, easy-to-test functions
 * **Immutability** - not modifying existing data
 * **Array methods** - `map()`, `filter()`, `reduce()`
-* **Closures** - functions that remember their outer scope
+* **Closures** - functions that "remember" variables from their outer scope
+* **Function factories** - functions that create other functions
 * **Function composition** - building complex functionality from simple pieces
+* **Recursion** - functions that call themselves
 
 Some of these concepts can feel abstract at first. That's normal. You don't need to master everything immediately - focus on building familiarity and getting practice.
 
