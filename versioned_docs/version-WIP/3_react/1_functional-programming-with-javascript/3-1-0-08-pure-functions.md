@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.0.7 Pure Functions"
+title: "📓 3.1.0.8 Pure Functions"
 day: weekend
-id: 3-1-0-7-pure-functions
+id: 3-1-0-8-pure-functions
 hide_table_of_contents: true
 ---
 

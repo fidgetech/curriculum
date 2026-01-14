@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.0.8 First Class Citizens"
+title: "📓 3.1.0.9 First Class Citizens"
 day: weekend
-id: 3-1-0-8-first-class-citizens
+id: 3-1-0-9-first-class-citizens
 hide_table_of_contents: true
 ---
 
@@ -19,19 +19,19 @@ function add(num1, num2) {
   return num1 + num2;
 }
 
-function printResult(sum) {
-  return `The value of this equation is ${sum}.`
+function calculateAndPrint(func, num1, num2) {
+  const result = func(num1, num2);
+  console.log(`The result is: ${result}`);
 }
 
-printResult(add(5, 7));
+calculateAndPrint(add, 5, 7);
 ```
 
-Our `add()` function simply sums two numbers. Our `printResult()` function simply takes a number and places it in a string. (The example above uses a [template literal](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-2-5-es6-template-literals).)
+Our `add()` function simply sums two numbers. Our `calculateAndPrint()` function takes a function and two numbers as arguments, calls the function with the two numbers, and then prints the result. (The example above uses a [template literal](../../intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-2-5-es6-template-literals).)
 
-We can pass our `add()` function into our `printResult()` function just like we could pass any other variable in as an argument.
+We can pass our `add()` function into our `calculateAndPrint()` function just like we could pass any other variable in as an argument.
 
-While the example above may not seem particularly useful, we could potentially use a method like `printResult()` with many different mathematical functions such as `multiply()`, `subtract()` and so on. This serves two potential benefits:
-
+While the example above may not seem particularly useful, we could potentially use a method like `calculateAndPrint()` with many different mathematical functions such as `multiply()`, `subtract()` and so on. This serves two potential benefits:
 * It would DRY up our code if we had many mathematical functions and we always wanted to put the result inside a string.
 * It creates better separation of logic in our code. One function concerns itself with mathematical equations while the other includes display logic for showing the result to a user.
 

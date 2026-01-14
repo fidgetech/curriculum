@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.0.11 Map, Reduce and Filter"
+title: "📓 3.1.0.12 Map, Reduce and Filter"
 day: weekend
-id: 3-1-0-11-map-reduce-and-filter
+id: 3-1-0-12-map-reduce-and-filter
 hide_table_of_contents: true
 ---
 

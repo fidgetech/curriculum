@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.0.9 Closures"
+title: "📓 3.1.0.10 Closures"
 day: weekend
-id: 3-1-0-9-closures
+id: 3-1-0-10-closures
 hide_table_of_contents: true
 ---
 
@@ -69,7 +69,7 @@ This may not seem very useful, but our original function is very flexible. We ca
 
 This reusability is a large part of what makes closures so powerful. We will explore this further when we discuss function factories in the next lesson.
 
-As we can see in the examples above, our inner function has access to variables in both the inner and outer function. Even after the outer function has been called, the inner function continues to have this access. This is where the term closure comes from: the ability of the function to _close over_ the variables, keeping them in the function's scope. In many languages (C being an example), variables are destroyed as soon as the outer function is completed. As a result, these languages can't use this powerful functionality.
+As we can see in the examples above, our inner function has access to variables in both the inner and outer function. Even after the outer function has been called, the inner function continues to have this access. This is where the term closure comes from: the ability of the function to _close over_ the variables, keeping them in the function's scope.
 
 Let's look at one more example of a closure. This time, we will create a function that we can reuse to multiply a number by different values.
 
@@ -88,7 +88,7 @@ const doubler = multiplier(2);
 const tripler = multiplier(3);
 ```
 
-Once again, let's go into how this works. With `doubler`, we pass in `multiplier(2)`. The `doubler` variable now stores a function that looks like this:
+Once again, let's go into how this works. With `doubler`, we pass in `multiplier(2)`. The `doubler` variable now stores a function that effectively works like this:
 
 ```js
 function(numberToMultiply) {
@@ -96,17 +96,9 @@ function(numberToMultiply) {
 }
 ```
 
-You can check this out for yourself in the console. This works because the inner function retains the value of the argument passed into the outer function — which in turn is stored in the `doubler` variable. This inner function will be invoked when we call `doubler()`.
+This works because the inner function retains the value of the argument passed into the outer function — which in turn is stored in the `doubler` variable. This inner function will be invoked when we call `doubler()`.
 
-`tripler` works in exactly the same way. The difference is that we are passing in a different argument to the outer function, which is being stored in the inner function.
-
-So `tripler` stores the following information: 
-
-```js
-function(numberToMultiply) {
-  return 3 * numberToMultiply;
-}
-```
+`tripler` works in exactly the same way, but with 3 captured in the closure instead of 2.
 
 :::tip[Arrow Functions and Closures]
 All these examples use the function keyword for clarity, but closures work identically with arrow functions (=>) which you'll see in modern JavaScript code.
@@ -124,43 +116,23 @@ const multiplier = (numberToMultiplyBy) => {
 Closures can be a very confusing concept at first. However, we've actually used closures before. Consider this example:
 
 ```js
-function howManyEvenNumbers(userInputArray) {
-  let instances = 0;
-  userInputArray.forEach(function(element) {
-    if (element % 2 === 0) { 
-      instances++; // we have access to `instances` thanks to closures
-    }
+function addPrefix(words) {
+  const prefix = "pre";
+
+  return words.map(function(word) {
+    return `${prefix}${word}`;
   });
-  return instances;
 }
 
-howManyEvenNumbers([2,3,4,5,6,7]);
-// returns 3
+addPrefix(["view", "cook", "heat"]); // ["preview", "precook", "preheat"]
 ```
 
-The callback passed to `Array.prototype.forEach()` is an example of a closure. The inner, anonymous callback function has access to the variables declared in the outer function, `howManyEvenNumbers()`.
+The callback passed to `Array.prototype.map()` is an example of a closure. The inner, anonymous callback function has access to the variable declared in the outer function, `addPrefix()`.
 
 If you do get asked about closures in an interview, remember to mention that callbacks are an example of an inner function having access to an outer function's scope.
 
-:::warning[Important]
-Not all callbacks are examples of closures. A function only has access to variables from scopes where it was defined, not where it's called. If you define a function outside and pass it in as a callback, it won't magically gain access to the inner scope.
+Ultimately, closures are a powerful technique in both functional programming and programming in general. In the next lesson, we will see how we can use closures to create reusable, modular code and **function factories**, which are essentially functions we can use to churn out many other helpful functions.
 
-```js
-function myLogger() { 
-  console.log(myNum); // myLogger was defined out here, where myNum doesn't exist
-}
-
-function myCounter(functionParam) {
-   const myNum = 1;
-   functionParam(); // Error! myLogger can't see this myNum
-}
-
-myCounter(myLogger);
-```
-:::
-
-Ultimately, closures are a powerful technique in both functional programming and programming in general. In the next lesson, we will see how we can combine closures with currying to create reusable, modular code and **function factories**, which are essentially functions we can use to churn out many other helpful functions.
-
-Closures are also commonly used for enclosing private data, a use case we won't be exploring in depth. To learn more, see the [Mozilla documentation on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures).
+Closures can also be used for enclosing private data, a use case we won't be exploring in depth. To learn more, see the [Mozilla documentation on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures).
 
 By the way, if you still don't understand closures after reading this lesson, don't worry. We will get more practice working with them over upcoming lessons. This is also one of those concepts that usually doesn't click at first — there's a reason that this is one of the things that separates junior and midlevel developers!
