@@ -162,7 +162,7 @@ Now we can create any kind of sleeping and eating creature. Our application has 
 
 A platypus can eat and sleep just like other mammals. However, if we need to add a modular method so a platypus can lay eggs, that would be easy to do. We could also reuse that method for birds and any other creatures that lay eggs. We can't do that with classical inheritance!
 
-One further thing: we can refactor our code to use arrow notation. We've omitted arrow notation up to this point because it makes the code appear more abstract. Here's how our new functions look with arrow notation:
+One further thing: we can refactor our code to use arrow notation. We've mostly omitted arrow notation up to this point because it can make the code appear more abstract. Here's how our new functions look with arrow notation:
 
 ```js
 const canEat = (creature) => ({
