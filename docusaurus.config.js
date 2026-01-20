@@ -69,6 +69,11 @@ const config = {
               label: 'v1.2',
               banner: 'none',
             },
+            v1_3: {
+              path: 'v1.3',
+              label: 'v1.3',
+              banner: 'none',
+            },
             'WIP': {
               path: 'WIP',
               label: 'WIP',
