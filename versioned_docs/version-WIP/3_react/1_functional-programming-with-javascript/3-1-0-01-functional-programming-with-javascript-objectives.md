@@ -14,15 +14,28 @@ Good news: you've already been doing some functional programming! Every time you
 
 In this course section, we'll cover the following:
 
-* **Pure functions** - predictable, easy-to-test functions
-* **Immutability** - not modifying existing data
-* **Array methods** - `map()`, `filter()`, `reduce()`
-* **Closures** - functions that "remember" variables from their outer scope
-* **Function factories** - functions that create other functions
-* **Function composition** - building complex functionality from simple pieces
-* **Recursion** - functions that call themselves
+| Concept | What It Means | Why It Matters |
+|---------|---------------|----------------|
+| **Pure functions** | Functions that always return the same output for the same input | Easier to test and debug |
+| **Immutability** | Never modifying existing data | Prevent unexpected bugs |
+| **Array methods** | `map()`, `filter()`, `reduce()` | Clean, readable data transformations |
+| **Closures** | Functions that "remember" variables from their outer scope | Foundation for many patterns |
+| **Function factories** | Functions that create other functions | Reusable, configurable code |
+| **Composition** | Building complex functionality from simple pieces | Flexible alternative to inheritance |
+| **Recursion** | Functions that call themselves | Elegant solutions to certain problems |
 
 Some of these concepts can feel abstract at first. That's normal. You don't need to master everything immediately - focus on building familiarity and getting practice.
+
+## How This Differs from OOP
+
+| Object-Oriented | Functional |
+|-----------------|------------|
+| Focuses on *what things are* (a User, a Game) | Focuses on *what things do* (transform data, calculate values) |
+| Organizes code into classes with methods | Organizes code into small, reusable functions |
+| Often mutates object state | Avoids mutation; creates new values |
+| Uses inheritance to share behavior | Uses composition to combine behaviors |
+
+Professional developers use both paradigms. The goal isn't to abandon OOP—it's to add functional techniques to your toolkit and know when each approach fits best.
 
 ## Independent Project Objectives
 ---
