@@ -104,6 +104,20 @@ a.track-button:hover {
   width: 200px;
 } */
 
+
+[data-theme='light'] div[class^='codeBlockTitle'],
+[data-theme='light'] div[class*=' codeBlockTitle'] {
+  background: #d0d0d0;
+  font-weight: bold;
+}
+
+[data-theme='dark'] div[class^='codeBlockTitle'],
+[data-theme='dark'] div[class*=' codeBlockTitle'] {
+  background: #3a3a3a;
+  font-weight: bold;
+}
+
+
 @media (max-width: 400px) {
   .navbar__title {
     display: none;
