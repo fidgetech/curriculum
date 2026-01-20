@@ -5,7 +5,7 @@ id: 4-2-0-7-planning-a-react-application
 hide_table_of_contents: true
 ---
 
-Before we start coding our site, let's plan the UI for our Help Queue application. At this point, we aren't going to worry about adding or changing state in our application. Our site will be entirely static and we will only have function components. This is actually the **recommended way** to build a React site. State gets complicated fast. If we start adding state without planning our application first, we'll be much more likely to write bad code and end up with frustrating bugs.
+Before we start coding our site, let's plan the UI for our Help Queue application. At this point, we aren't going to worry about adding or changing state in our application. Our site will be entirely static. This is actually the **recommended way** to build a React site. State gets complicated fast. If we start adding state without planning our application first, we'll be much more likely to write bad code and end up with frustrating bugs.
 
 In the React documentation, there is an article called [Thinking in React](https://reactjs.org/docs/thinking-in-react.html) that outlines the process of planning, building out a static site, and then finally adding state. We recommend taking a quick look at the steps in that article before continuing. We will be following the same process as we build out our Help Queue application.
 

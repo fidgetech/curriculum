@@ -12,9 +12,7 @@ So far, the form component in our Help Queue application just contains placehold
 
 We'll start by replacing the placeholder text in the `return()` of our `NewTicketForm` component with an actual form:
 
-<div class="filename">NewTicketForm.js</div>
-
-```javascript
+```js title="NewTicketForm.js"
 ...
 
 function NewTicketForm() {
@@ -47,7 +45,7 @@ function NewTicketForm() {
 
 Notice that our form has a new type of event handler called `onSubmit`. This is similar to when we added an `onClick` event handler when we learned how to toggle local state. The difference is that `onSubmit` triggers when the submit button of a form is clicked.
 
-Our `onSubmit` handler will trigger the function `{handleNewTicketFormSubmission}`. We haven't written that function yet, but we will soon. Note that we are calling `handleNewTicketFormSubmission` a function, not a method. This component isn't a class component so it has functions, not methods that are called on the instance of a class. That also means we'll be using the `function` keyword, unlike with class components.
+Our `onSubmit` handler will trigger the function `{handleNewTicketFormSubmission}`.
 
 ## Adding an Event Handler to Our Form
 ---
@@ -56,9 +54,7 @@ Now that we have a form in place, we need a `handleNewTicketFormSubmission` func
 
 Let's add that function just above the lines of code where we instantiated our form:
 
-<div class="filename">NewTicketForm.js</div>
-
-```js
+```js title="NewTicketForm.js"
 ...
 
 function NewTicketForm(){
@@ -71,8 +67,6 @@ function NewTicketForm(){
   }
 ...
 ```
-
-Once again, note that we have to use the `function` keyword here. We can't just use ES6 class syntax to define our functions because this function is inside another function, not inside a class.
 
 We need to add `event.preventDefault()` to our form just as we have in the past. The default behavior of an HTML submit button is to submit data and refresh the page. We don't want it to refresh the page so we prevent the default behavior.
 

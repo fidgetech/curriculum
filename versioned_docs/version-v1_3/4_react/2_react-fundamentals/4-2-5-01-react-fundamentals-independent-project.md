@@ -19,7 +19,7 @@ Even though you have learned full CRUD in this section, **you will only be expec
 Your code will be reviewed for the following objectives:
 
 * Application compiles and runs without error, and warnings in the DevTools console are resolved.
-* Functional and class components are used correctly.
+* Functional components are used correctly.
 * Application effectively uses local and shared state.
 * Props are used correctly and always include `PropTypes`.
 * README includes an accurate representation of the application's component tree.

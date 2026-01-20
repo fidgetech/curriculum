@@ -30,23 +30,6 @@ In the case of `create-react-app`, npx will first ask permission to download the
 
 ![Message from npx asking to install `create-react-app`](/images/React/npx-install-cra-message.png)
 
-### Versioning Issues
-
-However, there's one important thing to know about `npx`. It will download the latest version of `create-react-app`, as well as `react`, `react-dom`, `react-scripts`, and other packages. This is potentially an issue for two reasons:
-
-* Later versions of `create-react-app` may not be compatible with all the libraries we use.
-* The most recent version of `create-react-app` may have a bug that you'll need to find a workaround for.
-
-As of July, 2022, the most recent version of `create-react-app` does in fact have a small bug when we run `$ npm run start`. Take a look:
-
-![Message about deprecated technology after running `npm start` in our `create-react-app` app.](/images/React/cra-npm-start-warning-message.png) 
-
-This bug is a warning. While this warning doesn't impact the normal functioning of our application, this does demonstrate what the issues we might run into look like when using the latest technology.
-
-This issue has already seen a lot of discussion in the create-react-app community. Check out [this issue on the create-react-app GitHub repo](https://github.com/facebook/create-react-app/issues/12035) to see how developers have discussed this issue, the solutions they've reported, the related tools they are using, and the general back and forth of discussion. That issue links to other issues and PRs that discuss more solutions. This is truly what being a developer is all about! (If you have the time, I highly suggest reading or skimming through all of the commentary.) 
-
-By the time you read this lesson, the issue may have already been resolved. In any case, we won't worry about addressing it in our applications. If you do find that you can't run your projects as expected, reach out to your instructor to get help.
-
 ### Looking at C-R-A Project Files and Folders
 
 Now let's `cd` into our `help-queue` project and open it in the code editor. There aren't too many directories and files, so let's go through them one by one:

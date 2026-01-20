@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 In this lesson, we'll learn the basics of JSX, a preprocessor that adds special syntax capabilities to JavaScript. Specifically, JSX combines elements of both HTML and JavaScript.
 
-We'll start by deleting the content inside the `App.js` file (but not the file itself). We can also delete the `App.css` and `App.test.js` files that `create-react-app` automatically built for our `help-queue` project. The provided `App.js` is a state component, but we don't need one of those yet. Instead, we'll build a simple function component that uses JSX.
+We'll start by deleting the content inside the `App.js` file (but not the file itself). We can also delete the `App.css` and `App.test.js` files that `create-react-app` automatically built for our `help-queue` project. We'll build from scratch a simple function component that uses JSX.
 
 JSX is a declarative language that combines JavaScript with HTML. It makes React code much easier to read, write, and understand. For this reason, almost all React development teams use JSX. While we could technically write React applications with vanilla JavaScript, it would be very cumbersome.
 

@@ -7,9 +7,9 @@ hide_table_of_contents: true
 
 ## Declaring Prop Types
 
-While our props are working correctly, in a more complex application they can become prone to bugs. For instance, we might find ourselves passing the wrong type of data to a child component. At that point, it can become difficult to trace where the bug is coming from — especially if data is passed down through many components. Many other languages feature strict typing, which forces developers to declare the data type of variables when they are declared. JavaScript, for better or worse, is a loosely typed language and does not enforce such declarations.
+While our props are working correctly, in a more complex application they can become prone to bugs. For instance, we might find ourselves passing the wrong type of data to a child component. At that point, it can become difficult to trace where the bug is coming from — especially if data is passed down through many components. Many other languages feature strict typing, which forces developers to declare the data type of variables when they are declared. JavaScript, for better or worse, is a loosely typed language and does not enforce such declarations. (Note that TypeScript is a superset of JavaScript that does enforce strict typing, but that is outside the scope of this course.)
 
-For this reason, it's a best practice to assign strict data types to props with a special `propTypes` property. When we assign strict data types, we are simply stating that a variable (in this case, a property) **must** be of a certain type. If they aren't, our application will show a warning in the JavaScript console. We will always assign strict data types to all of our properties. **You will also be expected to use PropTypes for all properties on independent projects.**
+Because JavaScript does not enforce types, it's a best practice to assign strict data types to props with a special `propTypes` property. When we assign strict data types, we are simply stating that a variable (in this case, a property) **must** be of a certain type. If they aren't, our application will show a warning in the JavaScript console. We will always assign strict data types to all of our properties. **You will also be expected to use PropTypes for all properties on independent projects.**
 
 ### Using PropTypes
 

@@ -14,9 +14,7 @@ We are almost ready to add update functionality to our Help Queue application, b
 
 We will keep this component simple. All it needs to do is render the form. Here's the code:
 
-<div class="filename">ReusableForm.js</div>
-
-```js
+```js title="ReusableForm.js"
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -64,9 +62,7 @@ Finally, we also need to pass in `propTypes` for both of our props.
 
 Now let's refactor our `NewTicketForm` to use this reusable component. We only need to import our `Reusable Form` and then update our `return()`:
 
-<div class="filename">NewTicketForm.js</div>
-
-```js
+```js title="NewTicketForm.js"
 ...
 import ReusableForm from "./ReusableForm";
 ...

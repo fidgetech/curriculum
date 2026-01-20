@@ -23,23 +23,19 @@ For that reason, we can make our lives easier by updating our component diagram 
 
 `TicketControl` will be able to pass props and state directly to `TicketDetail`. `TicketControl` also already has conditional rendering so we will just need to add one more conditional to determine whether `TicketDetail` should render instead of `TicketList` or `NewTicketForm`.
 
-We will also need to add some new local state to `TicketControl`. Don't worry about making this change right now, but in the next few lessons the default state of the `TicketControl` component will be updated to look like this:
+We will also need to add some new local state to `TicketControl`. Don't worry about making this change right now, but in the next few lessons the state in `TicketControl` will be updated to look like this:
 
-<div class="filename">TicketControl.js</div>
-
-```js
-this.state = {
-  formVisibleOnPage: false,
-  mainTicketList: [],
-  selectedTicket: null
-};
+```js title="TicketControl.js"
+const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
+const [mainTicketList, setMainTicketList] = useState([]);
+const [selectedTicket, setSelectedTicket] = useState(null);
 ```
 
 We'll add a third piece of state called `selectedTicket` which begins as `null`. If you are working along with the lesson, you don't need to add this code yet — we will go over it again in the next lesson.
 
 If a user clicks on a ticket, `selectedTicket` will be updated to the correct ticket — and the `TicketDetail` for that ticket will show.
 
-Each of these properties is a **state slice**. A state slice is a piece of state that can be mutated independently of other state slices.
+Each of these state variables is a **state slice**. A state slice is a piece of state that can be mutated independently of other state slices.
 
 Our first state slice determines whether or not a form should show on the page. It is local state.
 

@@ -5,7 +5,7 @@ id: 4-2-0-8-building-a-static-site
 hide_table_of_contents: true
 ---
 
-We've built a basic plan for our Help Queue and we're ready to start coding our application. Because our site is static for now, we will only use function components. Before we begin, there's an important point to reiterate — `App.js` is the parent component for **all** other components in our application. For that reason, as we add each component to our application, we will also need to add it either to `App.js` or to its parent component. This will become clear soon.
+We've built a basic plan for our Help Queue and we're ready to start coding our application. Before we begin, there's an important point to reiterate — `App.js` is the parent component for **all** other components in our application. For that reason, as we add each component to our application, we will also need to add it either to `App.js` or to its parent component. This will become clear soon.
 
 Before we do anything else, let's add a new directory called `components` to the `src` directory of our `help-queue` project. All of our components will be added to this directory including `App.js`. Storing all components in a `components` directory is considered a best practice. However, note that `index.js` should *not* be added to our new `components` directory.
 
@@ -27,7 +27,7 @@ import App from './components/App';
 
 We will always make this update when making a new application with `create-react-app`.
 
-Now we're ready to create our first function component. We'll start with our header. Create a new file called `Header.js` and add it to the `components` directory. Note that `Header.js` is capitalized. It is standard naming convention to capitalize component names.
+Now we're ready to create our first component. We'll start with our header. Create a new file called `Header.js` and add it to the `components` directory. Note that `Header.js` is capitalized. It is standard naming convention to capitalize component names.
 
 Here's our new component:
 

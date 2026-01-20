@@ -5,10 +5,10 @@ id: 4-2-1-6-updating-state-with-events
 hide_table_of_contents: true
 ---
 
-In this lesson, we'll handle our first event in a React application. We've handled many events before — every time we use functions to respond to a click or a submit button, we are handling an event. There are some fundamental differences to handling events in React, but for the most part, the process is very similar:
+In this lesson, we'll handle our first event in a React application. We've handled many events before — every time we use functions to respond to a click or a submit button, we are handling an event. The process in React is very similar:
 
 * First, we add a click handler to an element (such as a button).
-* Next, that click handler will trigger some code, often a function. We need to write that function as well.
+* Next, that click handler will trigger a function. We need to write that function as well.
 
 ## Adding a Click Handler to JSX
 ---
@@ -16,167 +16,189 @@ In this lesson, we'll handle our first event in a React application. We've handl
 Here's how our click handler will look:
 
 ```jsx
-<button onClick={this.handleClick}>Add ticket</button>
+<button onClick={handleClick}>Add ticket</button>
 ```
 
-Here, we take a `button` element and add an `onClick` handler to it. We need to specify the function `onClick` will trigger. As always, we need to use curly braces to make sure that JSX properly evaluates any JS code to the right of our `onClick` handler.
+Here, we take a `button` element and add an `onClick` handler to it. We need to specify the function `onClick` will trigger. As always, we need to use curly braces to make sure that JSX properly evaluates any JS code.
 
-In the example above, our `onClick` handler will trigger `this.handleClick`. As you can probably guess `handleClick()` is the function that will be called when the handler is triggered. But what is `this`? In this case, we are going to be rendering an object that's an instance of the `TicketControl` component. `this` refers to the specific instance that is being rendered.
+Note that there are a few syntactical differences between how we do this in React as opposed to how we'd accomplish the same thing with vanilla JavaScript:
 
-Note that we don't use `this` with function components — just class components. But we won't worry about that right now. We will get a chance to add functions to function components soon enough.
+- Instead of `onclick`, we use `onClick` (camelCase is important in React).
+- In plain old JavaScript, we'd wrap the function being called in a string, like `<button onclick="doSomething()">`. In JSX, we use curly braces.
 
-Note that there are a few syntactical differences between how we do this in React as opposed to how we'd accomplish the same thing with JavaScript. Instead of `onclick`, we use `onClick` (as always, case is important). In plain old JavaScript, we'd wrap the function being called in a string. For instance, we might do this: `<button onclick="doSomething()">`. In JSX, we use curly braces. Other than these syntactical differences, attaching click handlers in React is very similar to how we might attach a click handler in a vanilla JavaScript application.
+Other than these syntactical differences, attaching click handlers in React is very similar to how we might attach a click handler in a vanilla JavaScript application.
 
-Now let's actually add our event handler to our component. Our event handler will go in the `render()` method of `TicketControl.js`:
+Now let's actually add our event handler to our component:
 
-<div class="filename">src/components/TicketControl.js</div>
+```js title="src/components/TicketControl.js"
+import React, { useState } from 'react';
+import NewTicketForm from './NewTicketForm';
+import TicketList from './TicketList';
 
-```js
-...
+function TicketControl() {
+  const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
 
-  render(){
-    let currentlyVisibleState = null;
-    let addTicketButton = null; // new code
-    if (this.state.formVisibleOnPage) {
-      currentlyVisibleState = <NewTicketForm />
-    } else {
-      currentlyVisibleState = <TicketList />
-      addTicketButton = <button onClick={this.handleClick}>Add ticket</button> // new code
-    }
-    return (
-      <React.Fragment>
-        {currentlyVisibleState}
-        {addTicketButton} { /* new code */}
-      </ React.Fragment>
-    );
+  let currentlyVisibleState = null;
+  let buttonText = null; // new code
+
+  if (formVisibleOnPage) {
+    currentlyVisibleState = <NewTicketForm />;
+  } else {
+    currentlyVisibleState = <TicketList />;
+    buttonText = "Add Ticket"; // new code
   }
 
-...
+  return (
+    <React.Fragment>
+      {currentlyVisibleState}
+      <button onClick={handleClick}>{buttonText}</button> { /* new code */ }
+    </React.Fragment>
+  );
+}
+
+export default TicketControl;
 ```
 
-Before we continue, note that there are two different kinds of comments above — this is expected. Comments in JSX syntax need to be wrapped in curly braces, unlike the other comments, which are standard JS comments.
+We've added a button to our `TicketControl` component. Notice that we haven't defined the `handleClick` function yet — we'll do that in the next section.
 
-We've added three lines of code:
+:::note
+There are two different kinds of comments above — this is expected. Comments in JSX syntax need to be wrapped in curly braces, unlike the other comments, which are standard JS comments.
+:::
 
-* First, we create a new variable called `addTicketButton` and set its value to `null`.
-* Next, if `this.state.formVisibleOnPage` is set to `false`, we will set the value of our `addTicketButton` variable to our button with its click handler.
-* Finally, we make sure that `{addTicketButton}` will be returned from our function. If its value is still `null`, there's nothing to add to the DOM. However, if it has a value, the button will be added to the DOM.
+We've added a few things:
 
-You may wonder why we have this button here instead of in the `TicketList` component. Well, this button has nothing to do with our `TicketList` component so it shouldn't be there. However, it _does_ have a lot to do with `TicketControl` — it's a large part of determining which component should be showing!
+* We create a new variable called `buttonText` and set its value to `null`.
+* If `formVisibleOnPage` is `false`, we set the value of `buttonText` to `"Add Ticket"`.
+* In the return statement, render the button with the text stored in `buttonText`.
 
-There's one other reason the button isn't in another component. If it were in a child component, we'd have to pass our `this.handleClick` function to the child component using something called **unidirectional data flow**. That makes things a bit more complicated and we aren't quite there yet.
+You may wonder why we have this button here instead of in the `TicketList` component. Well, this button has nothing to do with displaying tickets — it's about controlling which view is shown! It belongs in `TicketControl` because it directly affects this component's state.
 
-## Calling a Function in a State Component
+## Writing the Event Handler Function
 ---
 
-Next, we need to write the function that we've associated with our event handler. That way, when an event actually triggers the handler, the function is called. Any functions we write will go after the constructor and before the `render()` method. Let's write a `handleClick()` method now. Note that we are using the term "method" here. Remember that a method is a function that's called on an object. `handleClick()` is a method that has to be called on an instance of the `TicketControl` class — it can't be called elsewhere.
+Next, we need to write the function that will be called when the button is clicked. In a function component, we simply define a function inside our component:
 
-<div class="filename">src/components/TicketControl.js</div>
+```js title="src/components/TicketControl.js"
+import React, { useState } from 'react';
+import NewTicketForm from './NewTicketForm';
+import TicketList from './TicketList';
 
-```js
-...
+function TicketControl() {
+  const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
 
-class TicketControl extends React.Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      formVisibleOnPage: false
-    };
+  const handleClick = () => {
+    setFormVisibleOnPage(true);
   }
 
-  handleClick = () => {
-    this.setState({formVisibleOnPage: true});
+  let currentlyVisibleState = null;
+  let buttonText = null;
+
+  if (formVisibleOnPage) {
+    currentlyVisibleState = <NewTicketForm />;
+  } else {
+    currentlyVisibleState = <TicketList />;
+    buttonText = "Add Ticket";
   }
 
-...
+  return (
+    <React.Fragment>
+      {currentlyVisibleState}
+      <button onClick={handleClick}>{buttonText}</button>
+    </React.Fragment>
+  );
+}
+
+export default TicketControl;
 ```
 
-Our new `handleClick()` method uses arrow notation. This is very important. We will go over why in the next lesson when we discuss binding functions.
+Our `handleClick` function is simple — it just calls `setFormVisibleOnPage(true)` to update our state.
 
-Let's take a look at the code in our new method. There's only a single line of code:
+Now if we run our application, we can successfully click on "Add Ticket" and our form will show!
 
-```jsx
-this.setState({formVisibleOnPage: true});
-```
-
-As we discussed in [Introduction to State](../../react/react-fundamentals/4-2-1-2-introduction-to-state), we should only ever modify state in a pure React application with the `setState()` method. In its simplest form, `setState()` takes an object as an argument. The object contains any key-value pairs that our application should update.
-
-Now if we run our application, we can successfully click on "Add Ticket" and our form will show.
-
-## Toggling a Boolean When Updating State
+## Toggling a Boolean
 ---
 
-When we add a working form to our application, our submit button will return users to the list of tickets. However, what if a user changes their mind and wants to return to the queue, anyway? Let's add a button that users can click to return to the queue from the form page without submitting a ticket. That way, we can learn about efficiently toggling a boolean in React state.
+When we add a working form to our application, our submit button will return users to the list of tickets. However, what if a user changes their mind and wants to return to the queue without submitting a ticket? Let's add a button that users can click to return to the queue from the form page.
 
-First, we'll update our `handleClick()` method:
+First, let's update our `handleClick` function to toggle the boolean instead of just setting it to `true`:
 
-<div class="filename">src/components/TicketControl.js</div>
+```js title="src/components/TicketControl.js"
+const handleClick = () => {
+  setFormVisibleOnPage(!formVisibleOnPage);
+}
+```
+
+This line says: "set `formVisibleOnPage` to the opposite of its current value." If it's `true`, it becomes `false`. If it's `false`, it becomes `true`.
+
+For most cases, this approach works perfectly. However, if you're dealing with rapid state updates or updates inside effects, you might want to use the functional form of the state updater:
 
 ```js
-...
-  handleClick = () => {
-    this.setState(prevState => ({
-      formVisibleOnPage: !prevState.formVisibleOnPage
-    }));
+const handleClick = () => {
+  setFormVisibleOnPage(prevState => !prevState);
+}
+```
+
+This version receives the previous state as an argument and returns the new state. It's more explicit about the fact that the new state depends on the previous state.
+
+### Updating the Button for Both Views
+
+Now that we've updated our `handleClick` function to toggle, we need to update our conditional logic so that we have a button in both views:
+
+```js title="src/components/TicketControl.js"
+import React, { useState } from 'react';
+import NewTicketForm from './NewTicketForm';
+import TicketList from './TicketList';
+
+function TicketControl() {
+  const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
+
+  const handleClick = () => {
+    setFormVisibleOnPage(!formVisibleOnPage);
   }
-...
-```
 
-As we can see, `setState()` just got more complex. This method can just take an object — and more often than not, just passing in an object will suit our needs.
+  let currentlyVisibleState = null;
+  let buttonText = null;
 
-However, if we want to refer to the previous state (such as with toggling a boolean or incrementing a counter), we need to know a little more about `setState()`.
-
-`setState()` can optionally take two arguments (we will only discuss the first here). This is the actual first argument that `setState()` can take:
-
-```js
-(state, props) => stateChange
-```
-
-We can choose to just pass in an object (the `stateChange`), but we can also pass in an arrow function that takes the current `state` and `props` as arguments. As we just mentioned, there are plenty of use cases where we need to know about the current state. Here are some examples:
-
-* **We want to toggle a boolean.** That means we need to know the current state of the boolean so we can toggle it to its opposite state.
-* **We want to increment or decrement a value.** A prime example is a counter that we need to increment by one or some other value each time a button is clicked.
-* **We want to update the state of a game.** Let's say we are making a game where the location of pieces is constantly changing. We need to know the previous state to determine where pieces can move next.
-
-Now let's return to the `setState()` method in `handleClick()`:
-
-```js
-this.setState(prevState => ({
-  formVisibleOnPage: !prevState.formVisibleOnPage
-}));
-```
-
-We pass in the current state of the `formVisibleOnPage` boolean to `prevState`. Now that we know this value, we can say the new state should be `!prevState.formVisibleOnPage` (the opposite of the old state).
-
-We recommend experimenting with adding counters, booleans, and other states that need updating to your applications to get more practice with this slightly more complex implementation of `setState()`.
-
-### Refactoring Our Button to Toggle Between Components
-
-Now that we've updated our `handleClick()` method, we just need to update our `render()` method so that we have a button to toggle back to the Help Queue with our form. Let's do this with the minimum amount of code possible. We'll need to refactor just a little.
-
-<div class="filename">src/components/TicketControl.js</div>
-
-```jsx
-  render(){
-    let currentlyVisibleState = null;
-    let buttonText = null; // new code
-    if (this.state.formVisibleOnPage) {
-      currentlyVisibleState = <NewTicketForm />;
-      buttonText = "Return to Ticket List"; // new code
-    } else {
-      currentlyVisibleState = <TicketList />;
-      buttonText = "Add Ticket"; // new code
-    }
-    return (
-      <React.Fragment>
-        {currentlyVisibleState}
-        <button onClick={this.handleClick}>{buttonText}</button> { /* new code */ }
-      </React.Fragment>
-    );
+  if (formVisibleOnPage) {
+    currentlyVisibleState = <NewTicketForm />;
+    buttonText = "Return to Ticket List";
+  } else {
+    currentlyVisibleState = <TicketList />;
+    buttonText = "Add Ticket";
   }
+
+  return (
+    <React.Fragment>
+      {currentlyVisibleState}
+      <button onClick={handleClick}>{buttonText}</button>
+    </React.Fragment>
+  );
+}
+
+export default TicketControl;
 ```
 
-Now that we know we need our button in both components, we can move it out of the conditional and into our `return()` statement. We only need to change the text on the button so we create a new variable called `buttonText`. It's the same button regardless of which component the user is looking at — but the text will make it seem like it's a different button.
+Now the button shows "Return to Ticket List" or "Add Ticket" depending on the view. It's the same button with the same click handler — we just change the text to make it clear what clicking the button will do.
 
-At this point, we've successfully added local state and we can use a button to toggle back and forth between two components. In the process, we've also learned more about how `setState()` works. Make sure to take the time to practice working with local state and getting to learn the ins and outs of `setState()`.
+At this point, we've successfully added local state and we can use a button to toggle back and forth between two components. Make sure to take the time to practice working with local state and event handlers.
+
+## A Note on Function Definitions
+---
+
+You might wonder why we define `handleClick` as an arrow function:
+
+```js
+const handleClick = () => {
+  setFormVisibleOnPage(!formVisibleOnPage);
+}
+```
+
+In function components, you can also use regular function declarations:
+
+```js
+function handleClick() {
+  setFormVisibleOnPage(!formVisibleOnPage);
+}
+```
+
+Both work fine in function components! The arrow function syntax is common because it's concise, and some developers prefer the consistency of always using `const` for function definitions. Use whichever style you prefer.

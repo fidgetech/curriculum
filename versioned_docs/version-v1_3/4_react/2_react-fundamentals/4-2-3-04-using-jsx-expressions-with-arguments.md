@@ -1,85 +1,74 @@
 ---
-title: "📓 4.2.3.4 Using JSX Expressions with Arguments"
+title: "📓 4.2.3.4 Passing Arguments to Event Handlers"
 day: wednesday
-id: 4-2-3-4-using-jsx-expressions-with-arguments
+id: 4-2-3-4-passing-arguments-to-event-handlers
 hide_table_of_contents: true
 ---
 
-Before we continue, let's discuss an important gotcha related to evaluating JavaScript functions in JSX curly braces.
+Before we continue, let's discuss an important gotcha related to event handlers in JSX.
 
-Let's look at an example. If we were to attach an `onClick` handler to a JSX div, it might look something like this:
+## The Problem
+---
 
-```jsx
-<div onClick={ doAThing }>Click This Button To Do A Thing</div>
-```
-
-`doAThing` is a callback so it doesn't have parens. Let's say we were to add parens:
+When we attach an event handler like `onClick`, we pass a function reference:
 
 ```jsx
-<div onClick={ doAThing() }>Click This Button To Do A Thing</div>
+<button onClick={handleClick}>Click me</button>
 ```
 
-This will not have the intended effect. Now `doAThing` will be invoked immediately when the DOM is updated — instead of waiting for a click event as it should.
+Notice there are no parentheses after `handleClick`. We're telling React "here's the function to call when clicked" — we're not calling it ourselves.
 
-We've seen this kind of behavior before. Here's an example of a function where we might want to pass another function in as a callback:
-
-```js
-function thisTakesACallbackAsAnArgument(thisIsAFunction) {
-  const argumentToFunction = // some computed value
-  return thisIsAFunction(argumentToFunction);
-}
-```
-
-In the example above, `thisIsAFunction` should take an argument — but we don't know what that argument should be until we calculate the variable `argumentToFunction`. We can't pass in `thisIsAFunction()` as an argument to the outer function because it will be invoked immediately. Instead, because `thisIsAFunction` is a first-class citizen, we can pass it around like a variable until we are ready to invoke it by adding parens (in this case, parens that include the argument `argumentToFunction`).
-
-The example above is contrived — but it's similar to what's going on when we evaluate functions and methods inside JSX curly braces. Since these functions are usually connected to an event handler, we don't want them to be invoked immediately. We want them to wait until a user does something.
-
-However, what if we need to pass an argument to a JavaScript function in curly braces? Let's say that `doAThing` needs to take `someOtherThing` as an argument. We can't do the following because it will be invoked immediately:
+If we add parentheses:
 
 ```jsx
-<div onClick={ doAThing(someOtherThing) }>Click This Button To Do A Thing</div>
+<button onClick={handleClick()}>Click me</button>
 ```
 
-We only want this function to be invoked on a click event so we need to do the following:
+This **calls the function immediately** when the component renders, not when the button is clicked. That's almost never what we want.
+
+## When You Need to Pass an Argument
+---
+
+But what if we need to pass an argument to our function? Let's say we want to pass a ticket's `id` to a delete function:
 
 ```jsx
-<div onClick={ () => doAThing(someOtherThing) }>Click This Button To Do A Thing</div>
+// ❌ This calls the function immediately!
+<button onClick={handleDelete(ticket.id)}>Delete</button>
 ```
 
-`() => ` is an anonymous arrow function with no parameters. You may wonder how in the world this will solve our problem. Well, let's take a look at a simpler example:
+This won't work — `handleDelete(ticket.id)` runs right away because of the parentheses.
+
+The solution is to wrap it in an arrow function:
+
+```jsx
+// ✅ This waits for the click
+<button onClick={() => handleDelete(ticket.id)}>Delete</button>
+```
+
+## Why This Works
+---
+
+When we write `() => handleDelete(ticket.id)`, we're creating a new function that:
+1. Takes no parameters (the empty `()`)
+2. When called, executes `handleDelete(ticket.id)`
+
+So `onClick` receives a function reference (the arrow function), not the result of calling `handleDelete`. React stores this function and calls it later when the user actually clicks.
+
+Think of it like this:
 
 ```js
-const hey = () => "Hey there!"
+// Without arguments - just pass the function
+onClick={handleClick}
+
+// With arguments - wrap in an arrow function
+onClick={() => handleClick(someArgument)}
 ```
 
-If we check the value of `hey` in the console, it's `() => "hey there"`. The `hey` variable is storing our anonymous function.
+## Summary
+---
 
-To invoke it, we need to do the following:
+- `onClick={myFunction}` — passes the function (correct)
+- `onClick={myFunction()}` — calls immediately (wrong)
+- `onClick={() => myFunction(arg)}` — passes a function that will call `myFunction(arg)` when clicked (correct)
 
-```js
-hey()
-"Hey there!"
-```
-
-In other words, the `() =>` syntax is just another way of creating a function literal.
-
-Let's look at another example:
-
-```js
-function heyThere(name) {
-  return `Hey ${name}!`
-}
-
-const dontInvokeYet = () => heyThere("Jasmine")
-const invokeNow = heyThere("Jasmine")
-```
-
-Try this out in the console. Our `heyThere` function needs to take a `name` as an argument now — so we have to add parens to the function.
-
-`dontInvokeYet` stores the function (because we use `() => `). We can invoke it later by calling `dontInvokeYet()`. The value of the `dontInvokeYet` variable is `() => heyThere("Jasmine")`
-
-`invokeNow` will call the function immediately and store it in the `invokeNow` variable. The value of the `invokeNow` variable is `"Hey Jasmine!"`
-
-Applying this to our JSX example, we want the value of `onClick` to be set to a function that should be evoked later, not now.
-
-So while the syntax may look a little strange at first, remember that it's just JavaScript, not React. We always need to make sure that any event handlers being evaluated with JSX are invoked later (when an event is triggered), not immediately (when the component is rendered). React can only do this because JavaScript functions are first-class citizens. It's another way in which React leverages the functional programming power of JavaScript.
+You'll use this pattern frequently in React whenever you need to pass data to an event handler, like passing an `id` to identify which item was clicked.

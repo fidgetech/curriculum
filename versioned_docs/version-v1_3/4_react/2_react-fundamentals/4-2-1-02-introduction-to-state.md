@@ -5,78 +5,223 @@ id: 4-2-1-2-introduction-to-state
 hide_table_of_contents: true
 ---
 
-In this lesson, we'll briefly cover the concept of state. We'll discuss shared state versus local state. We'll also briefly cover how we define and change state in a pure React application. Then, over the next several lessons, we'll add state to our Help Queue application so we can dynamically add new tickets.
+In this lesson, we'll cover the concept of state in React and learn how to add state to our components using React's `useState` hook. Then, over the next several lessons, we'll add state to our Help Queue application so we can dynamically add new tickets.
 
-We can use two types of data in a React component: props and state. We've already used props in a React application and we also covered state in the last course section in our introduction to functional programming.
-
-As a quick reminder, state is anything in an application that we need to store and change. For instance, in our Help Queue, each time we add a new ticket, we need to update the application's state to hold the new ticket. Likewise, we'd need to update the application's state to edit or delete a ticket.
-
-State is something that can potentially change. In contrast, a component _cannot_ change its props. State is fluid and ever-changing while props are not.
-
-The components we've built so far have all been functional. They cannot handle state. However, as we discussed in our introduction to components, we can use class-based components to handle state. As a rule, we should **only define a component as a class if it _absolutely requires_ state.** If a component does not require state, it should be a stateless function component. Avoiding unnecessary use of state is an important rule in React. (Note: There's actually more to this rule but we won't go into great detail here. If you're feeling particularly brave, check out [this article](https://overreacted.io/how-are-function-components-different-from-classes/) to learn more about the nuances of why React favors function components.)
-
-## Shared State Versus Local State
+## What Is State?
 ---
 
-There can be two different types of state in a React application — **shared state** and **local state**. We will be experimenting with both as we add state to our Help Queue application.
+We can use two types of data in a React component: **props** and **state**. We've already used props to pass data from parent components to child components.
+
+**State** is anything in an application that we need to store and change. For instance, in our Help Queue, each time we add a new ticket, we need to update the application's state to hold the new ticket. Likewise, we'd need to update the application's state to edit or delete a ticket.
+
+Here's the key difference: **state can change, but props cannot**. A component can modify its own state, but it cannot modify the props it receives. State is fluid and ever-changing; props are read-only.
+
+## Local State vs Shared State
+---
+
+There are two types of state in a React application: **local state** and **shared state**.
 
 ### Local State
 
-Local state lives in a single component and is never used in other components. It is much simpler than shared state because we don't have to worry about sharing data in multiple components. An example of local state is hiding and showing information. We will use local state in our Help Queue project to determine whether a user should see a list of tickets or a form for adding a ticket. 
+Local state lives in a single component and is never used in other components. It's simpler than shared state because we don't have to worry about passing data around.
 
-It's obvious where local state should live — in the component that needs it!
+A common example of local state is toggling visibility — like whether to show a form or a list. We'll use local state in our Help Queue to determine whether users see the ticket list or the "add ticket" form.
+
+Where should local state live? Easy — in the component that needs it!
 
 ### Shared State
 
-Shared state is shared by multiple components and can get complicated very quickly. An example of shared state is the main list of all tickets in the Help Queue. Our ticket list component will need access to all the tickets so it can render them. However, our form will also need to be able to pass information about new tickets to the main list of tickets as well.
+Shared state is used by multiple components. For example, the main list of tickets in our Help Queue is shared state: the ticket list component needs it to display tickets, and the form component needs to add new tickets to it.
 
-Our application will keep shared state fairly simple — only two components will need to access this main ticket list.
+**Where should shared state live?** In the **lowest common ancestor** of all components that need it.
 
-There are many challenges to working with shared state. For example, where should it live? In order for components to have access to the same state, that shared state should be lifted to **the lowest common ancestor for all the components that need that state**.
-
-We'll demonstrate what this means with the following diagram.
+Here's what that means:
 
 ![The following diagram demonstrates how to lift state between multiple components](/images/React/Week-1-React-2019/state-diagram.jpg)
 
-In this diagram, there are six different components. Let's say that component D and component E need access to shared state. The lowest common ancestor for those components is component B. In this case, we'd only need to lift this shared state to component B.
+In this diagram, there are six components. If components D and E both need access to the same state, the lowest common ancestor is component B — so the state should live there.
 
-However, let's say that component F also needs access to the same state. That means component B is no longer a common ancestor. At this point, component A is the lowest common ancestor that components D, E, and F share. Now our shared state needs to be lifted all the way to component A.
+But what if component F also needs that state? Now component B is no longer a common ancestor of all three. The lowest common ancestor of D, E, and F is component A, so we'd need to "lift" the state up to component A.
 
-This will become clearer as we refactor our Help Queue application to use both local and shared state.
+This concept of **lifting state up** will become clearer as we build our Help Queue.
 
-You may be wondering what to do if our application has complex state and many different components have many different kinds of shared state. At that point, it's typical to use a library like Redux that is specifically designed to handle complex state. We will cover Redux in the next course section. For the time being, we will focus on learning the ins and outs of adding state to a basic React application without any external libraries.
+## The `useState` Hook
+---
 
-### Creating and Updating State in a React Application
+Now let's learn how to actually create state in a React component. React provides a built-in function called `useState` that lets us add state to function components.
 
-As we discussed in the [React Components](../../react/react-fundamentals/4-2-0-5-react-components) lesson, class components have a constructor that looks like this:
+Let's explore `useState` with a simple counter app. You don't need to code along, but you're welcome to.
 
-```js
-constructor(props) {
-  super(props);
-  this.state = {};
+### Setting Up
+
+Create a new React app:
+
+```bash
+npx create-react-app counter-app
+```
+
+Replace the code in `src/App.js` with this:
+
+```jsx title='src/App.js'
+import './App.css';
+import Counter from './Counter';
+
+function App() {
+  return (
+    <div className="App">
+      <Counter />
+    </div>
+  );
 }
+
+export default App;
 ```
 
-We can define any default state a component should have in the constructor. **It is the only place we should define default state in a pure React application.** (An application with Redux or another state management library will have other ways of defining state.)
+Now create `src/Counter.js`:
 
-We can add any number of key-value pairs to `this.state = {}` to define the default state.
+```jsx title='src/Counter.js'
+import React, { useState } from 'react';
 
-If we want to update state, we will use the following React method:
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <React.Fragment>
+      <h1>{count}</h1>
+      <button onClick={() => setCount(count + 1)}>Count!</button>
+    </React.Fragment>
+  );
+}
+
+export default Counter;
+```
+
+That's it! With just a few lines of code, we have a working counter with state. Let's break down how it works.
+
+### How `useState` Works
 
 ```js
-this.setState({property: update})
+const [count, setCount] = useState(0);
 ```
 
-In the example above, `property` represents the property that needs to be updated while `update` represents the new value a property should have. This is the simplest way to use `setState()`, though we can also do other things beyond just passing in objects.
+This single line does a lot:
 
-Whenever we want to change state in React, we need to use the `setState()` method. It is a very bad practice to bypass React and try to change state in other ways. The whole point of `setState()` is to allow React to do its job — which is to be a state management system that efficiently creates a virtual DOM and reconciles it with the actual DOM. So it should go without saying that we should **never** do something like this:
+1. **`useState(0)`** — We call the `useState` hook and pass in `0` as the initial value for the `count` state variable. This can be any data type: a number, string, boolean, array, object, or `null`.
+
+2. **`useState` returns an array** with exactly two elements:
+   - The current state value
+   - A function to update that value
+
+3. **We destructure the array** into two variables:
+   - `count` — the current value (starts at `0`)
+   - `setCount` — the function we'll call to update `count`
+
+The naming convention is to name the updater function `set` + the state variable name. So `count` pairs with `setCount`, `hidden` would pair with `setHidden`, and so on.
+
+If the destructuring syntax is unfamiliar, here's what it would look like without it:
 
 ```js
-this.state = {property: update}
+const countState = useState(0);
+const count = countState[0];
+const setCount = countState[1];
 ```
 
-The main issue with manipulating state directly like this is that it will *not* cause the component to re-render as setState() would. If the component doesn't re-render, our changes to state won't create any change in the DOM. **Always use the `setState()` method to update state in a pure React application.**
+The destructuring version is more concise, which is why it's standard practice.
 
-There's one more very important thing we need to know about the `setState()` method. **`setState()` is an async method.** This makes sense — async methods can be challenging to work with but they allow JavaScript applications to be more efficient. Because `setState()` is async, there are a lot of potential gotchas. For instance, if you try to `console.log` the value of a component's state directly after calling the `setState()` method, you can't expect it to give you reliable results. There is a way to accurately log the current state of a component, but we will cover that in a future lesson.
+### Displaying and Updating State
 
-In this lesson, we've covered the differences between shared and local state. We also briefly covered how to define and update state in a React application. However, these concepts are probably still fuzzy because we haven't actually applied them yet. Don't worry — we are about to apply them. We recommend referring back to this lesson if you still have confusion about these concepts after we add local and shared state to our Help Queue application.
+In our JSX, we display the current count and create a button to increment it:
+
+```jsx
+<h1>{count}</h1>
+<button onClick={() => setCount(count + 1)}>Count!</button>
+```
+
+When the button is clicked, we call `setCount(count + 1)`. This updates the `count` state to be one more than its current value.
+
+React also re-renders the `Counter` component with the new state, because state updates trigger re-renders.
+
+:::important
+We use an arrow function `() => setCount(count + 1)` for the click handler. If we wrote `onClick={setCount(count + 1)}` without the arrow function, it would run immediately when the component renders, not when clicked!
+:::
+
+## Rules for Updating State
+---
+
+### Never Modify State Directly
+
+Always use the updater function. Never do this:
+
+```js
+// ❌ DON'T DO THIS!
+count = count + 1;
+```
+
+This won't work because React doesn't know the value changed. It won't re-render the component, so your UI won't update. Always use the setter function:
+
+```js
+// ✅ Do this instead
+setCount(count + 1);
+```
+
+### State Updates Are Asynchronous
+
+React batches state updates for performance. This means if you try to log state right after updating it, you might see the old value:
+
+```js
+setCount(5);
+console.log(count); // Might still show the old value!
+```
+
+The component will re-render with the new value, but the update doesn't happen instantly within your function. Keep this in mind when debugging!
+
+## Multiple State Variables
+---
+
+What if a component needs to track multiple pieces of state? You might be tempted to put everything in one object:
+
+```js
+// This works, but isn't recommended
+const [state, setState] = useState({ count: 0, hidden: false });
+```
+
+While this works, React recommends using **separate `useState` calls** for each piece of state:
+
+```jsx title='src/Counter.js'
+import React, { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+  const [hidden, setHidden] = useState(false);
+
+  return (
+    <React.Fragment>
+      {hidden ? <h1>Count Hidden</h1> : <h1>{count}</h1>}
+      <button onClick={() => setCount(count + 1)}>Count!</button>
+      <button onClick={() => setHidden(!hidden)}>Hide/Show</button>
+    </React.Fragment>
+  );
+}
+
+export default Counter;
+```
+
+This approach is better because:
+- Each piece of state has its own clearly-named variable and updater
+- It's easier to read and understand what state the component manages
+- You can update one piece of state without worrying about the others
+- It follows the principle of **separation of concerns**
+
+## Summary
+---
+
+Here's what we covered:
+
+- **State** is data that can change over time. Props cannot change; state can.
+- **Local state** lives in one component. **Shared state** is used by multiple components and should live in their lowest common ancestor.
+- The **`useState` hook** lets us add state to function components.
+- `useState` returns an array: `[currentValue, setterFunction]`.
+- Always update state using the setter function, never by direct assignment.
+- Use separate `useState` calls for separate pieces of state.
+
+In the upcoming lessons, we'll apply these concepts to add both local and shared state to our Help Queue application.
