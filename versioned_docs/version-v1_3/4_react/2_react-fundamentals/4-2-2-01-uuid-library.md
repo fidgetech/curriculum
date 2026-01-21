@@ -5,7 +5,7 @@ id: 4-2-2-1-uuid-library
 hide_table_of_contents: true
 ---
 
-So far each of our tickets in the `TicketList` component use a key set to the index of a `map()` function. While this works as a temporary solution, it's not a good practice in a real world application. Instead, each of our tickets should have its own unique ID.
+So far each of our tickets in the `TicketList` component uses a key set to the index of a `map()` function. While this works as a temporary solution, it's not a good practice in a real world application. Instead, each of our tickets should have its own unique ID.
 
 Unique IDs are important for many reasons. In larger database-backed applications, they are an essential way to differentiate between records. However, they are also useful even in React applications that don't use databases. Using the index of an iterator function isn't a reliable way to ensure that each record in a React application has a unique key. In fact, using the index as a key can potentially make our code less efficient and even break our application.
 

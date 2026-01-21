@@ -41,7 +41,7 @@ Let's break down what's happening:
 
 2. Next, we check the value of `formVisibleOnPage`. If it's `true`, the `currentlyVisibleState` will be set to our `NewTicketForm` component. Otherwise, our `currentlyVisibleState` will be set to our `TicketList` component.
 
-3. Finally, in our `return()` statement, we use JSX curly braces to evaluate which component should be rendered.
+3. Finally, in our `return()` statement, we use JSX curly braces to evaluate the value of `currentlyVisibleState` and render whichever component it's assigned to.
 
 Note that the conditional logic is just JavaScript, **not** JSX. We can use plain old JavaScript outside of our `return()` statement. We only need to use JSX and curly braces for evaluation inside our `return()`. We do set the value of `currentlyVisibleState` to React components, but this is just like setting the value of a variable to any other value.
 
