@@ -121,13 +121,13 @@ const config = {
             label: 'Versions',
             position: 'left',
             items: [
-              // {
-              //   label: 'Version 1.1',
-              //   to: '/v1.1',
-              // },
               {
                 label: 'Version 1.2',
                 to: '/v1.2',
+              },
+              {
+                label: 'Version 1.3',
+                to: '/v1.3',
               },
             ],
           },
