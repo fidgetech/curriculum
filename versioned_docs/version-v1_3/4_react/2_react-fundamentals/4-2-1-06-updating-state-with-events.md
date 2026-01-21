@@ -61,7 +61,7 @@ export default TicketControl;
 
 We've added a button to our `TicketControl` component. Notice that we haven't defined the `handleClick` function yet — we'll do that in the next section.
 
-:::note
+:::tip
 There are two different kinds of comments above — this is expected. Comments in JSX syntax need to be wrapped in curly braces, unlike the other comments, which are standard JS comments.
 :::
 
@@ -69,7 +69,7 @@ We've added a few things:
 
 * We create a new variable called `buttonText` and set its value to `null`.
 * If `formVisibleOnPage` is `false`, we set the value of `buttonText` to `"Add Ticket"`.
-* In the return statement, render the button with the text stored in `buttonText`.
+* In the return statement, we render the button with the text stored in `buttonText`.
 
 You may wonder why we have this button here instead of in the `TicketList` component. Well, this button has nothing to do with displaying tickets — it's about controlling which view is shown! It belongs in `TicketControl` because it directly affects this component's state.
 
@@ -86,6 +86,7 @@ import TicketList from './TicketList';
 function TicketControl() {
   const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
 
+  // new code
   const handleClick = () => {
     setFormVisibleOnPage(true);
   }
@@ -118,7 +119,7 @@ Now if we run our application, we can successfully click on "Add Ticket" and our
 ## Toggling a Boolean
 ---
 
-When we add a working form to our application, our submit button will return users to the list of tickets. However, what if a user changes their mind and wants to return to the queue without submitting a ticket? Let's add a button that users can click to return to the queue from the form page.
+When we add a working form to our application, our submit button will return users to the list of tickets. However, what if a user changes their mind and wants to return to the queue without submitting a ticket? Let's update our button so that it can toggle between the two views.
 
 First, let's update our `handleClick` function to toggle the boolean instead of just setting it to `true`:
 
@@ -142,7 +143,7 @@ This version receives the previous state as an argument and returns the new stat
 
 ### Updating the Button for Both Views
 
-Now that we've updated our `handleClick` function to toggle, we need to update our conditional logic so that we have a button in both views:
+Now that we've updated our `handleClick` function to toggle, we need to update our conditional logic so that the button text changes depending on which view is currently visible:
 
 ```js title="src/components/TicketControl.js"
 import React, { useState } from 'react';

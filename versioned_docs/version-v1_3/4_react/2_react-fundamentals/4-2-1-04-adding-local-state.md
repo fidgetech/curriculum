@@ -54,7 +54,7 @@ Let's walk through what we've set up:
 3. We create a state variable called `formVisibleOnPage` with an initial value of `false`.
 4. We also get a function called `setFormVisibleOnPage` that we'll use to update this state.
 
-Next, let's make a small update to our `App` component. It needs to render the `TicketControl` component now, not the `TicketList` component.
+Next, let's make a small update to our `App` component. It now needs to render the `TicketControl` component rather than the `TicketList` component.
 
 ```js title="src/components/App.js"
 import React from "react";

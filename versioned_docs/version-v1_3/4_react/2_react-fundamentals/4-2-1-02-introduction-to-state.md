@@ -7,6 +7,10 @@ hide_table_of_contents: true
 
 In this lesson, we'll cover the concept of state in React and learn how to add state to our components using React's `useState` hook. Then, over the next several lessons, we'll add state to our Help Queue application so we can dynamically add new tickets.
 
+:::important[note]
+A previous lesson briefly introduced both functional and class components. The remainder of this section focuses on functional components and the `useState` hook, which is the modern way to manage state in React.
+:::
+
 ## What Is State?
 ---
 
@@ -106,7 +110,7 @@ const [count, setCount] = useState(0);
 
 This single line does a lot:
 
-1. **`useState(0)`** — We call the `useState` hook and pass in `0` as the initial value for the `count` state variable. This can be any data type: a number, string, boolean, array, object, or `null`.
+1. **`useState(0)`** — We call the `useState` hook and pass in `0` as the initial value for the `count` state variable. We can initialize state with any data type: a number, string, boolean, array, object, or `null`.
 
 2. **`useState` returns an array** with exactly two elements:
    - The current state value
@@ -211,6 +215,10 @@ This approach is better because:
 - It's easier to read and understand what state the component manages
 - You can update one piece of state without worrying about the others
 - It follows the principle of **separation of concerns**
+
+:::tip
+The above example uses the ternary operator to render either the count or a "Count Hidden" message based on the `hidden` state. If hidden is true, it displays "Count Hidden"; otherwise, it shows the current count.
+:::
 
 ## Summary
 ---
