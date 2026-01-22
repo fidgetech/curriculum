@@ -35,12 +35,12 @@ We'll add a third piece of state called `selectedTicket` which begins as `null`.
 
 If a user clicks on a ticket, `selectedTicket` will be updated to the correct ticket — and the `TicketDetail` for that ticket will show.
 
-Each of these state variables is a **state slice**. A state slice is a piece of state that can be mutated independently of other state slices.
+Let's review what each piece of state does:
 
-Our first state slice determines whether or not a form should show on the page. It is local state.
+- `formVisibleOnPage` — controls whether we show the ticket list or the new ticket form
+- `mainTicketList` — stores all tickets in the queue
+- `selectedTicket` — tracks which ticket the user clicked, so we can show its details
 
-Our second state slice holds the list of all tickets. It is shared state.
-
-Our third state slice will determine whether our `TicketDetail` component should show or not.
+All three live in `TicketControl` because this component decides what to render and passes the necessary data to its children.
 
 We are almost ready to add functionality so a user can click on a specific ticket and go to its detail page.

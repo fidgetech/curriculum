@@ -15,7 +15,7 @@ Let's add some placeholder code to our `NewTicketForm` component:
 ```js title="src/components/NewTicketForm.js"
 import React from "react";
 
-function NewTicketForm(props){
+function NewTicketForm() {
   return (
     <React.Fragment>
       <h3>This is a form.</h3>
