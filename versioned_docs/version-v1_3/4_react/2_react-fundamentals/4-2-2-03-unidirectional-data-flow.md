@@ -9,7 +9,7 @@ So far we have only been working with local state. However, when a user inputs d
 
 Before we do that, we need to learn more about **unidirectional data flow**. Unidirectional data flow is a language-agnostic term for applications that have data flowing in only one direction.
 
-In the case of React applications, data can only flow from a parent component _down_ to a child component. That's why shared state should always be lifted to a common ancestor. Only child components will ever be able to access that state. Components that are higher up the component tree (above a component with state) have no way to know about that state because of unidirectional data flow. In fact, components in React are so modular that they don't even know their parents exist. It's the job of parent components to keep track of their children, not the other way around.
+In the case of React applications, data can only flow from a parent component _down_ to a child component. That's why shared state should always be lifted to a common ancestor. Only the component holding a piece of state and its child components will ever be able to access that state. Components that are higher up the component tree (above a component with state) have no way to know about that state because of unidirectional data flow. In fact, components in React are so modular that they don't even know their parents exist. It's the job of parent components to keep track of their children, not the other way around.
 
 The same is true with props. We can only pass props _down_ from a parent component to a child component. That's the whole point of unidirectional data flow. It may seem like a limiting concept, but it makes planning, building, and debugging an application much easier. If state and props could flow in every direction, our applications would quickly become a mess.
 
@@ -24,14 +24,10 @@ The answer: we need to use **callbacks**. Here's how it works:
 
 This may feel like we're breaking the rules of unidirectional data flow because the parent component can access information from the function call in the child component.
 
-However, that's not the case. The parent component passes props _down_ using unidirectional data flow. If a function is passed downward as a prop, the parent can still access it when it's called.
+However, unidirectional data flow is still being maintained. The parent component passes props _down_ using unidirectional data flow. If a function is passed downward as a prop, then the child component can call that function. The child component is not passing any data _up_ to the parent component. Instead, the child component is simply invoking a function that was passed _down_ to it. The parent component is still in control of what happens with that data.
 
-Understandably, this concept can be confusing at first. Let's make it more concrete by describing how we will do this in our Help Queue application. We'll do the following:
+In our Help Queue application, we'll use this pattern to add new tickets:
 
-1. First, we will create a function called `handleAddingNewTicketToList` in the parent `TicketControl` component.
-2. Next, we'll pass this function to its child `NewTicketForm` component as a prop called `onNewTicketCreation`.
-3. Our child `NewTicketForm` component has a function called `handleNewTicketFormSubmission` which correctly gathers user inputs from a form. We will call `onNewTicketCreation` inside `handleNewTicketFormSubmission`.
-4. Form data will be passed into `onNewTicketCreation` as an argument.
-5. The parent `TicketControl` component will receive that data and use it to add a new ticket to our `mainTicketList`.
+When a user submits the form in `NewTicketForm` (child), we need that ticket data to reach `TicketControl` (parent) where our ticket list lives. So we'll create a function in `TicketControl` (parent) that knows how to add tickets, pass that function down to `NewTicketForm` (child) as a prop, and then call that function when the form is submitted.
 
-Now that we've covered unidirectional data flow, we're ready to implement this new functionality. Don't worry if it still doesn't make sense. This is a new and complex concept for React beginners — the best way to learn and internalize how this works is to actually write the code — and then continue to practice working with unidirectional data flow until the underlying concepts begin to click.
+In the next lesson, we'll walk through implementing this step-by-step. Don't worry if the concept still feels abstract — it will make much more sense once you see the actual code and how the pieces connect.

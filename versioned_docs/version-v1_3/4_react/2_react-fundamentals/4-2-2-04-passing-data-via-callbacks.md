@@ -61,7 +61,7 @@ Also, notice how we're passing `mainTicketList` down to `TicketList` as a prop c
 ## Step 2: Update TicketList to Use Props
 ---
 
-In step 1, we passed `mainTicketList` state from `TicketControl` down to our `TicketList` component. Now we need to update `TicketList.js` to use props and add prop types. We'll also remove the `mainTicketList` constant that holds our dummy tickets.
+In step 1, we passed `mainTicketList` state from `TicketControl` down to our `TicketList` component. Now we need to update `TicketList.js` to use this prop. We'll also remove the old `mainTicketList` constant that held our dummy tickets.
 
 ```js title="src/components/TicketList.js"
 import React from "react";
@@ -130,11 +130,13 @@ function TicketControl() {
 
 Our new function is called `handleAddingNewTicketToList` because it does just that — handles the process of adding a new ticket to our `mainTicketList`. It takes a `newTicket` as a parameter.
 
-**Naming convention:** It's common practice to prefix the name of an event handler function with `handle`. Any props containing that function will be prefixed with `on`. This is because the prop will be used _when_ the event occurs, but the function itself is what _actually handles_ the necessary actions. It also ensures the names are similar enough to easily determine which props and functions correspond, yet different enough to tell them apart.
+:::info[naming convention]
+It's common practice to prefix the name of an event handler function with `handle`. Any props containing that function will be prefixed with `on`. This is because the prop will be used _when_ the event occurs, but the function itself is what _actually handles_ the necessary actions. It also ensures the names are similar enough to easily determine which props and functions correspond, yet different enough to tell them apart.
+:::
 
 Let's break down what this function does:
 
-1. **Create a new array:** We call `mainTicketList.concat(newTicket)`. Unlike `push()`, which directly alters the array it's called on, `concat()` returns a _new_ array with the item added. This is important because we should **never alter state directly**.
+1. **Create a new array:** We call `mainTicketList.concat(newTicket)`. Unlike `push()`, which directly alters the array it's called on, `concat()` returns a _new_ array with the item added. This is important because we should **never alter state directly**. You'll also commonly see the spread operator used for this: `[...mainTicketList, newTicket]`. Both approaches create a new array without mutating state.
 
 2. **Update state:** We call `setMainTicketList(newMainTicketList)` to update our state with the new array.
 
@@ -146,7 +148,7 @@ Let's break down what this function does:
 Now we need to pass `handleAddingNewTicketToList` down to our `NewTicketForm` component as a prop:
 
 ```js title="src/components/TicketControl.js"
-// Inside TicketControl...
+...
 
 let currentlyVisibleState = null;
 let buttonText = null;
@@ -154,17 +156,25 @@ let buttonText = null;
 if (formVisibleOnPage) {
   currentlyVisibleState = 
     <NewTicketForm 
-      onNewTicketCreation={handleAddingNewTicketToList} />; // updated
+      onNewTicketCreation={handleAddingNewTicketToList}
+    />; // updated
   buttonText = "Return to Ticket List";
 } else {
   currentlyVisibleState = 
     <TicketList 
-      ticketList={mainTicketList} />;
+      ticketList={mainTicketList}
+    />;
   buttonText = "Add Ticket";
 }
+
+...
 ```
 
 We pass `handleAddingNewTicketToList` as a prop called `onNewTicketCreation`. Notice the naming convention: `handle` prefix for the function, `on` prefix for the prop.
+
+:::tip
+Note that we split the JSX onto multiple lines for readability. This is a common practice when passing multiple props or when the component name and props exceed a certain length.
+:::
 
 Next, we need to update `NewTicketForm` to accept and use this prop:
 
@@ -173,6 +183,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function NewTicketForm(props) {
+
   // We'll update this function in the next step
   function handleNewTicketFormSubmission(event) {
     event.preventDefault();
@@ -280,6 +291,22 @@ props.onNewTicketCreation({
 ```
 :::
 
+One last thing. Now that we're assigning a unique ID to each ticket, we should update our `TicketList` component to use this ID as the `key` prop instead of the array index. Using a stable unique identifier as the key is a React best practice - it helps React efficiently track which items have changed, been added, or removed, avoiding potential rendering bugs.
+
+```js title="src/components/TicketList.js"
+...
+
+{props.ticketList.map((ticket) =>
+  <Ticket 
+    names={ticket.names}
+    location={ticket.location}
+    issue={ticket.issue}
+    key={ticket.id} />
+)}
+
+...
+```
+
 ## How It All Connects
 ---
 
@@ -294,56 +321,6 @@ Let's trace the data flow:
 7. The new ticket appears in the queue!
 
 Try it out in the browser. Now when we add a ticket via the form, it will be added to the queue!
-
-## Complete TicketControl Component
----
-
-Here's the complete `TicketControl` component for reference:
-
-```js title="src/components/TicketControl.js"
-import React, { useState } from 'react';
-import NewTicketForm from './NewTicketForm';
-import TicketList from './TicketList';
-
-function TicketControl() {
-  const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
-  const [mainTicketList, setMainTicketList] = useState([]);
-
-  const handleClick = () => {
-    setFormVisibleOnPage(!formVisibleOnPage);
-  }
-
-  const handleAddingNewTicketToList = (newTicket) => {
-    const newMainTicketList = mainTicketList.concat(newTicket);
-    setMainTicketList(newMainTicketList);
-    setFormVisibleOnPage(false);
-  }
-
-  let currentlyVisibleState = null;
-  let buttonText = null;
-
-  if (formVisibleOnPage) {
-    currentlyVisibleState = 
-      <NewTicketForm 
-        onNewTicketCreation={handleAddingNewTicketToList} />;
-    buttonText = "Return to Ticket List";
-  } else {
-    currentlyVisibleState = 
-      <TicketList 
-        ticketList={mainTicketList} />;
-    buttonText = "Add Ticket";
-  }
-
-  return (
-    <React.Fragment>
-      {currentlyVisibleState}
-      <button onClick={handleClick}>{buttonText}</button>
-    </React.Fragment>
-  );
-}
-
-export default TicketControl;
-```
 
 ## Summary
 ---

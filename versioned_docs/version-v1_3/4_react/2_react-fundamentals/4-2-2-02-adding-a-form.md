@@ -54,7 +54,7 @@ Let's add that function just above the lines of code where we instantiated our f
 ```js title="NewTicketForm.js"
 ...
 
-function NewTicketForm(){
+function NewTicketForm(props){ {
 
   function handleNewTicketFormSubmission(event) {
     event.preventDefault();
@@ -70,5 +70,9 @@ We need to add `event.preventDefault()` to our form submission handler just as w
 For now we'll just `console.log()` the values of our fields. We are taking advantage of `event.target`, which gives us access to the event that was just fired - in this case the submit event. We can grab the values that came from that submit event based on their `name` property. We just need to call `event.target.[input-field-name-goes-here].value`.
 
 Now if we run `npm start`, we will see that the fields from our form are properly logged in the console.
+
+:::note
+We're using what React calls **uncontrolled inputs** here — we let the DOM handle the form data and grab values when the form is submitted. This is a straightforward approach that works well for simple forms. Later, you may encounter **controlled inputs**, where React state tracks each field's value as the user types. Both approaches are valid; we're using uncontrolled inputs to keep things simple while we learn.
+:::
 
 In the next lesson, we'll learn about unidirectional data flow. Then, in the lesson after that, we'll learn how we can get our form data to its parent `TicketControl` component, which can actually handle state.

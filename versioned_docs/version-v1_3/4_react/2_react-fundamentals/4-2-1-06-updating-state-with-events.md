@@ -203,3 +203,9 @@ function handleClick() {
 ```
 
 Both work fine in function components! The arrow function syntax is common because it's concise, and some developers prefer the consistency of always using `const` for function definitions. Use whichever style you prefer.
+
+---
+
+## What's Next?
+
+Now that we can toggle between views using local state, we're ready to build a real form that adds tickets to the queue. But first, we'll need a way to give each ticket a unique ID — which brings us to the UUID library.

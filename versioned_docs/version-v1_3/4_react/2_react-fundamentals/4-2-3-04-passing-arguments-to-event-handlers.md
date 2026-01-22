@@ -67,8 +67,8 @@ onClick={() => handleClick(someArgument)}
 ## Summary
 ---
 
-- `onClick={myFunction}` — passes the function (correct)
 - `onClick={myFunction()}` — calls immediately (wrong)
+- `onClick={myFunction}` — passes the function (correct)
 - `onClick={() => myFunction(arg)}` — passes a function that will call `myFunction(arg)` when clicked (correct)
 
 You'll use this pattern frequently in React whenever you need to pass data to an event handler, like passing an `id` to identify which item was clicked.
