@@ -8,11 +8,11 @@ pagination_prev: null
 
 Welcome to Intro to Programming! You are taking your first steps on the journey to becoming a developer, and we couldn't be more excited to have you on the road with us!
 
-## [Getting Started at Epicodus](#getting-started-at-epicodus)
+## [Getting Started at Fidgetech](#getting-started-at-fidgetech)
 
 ---
 
-If you haven't already reviewed the content from the [_Getting Started at Epicodus_](../../introduction-to-programming) section before this one, please do so now. Lessons in that section outline general recommendations, expectations and protocol for all Epicodus students and courses.
+If you haven't already reviewed the content from the [_Getting Started at Fidgetech_](../0_getting-started-at-fidgetech/), the section before this one, please do so now. Lessons in that section outline general recommendations, expectations and protocol for all Fidgetech students and courses.
 
 ## [Your Intro to Programming Course](#your-intro-to-programming-course)
 
