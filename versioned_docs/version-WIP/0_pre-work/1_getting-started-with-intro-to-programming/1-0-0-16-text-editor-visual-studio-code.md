@@ -15,7 +15,7 @@ If you have a Mac, your device comes with a text editor called **TextEdit**, whi
 
 ---
 
-At Epicodus, we use a free text editor called **Visual Studio Code**. Visual Studio Code, also known as VS Code, was designed with web developers and computer programmers in mind. It includes many useful features that help write and navigate code more efficiently.
+At Fidgetech, we use a free text editor called **Visual Studio Code**. Visual Studio Code, also known as VS Code, was designed with web developers and computer programmers in mind. It includes many useful features that help write and navigate code more efficiently.
 
 ### [Installation](#installation)
 
@@ -44,7 +44,7 @@ Let's take a quick tour of Visual Studio Code.  When we open the editor, VS Code
 
 For now, click on "New file." This will open a blank screen where we can type. If we add content to the file, we see the `x` at the top becomes a white circle(in dark mode, otherwise it will be a black circle). Go to the "File" menu and click "Save As." This tells us there is content that hasn't yet been saved.  We'll save this file as `my-first-webpage.html` using the `.html` extension to indicate that this will be a document written in HTML. The white circle returns to a grey `x` and we know that our file's content has been saved.
 
-Visual Studio Code offers developers the ability to customize the editor's settings and shortcuts.  We can access the Settings view on a Mac by holding down the Command key (`cmd`), pressing the comma key (`,`), then releasing both. On a Windows machine we can hold down the control key (`ctrl`), press down the Windows key, then release both. For the keyboards at Epicodus, you will likely have to press `Alt` and `,`.
+Visual Studio Code offers developers the ability to customize the editor's settings and shortcuts.  We can access the Settings view on a Mac by holding down the Command key (`cmd`), pressing the comma key (`,`), then releasing both. On a Windows machine we can hold down the control key (`ctrl`), press down the Windows key, then release both. For the keyboards at Fidgetech, you will likely have to press `Alt` and `,`.
 
 Sometimes you'll see instructions that include multiple keys separated by a plus sign like this: `cmd` + `,`. When you see this it means you should hold down the first key, press the key(s) that come next, then release them all at the same time, like we did above.
 

@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 When we get started writing a new program, the last thing we want to happen is to lose any of our hard work. To prevent this from happening, we will save versions of our code on our computer AND also save a version of our code on a location on the web.
 
-Later when we work in teams, there will be more versions of our code as each team member copies the main version to work on, share, review and merge into our final program (and NOT overwrite each other's work!). At Epicodus, we will learn to manage these different versions of our code using two tools: **Git** and **GitHub**.
+Later when we work in teams, there will be more versions of our code as each team member copies the main version to work on, share, review and merge into our final program (and NOT overwrite each other's work!). At Fidgetech, we will learn to manage these different versions of our code using two tools: **Git** and **GitHub**.
 
 ## [Git](#git)
 
@@ -34,8 +34,6 @@ We'll walk through exactly how to use both Git and GitHub in an upcoming lesson.
 ## [Installing Git on Macs](#installing-git-on-macs)
 
 ---
-
-**The Epicodus Macs already have Git installed.**  To install Git on your personal Mac, follow these steps:
 
 ### [Installing Homebrew: A Package Manager](#installing-homebrew-a-package-manager)
 First, go to the terminal and copy and paste this code at the prompt:

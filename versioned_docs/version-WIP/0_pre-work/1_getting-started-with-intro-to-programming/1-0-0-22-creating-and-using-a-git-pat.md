@@ -6,13 +6,13 @@ hide_table_of_contents: true
 pagination_next: null
 ---
 
-While you are a student at Epicodus, you will be using the terminal to push and pull code from GitHub repositories. A repository is just a place where a codebase is stored. Generally, we will be working with new repositories every day, but sometimes we'll use the same repository for longer projects. Enterprise companies generally have repositories that are used for long-term projects. That means in your future career, you'll likely be focused on just a handful of repositories that are used regularly.
+While you are a student at Fidgetech, you will be using the terminal to push and pull code from GitHub repositories. A repository is just a place where a codebase is stored. Generally, we will be working with new repositories every day, but sometimes we'll use the same repository for longer projects. Enterprise companies generally have repositories that are used for long-term projects. That means in your future career, you'll likely be focused on just a handful of repositories that are used regularly.
 
 When we need to grab code from a repository, we can _pull_ it to our local machines using the command line. When we make changes to code on our local machines, we can _push_ the updated code to a repository. However, in order to push and pull code, GitHub needs to verify that we should have access to the repositories. This process is called **authentication**. We use authentication all the time when we are working on computers. For example, when you log in to your email with a username and password, your email provider will authenticate your credentials before giving you access.
 
 To access repositories in GitHub via the command line, we need to use a **personal access token**, which is also called a PAT for short. A PAT is a bit like a password. The difference is that GitHub will generate it for you. Another key difference is that it's easy to delete and create new PATs in GitHub if you need to. This is different from how we generally use a password. With a password, we might update it from time to time (hopefully), but we don't delete and replace it.
 
-Let's go through the steps to generate and use a PAT. You will be using PATs every day while you are a student at Epicodus, so it's really important that you know how to do it. If you are reviewing this lesson before starting at Epicodus, you should follow the steps below to learn how to use a PAT, but you won't be expected to actually use it until your first day of Epicodus when you do the following lesson: [Practice: GitHub Remote Repositories](../../introduction-to-programming/git-html-and-css/1-1-1-3-practice-github-remote-repositories).
+Let's go through the steps to generate and use a PAT. You will be using PATs every day while you are a student at Fidgetech, so it's really important that you know how to do it. If you are reviewing this lesson before starting at Fidgetech, you should follow the steps below to learn how to use a PAT, but you won't be expected to actually use it until your first day of Fidgetech when you do the following lesson: [Practice: GitHub Remote Repositories](../../introduction-to-programming/git-html-and-css/1-1-1-3-practice-github-remote-repositories).
 
 ## [Verifying Your Email in GitHub](#verifying-your-email-in-github)
 
@@ -40,7 +40,7 @@ The button on the left is _Generate new token_ while the button on the right is 
 
 Click on _Generate new token_. 
 
-First, add a _Note_ to describe what the token is for. In the photo before, we put _Epicodus_ in as a note. You could also name one something like _personal computer_ to denote that it's only being used on your personal machine and doesn't need to be deleted. On the other hand, if you were planning on working on a shared computer for the day (such as a machine at Epicodus), you might generate a different one called _shared machine_. You could then delete that PAT at the end of the day when you are done using it so no one else can potentially access your GitHub credentials.
+First, add a _Note_ to describe what the token is for. In the photo before, we put _Fidgetech_ in as a note. You could also name one something like _personal computer_ to denote that it's only being used on your personal machine and doesn't need to be deleted. On the other hand, if you were planning on working on a shared computer for the day, you might generate a different one called _shared machine_. You could then delete that PAT at the end of the day when you are done using it so no one else can potentially access your GitHub credentials.
 
 You also have the option to set an expiration date for your PAT, including selecting from pre-filled options or creating a custom expiration date.
 
@@ -57,7 +57,7 @@ As you can see from the example above, there's a notice: _Make sure to copy your
 
 You might be wondering why a secure PAT was shared in the image above. Well, it was deleted directly after being created for this example. This is one of those advantages over using a password. It's very easy to get rid of tokens.
 
-If you don't need to use a PAT yet (because it's not your first day of Epicodus), there's no need to copy this yet. You can refer back to this lesson when you get to [Practice: GitHub Remote Repositories](../../introduction-to-programming/git-html-and-css/1-1-1-3-practice-github-remote-repositories) on your first day of class.
+If you don't need to use a PAT yet (because it's not your first day of Fidgetech), there's no need to copy this yet. You can refer back to this lesson when you get to [Practice: GitHub Remote Repositories](../../introduction-to-programming/git-html-and-css/1-1-1-3-practice-github-remote-repositories) on your first day of class.
 
 ## [Using a PAT](#using-a-pat)
 
@@ -73,7 +73,7 @@ Once you've entered your credentials (username and PAT), you will be authenticat
 
 ---
 
-While you're a student at Epicodus, you'll be pushing and pulling code very regularly — sometimes as much as dozens of times per day. As you might imagine, it would be very frustrating to have to copy and paste the string of characters associated with a PAT in every time you want to push or pull code. Fortunately, it's easy to store your credentials on your local machine.
+While you're a student at Fidgetech, you'll be pushing and pulling code very regularly — sometimes as much as dozens of times per day. As you might imagine, it would be very frustrating to have to copy and paste the string of characters associated with a PAT in every time you want to push or pull code. Fortunately, it's easy to store your credentials on your local machine.
 
 ### [MacOS Users — Managing PATs with Keychain](#macos-users-managing-pats-with-keychain) 
 
@@ -120,6 +120,4 @@ If for some reason you aren't using Git Bash, you can install the [Git-Credentia
 
 ### [Using PATs on Shared Computers](#using-pats-on-shared-computers)
 
-If you are attending Epicodus in person, you'll be pairing with others using public Epicodus machines every day. Epicodus uses Mac machines, which by default adds git credentials to Keychain Access. We've disabled this feature, which means you'll manually need to enter your PAT when you make a commit (such as copying and pasting from a clipboard).
-
-If for some reason you are not prompted to enter your credentials on a shared machine, whether at Epicodus or elsewhere, that means your credentials are being stored on the machine. You should make sure to delete the PAT you used at the end of your session. Even if the credentials associated with that PAT are stored in a shared machine, the PAT will no longer be usable and your GitHub account will be secure.
+If for some reason you are not prompted to enter your credentials on a shared machine, that means your credentials are being stored on the machine. You should make sure to delete the PAT you used at the end of your session. Even if the credentials associated with that PAT are stored in a shared machine, the PAT will no longer be usable and your GitHub account will be secure.

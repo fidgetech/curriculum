@@ -33,7 +33,7 @@ Essentially, all you need to know right now is that a graphical user interface (
 
 The terminal runs a shell. A **shell** is a command line interpreter, a program that interprets text commands to access the computer, like creating or deleting a file. Shells have a specific set of commands specific to them that we can learn to use. Sometimes, shells have their own computer programming language, too. Shells are one way for developers to customize their experience in the command line interface (CLI). The terms _terminal_ and _shell_ are often used interchangeably. However, the terminal is a wrapper program that runs a shell, a separate program, which both work together to allow us to enter text-based commands to access our computer.
 
-At Epicodus, we'll be using shells based on [Bash](https://www.gnu.org/software/bash/manual/html_node/index.html). **We're sharing this information for context only,** because we will be configuring our shells to run certain software. You don't need to worry about memorizing this information, or perfectly understanding it to continue forward.  
+At Fidgetech, we'll be using shells based on [Bash](https://www.gnu.org/software/bash/manual/html_node/index.html). **We're sharing this information for context only,** because we will be configuring our shells to run certain software. You don't need to worry about memorizing this information, or perfectly understanding it to continue forward.  
 
 Next, let's walk through how to access your own terminal and the command line it contains, so you can see how it works and what it looks like first hand.
 
@@ -91,15 +91,15 @@ When you first open the terminal, you should see a short snippet of text followe
 
 The snippet of text left of the cursor is the command line **prompt**. It contains brief contextual information, such as the user account you're logged into the computer with, and your current location.
 
-For instance, the prompts on Epicodus computers look something like this:
+For instance, the prompts on Fidgetech computers look something like this:
 
 ```bash
-epicodus-5:~ Guest$
+fidgetech-5:~ Guest$
 ```
 
 In the example above:
 
-* `epicodus-5` is the nickname of the computer we're using.
+* `fidgetech-5` is the nickname of the computer we're using.
 
 * `~` denotes that our current location is the home directory. (In programming, the `~` symbol usually refers to 'home'.)
 

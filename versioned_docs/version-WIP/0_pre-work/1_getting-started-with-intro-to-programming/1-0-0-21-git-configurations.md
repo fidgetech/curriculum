@@ -5,7 +5,7 @@ id: 1-0-0-21-git-configurations
 hide_table_of_contents: true
 ---
 
-After installing Git, we recommend a few Git configurations that will make using Git on your own device similar to the experience you will have at Epicodus.
+After installing Git, we recommend a few Git configurations that will make using Git on your own device similar to the experience you will have at Fidgetech.
 
 ## [Make VS Code the Default Editor](#make-vs-code-the-default-editor)
 
@@ -33,7 +33,7 @@ However, in the past the term _master_ in the tech industry has often been paire
 $ git config --global init.defaultBranch main
 ```
 
-Note that some of the example repositories you will be working with at Epicodus still have a `master` branch. This is because these repositories will all need to be rebuilt from scratch using a `main` branch so the commit history doesn't include a `master` branch. This is a lot of work! It will be a while before all the sample repositories we use will be updated. If you are working from an Epicodus repository that has a `master` branch, you can change the default branch to `main` with the following command:
+Note that some of the example repositories you will be working with at Fidgetech still have a `master` branch. This is because these repositories will all need to be rebuilt from scratch using a `main` branch so the commit history doesn't include a `master` branch. This is a lot of work! It will be a while before all the sample repositories we use will be updated. If you are working from an Fidgetech repository that has a `master` branch, you can change the default branch to `main` with the following command:
 
 ```
 $ git branch -m master main
