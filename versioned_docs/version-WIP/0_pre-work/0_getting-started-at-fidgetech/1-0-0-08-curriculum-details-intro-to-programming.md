@@ -9,7 +9,7 @@ hide_table_of_contents: true
 
 ---
 
-Lessons provide the content for the Epicodus curriculum and are designated with a book icon and code number, like `1.0.0.7` in this lesson.  Lessons include text to be read and a cheat sheet that summarizes terminology, code and tips from the text. As Epicodus coursework gets more advanced, students are encouraged to be more independent in using external resources to find solutions for the coding they are undertaking.  
+Lessons provide the content for the Fidgetech curriculum and are designated with a book icon and code number, like `1.0.0.7` in this lesson.  Lessons include text to be read and a cheat sheet that summarizes terminology, code and tips from the text. As Fidgetech coursework gets more advanced, students are encouraged to be more independent in using external resources to find solutions for the coding they are undertaking.  
 
 ## [<span class="glyphicon glyphicon-pencil"></span> Exercises](#exercises)
 
@@ -36,17 +36,6 @@ This section contains ideas to take your projects one step further if you finish
 ## [Feedback](#feedback)
 
 ---
-
-**Fidgetech Students: There is a curriculum channel in our Discord server where you can give this feedback. The following information is related to providing feedback in the main Epicodus program.**
-
-Every lesson and exercise has a blue _Feedback_ tab at the bottom right-hand corner of the window. Here's what the tab looks like:
-
-![Image of learnhowtoprogram.com feedback tab.](/images/usersnap-LHTP-feedback/LHTP-feedback-tool-button.png)
-
-If the tab doesn't show immediately, you may need to scroll down the page for it to pop up. You can click the tab to open up a menu that has tools to help you leave feedback, like highlighting a section of a lesson that needs updating. This is what the window will look like after you click on the _Feedback_ tab:
-
-![Image of learnhowtoprogram.com feedback tool menu.](/images/usersnap-LHTP-feedback/LHTP-feedback-tool-menu.png)
-
 If there is a lesson that really helped grow your understanding or if there is a suggestion you may have for improvement, we value your insight and hope that you will share it with us. We encourage feedback on any issue that comes up — both large and small — whether that is a typo, a passage that is confusing, or an area you feel could use clarification or any other kind of improvement. 
 
-Click the blue "feedback" button in the lower right to open a menu with options on how to leave feedback directly on the page. Use your email when leaving feedback or provide no email if you prefer to be anonymous. Your submitted feedback goes immediately to Epicodus Staff and is reviewed regularly.
+The best way to share feedback is in the curriculum channel in the Fidgetech Discord Server.

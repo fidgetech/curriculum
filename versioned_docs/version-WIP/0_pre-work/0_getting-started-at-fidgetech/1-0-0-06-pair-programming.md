@@ -5,15 +5,26 @@ id: 1-0-0-06-pair-programming
 hide_table_of_contents: true
 ---
 
-In the Fidgetech program, we understand that working closely with other students isn't always possible. We do want you to try though, and to be open to the idea of helping and getting help from others. Below is a section for the standard Epicodus curriculum, please read it to try to understand why working with another student is good for you. In Epicodus, pair programming is required every day, in Fidgetech it is not, but there will be some amount of working in teams required to finish the curriculum.
+In the Fidgetech program, we understand that working closely with other students isn’t always possible. We do encourage you to try, and to stay open to both helping others and receiving help in return.
+
+During your time at Fidgetech, there will be required opportunities to work in teams as part of the curriculum. We recommend reviewing the following guidelines and instructions on pair programming to better understand why collaboration can be beneficial, and to become familiar with how teams typically work together in industry.
 
 ---
 
-At Epicodus, we practice **pair programming** where two people use the same computer at the same time. Students in our remote classes will also practice pair programming. Even though each student has their own machine, they will virtually share a screen, the same code editor, and so on.
+**Pair Programming** is a method of software development where two people use the same computer to write code at the same time. This is possible even in a remote setting. For example, as Fidgetech students, you will also practice pair programming remotely. Each student has their own machine, students will virtually share a screen, the same code editor, and so on.
 
 ## [How Do You Pair Program?](#how-do-you-pair-program)
 
 ---
+
+<iframe
+  width="560"
+  height="315"
+  src="https://youtu.be/q7d_JtyCq1A"
+  title="YouTube video player"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
 
 In pair programming, **one person drives, controlling the keyboard and mouse, and the other person watches and talks.** Throughout the class, pairs switch off so that each person gets to drive frequently. There are several reasons why pair programming can be more effective than soloing:
 
@@ -23,7 +34,7 @@ In pair programming, **one person drives, controlling the keyboard and mouse, an
 * When you watch somebody else code, it's easier for you to see their mistakes and catch their bugs. The reverse is also true — they can help you spot mistakes you aren't seeing!
 * You don't check your email, social networks, news, text messages, and so on when you're pairing. As a result, you're much more productive.
 
-From past classes, **we've seen that teamwork and communication skills are actually more important than coding skills when it comes to applying for jobs.** So use pairing as a way to build your skills in these areas!
+From past courses, **we've seen that teamwork and communication skills are actually more important than coding skills when it comes to applying for jobs.** So use pairing as a way to build your skills in these areas!
 
 ## [Navigating Differences](#navigating-differences)
 
@@ -31,7 +42,7 @@ From past classes, **we've seen that teamwork and communication skills are actua
 
 Even though pairing has many advantages, it can be frustrating at times. You'll often be working with someone who is either more or less experienced than you. You'll often feel like you're slowing down your pair or they're slowing you down. You might want to explore how something works while your pair wants to focus on actually finishing the project at hand. You might run into a difficult bug and you'll have different ideas about the right way to try to fix it.
 
-Every class session at Epicodus before you start programming, we'll ask you and your pair to check in with each other. Here are some of the things you should discuss:
+ Before you start pair programming, you and your pair should check in with each other. Here are some of the things you should discuss:
 
 * Do you take a lot of notes, talk things through before starting, or explore lots of tangents? Finding out about your pair's style and discussing what to do if you have different approaches or priorities can help you avoid conflicts later.
 
@@ -39,17 +50,15 @@ Every class session at Epicodus before you start programming, we'll ask you and 
 
 * Are there any particular challenges you expect for the class session, or any goals you'd like to work towards? For instance, identifying which content you each found most challenging can help you plan your time. Similarly, determining goals (and not being too hard on yourself if you don't meet them) can help your productivity.
 
-We'll also ask you and your pair to check in with each other again after lunch. That is a good time to communicate what is and isn't working. For instance, you might discuss whether the driving between pairs is balanced enough, any blocks in communication that have come up, or any new challenges or goals to address as your project and understanding of content changes.
+Check in with each other after pair-programming for some time and feel free to communicate what is and isn't working. For instance, you might discuss whether the driving between pairs is balanced enough, any blocks in communication that have come up, or any new challenges or goals to address as your project and understanding of content changes.
 
-If you do end up in a situation where you're feeling frustrated or uncomfortable, your pair is probably feeling that way, too. Take a deep breath, take a break if you need to, and then talk it through with them. It's tough, but it's better than suffering through the class. Ask a teacher if you need help having that conversation. Remember that everybody will have difficult pairs, especially at first. But it's worth it when you find people who you work really well with. If you do find that a situation is hostile or you are uncomfortable having that conversation, please reach out to a teacher immediately for further guidance. In rare cases, it might be necessary to find another pair or solo for the rest of the class.
+If you do end up in a situation where you're feeling frustrated or uncomfortable, your pair is probably feeling that way, too. Take a deep breath, take a break if you need to, and then talk it through with them. It's tough, but it's better than suffering through it. Ask a teacher if you need help having that conversation. Remember that everybody will have difficult pairs, especially at first. But it's worth it when you find people who you work really well with. If you do find that a situation is hostile or you are uncomfortable having that conversation, please reach out to a teacher immediately for further guidance. In rare cases, it might be necessary to find another pair or solo for the rest of the class.
 
 ## [Things To Know: Working With a Pair](#things-to-know-working-with-a-pair)
 
 ---
 
-In general, you'll be switching pairs every class session. Finding pairs can be awkward, especially at first. It's fine to just jump in, introduce yourself, and then get started. To make finding pairs easier, every course section we assign you to a development team (dev team) of about eight students to work and check in with. Every class session, you'll find a new pair from your dev team to work with. We'll learn more about dev teams in a later lesson.
-
-You should expect that you will regularly “pair up” and “pair down”. Some days you'll “pair up" with somebody who understands the concepts better than you. Some days you'll “pair down" with someone who understands the concepts less than you. Over time, you'll find others that you pair well with. You might pair well because you share learning styles, move at a similar pace, or have a similar level of understanding of concepts.
+Working in pairs can be awkward at first. It's fine to just jump in, introduce yourself, and then get started. You should expect that you will regularly “pair up” and “pair down”. Some days you'll “pair up" with somebody who understands the concepts better than you. Some days you'll “pair down" with someone who understands the concepts less than you. Over time, you'll find others that you pair well with. You might pair well because you share learning styles, move at a similar pace, or have a similar level of understanding of concepts.
 
 ### [What is Pairing Up/Down?](#what-is-pairing-up-down)
 
