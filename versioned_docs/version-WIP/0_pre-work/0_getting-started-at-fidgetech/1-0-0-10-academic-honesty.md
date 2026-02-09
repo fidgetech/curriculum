@@ -5,26 +5,26 @@ id: 1-0-0-10-academic-honesty
 hide_table_of_contents: true
 ---
 
-Academic honesty at Epicodus is straightforward: show up to class, participate in all classroom activities, and submit your own work on your independent projects. However straightforward our requirements may be, this lesson is meant to go into details about academic honesty at Epicodus and the consequences of being dishonest.
+Academic honesty at Fidgetech is straightforward: show up to class, participate in activities, and submit your own work on your independent projects. However straightforward our requirements may be, this lesson is meant to go into details about academic honesty at Fidgetech and the consequences of being dishonest.
 
 ## Attendance
 ---
 
-We require every student to attend class and participate in all classroom activities. When a student meets attendance requirements over the course of the program, we know that student has put in the work and is prepared to go onto internships and be successful in their job search. 
+We require every student to attend class and participate in all activities. When a student meets attendance requirements over the course of the program, we know that student has put in the work and is prepared to go onto internships and be successful in their job search.
 
 To be clear about what constitutes attendance dishonesty, we’ve generated a list of examples: 
 
 * Signing in but being absent from class.
 * Leaving class early without signing out.
 
-Students who misrepresent their attendance in any way will be expelled from the program. If you have any concerns about your attendance and meeting requirements, or if you feel like you are behind in your coursework and need extra support, reach out to an Epicodus staff member to discuss your situation. 
+Students who misrepresent their attendance in any way will be expelled from the program. If you have any concerns about your attendance and meeting requirements, or if you feel like you are behind in your coursework and need extra support, reach out to an Fidgetech staff member to discuss your situation. 
  
 ## Independent Projects
 ---
 
 Independent projects are the primary way your instructors can evaluate your coding skills, give you feedback, and help you find areas for improvement. They are also important for helping you discover your coding strengths and weaknesses on your own.
 
-We expect all work on your independent projects to be your own. You cannot copy or look at other students' independent projects. Plagiarism will not help you improve your coding skills and you will be at a disadvantage for finding a job after the program. Future employers aren't going to care about whether you received a certificate from Epicodus. Instead, your skills will be their primary area of focus. Our primary goal is to get you — and your peers — great jobs in the tech field. For that reason, it's necessary to accept the challenges of independent projects so you can improve your skills further and get a job.
+We expect all work on your independent projects to be your own. You cannot copy or look at other students' independent projects. Plagiarism will not help you improve your coding skills and you will be at a disadvantage for finding a job after the program. When interviewing for a job, an employer's primary focus will be to assess and evaluate your skills. Our primary goal is to get you — and your peers — great jobs in the tech field. For that reason, it's necessary to accept the challenges of independent projects so you can improve your skills further and get a job.
 
 If a student copies the work of another student, that student will be expelled.
 
@@ -42,7 +42,7 @@ Academic dishonesty in code can be a little tougher to define than in academic w
 ### [What You May Reference](#what-you-may-reference)
 
 - Your own repos from class, including repositories you worked on with your pairs
-- [LearnHowToProgram.com](https://learnhowtoprogram.com)
+- [Fidgetech's Code Program](https://fidgetechcode.org/)
 - Official documentation
 - Stack overflow or other online code resources
 
