@@ -5,7 +5,7 @@ id: 1-0-0-28-installing-and-using-vs-code-live-share
 hide_table_of_contents: true
 ---
 
-For working and collaborating remotely, Epicodus uses Visual Studio Code Live Share, Live Server, and Live Share Audio to share the following:
+For working and collaborating remotely, Fidgetech uses Visual Studio Code Live Share, Live Server, and Live Share Audio to share the following:
  
 * Code
 * The terminal (read-only access strongly recommended)
@@ -62,7 +62,7 @@ To share your code, terminal, and browser with another student or teacher, you'l
   * Select _File_ > _Open Folder..._
   * Open whichever folder you want to practice with
 
-2. Use the terminal to open up VS Code. We cover how to use the terminal starting in this [introduction lesson](../../pre-work/getting-started-with-intro-to-programming/1-0-0-17-introduction-to-the-command-line) and in the two lessons that follow. Using the terminal, we can navigate to the root directory of the project we want to share in the terminal and then type `code .`. This will open all the files in that directory. **Take note:** You must run `code .` in the directory of the project you are working on — not a directory higher up in the file tree. You will be sharing access (including write access) of all these files with your pair. For instance, if you were to run `code .` in the root directory of your computer, you'd be giving your pair both read and write access to _every_ file on your computer — not just the files in your project. This is a security risk — someone could install malware, damage system files, or access files you don't want to share. While the risk of a fellow Epicodus student doing this is low, there is no good reason to take this risk!
+2. Use the terminal to open up VS Code. We cover how to use the terminal starting in this [introduction lesson](../../pre-work/getting-started-with-intro-to-programming/1-0-0-17-introduction-to-the-command-line) and in the two lessons that follow. Using the terminal, we can navigate to the root directory of the project we want to share in the terminal and then type `code .`. This will open all the files in that directory. **Take note:** You must run `code .` in the directory of the project you are working on — not a directory higher up in the file tree. You will be sharing access (including write access) of all these files with your pair. For instance, if you were to run `code .` in the root directory of your computer, you'd be giving your pair both read and write access to _every_ file on your computer — not just the files in your project. This is a security risk — someone could install malware, damage system files, or access files you don't want to share. While the risk of a fellow Fidgetech student doing this is low, there is no good reason to take this risk!
 
 Once you've opened your project in VS Code, you should see the files listed in the left-hand pane. If the file tree isn't showing, click the top left icon that shows two overlapping squares to show the file tree.
 
