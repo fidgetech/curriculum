@@ -15,7 +15,7 @@ And that's it!
 
 At the end of this lesson, we'll briefly talk about the possibility of using a **binding library** that offers tooling specifically for React applications that implement Firebase.
 
-Go ahead and get started by opening up your Help Queue repo. Continue with the same repo that we previously refactored to use the `useState` hook. 
+Go ahead and get started by opening up your Help Queue repo from React Fundamentals.
 
 ## Step 1: Install Firebase
 ---
@@ -28,12 +28,12 @@ npm install firebase@9
 
 Note that it's important to use the version pinned in this lesson. Because Firebase changes frequently, using a different version may mean different steps to setting up your application's configuration.
 
-### Step 2: Add `.env` File
+## Step 2: Add `.env` File
 
-First, head on over to your Help Queue project settings in Firebase to get the Firebase configuration settings. From the project homepage, select the cog icon at the top-left of the screen, select _Project settings_, and scroll down until you find the help-queue-web app that we created in the last lesson. In this section, you'll find a code snippet that has a `firebaseConfig` variable that looks something like this:
+First, head on over to your Help Queue project settings in Firebase to get the Firebase configuration settings. From the project homepage, select the cog icon at the top-left of the screen, select _General_, and scroll down until you find the help-queue-web app that we created in the last lesson. In this section, you'll find a code snippet that has a `firebaseConfig` variable that looks something like this:
 
 ```js
-var firebaseConfig = {
+const firebaseConfig = {
   apiKey: "YOUR-UNIQUE-CREDENTIALS",
   authDomain: "YOUR-PROJECT-NAME.firebaseapp.com",
   projectId: "YOUR-UNIQUE-PROJECT-NAME",
@@ -47,15 +47,17 @@ Note that we have replaced all the values of the key-value pairs with generic pl
 
 Fortunately, `create-react-app` automatically comes with `dotenv`, the npm package we used in Intermediate JavaScript to store sensitive API keys in an `.env` file.
 
-First, we need to add `.env` to our `.gitignore` file and make a commit. This step needs to come before we make the `.env` file itself. As you may recall from Intermediate JavaScript, if we push an updated `.gitignore` file at the same time as we push the file that should be ignored, GitHub won't know it's supposed to ignore it — meaning it will be added to the repo.  
+Before creating the `.env` file, open `.gitignore` in the root of your project and add `.env` on its own line:
 
-Note that `create-react-app` automatically adds a number of these kinds of files to our `.gitignore` including `.env.local`, `.env.development.local`, and so on. `create-react-app` does this because in larger projects, it can be helpful to have multiple files for environment variables. They can be split up for testing, production, and development. For more information on different environment variable file types in `create-react-app`, see [Adding Custom Environment Variables](https://create-react-app.dev/docs/adding-custom-environment-variables/). Since our application is small, we will stick to the basic `.env` file. 
+```
+.env
+```
 
-Next, create a `.env` file in the root directory of the project. Environment variables can only be set up for strings, not objects. For that reason, each key-value pair in the `firebaseConfig` object needs to be broken down into its own constant like this:
+Note that `create-react-app` automatically ignores `.env.local`, `.env.development.local`, and similar variants, but not the plain `.env` file — so you need to add it yourself. Make sure this is done before staging and committing your changes.
 
-<div class="filename">.env</div>
+Next, create a `.env` file in the root directory of the project. Environment variables can only be set up for strings, not objects. For that reason, each key-value pair in the `firebaseConfig` object needs to be broken down into its own line like this:
 
-```js
+```js title=".env"
 REACT_APP_FIREBASE_API_KEY = "YOUR-UNIQUE-CREDENTIALS"
 REACT_APP_FIREBASE_AUTH_DOMAIN = "YOUR-PROJECT-NAME.firebaseapp.com"
 REACT_APP_FIREBASE_PROJECT_ID = "YOUR-PROJECT-FIREBASE-PROJECT-ID"
@@ -68,15 +70,17 @@ Replace the placeholder string values above with the value of each key from your
 
 **Note:** It is very important that every environment variable in your application is prefaced by `REACT_APP`. Otherwise, the environment variable **won't work**. This is a safeguard put in place by `create-react-app` to ensure that sensitive environment variables aren't accidentally exposed in our applications.
 
-### Step 3: Create Configuration File and Initialize Firebase
+:::caution[A note on security]
+These values aren't truly secret — they'll end up in your app's compiled JavaScript bundle and are visible to anyone who inspects it. What the `.env` file does is keep them out of your source code repository, so they don't get committed to GitHub. This is why, for a real production app, you'd want proper Firestore security rules in place — the config keys alone don't protect your data.
+:::
+
+## Step 3: Create Configuration File and Initialize Firebase
 
 Next, we'll create a file in our `src` directory called `firebase.js`. This is where we'll initialize Firebase in our application and create a database reference. Note that Firebase is not prescriptive about what we name our configuration file or where it is located, so it's up to us to pick a name and location that is sensible and intuitive.
 
 Add the following code to the file:
 
-<div class="filename">src/firebase.js</div>
-
-```js
+```js title="src/firebase.js"
 import { initializeApp } from "firebase/app";
 import { getFirestore } from 'firebase/firestore';
 
@@ -85,7 +89,7 @@ const firebaseConfig = {
   authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
   projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
   storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_SENDER_ID,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
   appId: process.env.REACT_APP_FIREBASE_APP_ID 
 }
 
@@ -95,7 +99,7 @@ const db = getFirestore(app);
 export default db;
 ```
 
-The scripts in this file are the same configuration scripts that we copied from the Help Queue project settings in the Firebase console, except for a two differences: 
+This file mirrors the Firebase configuration from your project settings, with two differences: 
 
 * First, all the values in our `firebaseConfig` are environment variables. We aren't exposing our sensitive data.
 * Second, we import the `getFirestore` function from `firebase/firestore` to use at the bottom of the file to get access to our Firestore database. 
@@ -113,13 +117,13 @@ At this point, we've successfully added Firebase and Firestore to our applicatio
 ## Binding Libraries
 ---
 
-Our next step is to actually start communicating with our database. For this, we actually have two options:
+Our next step is to actually start communicating with our database. For this, we have two options:
 
 * Use Firebase's built-in functions and tools to communicate with our database.
 * Use [an external library](https://firebaseopensource.com/platform/web/) that provides tools for using Firebase that are meant to work specifically with React. These libraries are often called **binding libraries**, as they help two separate libraries work together.
 
 Binding libraries can provide some abstractions that can be confusing to folks who are new to React. Some of these abstractions are based on using React context, which we won't work with until the next course section. What's more, binding libraries can cause confusion about what tooling or helper function comes from where.
 
-For all of these reasons, we're going to stick to learning how to use Firebase's built-in functions and tools. We'll also learn how to reference the firebase docs and we'll get continued practice using React's built-in tools, like the `useEffect` hook.
+For these reasons, we're going to stick to learning how to use Firebase's built-in functions and tools. We'll also learn how to reference the firebase docs and we'll get continued practice using React's built-in tools, like the `useEffect` hook.
 
 However, if you plan on using React and Firebase in your capstone project, we recommend exploring the available binding libraries for React and Firebase to see if they can improve your development experience, or move you past any issues that you run into when implementing a feature from Firebase.

@@ -14,17 +14,13 @@ In order to do this, we'll make some changes to `TicketControl.js`.
 
 We'll start by importing our `Auth` instance from `firebase.js` so we can access user data, like the currently signed in user.
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 import { db, auth } from './../firebase.js';
 ```
 
 Next, we'll add a new `if` and `else if` statement, and we'll add all of our ticket UI logic within the new `else if` statement. We'll look at the new code as integrated with the existing ticket UI logic, and then we'll look at the new code on its own.  
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```jsx
+```jsx title="src/components/TicketControl.js"
 ...
 import { db, auth } from './../firebase.js'
 
@@ -82,9 +78,7 @@ export default TicketControl;
 
 For additional clarity, here's the new code we added, on its own:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```jsx
+```jsx title="src/components/TicketControl.js"
 ...
 import { db, auth } from './../firebase.js'
 

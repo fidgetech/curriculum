@@ -20,17 +20,13 @@ When working with Firebase, we'll use the following services and integrate them 
 * Authentication
 * Hosting
 
-In this course section, we won't be using Redux to manage our application's state. Instead, we'll learn how to use React hooks! Hooks are tools that enable us to *re*use stateful logic and to use state and lifecycle features in function components. While using hooks and using Redux is not mutually exclusive, we're going to focus on only using hooks to manage our React app's state and component lifecycle events by refactoring the Help Queue project. To that end, we'll provide a repo with a starter project.
+In this course section, we'll build on the hooks you learned in React Fundamentals. You already know how to use `useState()`. Here's what we'll cover next:
 
-We'll cover the following topics about hooks:
+* The `useEffect()` hook, for running side effects like subscribing to a database
+* The rules of hooks and best practices for using multiple hooks together
+* How to write a custom hook to package and reuse stateful logic
 
-* The `useState()` hook
-* The `useEffect()` hook
-* The rules of hooks
-* How hooks solve multiple pain points in React development
-* How to write a custom hook
-
-After we learn how to use hooks, we will no longer use class components. That means we'll take the extra step of converting the Help Queue `TicketControl` component into a function component that uses hooks to manage state and component lifecycle events. Thereafter, we'll start adding Firebase services to the Help Queue. 
+Once we're comfortable with these new tools, we'll start adding Firebase services to the Help Queue.
 
 We'll also cover these additional topics:
 

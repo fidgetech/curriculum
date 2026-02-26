@@ -5,7 +5,7 @@ id: 4-4-0-12-adding-tickets-to-firestore
 hide_table_of_contents: true
 ---
 
-Let's update our Help Queue to add new tickets directly to our Firestore database. Since Firestore data is saved in documents, which are grouped into collections, we'll need to create a `tickets` collection to hold individual ticket documents. To do this, we'll update the `handleAddingNewTicketToList` function in `TicketControl.js` and make use two Firestore functions: 
+Let's update our Help Queue to add new tickets directly to our Firestore database. Since Firestore data is saved in documents, which are grouped into collections, we'll need to create a `tickets` collection to hold individual ticket documents. To do this, we'll update the `handleAddingNewTicketToList` function in `TicketControl.js` and make use of two Firestore functions: 
 
 * `collection()` allows us to specify a collection within our firestore database.
 * `addDoc()` allows us to add a new document to a Firestore collection.
@@ -15,11 +15,9 @@ We'll also refactor our Help Queue to let Firestore set each unique ticket id in
 ## Adding Tickets to Firestore
 ---
 
-The first thing we need in order to do anything with our database is access to our database instance. This means we need to import the `db` variable from `firbase.js` into `TicketControl`:
+The first thing we need in order to do anything with our database is access to our database instance. This means we need to import the `db` variable from `firebase.js` into `TicketControl`:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 import React, { useEffect, useState } from 'react';
 import NewTicketForm from './NewTicketForm';
 import TicketList from './TicketList';
@@ -35,9 +33,7 @@ So how do we format a POST request to Firestore? We'll follow the instructions i
 
 Here's our updated code, including a new import statement from the `firebase/firestore` library:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 ...
 import { collection, addDoc } from "firebase/firestore";
 
@@ -69,9 +65,7 @@ Let's break down this new code:
 
 Also, if it's easier to read and reason about, we can re-write the new code in `handleAddingNewTicketToList` to separate the `collection()` and `addDoc()` function calls onto multiple lines:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 ...
 import { collection, addDoc } from "firebase/firestore";
 
@@ -121,7 +115,7 @@ We do, however, need to update `NewTicketForm.js` to not generate an ID or an `i
 * `import { v4 } from 'uuid';`
 * `id: v4()`
 
-```js
+```js title="src/components/NewTicketForm.js"
 import React from "react";
 // import { v4 } from 'uuid';  <-- Remove this line!
 import PropTypes from "prop-types"; 
@@ -151,7 +145,7 @@ NewTicketForm.propTypes = {
 export default NewTicketForm;
 ```
 
-So where does this auto-generated ID appear? It gets added as the the document's identifier. To understand this, let's add a new ticket to Firestore via our Help Queue app, and then inspect the newly created ticket in the online Firestore UI.
+So where does this auto-generated ID appear? It gets added as the document's identifier. To understand this, let's add a new ticket to Firestore via our Help Queue app, and then inspect the newly created ticket in the online Firestore UI.
 
 Go ahead and serve your Help Queue app and add a new ticket now. The ticket data that we'll use for this example has the following data:
 
@@ -173,16 +167,16 @@ If you are using a random ID generator, whether from the UUID library or Firesto
 
 If the creation order of each document in a collection is important, there are two solutions to try out:
 
-1. Use a Firestore [Server Timestamp](https://firebase.google.com/docs/firestore/manage-data/add-data#server_timestamp) to mark when a document was initially created, or updated. You can then use this timestamp to sort your documents by their timestamp at creation when you query the database. We'll learn how to do this when we add [a wait time to the Help Queue](../../react/react-with-redux/4-3-3-4-adding-wait-time-to-the-queue) 
-2. Create a custom method or use an external library that gives unique IDs that also are prefixed with a number that marks the order in which it was created.  
+1. Use a Firestore [Server Timestamp](https://firebase.google.com/docs/firestore/manage-data/add-data#server_timestamp) to mark when a document was initially created, or updated. You can then use this timestamp to sort your documents by their creation time when you query the database.
+2. Create a custom method or use an external library that generates unique IDs prefixed with a number that marks the order in which it was created.
 
 ### Adding a New Document Without a Firestore Auto-Generated ID
 
 You may be wondering what our code would look like if we did not want Firestore to auto-generate an ID for us. Well, we'd need to use new methods: `setDoc()` and `doc()`. This is what our code would look like:
 
-```js
+```js title="src/components/TicketControl.js"
 import { v4 } from 'uuid';
-import { setDoc, doc } from 'firebase/firestore;
+import { setDoc, doc } from 'firebase/firestore';
 
 function TicketControl() {
   ...

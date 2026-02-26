@@ -22,9 +22,7 @@ The `styled-components` library has a unique approach to styling that makes it v
 
 Here's an example. Let's say we want the "Help Queue" header in our Help Queue application to have special styles attached to it. We can do the following with the `styled-components` library:
 
-<div class="filename">src/components/Header.js</div>
-
-```js
+```js title="src/components/Header.js"
 ...
 import styled from 'styled-components';
 
@@ -87,9 +85,7 @@ You may wonder why our variable is capitalized (`HelpQueueHeader`). Well, it's c
 
 Let's look at one more example. Let's say that we want to wrap all of the code in our `Header` component in a style. We could do the following:
 
-<div class="filename">Header.js</div>
-
-```js
+```js title="src/components/Header.js"
 ...
 
 const StyledWrapper = styled.section`

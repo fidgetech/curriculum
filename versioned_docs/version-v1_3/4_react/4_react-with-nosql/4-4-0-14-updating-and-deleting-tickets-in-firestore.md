@@ -5,11 +5,11 @@ id: 4-4-0-14-updating-and-deleting-tickets-in-firestore
 hide_table_of_contents: true
 ---
 
-We're ready to get our edit and delete functionality working again. We will continue to refactor code in `TicketControl.js` to update the edit and delete functionality to alter tickets directly in Firestore. We'll also make use of three Firestore functions:
+We're ready to get our edit and delete functionality working again. We will continue to update code in `TicketControl.js` to make the edit and delete functionality alter tickets directly in Firestore. We'll also make use of three Firestore functions:
 
 * `updateDoc()` will allow us to update a document in Firestore.
 * `deleteDoc()` will allow us to delete documents in Firestore. 
-* `doc()` will allow us to reference a document in the firestore database. With `doc()`, we can specify the location of a new document or the location of an existing document.
+* `doc()` will allow us to reference a document in the Firestore database. With `doc()`, we can specify the location of a new document or the location of an existing document.
 
 ## Updating Tickets
 ---
@@ -18,17 +18,13 @@ To update tickets in Firestore, we'll refactor the `handleEditingTicketInList()`
 
 First, we need to import `updateDoc` and `doc` from `firebase/firestore`:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 import { collection, addDoc, onSnapshot, doc, updateDoc } from "firebase/firestore";
 ```
 
 Next, we need to refactor the `handleEditingTicketInList()` function. Here's the new code:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 ...
 import { collection, addDoc, onSnapshot, doc, updateDoc } from "firebase/firestore";
 import db from './../firebase.js'
@@ -78,17 +74,13 @@ Since we've set up the listener in the last lesson, this means that anytime we u
 
 To delete documents in Firestore, we'll update the `handleDeletingTicket()` function in the `TicketControl` component. We'll also need the Firestore function `deleteDoc()`, so let's start by updating our import statement from `firebase/firestore`:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 import { collection, addDoc, onSnapshot, doc, updateDoc, deleteDoc } from "firebase/firestore";
 ```
 
 Next, let's update `handleDeletingTicket()`. Here's the new code:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 ...
 import { collection, addDoc, onSnapshot, doc, updateDoc, deleteDoc } from "firebase/firestore";
 import db from './../firebase.js'
@@ -111,7 +103,7 @@ function TicketControl() {
 export default TicketControl;
 ```
 
-The `deleteDoc()` function is nearly identical to the `updateDoc()` function:
+The `deleteDoc()` function follows the same pattern as `updateDoc()`:
 
 * It's asynchronous and uses `async` and `await` to manage the asynchrony.
 * It takes a document reference as an argument that specifies which document in the Firestore database should be deleted. 
@@ -131,5 +123,4 @@ In upcoming coursework, we'll expand the functionality of our Help Queue:
 * We'll use the react-router library to create routes.
 * We'll host our project with Firebase.
 * We'll learn about Firestore Queries, styled components, and other further exploration opportunities.
-* Finally, we'll incorporate a wait time into our Help Queue. 
 

@@ -775,10 +775,10 @@
       "label": "4.4 React with NoSQL",
       "items": [
         "react/react-with-nosql/4-4-0-1-react-with-nosql-objectives",
-        "react/react-with-nosql/4-4-0-2-introduction-to-hooks-with-the-usestate-hook",
+        "react/react-with-nosql/4-4-0-2-review-help-queue-and-whats-next",
         "react/react-with-nosql/4-4-0-3-running-side-effects-with-the-useeffect-hook",
         "react/react-with-nosql/4-4-0-4-the-rules-of-hooks-custom-hooks-and-why-hooks-are-awesome",
-        "react/react-with-nosql/4-4-0-5-refactoring-help-queue-to-use-hooks",
+        "react/react-with-nosql/4-4-0-5-help-queue-preparing-for-firebase",
         "react/react-with-nosql/4-4-0-6-introduction-to-baas-firebase-and-firestore",
         "react/react-with-nosql/4-4-0-7-introduction-to-nosql",
         "react/react-with-nosql/4-4-0-8-the-cap-theorem-and-base",

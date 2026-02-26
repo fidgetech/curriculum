@@ -83,9 +83,7 @@ At this point, Firebase will automatically generate `firebase.json` and `.fireba
 
 Your `firebase.json` file should look similar to this one (but may not match exactly):
 
-<div class="filename">firebase.json</div>
-
-```js
+```js title="firebase.json"
 {
   "hosting": {
     "public": "build",

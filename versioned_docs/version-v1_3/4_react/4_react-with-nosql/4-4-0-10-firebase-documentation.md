@@ -5,7 +5,7 @@ id: 4-4-0-10-firebase-documentation
 hide_table_of_contents: true
 ---
 
-Let's briefly review some important details about referencing Firebase documentation. With so much information in the docs, it can be easy to get lost or find yourself incorrectly referencing the wrong docs. 
+Let's briefly review some important details about referencing Firebase documentation. With so much information in the docs, it can be easy to get lost or find yourself looking at the wrong docs. 
 
 ## Firebase Documentation
 ---
@@ -18,10 +18,10 @@ When accessing the Firebase docs from its homepage [https://firebase.google.com/
   * [Firebase Firestore Guide](https://firebase.google.com/docs/firestore)
 * Firebase API reference: [Reference](https://firebase.google.com/docs/reference)
 
-Anytime you are looking at a build guide or the API reference, make sure that you're reading the docs for **_Web_ or _JavaScript version 9_** (the modular version):
+Anytime you are looking at a build guide or the API reference, make sure that you're reading the docs for **_Web modular API_** (the modular version):
 
-* [JavaScript version 9 API reference](https://firebase.google.com/docs/reference/js)
+* [Web modular API reference](https://firebase.google.com/docs/reference/js)
 
-The same is true for any code snippets: anytime you are looking at code examples in a build guide, make sure that you are looking at code from _Web_ or _JavaScript version 9_ (the modular version). For example, in the following code example from the [Firestore docs on getting a document](https://firebase.google.com/docs/firestore/query-data/get-data#get_a_document), we have the _Web version 9_ selected, which is circled in red in the image below.
+The same is true for any code snippets: anytime you are looking at code examples in a build guide, make sure that you are looking at code from _Web modular API_ (the modular version). For example, in the following code example from the [Firestore docs on getting a document](https://firebase.google.com/docs/firestore/query-data/get-data#get_a_document), we have the _Web version 9_ selected, which is circled in red in the image below.
 
-![Use _Web_ or _JavaScript version 9_ when viewing Firebase code snippets or docs.](/images/React/Week-4-React-2020/firebase-docs-web-version-9.png)
+![Use _Web modular API_ when viewing Firebase code snippets or docs.](/images/React/Week-4-React-2020/firebase-docs-web-version-9.png)

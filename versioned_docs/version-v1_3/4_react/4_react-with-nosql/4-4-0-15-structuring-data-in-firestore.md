@@ -53,7 +53,7 @@ Enterprise applications will rarely go this route, but you may have a smaller ap
 
 **Advantages:** Easy to get data related to a document because it's all stored in the same place.
 
-**Disadvantages:** Doesn't scale well — and not recommended when data associated with a document will expand over time. This also isn't performant because there is a limit to the number of read and writes that can be made to a single document at a time.
+**Disadvantages:** Doesn't scale well — and not recommended when data associated with a document will expand over time.
 
 ## Adding Subcollections to Documents
 ---
@@ -66,7 +66,7 @@ A document can have its own subcollections. In fact, we can easily add a subcoll
 
 In the example above, we could click on a ticket from our Help Queue database, then click on "Start collection" (circled in red in the image above) in the rightmost panel to add a collection to that document. This wouldn't just be a collection, it would be a subcollection within the `tickets` collection.
 
-If we used a subcollection in our Firestore database for our application about hiking trails in the Pacific NorthWest, it would make the most sense to make trails reviews a subcollection of a trail document. This structure would look something like this:
+If we used a subcollection in our Firestore database for our application about hiking trails in the Pacific Northwest, it would make the most sense to make trails reviews a subcollection of a trail document. This structure would look something like this:
 
 ```
 1: {
@@ -105,7 +105,7 @@ We could do this instead, if we wanted to provide an ID for the new review docum
 await setDoc(doc(db, "trails", "q2WkYeRXEZWoG0EnTzkh", "reviews", "0"), newReviewData);
 ```
 
-In the both of the examples above, we have to specify a collection, then the doc within the collection (which may or may not exist yet), then specify another collection within that doc.
+In both of the examples above, we have to specify a collection, then the doc within the collection (which may or may not exist yet), then specify another collection within that doc.
 
 Things can get messy quickly, the subcollections can get difficult to query, and if the parent doc gets deleted, that can leave the subcollection orphaned, making it very difficult to access. That's because deleting a document does not also automatically delete any subcollections that are associated with it.
 
@@ -114,7 +114,7 @@ While this approach most closely maps to creating a one-to-many relationship, we
 ## Using Multiple Collections for Data
 ---
 
-The final recommendation, and the one that's probably effective for the most use cases, is to just use multiple collections. In this situation, we'd have separate collections for trails and reviews. In order to create something similar to a one-to-many association, we'd need to manually create the association between a trail and a review in our code. We just need to add a field like `trailId` to a review. The code for creating an association might look something like this:
+The final recommendation, and the one that's probably most effective for most use cases, is to just use multiple collections. In this situation, we'd have separate collections for trails and reviews. In order to create something similar to a one-to-many association, we'd need to manually create the association between a trail and a review in our code. We just need to add a field like `trailId` to a review. The code for creating an association might look something like this:
 
 ```js
 await addDoc(collection(db, "reviews"), {trailId: tid, content: "Amazing trail!" })

@@ -45,9 +45,7 @@ Now that we've set up Firebase authentication in the Firebase console, we need t
 
 Here's the updated code:
 
-<div class="filename">src/firebase.js</div>
-
-```js
+```js title="src/firebase.js"
 import { initializeApp } from "firebase/app";
 import { getFirestore } from 'firebase/firestore';
 import { getAuth } from "firebase/auth";
@@ -80,9 +78,7 @@ export { db, auth };
 
 Now, we're exporting an object with two variables inside of it. With this change, the `db` variable is no longer a **default** export. Instead, both `db` and `auth` are now called **named** exports. This means that when we import these variables in other files, the names of the imports need to exactly match the names of the exported variables. So, our very next step needs to be updating the import statement for `db` in `TicketControl.js` to destructure the `db` variable from the object we exported from `firebase.js`:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 import { db } from './../firebase.js'
 ```
 
@@ -92,9 +88,7 @@ Now we're ready to create sign up, sign in, and sign out forms. In the interest 
 
 Within the `SignIn` component, we'll start by creating a sign up form. 
 
-<div class="filename">src/components/SignIn.js</div>
-
-```js
+```js title="src/components/SignIn.js"
 import React from "react";
 
 function SignIn(){  
@@ -124,9 +118,7 @@ We create a simple form that will trigger a function called `doSignUp()` on subm
 
 Now let's write the corresponding `doSignUp()` function. Here's the new code:
 
-<div class="filename">src/components/SignIn.js</div>
-
-```js
+```js title="src/components/SignIn.js"
 import React from "react";
 import { auth } from "./../firebase.js";
 import { createUserWithEmailAndPassword } from "firebase/auth";
@@ -159,9 +151,7 @@ Then we have our `doSignUp()` function. In this function, we create an `event` p
 
 Next, Firebase authentication comes into play. Let's take a closer look at that code:
 
-<div class="filename">src/components/SignIn.js</div>
-
-```js
+```js title="src/components/SignIn.js"
 createUserWithEmailAndPassword(auth, email, password)
   .then((userCredential) => {
     // User successfully signed up 
@@ -175,9 +165,7 @@ The `createUserWithEmailAndPassword()` function takes three arguments: the auth 
 
 Here's the new code:
 
-<div class="filename">src/components/SignIn.js</div>
-
-```js
+```js title="src/components/SignIn.js"
 // New import below!
 import React, { useState } from "react";
 
@@ -239,9 +227,7 @@ At this point, we can run our application and sign up a new user. Take note that
 
 The process looks very similar for signing in. To keep things simple, we'll place this functionality in the same component we've been using for auth. Here's the form:
 
-<div class="filename">src/components/SignIn.js</div>
-
-```js
+```js title="src/components/SignIn.js"
 ...
 
 function SignIn(){  
@@ -274,9 +260,7 @@ It's almost exactly the same as our sign in form, just with different variable n
 
 Next, let's create the `doSignIn()` function. We'll need to make use of a new function from `firebase/auth`, and we'll also create a new state variable to hold a success or error message for the sign in process. 
 
-<div class="filename">src/components/SignIn.js</div>
-
-```js
+```js title="src/components/SignIn.js"
 ...
 // new import below!
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
@@ -337,9 +321,7 @@ Signing out doesn't even require a form. We just need a sign-out button in our j
 
 Here's the new code:
 
-<div class="filename">src/components/SignIn.js</div>
-
-```js
+```js title="src/components/SignIn.js"
 import React, { useState } from "react";
 import { auth } from "./../firebase.js";
 // new import below!
