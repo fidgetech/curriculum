@@ -344,9 +344,9 @@ function SignIn(){
   // new function
   function doSignOut() {
     signOut(auth)
-      .then(function() {
+      .then(() => {
         setSignOutSuccess("You have successfully signed out!");
-      }).catch(function(error) {
+      }).catch((error) => {
         setSignOutSuccess(`There was an error signing out: ${error.message}!`);
       });
   }

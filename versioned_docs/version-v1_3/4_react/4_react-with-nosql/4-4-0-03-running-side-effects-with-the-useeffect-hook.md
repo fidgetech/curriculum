@@ -259,7 +259,7 @@ But how do we stop the timer? That's where the optional `useEffect` clean up mec
   }, [isActive]);
 ```
 
-The function we return is called a **cleanup function**. React calls it when the component unmounts, and also before re-running the effect on any subsequent render. In the case of our `Timer`, that means the interval is cleared whenever `isActive` changes, and then a new one is started only if `isActive` is `true`.
+The function we return is called a **cleanup function**. React calls it when the component unmounts (that is, when it is removed from the page), and also before re-running the effect on any subsequent render. In the case of our `Timer`, that means the interval is cleared whenever `isActive` changes, and then a new one is started only if `isActive` is `true`.
 
 :::note
 One thing worth noting: we're passing a callback function into `setTimer` rather than a value directly.

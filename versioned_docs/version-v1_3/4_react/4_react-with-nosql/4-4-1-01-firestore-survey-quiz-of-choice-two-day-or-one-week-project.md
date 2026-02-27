@@ -15,14 +15,15 @@ Check in with your instructor if you have any questions.
 * What is the difference between Firebase and Firestore? (You may need to do additional research to answer this question.)
 * What is the CAP theorem? What does each letter represent?
 * What are some of the ways a NoSQL database differs from a SQL database?
-* What are hooks? What pain points do hooks solve for React development?
+* What does `useEffect` do that `useState` alone can't handle? Give an example of when you'd use it.
+* What is a custom hook and why would you create one?
 
 ## Code
 ---
 
 ### Help Queue with Firestore
 
-Work through the weekend homework and update the Help Queue application to use hooks and Firestore as a data solution.
+Work through the weekend homework and update the Help Queue application to use Firestore as a data solution.
 
 ### Integrating Firestore with React Project
 

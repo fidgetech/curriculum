@@ -76,7 +76,7 @@ In the root directory of your Help Queue project, run the following command:
 $ npm install date-fns@2
 ```
 
-We'll be using the same `formatDistanceToNow()` helper function as we did in the last course section "React with Redux". The [documentation for date-fns](https://date-fns.org/docs/Getting-Started) is extensive, and there are many other helper functions available. We recommend checking it out when you have the time — there are many use cases where it can add valuable functionality to an application.
+We'll use the `formatDistanceToNow()` helper function from `date-fns` to display a human-readable time like "about 5 minutes ago". The [documentation for date-fns](https://date-fns.org/docs/Getting-Started) is extensive, and there are many other helper functions available. We recommend checking it out when you have the time — there are many use cases where it can add valuable functionality to an application.
 
 To start, we'll import `formatDistanceToNow` at the top of `TicketControl.js`:
 

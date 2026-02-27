@@ -22,6 +22,6 @@ Anytime you are looking at a build guide or the API reference, make sure that yo
 
 * [Web modular API reference](https://firebase.google.com/docs/reference/js)
 
-The same is true for any code snippets: anytime you are looking at code examples in a build guide, make sure that you are looking at code from _Web modular API_ (the modular version). For example, in the following code example from the [Firestore docs on getting a document](https://firebase.google.com/docs/firestore/query-data/get-data#get_a_document), we have the _Web version 9_ selected, which is circled in red in the image below.
+The same is true for any code snippets: anytime you are looking at code examples in a build guide, make sure that you are looking at code from _Web modular API_ (the modular version). For example, in the following code example from the [Firestore docs on getting a document](https://firebase.google.com/docs/firestore/query-data/get-data#get_a_document), we have the _Web modular API_ selected, which is circled in red in the image below.
 
 ![Use _Web modular API_ when viewing Firebase code snippets or docs.](/images/React/Week-4-React-2020/firebase-docs-web-version-9.png)

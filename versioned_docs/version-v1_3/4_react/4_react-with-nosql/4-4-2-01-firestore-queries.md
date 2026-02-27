@@ -90,7 +90,7 @@ What if we wanted to find trails in a specific region that are longer than ten m
 ```js
 const q = query(
   collection(db, "trails"), 
-  where("region", "==" "Enchantments"),
+  where("region", "==", "Enchantments"),
   where("trailLength", ">", 10)
 );
 ```
@@ -119,23 +119,23 @@ There is good news, however. If we try to make a query in our code for a combina
 
 You can also create indexes manually by clicking on the _Indexes_ tab within the _Firestore Database_ section of the Firebase console. However, the documentation actually recommends just trying to make queries via an application and following the link if needed. For information on manually creating indexes, see [Managing indexes in Cloud Firestore](https://firebase.google.com/docs/firestore/query-data/indexing).
 
-There's one more rule for complex queries: we can only use the equality operators (also called "range" operators) or the inequality operator on a single field in a complex query. For example, the following query is valid, because we're only querying the `trailLength` field:
+There's one more rule for compound queries: if you use inequality/range operators (`<`, `<=`, `>`, `>=`, `!=`), they must all filter on the same field. For example, the following query is valid, because both inequality operators target the same field (`trailLength`):
 
 ```js
 const q = query(
-  collection(db, "trails"), 
+  collection(db, "trails"),
   where("trailLength", ">", 10),
   where("trailLength", "<=", 15)
 );
 ```
 
-However, the following query is invalid because it queries two different fields:
+However, the following query is invalid because it uses inequality operators on two different fields:
 
 ```js
 const q = query(
-  collection(db, "trails"), 
+  collection(db, "trails"),
   where("trailLength", ">", 10),
-  where("region", "==", "Enchantments")
+  where("elevation", ">", 500)
 );
 ```
 
