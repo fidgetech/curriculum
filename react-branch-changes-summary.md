@@ -27,15 +27,9 @@ This document summarizes all changes made in the `react` branch that fall **outs
 
 ## 3. C# and .NET — Database Basics Lesson Title Numbers (`versioned_docs/version-WIP/c-and-net/3_database-basics/`)
 
-**What changed:** Five lesson titles in the C# and .NET "Database Basics" section had incorrect lesson numbers in their frontmatter `title` field. All were corrected from `3.3.x.x` to `3.4.x.x`.
+> ⚠️ **Mistake identified and corrected:** The react branch accidentally changed these 5 C#/.NET lesson title numbers from `3.3.x.x` to `3.4.x.x` during a bulk find-and-replace that was intended only for React sections (commit `90fa951`). The C# "Database Basics" section is correctly numbered `3.3.x.x` and these titles have been reverted.
 
-| File | Old Title Number | New Title Number |
-|------|-----------------|-----------------|
-| `3-3-1-01-to-do-list-and-project-rebuild.md` | 3.3.1.1 | 3.4.1.1 |
-| `3-3-3-01-best-restaurants-in-town.md` | 3.3.3.1 | 3.4.3.1 |
-| `3-3-4-01-technical-interview-practice.md` | 3.3.4.1 | 3.4.4.1 |
-| `3-3-4-02-whiteboard-practice.md` | 3.3.4.2 | 3.4.4.2 |
-| `3-3-5-01-database-basics-independent-project.md` | 3.3.5.1 | 3.4.5.1 |
+These files are **unchanged** relative to `main` in the final result of this PR — the mistaken renumbering has been reverted.
 
 ---
 
