@@ -121,17 +121,45 @@ This affected **~135 lesson files** across these five sections (file renames onl
 
 ---
 
-## 4. C#/.NET Database Basics — Title Number Updates
+## 4. C#/.NET Database Basics — Unintended Side Effect of the Renumber
 
-Five lesson **titles** in the C#/.NET database-basics section were updated to reflect the renumbering of the react-with-redux section (from section 3 to section 4). These are C#/.NET lessons that reference the react course section number in their title:
+**This is collateral damage from a bulk find-and-replace, not an intentional change.**
 
-| File | Old Title Number | New Title Number |
-|------|-----------------|-----------------|
-| `c-and-net/3_database-basics/3-3-1-01-to-do-list-and-project-rebuild.md` | 3.3.1.1 | 3.4.1.1 |
-| `c-and-net/3_database-basics/3-3-3-01-best-restaurants-in-town.md` | 3.3.3.1 | 3.4.3.1 |
-| `c-and-net/3_database-basics/3-3-4-01-technical-interview-practice.md` | 3.3.4.1 | 3.4.4.1 |
-| `c-and-net/3_database-basics/3-3-4-02-whiteboard-practice.md` | 3.3.4.2 | 3.4.4.2 |
-| `c-and-net/3_database-basics/3-3-5-01-database-basics-independent-project.md` | 3.3.5.1 | 3.4.5.1 |
+### Background: C#/.NET Lesson Numbering
+
+The C#/.NET course uses **course number 5** in its lesson title prefixes. All lessons in the `3_database-basics` section correctly use `5.3.x.x` in their titles (5 = C#/.NET course, 3 = section 3 = database-basics). For example:
+
+- `3-3-0-01-database-basics-objectives.md` → title: `📓 5.3.0.01 Database Basics Objectives`
+- `3-3-1-02-database-schema-and-relationship-types.md` → title: `📓 5.3.1.2 Database Schema and Relationship Types`
+- `3-3-2-01-to-do-list-animal-shelter-and-inventory.md` → title: `✏️ 5.3.2.1 To Do List, Animal Shelter, and Inventory`
+
+The `id:` field for all of these also uses `5-3-x-x`.
+
+### The Pre-Existing Bug
+
+However, five specific lessons in the same directory had **wrong title numbers** that used `3.3.x.x` instead of `5.3.x.x`. Their `id:` fields were already correct (`5-3-x-x`); only the human-visible `title:` field was wrong:
+
+| File | Wrong Title (ancestor / main) | Correct Title (should be) |
+|------|-------------------------------|---------------------------|
+| `3-3-1-01-to-do-list-and-project-rebuild.md` | `✏️ 3.3.1.1 To Do List and Project Rebuild` | `✏️ 5.3.1.1 …` |
+| `3-3-3-01-best-restaurants-in-town.md` | `✏️ 3.3.3.1 Best Restaurants in Town` | `✏️ 5.3.3.1 …` |
+| `3-3-4-01-technical-interview-practice.md` | `✏️ 3.3.4.1 Technical Interview Practice` | `✏️ 5.3.4.1 …` |
+| `3-3-4-02-whiteboard-practice.md` | `✏️ 3.3.4.2 Whiteboard Practice` | `✏️ 5.3.4.2 …` |
+| `3-3-5-01-database-basics-independent-project.md` | `✏️ 3.3.5.1 Database Basics Independent Project` | `✏️ 5.3.5.1 …` |
+
+### What the React Branch Did
+
+The react branch commit `c9109e1e "renumber lessons to create typescript section"` ran a bulk renumber to change all react course section 3 lesson IDs from `3-3-x-xx` to `3-4-x-xx` (since React with Redux moved from section 3 to section 4). This bulk operation matched on the string `3.3` in titles, which inadvertently caught these five C#/.NET files whose titles had the pre-existing wrong `3.3.x.x` prefix.
+
+Result: the react branch changed these titles from `3.3.x.x` → `3.4.x.x` — still wrong for the C#/.NET course (they should be `5.3.x.x`), just wrong in a different way. **No lesson body content was changed.** The `id:` fields were not affected. This is an unintended side effect, not a deliberate curriculum change to the C#/.NET course.
+
+| File | Before (wrong) | After in react branch (also wrong) | What it should be |
+|------|----------------|------------------------------------|-------------------|
+| `3-3-1-01-to-do-list-and-project-rebuild.md` | `3.3.1.1` | `3.4.1.1` | `5.3.1.1` |
+| `3-3-3-01-best-restaurants-in-town.md` | `3.3.3.1` | `3.4.3.1` | `5.3.3.1` |
+| `3-3-4-01-technical-interview-practice.md` | `3.3.4.1` | `3.4.4.1` | `5.3.4.1` |
+| `3-3-4-02-whiteboard-practice.md` | `3.3.4.2` | `3.4.4.2` | `5.3.4.2` |
+| `3-3-5-01-database-basics-independent-project.md` | `3.3.5.1` | `3.4.5.1` | `5.3.5.1` |
 
 ---
 
