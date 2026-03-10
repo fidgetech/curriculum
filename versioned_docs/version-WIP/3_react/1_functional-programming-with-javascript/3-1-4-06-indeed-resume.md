@@ -1,5 +1,5 @@
 ---
-title: ✏️ 4.1.4.6 Indeed Resume
+title: ✏️ 3.1.4.6 Indeed Resume
 day: thursday
 id: 3-1-4-6-indeed-resume
 hide_table_of_contents: true

@@ -1,5 +1,5 @@
 ---
-title: ✏️ 4.1.4.5 LinkedIn Profiles
+title: ✏️ 3.1.4.5 LinkedIn Profiles
 day: thursday
 id: 3-1-4-5-linkedin-profiles
 hide_table_of_contents: true
