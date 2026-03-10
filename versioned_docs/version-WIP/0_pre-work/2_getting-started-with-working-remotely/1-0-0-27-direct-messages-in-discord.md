@@ -5,7 +5,7 @@ id: 1-0-0-27-direct-messages-in-discord
 hide_table_of_contents: true
 ---
 
-You will be using Discord for many things during your time at Epicodus. In addition to using voice channels and video calls with pairs and with your dev team, you'll also be using text channels to share information with your peers.
+You will be using Discord for many things during your time at Fidgetech. In addition to using voice channels and video calls with pairs and with your dev team, you'll also be using text channels to share information with your peers.
 
 Your cohort will have a number of text channels automatically provided — but all of these text channels are for the _entire_ cohort. What if you want to direct message (DM) with just your pair or your dev team? You will be communicating most frequently with your pair — and you will always ask for help from your dev team before asking general questions to the entire cohort or to your instructors. For that reason, it's really important that you know how to DM in Discord.
 
@@ -56,7 +56,7 @@ A window will pop up listing all of your friends on the Discord server. Select t
 
 When you create a group DM for your dev team or any other groups you might be working with (such as on a team project), make sure that _everyone_ in the group is included. This applies even when you think you might only need to communicate with a few people in a group. There are several reasons for this:
 
-* Intentionally (or even accidentally) omitting someone from the group is exclusionary behavior. Epicodus is a community.
+* Intentionally (or even accidentally) omitting someone from the group is exclusionary behavior. Fidgetech is a community.
 
 * If you want to say something about someone that's not in a group DM and it's something that you would not say if they _were_ part of the group DM, that's a big red flag. Talking about someone without their knowledge is exclusionary and often hurtful behavior.
 

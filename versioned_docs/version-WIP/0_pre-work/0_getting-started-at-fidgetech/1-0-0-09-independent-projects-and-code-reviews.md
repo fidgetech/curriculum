@@ -14,18 +14,18 @@ This lesson will walk through the entire independent project process, including 
 
 ### [Code Reviews](#code-reviews)
 
-At Epicodus, we use "independent project" and "code review" interchangeably. A **code review** is the activity of someone other than yourself reviewing your code for mistakes. We also simply refer to "code reviews" as "CRs".
+At Fidgetech, we use "independent project" and "code review" interchangeably. A **code review** is the activity of someone other than yourself reviewing your code for mistakes. We also simply refer to "code reviews" as "CRs".
 
 In the tech industry, code reviews are commonly used for quality assurance. Before your code gets added to production, your colleague or manager will review your logic, code structure, and ensure that you are following best practice and convention. Often, your colleague or manager will ask you to make changes to your code before they approve it to be added to production. By the way, "production" or "production code" is a way to describe software and code that is actively being used by customers. 
 
-At Epicodus, your coding instructor will review the independent project you submit for each course section as your "code review". Also, in some class exercises, we invite you to do _peer_ code reviews, in which you and your pair reviews another pair's code.
+At Fidgetech, your coding instructor will review the independent project you submit for each course section as your "code review". Also, in some class exercises, we invite you to do _peer_ code reviews, in which you and your pair reviews another pair's code.
 
 ## [Academic Honesty](#academic-honesty)
 ---
 
 Independent projects must be completed individually. You may reference online resources, Learn How To Program, and your own code, but you may _not_ view or copy current or former students' work. 
 
-As explained in our [Student Handbook](../../pre-work/getting-started-at-epicodus/1-0-0-13-student-handbook#academic-honesty), these projects are an opportunity to receive personalized feedback, and to ensure you're developing skills for success after graduation. If you plagiarize work you both lose this valuable opportunity and risk setting yourself up for failure at a job or internship. This will not only harm you, but the reputation of all Epicodus students as well.
+As explained in our [Student Handbook](../../student-handbook#academic-honesty), these projects are an opportunity to receive personalized feedback, and to ensure you're developing skills for success after graduation. If you plagiarize work you both lose this valuable opportunity and risk setting yourself up for failure at a job or internship. This will not only harm you, but the reputation of all Fidgetech students as well.
 
 For these reasons, projects are carefully reviewed to confirm all work is your own. **Students found to have plagiarized or received help from others will be expelled.** 
 
@@ -102,6 +102,6 @@ If you fail to pass any of the objectives, your teacher's feedback will identify
 ## [Group Work](#group-work)
 ---
 
-You will work in groups on two cumulative, collaborative projects at some point during your time at Fidgetech, it could be in C#, Javascript or React.  Your instructors will keep you informed about how that will work.
+You will work in groups on two cumulative, collaborative projects at some point during your time at Fidgetech, it could be in Javascript or React.  Your instructors will keep you informed about how that will work.
 
 Students will present on their group projects upon completion and will be expected to submit an independent project (in lieu of a Friday project) with a link to the group project. 
