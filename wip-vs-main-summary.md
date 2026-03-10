@@ -1,117 +1,85 @@
-# Summary: Differences Between WIP Branch and Main Branch
+# Summary: Changes in WIP Branch Not Yet in Main
 
-This document summarizes the changes in the `WIP` branch compared to the `main` branch.
+This document summarizes the changes that exist in the `WIP` branch but have **not** been merged into the `main` branch.
 
-## Overview
+The `WIP` and `main` branches share a common ancestor at commit `117b68ed` ("Merge pull request #5 from fidgetech/node"). Since that point, `main` has moved ahead with additional work (v1.3 curriculum, React updates, etc.), while the `WIP` branch has accumulated **4 commits of its own**:
 
-The WIP branch contains 4 commits ahead of main:
 1. `Update package-lock.json`
 2. `initial batch of clean up in prework`
 3. `pushing changes to getting started with intro to programming`
 4. `pushing last batch of cosmetic updates to prework`
 
-The changes fall into five categories: removal of the v1.3 curriculum version, rebranding of the WIP prework from Epicodus to Fidgetech, image updates, CSS cleanup, and site configuration changes.
+All WIP-unique changes are entirely within the **WIP version of the prework section** (`versioned_docs/version-WIP/0_pre-work/`). The theme is a **rebranding of all "Epicodus" references to "Fidgetech"**.
 
 ---
 
-## 1. Version v1.3 Removed
+## 1. Prework Directory Restructured: `0_getting-started-at-epicodus/` → `0_getting-started-at-fidgetech/`
 
-The entire `version-v1_3` versioned documentation (845 files) has been deleted, including all curriculum content, sidebars, and version configuration.
+The entire `0_getting-started-at-epicodus/` subdirectory was renamed to `0_getting-started-at-fidgetech/`. All 12 lesson files were moved into the new directory, with most files also receiving content edits to replace "Epicodus" with "Fidgetech":
 
-**Files removed:**
-- `versioned_docs/version-v1_3/` — all lessons across all courses (Introduction to Programming, Intermediate JavaScript, C#/.NET, React, etc.)
-- `versioned_sidebars/version-v1_3-sidebars.json`
+| File | Change |
+|------|--------|
+| `1-0-0-01-learn-how-to-program.md` | Moved + content rewritten for Fidgetech (new intro paragraph, philosophy, program overview) |
+| `1-0-0-02-growth-mindset.md` | Moved + minor wording updates (Epicodus → Fidgetech) |
+| `1-0-0-03-making-fidgetech-an-inclusive-place.md` | **New file** — replaces the deleted `making-epicodus-an-inclusive-place.md` |
+| `1-0-0-04-community-agreements.md` | Moved + minor wording updates |
+| `1-0-0-05-making-the-most-of-code-school.md` | Moved + minor wording updates |
+| `1-0-0-06-pair-programming.md` | Moved + wording updates (Epicodus → Fidgetech) |
+| `1-0-0-07-how-to-ask-for-help.md` | Moved, no content changes |
+| `1-0-0-08-curriculum-details-intro-to-programming.md` | Moved + wording updates |
+| `1-0-0-09-independent-projects-and-code-reviews.md` | Moved + wording updates |
+| `1-0-0-10-academic-honesty.md` | Moved + wording updates |
+| `1-0-0-11-final-capstone-project.md` | Moved, no content changes |
+| `1-0-0-12-a-glossary-of-fidgetech-terminology.md` | Renamed from `a-glossary-of-epicodus-terminology.md` + wording updates |
 
-**Configuration changes (`docusaurus.config.js`):**
-- Removed the `v1_3` entry from the `versions` configuration
-- Removed the "Version 1.3" link from the navbar dropdown menu
-
-**`versions.json`:**
-- Removed `"v1_3"` from the versions list
-
----
-
-## 2. WIP Prework: Rebranded from Epicodus to Fidgetech
-
-The WIP prework section has been restructured to replace all references to "Epicodus" with "Fidgetech."
-
-**Directory rename:**
-- `versioned_docs/version-WIP/0_pre-work/0_getting-started-at-epicodus/` → `0_getting-started-at-fidgetech/`
-
-**Files moved/renamed into the new `0_getting-started-at-fidgetech/` directory:**
-- `1-0-0-01-learn-how-to-program.md` — updated to reference Fidgetech instead of Epicodus
-- `1-0-0-02-growth-mindset.md` — sourced from v1.3, updated for Fidgetech
-- `1-0-0-03-making-fidgetech-an-inclusive-place.md` — new file (replaces the Epicodus-branded version)
-- `1-0-0-04-community-agreements.md` — updated for Fidgetech
-- `1-0-0-05-making-the-most-of-code-school.md` — updated for Fidgetech
-- `1-0-0-06-pair-programming.md` — sourced from v1.3, updated for Fidgetech
-- `1-0-0-07-how-to-ask-for-help.md` — moved unchanged
-- `1-0-0-08-curriculum-details-intro-to-programming.md` — sourced from v1.3, updated for Fidgetech
-- `1-0-0-09-independent-projects-and-code-reviews.md` — sourced from v1.3, updated for Fidgetech
-- `1-0-0-10-academic-honesty.md` — sourced from v1.3, updated for Fidgetech
-- `1-0-0-11-final-capstone-project.md` — moved unchanged
-- `1-0-0-12-a-glossary-of-fidgetech-terminology.md` — renamed from `a-glossary-of-epicodus-terminology.md`, updated for Fidgetech
-
-**Files deleted from old `0_getting-started-at-epicodus/` directory:**
-- `1-0-0-02-growth-mindset.md`
-- `1-0-0-03-making-epicodus-an-inclusive-place.md`
-- `1-0-0-06-pair-programming.md`
-- `1-0-0-08-curriculum-details-intro-to-programming.md`
-- `1-0-0-09-independent-projects-and-code-reviews.md`
-- `1-0-0-10-academic-honesty.md`
-- `1-0-0-12-a-glossary-of-epicodus-terminology.md`
-
-**DEI curriculum:**
-- `making-epicodus-an-inclusive-place.md` → `making-fidgetech-an-inclusive-place.md`
-
-**Other WIP content updates:**
-- `versioned_docs/version-WIP/0_pre-work/index.md` — updated all "Epicodus" references to "Fidgetech" throughout the section overview
-- Various other WIP lesson files updated with minor wording changes to replace "Epicodus" with "Fidgetech"
+The old `1-0-0-03-making-epicodus-an-inclusive-place.md` was deleted and replaced by the new Fidgetech-branded version.
 
 ---
 
-## 3. Image Updates
+## 2. Prework Index Updated (`versioned_docs/version-WIP/0_pre-work/index.md`)
 
-- **Renamed (URL encoding fix):** Two React images renamed to use `%20` instead of `+` for URL-encoded spaces:
-  - Before: `static/images/Intermediate+JavaScript/React/inline-styles-in-action.png`
-  - After: `static/images/Intermediate%20JavaScript/React/inline-styles-in-action.png`
-  - Before: `static/images/Intermediate+JavaScript/React/style-free-component.png`
-  - After: `static/images/Intermediate%20JavaScript/React/style-free-component.png`
-- **Deleted:** `static/images/React/Week-4-React-2020/testmode.png` (unused image)
-- **Optimized:** `static/images/React/firebase-project-homepage-navigation.png` — reduced from 374 KB to 111 KB
+All references to "Epicodus" replaced with "Fidgetech":
+- "Welcome to the Pre-Work section of Learn How to Program." → "Welcome to the Pre-Work section of Fidgetech's Coding Programs!"
+- "Getting Started at Epicodus" section heading → "Getting Started at Fidgetech"
+- Body text references updated throughout
 
 ---
 
-## 4. CSS Cleanup (`src/css/custom.css`)
+## 3. Getting Started with Intro to Programming Lessons Updated
 
-Removed custom code block title styling rules that overrode Docusaurus defaults:
+The following lessons in `versioned_docs/version-WIP/0_pre-work/1_getting-started-with-intro-to-programming/` were updated to replace "Epicodus" with "Fidgetech":
 
-```css
-/* Removed: */
-[data-theme='light'] div[class^='codeBlockTitle'],
-[data-theme='light'] div[class*=' codeBlockTitle'] {
-  background: #d0d0d0;
-  font-weight: bold;
-}
-
-[data-theme='dark'] div[class^='codeBlockTitle'],
-[data-theme='dark'] div[class*=' codeBlockTitle'] {
-  background: #3a3a3a;
-  font-weight: bold;
-}
-```
+- **`1-0-0-14-welcome-to-intro.md`** — section heading and link text updated; link target corrected to point to the new `0_getting-started-at-fidgetech/` directory
+- **`1-0-0-16-text-editor-visual-studio-code.md`** — two "At Epicodus" references replaced with "At Fidgetech"
+- **`1-0-0-17-introduction-to-the-command-line.md`** — "At Epicodus" references and example terminal prompt (`epicodus-5`) replaced with Fidgetech equivalents (`fidgetech-5`)
+- **`1-0-0-18-interacting-with-the-command-line.md`** — "at Epicodus" references and example terminal prompts replaced; one Epicodus-specific `pwd` note removed
+- **`1-0-0-20-git-and-github.md`** — "At Epicodus" references replaced; removed the line "The Epicodus Macs already have Git installed."
+- **`1-0-0-21-git-configurations.md`** — "at Epicodus" and "an Epicodus repository" references replaced with Fidgetech
+- **`1-0-0-22-creating-and-using-a-git-pat.md`** — "at Epicodus" references replaced; removed the `pagination_next: null` frontmatter; removed the final section about Epicodus-specific in-person shared machine PAT handling
 
 ---
 
-## 5. Site Configuration (`docusaurus.config.js`)
+## 4. Getting Started with Working Remotely Lessons Updated
 
-- Removed v1.3 from the `versions` configuration object
-- Removed "Version 1.3" from the navbar version dropdown
-- Commented out the "Version 1.1" link in the navbar version dropdown (was already not in the versions config)
+The following lessons in `versioned_docs/version-WIP/0_pre-work/2_getting-started-with-working-remotely/` were updated to replace "Epicodus" with "Fidgetech":
+
+- **`1-0-0-23-installing-software-on-your-machine.md`** — "the Epicodus program" → "the Fidgetech program"
+- **`1-0-0-24-installing-and-using-discord.md`** — removed the note about Discord being pre-installed on Epicodus computers; Discord server anchor link fixed; "Epicodus' Discord server" → "Fidgetech's Discord server"
+- **`1-0-0-25-customizing-discord.md`** — "another Discord account just for Epicodus classes" → "just for Fidgetech classes"
+- **`1-0-0-26-working-with-a-dev-team.md`** — "At Epicodus" references and "Epicodus students" → Fidgetech equivalents
+- **`1-0-0-27-direct-messages-in-discord.md`** — "Epicodus is a community" → "Fidgetech is a community"
+- **`1-0-0-28-installing-and-using-vs-code-live-share.md`** — "Fidgetech uses VS Code Live Share" and "a fellow Epicodus student" → Fidgetech equivalent
 
 ---
 
-## 6. Package Updates
+## 5. DEI Curriculum File Renamed
+
+- `versioned_docs/version-WIP/diversity-equity-and-inclusion/1_dei-curriculum-overview/making-epicodus-an-inclusive-place.md`
+  renamed to `making-fidgetech-an-inclusive-place.md` (no content changes)
+
+---
+
+## 6. Package Dependency Update
 
 `package-lock.json` was updated with minor dependency changes.
 
@@ -120,13 +88,13 @@ Removed custom code block title styling rules that overrode Docusaurus defaults:
 ## Statistics
 
 | Category | Count |
-|---|---|
+|------|-------|
 | Files added | 1 |
-| Files deleted | 853 |
-| Files modified | 19 |
-| Files renamed | 14 |
-| **Total files changed** | **887** |
-| Lines added | +182 |
-| Lines removed | -105,660 |
+| Files deleted | 1 |
+| Files modified | 14 |
+| Files renamed | 13 |
+| **Total files changed** | **29** |
+| Lines added | +178 |
+| Lines removed | -176 |
 
-The bulk of deletions (845 files) are from the removal of `versioned_docs/version-v1_3/`.
+All changes are scoped to the `versioned_docs/version-WIP/0_pre-work/` directory (plus `package-lock.json`). No changes to `main` curriculum content, site configuration, or other versions.
