@@ -7,11 +7,11 @@ hide_table_of_contents: true
 
 We now have the ability to add tickets to Firestore in our Help Queue application. However, we can't see the tickets in our application yet. There are two ways we can get data from Firestore:
 
-1. We can get all documents in a collection once with the `getDocs()` method. This is very similar to what Rails/.NET coders do with their respective frameworks. When data is needed, we make a request to Firestore.
+1. We can get all documents in a collection once with the `getDocs()` method. When data is needed, we make a request to Firestore — a familiar request-response pattern.
 
 2. We can set up a listener that actively listens for realtime changes in Firestore. Whenever Firestore is updated, our application will get a snapshot of the data and update our app accordingly.
 
-If we were to go with the first option, we'd have to set up code in our app that calls the `getDocs()` function anytime a ticket gets added, updated, or deleted so that our app is up-to-date with our database. However, that's the exact out-of-the-box functionality that we would get by setting up a listener to listen for realtime updates to our database. So, we'll go with option #2. 
+If we were to go with the first option, we'd have to set up code in our app that calls the `getDocs()` function anytime a ticket gets added, updated, or deleted so that our app is up-to-date with our database. And that's exactly the functionality we get for free by setting up a listener. So, we'll go with option #2. 
 
 ## Reading Firestore Data
 ---
@@ -26,9 +26,7 @@ To properly set up this listener, we'll need to set up a `useEffect` hook that d
 
 We'll do this in three phases. In the first phase, we'll set up our `useEffect()` hook and learn the basics of the `onSnapshot()` function. Here's the first round of new code:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 ...
 // new import!
 import { collection, addDoc, onSnapshot } from "firebase/firestore";
@@ -84,9 +82,7 @@ Now that we have a sense of the basics of our new `useEffect()` hook and the `on
 
 Here's the new code:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 ...
 
 function TicketControl() {
@@ -144,7 +140,7 @@ collectionSnapshot.forEach((doc) => {
 
 Third, we need to take a closer look at the Firestore object types that we're accessing here. As previously noted, the `collectionSnapshot` parameter represents the response from our database. We can name this parameter whatever we want, but since we're accessing a collection, we descriptively call our parameter `collectionSnapshot`. In terms of Firestore object types, this parameter is a [`QuerySnapshot`](https://firebase.google.com/docs/reference/js/firestore_.querysnapshot) object that's made up of one or more [`DocumentSnapshot`](https://firebase.google.com/docs/reference/js/firestore_.documentsnapshot) objects. Each of these object types have their own properties and methods. This is important to note, because when we call `collectionSnapshot.forEach(...)`, we're actually calling a [`QuerySnapshot`](https://firebase.google.com/docs/reference/js/firestore_.querysnapshot) method, and not JavaScript's `Array.prototype.forEach()` method. 
 
-However, [`QuerySnapshot`](https://firebase.google.com/docs/reference/js/firestore_.querysnapshot) has a handy `docs` property that returns an array of the collection's data. That means we can call any JavaScript array method on `collectionSnapshot.docs`. Here's an example of using `Array.prototype.map()` instead of `Array.prototype.forEach()`:
+However, [`QuerySnapshot`](https://firebase.google.com/docs/reference/js/firestore_.querysnapshot) has a handy `docs` property that returns an array of `DocumentSnapshot` objects. That means we can call any JavaScript array method on `collectionSnapshot.docs`. Here's an example of using `Array.prototype.map()` instead of `Array.prototype.forEach()`:
 
 ```js
 const tickets = collectionSnapshot.docs.map((doc) => {
@@ -159,9 +155,9 @@ const tickets = collectionSnapshot.docs.map((doc) => {
 
 The lesson here is that you should always check the [API reference](https://firebase.google.com/docs/reference/js/firestore_) of the tools you are working with when you run into issues doing something you expect you might be able to do. Why the API reference? It lists object types (also called "classes") in detail, including any properties and methods of those objects, as well as the parameter and return types for any functions. 
 
-Since each document in the `CollectionSnapshot` that we're looping through is a `DocumentSnapshot` object, we need to use the methods available for that object type to access the document's data. In our code, we're using the `DocumentSnapshot.data()` method, but we could use [the `DocumentSnapshot.get()` method](https://firebase.google.com/docs/reference/js/firestore_.documentsnapshot.md#documentsnapshotget) instead, but we'll leave that for further exploration.
+Since each document in the `collectionSnapshot` that we're looping through is a `DocumentSnapshot` object, we need to use the methods available for that object type to access the document's data. In our code, we're using the `DocumentSnapshot.data()` method, but we could use [the `DocumentSnapshot.get()` method](https://firebase.google.com/docs/reference/js/firestore_.documentsnapshot.md#documentsnapshotget) instead, but we'll leave that for further exploration.
 
-The `DocumentSnapshot.data()` method returns all of a documents data in the form of a JavaScript object, mapping over the Firestore document fields and values to JS object keys and values. So for example, in `doc.data().names`:
+The `DocumentSnapshot.data()` method returns all of a document's data in the form of a JavaScript object, mapping over the Firestore document fields and values to JS object keys and values. So for example, in `doc.data().names`:
 
 * `doc` accesses the Firestore document, a `DocumentSnapshot` object.
 * `.data()` returns the Firestore document's data into a JavaScript object.
@@ -201,21 +197,19 @@ Next, let's handle errors.
 
 ### Handling Errors
 
-As described on the docs for [handling listener errors](https://firebase.google.com/docs/firestore/query-data/listen), these can be caused by issues with security permissions or invalid queries (like listening to a collection or document that doesn't exist). Also, if an error does occur with our listener, it will automatically stop listening. Given these constraints, these issues usually will almost always be sorted out in development before any code gets shipped. 
+As described on the docs for [handling listener errors](https://firebase.google.com/docs/firestore/query-data/listen), these are most commonly caused by security permission denials. Also, if an error does occur with our listener, it will automatically stop listening. These issues will almost always be sorted out in development before any code gets shipped. 
 
 However, we can still set up general error handling to ensure that if errors do come up with our listener, they at least get printed to the DOM. To do this, we'll set up a new state variable called `error` to track any errors that occur.
 
 Here's what our updated code looks like (pay attention to the comments as you review the code): 
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 import React, { useEffect, useState } from 'react';
 import NewTicketForm from './NewTicketForm';
 import TicketList from './TicketList';
 import EditTicketForm from './EditTicketForm';
 import TicketDetail from './TicketDetail';
-import { collection, addDoc, doc, updateDoc, onSnapshot, deleteDoc } from "firebase/firestore";
+import { collection, addDoc, onSnapshot } from "firebase/firestore";
 import db from './../firebase.js'
 
 function TicketControl() {
@@ -269,7 +263,7 @@ A Firestore error is returned as a [`FirestoreError`](https://firebase.google.co
 
 Later in our conditional that determines the UI, we first check to see if there's an error, and if so, to display it. Finally, in our return statement, we make sure to only display the button element if there is not an error.
 
-Optionally, if you want to check that this code works, we cause a security permissions issue by updating the Firestore database rules to only allow reading and writing data if a user is authenticated. To do this, navigate to your Firestore database, and then select the _Rules_ tab. Within the input box, comment out the existing `allow` statement. It should look something like this:
+Optionally, if you want to check that this code works, we can cause a security permissions issue by updating the Firestore database rules to only allow reading and writing data if a user is authenticated. To do this, navigate to your Firestore database, and then select the _Rules_ tab. Within the input box, comment out the existing `allow` statement. It should look something like this:
 
 ```js
 rules_version = '2';

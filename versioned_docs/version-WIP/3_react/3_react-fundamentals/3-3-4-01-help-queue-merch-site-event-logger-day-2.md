@@ -12,8 +12,7 @@ hide_table_of_contents: true
 
 * What is unidirectional data flow? Why is it important?
 * What is a UUID? How are they useful?
-* How can a method in a state component have access to data in child components if data can only flow down, not up?
-
+* How can a method in a parent component have access to data in child components if data can only flow down, not up?
 
 ## Code
 ---

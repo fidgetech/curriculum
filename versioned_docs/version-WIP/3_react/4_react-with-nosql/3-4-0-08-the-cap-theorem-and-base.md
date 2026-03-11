@@ -7,14 +7,14 @@ hide_table_of_contents: true
 
 In this lesson, we will discuss the CAP theorem, a key concept developed by the computer scientist Eric Brewer that governs why and how NoSQL databases are scalable and good for big data. We'll also touch on Eric Brewer's acronym BASE, which describes how NoSQL databases achieve the requirements of the CAP theorem when distributed across multiple locations.
 
-These are in contrast to the ACID theorem, which generally explains how SQL databases behave. We will eventually discuss the ACID Theorem in the C#/.NET course.
+These are in contrast to ACID properties, which generally describe how SQL databases behave.
 
 **Note:** You are not required to memorize this information or perfectly understand it. The goal is to give you a better idea of some of the tradeoffs in a distributed NoSQL system. 
 
 ## The CAP Theorem
 ---
 
-While the ACID theorem includes four principles that a SQL database **must** follow, the CAP theorem is different. The CAP theorem argues that a database system can use **at most** two of its three principles. Let's look at those three principles and then explore why there needs to be a compromise.
+While ACID properties include four principles that a SQL database **must** follow, the CAP theorem is different. The CAP theorem argues that a database system can use **at most** two of its three principles. Let's look at those three principles and then explore why there needs to be a compromise.
 
 * **Consistency**: All users have access to the same data in the system at the same time.
 
@@ -22,9 +22,9 @@ While the ACID theorem includes four principles that a SQL database **must** fol
 
 * **Partition Tolerance**: The system works across a distributed network (such as multiple servers).
 
-One of the reasons that NoSQL is often better for big data is the fact that it is designed to be distributed across multiple locations. (On the other hand, SQL has traditionally been designed to work on just one node.) For instance, a big company might have database servers all over the world. If one of these databases goes down, there are always others to pick up the slack. This distribution is a huge advantage of NoSQL databases. This is the "P" in "CAP": **partition tolerance**.
+One of the reasons that NoSQL is often better for big data is the fact that it is designed to be distributed across multiple locations. (On the other hand, SQL databases were traditionally designed around a single server.) For instance, a big company might have database servers all over the world. If one of these databases goes down, there are always others to pick up the slack. This distribution is a huge advantage of NoSQL databases. This is the "P" in "CAP": **partition tolerance**.
 
-Because SQL databases have one node and NoSQL databases can have many, it is said that SQL databases **scale vertically** (on one server) while NoSQL databases **scale horizontally** across many servers.
+Because of this, SQL databases are often said to **scale vertically** (by upgrading a single server) while NoSQL databases **scale horizontally** across many servers.
 
 However, if we have partition tolerance, we can't have both consistency and availability. We'll demonstrate why with an example.
 
@@ -34,7 +34,9 @@ Since having a strong distributed system (partition tolerance) is a huge advanta
 
 Most distributed systems want data to be available all of the time, which leads to a tradeoff in consistency. The goal, then, is what is called **eventual consistency**. This means that when the update to the database server happens in Beijing, the databases won't be consistent across all servers yet — but they will be consistent eventually.
 
-This is in contrast to **strong consistency**, which means that everything has to be consistent everywhere at the same time (compromising either availability or partition tolerance). Strong consistency is a tenet of SQL databases. Technically, it's possible to create SQL databases across a distributed system. However, it's not very common yet.
+This is in contrast to **strong consistency**, which means that everything has to be consistent everywhere at the same time (compromising either availability or partition tolerance). Strong consistency is a tenet of SQL databases. Distributed SQL databases do exist — tools like Google Spanner and CockroachDB — but they require more complexity and specialized tooling.
+
+For most web applications, eventual consistency is actually the right tradeoff. If a user updates their profile, it's acceptable for that change to propagate across servers in milliseconds — users won't notice. Strong consistency at global scale, by contrast, would require waiting for all servers to agree before confirming any write, adding real latency that users *would* notice. For our purposes, Firestore within a single region is strongly consistent, so these tradeoffs are largely academic for the apps we're building.
 
 ## BASE
 ---
@@ -49,4 +51,4 @@ Finally, we have **eventual consistency**, which we just discussed. Eventually, 
 
 The CAP theorem is essential to understanding how distributed systems work. Meanwhile, the BASE acronym shows how the requirements of CAP can be loosened enough that every condition is more or less met — just not stringently.
 
-By the way, Eric Brewer is vice-president of infrastructure at Google. His theorems aren't just concepts — they are widely applied at the world's largest software companies. We'll even see CAP and BASE come into play when we discuss how Firebase works.
+By the way, Eric Brewer is vice-president of infrastructure at Google. His ideas aren't just concepts — they are widely applied at the world's largest software companies, and they underpin how Firebase and Firestore are designed.

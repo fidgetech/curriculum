@@ -24,9 +24,7 @@ We will just cover this part of React Router's functionality in this lesson, but
 
 We'll start by adding a `SignIn`  component with placeholder text:
 
-<div class="filename">src/components/SignIn.js</div>
-
-```js
+```js title="src/components/SignIn.js"
 import React from "react";
 
 function SignIn(){  
@@ -47,9 +45,7 @@ Next, we need to make some changes to our `App` component. Because it's the root
 
 Here's our updated `App` component:
 
-<div class="filename">src/components/App.js</div>
-
-```js
+```js title="src/components/App.js"
 ...
 import SignIn from "./SignIn";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -71,9 +67,7 @@ function App(){
 
 In addition to importing our placeholder `SignIn` component, we also add the following imports:
 
-<div class="filename">src/components/App.js</div>
-
-```js
+```js title="src/components/App.js"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 ```
 
@@ -87,9 +81,7 @@ Think of the `<Routes>` component as being like a conditional — it will render
 
 Next, we need to determine our actual routes using `<Route>` components. Let's look more closely at the code contained in our `<Route>` components:
 
-<div class="filename">src/components/App.js</div>
-
-```js
+```js title="src/components/App.js"
 <Route path="/sign-in" element={<SignIn />} />
 <Route path="/" element={<TicketControl />} />
 ```
@@ -107,9 +99,7 @@ However, we don't want our users to have to type in the path manually each time 
 
 Many applications have a navbar at the top of the page with links to various parts of the site. This navbar will show regardless of which page we're on. We already have a `Header` component that renders at the top of our site regardless of the page's content. At this point, it only has an `h` tag. Let's update this component to be more useful:
 
-<div class="filename">src/components/Header.js</div>
-
-```js
+```js title="src/components/Header.js"
 ...
 import { Link } from "react-router-dom";
 

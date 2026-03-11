@@ -25,9 +25,7 @@ The first thing we'll do in this refactor is create a server timestamp when a ti
 
 To add a Firestore server timestamp to new tickets, we'll need to update `NewTicketForm.js`. Here's the new code:  
 
-<div class="filename">src/components/NewTicketForm.js</div>
-
-```js
+```js title="src/components/NewTicketForm.js"
 ...
 // new import!
 import { serverTimestamp } from "firebase/firestore";
@@ -78,13 +76,11 @@ In the root directory of your Help Queue project, run the following command:
 $ npm install date-fns@2
 ```
 
-We'll be using the same `formatDistanceToNow()` helper function as we did in the last course section "React with Redux". The [documentation for date-fns](https://date-fns.org/docs/Getting-Started) is extensive, and there are many other helper functions available. We recommend checking it out when you have the time — there are many use cases where it can add valuable functionality to an application.
+We'll use the `formatDistanceToNow()` helper function from `date-fns` to display a human-readable time like "about 5 minutes ago". The [documentation for date-fns](https://date-fns.org/docs/Getting-Started) is extensive, and there are many other helper functions available. We recommend checking it out when you have the time — there are many use cases where it can add valuable functionality to an application.
 
 To start, we'll import `formatDistanceToNow` at the top of `TicketControl.js`:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 import { formatDistanceToNow } from 'date-fns';
 ```
 
@@ -104,9 +100,7 @@ formatDistanceToNow(new Date(), {
 
 Since `formatDistanceToNow()` takes a JavaScript date object as its first argument, we'll need to translate the Firestore server timestamp into a JavaScript date. Let's do that next:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 ...
 import { formatDistanceToNow } from 'date-fns';
 
@@ -182,9 +176,7 @@ To update the `formattedWaitTime` property every minute, we'll need to make use 
 
 Here's the new code:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 ...
 import { formatDistanceToNow } from 'date-fns';
 
@@ -278,9 +270,7 @@ Next, let's update our `Ticket` component to display the `formattedWaitTime`. In
 
 Here's the updated code:
 
-<div class="filename">src/components/TicketList.js</div>
-
-```js
+```js title="src/components/TicketList.js"
 import React from "react";
 import Ticket from "./Ticket";
 import PropTypes from "prop-types";
@@ -317,9 +307,7 @@ Next, we'll update `Ticket.js` to  display the new `formattedWaitTime` prop, and
 
 Here's the new code:
 
-<div class="filename">src/components/Ticket.js</div>
-
-```js
+```js title="src/components/Ticket.js"
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -362,9 +350,7 @@ Now that we have a timestamp associated with each ticket, let's sort our tickets
 
 Here's the updated code:
 
-<div class="filename">src/components/TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 ...
 // Two new imports: query and orderBy
 import { collection, addDoc, doc, updateDoc, onSnapshot, deleteDoc, query, orderBy } from "firebase/firestore";

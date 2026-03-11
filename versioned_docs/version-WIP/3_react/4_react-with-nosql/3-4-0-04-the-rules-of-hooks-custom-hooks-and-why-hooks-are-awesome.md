@@ -40,7 +40,7 @@ For more detailed information, visit the React docs: [Rules of Hooks](https://re
 ## Best Practices for Hooks
 ---
 
-Other than the rules of hooks that we must follow, there's two best practices that we should also follow:
+Other than the rules of hooks that we must follow, there are two best practices that we should also follow:
 
 1. Use multiple hooks to handle different concerns. 
   * For example, it's better to use multiple `useState` hooks to handle different state variables, instead of grouping them into one `useState` hook.
@@ -51,32 +51,24 @@ Other than the rules of hooks that we must follow, there's two best practices th
 ## Why Hooks Are Awesome
 ---
 
-React developers introduced hooks to solve a lot of pain points in React development. Some of these pain points are easy to understand. For example:
+Hooks solve two important problems in React development:
 
-* Some developers consider class components harder to read and reason about, including  method binding, and how `this` can change in value based on its execution context within the class component.
-* Class lifecycle methods force developers to organize code by the lifecycle method instead of separating code by concern. Indeed, you can only have one of each lifecycle method in a given component, so any and all code that needs to be run must be added to the appropriate lifecycle method, regardless of whether that code is performing different functionality and effects.
+* **Reusing stateful logic.** If two components need the same stateful behavior — like a timer, or a live database connection — hooks let you extract that logic into a custom hook and share it across components without duplicating code.
+* **Organizing code by concern.** Hooks let you group related logic together. For example, all the code for setting up and tearing down a database subscription can live in one `useEffect` call, rather than being scattered across a component.
 
-However, getting to a good understanding of other pain points involves a React history lesson and developing an understanding of tools that are best left for further exploration. If you're curious to learn more, we recommend reading through the [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html) page on the React docs, and watching the video introduction.
-
-One thing we will go over now that we haven't yet covered is how hooks make it very easy to **re*use stateful logic in multiple places. 
-
-First of all, **stateful logic** is any code in our React app that includes some state. Both our `Counter` and our `Timer` components contain stateful logic that handle counting and timing. 
-
-So when the React docs say that hooks provide an easier way to *re*use stateful logic, React is talking about the ability to abstract stateful logic into a custom hook to reuse as many times as needed in an application. And React is right — hooks really do make reusing stateful logic easy. 
+If you'd like to read more about the motivation behind hooks, check out the [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html) page in the React docs.
 
 To get a sense of just how easy this is to do, let's create our own custom hook. Afterwards, we'll briefly discuss the alternatives.
 
 ### Turning `Timer` into a Custom Hook
 
-For this example, we'll continue with our `intro-to-hooks` application and extract our stateful timer logic in our `Timer` component into a custom hook called `useTimer`. To do this, we'll make updates to `Timer.js`, and we'll also create a brand new `useTimer.js` file for our custom hook. 
+For this example, we'll continue with our `counter-app` application and extract our stateful timer logic in our `Timer` component into a custom hook called `useTimer`. To do this, we'll make updates to `Timer.js`, and we'll also create a brand new `useTimer.js` file for our custom hook.
 
 First, go ahead and create a new folder within the `src` folder called `hooks` and a file within it called `useTimer.js`. Note that React isn't very opinionated about how we organize our folders and files, so we don't have to have a `hooks` folder with our custom hooks inside. Generally speaking, whatever naming you choose should be intuitive and your folders shouldn't nest too deeply. If you want to read more on this topic, checkout this reference on [File Structure](https://reactjs.org/docs/faq-structure.html).
 
 Here's the starter code that we'll add to `useTimer.js`:
 
-<div class="filename">src/hooks/useTimer.js</div>
-
-```js
+```js title="src/hooks/useTimer.js"
 import { useState, useEffect } from 'react';
 
 function useTimer() {
@@ -88,13 +80,11 @@ export default useTimer;
 
 As we can see hooks are just JavaScript functions. We've imported the `useState` and `useEffect` hooks at the top of the file, because we'll use them in our timer logic. 
 
-So what stateful logic should we be extracting from `Timer.js`? Any code that sets up and manages our timer. We shouldn't include any code that handles setting the UI, because that's the job of the React component. 
+So what stateful logic should we be extracting from `Timer.js`? Any code that sets up and manages our timer. We should _not_ extract out code that handles setting the UI &mdash; because that's the job of the React component. 
 
 Here's the extracted code from `Timer.js`, added to `useTimer.js`:
 
-<div class="filename">src/hooks/useTimer.js</div>
-
-```js
+```js title="src/hooks/useTimer.js"
 import { useState, useEffect } from 'react';
 
 function useTimer() {
@@ -107,8 +97,8 @@ function useTimer() {
     if (isActive) {
       interval = setInterval(() => {
         setTimer(timerState => timerState + 1)
-      }, 1000
-    )}
+      }, 1000);
+    }
 
     return () => clearInterval(interval);
   }, [isActive]);
@@ -121,9 +111,7 @@ Our custom hooks can make use of any built-in React hooks, but as noted earlier,
 
 And here's what `Timer.js` should now look like:
 
-<div class="filename">src/hooks/Timer.js</div>
-
-```js
+```js title="src/Timer.js"
 import React from 'react';
 import useTimer from './hooks/useTimer';
 
@@ -143,11 +131,9 @@ At this point, we'll get a lot of compilation errors because `Timer.js` is rende
 
 And while we've imported the `useTimer` hook at the top of `Timer.js`, we're not quite ready to use it because our `useTimer` hook doesn't return anything just yet. 
 
-So what should we return from our custom hook? Quite simply, any of the logic that we'll need to render. We can figure out what this is by looking at the variables in the `Timer` component's return statement. As noted earlier, these variables are `isActive`, `timer`, and `setIsActive`. So, let's update our `useTimer` hook to return these variables.
+So what should we return from our custom hook? Quite simply, any of the logic that we'll need in the `Timer` component. We can figure out what this is by looking at the variables used in the `Timer` component. As noted earlier, these variables are `isActive`, `timer`, and `setIsActive`. So, let's update our `useTimer` hook to return these variables.
 
-<div class="filename">src/hooks/useTimer.js</div>
-
-```js
+```js title="src/hooks/useTimer.js"
 import { useState, useEffect } from 'react';
 
 function useTimer() {
@@ -160,14 +146,14 @@ function useTimer() {
     if (isActive) {
       interval = setInterval(() => {
         setTimer(timerState => timerState + 1)
-      }, 1000
-    )}
+      }, 1000);
+    }
 
     return () => clearInterval(interval);
   }, [isActive]);
 
   // New line below!
-  return [isActive, timer, setIsActive]; 
+  return [isActive, timer, setIsActive];
 }
 
 export default useTimer;
@@ -177,9 +163,7 @@ Just like with the `useState` hook, we're returning our variables in an array. W
 
 Now, let's update our `Timer.js` component to use the `useTimer` hook:
 
-<div class="filename">src/hooks/Timer.js</div>
-
-```js
+```js title="src/Timer.js"
 import React from 'react';
 import useTimer from './hooks/useTimer';
 
@@ -200,11 +184,10 @@ export default Timer;
 
 We destructure the three variables from the `useTimer` hook in the same order in which they are returned. 
 
+:::tip
 Take note that when we destructure values from an array we can name these variables whatever we want. For example:
 
-<div class="filename">src/hooks/useTimer.js</div>
-
-```js
+```js title="src/Timer.js"
 import React from 'react';
 import useTimer from './hooks/useTimer';
 
@@ -221,12 +204,15 @@ function Timer() {
 
 export default Timer;
 ```
+:::
 
 And with that, we've successfully created a custom hook called `useTimer`! We can now import this hook into any component that we want to use a timer in. If we had three separate components, we could use the `useTimer` hook to create three separate timers, all with separate state. This is exactly what it means to **reuse stateful logic**, and hopefully you can agree that it was pretty easy to do with a custom hook.
 
 To learn more about building custom hooks, visit the React docs on [Building Your Own Hooks](https://reactjs.org/docs/hooks-custom.html).
 
 ### Before Hooks
+
+For your awareness: here's what developers used before hooks existed for sharing stateful logic. You may encounter these patterns in older React codebases.
 
 Prior to hooks, developers would use a combination of mixins, higher-order components, context, and render props. At this point, mixins are considered harmful, as detailed in the React blog post [Mixins Considered Harmful](https://reactjs.org/blog/2016/07/13/mixins-considered-harmful.html). [Higher-order components](https://reactjs.org/docs/higher-order-components.html), [context](https://reactjs.org/docs/context.html), and [render props](https://reactjs.org/docs/render-props.html) are all still in use in React, and they are each different tools that enable sharing code between two or more components. The issue with these tools is that they lead to "wrapper hell", where there's an excess of "wrapper" components that handle transferring data, but don't render anything to the UI.
 
@@ -244,7 +230,7 @@ With hooks, we can extract data that we want to reuse in a function and import i
 
 And with that, we covered the very basics of why hooks are so awesome and beloved by the React community. You'll likely still have questions, like what is "render props"? For now, we'll leave that advanced topic to further exploration, so we can focus on hooks. 
 
-Next up, we'll return to our Help Queue application and refactor `TicketControl` to be a function component that uses hooks. 
+Next up, we'll return to our Help Queue application and plan how to connect it to Firebase.
 
 ## There's Much More to Explore!
 ---

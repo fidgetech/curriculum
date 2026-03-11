@@ -9,7 +9,7 @@ pagination_next: null
 ## Independent Projects Overview
 ---
 
-Project prompts will be available on Epicenter once you let your instructor know that you have reached the end of a section. Project prompts will be available on Epicenter once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Project prompts will be available on Epicenter once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## React Fundamentals Project Objectives
 ---
@@ -19,7 +19,7 @@ Even though you have learned full CRUD in this section, **you will only be expec
 Your code will be reviewed for the following objectives:
 
 * Application compiles and runs without error, and warnings in the DevTools console are resolved.
-* Functional and class components are used correctly.
+* Functional components are used correctly.
 * Application effectively uses local and shared state.
 * Props are used correctly and always include `PropTypes`.
 * README includes an accurate representation of the application's component tree.
