@@ -12,14 +12,10 @@ So far, the form component in our Help Queue application just contains placehold
 
 We'll start by replacing the placeholder text in the `return()` of our `NewTicketForm` component with an actual form:
 
-<div class="filename">NewTicketForm.js</div>
+```js title="NewTicketForm.js"
+import React from "react";
 
-```javascript
-...
-
-function NewTicketForm() {
-
-  ...
+function NewTicketForm(props){
 
   return (
     <React.Fragment>
@@ -41,13 +37,12 @@ function NewTicketForm() {
   );
 }
 
-...
-
+export default NewTicketForm;
 ```
 
 Notice that our form has a new type of event handler called `onSubmit`. This is similar to when we added an `onClick` event handler when we learned how to toggle local state. The difference is that `onSubmit` triggers when the submit button of a form is clicked.
 
-Our `onSubmit` handler will trigger the function `{handleNewTicketFormSubmission}`. We haven't written that function yet, but we will soon. Note that we are calling `handleNewTicketFormSubmission` a function, not a method. This component isn't a class component so it has functions, not methods that are called on the instance of a class. That also means we'll be using the `function` keyword, unlike with class components.
+Our `onSubmit` handler will trigger the function `handleNewTicketFormSubmission`, which we'll define in the next section.
 
 ## Adding an Event Handler to Our Form
 ---
@@ -56,12 +51,10 @@ Now that we have a form in place, we need a `handleNewTicketFormSubmission` func
 
 Let's add that function just above the lines of code where we instantiated our form:
 
-<div class="filename">NewTicketForm.js</div>
-
-```js
+```js title="NewTicketForm.js"
 ...
 
-function NewTicketForm(){
+function NewTicketForm(props){ {
 
   function handleNewTicketFormSubmission(event) {
     event.preventDefault();
@@ -72,12 +65,14 @@ function NewTicketForm(){
 ...
 ```
 
-Once again, note that we have to use the `function` keyword here. We can't just use ES6 class syntax to define our functions because this function is inside another function, not inside a class.
+We need to add `event.preventDefault()` to our form submission handler just as we have in the past. The default behavior of an HTML submit button is to submit data and refresh the page. We don't want it to refresh the page so we prevent the default behavior.
 
-We need to add `event.preventDefault()` to our form just as we have in the past. The default behavior of an HTML submit button is to submit data and refresh the page. We don't want it to refresh the page so we prevent the default behavior.
-
-Finally, we'll `console.log()` the values of our fields. Note that we are taking advantage of `event.target`. `event.target` gives us access to the event that was just fired. In this case, we just had a submit event. We can actually grab the values that came from that submit event. Specifically, we can grab the values based on their `name` property. We just need to call `event.target.[input-field-name-goes-here].value`.
+For now we'll just `console.log()` the values of our fields. We are taking advantage of `event.target`, which gives us access to the event that was just fired - in this case the submit event. We can grab the values that came from that submit event based on their `name` property. We just need to call `event.target.[input-field-name-goes-here].value`.
 
 Now if we run `npm start`, we will see that the fields from our form are properly logged in the console.
+
+:::note
+We're using what React calls **uncontrolled inputs** here — we let the DOM handle the form data and grab values when the form is submitted. This is a straightforward approach that works well for simple forms. Later, you may encounter **controlled inputs**, where React state tracks each field's value as the user types. Both approaches are valid; we're using uncontrolled inputs to keep things simple while we learn.
+:::
 
 In the next lesson, we'll learn about unidirectional data flow. Then, in the lesson after that, we'll learn how we can get our form data to its parent `TicketControl` component, which can actually handle state.

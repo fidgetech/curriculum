@@ -25,4 +25,4 @@ We will take care of toggling between these components (our local state) before 
 
 So where should this shared state go? Fortunately, this is a simple question to answer. Both components have the same parent. `TicketControl` is the lowest common ancestor to which we can lift our application state.
 
-If our plan isn't fully clear yet, use this page as a reference as we follow along with upcoming lessons. 
+You can use this page as a reference while following along with upcoming lessons.

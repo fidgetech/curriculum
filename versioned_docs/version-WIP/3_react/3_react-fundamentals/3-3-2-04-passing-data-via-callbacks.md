@@ -5,66 +5,78 @@ id: 3-3-2-4-passing-data-via-callbacks
 hide_table_of_contents: true
 ---
 
-In the last lesson, we covered the tricky concept of unidirectional data flow. In this lesson, we'll apply what we've learned. To recap, we'll need to do the following:
+In the last lesson, we covered the concept of unidirectional data flow. In this lesson, we'll apply what we've learned. To recap, we'll need to do the following:
 
-1. Move `mainTicketList` into state.
-2. Create a method in our parent `TicketControl` component. This method will take any form data and turn it into an actual ticket.
-3. Pass this method down to the child `NewTicketForm` component as a prop — and also add PropTypes.
-4. Add our new method to the existing function in our child component so that it's triggered when a user submits the form.
+1. Add `mainTicketList` to state in our `TicketControl` component.
+2. Create a function in `TicketControl` that will take form data and add it to our ticket list.
+3. Pass this function down to the child `NewTicketForm` component as a prop.
+4. Call this function in our child component when the form is submitted.
 
-In order to do this, we only need to add a few lines of code — and make small modifications to a few other lines. Despite the relatively small amount of code being added, we are still working with challenging new concepts. Be patient with yourself and follow along slowly. If it doesn't all click immediately (and it probably won't), trust the process and keep practicing these concepts in class and on your own.
+Despite the relatively small amount of code being added, we are working with challenging new concepts. Be patient with yourself and follow along slowly. If it doesn't all click immediately (and it probably won't), trust the process and keep practicing these concepts in class and on your own.
 
-### Step 1: Move mainTicketList into State
+## Step 1: Add mainTicketList to State
+---
 
-Let's start by adding a mainTicketList property to state and passing it down as a prop to `TicketList` :
+Let's start by adding a `mainTicketList` state variable and passing it down as a prop to `TicketList`:
 
-<div class="filename">src/components/TicketControl.js</div>
+```js title="src/components/TicketControl.js"
+import React, { useState } from 'react';
+import NewTicketForm from './NewTicketForm';
+import TicketList from './TicketList';
 
-```js
-class TicketControl extends React.Component {
+function TicketControl() {
+  const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
+  const [mainTicketList, setMainTicketList] = useState([]); // new code
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      formVisibleOnPage: false,
-      mainTicketList: [] // new code
-    };
+  const handleClick = () => {
+    setFormVisibleOnPage(!formVisibleOnPage);
   }
 
-...
+  let currentlyVisibleState = null;
+  let buttonText = null;
 
-    if (this.state.formVisibleOnPage) {
-      currentlyVisibleState = <NewTicketForm />;
-      buttonText = "Return to Ticket List";
-    } else {
-      currentlyVisibleState = <TicketList ticketList={this.state.mainTicketList} />; // new code
-      buttonText = "Add Ticket"; 
-    }
-...
+  if (formVisibleOnPage) {
+    currentlyVisibleState = <NewTicketForm />;
+    buttonText = "Return to Ticket List";
+  } else {
+    currentlyVisibleState = <TicketList ticketList={mainTicketList} />; // updated
+    buttonText = "Add Ticket";
+  }
 
+  return (
+    <React.Fragment>
+      {currentlyVisibleState}
+      <button onClick={handleClick}>{buttonText}</button>
+    </React.Fragment>
+  );
+}
+
+export default TicketControl;
 ```
 
-Notice we're initializing mainTicketList as an empty array. We're doing this because we don't want this application to start with fake tickets. The queue should be empty until we start adding tickets via our form. (We'll be removing our array of dummy tickets from `TicketList` in just a moment.) Also, notice how we're passing mainTicketList down to `TicketList`. We include it as a prop and target its place in state with `this.state.mainTicketList`. Here we're calling it `ticketList`, so that's the name we'll use to access it as a prop in `TicketList`.
+Notice we're initializing `mainTicketList` as an empty array. We're doing this because we don't want this application to start with fake tickets. The queue should be empty until we start adding tickets via our form. (We'll be removing our array of dummy tickets from `TicketList` in just a moment.)
 
-### Step #2: Pass New Props to TicketList Component and Add propTypes
+Also, notice how we're passing `mainTicketList` down to `TicketList` as a prop called `ticketList`.
 
-In the first step, we passed `mainTicketList` state from `TicketControl.js` down to our `TicketList` component. Now we need to actually add props and prop types to `TicketList.js`. We'll also remove the `mainTicketList` constant that holds our dummy tickets as well.
+## Step 2: Update TicketList to Use Props
+---
 
-<div class="filename">src/components/TicketList.js</div>
+In step 1, we passed `mainTicketList` state from `TicketControl` down to our `TicketList` component. Now we need to update `TicketList.js` to use this prop. We'll also remove the old `mainTicketList` constant that held our dummy tickets.
 
-```js
+```js title="src/components/TicketList.js"
 import React from "react";
 import Ticket from "./Ticket";
 import PropTypes from "prop-types";
 
-// remove const mainTicketList = [ ... ]. We no longer want these.
+// Remove const mainTicketList = [ ... ]. We no longer need these dummy tickets.
 
-function TicketList(props) { // Add props as parameter.
+function TicketList(props) {
   return (
     <React.Fragment>
       <hr />
-      {props.ticketList.map((ticket, index) => // Loop through the list passed down from TicketControl.
-        <Ticket names={ticket.names}
+      {props.ticketList.map((ticket, index) =>
+        <Ticket 
+          names={ticket.names}
           location={ticket.location}
           issue={ticket.issue}
           key={index} />
@@ -73,7 +85,6 @@ function TicketList(props) { // Add props as parameter.
   );
 }
 
-// Add propTypes for ticketList.
 TicketList.propTypes = {
   ticketList: PropTypes.array
 };
@@ -81,80 +92,125 @@ TicketList.propTypes = {
 export default TicketList;
 ```
 
-We've made several changes here. Now that we are passing `ticketList` down through `props`, we need to `import prop-types` and add a prop type of array for our `ticketList`. We also remove our `mainTicketList` constant which stored three fake tickets — we won't need these anymore!
+We've made several changes here:
 
-Now we'll be able to make changes to our ticket list and, ultimately, display tickets as they're added.
+- Now that we are passing `ticketList` down through `props`, we need to import `prop-types` and add a prop type of `array` for our `ticketList`.
+- We removed our `mainTicketList` constant which stored the dummy tickets — we won't need these anymore!
+- We loop through `props.ticketList` instead of the local constant.
 
-### Step 3: Create a Method to Handle Our Form Submission
+Now we'll be able to make changes to our ticket list and display tickets as they're added.
 
-We'll start with step #1: creating a method in our `TicketControl` component.
+## Step 3: Create a Function to Handle Adding Tickets
+---
 
-<div class="filename">TicketControl.js</div>
+Now let's create a function in `TicketControl` that will handle adding new tickets to our list:
 
-```js
-...
+```js title="src/components/TicketControl.js"
+import React, { useState } from 'react';
+import NewTicketForm from './NewTicketForm';
+import TicketList from './TicketList';
 
-class TicketControl extends React.Component {
+function TicketControl() {
+  const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
+  const [mainTicketList, setMainTicketList] = useState([]);
 
-  constructor(props) {
-    ...
+  const handleClick = () => {
+    setFormVisibleOnPage(!formVisibleOnPage);
   }
 
-...
-
-  handleAddingNewTicketToList = (newTicket) => {
-    const newMainTicketList = this.state.mainTicketList.concat(newTicket);
-    this.setState({mainTicketList: newMainTicketList,
-                  formVisibleOnPage: false });
+  const handleAddingNewTicketToList = (newTicket) => {
+    const newMainTicketList = mainTicketList.concat(newTicket);
+    setMainTicketList(newMainTicketList);
+    setFormVisibleOnPage(false);
   }
-...
+
+  // ... rest of component
+}
 ```
 
-Our new method is called `handleAddingNewTicketToList` because it does just that — handle the process of adding a new ticket in our `mainTicketList`. It takes a `newTicket` as a parameter. 
+Our new function is called `handleAddingNewTicketToList` because it does just that — handles the process of adding a new ticket to our `mainTicketList`. It takes a `newTicket` as a parameter.
 
-It's common practice to prefix the name of an event handler function with `handle`. Any props containing that function will be prefixed with `on`. (We will add our prop in the next step.) This is because the prop will be used _when_ the event occurs, but the function itself is what _actually handles_ the necessary actions. It also ensures the names are similar enough to easily determine which props and functions correspond, yet different enough to determine when we're referencing a function and when we're referencing a prop containing a function.
+:::info[naming convention]
+It's common practice to prefix the name of an event handler function with `handle`. Any props containing that function will be prefixed with `on`. This is because the prop will be used _when_ the event occurs, but the function itself is what _actually handles_ the necessary actions. It also ensures the names are similar enough to easily determine which props and functions correspond, yet different enough to tell them apart.
+:::
 
-Next, we create a constant called `newMainTicketList`. Remember that we should **never** alter state directly. Instead, we will let React do that with the `setState()` method.
+Let's break down what this function does:
 
-We take `this.state.mainTicketList` and call `concat()` on it. Unlike `push()`, which directly alters the array its called on, `concat()` makes a _copy_ of that array. Anything passed into `concat()` (in this case, our `newTicket`) will be concatenated to the end of the new array.
+1. **Create a new array:** We call `mainTicketList.concat(newTicket)`. Unlike `push()`, which directly alters the array it's called on, `concat()` returns a _new_ array with the item added. This is important because we should **never alter state directly**. You'll also commonly see the spread operator used for this: `[...mainTicketList, newTicket]`. Both approaches create a new array without mutating state.
 
-Next, we set the value of `mainTicketList` to the `newMainTicketList` variable we just created. As noted, we are using `setState()` to make our direct change to state.
+2. **Update state:** We call `setMainTicketList(newMainTicketList)` to update our state with the new array.
 
-Finally, once the ticket has successfully been submitted, we want to set `formVisibleOnPage` to false again so that the user will see the queue, not the form.
+3. **Hide the form:** We call `setFormVisibleOnPage(false)` so the user sees the queue (with their new ticket) instead of the form.
 
-### Step 4: Pass Method Down to Child Component as a Prop
+## Step 4: Pass the Function Down as a Prop
+---
 
-Now we need to pass our new `handleAddingNewTicketToList` method down to our `NewTicketForm` component as a prop. We'll start by making a small update to our `TicketControl`'s `render()` method:
+Now we need to pass `handleAddingNewTicketToList` down to our `NewTicketForm` component as a prop:
 
-<div class="filename">TicketControl.js</div>
-
-```js
+```js title="src/components/TicketControl.js"
 ...
-render(){
-    ...
-    if (this.state.formVisibleOnPage) {
-      currentlyVisibleState = <NewTicketForm onNewTicketCreation={this.handleAddingNewTicketToList} /> { // new code in this line }
-      buttonText = "Return to Ticket List";
-    } else {
-      ....
 
-```
+let currentlyVisibleState = null;
+let buttonText = null;
 
-We will pass `this.handleAddingNewTicketToList` as a prop to the `NewTicketForm`. It will be saved in the prop `onNewTicketCreation`. As noted in Step 1, we prefix the prop with `on`. This differentiates the method in our parent component (which will actually handle the event) from the function in our child component (which is triggered when the event happens).
-
-Next, we need to make a few changes to our child `NewTicketForm` so that it will accept props.
-
-<div class="filename">NewTicketForm.js</div>
-
-```js
-import React from "react";
-import PropTypes from "prop-types"; //import PropTypes
-
-function NewTicketForm(props){ // Make sure to add props as a parameter.
-  ...
+if (formVisibleOnPage) {
+  currentlyVisibleState = 
+    <NewTicketForm 
+      onNewTicketCreation={handleAddingNewTicketToList}
+    />; // updated
+  buttonText = "Return to Ticket List";
+} else {
+  currentlyVisibleState = 
+    <TicketList 
+      ticketList={mainTicketList}
+    />;
+  buttonText = "Add Ticket";
 }
 
-// We also need to add PropTypes for our new prop.
+...
+```
+
+We pass `handleAddingNewTicketToList` as a prop called `onNewTicketCreation`. Notice the naming convention: `handle` prefix for the function, `on` prefix for the prop.
+
+:::tip
+Note that we split the JSX onto multiple lines for readability. This is a common practice when passing multiple props or when the component name and props exceed a certain length.
+:::
+
+Next, we need to update `NewTicketForm` to accept and use this prop:
+
+```js title="src/components/NewTicketForm.js"
+import React from "react";
+import PropTypes from "prop-types";
+
+function NewTicketForm(props) {
+
+  // We'll update this function in the next step
+  function handleNewTicketFormSubmission(event) {
+    event.preventDefault();
+    console.log(event.target.names.value);
+    console.log(event.target.location.value);
+    console.log(event.target.issue.value);
+  }
+
+  return (
+    <React.Fragment>
+      <form onSubmit={handleNewTicketFormSubmission}>
+        <input
+          type='text'
+          name='names'
+          placeholder='Pair Names' />
+        <input
+          type='text'
+          name='location'
+          placeholder='Location' />
+        <textarea
+          name='issue'
+          placeholder='Describe your issue.' />
+        <button type='submit'>Help!</button>
+      </form>
+    </React.Fragment>
+  );
+}
 
 NewTicketForm.propTypes = {
   onNewTicketCreation: PropTypes.func
@@ -163,68 +219,118 @@ NewTicketForm.propTypes = {
 export default NewTicketForm;
 ```
 
-We do two things here:
-1. Ensure we are passing `props` into our function component. Otherwise, our `NewTicketForm` won't have access to props from `TicketControl`.
-2. We add a `PropTypes` for `onNewTicketCreation`. Remember that `this.handleAddingNewTicketToList` is passed down to the child component as `onNewTicketCreation`.
+We've added two things:
 
-### Step 5: Add a Unique ID and Utilize the Parent Component's Method in the Child Component
+1. Made sure `props` is a parameter of our function component.
+2. Added `PropTypes` for `onNewTicketCreation`, specifying it's a function.
 
-We're almost done! We need to two things:
+## Step 5: Use the Callback and Add a Unique ID
+---
 
-* Import the UUID library to assign unique IDs to new tickets.
-* Update the `handleNewTicketFormSubmission` function so that it creates a new ticket object and uses our `onNewTicketCreation` prop to send the ticket object to the parent component, `TicketControl`.
+We're almost done! We need to:
 
-Here's the updated code:
+- Import the UUID library to assign unique IDs to new tickets.
+- Update `handleNewTicketFormSubmission` to create a ticket object and pass it to `onNewTicketCreation`.
 
-<div class="filename">NewTicketForm.js</div>
+Here's the complete updated `NewTicketForm`:
 
-```js
-...
-import { v4 } from 'uuid'; // new code
+```js title="src/components/NewTicketForm.js"
+import React from "react";
+import PropTypes from "prop-types";
+import { v4 } from 'uuid';
 
-function NewTicketForm(props){
-  ...
+function NewTicketForm(props) {
 
   function handleNewTicketFormSubmission(event) {
     event.preventDefault();
     props.onNewTicketCreation({
-      names: event.target.names.value, 
-      location: event.target.location.value, 
-      issue: event.target.issue.value, 
+      names: event.target.names.value,
+      location: event.target.location.value,
+      issue: event.target.issue.value,
       id: v4()
     });
   }
 
-...
+  return (
+    <React.Fragment>
+      <form onSubmit={handleNewTicketFormSubmission}>
+        <input
+          type='text'
+          name='names'
+          placeholder='Pair Names' />
+        <input
+          type='text'
+          name='location'
+          placeholder='Location' />
+        <textarea
+          name='issue'
+          placeholder='Describe your issue.' />
+        <button type='submit'>Help!</button>
+      </form>
+    </React.Fragment>
+  );
+}
+
+NewTicketForm.propTypes = {
+  onNewTicketCreation: PropTypes.func
+};
+
+export default NewTicketForm;
 ```
 
-Because a function component doesn't have `this` as a reference like a class component, we need to directly refer to the `props` passed into the function component. That's why we do `props.onNewTicketCreation()` instead of `this.onNewTicketCreation()` (as we'd do if this were a class component).
+We call `props.onNewTicketCreation()` and pass in an object with all of the ticket properties, including a unique ID generated by the UUID library.
 
-We create an object with all of the ticket properties and pass it as the argument to `props.onNewTicketCreation()`. We also create a unique ID with the UUID library. 
-
-Take note that if we need to get a number from our form, we'd want to parse any form values at this point. For example, say we wanted to track the number of students who need help; in this case, we might have a property called `numberOfStudents` and we'd want to make sure we parse the corresponding form value:
+:::tip
+If you need to get a number from a form, remember to parse the value. For example:
 
 ```js
 props.onNewTicketCreation({
-  ...
+  // ...other properties
   numberOfStudents: parseInt(event.target.numberOfStudents.value)
 });
 ```
+:::
 
-Remember that `onNewTicketCreation()` is the callback from the parent component even though it has a different name now. The following method is invoked in `TicketControl`:
+One last thing. Now that we're assigning a unique ID to each ticket, we should update our `TicketList` component to use this ID as the `key` prop instead of the array index. Using a stable unique identifier as the key is a React best practice - it helps React efficiently track which items have changed, been added, or removed, avoiding potential rendering bugs.
 
-<div class="filename">TicketControl.js</div>
+```js title="src/components/TicketList.js"
+...
 
-```js
-handleAddingNewTicketToList = (newTicket) => {
-    const newMainTicketList = this.state.mainTicketList.concat(newTicket);
-    this.setState({
-      mainTicketList: newMainTicketList,
-      formVisibleOnPage: false
-    });
-  }
+{props.ticketList.map((ticket) =>
+  <Ticket 
+    names={ticket.names}
+    location={ticket.location}
+    issue={ticket.issue}
+    key={ticket.id} />
+)}
+
+...
 ```
 
-When we call `props.onNewTicketCreation({names: names.value, location: location.value, issue: issue.value});` in the `NewTicketForm` component, this object is passed in as an argument to the `newTicket` parameter, updating the `mainTicketList`.
+## How It All Connects
+---
+
+Let's trace the data flow:
+
+1. User fills out the form and clicks "Help!"
+2. `handleNewTicketFormSubmission` in `NewTicketForm` is called
+3. This function calls `props.onNewTicketCreation()` with the ticket data
+4. `onNewTicketCreation` is actually `handleAddingNewTicketToList` from `TicketControl`
+5. `handleAddingNewTicketToList` adds the ticket to state and hides the form
+6. React re-renders `TicketControl`, which now passes the updated list to `TicketList`
+7. The new ticket appears in the queue!
 
 Try it out in the browser. Now when we add a ticket via the form, it will be added to the queue!
+
+## Summary
+---
+
+In this lesson, we learned how to pass data from a child component up to a parent component using callbacks. This is a fundamental pattern in React:
+
+- **State lives in the parent** component that needs to share it.
+- We **pass a callback function down** to child components as a prop.
+- The child **calls this function** (usually in response to an event) and passes data as an argument.
+- The parent's function **receives the data** and updates state.
+- **Naming convention:** `handleX` for the function, `onX` for the prop.
+
+This pattern maintains unidirectional data flow while still allowing child components to communicate with their parents.
