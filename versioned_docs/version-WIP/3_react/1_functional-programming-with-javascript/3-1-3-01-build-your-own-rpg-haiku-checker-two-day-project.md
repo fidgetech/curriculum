@@ -5,19 +5,19 @@ id: 3-1-3-1-rpg-utilities-haiku-checker-two-day-project
 hide_table_of_contents: true
 ---
 
-**Goal:** For this project, continue building functional applications. Try incorporating all the different tools you've learned so far from closures to recursion to composition. You may incorporate object-oriented elements in your applications, but try to keep your code functional where possible.
+**Goal:** Choose one of the two projects below and work on it for both days. Pick whichever sounds more interesting to you — both will give you practice with closures, function factories, and composition. Try to incorporate the full range of tools you've learned in this section.
 
 ## Warm Up
 ---
 
 * What does it mean to mutate state? Why should we generally avoid this in functional programming?
-* What does it mean that functions are first class citizens? 
+* What does it mean that functions are first class citizens?
 * What is a closure, and how do function factories use closures?
 
 ## Code
 ---
 
-### Build Your Own RPG Utilities
+### Option A: RPG Utilities
 
 Use function factories to build a set of weapon utilities for a simple RPG.
 
@@ -43,7 +43,7 @@ plate(20);    // "Plate absorbs 10 damage! You take 10 damage."
 
 Bonus: Create a potion factory, spell factory, or another game element of your choice using the same pattern.
 
-### Haiku Checker/Creator
+### Option B: Haiku Checker/Creator
 
 Here's another project from Intermediate JavaScript — if you've already built this project, try refactoring your object-oriented approach so that it's functional instead. You may also choose to build a functional application from scratch.
 
