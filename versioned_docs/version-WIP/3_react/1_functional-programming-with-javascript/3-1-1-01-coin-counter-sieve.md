@@ -20,15 +20,79 @@ hide_table_of_contents: true
 
 ### Coin Counter
 
-Create a coin counter application that takes X amount of money (such as $4.99) and determines the exact amount of change needed in quarters, dimes, nickels and pennies. Do not worry about adding a user interface to the application. Instead, focus on writing good tests and functional code.
+#### Part 1: Refactor to Functional
 
-#### Part 1
+Before writing anything new, refactor the starter code below into a pure function.
 
-Create a coin counter function that uses recursion to solve the problem.
+- Your function should take a number of cents and return a new object with the coin breakdown.
+- It should not use a class, store any state on `this`, or modify anything outside of itself.
+- Same input should always produce the same output.
+
+```js
+class CoinCounter {
+  constructor() {
+    this.total = 0;
+    this.quarters = 0;
+    this.dimes = 0;
+    this.nickels = 0;
+    this.pennies = 0;
+  }
+
+  count(cents) {
+    this.total = cents;
+    this.quarters = Math.floor(cents / 25);
+    cents = cents % 25;
+    this.dimes = Math.floor(cents / 10);
+    cents = cents % 10;
+    this.nickels = Math.floor(cents / 5);
+    this.pennies = cents % 5;
+  }
+}
+
+const counter = new CoinCounter();
+counter.count(99);
+console.log(counter.quarters); // 3
+```
+
+#### Testing
+
+Here are some sample Jest tests to get you started:
+
+```js
+describe('coinCounter', () => {
+  test('returns correct number of quarters', () => {
+    expect(coinCounter(100).quarters).toBe(4);
+  });
+
+  test('returns correct change for $4.99', () => {
+    const result = coinCounter(499);
+    expect(result.quarters).toBe(19);
+    expect(result.pennies).toBe(4);
+  });
+
+  test('returns an object with all four coin types', () => {
+    const result = coinCounter(99);
+    expect(result).toHaveProperty('quarters');
+    expect(result).toHaveProperty('dimes');
+    expect(result).toHaveProperty('nickels');
+    expect(result).toHaveProperty('pennies');
+  });
+});
+```
+
+Your tests don't need to match this structure exactly — the goal is to verify your functions behave correctly and return the expected output.
+
+Be sure to write tests for Parts 2 and 3 as well.
 
 #### Part 2
 
-Create a coin counter function that uses a closure that can be used with functions for each type of change (quarters, nickels, dimes and pennies). You can use recursion if you like.
+Rewrite your coin counter function so that it uses recursion to solve the problem instead of the step-by-step math approach above.
+
+#### Part 3
+
+Create a coin counter using a closure, with separate functions for each coin type (quarters, dimes, nickels, pennies). You can use recursion if you like.
+
+---
 
 ### Roman Numerals
 
@@ -53,6 +117,8 @@ The exception is that there may not be more than three of the same characters in
 
 You also have to separate ones, tens, hundreds, and thousands. In other words, 99 is XCIX, not IC.  You cannot count higher than 3,999 in Roman numerals.
 
+---
+
 ### Prime Sifting
 
 The goal in solving this problem is to use recursion!
@@ -68,32 +134,6 @@ This is a tricky problem and you should use the Sieve of Eratosthenes to solve i
 * When you reach `number`, all the remaining numbers in the list are primes.
 
 You also might find [this video](https://www.youtube.com/watch?v=V08g_lkKj6Q) helpful in explaining the Sieve.
-
-## Testing
-
-Write Jest tests for all of your functions. Pure functions are straightforward to test — same input, same output, every time. Here's an example for the coin counter:
-
-```js
-describe('coinCounter', () => {
-  test('returns correct number of quarters', () => {
-    expect(coinCounter(100).quarters).toBe(4);
-  });
-
-  test('returns correct change for $4.99', () => {
-    const result = coinCounter(499);
-    expect(result.quarters).toBe(19);
-    expect(result.pennies).toBe(4);
-  });
-
-  test('does not mutate input', () => {
-    const input = 100;
-    coinCounter(input);
-    expect(input).toBe(100);
-  });
-});
-```
-
-Your tests don't need to match this structure exactly — the goal is to verify your functions behave correctly and don't mutate their inputs.
 
 ## Instructor/Peer Code Review
 ---
