@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.1.9 Building a Functional Application (Part 1)"
+title: "📓 3.1.1.8 Building a Functional Application (Part 1)"
 day: monday
-id: 3-1-1-9-building-a-functional-application-part-1
+id: 3-1-1-8-building-a-functional-application-part-1
 hide_table_of_contents: true
 ---
 

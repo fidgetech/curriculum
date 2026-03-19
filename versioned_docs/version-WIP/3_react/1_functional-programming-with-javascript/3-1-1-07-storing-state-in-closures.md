@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.1.8 Storing State in Closures"
+title: "📓 3.1.1.7 Storing State in Closures"
 day: monday
-id: 3-1-1-8-storing-state-in-closures
+id: 3-1-1-7-storing-state-in-closures
 hide_table_of_contents: true
 ---
 

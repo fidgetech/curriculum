@@ -76,6 +76,8 @@ However, if we call `doAThing()` in the REPL, Node returns `[Function]`. (If we 
 
 The first set of parens is used to call the `doAThing()` method, which returns a function. The second set of parens calls the inner function.
 
-The example above probably seems a little senseless — why bother to have one function return another? However, this leads to a very powerful programming tool called a **closure**. We will cover closures in the next lesson.
+The example above probably seems a little senseless — why bother to have one function return another? However, this leads to a very powerful programming tool called a **closure**. We will cover closures shortly.
 
 In this lesson, we covered three important ways functions are first-class citizens in JavaScript. While it may not be clear yet why this is useful, JavaScript couldn't be used as a functional language without the techniques described above. Because JavaScript contains this functionality, it has tremendous power not only as an object-oriented language but also as a functional language.
+
+In the next lesson, we'll look at `map()`, `filter()`, and `reduce()` — three array methods you've already used that are built directly on the first-class function concept. You'll see why passing a function as an argument makes these methods so powerful.

@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.1.6 Composition"
+title: "📓 3.1.1.5 Composition"
 day: monday
-id: 3-1-1-6-composition
+id: 3-1-1-5-composition
 hide_table_of_contents: true
 ---
 

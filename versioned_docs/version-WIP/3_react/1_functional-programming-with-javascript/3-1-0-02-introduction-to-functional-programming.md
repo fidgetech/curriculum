@@ -1,5 +1,6 @@
 ---
 title: "📓 3.1.0.2 Introduction to Functional Programming"
+day: weekend
 id: 3-1-0-2-introduction-to-functional-programming
 hide_table_of_contents: true
 ---
@@ -96,7 +97,7 @@ FP techniques shine in certain situations:
 |-----------|--------------|
 | Data transformation pipelines | Chain `map`, `filter`, `reduce` for clear data flow |
 | React components | React is built around FP concepts like immutability |
-| Testing | Pure functions are trivial to test |
+| Testing | Pure functions are easier to test |
 | Concurrent/async code | No shared mutable state means fewer race conditions |
 | Complex state management | Immutable updates make state changes trackable |
 

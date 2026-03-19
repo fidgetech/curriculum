@@ -5,7 +5,7 @@ id: 3-1-1-1-coin-counter-sieve
 hide_table_of_contents: true
 ---
 
-**Goal:** Get comfortable with the basics of functional programming. Practice writing pure functions, closures, curried functions, and recursive functions.
+**Goal:** Get comfortable with the basics of functional programming. Practice writing pure functions, closures, function factories, and recursive functions.
 
 ## Warm Up
 ---
@@ -68,6 +68,32 @@ This is a tricky problem and you should use the Sieve of Eratosthenes to solve i
 * When you reach `number`, all the remaining numbers in the list are primes.
 
 You also might find [this video](https://www.youtube.com/watch?v=V08g_lkKj6Q) helpful in explaining the Sieve.
+
+## Testing
+
+Write Jest tests for all of your functions. Pure functions are straightforward to test — same input, same output, every time. Here's an example for the coin counter:
+
+```js
+describe('coinCounter', () => {
+  test('returns correct number of quarters', () => {
+    expect(coinCounter(100).quarters).toBe(4);
+  });
+
+  test('returns correct change for $4.99', () => {
+    const result = coinCounter(499);
+    expect(result.quarters).toBe(19);
+    expect(result.pennies).toBe(4);
+  });
+
+  test('does not mutate input', () => {
+    const input = 100;
+    coinCounter(input);
+    expect(input).toBe(100);
+  });
+});
+```
+
+Your tests don't need to match this structure exactly — the goal is to verify your functions behave correctly and don't mutate their inputs.
 
 ## Instructor/Peer Code Review
 ---

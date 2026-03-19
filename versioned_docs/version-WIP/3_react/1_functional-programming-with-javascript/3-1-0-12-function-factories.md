@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.0.11 Function Factories"
+title: "📓 3.1.0.12 Function Factories"
 day: weekend
-id: 3-1-0-11-function-factories
+id: 3-1-0-12-function-factories
 hide_table_of_contents: true
 ---
 
