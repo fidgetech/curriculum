@@ -19,4 +19,6 @@ The core issue is that deep inheritance hierarchies create **tight coupling** be
 
 In contrast, **loosely coupled** code is more flexible. Pieces can work independently, making changes safer and code easier to understand. Simple functions are a great example - a function like `calculateTotal(items)` just takes some items and returns a total. It doesn't care about the rest of your app.
 
-This doesn't mean inheritance is bad - it's a useful tool with specific strengths. But it's important to understand its tradeoffs and recognize when other patterns (which we'll explore soon) might be more appropriate. The key is choosing the right approach for your specific situation.
+This doesn't mean inheritance is bad — it's a useful tool with specific strengths. But it's important to understand its tradeoffs and recognize when other approaches might be more appropriate.
+
+In the next lesson, we'll look at **composition** — a functional alternative that builds objects from small, reusable pieces rather than rigid hierarchies.

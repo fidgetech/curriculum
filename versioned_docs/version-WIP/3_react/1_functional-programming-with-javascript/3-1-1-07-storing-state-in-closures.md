@@ -5,9 +5,9 @@ id: 3-1-1-7-storing-state-in-closures
 hide_table_of_contents: true
 ---
 
-Now that we've had some practices working with closures, it's time to explore another cool thing we can do with closures. We can use them to store basic info about state.
+In the last lesson, we saw that functional programming tries to manage state without directly mutating it. Closures give us one way to do that — they can hold onto a value between calls without exposing it to the rest of the program.
 
-Let's take a look at how we can use a closure to store basic state. We'll create a function that increments a counter by 1 to demonstrate how this works:
+Let's see how. We'll create a function that increments a counter to demonstrate:
 
 ```js
 const counterFunction = () => {
@@ -21,7 +21,7 @@ const counterFunction = () => {
 
 In the example above, the outer function `counterFunction()` stores a variable `counter` which is set to `0`. Note that we use `let` here because we will be modifying the value of the counter.
 
-Our `counterFunction()` function returns an anonymous function that increments the value of `counter` and then returns its value. (We won't worry about the fact that we aren't mutating this in a functional way since this is merely for demonstration purposes.) The inner function has access to the `counter` variable due to **lexical scope**. Lexical scope means that an inner function has access to the variables of any outer functions that surround it.
+Our `counterFunction()` returns an anonymous function that increments `counter` and returns its value. Note that `counter++` is a mutation — not strictly pure functional style. We're allowing it here because the mutation is hidden inside the closure and never exposed to the outside world. The inner function has access to `counter` due to **lexical scope**: an inner function can always access variables declared in the outer functions that surround it.
 
 Now we can do the following:
 
