@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.0.9 First Class Citizens"
+title: "📓 3.1.0.8 First Class Citizens"
 day: weekend
-id: 3-1-0-9-first-class-citizens
+id: 3-1-0-8-first-class-citizens
 hide_table_of_contents: true
 ---
 

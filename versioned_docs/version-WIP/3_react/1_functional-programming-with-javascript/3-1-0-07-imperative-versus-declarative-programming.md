@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.0.8 Imperative Versus Declarative Programming"
+title: "📓 3.1.0.7 Imperative Versus Declarative Programming"
 day: weekend
-id: 3-1-0-8-imperative-versus-declarative-programming
+id: 3-1-0-7-imperative-versus-declarative-programming
 hide_table_of_contents: true
 ---
 

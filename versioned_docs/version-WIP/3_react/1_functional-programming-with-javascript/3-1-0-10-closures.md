@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.0.11 Closures"
+title: "📓 3.1.0.10 Closures"
 day: weekend
-id: 3-1-0-11-closures
+id: 3-1-0-10-closures
 hide_table_of_contents: true
 ---
 

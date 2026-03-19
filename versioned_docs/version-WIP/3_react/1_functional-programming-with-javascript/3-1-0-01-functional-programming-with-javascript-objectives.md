@@ -39,7 +39,7 @@ Professional developers use both paradigms. The goal isn't to abandon OOP—it's
 
 ## Testing
 
-You're expected to write tests for all your functions throughout this section. See [A Note on Testing](3-1-0-7-a-note-on-testing) for details on what to expect and setup references if you need them.
+You're expected to write tests for all your functions throughout this section. See [A Note on Testing](3-1-0-13-a-note-on-testing) for details on what to expect and setup references if you need them.
 
 ## Independent Project Objectives
 ---
