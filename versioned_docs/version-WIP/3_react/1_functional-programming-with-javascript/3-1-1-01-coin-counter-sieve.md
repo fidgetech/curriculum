@@ -5,7 +5,7 @@ id: 3-1-1-1-coin-counter-sieve
 hide_table_of_contents: true
 ---
 
-**Goal:** Get comfortable with the basics of functional programming. Practice writing pure functions, closures, curried functions, and recursive functions.
+**Goal:** Get comfortable with the basics of functional programming. Practice writing pure functions, closures, function factories, and recursive functions.
 
 ## Warm Up
 ---
@@ -20,15 +20,41 @@ hide_table_of_contents: true
 
 ### Coin Counter
 
-Create a coin counter application that takes X amount of money (such as $4.99) and determines the exact amount of change needed in quarters, dimes, nickels and pennies. Do not worry about adding a user interface to the application. Instead, focus on writing good tests and functional code.
-
 #### Part 1
 
-Create a coin counter function that uses recursion to solve the problem.
+Write a pure function `coinCounter` that takes a number of cents and returns an object with the coin breakdown (quarters, dimes, nickels, pennies). Here are some tests to get you started. You don't need to use these exact tests, but be sure to write tests for all parts:
+
+```js
+describe('coinCounter', () => {
+  test('returns correct number of quarters', () => {
+    expect(coinCounter(100).quarters).toBe(4);
+  });
+
+  test('returns correct change for $4.99', () => {
+    const result = coinCounter(499);
+    expect(result.quarters).toBe(19);
+    expect(result.pennies).toBe(4);
+  });
+
+  test('returns an object with all four coin types', () => {
+    const result = coinCounter(99);
+    expect(result).toHaveProperty('quarters');
+    expect(result).toHaveProperty('dimes');
+    expect(result).toHaveProperty('nickels');
+    expect(result).toHaveProperty('pennies');
+  });
+});
+```
 
 #### Part 2
 
-Create a coin counter function that uses a closure that can be used with functions for each type of change (quarters, nickels, dimes and pennies). You can use recursion if you like.
+Rewrite your coin counter function so that it uses recursion.
+
+#### Part 3
+
+Create a coin counter using a closure, with separate functions for each coin type (quarters, dimes, nickels, pennies). You can use recursion if you like.
+
+---
 
 ### Roman Numerals
 
@@ -52,6 +78,8 @@ The most basic rule is that you add the value of all the symbols: so II is 2, LX
 The exception is that there may not be more than three of the same characters in a row. Instead, you switch to subtraction. So instead of writing IIII for 4, you write IV (for 5 minus 1); and instead of writing LXXXX for 90, you write XC.
 
 You also have to separate ones, tens, hundreds, and thousands. In other words, 99 is XCIX, not IC.  You cannot count higher than 3,999 in Roman numerals.
+
+---
 
 ### Prime Sifting
 

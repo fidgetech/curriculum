@@ -37,6 +37,10 @@ Some of these concepts can feel abstract at first. That's normal. You don't need
 
 Professional developers use both paradigms. The goal isn't to abandon OOP—it's to add functional techniques to your toolkit and know when each approach fits best.
 
+## Testing
+
+You're expected to write tests for all your functions throughout this section. See [A Note on Testing](3-1-0-13-a-note-on-testing) for details on what to expect and setup references if you need them.
+
 ## Independent Project Objectives
 ---
 

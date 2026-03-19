@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.0.12 Map, Reduce and Filter"
+title: "📓 3.1.0.9 Map, Reduce and Filter"
 day: weekend
-id: 3-1-0-12-map-reduce-and-filter
+id: 3-1-0-9-map-reduce-and-filter
 hide_table_of_contents: true
 ---
 
@@ -208,3 +208,5 @@ We simply need to specify which employee has a `role` equal to `"developer"`, wh
 In this lesson, we explored how we can use three common JavaScript array methods in functional programming. Remember that looping is imperative while the three methods detailed above are declarative. Just as importantly, none of these three methods mutate state. They all return new results, which makes them excellent for immutability.
 
 Try finding use cases in your own applications to apply these three methods. You will also get a chance to whiteboard with these methods in this course section.
+
+In the next lesson, we'll look at **closures** — the mechanism that makes passing and returning functions as powerful as it is.

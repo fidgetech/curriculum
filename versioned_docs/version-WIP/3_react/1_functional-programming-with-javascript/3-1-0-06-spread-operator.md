@@ -1,6 +1,6 @@
 ---
 title: "📓 3.1.0.6 Spread Operator"
-day: monday
+day: weekend
 id: 3-1-0-6-spread-operator
 hide_table_of_contents: true
 ---

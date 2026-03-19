@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.1.9 Building a Functional Application (Part 1)"
+title: "📓 3.1.1.8 Building a Functional Application (Part 1)"
 day: monday
-id: 3-1-1-9-building-a-functional-application-part-1
+id: 3-1-1-8-building-a-functional-application-part-1
 hide_table_of_contents: true
 ---
 
@@ -43,27 +43,24 @@ To create and hydrate a plant, we'd do the following:
 Plant {water: 1, soil: 0, light: 0}
 ```
 
-The program above is simple and easy to read. However, from a functional perspective, there are several problems with this approach. Let's discuss these issues. As we do, keep in mind that both functional programming and object-oriented programming have many advantages. We are not advocating for one approach over the other — the most important thing is to use the right tool for the job. Many developers incorporate aspects of both object-oriented and functional programming.
+The program above is simple and easy to read. However, from a functional perspective, there are several specific problems with this approach. Let's look at each one:
 
-### Refactoring to a Functional Approach
+### Problems With Our Object-Oriented Approach
 
-The object-oriented approach above works perfectly fine and is actually simpler to understand in this case. However, let's explore how we'd solve this same problem using functional programming principles. This exercise will help us practice important FP concepts that become valuable in certain contexts:
+**All methods must be called on instances of the `Plant` class.** Our `hydrate()`, `feed()`, and `giveLight()` methods are nicely encapsulated, but they aren't reusable. If we wanted instances of other classes to have the same functionality, we'd need inheritance — or repeated code. In functional programming, we favor composition instead: standalone functions that can work with any data.
 
-**In functional programming, we aim for immutability.** Rather than mutating an object's properties, we create and return new objects with updated values. This can be helpful in larger applications because:
-- It makes state changes more predictable and easier to track
-- It enables features like "undo" functionality (since you keep old state around)
-- It works well with frameworks like React that optimize based on object identity changes
+**Our methods have side effects.** Pure functions can't have side effects. Our methods definitely do — they are changing the state of the plant object they're called on.
 
-**In functional programming, we favor composition over class hierarchies.** Instead of methods bound to classes, we create reusable functions that can work with different types of data.
+**Our methods mutate state.** Not only do they have side effects — they directly mutate state by modifying `this.water`, `this.soil`, and `this.light` in place.
 
-**In functional programming, we prefer pure functions.** Functions that always return values and don't modify their inputs tend to be easier to test and reason about.
+**Our functions don't return anything.** Pure functions need to return a value. Our methods return nothing — they just change things as a side effect.
 
-Let's practice these concepts by refactoring our plant application. Keep in mind that for an application this simple, the OOP approach is probably more practical - but learning these patterns will be valuable as we build more complex applications.
+As we do keep in mind that both functional programming and object-oriented programming have many advantages. We are not advocating for one approach over the other — the most important thing is to use the right tool for the job. For a small app like this, the OOP approach is arguably simpler. But understanding the FP approach will be valuable as we build more complex applications, and especially when we get to React.
 
 ## A Functional Approach
 ---
 
-Let's start by creating a reusable function that we can use to `hydrate()`, `feed()` and `giveLight()` to a plant. Specifically, we will create a pure function that isn't in a class. This will solve the problems with the methods above all at once. Because it will be pure, it will have:
+Let's start by creating a reusable function that we can use to `hydrate()`, `feed()` and `giveLight()` to a plant. Specifically, we will create a pure function that isn't in a class. This will address all of the problems listed above at once. Because it will be pure, it will have:
 
 * No side effects;
 * No state mutation;

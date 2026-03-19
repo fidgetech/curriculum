@@ -1,13 +1,13 @@
 ---
-title: "📓 3.1.1.6 Composition"
+title: "📓 3.1.1.5 Composition"
 day: monday
-id: 3-1-1-6-composition
+id: 3-1-1-5-composition
 hide_table_of_contents: true
 ---
 
-Functional programming favors **composition**, not inheritance. In fact, composition is an extremely important computer science concept and it is commonly applied in object-oriented programming as well.
+In the last lesson, we looked at the tradeoffs of classical inheritance — specifically how deep hierarchies can create tight coupling and inflexibility. Functional programming addresses this with **composition**.
 
-With composition, we **compose** the functionality of more complex objects. Instead of focusing on what an object _is_, we focus on what an object can _do_.
+With composition, we **compose** the functionality of complex objects from smaller, reusable pieces. Instead of focusing on what an object _is_, we focus on what an object can _do_. In fact, composition is an important concept across both functional and object-oriented programming.
 
 To take a functional approach, we'll bypass classes altogether. We'll create a modular `eat()` function which we can include in objects that need it. There is no need to store that `eat()` function in a class. As a result, the method will be loosely coupled, more flexible and easier to reuse.
 
@@ -162,31 +162,7 @@ Now we can create any kind of sleeping and eating creature. Our application has 
 
 A platypus can eat and sleep just like other mammals. However, if we need to add a modular method so a platypus can lay eggs, that would be easy to do. We could also reuse that method for birds and any other creatures that lay eggs. We can't do that with classical inheritance!
 
-One further thing: we can refactor our code to use arrow notation. We've mostly omitted arrow notation up to this point because it can make the code appear more abstract. Here's how our new functions look with arrow notation:
-
-```js
-const canEat = (creature) => ({
-  eat: (food) => {
-    return `The ${creature.name} eats the ${food}.`
-  }
-});
-
-const canSleep = (creature) => ({
-  sleep: () => {
-    return `The ${creature.name} sleeps.`
-  }
-});
-
-const sleepingEatingCreature = (name) => {
-  const creature = {
-    name
-  };
-
-  return { ...creature, ...canEat(creature), ...canSleep(creature) };
-};
-```
-
-Note that when we use arrow notation with a function that returns a single object, we don't need to add a return statement. Instead, we can take advantage of the **implicit return**, which is when we can omit a return statement in a function. This cleans up our code further but it does make it a bit more abstract and unfamiliar. While it's important to be able to use and read arrow notation, for now it's fine to use the syntax that feels most comfortable.
+One further thing: we can refactor our code to use arrow notation. We've mostly omitted arrow notation up to this point because it can make the code appear more abstract. Here's the more compact version using implicit returns:
 
 ```js
 const canEat = (creature) => ({
@@ -203,4 +179,8 @@ const sleepingEatingCreature = (name) => {
 };
 ```
 
-In this lesson, we learned how to use composition to make fully functioning objects out of smaller functions. These smaller functions determine what an object can _do_, not what an object _is_. With a handful of functions, we could create creatures from the far reaches of the animal kingdom, from glow worms to platypuses to whales. We could also pick and use which functions are necessary for each object, whether that's `swim()`, `layEggs()`, `fly()`, or something else.
+When an arrow function returns a single value, we can omit the `return` keyword — this is called an **implicit return**. Wrapping an object in parentheses `({...})` tells JavaScript we're returning an object, not opening a function body. This style is common in real codebases so it's worth recognizing, even if you prefer the more explicit style for now.
+
+In this lesson, we learned how to use composition to make fully functioning objects out of smaller functions. These smaller functions determine what an object can _do_, not what an object _is_. With a handful of functions, we could create creatures from the far reaches of the animal kingdom — and we can pick exactly which behaviors each one needs, whether that's `swim()`, `layEggs()`, `fly()`, or something else.
+
+You'll notice we used the word **state** to describe the creature's current properties. In the next lesson, we'll explore what state means in functional programming and why managing it carefully matters.

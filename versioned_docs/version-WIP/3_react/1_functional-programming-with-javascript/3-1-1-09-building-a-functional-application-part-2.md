@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.1.10 Building a Functional Application (Part 2)"
+title: "📓 3.1.1.9 Building a Functional Application (Part 2)"
 day: monday
-id: 3-1-1-10-building-a-functional-application-part-2
+id: 3-1-1-9-building-a-functional-application-part-2
 hide_table_of_contents: true
 ---
 
@@ -71,7 +71,7 @@ Here's what just happened:
 })
 ```
 
-Remember that `5` replaces the `value` variable and `"soil"` replaces the `prop` variable because `blueFood` increments `soil` by 5. If this isn't clear, you may want to review how we used a curried function in the last lesson to create `blueFood` in the first place.
+Remember that `5` replaces the `value` variable and `"soil"` replaces the `prop` variable because `blueFood` increments `soil` by 5. If this isn't clear, you may want to review how we used the function factory pattern in the last lesson to create `blueFood` in the first place.
 
 4. `currentState` is passed into the `state` parameter. Because `currentState` doesn't have a `soil` property yet, it defaults to `0` before `5` is added. This is because we are using the `||` operator to ensure the default value of the `soil` property is 0 if it hasn't been defined.
 

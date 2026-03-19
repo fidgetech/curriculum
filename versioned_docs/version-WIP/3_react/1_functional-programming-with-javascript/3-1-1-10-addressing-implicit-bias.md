@@ -1,7 +1,7 @@
 ---
-title: "📓 3.1.1.11 Addressing Implicit Bias"
+title: "📓 3.1.1.10 Addressing Implicit Bias"
 day: monday
-id: 3-1-1-11-addressing-implicit-bias
+id: 3-1-1-10-addressing-implicit-bias
 hide_table_of_contents: true
 pagination_next: null
 ---

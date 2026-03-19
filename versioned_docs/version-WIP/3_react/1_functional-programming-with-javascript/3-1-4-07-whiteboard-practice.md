@@ -12,14 +12,14 @@ When and how whiteboarding practice is implemented will be up to your teacher. B
 
 ### Goal
 
-For this section's whiteboarding lesson, we’ll continue to practice with arrays, looping, and using C#'s basic operators (`+`, `-`, `*`, `/`, `%`)
+For this section’s whiteboarding lesson, we’ll practice writing JavaScript functions using functional programming concepts covered in this section.
 
 As the interviewee:
 
 * Ask clarifying questions.
 * Keep talking.
 * Explain your plan at the beginning; recap what you’ve done at the end.
-* Make eye contact.
+* Engage with your interviewer.
 * Plan your space.
 
 As the interviewer:

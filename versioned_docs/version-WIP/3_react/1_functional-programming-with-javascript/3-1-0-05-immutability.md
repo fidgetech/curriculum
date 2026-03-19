@@ -1,6 +1,7 @@
 ---
-title: "📓 3.1.0.4 Immutability"
-id: 3-1-0-4-immutability
+title: "📓 3.1.0.5 Immutability"
+day: weekend
+id: 3-1-0-5-immutability
 hide_table_of_contents: true
 ---
 
