@@ -20,43 +20,9 @@ hide_table_of_contents: true
 
 ### Coin Counter
 
-#### Part 1: Refactor to Functional
+#### Part 1
 
-Before writing anything new, refactor the starter code below into a pure function.
-
-- Your function should take a number of cents and return a new object with the coin breakdown.
-- It should not use a class, store any state on `this`, or modify anything outside of itself.
-- Same input should always produce the same output.
-
-```js
-class CoinCounter {
-  constructor() {
-    this.total = 0;
-    this.quarters = 0;
-    this.dimes = 0;
-    this.nickels = 0;
-    this.pennies = 0;
-  }
-
-  count(cents) {
-    this.total = cents;
-    this.quarters = Math.floor(cents / 25);
-    cents = cents % 25;
-    this.dimes = Math.floor(cents / 10);
-    cents = cents % 10;
-    this.nickels = Math.floor(cents / 5);
-    this.pennies = cents % 5;
-  }
-}
-
-const counter = new CoinCounter();
-counter.count(99);
-console.log(counter.quarters); // 3
-```
-
-#### Testing
-
-Here are some sample Jest tests to get you started:
+Write a pure function `coinCounter` that takes a number of cents and returns an object with the coin breakdown (quarters, dimes, nickels, pennies). Here are some tests to get you started. You don't need to use these exact tests, but be sure to write tests for all parts:
 
 ```js
 describe('coinCounter', () => {
@@ -80,13 +46,9 @@ describe('coinCounter', () => {
 });
 ```
 
-Your tests don't need to match this structure exactly — the goal is to verify your functions behave correctly and return the expected output.
-
-Be sure to write tests for Parts 2 and 3 as well.
-
 #### Part 2
 
-Rewrite your coin counter function so that it uses recursion to solve the problem instead of the step-by-step math approach above.
+Rewrite your coin counter function so that it uses recursion.
 
 #### Part 3
 
