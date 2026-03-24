@@ -74,6 +74,11 @@ const config = {
               label: 'v1.3',
               banner: 'none',
             },
+            v1_4: {
+              path: 'v1.4',
+              label: 'v1.4',
+              banner: 'none',
+            },
             'WIP': {
               path: 'WIP',
               label: 'WIP',
@@ -128,6 +133,10 @@ const config = {
               {
                 label: 'Version 1.3',
                 to: '/v1.3',
+              },
+              {
+                label: 'Version 1.4',
+                to: '/v1.4',
               },
             ],
           },
