@@ -5,7 +5,7 @@ id: 1-0-0-18-interacting-with-the-command-line
 hide_table_of_contents: true
 ---
 
-In the last lesson, we learned how to access the command line. In this lesson, we'll explore some of the most common commands we can use with Bash. We'll use many of these daily at Epicodus and also out in the industry.
+In the last lesson, we learned how to access the command line. In this lesson, we'll explore some of the most common commands we can use with Bash. We'll use many of these daily at Fidgetech and also out in the industry.
 
 ## [Basics of the Command Line](#basics-of-the-command-line)
 
@@ -38,7 +38,7 @@ We can verify that we are on the desktop with the `$ pwd` command, which prints 
 
 We can use the command line to look around our computer just like we would with the Mac Finder or Windows Explore programs. The only difference is that we are using a text-based interface instead of a graphical user interface (GUI).
 
-Type in `$ pwd` to check your current directory. On Epicodus computers,  we'll see the following (as long as we followed the above directions to navigate to the desktop). `pwd` returns a file **path** like this:
+Type in `$ pwd` to check your current directory. `pwd` returns a file **path** similar to this:
 
 ```
 /Users/Guest/Desktop
@@ -91,7 +91,7 @@ At this point, we should have at least two directories on our desktop. On your p
 The `$ ls` command stands for _list_.  Executing this command prompts the terminal to list out the directories ("directories" is just a technical term for folders) and files in our current location. Let's run the command now. There should be somewhere between two and too many directories, depending on the state of your personal machine. Let's imagine, though, that we have an absolutely pristine desktop (because we are so organized and ready to start coding). Running this command will look something like this:
 
 ```bash
-epicodus-5:~ Guest$ ls
+fidgetech-5:~ Guest$ ls
 coding-practice			my-first-website
 ```
 
@@ -137,7 +137,7 @@ $ cd ~/Desktop/coding-practice
 
 While Windows users don't have the `~` shortcut, the same general idea applies. As long as we input the correct path, we can use a single `$ cd` command to move through any number of directories.
 
-`$ cd` is one of the most useful commands that you'll learn — and we will be using it all the time at Epicodus.
+`$ cd` is one of the most useful commands that you'll learn — and we will be using it all the time at Fidgetech.
 
 #### `$ cd ..`
 
@@ -223,7 +223,7 @@ $ cd ../coding-practice
 Now if we run `$ ls` again, we'll see our moved file:
 
 ```bash
-epicodus-5:first-webpage Guest$ ls
+fidgetech-5:first-webpage Guest$ ls
 my-first-webpage.html
 ```
 
@@ -252,7 +252,7 @@ $ cd ..
 Now we can run `$ ls` and confirm that the `coding-practice` is still there. Let's zap this one, too!
 
 ```bash
-epicodus-5:intro-to-programming Guest$ rm -r coding-practice
+fidgetech-5:intro-to-programming Guest$ rm -r coding-practice
 ```
 
 Note that we need to include the `-r` flag. This says that directories should be recursively deleted. If we didn't add the `-r` flag (and just used `$ rm`), we'd get the following error:
@@ -269,6 +269,6 @@ If we run `$ ls` again, we'll see that the `coding-practice` directory is gone.
 
 It should go without saying again, but will be said again anyway: _always_ be careful deleting files and especially directories! They can't be recovered. They go into the great big emptied trash bin in the sky where things can't ever be recovered. Okay, it's not in the sky, nor is it an emptied trash bin, but you get the drift. Those files and directories are gone forever.
 
-In this lesson, we've covered some basic but very powerful commands that we can run in the command line. You will be using many of these commands every day while you are a student at Epicodus — and hopefully in a long, fruitful career after you're done as a student. 
+In this lesson, we've covered some basic but very powerful commands that we can run in the command line. You will be using many of these commands every day while you are a student at Fidgetech — and hopefully in a long, fruitful career after you're done as a student. 
 
 Make sure to check out the cheat sheet tab of this lesson for terminology from this lesson and command line reference of most frequently used commands!

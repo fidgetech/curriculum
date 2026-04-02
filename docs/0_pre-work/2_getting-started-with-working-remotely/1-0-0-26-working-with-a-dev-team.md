@@ -5,9 +5,9 @@ id: 1-0-0-26-working-with-a-dev-team
 hide_table_of_contents: true
 ---
 
-Enterprise companies, especially larger ones, often assign their developers to development teams. These teams work together to build features and fix bugs. At Epicodus, students work with an assigned team every course section (known as a dev team) and pair with someone new from that team every day in class. At the start of every course section, you will be assigned a new dev team.
+Enterprise companies, especially larger ones, often assign their developers to development teams. These teams work together to build features and fix bugs. At Fidgetech, students work with an assigned team every course section (known as a dev team) and pair with someone new from that team every day in class. At the start of every course section, you will be assigned a new dev team.
 
-A dev team consists of 6 – 10 Epicodus students from the same class. Your dev team will meet together at the start and end of the day. While you will work with your dev team during class, you will always be working on your own when you complete your independent projects.
+A dev team consists of 6 – 10 Fidgetech students from the same class. Your dev team will meet together at the start and end of the day. While you will work with your dev team during class, you will always be working on your own when you complete your independent projects.
 
 ## [Start of Class Scrum](#start-of-class-scrum-meeting)
 
@@ -15,7 +15,7 @@ A dev team consists of 6 – 10 Epicodus students from the same class. Your dev 
 
 Daily team meetings are a very common — and important — part of a developer's workflow. At tech companies, a daily team meeting usually consists of a brief group check-in at the beginning of the day. 
 
-At Epicodus, we call our daily team meetings "Scrum". You'll have a **Dev Team Scrum** at the start of class.
+At Fidgetech, we call our daily team meetings "Scrum". You'll have a **Dev Team Scrum** at the start of class.
 
 Please note that on most days you will also have a Scrum with your entire class and intructor(s). At Fidgetech, _Dev team_ Scrum is specifically only with your dev team during team projects.
 

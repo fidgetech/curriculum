@@ -17,7 +17,7 @@ const config = {
   tagline: 'Fidgetech Code',
   favicon: 'img/favicon.ico',
   customFields: {
-    latestVersion: 'v1.2',
+    latestVersion: 'v1.4',
   },
   // Set the production url of your site here
   url: 'https://fidgetechcode.org',
@@ -65,6 +65,11 @@ const config = {
           remarkPlugins: [],
           versions: {
             current: {
+              path: 'v1.4',
+              label: 'v1.4',
+              banner: 'none',
+            },
+            v1_2: {
               path: 'v1.2',
               label: 'v1.2',
               banner: 'none',
@@ -72,11 +77,6 @@ const config = {
             v1_3: {
               path: 'v1.3',
               label: 'v1.3',
-              banner: 'none',
-            },
-            v1_4: {
-              path: 'v1.4',
-              label: 'v1.4',
               banner: 'none',
             },
             'WIP': {

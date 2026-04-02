@@ -15,7 +15,7 @@ In preparation, please follow along with the steps below (and subsequent lessons
 
 1. First, create an account at [https://discordapp.com/register](https://discordapp.com/register). Choose a username in Discord that matches your real name in some way — this way, we'll know who you are. Then enter your email address and a password to claim that username. 
 
-2. You can use Discord in the browser or through its desktop application. We recommend installing the Discord application, because it has more features. Discord will be installed and available on all Epicodus computers, though in-person students likely will find using Discord in the browser more convenient. You can [install Discord here](https://discord.com/download). Simply choose the distribution for your operating system (Mac, Windows, or Linux). If you are using Discord in the browser, bookmark the link to the Discord server.
+2. You can use Discord in the browser or through its desktop application. We recommend installing the Discord application, because it has more features. You can [install Discord here](https://discord.com/download). Simply choose the distribution for your operating system (Mac, Windows, or Linux). If you are using Discord in the browser, bookmark the link to the Discord server.
 
 ## [Configuring Discord](#configuring-discord)
 
@@ -29,7 +29,7 @@ In preparation, please follow along with the steps below (and subsequent lessons
 
 4. Next, test your video. Just like you did for your microphone, go to _User Settings_, then click _Voice & Video_. Scroll down on the page and to the _Video Settings_ section and select the button to "test video". While video isn't strictly required, using video when you work with an instructor improves community building and makes it easier to form friendships. Video is also vital for remote interviews. For those reasons, we recommend having a working video camera before the first day of class.
 
-## [Joining the Fidgetech Discord Server](#joining-the-epicodus-discord-server)
+## [Joining the Fidgetech Discord Server](#joining-the-fidgetech-discord-server)
 
 ---
 

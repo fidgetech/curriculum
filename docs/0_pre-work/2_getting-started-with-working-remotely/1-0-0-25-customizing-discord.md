@@ -7,13 +7,13 @@ hide_table_of_contents: true
 
 This lesson covers optional settings you can change in Discord to customize and improve your workflow and share details about yourself.
 
-**Please keep your custom status, handle, and other public information about yourself professional.** We have seen students share inappropriate content which others find offensive. If it's not something you'd be comfortable sharing in a professional setting, it doesn't belong on Epicodus' Discord server. You may be subject to disciplinary action, including expulsion from the program, if you publicly post offensive or otherwise inappropriate content.
+**Please keep your custom status, handle, and other public information about yourself professional.** We have seen students share inappropriate content which others find offensive. If it's not something you'd be comfortable sharing in a professional setting, it doesn't belong on Fidgetech's Discord server. You may be subject to disciplinary action, including expulsion from the program, if you publicly post offensive or otherwise inappropriate content.
 
 ## [Muting a Server](#muting-a-server)
 
 ---
 
-Right-click on the server icon and you’ll see an option to _Mute Server_. During class hours, you may want to temporarily mute other servers. Another option, if you have a free email address and multiple servers to mute, is to make another Discord account just for Epicodus classes.
+Right-click on the server icon and you’ll see an option to _Mute Server_. During class hours, you may want to temporarily mute other servers. Another option, if you have a free email address and multiple servers to mute, is to make another Discord account just for Fidgetech classes.
 
 ![Right-click the server icon to see option to "Mute Server".](/images/INTRO/prework/discord-mute-server.png)
 
