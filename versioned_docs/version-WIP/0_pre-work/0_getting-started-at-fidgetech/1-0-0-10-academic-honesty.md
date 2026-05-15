@@ -5,19 +5,21 @@ id: 1-0-0-10-academic-honesty
 hide_table_of_contents: true
 ---
 
-Academic honesty at Fidgetech is straightforward: show up to class, participate in activities, and submit your own work on your independent projects. However straightforward our requirements may be, this lesson is meant to go into details about academic honesty at Fidgetech and the consequences of being dishonest.
+We want you to succeed at Fidgetech. Academic honesty is straightforward: show up to class, participate in activities, and submit your own work on independent projects. This lesson explains what that means in practice—and what to do when coursework feels overwhelming.
+
+**If you are struggling right now:** submit your own best work, even if it is incomplete. Failed independent projects can be [resubmitted](./1-0-0-09-independent-projects-and-code-reviews#resubmission). Ask your instructor for help! See [How to Ask for Help](./1-0-0-07-how-to-ask-for-help). Need a different pace or format? See [Accommodations for Remote Learning](../../pre-work/getting-started-with-working-remotely/1-0-0-30-accommodations-for-remote-learning).
 
 ## Attendance
 ---
 
 We require every student to attend class and participate in all activities. When a student meets attendance requirements over the course of the program, we know that student has put in the work and is prepared to go onto internships and be successful in their job search.
 
-To be clear about what constitutes attendance dishonesty, we’ve generated a list of examples: 
+To be clear about what constitutes attendance dishonesty, we've generated a list of examples: 
 
 * Signing in but being absent from class.
 * Leaving class early without signing out.
 
-Students who misrepresent their attendance in any way will be expelled from the program. If you have any concerns about your attendance and meeting requirements, or if you feel like you are behind in your coursework and need extra support, reach out to an Fidgetech staff member to discuss your situation. 
+**Misrepresenting attendance is grounds for expulsion.** If you have any concerns about your attendance and meeting requirements, or if you feel like you are behind in your coursework and need extra support, reach out to an Fidgetech staff member to discuss your situation before problems build up.
  
 ## Independent Projects
 ---
@@ -26,13 +28,9 @@ Independent projects are the primary way your instructors can evaluate your codi
 
 We expect all work on your independent projects to be your own. You cannot copy or look at other students' independent projects. Plagiarism will not help you improve your coding skills and you will be at a disadvantage for finding a job after the program. When interviewing for a job, an employer's primary focus will be to assess and evaluate your skills. Our primary goal is to get you — and your peers — great jobs in the tech field. For that reason, it's necessary to accept the challenges of independent projects so you can improve your skills further and get a job.
 
-If a student copies the work of another student, that student will be expelled.
+**We would much rather receive a broken project that's yours than a perfect, complete project that isn't.** Give the project your best shot during the required work hours. Review the material and see if you can get your code closer to passing objectives. Your instructor will be happy to meet with you and help you understand how to refactor your code. See [Independent Projects and Code Reviews](./1-0-0-09-independent-projects-and-code-reviews#resubmission) for the resubmission process.
 
-## [What Should I Do If I am Struggling?](#what-should-i-do-if-i-am-struggling)
-
----
-
-We would much rather receive a broken project that's yours than a perfect, complete project that isn't. Give the project your best shot during the required work hours. You can also find some time to review the material and see if you can get your code to pass objectives. Your instructor will be happy to meet with you and help you understand how to refactor your code.
+**Copying another student's work or receiving unauthorized help on an independent project is grounds for expulsion**, as described in our [Student Handbook](../../student-handbook#academic-honesty).
 
 ## [General Guidelines](#general-guidelines)
 ---
@@ -71,3 +69,5 @@ Instead of getting help from a classmate on your code review directly, you could
 Please make sure that you meet attendance requirements by attending class and participating in all classroom activities. This means that you may not misrepresent your attendance by signing in when you are not in class, or leaving class early without signing out.
 
 Please also make sure that the work you submit is your own. This means you may not reference the works of past or present students until both you and the other person have passed the code review. This includes **all** aspects of your work including READMEs.
+
+When in doubt, ask an instructor :)

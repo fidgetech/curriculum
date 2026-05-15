@@ -42,7 +42,7 @@ From past courses, **we've seen that teamwork and communication skills are actua
 
 Even though pairing has many advantages, it can be frustrating at times. You'll often be working with someone who is either more or less experienced than you. You'll often feel like you're slowing down your pair or they're slowing you down. You might want to explore how something works while your pair wants to focus on actually finishing the project at hand. You might run into a difficult bug and you'll have different ideas about the right way to try to fix it.
 
-Before you start pair programming, you and your pair should check in with each other. Here are some of the things you should discuss:
+Before you start pair programming, you and your pair should check in with each other. Agree on signals for breaks, camera on/off, and whether you prefer to talk through ideas out loud or in chat—whatever helps you both stay comfortable and focused. Here are some of the things you should discuss:
 
 * Do you take a lot of notes, talk things through before starting, or explore lots of tangents? Finding out about your pair's style and discussing what to do if you have different approaches or priorities can help you avoid conflicts later.
 
