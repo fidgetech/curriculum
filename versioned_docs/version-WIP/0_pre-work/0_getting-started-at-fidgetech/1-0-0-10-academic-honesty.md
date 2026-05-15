@@ -5,6 +5,14 @@ id: 1-0-0-10-academic-honesty
 hide_table_of_contents: true
 ---
 
+## In this lesson
+
+- Attendance expectations and what counts as misrepresentation
+- What counts as your own work on independent projects
+- What you may and may not reference—and how to study with classmates safely
+
+---
+
 We want you to succeed at Fidgetech. Academic honesty is straightforward: show up to class, participate in activities, and submit your own work on independent projects. This lesson explains what that means in practice—and what to do when coursework feels overwhelming.
 
 **If you are struggling right now:** submit your own best work, even if it is incomplete. Failed independent projects can be [resubmitted](./1-0-0-09-independent-projects-and-code-reviews#resubmission). Ask your instructor for help! See [How to Ask for Help](./1-0-0-07-how-to-ask-for-help). Need a different pace or format? See [Accommodations for Remote Learning](../../pre-work/getting-started-with-working-remotely/1-0-0-30-accommodations-for-remote-learning).
