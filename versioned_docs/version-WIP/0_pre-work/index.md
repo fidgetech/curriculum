@@ -7,6 +7,8 @@ slug: /pre-work
 
 Welcome to the Pre-Work section of Fidgetech's Coding Programs!
 
+Fidgetech serves adults experiencing autism and the neurodivergent community. **Accommodations for learning, communication, sensory needs, and pacing are a normal part of the program**—not something you have to earn or justify on your own. See [Accommodations for Remote Learning](./2_getting-started-with-working-remotely/1-0-0-30-accommodations-for-remote-learning) for examples and how to request them.
+
 This series of lessons is intended as an introduction to Fidgetech, as well as onboarding students for upcoming classes beginning in Intro to Programming. If you are a prospective student of Fidgetech, or are starting in a new cohort as a student, you should work through these lessons first!
 
 Here's a list of the concepts covered in the following sections:
@@ -27,7 +29,7 @@ Here's a list of the concepts covered in the following sections:
 * Installing pertinent software for the remote classroom, and curriculum-specific tools
 * How to Pair Program remotely and remote etiquette
 * Troubleshooting
-* Accommodations
+* [Accommodations for remote learning](./2_getting-started-with-working-remotely/1-0-0-30-accommodations-for-remote-learning) (including learning needs, breaks, and pairing)
 
 **Getting Started with Intro to Programming**
 

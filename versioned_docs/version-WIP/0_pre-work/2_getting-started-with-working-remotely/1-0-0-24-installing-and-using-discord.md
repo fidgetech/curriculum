@@ -49,6 +49,8 @@ In general, you'll have _voice_ channels for:
 
 * Team Projects: to work together throughout the day pair programming and sharing their screens
 
+Voice channels are the default for many class activities, but **text-based participation is available** if voice or video is difficult for you. See [Accommodations for Remote Learning](./1-0-0-30-accommodations-for-remote-learning) and talk with your instructor so Scrum and team time work for you.
+
 ### [Text Channels](#text-channels)
 
 The _text_ channels available will include:
