@@ -5,6 +5,14 @@ id: 1-0-0-09-independent-projects-and-code-reviews
 hide_table_of_contents: true
 ---
 
+## In this lesson
+
+- What independent projects (code reviews) are and why they matter
+- Expectations, the 8-hour work requirement, and how to submit
+- What happens if you need to resubmit—and where to get help
+
+---
+
 ## [Overview](#overview)
 ---
 

@@ -5,7 +5,26 @@ id: 1-0-0-04-community-agreements
 hide_table_of_contents: true
 ---
 
+## In this lesson
+
+- Fidgetech's community agreements for DEI discussions and class interactions
+- How to call in or call out respectfully when something harmful is said
+- How to suggest additions to these agreements
+
+**Time:** ~20 minutes
+
+---
+
 Your participation in Fidgetech's DEI mission starts with making our classroom a welcoming and inclusive place for everyone. We ask that you respect these community agreements in all interactions at Fidgetech.
+
+### At a glance
+
+Before you read all ten agreements, here is the spirit of what we are asking:
+
+- **Listen** and share space so more voices can be heard.
+- **Challenge ideas, not people**. Disagree with care.
+- **Keep confidence**. Do not share others' personal stories outside the room.
+- **Ask for help** when you are unsure, we are all still learning.
 
 ## Community Agreements
 

@@ -5,6 +5,17 @@ id: 1-0-0-18-interacting-with-the-command-line
 hide_table_of_contents: true
 ---
 
+## In this lesson
+
+- Common Bash commands: navigate folders, create and delete files, and more
+- How to read terminal output and use flags like `-r` and `-f` safely
+
+**You'll need:** Terminal or Git Bash open, as set up in the previous lesson
+
+**Reminder:** Do not type the `$` at the start of example commands—that symbol stands for the prompt, not something you enter.
+
+---
+
 In the last lesson, we learned how to access the command line. In this lesson, we'll explore some of the most common commands we can use with Bash. We'll use many of these daily at Fidgetech and also out in the industry.
 
 ## [Basics of the Command Line](#basics-of-the-command-line)
