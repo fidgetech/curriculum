@@ -16,7 +16,7 @@ Here's a list of the concepts covered in the following sections:
 * The Growth Mindset
 * Pair Programming: How Fidgetech uses it, and what to expect around pairing in general
 * How to ask for help from teachers, advisors, and other staff
-* What independent projects at Fidgetech, and how they are scheduled and graded
+* Independent projects at Fidgetech and how they are scheduled and graded
 * An overview of Fidgetech's policies and expectations of students
 * An overview of class schedules and career service schedules
 * The Student Handbook, Community Agreements, and the importance of Diversity, Equity, and Inclusion
@@ -25,7 +25,7 @@ Here's a list of the concepts covered in the following sections:
 
 * Remote collaboration tools and remote learning
 * Installing pertinent software for the remote classroom, and curriculum-specific tools
-* How to Pair Programing remotely and remote etiquette
+* How to Pair Program remotely and remote etiquette
 * Troubleshooting
 * Accommodations
 

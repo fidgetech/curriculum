@@ -17,7 +17,7 @@ Daily team meetings are a very common — and important — part of a developer'
 
 At Fidgetech, we call our daily team meetings "Scrum". You'll have a **Dev Team Scrum** at the start of class.
 
-Please note that on most days you will also have a Scrum with your entire class and intructor(s). At Fidgetech, _Dev team_ Scrum is specifically only with your dev team during team projects.
+Please note that on most days you will also have a Scrum with your entire class and instructor(s).
 
 Remember: everyone should take a moment to answer the following questions during the Dev Team Scrum check-in.
 

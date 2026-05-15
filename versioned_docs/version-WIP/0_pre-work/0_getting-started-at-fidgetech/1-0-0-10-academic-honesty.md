@@ -28,7 +28,7 @@ We expect all work on your independent projects to be your own. You cannot copy 
 
 If a student copies the work of another student, that student will be expelled.
 
-## [What Should I Do If I am Strugging?](#what-should-i-do-if-i-am-struggling)
+## [What Should I Do If I am Struggling?](#what-should-i-do-if-i-am-struggling)
 
 ---
 
