@@ -55,4 +55,4 @@ The _text_ channels available will include:
 
 * A general channel for sharing info with the whole class and having general discussions with your cohort
 
-* A halp and classroom channel where you can get help from instructors and classmates
+* A help and classroom channel where you can get help from instructors and classmates

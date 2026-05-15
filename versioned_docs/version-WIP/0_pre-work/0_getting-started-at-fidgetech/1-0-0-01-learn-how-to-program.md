@@ -6,7 +6,7 @@ hide_table_of_contents: true
 pagination_prev: null
 ---
 
-Hi! Welcome to Fidgetech's Coding Program. Throughtout the course of each coding module, you'll experience a step-by-step guide that will take you from zero experience to web programmer in a short time. This program contains both lessons and practice exercises. This content is the curriculum for [Fidgetech](https://fidgetech.org/), a school for virtual training in technology and design with practical AI skills to prepare students for meaningful employment.
+Hi! Welcome to Fidgetech's Coding Program. Throughout the course of each coding module, you'll experience a step-by-step guide that will take you from zero experience to web programmer in a short time. This program contains both lessons and practice exercises. This content is the curriculum for [Fidgetech](https://fidgetech.org/), a school for virtual training in technology and design with practical AI skills to prepare students for meaningful employment.
 
 ## [Our Philosophy](#our-philosophy)
 
@@ -26,11 +26,11 @@ Now let's explore how this site works.
 
 Our "Introduction To Programming" course is designed to take you from zero experience to being able to create the content of basic web pages, style those pages so that they look nice, and add basic interactivity. This course also covers how to use the common tools of the programming trade including the command line and source control.
 
-Once you've completed the first Unit, you will be ready to dive into a programming language. Currently, we offer one track at Fidgetech: C#/.NET. You will first take two classes on JavaScript, including Introduction to Programming and Intermediate JavaScript.JavaScript is the only programming language that web browsers understand. HTML and CSS are markup and styling languages, respectively, not programming languages — so even though browsers understand them, they are a little different.
+Once you've completed the first Unit, you will be ready to dive into a programming language. Currently, we offer one track at Fidgetech: Web Development. You will first take two classes on JavaScript, including Introduction to Programming and Intermediate JavaScript. JavaScript is the only programming language that web browsers understand. HTML and CSS are markup and styling languages, respectively, not programming languages — so even though browsers understand them, they are a little different.
 
 If we want to work with ye olde interwebs (the internet), and we most certainly do if we are interested in web development, then we need to know at least some JavaScript. If you're more interested in front-end work, JavaScript will let you build out interactivity in your web pages. If you're more interested in back-end work (such as working with databases), JavaScript will let you wire up user interfaces to work with servers and databases. JavaScript can even be used for back-end code, too. 
 
-After JavaScript, we will be doing a course on C#/.NET then back to JavaScript for React. Don't get too hung up on what's the "right" language and framework for you, though. Odds are, at your first job, you'll need to learn an entirely new set of skills and practices, and maybe even a new programming language. That's part of why we require all students to study at least two languages — with two under your belt, it's not too difficult to pick up a third.
+After JavaScript, we will be doing a course on React. Don't get too hung up on what's the "right" language and framework for you, though. Odds are, at your first job, you'll need to learn an entirely new set of skills and practices, and maybe even a new programming language. That's part of why we require all students to study at least two languages — with two under your belt, it's not too difficult to pick up a third.
 
 No matter what languages and framework you learn, our best advice is not to think of Fidgetech as a place to learn a specific language. Instead, think of Fidgetech as a place to _learn how to learn_.
 

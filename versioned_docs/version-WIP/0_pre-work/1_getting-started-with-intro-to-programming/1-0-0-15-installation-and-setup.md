@@ -5,7 +5,7 @@ id: 1-0-0-15-installation-and-setup
 hide_table_of_contents: true
 ---
 
-Take time to ensure all necessary tools are correctly installed on your personal machine. For Intro to Programming, this includes configuring the command line, installing and setting up Git, and installing VS Code text editor and its extensions. We cover setup and installation instructions in the upcoming lessons in this pre-work section. All you need to do is click the "Next" button to work through each lessons. We'll also list these lessons below as an overview. 
+Take time to ensure all necessary tools are correctly installed on your personal machine. For Intro to Programming, this includes configuring the command line, installing and setting up Git, and installing VS Code text editor and its extensions. We cover setup and installation instructions in the upcoming lessons in this pre-work section. All you need to do is click the "Next" button to work through each lesson. We'll also list these lessons below as an overview. 
 
 This is where you can find the setup and installation instructions for each piece of software:
 
@@ -18,7 +18,7 @@ This is where you can find the setup and installation instructions for each piec
 
 ---
 
-We recommend installing Google Chrome if you use another browser on your personal machine. Chrome recognizes most of the latest JavaScript features and we use Chrome on Epicodus machines. We also use Chrome Developer Tools as well as other Chrome features throughout the program. **You can download Chrome [here](https://www.google.com/chrome/).**
+We recommend installing Google Chrome if you use another browser on your personal machine. Chrome recognizes most of the latest JavaScript features and we use Chrome in the Fidgetech classroom. We also use Chrome Developer Tools as well as other Chrome features throughout the program. **You can download Chrome [here](https://www.google.com/chrome/).**
 
 ## [Having Setup or Installation Issues?](#having-setup-or-installation-issues)
 

@@ -9,7 +9,7 @@ We will often run into issues in our code - one of the most important parts of b
 
 Sometimes, we will also run into issues with remote pairing. Just as with debugging code, we need to troubleshoot these issues. This lesson covers common issues that may come up with Discord, VS Code Live Share, and other remote learning solutions we use, as well as steps to address these issues. You may want to bookmark this page so you can use it as a reference if you run into technical issues working remotely.
 
-If there is a technical issue you can't solve, please reach out to your instructor. And if you find a solution to a remote technical issue that's not covered here, please share this solution with your instructor or email curriculum@epicodus.com with the instructions. Your solution may be added to this document and provide assistance to future students.
+If there is a technical issue you can't solve, please reach out to your instructor. And if you find a solution to a remote technical issue that's not covered here, please share that solution with your instructor. Your solution may be added to this document and provide assistance to future students.
 
 ## [General Connectivity](#general-connectivity)
 

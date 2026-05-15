@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 Students will brainstorm, plan, and complete a final capstone project, in a minimum of 40 hours of dedicated class time during the React unit, which is the final course of the program. The capstone project coincides with the React course. The goal of the capstone is to create a portfolio-ready project which you'll be able to add to your resume, share with potential employers, and show off to friends and family!
 
-**Note:** Fidgetech students, you will not be on the same timeline as Epicodus students. Check with your instructor about capstone timing and expectations.
+**Note:** Check with your instructor about capstone timing and expectations.
 
 ## [Independent Capstone Schedule](#independent-capstone-schedule)
 
