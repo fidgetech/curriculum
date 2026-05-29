@@ -10,7 +10,7 @@ hide_table_of_contents: true
 A type annotation is how you tell TypeScript what type a value should be. The syntax is a colon followed by the type name, placed after the variable name:
 
 ```ts
-const name: string = "Alice";
+const firstName: string = "Alice";
 const age: number = 30;
 const isActive: boolean = true;
 ```

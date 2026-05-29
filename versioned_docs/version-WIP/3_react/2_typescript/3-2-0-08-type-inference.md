@@ -10,7 +10,7 @@ hide_table_of_contents: true
 You don't have to annotate every variable you write. TypeScript watches how you initialize values and infers the type from context. This is called **type inference**.
 
 ```ts
-const name = "Alice"; // TypeScript infers: string
+const firstName = "Alice"; // TypeScript infers: string
 const count = 0;      // TypeScript infers: number
 const active = true;  // TypeScript infers: boolean
 ```

@@ -37,7 +37,7 @@ Both objects satisfy the `UserProfile` type. The optional properties can be pres
 
 ## What Optional Actually Means
 
-When a property is optional, its type is automatically `T | undefined` - TypeScript adds `undefined` to the union for you. This means if you access an optional property, TypeScript knows it might be `undefined` and requires you to handle that case:
+When a property is optional, its type is automatically `Type | undefined` - TypeScript adds `undefined` to the union for you. This means if you access an optional property, TypeScript knows it might be `undefined` and requires you to handle that case:
 
 ```ts
 function displayBio(user: UserProfile): string {

@@ -14,7 +14,7 @@ Set up a small TypeScript project (or use the one you created in the [Setting Up
 ## Exercise 1: Type Annotations and Inference
 
 1. Declare a `const` variable for each of these values without annotations. Hover over each in VS Code to see what TypeScript infers:
-   - Your name
+   - Your name _(note: avoid naming your variable `name` to prevent conflicts with built-in properties)_
    - Your age
    - Whether you prefer dark mode (`true` or `false`)
    - A list of your three favorite programming languages
@@ -60,4 +60,4 @@ Write the following functions with full type annotations on parameters and retur
 
 3. Call `getPriorityLabel` with `"urgent"` instead of a valid priority. What does TypeScript say?
 
-4. Create a `Status` type that can be `"active"` or `"inactive"`. Declare a variable of that type, reassign it to the other valid value, then try to assign it `"pending"`. What error do you get?
+4. Create a `Status` type that can be `"active"` or `"inactive"`. Declare a variable of that type, reassign it to the other valid value, then try to assign it `"pending"`. What error do you get? _(Note: avoid naming your variable `status` to prevent conflicts with built-in properties.)_
