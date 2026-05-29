@@ -32,15 +32,15 @@ type Song = {
 
 Write the following typed functions:
 
-1. `addSong(songs: Song[], song: Song): Song[]` - returns a new array with the song added
+1. `addSong` - takes the current list of songs and a new song, and returns a new array with the song added to the end.
 
-2. `removeSong(songs: Song[], id: number): Song[]` - returns a new array with that song removed
+2. `removeSong` - takes the current list of songs and a song ID, and returns a new array with the song removed.
 
-3. `filterByGenre(songs: Song[], genre: Genre): Song[]` - returns only songs of the given genre
+3. `filterByGenre` - takes the current list of songs and a genre, and returns a new array with only songs of the given genre.
 
-4. `getLiked(songs: Song[]): Song[]` - returns only songs where `liked` is `true`
+4. `getLiked` - takes the current list of songs and returns a new array with only songs where `liked` is `true`.
 
-5. `getTotalDuration(songs: Song[]): number` - returns the total duration of all songs in seconds
+5. `getTotalDuration` - takes the current list of songs and returns the total duration of all songs in seconds.
 
 Create a few `Song` objects and test each function before moving on.
 

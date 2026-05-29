@@ -35,11 +35,11 @@ Write the following:
 
 2. A `NewMenuItem` type using `Omit` that excludes `id`.
 
-3. `createMenuItem(menu: MenuItem[], item: NewMenuItem): MenuItem[]` - assigns a new `id` and returns the updated menu with the new item added.
+3. `createMenuItem` - a function that takes a menu and a `NewMenuItem`, assigns a new `id` (one higher than the current max), and returns the updated menu with the new item added.
 
-4. `filterAvailable(menu: MenuItem[]): MenuItem[]` - returns only items where `available` is `true`.
+4. `filterAvailable` - a function that takes a menu and returns only items where `available` is `true`.
 
-5. `updatePrice(menu: MenuItem[], id: number, price: number): MenuItem[]` - returns a new menu with that item's price updated. If the price is zero or negative, return the menu unchanged or throw an error.
+5. `updatePrice` - a function that takes a menu, an item `id`, and a new `price`. It returns a new menu with that item's price updated and all other items unchanged. If the price is zero or negative, return the menu unchanged or throw an error.
 
 Create a small menu with items in different categories and test each function.
 

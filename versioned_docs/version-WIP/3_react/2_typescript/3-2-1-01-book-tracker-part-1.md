@@ -342,4 +342,4 @@ export function updateStatus(books: Book[], id: number, status: ReadStatus): Boo
 }
 ```
 
-Run `npx tsc --noEmit` to verify your project compiles with no errors before moving on.
+Run `npx tsc --noEmit` to verify your project compiles with no errors before moving on. No output means success!
