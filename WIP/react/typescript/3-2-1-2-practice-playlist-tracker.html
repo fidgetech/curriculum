@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">✏️ 3.2.1.2 Practice: Playlist Tracker | LHTP</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://fidgetechcode.org/WIP/react/typescript/3-2-1-2-practice-playlist-tracker"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="WIP"><meta data-rh="true" name="docusaurus_tag" content="docs-default-WIP"><meta data-rh="true" name="docsearch:version" content="WIP"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-WIP"><meta data-rh="true" property="og:title" content="✏️ 3.2.1.2 Practice: Playlist Tracker | LHTP"><meta data-rh="true" name="description" content="Goal: Practice defining types and writing typed functions in a new context. Use what you&#x27;ve learned so far - type aliases, literal union types, typed function signatures, and immutable array operations."><meta data-rh="true" property="og:description" content="Goal: Practice defining types and writing typed functions in a new context. Use what you&#x27;ve learned so far - type aliases, literal union types, typed function signatures, and immutable array operations."><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://fidgetechcode.org/WIP/react/typescript/3-2-1-2-practice-playlist-tracker"><link data-rh="true" rel="alternate" href="https://fidgetechcode.org/WIP/react/typescript/3-2-1-2-practice-playlist-tracker" hreflang="en"><link data-rh="true" rel="alternate" href="https://fidgetechcode.org/WIP/react/typescript/3-2-1-2-practice-playlist-tracker" hreflang="x-default"><link data-rh="true" rel="preconnect" href="https://UJLAF3EEM6-dsn.algolia.net" crossorigin="anonymous"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"✏️ 3.2.1.2 Practice: Playlist Tracker","item":"https://fidgetechcode.org/WIP/react/typescript/3-2-1-2-practice-playlist-tracker"}]}</script><link rel="search" type="application/opensearchdescription+xml" title="LHTP" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.2d582d67.css">
-<script src="/assets/js/runtime~main.283c2a87.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.62d89a8f.js" defer="defer"></script>
 <script src="/assets/js/main.9085e897.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -24,19 +24,19 @@
 <p>Write the following typed functions:</p>
 <ol>
 <li class="">
-<p><code>addSong(songs: Song[], song: Song): Song[]</code> - returns a new array with the song added</p>
+<p><code>addSong</code> - takes the current list of songs and a new song, and returns a new array with the song added to the end.</p>
 </li>
 <li class="">
-<p><code>removeSong(songs: Song[], id: number): Song[]</code> - returns a new array with that song removed</p>
+<p><code>removeSong</code> - takes the current list of songs and a song ID, and returns a new array with the song removed.</p>
 </li>
 <li class="">
-<p><code>filterByGenre(songs: Song[], genre: Genre): Song[]</code> - returns only songs of the given genre</p>
+<p><code>filterByGenre</code> - takes the current list of songs and a genre, and returns a new array with only songs of the given genre.</p>
 </li>
 <li class="">
-<p><code>getLiked(songs: Song[]): Song[]</code> - returns only songs where <code>liked</code> is <code>true</code></p>
+<p><code>getLiked</code> - takes the current list of songs and returns a new array with only songs where <code>liked</code> is <code>true</code>.</p>
 </li>
 <li class="">
-<p><code>getTotalDuration(songs: Song[]): number</code> - returns the total duration of all songs in seconds</p>
+<p><code>getTotalDuration</code> - takes the current list of songs and returns the total duration of all songs in seconds.</p>
 </li>
 </ol>
 <p>Create a few <code>Song</code> objects and test each function before moving on.</p>
