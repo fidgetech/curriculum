@@ -167,4 +167,4 @@ function processValue(value: string | number): void {
 }
 ```
 
-Type narrowing is one of the more uniquely TypeScript concepts - there's no equivalent in plain JavaScript because JavaScript doesn't track types. Once you internalize these patterns, a large class of TypeScript errors become straightforward to fix.
+Type narrowing is one of the more unique TypeScript concepts - there's no equivalent in plain JavaScript because JavaScript doesn't track types. Once you internalize these patterns, a large class of TypeScript errors become straightforward to fix.
