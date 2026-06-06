@@ -77,3 +77,5 @@ When you are pairing up, make sure that you are regularly checking in with your 
 It's extremely common for students to not understand something the first time they read about it. Likewise, it's common to need time, practice, and repetition to really understand concepts. Students often revisit concepts later and work on certain concepts over a few course sections. So, if you don't understand something yet, you will soon!
 
 Stay positive, have fun, and take breaks! Remember, being a developer is not about learning a fixed set of skills that you can apply for the rest of your career — the languages, tools, and approaches you'll learn here are much less important than the general skill of solving problems.
+
+During pair programming, work through problems together rather than querying AI separately in the background. Your pair and instructor are your best resources for collaborative problem-solving. See [Using AI Responsibly at Fidgetech](./1-0-0-13-using-ai-responsibly-at-fidgetech) for when AI is appropriate outside of pairing.

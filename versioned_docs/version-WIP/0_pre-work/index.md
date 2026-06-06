@@ -18,7 +18,8 @@ Here's a list of the concepts covered in the following sections:
 * The Growth Mindset
 * Pair Programming: How Fidgetech uses it, and what to expect around pairing in general
 * How to ask for help from teachers, advisors, and other staff
-* Independent projects at Fidgetech and how they are scheduled and graded
+* Responsible AI use, including the Three AI Stances self-assessment
+* What independent projects at Fidgetech are, and how they are scheduled and graded
 * An overview of Fidgetech's policies and expectations of students
 * An overview of class schedules and career service schedules
 * The Student Handbook, Community Agreements, and the importance of Diversity, Equity, and Inclusion
