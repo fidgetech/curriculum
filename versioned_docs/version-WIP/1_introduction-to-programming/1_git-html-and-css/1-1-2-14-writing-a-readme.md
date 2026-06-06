@@ -7,6 +7,22 @@ hide_table_of_contents: true
 
 Every GitHub repository should include a `README.md` file that provides any visitor to the repository with detailed information about the project. The name README is self-explanatory — it's a document that users should read to get more information about the contents of a project. The most common format for READMEs is Markdown, which is why our README files will include the `.md` extension. Markdown is perfect for READMEs because it provides simple formatting — which is really all we need for a README.
 
+## In this lesson
+---
+
+- Why every project needs a README and where it lives in your repository
+- What sections to include (description, technologies, setup, known bugs, license)
+- How to use the README template for your own projects
+- How READMEs support your portfolio and job search
+
+> **AI Support:** Unsure what to write in a README section? You can ask AI to explain what a section is for or to help you brainstorm headings. Do **not** ask AI to write your entire README or invent project details for you.
+>
+> **Example prompts:**
+> - Weak: "Write my README."
+> - Strong: "What should go in the 'Technologies Used' section of a README for a beginner HTML/CSS project? Can you explain what each bullet should describe—without writing the section for me?"
+>
+> Before asking AI, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 ## Why Add a README?
 
 ---
@@ -45,11 +61,15 @@ READMEs vary widely from one repository to the next. A project that has many use
   * A student HTML project: "Demonstration site showcasing HTML, CSS, and jQuery."
 * **Technologies used**: You should always include a section that describes the technologies used in the project. This serves a number of purposes:
   * You can better showcase your skills by listing the technologies used. This can get a potential employer's attention.
-  * This can help other users determine whether they want to use or modify the project. For instance, if a project uses Ruby, a Ruby programmer might want to clone and modify that project. On the other hand, a programmer that doesn't use Ruby might choose another project instead.
+  * This can help other users determine whether they want to use or modify the project. For instance, if a project uses JavaScript, a JavaScript developer might want to clone and modify that project. On the other hand, a developer who doesn't use JavaScript might choose another project instead.
 * **Longer description of the project as needed**: This includes any extra details you might need to share about the project such as how to use it or specific features.
 * **Complete setup/installation instructions**: At this point, your setup and installation instructions will be minimal. However, later in the program, they will often be more involved. These instructions are necessary so that other users can actually download and use your project. The best way to generate installation instructions is to clone your project and then walk through all the steps necessary to get the project running, documenting them along the way.
 * **Known bugs**: If there are any bugs in your application or features that are incomplete or not working correctly, they should be included in this section. This section can help users determine whether they should use the project. Adding known bugs can also be helpful for your future self. For instance, if you return to a project that you haven't worked on for a while, it's helpful to have a quick refresher on what's not working. Finally, adding information about known bugs can allow others to help you identify and fix those bugs — including your classmates and instructors.
-* **License information with a copyright and date**: A standard license such as an [MIT license](https://opensource.org/licenses/MIT) allows others to use and modify your project. 
+* **License information with a copyright and date**: A standard license such as an [MIT license](https://opensource.org/licenses/MIT) allows others to use and modify your project.
+
+> **Try asking AI:** "What should go in the 'Setup/Installation Requirements' section of a README for a static HTML/CSS site? Can you explain what a visitor needs to know—without writing the section for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
 
 ## README Template
 
@@ -117,10 +137,31 @@ For additional details on choosing a license for your code, visit GitHub's [Choo
 
 ---
 
-Moving forward, you're expected to include a detailed `README.md` file for every project you create here at Epicodus. This ensures that anyone who views your portfolios can quickly understand what you've created.
+Moving forward, you're expected to include a detailed `README.md` file for every project you create here at Fidgetech. This ensures that anyone who views your portfolio can quickly understand what you've created.
 
-Towards the end of the program, all students spend time preparing materials for internship interviews and their future job search. In addition to writing cover letters, preparing a LinkedIn profile, and practicing interview questions, students are also required to ensure all their GitHub repos have detailed READMEs, as seen in [this assignment](../../marketing-yourself/applying-for-internships-and-jobs/sprucing-up-github). Make sure to create a README for each project now so you don't have to go back and add them later.
+Towards the end of the program, you'll spend time preparing materials for your job search — updating your portfolio, polishing your LinkedIn profile, and making sure employers can understand your work at a glance. Detailed READMEs on every GitHub repo are a key part of that. Make sure to create a README for each project now so you don't have to go back and add them later.
 
 Also, the independent projects you turn in at the end of each section are _required_ to include a README. If they don't, they won't be marked as passing.
 
 For more information on creating a README, check out [Make a README](https://www.makeareadme.com/).
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Explain why a README matters for visitors and employers
+- [ ] Name the required sections for a Fidgetech project README
+- [ ] Identify where `README.md` must live in a project directory
+- [ ] Describe what AI can help with vs. what you must write yourself
+
+If you're unsure, re-read the section above or ask AI: "What should go in the 'Technologies Used' section of a README for a beginner HTML/CSS project? Can you explain what each bullet should describe—without writing the section for me?"
+
+## Reflection
+---
+
+Take 2–3 minutes (solo or with a peer):
+
+- Why is a README part of communicating as a developer—not just writing code?
+- Which README section feels hardest to write? Why?
+- If you used AI, what did it help you understand—and what did you still have to write in your own words?

@@ -7,6 +7,21 @@ hide_table_of_contents: true
 
 Let's make a new page with two types of paragraphs: regular paragraphs, and a summary at the top of the page:
 
+## In this lesson
+---
+
+- How to add a `class` attribute to HTML elements
+- How to write CSS rules for class selectors (`.classname`)
+- When to use classes to style one element without affecting others
+
+> **AI Support:** Unsure how class selectors differ from element selectors? After reading this lesson, you can ask AI for a plain-language explanation or analogy. You **can** ask AI to explain selector types and specificity basics. Do **not** ask AI to write pages or complete exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Make my CSS work."
+> - Strong: "I added a class selector but the style isn't applying. Can you explain how specificity might affect this—without writing the fix for me?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 <div class="filename">paragraphs.html</div>
 
 ```html
@@ -55,6 +70,10 @@ p.intro {
 ```
 
 And now our intro paragraph has a width of only 50% and is italicized, while the rest of the paragraphs stay the same.
+
+> **Try asking AI:** "What's the difference between styling `p` and styling `p.intro`? Can you explain when a class selector is more useful—without writing CSS for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
 
 Similarly, we might make a class for the final paragraph about the author:
 
@@ -106,7 +125,7 @@ You can also apply a class to multiple tags. Here's another example of a web pag
     <li>Pet him</li>
   </ul>
 
-  <p>If you have any questions while I'm out of town, I <strong class="important">won't have cell service</strong>, but you can <a href="mailto:michael@epicodus.com" class="important">email me</a> if you need anything.</p>
+  <p>If you have any questions while I'm out of town, I <strong class="important">won't have cell service</strong>, but you can <a href="mailto:instructor@example.com" class="important">email me</a> if you need anything.</p>
 
   <p>Thanks again!</p>
 </body>
@@ -123,4 +142,16 @@ Here we've added the `important` class to a paragraph, an unordered list, and a 
 }
 ```
 
-Also, check out how I linked to an email address in my HTML using the syntax `<a href="mailto:michael@epicodus.com">`.
+Also, check out how I linked to an email address in my HTML using the syntax `<a href="mailto:instructor@example.com">`.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Add a `class` attribute to an HTML element
+- [ ] Write a CSS rule using a class selector (`.classname`)
+- [ ] Explain why classes let you style one element without changing others
+- [ ] Apply the same class to multiple different element types
+
+If you're unsure, re-read the sections above or ask AI: "I added a class selector but the style isn't applying. Can you explain how specificity might affect this—without writing the fix for me?"

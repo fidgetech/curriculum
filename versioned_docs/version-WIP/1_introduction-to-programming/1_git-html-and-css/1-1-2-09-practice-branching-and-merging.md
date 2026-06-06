@@ -14,6 +14,18 @@ hide_table_of_contents: true
 * How do we create a new branch of a project?
 * Why would we want to merge back into the main branch?
 
+> **AI Support:** Confused by branch or merge commands? After trying the steps below, you can ask AI to explain a Git term or error in plain language. Do **not** ask AI to complete this exercise or run Git commands for you.
+>
+> **Example prompts:**
+> - Weak: "Do my branching exercise."
+> - Strong: "I created a branch for a different CSS theme. Can you explain the steps to merge that branch into `main` and what branch I need to be on first—without running commands for me?"
+>
+> Before asking AI, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
+> **Try asking AI:** "Why would a developer create separate branches for different CSS styles instead of editing `main` directly? Can you explain the benefit—without building my project for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
+
 ## Code
 ---
 
@@ -46,3 +58,15 @@ When you finish, make a website for your favorite restaurant or food cart. Inclu
 * Is the indentation and spacing of HTML and CSS accurate?
 * Have commits been made regularly with clear messages that finish the phrase "It will…"?
 * What worked well? What would you do differently next time?
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Create at least two branches with different CSS styles
+- [ ] Merge your chosen branch into `main`
+- [ ] Explain why branching is useful before merging
+- [ ] Make regular commits with descriptive messages throughout the exercise
+
+If you're unsure, re-read the section above or ask AI: "I created a branch for a different CSS theme. Can you explain the steps to merge that branch into `main` and what branch I need to be on first—without running commands for me?"

@@ -24,6 +24,17 @@ We recommend installing Google Chrome if you use another browser on your persona
 
 ---
 
-If you encounter any issues setting these up ask for assistance from your instructors.
+If you encounter any issues setting these up, ask for assistance from your instructors.
 
-> **AI Support:** Stuck on a setup or installation error? After trying the steps in this lesson, you can ask AI to explain the error in plain language or suggest what to check next, but don't paste your whole project and ask it to fix everything. See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+> **AI Support:** Stuck on a setup or installation error? After trying the steps in this lesson, you can ask AI to explain the error in plain language or suggest what to check next — but don't paste your whole project and ask it to fix everything. Before asking, check: [Do I have the license for this?](../../getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
+### Reading errors with AI
+
+When you hit an error:
+
+1. Copy the **exact error message** (not your whole terminal history)
+2. Write down what you expected vs. what happened
+3. Ask AI: "What does this error mean in plain language, and what should I check first?" — not "fix this for me"
+4. If you still can't evaluate AI's answer, ask an instructor or peer
+
+See the [Strong vs. Weak Prompts](../../getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help#strong-vs-weak-prompts) table and the [license check-in](../../getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this).

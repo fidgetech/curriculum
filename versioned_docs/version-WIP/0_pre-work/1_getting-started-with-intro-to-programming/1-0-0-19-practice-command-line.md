@@ -5,7 +5,7 @@ id: 1-0-0-19-practice-command-line
 hide_table_of_contents: true
 ---
 
-> **AI Support:** Stuck on a command line exercise? After attempting the steps yourself, you can ask AI to explain an error or break the problem into one small next step, not to complete the exercise for you. See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+> **AI Support:** Stuck on a command line exercise? After attempting the steps yourself, you can ask AI to explain an error or break the problem into one small next step, not to complete the exercise for you. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
 
 ## [Warm Up](#warm-up)
 ---

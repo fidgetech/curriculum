@@ -7,6 +7,21 @@ hide_table_of_contents: true
 
 Now let's create a second web page using HTML block elements in our `my-first-webpage` project.  We'll have two web pages in our directory.  The new page will list a few of our favorite things.
 
+## In this lesson
+---
+
+- How to add a second HTML file to an existing project
+- How to build nested lists with `<ul>`, `<ol>`, and `<li>`
+- How to commit and push a multi-page project to GitHub
+
+> **AI Support:** Unsure which HTML element to use for structure or meaning? You can ask AI to explain semantic HTML choices. You **can** ask AI to clarify when to use ordered vs unordered lists and how nesting works. Do **not** ask AI to write your webpage or complete exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Write my favorite-things page."
+> - Strong: "When should I use `<ul>` vs `<ol>`, and how does nesting a list inside a `<li>` work? Can you explain in plain language—without writing HTML for me?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 When we want to add a file to a project directory, we need to make sure we are in the correct directory.  For this new page, we'll use `$ pwd` to ensure that we are in `my-first-webpage`.  If not, we'll navigate to the correct folder and then add a new html file called `favorite-things.html`.  Once added, we'll open our project in our text editor so that we can add the content for our new page.
 
 ```shell
@@ -59,6 +74,10 @@ As you type this file content, think through how each tag will impact the way th
 </html>
 ```
 
+> **Try asking AI:** "I have a nested list inside a `<li>` tag. Can you explain why the inner `<ul>` is indented inside the outer `<li>`—without writing HTML for me?"
+>
+> After reading AI's response, explain list nesting back in your own words before moving on.
+
 Let's take a look!
 
 After finish this and seeing it display as we expect it to, we'll make sure to commit our changes with Git and push the updated project to GitHub:
@@ -67,3 +86,14 @@ After finish this and seeing it display as we expect it to, we'll make sure to c
 *  `$ git commit -m "add web page with info on favorite things"`
 * `$ git push [remote nickname] main` (replacing nickname with the same nickname you used when you added the remote link in the previous lesson)
 * check on GitHub that your `my-first-webpage` repository now contains both `my-first-webpage.html` and `favorite-things.html`.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Add a second HTML file to an existing Git project
+- [ ] Build nested ordered and unordered lists
+- [ ] Commit and push a multi-page project to GitHub
+
+If you're unsure, re-read the sections above or ask AI: "When should I use `<ul>` vs `<ol>`, and how does nesting a list inside a `<li>` work? Can you explain in plain language—without writing HTML for me?"

@@ -7,6 +7,21 @@ hide_table_of_contents: true
 
 In this lesson, we'll learn how to implement several of the most common Bootstrap resources and styles. These resources will make our projects look considerably nicer without much additional work.
 
+## In this lesson
+---
+
+- How to set up a project with Bootstrap linked
+- Common Bootstrap classes: `container`, `jumbotron`, `blockquote`, `bg-success`, `card`
+- How Bootstrap classes work like CSS classes you write yourself—just pre-defined
+
+> **AI Support:** Unsure what a Bootstrap class name means? You can ask AI to explain a class in plain language or help you find the right section in Bootstrap's docs. Use AI to **understand class names and documentation**—not to generate full pages or complete exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Build my Bootstrap site."
+> - Strong: "Can you explain what the Bootstrap `container` class does and why I'd wrap my page content in one—without writing HTML for me?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 ## Project Setup
 
 ---
@@ -23,12 +38,12 @@ Now let's add some starter code to `index.html`:
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>My First Section at Epicodus</title>
+  <title>My First Section at Fidgetech</title>
 </head>
 <body>
-  <h1>My First Section at Epicodus</h1>
+  <h1>My First Section at Fidgetech</h1>
   <p>
-    I've almost finished my first course section at Epicodus. Here are some of the things I've learned so far:
+    I've almost finished my first course section at Fidgetech. Here are some of the things I've learned so far:
   </p>
   <h2>Command Line</h2>
   <ul>
@@ -106,7 +121,7 @@ Then, we'll link this Bootstrap stylesheet in the `<head>` tags of our HTML file
 ```html
 ...
 <head>
-  <title>My First Section at Epicodus</title>
+  <title>My First Section at Fidgetech</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 ...
@@ -136,7 +151,7 @@ We can add a container to our HTML like this:
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>My First Section at Epicodus</title>
+  <title>My First Section at Fidgetech</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -159,6 +174,10 @@ Also, if we resize the width of the browser window, we can see that the amount o
 
 Bootstrap is essentially a really big CSS stylesheet. Earlier, we learned how to [add classes to HTML elements](../../introduction-to-programming/git-html-and-css/1-1-3-1-styling-with-classes) to style our pages. Adding Bootstrap's built-in `container` class is very similar. But instead of manually defining CSS rules that style anything with the `container` class in our _own_ stylesheet, the Bootstrap stylesheet we included in our project _already has_ CSS rules for the `container` class defined. All we need to do is add this class in order to make use of the CSS in the  `bootstrap.css` file!
 
+> **Try asking AI:** "How is adding a Bootstrap class like `jumbotron` different from writing my own CSS class?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
+
 ### Jumbotron
 
 Another commonly-used Bootstrap element is something called a [Jumbotron](https://getbootstrap.com/docs/4.5/components/jumbotron/). Jumbotrons are primarily used to add emphasis to content on a page. They'll often be placed at the top of the page to act as a heading.
@@ -173,9 +192,9 @@ Just like the container, we can add a Jumbotron by including a div with the `jum
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>My First Section at Epicodus</h1>
+        <h1>My First Section at Fidgetech</h1>
         <p>
-          I've almost finished my first course section at Epicodus. Here are some of the things I've learned so far:
+          I've almost finished my first course section at Fidgetech. Here are some of the things I've learned so far:
         </p>
       </div>
 
@@ -300,3 +319,14 @@ While our site still looks relatively plain, we can do a lot more with Bootstrap
 In the next few lessons, we'll explore additional Bootstrap elements, how to integrate our own CSS stylesheets with Bootstrap styles, and more.
 
 As we move forward in the course, take advantage of Bootstrap to make professional, polished pages for all your projects. You aren't expected to be an expert on styling — but the nice thing about Bootstrap is that you don't have to be.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Add a `container`, `jumbotron`, and `card` to an HTML page
+- [ ] Explain how Bootstrap classes relate to CSS classes you write yourself
+- [ ] Use at least one built-in Bootstrap utility class (like `bg-success`)
+
+If you're unsure, re-read the section above or ask AI: "Can you explain what the Bootstrap `card-body` and `card-title` classes are for—without building my page for me?"

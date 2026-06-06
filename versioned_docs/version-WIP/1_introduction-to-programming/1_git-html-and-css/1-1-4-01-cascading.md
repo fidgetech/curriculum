@@ -7,6 +7,21 @@ hide_table_of_contents: true
 
 In this lesson, we'll dive a bit deeper into the **cascading** aspect of cascading style sheets (CSS). **Cascading** simply means that many rules can "cascade" down and apply to HTML elements. For instance, in past lessons, we defined a style for `<ul>`. This style was applied to the text that was inside of `<li>` tags. In other words, the style cascaded down from the parent element to the child element. This concept is also known as **inheritance** and it's a big part of computer programming. Since the `<li>` tags are nested within the `<ul>` tags, the `<li>` tags inherit the styles given to the `<ul>`s.
 
+## In this lesson
+---
+
+- How CSS inheritance lets child elements receive styles from parent elements
+- How **specificity** determines which rule wins when selectors conflict
+- Why inline styles override stylesheet rules—and why to avoid them
+
+> **AI Support:** Styles not applying the way you expect? You can ask AI to explain specificity and the cascade in plain language. Use AI to **clarify how selectors compete**—not to rewrite your CSS or complete exercises for you. Test changes in DevTools yourself.
+>
+> **Example prompts:**
+> - Weak: "Make my CSS work."
+> - Strong: "I have both an `a` selector and a `.digital p a` selector. Can you explain why one might win without writing the fix for me?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 We can use inheritance to change the font for the entire web page like this:
 
 ```css
@@ -98,6 +113,10 @@ a {
 
 In this case, the most specific wins: in this case, a link in a paragraph in an element with the `digital` class will be bold, not normal, because the `.digital p a` selector is more specific than the `a` selector. This is called **specificity**, and it's both very powerful and, when things get complicated, a pain in the butt.
 
+> **Try asking AI:** "When two CSS rules have the same specificity, which one wins—and why?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
+
 Here's one more example of specificity:
 
 <div class="filename">styles.css</div>
@@ -157,3 +176,14 @@ Occasionally, you'll run into HTML that looks like this:
 Here, the style is embedded in the HTML. This is called an **inline style**, and it is very, very bad! You lose all of the power of CSS when you do this, as you now can't re-use your styles and centralize them in one place. Fortunately, this is becoming rare, but you still may run into it every once in a while. You just need to know that, if you see an inline style, it takes precedence over what's defined in your CSS.
 
 There are some additional rules about which style takes precedence in more complicated situations, but that's beyond the scope of what I'm teaching here.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Explain what CSS inheritance/cascading means
+- [ ] Describe how specificity determines which rule wins
+- [ ] Explain why inline styles are problematic
+
+If you're unsure, re-read the section above or ask AI: "I have two CSS rules targeting the same element. Can you explain how inheritance and specificity work together—without writing the fix for me?"

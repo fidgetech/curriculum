@@ -7,7 +7,23 @@ hide_table_of_contents: true
 
 There are many reasons why we should commit our code regularly. We can ensure that all the changes in our code are tracked, both major and minor. If something breaks in our code, we can return to a commit where we know the code is working. Finally, regular commits make it much easier for different people working in different places to track and contribute to a project.
 
-However, even with these facts in place, it's often hard for Epicodus students to get into the swing of making regular commits. 
+However, even with these facts in place, it's often hard for Fidgetech students to get into the swing of making regular commits.
+
+## In this lesson
+---
+
+- How GitHub tracks your contributions on your profile
+- Why commit frequency and quality both matter
+- How to add co-authors with commit trailers when pair programming
+- How to verify that commits appear on your GitHub profile
+
+> **AI Support:** Unsure how to write a good commit message or format a commit trailer? You can ask AI to explain commit message conventions in plain language. Do **not** ask AI to write commit messages for you or complete Git exercises.
+>
+> **Example prompts:**
+> - Weak: "Write my commit message."
+> - Strong: "My commit message should complete the sentence 'This commit will…' Can you explain what makes a good commit message and give 2 examples of messages that are too vague—without writing one for my current changes?"
+>
+> Before asking AI, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
 
 ## GitHub Contributions
 
@@ -17,11 +33,11 @@ Here's one more motivation — the commits and repositories we make are tracked 
 
 ![Select "Your profile" from the dropdown in the upper right.](/images/INTRO/week1-html-css/Week-1-2020-images/gh-contributions-lesson/your-gh-profile.png)
 
-You'll see a graph that measures all of your GitHub contributions over the course of the year. Unless you were using GitHub regularly before you started Epicodus, you'll likely only have a few commits so far. This is totally fine and expected. However, over the course of your time at Epicodus, you will make hundreds — likely even thousands — of commits.
+You'll see a graph that measures all of your GitHub contributions over the course of the year. Unless you were using GitHub regularly before you started Fidgetech, you'll likely only have a few commits so far. This is totally fine and expected. However, over the course of your time at Fidgetech, you will make hundreds — likely even thousands — of commits.
 
-Here are the contributions of two graduates from the same Epicodus cohort. Their commits begin in January and end in May — the twenty weeks they were full-time Epicodus students. 
+Here are the contributions of two graduates from the same Fidgetech cohort. Their commits begin in January and end in May — the twenty weeks they were full-time Fidgetech students. 
 
-If you take a look, the first student made three times as many commits while they were a student at Epicodus.
+If you take a look, the first student made three times as many commits while they were a student at Fidgetech.
 
 ![This student has lots of contributions — about 1500.](/images/INTRO/week1-html-css/Week-1-2020-images/gh-contributions-lesson/many-contributions.png)
 
@@ -39,9 +55,15 @@ Overall, the quality of commits is more important than the quantity. You shouldn
 
 ---
 
-In addition to committing regularly, you'll need to make sure that your commits are actually attributed to you. A standard git commit is set up to only give attribution to one person. Since we usually pair program at Epicodus, you'll need to do a little extra work to ensure that both pairs get attribution for their work.
+In addition to committing regularly, you'll need to make sure that your commits are actually attributed to you. A standard git commit is set up to only give attribution to one person. Since we usually pair program at Fidgetech, you'll need to do a little extra work to ensure that both pairs get attribution for their work.
 
-We can add co-authors in the command line by adding commit trailers when we write a commit message. Let's compare two commits. The first is a commit that we'd make if we were working solo:
+We can add co-authors in the command line by adding commit trailers when we write a commit message.
+
+> **Try asking AI:** "What is a `Co-authored-by:` commit trailer and when should I use it when pair programming? Can you explain the format—without writing a commit message for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
+
+Let's compare two commits. The first is a commit that we'd make if we were working solo:
 
 ```
 $ git commit -m "Add README"
@@ -81,3 +103,15 @@ For more information on creating a commit trailer, see [Creating a commit with m
 If your commits aren't showing up in the commit graph on your profile and you'd like to troubleshoot, see [Why are my contributions not showing up on my profile?](https://help.github.com/en/github/setting-up-and-managing-your-github-profile/why-are-my-contributions-not-showing-up-on-my-profile).
 
 If you want to read more about viewing your GitHub contributions, see [Viewing contributions on your profile](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/viewing-contributions-on-your-profile).
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Explain what GitHub contributions are and where to view them on your profile
+- [ ] Describe when to commit and what makes a good commit message
+- [ ] Add a `Co-authored-by:` trailer when pair programming
+- [ ] Verify that commits show up on your GitHub contribution graph
+
+If you're unsure, re-read the section above or ask AI: "My commit message should complete the sentence 'This commit will…' Can you explain what makes a good commit message and give 2 examples of messages that are too vague—without writing one for my current changes?"

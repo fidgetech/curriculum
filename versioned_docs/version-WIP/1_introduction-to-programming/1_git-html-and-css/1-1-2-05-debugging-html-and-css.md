@@ -7,7 +7,9 @@ hide_table_of_contents: true
 
 Learning to debug is an essential skill to pick up early on. There are many debugging techniques. Here are a few tools that are very helpful for debugging HTML & CSS.
 
-We use [Google Chrome](https://www.google.com/chrome/browser/) at Epicodus so we will focus on Chrome's Developer Tools, also known as **DevTools**. Other browsers like Firefox also have developer tools. Feel free to look into these on your own if you are interested.
+> **AI Support:** Stuck reading DevTools output? You can ask AI to explain what a panel or error message means and suggest what to check next. Practice using DevTools yourself; AI explains, it doesn't replace debugging. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
+We use [Google Chrome](https://www.google.com/chrome/browser/) at Fidgetech so we will focus on Chrome's Developer Tools, also known as **DevTools**. Other browsers like Firefox also have developer tools. Feel free to look into these on your own if you are interested.
 
 ## JavaScript Console
 
@@ -17,7 +19,7 @@ In Chrome, click on the menu button. It's on the right side of the address bar a
 
 ![GIF shows opening menu and clicking on Developer Tools.](/images/INTRO/week1-html-css/Week-1-2020-images/open-dev-tools-2.gif)
 
-As a shortcut, you can also press `Cmd + Option + J` ( `Windows + Alt + J` on Epicodus keyboards) to open DevTools.
+As a shortcut, you can also press `Cmd + Option + J` ( `Windows + Alt + J` on Windows keyboards) to open DevTools.
 
 Next, let's take a look at the DevTools window.
 
@@ -65,7 +67,7 @@ Here's another really cool thing we can do — we can actively edit our CSS in t
 
 ![We alter the color of the title in the image.](/images/INTRO/week1-html-css/Week-1-2020-images/changing-styles-dev-tools.gif)
 
-We've already highlighted the element that holds the tile "Introduction to Programming / Getting Started at Epicodus / Learn How to Program." Let's say we want to see how this heading looks with a different color.
+We've already highlighted the element that holds the tile "Introduction to Programming / Getting Started at Fidgetech / Learn How to Program." Let's say we want to see how this heading looks with a different color.
 
 We can click the checkbox to the left of the property in the Styles pane. When the checkbox is clicked, the property is applied. When it's unclicked, the property is removed.
 

@@ -23,6 +23,17 @@ Begin taking your HTML to the next level by implementing CSS. Practice targeting
 * Where should a CSS stylesheet reside?
 * How do we apply the styles created in our .css stylesheet to our .html web page?
 
+> **AI Support:** Stuck on CSS syntax or linking stylesheets? After trying the steps below, you can ask AI to explain a property or path in plain language. Do **not** ask AI to write CSS rules or complete this exercise for you.
+>
+> **Example prompts:**
+> - Weak: "Make my CSS work."
+> - Strong: "I linked my stylesheet but styles aren't applying. Can you explain what I should check about the file path and `<link>` tag—without writing the fix for me?"
+>
+> Before asking AI, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
+> **Try asking AI:** "What's the difference between a CSS selector, property, and value? Can you explain each part of a rule like `h1 { color: red; }`—without writing CSS for my page?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
 
 ## Code
 ---
@@ -55,3 +66,15 @@ Now it's your turn! To access the JavaScript Console from a Chrome browser just 
 Update your cat's homepage or dog's blog to have some styles. If you haven't created a pet website yet, go ahead and do that.
 
 Be sure to make commits and push those commits to GitHub as you are working on your pages.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Link a CSS stylesheet from an HTML file in a `css/` subfolder
+- [ ] Write CSS rules using selectors, properties, and values
+- [ ] Use at least 5 different CSS properties on your pages
+- [ ] Share one stylesheet between multiple HTML pages
+
+If you're unsure, re-read the section above or ask AI: "I linked my stylesheet but styles aren't applying. Can you explain what I should check about the file path and `<link>` tag—without writing the fix for me?"

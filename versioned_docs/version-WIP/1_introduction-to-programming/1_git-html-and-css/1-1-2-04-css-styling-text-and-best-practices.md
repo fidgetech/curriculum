@@ -9,6 +9,22 @@ I'll be the first to admit it: the web pages we've made so far are pretty ugly. 
 
 **Note:**  if trying to make something look pretty is your idea of an awful time, don't worry, this isn't a design course! We're going to learn enough about styling to get you to the point where you can apply styles that other people develop without having to do any design yourself. And if you love design and want to learn more, I'll point you in the right direction at the end of this section.
 
+## In this lesson
+---
+
+- How to create a `styles.css` file and link it to an HTML page
+- CSS rules, selectors, properties, and values
+- How to use named colors and hexadecimal color codes
+- Why CSS makes it easier to change styles across a whole site
+
+> **AI Support:** Unfamiliar with CSS property and value syntax? After reading this lesson, you can ask AI for a plain-language explanation. Do **not** ask AI to write CSS rules or complete styling exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Make my CSS work."
+> - Strong: "I added a CSS rule for `h1` but the style isn't showing up. Can you explain how linking a stylesheet in HTML works and what I should check first—without writing the fix for me?"
+>
+> Before asking AI, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 ## Styling Text in `my-first-webpage` with CSS
 
 ---
@@ -33,6 +49,10 @@ Now the first thing we need to do is to tell our HTML document to use this file 
 ```
 
 I'm leaving out everything above and below the `<head>` tag for the sake of brevity.
+
+> **Try asking AI:** "My HTML file is in the project root and my CSS is in a `css/` folder. Can you explain how the `href` path in a `<link>` tag should be written—without writing the tag for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
 
 ### Adding Our First CSS Rule
 
@@ -174,3 +194,15 @@ My apologies for the long lecture, but this last point is really important. Buil
 To see the beauty of using CSS, check out [CSS Zen Garden](http://csszengarden.com/). On the right side of the page, clicking one of the links will apply a different stylesheet to the same HTML. The page is totally transformed — no changes to the HTML needed. While experienced designers built these pages, they can also be a starting point for CSS in your own sites.
 
 If you're following along and your CSS file isn't actually adding styles to your web page, see the next lesson, which introduces debugging.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Create a `styles.css` file and link it from an HTML `<head>`
+- [ ] Write a basic CSS rule with a selector, property, and value
+- [ ] Explain why CSS in a separate file is easier to maintain than inline styles
+- [ ] Use named colors or hex codes to set text color
+
+If you're unsure, re-read the section above or ask AI: "I added a CSS rule for `h1` but the style isn't showing up. Can you explain how linking a stylesheet in HTML works and what I should check first—without writing the fix for me?"

@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 One of the first tools any new web developer must become comfortable with is something called the **command line**. No matter which language you program in, you'll use it constantly.
 
-> **AI Support:** Stuck on a command line error? After trying the steps in this lesson, you can ask AI to explain what a command does or interpret an error message in plain language, but don't ask it to run commands for you without understanding them. See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+> **AI Support:** Stuck on a command line error? After trying the steps in this lesson, you can ask AI to explain what a command does or interpret an error message in plain language — but don't ask it to run commands for you without understanding them. Before asking, check: [Do I have the license for this?](../../getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
 
 This lesson will walk through what the command line is, what it looks like, and how to access it. In the lesson following this one we'll learn how to interact with the command line by executing commands. Let's get started!
 

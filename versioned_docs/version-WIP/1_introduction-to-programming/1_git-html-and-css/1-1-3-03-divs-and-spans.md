@@ -7,6 +7,21 @@ hide_table_of_contents: true
 
 Classes are great for selectively applying styles to certain parts of your web pages. But sometimes you'll have entire sections of your pages that you want to style a certain way, and adding a style to every tag gets annoying. Here's a new page I made about fish. Notice how several elements in a row all have the same class:
 
+## In this lesson
+---
+
+- How `<div>` tags group block-level content so you can style whole sections at once
+- How `<span>` tags apply classes to inline text within a line
+- When to choose a `div` vs a `span`
+
+> **AI Support:** Unsure when to use a `div` vs a `span`? After reading this lesson, you can ask AI for a plain-language explanation or analogy. Do **not** ask AI to write pages or complete exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Fix my HTML layout."
+> - Strong: "I'm grouping a whole section of my page. Can you explain when a `<div>` is a better choice than a `<span>`—without writing the HTML for me?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 <div class="filename">fish.html</div>
 
 ```html
@@ -138,4 +153,19 @@ At first, it might be a little confusing to know when to use a `div` versus a `s
 
 As noted in the code, we'd use a div for text that covers multiple lines of text while we'd use a span for text that covers less than a line of code.
 
+> **Try asking AI:** "Can you explain the difference between block-level `<div>` elements and inline `<span>` elements with a simple analogy—without writing HTML for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
+
 We won't be using spans very often but it's still important to know about them. On the other hand, we'll be using divs all the time.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Use a `<div>` to group and style a multi-line section of a page
+- [ ] Use a `<span>` to style inline text within a block element
+- [ ] Explain when a `div` is a better choice than a `span`
+
+If you're unsure, re-read the section above or ask AI: "Can you explain when a `<div>` is a better choice than a `<span>`—without writing the HTML for me?"

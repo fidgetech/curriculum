@@ -7,6 +7,21 @@ hide_table_of_contents: true
 
 We're going to start our HTML writing by working with **block elements**.  These are HTML elements that when displayed start on a line of their own, in effect making a block on the page.
 
+## In this lesson
+---
+
+- What block elements are and how they display in the browser
+- How to use `<p>`, heading, and list tags in a basic webpage
+- How to wrap content in the full HTML document structure and push to GitHub
+
+> **AI Support:** Block vs inline elements confusing you? After reading this lesson, you can ask AI for a plain-language explanation or analogy. You **can** ask AI to explain block element behavior and HTML tag purposes. Do **not** ask AI to write your webpage or complete exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Write my HTML page."
+> - Strong: "What's the difference between a block element and an inline element? Can you give me 2–3 examples of each—without writing a page for me?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 ## HTML Block Elements
 
 ---
@@ -38,6 +53,10 @@ Once `my-first-webpage.html` is open in your text editor, type the following cod
 
 The instructions for formatting around the text are called **tags**.  The `<p>` is called a **p tag**. It means that everything that follows is a paragraph, until `</p>` is reached. The `</p>` is called a **closing tag** or **end tag** and indicates the paragraph is at its end.  The `<p>` is a block element because it is written on its own line and creates a block of content on the displayed page.
 
+> **Try asking AI:** "What's the difference between a block element and an inline element? Can you explain using `<p>` and `<h1>` as examples—without writing HTML for me?"
+>
+> After reading AI's response, explain block elements back in your own words before moving on.
+
 One thing to note before we move on — with multiple lines of text, we'll sometimes see `<p>` tags indented like this:
 
 ```html
@@ -65,7 +84,7 @@ Let's try some more tags:
 
 ```html
 <h1>My first web page</h1>
-<h2>Written with the guidance of Epicodus</h2>
+<h2>Written with the guidance of Fidgetech</h2>
 
 <p>This is my first web page!</p>
 <p>Isn't it nice?</p>
@@ -90,7 +109,7 @@ Let's keep going with some list elements:
 
 ```html
 <h1>My first web page</h1>
-<h2>Written with the guidance of Epicodus</h2>
+<h2>Written with the guidance of Fidgetech</h2>
 
 <p>This is my first web page!</p>
 <p>Isn't it nice?</p>
@@ -129,7 +148,7 @@ We have some final additions to make for this to be a valid HTML web page:
 </head>
 <body>
   <h1>My first web page</h1>
-  <h2>Written with the guidance of Epicodus</h2>
+  <h2>Written with the guidance of Fidgetech</h2>
 
   <p>This is my first web page!</p>
   <p>Isn't it nice?</p>
@@ -168,3 +187,14 @@ We're done for the moment. It's a good time to push the project to GitHub.  As a
 * `$ git remote add [remote nickname] [remote url]` (replacing [remote nickname] with your initials or another good nickname and [remote url] with the URL to the GitHub repository you just created)
 * `$ git push [remote nickname] main` (replacing [remote nickname] with the same nickname you used when you added the remote link)
 * Check on GitHub that your code uploaded successfully
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Create block elements with `<p>`, `<h1>`–`<h6>`, `<ul>`, `<ol>`, and `<li>` tags
+- [ ] Wrap page content in a valid HTML document structure
+- [ ] Commit your work and push the project to GitHub
+
+If you're unsure, re-read the sections above or ask AI: "What's the difference between a block element and an inline element? Can you give me 2–3 examples of each—without writing a page for me?"

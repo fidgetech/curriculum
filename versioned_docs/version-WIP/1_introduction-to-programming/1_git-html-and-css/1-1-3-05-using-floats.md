@@ -7,6 +7,21 @@ hide_table_of_contents: true
 
 So far, everything we've done has been laid out very simply, from top to bottom for block elements, and left to right for inline ones. But often we'll want to have text wrap around an image, or have a sidebar on one side, or create a page with multiple columns. We can design all of these layouts using **floats**.
 
+## In this lesson
+---
+
+- How `float: left` and `float: right` make text wrap around images
+- Using floats to create sidebars and multi-column layouts
+- When floats are a useful layout tool (and when they cause headaches)
+
+> **AI Support:** Confused about why floats change your layout? After reading this lesson, you can ask AI for a plain-language explanation or analogy. Do **not** ask AI to write pages or complete exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Fix my float layout."
+> - Strong: "My sidebar isn't sitting where I expected after adding `float: right`. Can you explain 2–3 things I should check in DevTools—without writing the CSS fix for me?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 Here's an example of how to have text wrap around an image. First, the HTML for a new page about walruses:
 
 <div class="filename">walrus.html</div>
@@ -123,4 +138,19 @@ CSS:
 
 And now we have columns.
 
+> **Try asking AI:** "Can you explain what `float: left` does to an element and the content around it—in plain language, without writing CSS for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
+
 Floats are incredibly powerful and an important way to lay out your web pages.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Use `float: left` or `float: right` to wrap text around an image
+- [ ] Create a sidebar layout using floats
+- [ ] Create a multi-column layout using floats
+
+If you're unsure, re-read the section above or ask AI: "My sidebar isn't sitting where I expected after adding `float: right`. Can you explain 2–3 things I should check—without writing the CSS fix for me?"

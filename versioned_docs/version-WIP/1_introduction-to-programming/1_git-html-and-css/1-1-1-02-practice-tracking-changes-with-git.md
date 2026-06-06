@@ -5,6 +5,28 @@ id: 1-1-1-2-practice-tracking-changes-with-git
 hide_table_of_contents: true
 ---
 
+**Goal:** Create your first HTML file, track it with Git, and practice the add-commit workflow you'll use every day.
+
+## Warm Up
+---
+
+_Ask yourself the following questions before moving on:_
+
+* What is the difference between saving a file in your editor and committing it with Git?
+* What does `git add` do that `git commit` does not?
+* What information does `git status` give you?
+
+> **AI Support:** Confused by `git status` output or staging errors? After trying the steps below, you can ask AI to explain what Git is telling you in plain language. You **can** ask AI to interpret `git status` output and clarify staging vs committing. Do **not** ask AI to write commit messages or complete this exercise for you.
+>
+> **Example prompts:**
+> - Weak: "Fix my git."
+> - Strong: "My `git status` shows a file in red under 'Untracked files.' Can you explain what 'untracked' means and what I should try first—without running commands for me?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
+## Code
+---
+
 We have our project directory created and our Git repository initialized.  Now, we can create the HTML file that will say hello to the world.  Let's make an empty file at the command line in our project directory:
 
 ```shell
@@ -30,7 +52,7 @@ In the coming lessons, we are going to learn all about HTML but for now, copy an
 
 <p>This page is an attempt to greet everyone on Earth using our various human languages.  We're interested to see how long our list can become.</p>
 
-<p>We'll start with languages that the Epicodus staff could offer without using Google. </p>
+<p>We'll start with languages we know without using Google. </p>
 
 <ul>
   <li> English: Hello, world! </li>
@@ -76,6 +98,10 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
+
+> **Try asking AI:** "My `git status` shows a file under 'Untracked files.' Can you explain the difference between untracked, staged, and committed—without running commands for me?"
+>
+> After reading AI's response, explain staging back in your own words before moving on.
 
 When we ask for the status, Git lets us know that there has been a new file added to our project directory but it is not being tracked because we haven't yet added it to the files for Git to track.  Let's do this now using the command Git tells us to use:  `git add`.
 
@@ -134,7 +160,7 @@ If you followed all the configuration instructions in the [Git Configurations](.
 On branch main
 ```
 
-If you are on the `master` branch instead, review the configuration lesson linked above to update the default. The default branch at Epicodus is the `main` branch.
+If you are on the `master` branch instead, review the configuration lesson linked above to update the default. The default branch at Fidgetech is the `main` branch.
 
 You can also manually change the branch from `master` to `main` in a project by running the following command:
 
@@ -160,7 +186,7 @@ A couple of staff members just shared additional entries for our list! Let's upd
 
 <p>This page is an attempt to greet everyone on Earth using our various human languages.  We're interested to see how long our list can become.</p>
 
-<p>We'll start with languages that the Epicodus staff could offer without using Google.</p>
+<p>We'll start with languages we know without using Google.</p>
 
 <ul>
   <li> English: Hello, world! </li>
@@ -224,3 +250,14 @@ Let's take a final look at our website to see our changes.
 ![Hello world](/images/INTRO/week1-html-css/hello-world-browser-2.png)
 
 Hurray! Hello, World!
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Run `git status` and explain what untracked, staged, and modified mean
+- [ ] Add a file with `git add` and commit it with a descriptive message
+- [ ] Use `git log` to view your project's commit history
+
+If you're unsure, re-read the sections above or ask AI: "My `git status` shows a file in red under 'Untracked files.' Can you explain what 'untracked' means and what I should try first—without running commands for me?"
