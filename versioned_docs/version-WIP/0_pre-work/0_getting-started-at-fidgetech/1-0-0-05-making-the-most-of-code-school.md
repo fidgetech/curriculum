@@ -9,13 +9,13 @@ You've done it, you're in code school! You've committed time, energy and dedicat
 
 First of all, this program is a marathon, not a sprint. Sometimes it will even feel like a slog. Sometimes concepts will make no sense, code will break for no reason that makes sense, and it will seem like nobody has the answer. In fact, that's a typical day in the life of a developer and one reason developers are in high demand and are paid well.
 
-Fidgetech will probably be very different from your previous educational experiences. There are no shortcuts in our program. We need to have your full commitment in order to help make your own journey a success. It’s up to _you_ to make the most of your experience!
+Fidgetech will probably be very different from your previous educational experiences. There are no shortcuts in our program — including leaning on AI to skip the hard parts of learning. We need to have your full commitment in order to help make your own journey a success. It's up to _you_ to make the most of your experience! You'll learn more about using AI as a learning support tool in [Using AI Responsibly at Fidgetech](./1-0-0-13-using-ai-responsibly-at-fidgetech).
 
 Read the following article by Perry Eising, an instructor who has worked with students at Portland Community College, Portland State University, and Reed College. 
 
 **<span class="glyphicon glyphicon-link"></span> ["8 Easy Ways to $%^& Up your Code School Experience" by Perry Eising](https://www.linkedin.com/pulse/8-easy-ways-up-your-code-school-experience-perry-eising)**
 
-In this article, Perry addresses the most common misconceptions and stumbling blocks we see students get caught in that prevent or inhibit their success in class and at internships.
+In this article, Perry addresses the most common misconceptions and stumbling blocks we see students get caught in that prevent or inhibit their success in class and in their job search.
 
 We also suggest reading the following article by Danielle Thompson, a software developer. 
 

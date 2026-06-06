@@ -18,6 +18,8 @@ hide_table_of_contents: true
 
 In the last lesson, we learned how to access the command line. In this lesson, we'll explore some of the most common commands we can use with Bash. We'll use many of these daily at Fidgetech and also out in the industry.
 
+> **AI Support:** If a command returns an unexpected error, ask AI to explain the error in plain language or suggest what to check next after you've tried the steps in this lesson yourself. See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 ## [Basics of the Command Line](#basics-of-the-command-line)
 
 ---

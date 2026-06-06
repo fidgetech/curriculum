@@ -7,6 +7,8 @@ hide_table_of_contents: true
 
 After installing Git, we recommend a few Git configurations that will make using Git on your own device similar to the experience you will have at Fidgetech.
 
+> **AI Support:** If a Git configuration command returns an error, ask AI to explain what the error means and what to check after trying the steps in this lesson. See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 ## [Make VS Code the Default Editor](#make-vs-code-the-default-editor)
 
 ---

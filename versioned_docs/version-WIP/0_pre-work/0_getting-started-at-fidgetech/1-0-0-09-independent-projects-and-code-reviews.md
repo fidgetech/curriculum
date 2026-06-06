@@ -35,6 +35,8 @@ We want you to succeed, and independent projects are how we give you honest, per
 
 As explained in our [Student Handbook](../../student-handbook#academic-honesty), these projects help you build skills for jobs after graduation. Copying someone else's work skips that practice and can leave you unprepared for interviews and on-the-job expectations.
 
+AI tools are subject to the same honesty rules as other references. If you can't explain your code, you're not ready to submit it. See [Using AI Responsibly at Fidgetech](./1-0-0-13-using-ai-responsibly-at-fidgetech) and [Academic Honesty](./1-0-0-10-academic-honesty) for details.
+
 **If you are struggling or feel overwhelmed,** do the best you can and submit what you have. Failing projects _may be resubmitted_ (see _Resubmission_ below). Your instructor can help you improve and resubmit—see [How to Ask for Help](./1-0-0-07-how-to-ask-for-help) and the next lesson, [Academic Honesty](./1-0-0-10-academic-honesty), for what you can reference and what to do when you are stuck. Plagiarism is never the only option.
 
 The next lesson goes into more detail about academic honesty, including general guidelines. Projects are reviewed to confirm work is your own. **Plagiarism or receiving unauthorized help on an independent project is grounds for expulsion**, as described in the student handbook. 
@@ -48,7 +50,7 @@ Successful completion of independent projects is required to pass courses and gr
 
 * You must pass your current course to advance to the next course. 
 
-* You must pass _all_ courses in their track to be eligible for an internship, and to graduate.
+* You must pass _all_ courses in the program to graduate.
 
 * You are also required to verbally walk your instructor through at least one independent project codebase in-person or by video at least once in the program. At your instructor's discretion, you may be asked to do this more than once. Your instructor will determine which project to discuss and set up a meeting.
 

@@ -18,10 +18,12 @@ This is where you can find the setup and installation instructions for each piec
 
 ---
 
-We recommend installing Google Chrome if you use another browser on your personal machine. Chrome recognizes most of the latest JavaScript features and we use Chrome in the Fidgetech classroom. We also use Chrome Developer Tools as well as other Chrome features throughout the program. **You can download Chrome [here](https://www.google.com/chrome/).**
+We recommend installing Google Chrome if you use another browser on your personal machine. Chrome recognizes most of the latest JavaScript features and we use Chrome throughout the program. We also use Chrome Developer Tools as well as other Chrome features throughout the program. **You can download Chrome [here](https://www.google.com/chrome/).**
 
 ## [Having Setup or Installation Issues?](#having-setup-or-installation-issues)
 
 ---
 
 If you encounter any issues setting these up ask for assistance from your instructors.
+
+> **AI Support:** Stuck on a setup or installation error? After trying the steps in this lesson, you can ask AI to explain the error in plain language or suggest what to check next, but don't paste your whole project and ask it to fix everything. See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).

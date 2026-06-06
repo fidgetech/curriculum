@@ -6,7 +6,7 @@ hide_table_of_contents: true
 pagination_prev: null
 ---
 
-Hi! Welcome to Fidgetech's Coding Program. Throughout the course of each coding module, you'll experience a step-by-step guide that will take you from zero experience to web programmer in a short time. This program contains both lessons and practice exercises. This content is the curriculum for [Fidgetech](https://fidgetech.org/), a school for virtual training in technology and design with practical AI skills to prepare students for meaningful employment.
+Hi! Welcome to Fidgetech's Coding Program. Throughout the course of each coding module, you'll experience a step-by-step guide that will take you from zero experience to web programmer in a short time. This program contains both lessons and practice exercises. This content is the curriculum for [Fidgetech](https://fidgetech.org/), a school for virtual training in technology and design with practical AI skills to prepare students for meaningful employment. You'll learn more about responsible AI use in [Using AI Responsibly at Fidgetech](./1-0-0-13-using-ai-responsibly-at-fidgetech).
 
 ## [Our Philosophy](#our-philosophy)
 

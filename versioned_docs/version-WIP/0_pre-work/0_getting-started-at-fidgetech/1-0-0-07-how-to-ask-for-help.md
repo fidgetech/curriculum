@@ -25,7 +25,7 @@ These steps are a **helpful order**, not a test you must pass before you're allo
 
 1. **Break the problem down.** Most difficult problems are actually several smaller problems that aren't so difficult. Is there a smaller piece of the problem you're working on that you could solve?
 
-2. **Do your own research.** Go through the debugging steps you know so far (see [Debugging in JavaScript: Reading Console Errors](../../introduction-to-programming/2_javascript-and-web-browsers/1-2-1-08-debugging-in-javascript-reading-console-errors) and related lessons in Intro to Programming). Re-read or re-watch the relevant lessons on this site. Search online to see if others had the same problem.
+2. **Do your own research.** Go through the debugging steps you know so far (see [Debugging in JavaScript: Reading Console Errors](../../introduction-to-programming/2_javascript-and-web-browsers/1-2-1-08-debugging-in-javascript-reading-console-errors) and related lessons in Intro to Programming). Re-read or re-watch the relevant lessons on this site. Search online — or ask AI to explain an error in plain language — to see if others had the same problem.
 
 3. **Have your problem as close to being fixed as you know how.** When something isn't going right, you might try many different things. Before you ask someone for help, get your project back to the state you think is closest to working.
 
@@ -58,3 +58,23 @@ Link or screenshot: [GitHub repo, CodePen, or screenshot if helpful]
 During live class time, you can also ask in voice when your instructor invites questions, or message them directly on Discord if they've asked you to reach out that way.
 
 **Note:** For **independent projects**, classmates usually cannot help with your code until you've both passed that code review. See [Academic Honesty](./1-0-0-10-academic-honesty#getting-help). Your instructor is always the right person to ask about project requirements and resubmission.
+
+## [Using AI to Ask for Help](#using-ai-to-ask-for-help)
+
+---
+
+The same six steps above apply when you ask AI for help. AI is especially useful for turning "I'm stuck" into a clear, specific question — but only after you've tried to break the problem down and do your own research first.
+
+Before using AI, ask yourself: [Do I have the license for this?](./1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) If you can't evaluate AI's response or take responsibility for the output, ask an instructor or peer first.
+
+### [Strong vs. Weak Prompts](#strong-vs-weak-prompts)
+
+| ❌ Weak prompt | ✅ Strong prompt |
+|---|---|
+| "Fix my code." | "I expected this function to return a number, but it returns undefined. Can you explain 2–3 possible reasons this might happen without giving me the solution?" |
+| "Explain Git." | "I'm trying to push to GitHub and got 'rejected non-fast-forward.' Can you explain what that means in plain language?" |
+| "What does this error mean and fix it." | "My terminal says 'command not found: node.' What are 2–3 things I should check before asking my instructor?" |
+
+Strong prompts include what you expected, what actually happened, and what kind of help you want. They ask for explanation or next steps — not finished solutions.
+
+For Fidgetech's full AI principles, the Three AI Stances self-assessment, and guidance on when to use AI vs instructors vs peers, see [Using AI Responsibly at Fidgetech](./1-0-0-13-using-ai-responsibly-at-fidgetech).

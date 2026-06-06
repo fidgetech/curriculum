@@ -32,6 +32,4 @@ All students should follow the instructions in the lesson below to install neces
 
 * [Installing Node.js](../../intermediate-javascript/getting-started-with-javascript/2-0-0-3-installing-node-js)
 
-### [C#/.NET](#c-net)
-
-For the backend course, you will install the relevant software at the start of that Course Unit.
+You may install additional software for later course units at the start of each unit. Your instructor will let you know when new setup is required.

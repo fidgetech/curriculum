@@ -29,6 +29,8 @@ Each project that we create will be saved to a repository on GitHub. By the end 
 
 Do note that all repositories on GitHub are public by default, although it's possible to create private repos as well. Private repos are _not_ required for this course. It's standard practice for most developers to simply leave everything public, even if projects are still a work in progress.
 
+> **AI Support:** Confused by Git or GitHub terminology? After reading this lesson, you can ask AI to explain a term or error in plain language before reaching out to your instructor. See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 We'll walk through exactly how to use both Git and GitHub in an upcoming lesson. For now, simply remember that Git is the tool we'll use to save all changes and additions to our code on the computer we're working on. GitHub is the online location we can upload our Git-managed code to for safekeeping.
 
 ## [Installing Git on Macs](#installing-git-on-macs)
