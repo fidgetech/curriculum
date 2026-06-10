@@ -5,6 +5,14 @@ id: 1-0-0-09-independent-projects-and-code-reviews
 hide_table_of_contents: true
 ---
 
+## In this lesson
+
+- What independent projects (code reviews) are and why they matter
+- Expectations, the 8-hour work requirement, and how to submit
+- What happens if you need to resubmit—and where to get help
+
+---
+
 ## [Overview](#overview)
 ---
 
@@ -23,15 +31,15 @@ At Fidgetech, your coding instructor will review the independent project you sub
 ## [Academic Honesty](#academic-honesty)
 ---
 
-Independent projects must be completed individually. You may reference online resources, Learn How To Program, and your own code, but you may _not_ view or copy current or former students' work. 
+We want you to succeed, and independent projects are how we give you honest, personalized feedback on your skills. **Submit your own work.** You may reference online resources, the Fidgetech curriculum, and your own code, but you may _not_ view or copy current or former students' work.
 
-As explained in our [Student Handbook](../../student-handbook#academic-honesty), these projects are an opportunity to receive personalized feedback, and to ensure you're developing skills for success after graduation. If you plagiarize work you both lose this valuable opportunity and risk setting yourself up for failure at a job or internship. This will not only harm you, but the reputation of all Fidgetech students as well.
+As explained in our [Student Handbook](../../student-handbook#academic-honesty), these projects help you build skills for jobs after graduation. Copying someone else's work skips that practice and can leave you unprepared for interviews and on-the-job expectations.
 
-For these reasons, projects are carefully reviewed to confirm all work is your own. **Students found to have plagiarized or received help from others will be expelled.** 
+AI tools are subject to the same honesty rules as other references. If you can't explain your code, you're not ready to submit it. See [Using AI Responsibly at Fidgetech](./1-0-0-13-using-ai-responsibly-at-fidgetech) and [Academic Honesty](./1-0-0-10-academic-honesty) for details.
 
-The next lesson goes into detail about what you can and cannot reference, including general guidelines and what to do if you are struggling.
+**If you are struggling or feel overwhelmed,** do the best you can and submit what you have. Failing projects _may be resubmitted_ (see _Resubmission_ below). Your instructor can help you improve and resubmit—see [How to Ask for Help](./1-0-0-07-how-to-ask-for-help) and the next lesson, [Academic Honesty](./1-0-0-10-academic-honesty), for what you can reference and what to do when you are stuck. Plagiarism is never the only option.
 
-Keep in mind that failing projects _may be resubmitted._ (see _Resubmission_ below). If you find yourself struggling, don't feel tempted to plagiarize. Do the best you can, and submit what you have. You and your teacher can later work out a plan for revisiting and resubmitting the project. 
+The next lesson goes into more detail about academic honesty, including general guidelines. Projects are reviewed to confirm work is your own. **Plagiarism or receiving unauthorized help on an independent project is grounds for expulsion**, as described in the student handbook. 
 
 ## [Course Requirements](#course-requirements)
 ---
@@ -42,7 +50,7 @@ Successful completion of independent projects is required to pass courses and gr
 
 * You must pass your current course to advance to the next course. 
 
-* You must pass _all_ courses in their track to be eligible for an internship, and to graduate.
+* You must pass _all_ courses in the program to graduate.
 
 * You are also required to verbally walk your instructor through at least one independent project codebase in-person or by video at least once in the program. At your instructor's discretion, you may be asked to do this more than once. Your instructor will determine which project to discuss and set up a meeting.
 
@@ -55,24 +63,37 @@ In general, we have the following expectations for independent projects.
 
 * **The completed project must use the provided prompt.** For instance, you cannot simply create your own prompt because you do not want to work on the prompt provided. As an example, if the prompt asks you to create an application for an imaginary storefront, you cannot instead turn in a choose-your-own-adventure application, even if the completed project demonstrates understanding of the course materials.
 
-* **You must work on the project for the specified amount of time, and during the time frame allotted.** For full-time students, students are expected to work at least 8 hours on the project. Note that instructors may use your Git commit history (Git is a tool for tracking changes to code) to help determine whether you spent the full amount of time working on the project.
-
-* **If you finish your project early, you are still expected to spend the full amount of time working on your project.** See _Further Exploration_ below. Remember that you can always add additional functionality or make an application look nicer. Even if you complete any further exploration objectives early, use the extra time to practice coding and challenge yourself further.
+* **You must work on the project during the time frame allotted** and for the required hours (see _Time on project_ below).
 
 * **All projects must include a complete README.** We'll go over the requirements for a README in a future lesson.
+
+## [Time on Project](#time-on-project)
+---
+
+For full-time students, you are expected to work **at least 8 hours** on each independent project during the allotted time frame. Instructors may use your Git commit history (Git tracks changes to code) to confirm you spent adequate time.
+
+If you finish the required objectives early, use the remaining time for _Further Exploration_ (optional stretch goals in each project), polish, or extra practice. Do not stop at the minimum if time remains in your project window.
 
 ## [Further Exploration](#further-exploration)
 ---
 
-You are expected to do at least 8 hours of work on each project, which you can show in your commit history. Each project includes a _Further Exploration_ section with optional objectives. These are ideas to extend your application beyond the minimum requirements. You're encouraged to tackle these extra features if you complete the primary objectives with time to spare, or you wish to continue working on the project.
+Each project includes a _Further Exploration_ section with optional objectives. These extend your application beyond the minimum requirements. Tackle them if you complete the primary objectives with time to spare, or you wish to continue building.
 
 Remember, the purpose of completing these projects isn't _just_ to pass your courses! In the future, you will need to demonstrate your coding skills to potential employers. By creating polished, professional projects in each section you will exit the program with a diverse, well-rounded portfolio before you even begin your job search!
 
 ## [Submission](#submission)
 ---
 
+Before submitting, use this checklist:
 
-Before submitting, do a final check for each objective.  Spend a few minutes checking indentation, removing commented-out code, creating a detailed README, etc. Your project should feel polished and complete.
+- [ ] All required objectives are complete (or you have noted what is still in progress)
+- [ ] You used the **provided project prompt** (not a substitute topic)
+- [ ] You worked at least **8 hours** on the project (full-time students) during the allotted window
+- [ ] Your **README** is complete
+- [ ] Code is pushed to a **GitHub** repo
+- [ ] You are ready to add your **GitHub link** and **notes** for your instructor in Code Central
+
+Do a final polish pass: check indentation, remove commented-out code, and make sure the project feels complete.
 
 When everything is in order, complete the following steps to submit your project:
 

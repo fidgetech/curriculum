@@ -15,12 +15,11 @@ There's a lot to get used to when getting started at Fidgetech, so we're hoping 
 
 **Cohort.** This refers to the group of students who are signed up in the same program. We often distinguish cohorts by their start date, like the "May cohort" or "October cohort". We also talk about the "upper cohort" and "lower cohort", distinguishing the cohort who is farther along ("upper") from the cohort who is earlier ("lower") in the program.
 
-**Course.** This is a topic that is comprised of multiple sub-topics, and at Fidgetech we will also refer to this as a Course Unit. The course will correspond to the language, framework, or general topic that will be covered. Every track at Fidgetech has multiple courses to teach you full stack web development. For example, the _Javascript and React_ track has 4 courses: 
+**Course.** This is a topic that is comprised of multiple sub-topics, and at Fidgetech we will also refer to this as a Course Unit. The course will correspond to the language, framework, or general topic that will be covered. The Fidgetech Code Program includes these core courses:
 
   * Introduction to Programming
   * Intermediate JavaScript
   * React
-  * Internship
 
 **Course section.** Also known as "section", this is one section of a course. At Fidgetech course sections last as long as the student requires, for full-time Fidgetech students the sections last one week. For example, [the Introduction to Programming course](../../introduction-to-programming) has three course sections: 
 
@@ -58,8 +57,8 @@ There's a lot to get used to when getting started at Fidgetech, so we're hoping 
 
 **Scrum.** This is an umbrella term that refers to a short meeting with your class and instructor or dev team. At Scrum, everyone checks in, shares announcements, and discusses questions. At Fidgetech, you'll have an all-hands Scrum at 10 AM for morning students and 1:30 PM for afternoon students, and both times for full-time students.
 
-**Student handbook.** This is the main reference for all information about Fidgetech's philosophy, structure, course requirements, facilities, and policies. Fidgetech staff will regularly cite the student handbook's policies, and send you information from the student handbook. If you can't find the information you are looking for, ask any Fidgetech staff for help. The [student handbook](../../pre-work/getting-started-at-Fidgetech/1-0-0-13-student-handbook#the-big-picture) is located in the "Getting Started with Fidgetech" pre-work attached to every course. 
+**Student handbook.** This is the main reference for all information about Fidgetech's philosophy, structure, course requirements, facilities, and policies. Fidgetech staff will regularly cite the student handbook's policies, and send you information from the student handbook. If you can't find the information you are looking for, ask any Fidgetech staff for help. The [student handbook](../../student-handbook) is available in the curriculum site.
 
-**Track.** This refers to the program that you are signed up for at Fidgetech. There are full-time and part-time tracks, and there are tracks differentiated by course of study, like the C# and React (Part-Time) track or the Ruby and React track. You can find all available tracks by going to [www.learnhowtoprogram.com/tracks](/tracks). Fidgetech has it's own track.
+**Program.** This refers to the Fidgetech Code Program you are enrolled in — a cohort-based curriculum that moves from pre-work through Introduction to Programming, Intermediate JavaScript, and React.
 
 <!-- **Workshops.** Also referred to as “DEI workshops”, these are periodic events facilitated by Fidgetech staff to discuss specific topics within diversity, equity, and inclusion. These workshops include a short presentation and a series of breakout sessions in which students group up and discuss prompts. These workshops along with our DEI curriculum is discussed in the  [Making Fidgetech an Inclusive Place](../../diversity-equity-and-inclusion/dei-curriculum-overview/making-Fidgetech-an-inclusive-place). -->

@@ -48,3 +48,5 @@ It's unlikely you've previously used your brain as intensely as you will at Fidg
 ### [Be Patient](#be-patient)
 
 Also, we commonly see students giving themselves a hard time if they don't understand material right away. Sometimes students blame themselves for not picking up content quickly. Sometimes they find fault in the curriculum or in their teachers because something is initially confusing, challenging, or complex. However, these things take time to learn. Some of the concepts you learn at Fidgetech may not click until weeks or even months later. Part of having a growth mindset also means being patient with yourself and trusting the process. The saying "practice makes perfect" isn't really true — there's no way to become perfect! However, practice will help you grow as a coder. Be patient with yourself, your peers, and with us. And trust the process, too.
+
+If you need a different pace, format, or environment to learn well, that fits a growth mindset too, ask for what you need! See [Accommodations for Remote Learning](../../pre-work/getting-started-with-working-remotely/1-0-0-30-accommodations-for-remote-learning).

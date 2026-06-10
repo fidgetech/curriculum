@@ -6,16 +6,28 @@ hide_table_of_contents: true
 pagination_next: null
 ---
 
-Remote learning comes up with its own set of challenges. These challenges can be even more pronounced for parents taking care of children, people with disabilities, and more. We are dedicated to making our online program accessible to all. Please reach out to your instructor or to career services staff if you have questions about accommodations or accessibility.
+One of Fidgetech's core pillars is to meet you where you are. **Asking for accommodations is normal and supported!** If something would help you learn or participate, please reach out. We are dedicated to making our program accessible to all.
 
-**If you are a parent taking care of a child while taking the program remotely,** we know it can be a challenge to do both at the same time! Accommodations are available including extended breaks and partial flex time. While we expect students to pair between 8-5, some allowances can be made if flexibility is needed for childcare. Please let an instructor know your individual situation and we will work with you on a plan. You might also find some interesting tips in this article about [working remotely with kids](https://open.buffer.com/integrating-work-family-21-tips-working-home-kids/).
+## [How to Request](#how-to-request-accommodations)
 
-**If you are an English language learner and want to translate between languages,** we suggest installing a browser extension to make translation quick and easy. Because we use the Chrome browser in our lessons, we recommend the [Google Translate browser extension](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=en). 
+Contact your **instructor** first (day-to-day routines: pairing, breaks, camera, Discord). For longer-term needs, also contact **fidgetech staff**. Say what is hard and what would help or ask staff to suggest options.
 
-**If you are deaf or hard of hearing,** Discord text channels are available for communication instead of using voice channels. If you need accommodations, reach out to your instructor to ensure that remote meetings are captioned. 
+> Hi [instructor name], I'm [your name]. I'm finding it difficult to [example: stay on voice all day / pair for long blocks]. Would it be possible to [request: text for Scrum / scheduled breaks / written assignment summaries]? Happy to discuss. Thank you.
 
-**If you have a visual or reading impairment, or simply prefer to listen instead of read,** Discord has a Text-To-Speech feature that [you can read about and learn how to implement here](https://support.discord.com/hc/en-us/articles/212517297-Text-to-Speech-101). You can also try out the [Natural Reader Text to Speech Chrome extension](https://chrome.google.com/webstore/detail/natural-reader-text-to-sp/kohfgcgbkjodfcfkcackpagifgbcmimk?hl=en), though it's worth noting that many features are behind a paywall.
+For technical questions, see [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
 
-**If you do not have access to high-speed internet or to a more recent computer,** it may cause some challenges for you. However, we understand that not everyone can afford a new computer and more expensive internet. While we cannot provide computers, we can try to work with you to troubleshoot your individual situation and provide accommodations as needed. Please reach out to your instructor for more information.
+## [Common Accommodations](#common-accommodations)
 
-**If you need other accommodations,** please reach out to your instructor and career services staff.
+**Neurodivergent learning (autism, ADHD, dyslexia, executive function):** breaks and pacing; written checklists and lesson summaries; async or text-based participation; optional camera/voice; sensory adjustments (notifications, screen-share layout). Pairing can be draining—shorter blocks, solo time, and structured check-ins are available. See [Pair Programming](../../pre-work/getting-started-at-fidgetech/1-0-0-06-pair-programming) and [Growth Mindset](../../pre-work/getting-started-at-fidgetech/1-0-0-02-growth-mindset).
+
+**Parents with childcare:** extended breaks and partial flex time; tell your instructor your situation. Tips: [working remotely with kids](https://open.buffer.com/integrating-work-family-21-tips-working-home-kids/).
+
+**English language learners:** try the [Google Translate browser extension](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=en) (we use Chrome in lessons).
+
+**Deaf or hard of hearing:** use Discord text channels; ask your instructor to caption remote meetings.
+
+**Visual, reading, or listening preferences:** Discord [Text-to-Speech](https://support.discord.com/hc/en-us/articles/212517297-Text-to-Speech-101) or the [Natural Reader extension](https://chrome.google.com/webstore/detail/natural-reader-text-to-sp/kohfgcgbkjodfcfkcackpagifgbcmimk?hl=en) (many Natural Reader features are paid).
+
+**Limited internet or hardware:** we cannot provide computers, but we can troubleshoot and discuss accommodations.
+
+**Something else?** Reach out to your instructor or Fidgetech Staff. We would rather hear from you early than have you struggle in silence.
