@@ -28,6 +28,17 @@ At the end of this section, you will be able to:
 * Apply Bootstrap rules and classes
 * Adapt a webpage for responsive design
 
+## AI in this section
+---
+
+> **AI Support:** Throughout this section, AI can help you explain command line errors, clarify Git and GitHub terminology, and understand HTML and CSS concepts. Do **not** use AI to complete exercises or generate your independent project code.
+>
+> **Example prompts:**
+> - Weak: "Do my Git, HTML, and CSS homework for me."
+> - Strong: "I'm reading about Git staging vs committing and I'm confused. Can you explain the difference in plain language—without running commands for me?"
+>
+> Before asking AI, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 ## Independent Project Objectives
 ---
 
@@ -61,8 +72,19 @@ When a project is both polished and in a portfolio-quality state, this means:
   * Commits are made regularly with clear messages that finish the phrase "It will…".
 
 ### What are the baseline project requirements?
-All independent coding projects at Epicodus have these baseline requirements:
+All independent coding projects at Fidgetech have these baseline requirements:
 
 * A complete and informative README
 * The project's commit history shows at least 8 hours of work.
 * Completion of the project based on the prompt _and_ objectives. The prompt contains details on the project's theme and features that are not always detailed in the objective. Carefully read through the prompt towards the end of your work session to make sure that you are not missing anything.
+
+## Checkpoint
+---
+
+Before starting this section, you should be able to:
+
+- [ ] Explain when AI can help you in this section (terminology, errors, concepts) vs when it cannot (exercises, project code)
+- [ ] Name the main topics you'll cover: command line, Git, HTML, CSS, and Bootstrap
+- [ ] Know where to find [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help) and [Using AI Responsibly](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech)
+
+If you're unsure, re-read the [AI in this section](#ai-in-this-section) callout above or ask AI: "I'm reading about Git staging vs committing and I'm confused. Can you explain the difference in plain language—without running commands for me?"

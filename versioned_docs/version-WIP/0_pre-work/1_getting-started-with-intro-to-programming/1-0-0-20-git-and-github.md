@@ -9,6 +9,8 @@ When we get started writing a new program, the last thing we want to happen is t
 
 Later when we work in teams, there will be more versions of our code as each team member copies the main version to work on, share, review and merge into our final program (and NOT overwrite each other's work!). At Fidgetech, we will learn to manage these different versions of our code using two tools: **Git** and **GitHub**.
 
+> **AI Support:** Confused by Git or GitHub terminology? After reading this lesson, you can ask AI to explain a term or error in plain language before reaching out to your instructor — but don't ask it to run Git commands for you. Before asking, check: [Do I have the license for this?](../../getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 ## [Git](#git)
 
 ---

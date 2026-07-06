@@ -5,7 +5,30 @@ id: 1-1-3-7-box-model
 hide_table_of_contents: true
 ---
 
-There's one last major piece of HTML and CSS we need to cover: the **box model**. Each element on a web page takes up space, and the box model describes the space around the element. Let's start with some unstyled HTML and then add CSS as we go to illustrate the box model:
+There's one last major piece of HTML and CSS we need to cover: the **box model**. Each element on a web page takes up space, and the box model describes the space around the element.
+
+## In this lesson
+---
+
+- How margin, border, padding, and content fit together in the box model
+- The difference between margin and padding
+- How `box-sizing: border-box` simplifies width calculations
+
+> **AI Support:** Margin, padding, and border still fuzzy? After reading this lesson, you can ask AI to explain the box model visually or in plain language. Do **not** ask AI to write pages or complete exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Make my CSS work."
+> - Strong: "I'm confused about margin vs padding in the box model. Can you explain the difference with a simple analogy—without writing CSS for me?"
+>
+> If you're stuck, you can ask AI to:
+> 1. **Explain it simply** — plain-language definition or analogy for margin, padding, and border
+> 2. **Help me debug** — what to check next when spacing looks wrong (not the fix)
+> 3. **Break it into steps** — one small next action to test in DevTools
+> 4. **Help me ask for support** — draft a clear message for an instructor
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
+Let's start with some unstyled HTML and then add CSS as we go to illustrate the box model:
 
 <div class="filename">box-model.html</div>
 
@@ -75,6 +98,10 @@ The box model is perhaps easiest to understand with a picture:
 ![A diagram of the CSS box model.](/images/INTRO/week1-html-css/intro-box-model-diagram.png)
 
 You'll run into the box model a *lot* when building web pages, so it's a good idea to get familiar with it.
+
+> **Try asking AI:** "Can you explain the difference between margin and padding in the CSS box model, using a simple analogy—without writing CSS for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
 
 ## The `box-sizing` Property
 
@@ -197,3 +224,14 @@ Now if we take a look, we'll see that all the boxes are the same width:
 Note, however, that this only affects width, not height.
 
 In general, when we want to add padding or borders to a box, we recommend using the `border-box` property to simplify sizing.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Describe the four parts of the box model (content, padding, border, margin)
+- [ ] Explain the difference between margin and padding
+- [ ] Describe why `box-sizing: border-box` is useful
+
+If you're unsure, re-read the section above or ask AI: "I'm confused about margin vs padding in the box model. Can you explain the difference with a simple analogy—without writing CSS for me?"

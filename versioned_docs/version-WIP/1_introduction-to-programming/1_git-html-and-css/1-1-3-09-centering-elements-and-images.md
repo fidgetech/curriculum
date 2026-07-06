@@ -5,7 +5,24 @@ id: 1-1-3-9-centering-elements-and-images
 hide_table_of_contents: true
 ---
 
-It's common to want to center elements on a page — and as we've already learned, it's easy to do so with text. All we have to do is add the following property:
+It's common to want to center elements on a page — and as we've already learned, centering text is straightforward. Centering boxes and images takes a bit more care.
+
+## In this lesson
+---
+
+- Centering text with `text-align: center`
+- Centering block elements with `margin: auto` and a set width
+- Why inline elements need `display: block` before `margin: auto` works
+
+> **AI Support:** Frustrated that your image or box won't center? After reading this lesson, you can ask AI to explain what to check next. Do **not** ask AI to write pages or complete exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Center my page for me."
+> - Strong: "I added `margin: auto` but my image still isn't centered. Can you explain why inline elements behave differently—without writing the CSS fix for me?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
+All we have to do to center text is add the following property:
 
 ```css
 text-align: center;
@@ -143,3 +160,17 @@ Now if we refresh our page, everything will be correctly centered. Note that non
 
 ![All elements are centered now.](/images/INTRO/week1-html-css/Week-1-2020-images/centered-elements.png)
 
+> **Try asking AI:** "Why does `margin: auto` center block elements but not inline elements like images? Can you explain in plain language—without writing CSS for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Center text with `text-align: center`
+- [ ] Center a block element using `margin: auto` and a set width
+- [ ] Explain why inline elements may need `display: block` to center with `margin: auto`
+
+If you're unsure, re-read the section above or ask AI: "I added `margin: auto` but my image still isn't centered. Can you explain why inline elements behave differently—without writing the CSS fix for me?"

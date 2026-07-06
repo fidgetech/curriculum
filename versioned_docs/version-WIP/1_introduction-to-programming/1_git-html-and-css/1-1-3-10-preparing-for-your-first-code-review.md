@@ -9,15 +9,30 @@ hide_table_of_contents: true
 
 ---
 
-The primary goal of every code review is learning and practice. While the format will prepare you for code reviews at your future workplace, at Epicodus, code reviews are an opportunity to solidify the core concepts you’ve learned in a course section. Because of this, the code review prompts are generally easier than the practice prompts that you encounter towards the end of a course section (which are designed to push your comfort level). 
+The primary goal of every code review is learning and practice. While the format will prepare you for code reviews at your future workplace, at Fidgetech, code reviews are an opportunity to solidify the core concepts you’ve learned in a course section. Because of this, the code review prompts are generally easier than the practice prompts that you encounter towards the end of a course section (which are designed to push your comfort level). 
 
 However, **we do not expect students to perfectly understand or apply the concepts from the course section.** We know the time it takes to understand a concept varies, and may require a conversation with your instructor. It can be unnecessarily demoralizing to feel like you are falling behind because you *think* you did not do well on a code review. In these cases, trust your instructor to let you know how you are doing. As instructors, we commonly see that students feel badly about their performance when there’s no reason to. If you need reassurance about your work and progress, please reach out to your instructor.
 
-We know that some students have testing-related anxieties, and other students are getting back into a structured educational setting for the first time in a while. Both of these (and other anxieties) can make it more challenging to do well on a code review. If you can relate, please keep in mind that there’s always the opportunity to revise your work after you receive feedback and direction from your instructor. It’s OK to not get things perfect the first time around. We also see that some students struggle on the first few code reviews, but do fine thereafter because they’ve gotten used to the assignment and assessment structure at Epicodus. Whatever your experience is, if you feel like you are struggling, check in with your instructor to get some reassurance.
+We know that some students have testing-related anxieties, and other students are getting back into a structured educational setting for the first time in a while. Both of these (and other anxieties) can make it more challenging to do well on a code review. If you can relate, please keep in mind that there’s always the opportunity to revise your work after you receive feedback and direction from your instructor. It’s OK to not get things perfect the first time around. We also see that some students struggle on the first few code reviews, but do fine thereafter because they’ve gotten used to the assignment and assessment structure at Fidgetech. Whatever your experience is, if you feel like you are struggling, check in with your instructor to get some reassurance.
 
 Our biggest expectation for students is to use the time during a code review to develop their general research and creative troubleshooting skills. Developers hit walls all of the time, and you will, too. The best tool to move past a roadblock is to be persistent and continue troubleshooting! The more you spend time developing these skills, the stronger they will become. In the long run, this will help you become a self-sufficient developer who is able to take on more complex and ambiguous programming tasks. 
 
-We have some practical strategies for approaching code review to share with you in this lesson. Continue reading, and bring any questions or concerns to your instructor. 
+We have some practical strategies for approaching code review to share with you in this lesson. Continue reading, and bring any questions or concerns to your instructor.
+
+## In this lesson
+---
+
+- What to expect from your first code review at Fidgetech
+- How to focus on your project's MVP before stretch goals
+- Practical debugging and self-review strategies before you submit
+
+> **AI Support:** Feeling anxious about your first code review? You can ask AI to explain code review vocabulary or help you break a prompt into smaller steps. Do **not** ask AI to complete your project or write submission notes for you.
+>
+> **Example prompts:**
+> - Weak: "Do my code review for me."
+> - Strong: "I'm nervous about my first code review. Can you explain what 'MVP' means in this context and how to tell required objectives from stretch goals—without writing code for me?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
 
 ## Strategy #1: Focus On the Minimum Viable Product
 
@@ -44,11 +59,15 @@ By following this MVP process to create our product, we reap two distinct benefi
 * **We have a functioning product completed sooner**. While it may not have all the fancy features we envision, it's better to prioritize building a functioning prototype with fewer features than to add too many features at once, which can result in delays and missed deadlines. You can always add those extra features after your basic MVP is finished.
 * **We can also gather user feedback before adding extra features**. After creating an MVP, users can beta-test it and provide feedback. This allows you to determine what additional features users actually want. 
 
-For code reviews at Epicodus, the first benefit is what matters most to us: getting the project done on time. It’s easy to get side tracked in general, not to mention side tracked on the bells and whistles of a project. There’s also room for your creative direction in code reviews, and we encourage students to have fun with the styling and logic of their websites. However, the downside of this is getting too focused on features that are not a part of the core required functionality, which often results in not completing the project by the end of the work session. Because of this, we strongly suggest that you focus on building your project’s MVP first. After that, you can revisit your code and make it more complex, or make improvements to your UI.
+For code reviews at Fidgetech, the first benefit is what matters most to us: getting the project done on time. It’s easy to get side tracked in general, not to mention side tracked on the bells and whistles of a project. There’s also room for your creative direction in code reviews, and we encourage students to have fun with the styling and logic of their websites. However, the downside of this is getting too focused on features that are not a part of the core required functionality, which often results in not completing the project by the end of the work session. Because of this, we strongly suggest that you focus on building your project’s MVP first. After that, you can revisit your code and make it more complex, or make improvements to your UI.
 
 Every code review prompt has a theme and specific required objectives, which outline the MVP of the application. To stay on track with the MVP, some students find it helpful to create a list of objectives from the CR prompt that they can check off throughout the day. Other students find it helpful to review the prompt requirements at the beginning and end of their work session to ensure they’ve met all of the required objectives. 
 
 Do what works best for you, but make sure to focus on the MVP first.
+
+> **Try asking AI:** "My code review prompt has a theme and a list of objectives. Can you help me sort which items sound like MVP vs stretch goals—without writing any code for me?"
+>
+> After reading AI's response, explain your MVP plan back in your own words before moving on.
 
 ## Strategy #2: Learn From the Bugs You Encounter
 
@@ -93,3 +112,15 @@ In this lesson, we covered general expectations for code reviews and common chal
 * Review your work
 
 Remember, the languages, tools, and approaches you'll learn here are much less important than the general skills of solving problems. If you hit a wall, this is normal. Take a break if you need to, and when you come back to the problem, be persistent and draw on all of your resources.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Explain what a code review is for at Fidgetech (learning, not perfection)
+- [ ] Define MVP and describe how to prioritize it over stretch goals
+- [ ] Name at least two troubleshooting steps when you hit a bug
+- [ ] Describe how to review your work against the prompt before submitting
+
+If you're unsure, re-read the sections above or ask AI: "I'm nervous about my first code review. Can you explain what 'MVP' means in this context and how to tell required objectives from stretch goals—without writing code for me?"

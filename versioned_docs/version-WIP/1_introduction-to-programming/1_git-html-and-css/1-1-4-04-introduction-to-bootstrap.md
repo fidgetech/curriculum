@@ -9,6 +9,21 @@ Even if you don't pursue a career in web design, you'll need to know enough abou
 
 Additionally, you might want to create a website that looks nice without spending a lot of time designing the user interface. In that instance, front-end frameworks are very useful. In this lesson we'll learn what a front-end framework is, how they work, and we'll begin familiarizing ourselves with Bootstrap, one of the most popular front-end frameworks for design.
 
+## In this lesson
+---
+
+- What a **front-end framework** is and why developers use one
+- What Bootstrap provides out of the box (components, responsive layout, styling)
+- How Bootstrap fits into the rest of this section
+
+> **AI Support:** New to Bootstrap or front-end frameworks? You can ask AI to explain terminology in plain language. Use AI to **understand what Bootstrap is and how class names work**—not to generate full page layouts or complete exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Build my Bootstrap page."
+> - Strong: "Can you explain what a front-end framework like Bootstrap does in plain language—without writing HTML for me?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 ## Front-End Frameworks
 
 ---
@@ -27,7 +42,7 @@ The front-end can also include business logic, especially if the application doe
 
 Bootstrap is essentially a big package containing all the code and CSS necessary to make a wide variety of commonly-used components like navigation bars, forms, headings, tables, buttons, and more. It also has built-in media queries so any Bootstrap elements we use in our own site will automatically re-style and resize themselves to best fit the user's viewport.
 
-You can read more about Bootstrap on their website, [here](http://getbootstrap.com/).
+You can read more about Bootstrap on their website, [here](https://getbootstrap.com/).
 
 ### Websites Built with Bootstrap
 
@@ -36,3 +51,18 @@ Check out the following link to see some example sites built with Bootstrap:
 * [Sites Built with Bootstrap](http://expo.getbootstrap.com/)
 
 We're going to start integrating Bootstrap into our sites, too. This will both further our knowledge of CSS, allow us to quickly create polished, professional-looking sites with far less effort. In the next lesson, we'll walk through how to download and install Bootstrap into a project.
+
+> **Try asking AI:** "What does it mean that Bootstrap is a CSS framework? Can you explain with a simple analogy?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Describe what a front-end framework is
+- [ ] Explain why Bootstrap is widely used for layout and components
+- [ ] Name a few types of elements Bootstrap provides (navbars, buttons, grids, etc.)
+
+If you're unsure, re-read the section above or ask AI: "Can you explain the difference between front-end and back-end in web development—without writing code for me?"

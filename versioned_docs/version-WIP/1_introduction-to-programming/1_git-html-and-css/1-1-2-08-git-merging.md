@@ -11,6 +11,28 @@ Additionally, branches can be used to simply try out different options before de
 
 However, once we confirm the code located in a feature branch works, and that we want to include it in the final version of our project, we need to integrate this code into the `main` branch that represents our final product. The act of incorporating code from multiple branches together is called **merging**. In this lesson, we'll walk through merging branches together in our example project.
 
+## In this lesson
+---
+
+- How to merge a feature branch into `main`
+- How to verify that commits from a branch are present after merging
+- When and how to delete branches after a successful merge
+- What merge conflicts are (and when you'll learn to resolve them)
+
+> **AI Support:** Hit a merge conflict or confused by merge output? After trying the steps in this lesson, you can ask AI to explain what a conflict means in plain language or what to check next. Do **not** ask AI to resolve merge conflicts for you or complete merging exercises.
+>
+> **Example prompts:**
+> - Weak: "Fix my merge conflict."
+> - Strong: "Git says I have a merge conflict in `styles.css`. Can you explain what a merge conflict means and what the `<<<<<<<` markers indicate—without choosing which code to keep for me?"
+>
+> Before asking AI, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> If you're stuck, you can ask AI to:
+> 1. **Explain it simply** — plain-language definition or analogy
+> 2. **Help me debug** — what to check next (not the fix)
+> 3. **Break it into steps** — one small next action
+> 4. **Help me ask for support** — draft a clear message for an instructor
+
 ## Project Recap
 
 ---
@@ -163,4 +185,20 @@ Know that merging doesn't always go quite this smoothly, unfortunately. If multi
 
 However, we shouldn't encounter any merge conflicts quite yet. For now, simply make sure you're familiar with the general concepts of branching and merging. We'll explore merge conflicts, what they look like, and how to resolve them later on.
 
-As you can see, merging and branching in Git is a powerful, complex feature. However, don't feel overwhelmed if you don't yet have a handle on everything we've covered in these past two lessons. Feel free to refer back to this content whenever necessary. Soon enough, branching and merging will become second nature! 
+> **Try asking AI:** "Git says I have a merge conflict. Can you explain what a merge conflict means and what the `<<<<<<<` markers indicate—without choosing which code to keep for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
+
+As you can see, merging and branching in Git is a powerful, complex feature. However, don't feel overwhelmed if you don't yet have a handle on everything we've covered in these past two lessons. Feel free to refer back to this content whenever necessary. Soon enough, branching and merging will become second nature!
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Explain what merging does and which branch you must be on before merging
+- [ ] Merge a feature branch into `main` using Git commands
+- [ ] Describe what a merge conflict is (even if you haven't resolved one yet)
+- [ ] Delete a branch safely after confirming its commits are in `main`
+
+If you're unsure, re-read the section above or ask AI: "Git says I have a merge conflict in `styles.css`. Can you explain what a merge conflict means and what the `<<<<<<<` markers indicate—without choosing which code to keep for me?"

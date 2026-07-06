@@ -7,6 +7,21 @@ hide_table_of_contents: true
 
 In this lesson, we'll walk through how to download and install Bootstrap into one of our own projects.
 
+## In this lesson
+---
+
+- Two ways to add Bootstrap: **downloading files** vs using a **CDN**
+- How to link Bootstrap and your custom stylesheet in the correct order
+- What the `integrity` and `crossorigin` attributes on CDN links do (at a high level)
+
+> **AI Support:** Unsure whether to download Bootstrap or use a CDN? You can ask AI to explain the tradeoffs in plain language. Use AI to **understand setup steps and link tags**—not to generate project files or complete exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Set up Bootstrap for me."
+> - Strong: "Can you explain the difference between linking a local `bootstrap.css` file and using a CDN `<link>` tag—without writing my HTML for me?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 There are multiple ways to download Bootstrap. We'll address the two simplest approaches here:
 
 * Downloading the Bootstrap source code and then adding the files directly to your project
@@ -60,6 +75,10 @@ _(**Note:** When you see ellipses (`...`) in a code snippet, it means portions o
 
 As we see here, we can link to multiple stylesheets. However, it's very important that _our_ stylesheet is listed after the Bootstrap stylesheet. This way, the rules in our stylesheet will override rules that have the same name in the Bootstrap stylesheet. We'll cover this further in a future lesson.
 
+> **Try asking AI:** "Why does my custom stylesheet need to come after Bootstrap's stylesheet in the `<head>`?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
+
 ### Linking to a CDN
 
 We can also add Bootstrap into a project via a **content delivery network**, or **CDN**. This is the option explained in the "Quick start" section on Bootstrap's [introduction page](https://getbootstrap.com/docs/4.5/getting-started/introduction/#quick-start).
@@ -102,7 +121,7 @@ The `<script>` tag lets us add executable code to our HTML, like JavaScript. The
 
 We'll learn all about JavaScript and the `<script>` tag in the next section. For now, it's helpful to know that JavaScript enables interactivity for webpages, like visual effects or animations. Because of this, many Bootstrap elements require JavaScript. Examples include dropdown menus, modal windows, and so on. If you'd like to see an example, check out [this demo of a Bootstrap modal that uses JavaScript](https://getbootstrap.com/docs/4.5/components/modal/#live-demo). Make sure to click the button "Launch demo modal".
 
-Since we won't begin exploring JavaScript until the next section, we recommend holding off on adding any JavaScript features for now. This means you do not need to include the `<script>` tags in your project's `<head>` tags. Also, you will never be expected to add any Bootstrap JavaScript features for an independent project at Epicodus, so it's up to you if you eventually want to explore them further.
+Since we won't begin exploring JavaScript until the next section, we recommend holding off on adding any JavaScript features for now. This means you do not need to include the `<script>` tags in your project's `<head>` tags. Also, you will never be expected to add any Bootstrap JavaScript features for an independent project at Fidgetech, so it's up to you if you eventually want to explore them further.
 
 If you do want to explore JavaScript features, the easiest way to do this is to include the CDN link to jQuery and to Bootstrap's JavaScript file in the `<head>` tags of your HTML document. 
 
@@ -113,3 +132,14 @@ To learn which elements require JavaScript, visit [Bootstrap's JavaScript Docume
 If we use a CDN, we have to have an internet connection for it to work — otherwise our project won't be able to access the content. Overall, though, CDNs are a great way to go — they are very fast and reliable.
 
 Ultimately, both approaches we mention above work well. Now that we know how to add Bootstrap to our own projects, we're ready to start working with Bootstrap styles.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Download Bootstrap and add `bootstrap.css` to a project's `css` folder
+- [ ] Link Bootstrap and a custom stylesheet in the correct order
+- [ ] Explain when a CDN is useful and one limitation of using one
+
+If you're unsure, re-read the section above or ask AI: "Can you walk me through the steps to add Bootstrap 4.5 to an HTML project—without writing the files for me?"

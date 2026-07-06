@@ -5,9 +5,30 @@ id: 1-1-4-8-bootstrap-grid-system
 hide_table_of_contents: true
 ---
 
-Lining up content evenly with only HTML and CSS can prove to be pretty challenging. That's why another most commonly-used Bootstrap feature is their grid system. The [grid system](http://getbootstrap.com/css/#grid) allows us to use several Bootstrap classes to quickly create a wide variety of invisible grids that neatly space and line up content.
+Lining up content evenly with only HTML and CSS can prove to be pretty challenging. That's why another most commonly-used Bootstrap feature is their grid system. The [grid system](https://getbootstrap.com/css/#grid) allows us to use several Bootstrap classes to quickly create a wide variety of invisible grids that neatly space and line up content.
 
 In this lesson, we'll explore how to implement this powerful feature in our own projects.
+
+## In this lesson
+---
+
+- How Bootstrap rows and columns create a 12-unit grid
+- Column class syntax (`col-6`, `col-md-4`, etc.) and responsive breakpoints
+- How to nest cards inside grid columns
+
+> **AI Support:** Confused by Bootstrap grid class names like `col-md-6`? You can ask AI to explain what a class does in plain language or help you read the grid docs. Use AI to **understand class names and layout concepts**—not to generate full page layouts or complete exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Build my Bootstrap grid."
+> - Strong: "I'm reading Bootstrap's grid docs and don't understand `col-md-6`. Can you explain what that class does in plain language—without writing my HTML for me?"
+>
+> If you're stuck, you can ask AI to:
+> 1. **Explain it simply** — plain-language definition or analogy
+> 2. **Help me debug** — what to check next (not the fix)
+> 3. **Break it into steps** — one small next action
+> 4. **Help me ask for support** — draft a clear message for an instructor
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
 
 The Bootstrap grid system contains just two parts: rows and columns. It is built on a powerful CSS concept known as the [flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox). The flexbox is a very important layout model for web designers, so if you have a specific interest in design, we recommend exploring it further on your own.
 
@@ -67,6 +88,10 @@ Now let's take a look at the Bootstrap format for creating these columns:
 ```
 
 Here, we have two columns nested in one row. The class of each column div is `"col-6"`. Why 6, though? Well, remember that we can have up to twelve columns in a row. We can think of each of these columns as a single unit of width. So to make up half of the width of the page, we need six of those units. In order to have two columns then, each taking up half the width of the page, we need each of them to take up six units — that's why the class name is `"col-6"`.
+
+> **Try asking AI:** "Bootstrap uses a 12-column grid. Can you explain why `col-6` creates two equal columns—without writing my HTML for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
 
 If we wanted to have three equal columns, we'd do the following:
 
@@ -167,13 +192,13 @@ This is really nice because we wouldn't want to have two tiny and difficult to r
 
 The [responsive breakpoints](https://getbootstrap.com/docs/4.5/layout/overview/#responsive-breakpoints) section of the Bootstrap Overview documentation gives more information on these media queries.
 
-## Updating Our First Section at Epicodus Site
+## Updating Our First Section at Fidgetech Site
 
 ---
 
 Now that we have a little practice with the Bootstrap grid system, we can delete `bootstrap.html`. Let's update the `index.html` file of our project in `section-in-review` to incorporate a grid system.
 
-We currently have 6 sections in our "First Section at Epicodus" website: Command Line, HTML, CSS, Bootstrap, and Partnering. Let's organize these into two rows of three columns, each with cards. Here's the updated code of `<body>`:
+We currently have 6 sections in our "First Section at Fidgetech" website: Command Line, HTML, CSS, Bootstrap, and Partnering. Let's organize these into two rows of three columns, each with cards. Here's the updated code of `<body>`:
 
 <div class="filename">index.html</div>
 
@@ -182,9 +207,9 @@ We currently have 6 sections in our "First Section at Epicodus" website: Command
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1>My First Section at Epicodus</h1>
+      <h1>My First Section at Fidgetech</h1>
       <p>
-        I've almost finished my first course section at Epicodus. Here are some of the things I've learned so far:
+        I've almost finished my first course section at Fidgetech. Here are some of the things I've learned so far:
       </p>
     </div>
     <div class="row">
@@ -287,3 +312,14 @@ Try it out in the browser. We'll see two rows, each with three cards. Each card 
 ![Bootstrap grid with rows, columns, and cards.](/images/INTRO/week1-html-css/Bootstrap+Lessons/bootstrap-grid-updated.png)
 
 As you might've guessed, it's also responsive, with a breakpoint designed for medium-sized devices.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Create rows and columns using Bootstrap's 12-unit grid
+- [ ] Explain what `col-6` and `col-md-4` mean
+- [ ] Describe why column units in a row must add up to 12
+
+If you're unsure, re-read the section above or ask AI: "Can you explain the difference between `col-4` and `col-md-4` in Bootstrap's grid—without writing my layout for me?"

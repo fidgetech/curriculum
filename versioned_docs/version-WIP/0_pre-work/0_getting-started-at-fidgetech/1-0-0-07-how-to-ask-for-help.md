@@ -67,6 +67,8 @@ The same six steps above apply when you ask AI for help. AI is especially useful
 
 Before using AI, ask yourself: [Do I have the license for this?](./1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) If you can't evaluate AI's response or take responsibility for the output, ask an instructor or peer first.
 
+Ask clear questions, provide useful context, evaluate AI responses critically, and know when to stop using AI and ask a human.
+
 ### [Strong vs. Weak Prompts](#strong-vs-weak-prompts)
 
 | ❌ Weak prompt | ✅ Strong prompt |
@@ -74,6 +76,9 @@ Before using AI, ask yourself: [Do I have the license for this?](./1-0-0-13-usin
 | "Fix my code." | "I expected this function to return a number, but it returns undefined. Can you explain 2–3 possible reasons this might happen without giving me the solution?" |
 | "Explain Git." | "I'm trying to push to GitHub and got 'rejected non-fast-forward.' Can you explain what that means in plain language?" |
 | "What does this error mean and fix it." | "My terminal says 'command not found: node.' What are 2–3 things I should check before asking my instructor?" |
+| "Fix my HTML." | "My `<img>` tag isn't showing an image. Can you explain 2–3 things I should check in my `src` attribute and file path without writing the fix for me?" |
+| "Why isn't my CSS working?" | "I added a class selector in my CSS file but the styles aren't applying. Can you explain how the cascade and specificity might affect this?" |
+| "My git push failed." | "I ran `git push` and got 'rejected non-fast-forward.' I expected my commits to upload. Can you explain what this error means and what I should try first?" |
 
 Strong prompts include what you expected, what actually happened, and what kind of help you want. They ask for explanation or next steps — not finished solutions.
 

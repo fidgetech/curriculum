@@ -16,6 +16,18 @@ _Ask yourself the following questions before moving on:_
 * Why does indentation and spacing matter?
 * How do you know if a tag is an opening or closing tag?
 
+> **AI Support:** Building your own webpage and unsure which block elements to use? After trying the steps below, you can ask AI to explain HTML tag choices in plain language. You **can** ask AI to clarify block element structure and indentation rules. Do **not** ask AI to write your webpage or complete this exercise for you.
+>
+> **Example prompts:**
+> - Weak: "Make my pet website for me."
+> - Strong: "I'm building a page about my pet. Which block elements should I use for a title, a paragraph, and a list of favorites—and why? Explain without writing the HTML for me."
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
+> **Try asking AI:** "Before I start my pet website, can you list the block HTML elements I learned about in the last two lessons and what each one is for—without writing a page for me?"
+>
+> After reading AI's response, sketch your page structure on paper before you open your editor.
+
 ## Code
 ---
 
@@ -33,3 +45,13 @@ Of course, you're more than welcome to make webpages about anything you want —
 
 **Don't forget to make a new project folder, commit regularly and push to a remote repository on GitHub.**  Continue to pay close attention to indentation and closing all tags you open.
 
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Build a multi-section webpage using block elements with proper indentation
+- [ ] Commit regularly with clear messages and push to GitHub
+- [ ] Review and fix spacing in your existing `my-first-webpage` files
+
+If you're unsure, re-read the block element lessons or ask AI: "I'm building a page about my pet. Which block elements should I use for a title, a paragraph, and a list of favorites—and why? Explain without writing the HTML for me."

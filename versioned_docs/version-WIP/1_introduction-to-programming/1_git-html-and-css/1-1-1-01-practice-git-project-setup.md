@@ -5,7 +5,31 @@ id: 1-1-1-1-practice-git-project-setup
 hide_table_of_contents: true
 ---
 
-**Goal**: In this lesson, we'll create a one-page website that says "hello" to the world. In the process, we'll learn about Git, a tool for tracking changes to our code. The steps we follow in this lesson will reflect the daily workflow we'll use when coding all of our projects throughout our time at Epicodus. You can also use the cheat sheet as a reference for starting your projects during this section — but using Git for your projects will soon become second nature.
+**Goal:** In this lesson, we'll create a one-page website that says "hello" to the world. In the process, we'll learn about Git, a tool for tracking changes to our code. The steps we follow in this lesson will reflect the daily workflow we'll use when coding all of our projects throughout our time at Fidgetech. You can also use the cheat sheet as a reference for starting your projects during this section — but using Git for your projects will soon become second nature.
+
+## Warm Up
+---
+
+_Ask yourself the following questions before moving on:_
+
+* What is a Git repository, and why do we create one at the start of every project?
+* What's the difference between your home directory and the Desktop for storing projects?
+* What does `git init` do, and why is the `.git` folder hidden?
+
+> **AI Support:** New to Git terms like `init`, `status`, and `commit`? After trying the steps below, you can ask AI to explain a term in plain language. You **can** ask AI to clarify Git vocabulary and command-line navigation. Do **not** ask AI to run setup steps or complete this exercise for you.
+>
+> **Example prompts:**
+> - Weak: "Set up Git for me."
+> - Strong: "What does `git init` actually create in my project folder? Can you explain in plain language—without running commands for me?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
+> **Try asking AI:** "What's the difference between a global and local Git configuration? Can you explain when I'd use each—without typing commands for me?"
+>
+> After reading AI's response, explain the difference back in your own words before moving on.
+
+## Code
+---
 
 ## Configuring Your Git Name and Email
 
@@ -26,7 +50,7 @@ A global configuration sets a configuration _everywhere_ on a machine — not ju
 
 Whenever we start a new project, we create a new project directory.
 
-At Epicodus, we generally create new projects on the `Desktop` directory. However, you may want to create a new directory on your personal machine for storing projects as well.
+At Fidgetech, we generally create new projects on the `Desktop` directory. However, you may want to create a new directory on your personal machine for storing projects as well.
 
 If we open the terminal and enter `ls`, we'll see a list of the files and directories that in our home directory. Chances are, you won't want to store your newly-created projects in the home directory.
 
@@ -130,3 +154,14 @@ $ cd ..
 ```
 
 Now, we are ready to add a new file to our project.  This will be the HTML page that will say "Hello" to the world.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Create a new project directory and navigate to it in the terminal
+- [ ] Initialize a Git repository with `git init` and locate the hidden `.git` folder
+- [ ] Explain why Git needs your name and email before you can commit
+
+If you're unsure, re-read the sections above or ask AI: "What does `git init` actually create in my project folder? Can you explain in plain language—without running commands for me?"

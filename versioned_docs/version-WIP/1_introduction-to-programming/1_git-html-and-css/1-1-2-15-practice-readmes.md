@@ -5,7 +5,7 @@ id: 1-1-2-15-practice-readmes
 hide_table_of_contents: true
 ---
 
-**Goal**: Now that you know how to clone repositories and how to write `README.md` files, let's practice by adding `README.md` files written in Markdown to the repositories you've created so far.
+**Goal:** Now that you know how to clone repositories and how to write `README.md` files, let's practice by adding `README.md` files written in Markdown to the repositories you've created so far.
 
 ## Warm Up
 ---
@@ -13,6 +13,18 @@ hide_table_of_contents: true
 * Why are READMEs important?
 * What sections should be included in one? Why?
 * How do we format READMEs?
+
+> **AI Support:** Unsure what to write in a README section? After trying the steps below, you can ask AI to explain what a section is for. Do **not** ask AI to write your README or invent project details for you.
+>
+> **Example prompts:**
+> - Weak: "Write my README."
+> - Strong: "I'm writing a README for my `my-first-webpage` project. What should the 'Description' section include for a beginner HTML site—without writing the section for me?"
+>
+> Before asking AI, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
+> **Try asking AI:** "What sections should a beginner project README include, and what is each section for? Can you list them—without writing my README for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
 
 ## Code
 ---
@@ -42,3 +54,15 @@ After you finish updating your my-first-webpage project, you will commit the new
 * `$ git status` to ensure that everything has been committed
 * `$ git push origin main` to push your updated project back up to GitHub
 * Check on GitHub to make sure that your README shows up correctly on the main project page.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Clone an existing repository from GitHub
+- [ ] Create a `README.md` file with all required sections
+- [ ] Format your README using Markdown
+- [ ] Commit, push, and verify the README displays on GitHub
+
+If you're unsure, re-read the section above or ask AI: "I'm writing a README for my `my-first-webpage` project. What should the 'Description' section include for a beginner HTML site—without writing the section for me?"

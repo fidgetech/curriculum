@@ -7,13 +7,28 @@ hide_table_of_contents: true
 
 When you are writing HTML (or any other programming language), well-written code follows consistent indentation and spacing patterns. In some languages, indentation and spacing are even required for the code to function properly. While that's not the case with HTML or JavaScript, it's still very important to properly indent our code. Proper indentation makes our code cleaner and more readable. It also makes it easier to prevent bugs.
 
+## In this lesson
+---
+
+- How to configure VS Code for 2-space tab indentation at Fidgetech
+- Why indentation and spacing matter for readable HTML
+- How HTML treats whitespace, and best practices for clean code
+
+> **AI Support:** Wondering why indentation and spacing matter? You can ask AI to explain how readable HTML helps you debug. You **can** ask AI to clarify indentation rules and whitespace behavior. Do **not** ask AI to reformat entire files or complete exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Fix my indentation."
+> - Strong: "When should I indent HTML tags, and when should sibling tags stay at the same level? Can you explain with a simple example—without rewriting my file?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 ## Adjusting VS Code Settings for Code Indentation
 
 ---
 
 There are two debates around indentation in the coding community. The first debate is on whether we should use spaces or tabs to indent our code. The second is on whether our indents should equal 2 spaces or 4 spaces.
 
-At Epicodus, we indent our code 2 spaces and use tabs instead of spaces for indentation. The default tab size in VS Code is 4 spaces so we need to update it. We can set the tab size by:
+At Fidgetech, we indent our code 2 spaces and use tabs instead of spaces for indentation. The default tab size in VS Code is 4 spaces so we need to update it. We can set the tab size by:
 
 * Clicking the cog symbol in the lower left corner of VS Code and selecting _Settings_.
 * Your settings should open to the _Commonly Used_ options. If not, select _Commonly Used_ from the menu. 
@@ -63,6 +78,10 @@ However, note that the `<h2>` and `<p>` tags aren't indented past `<h1>`. This i
 ```
 
 Organizationally, it kind of makes sense... but it's not correct.
+
+> **Try asking AI:** "I indented `<h2>` and `<p>` further than `<h1>` because they come after it in the file. Can you explain why that's wrong and what 'nested' really means in HTML?"
+>
+> After reading AI's response, explain nesting back in your own words before moving on.
 
 ### An Aside About Comments...
 
@@ -207,13 +226,13 @@ Proper use of whitespace in your HTML is directly related to how readable your c
 
 **3. Be consistent and follow convention.** The style conventions will change based on the organization you are with, the language you are working with, and your personal preference. For example, you may prefer to use more whitespace because it helps you better read and understand your code, whereas the company you work for may expect you follow a specific style convention. Also, some languages use whitespace deliberately in their syntax, and your code could break if you use it incorrectly.
 
-While you are at Epicodus, we expect you to follow the best practices listed in this section. On your projects, your teachers will give you feedback based on these best practices.
+While you are at Fidgetech, we expect you to follow the best practices listed in this section. On your projects, your teachers will give you feedback based on these best practices.
 
 ## Tabs Versus Spaces... 2 Spaces Versus 4
 
 --- 
 
-Now that we've covered the basics of indentation and spacing, let's briefly get into the debate about tabs versus spaces and 2 spaces versus 4 when it comes to indentation. All of these choices are valid — though the TV show Silicon Valley (a satire about computer programmers) turned spaces versus tabs into both a joke and a heated debate. So let's look at the pros and cons of both — and why Epicodus does things one way and not the other.
+Now that we've covered the basics of indentation and spacing, let's briefly get into the debate about tabs versus spaces and 2 spaces versus 4 when it comes to indentation. All of these choices are valid — though the TV show Silicon Valley (a satire about computer programmers) turned spaces versus tabs into both a joke and a heated debate. So let's look at the pros and cons of both — and why Fidgetech does things one way and not the other.
 
 ### Tabs Versus Spaces
 
@@ -227,7 +246,7 @@ The argument in favor of 2 spaces is that it takes up less space in your code ed
 
 We know a lot of our students have smaller screens — and deeply nested code is often unavoidable in HTML documents. That's why we prefer 2 spaces.
 
-The argument for 4 spaces is that code is more readable. The folks at Microsoft — and many C#/.NET developers — argue for 4 spaces. That is why VS Code has a default of 4 spaces. They argue that deeply nested code is a sign of badly-written code — so it shouldn't be going off your screen much anyway.
+The argument for 4 spaces is that code is more readable. The folks at Microsoft — and many professional developers — argue for 4 spaces. That is why VS Code has a default of 4 spaces. They argue that deeply nested code is a sign of badly-written code — so it shouldn't be going off your screen much anyway.
 
 Ultimately, neither of these options are wrong. The most important thing is to be consistent everywhere in your code!
 
@@ -236,3 +255,14 @@ Regardless of the language you use to write code, learn the indentation and spac
 ### Toggling Word Wrap in VS Code
 
 For now, even with 2 space indentation, you will often find content in your code going off the screen. This can be very annoying. Fortunately, there's a setting in VS Code to ensure all your code is showing. Select the _View_ dropdown menu from the top left menu bar in VS Code, then find the option for _Word Wrap_ and make sure that it is selected (or checked). This forces the text in your screen to wrap inside the screen of your code editor. You can easily toggle it on or off. Occasionally, wrapping text can make it more difficult to see how code is indented — but it's generally a great tool for making sure you can see all of your code.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Configure VS Code for 2-space tab indentation
+- [ ] Explain when to indent HTML tags and when sibling tags stay at the same level
+- [ ] Describe how HTML treats extra whitespace in the browser
+
+If you're unsure, re-read the sections above or ask AI: "When should I indent HTML tags, and when should sibling tags stay at the same level? Can you explain with a simple example—without rewriting my file?"

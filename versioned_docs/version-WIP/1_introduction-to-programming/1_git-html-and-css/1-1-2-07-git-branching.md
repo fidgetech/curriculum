@@ -11,6 +11,28 @@ In this lesson we'll dive deeper into Git by exploring something called branchin
 
 To do this, we'll walk through creating an example project in the next two lessons. Together, we'll create and merge branches in this example project. Then, in an upcoming exercise you'll have the opportunity to work with branches on your own project.
 
+## In this lesson
+---
+
+- What Git branches are and why developers use them
+- How the `main` branch differs from feature branches
+- How to create, switch between, and view branches in a project
+- How branching sets up merging (covered in the next lesson)
+
+> **AI Support:** Confused by branch terminology or a Git error message? After trying the steps in this lesson, you can ask AI to explain a term or error in plain language. Do **not** ask AI to run Git commands for you or complete branching exercises.
+>
+> **Example prompts:**
+> - Weak: "Fix my git branch."
+> - Strong: "What's the difference between `main` and a feature branch? Can you explain with a simple analogy—without running commands for me?"
+>
+> Before asking AI, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> If you're stuck, you can ask AI to:
+> 1. **Explain it simply** — plain-language definition or analogy
+> 2. **Help me debug** — what to check next (not the fix)
+> 3. **Break it into steps** — one small next action
+> 4. **Help me ask for support** — draft a clear message for an instructor
+
 ## Overview
 
 ---
@@ -54,6 +76,10 @@ A **branch** is just another copy or version of the project's main code. Both Gi
 **Main** is the name of the default branch. If you don't create or navigate between branches in your project, you will have one branch  named `main`, and you will be located in it by default.  When you have multiple branches in a project, the `main` branch is like the "final draft".  
 
 Branches that are _not_ `main` are often referred to as **feature branches**, because they allow developers to experiment with new features before integrating them into the "final draft" `main` branch.  
+
+> **Try asking AI:** "What's the difference between `main` and a feature branch? Can you explain with a simple analogy—without running Git commands for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
 
 ## Example Project
 
@@ -730,4 +756,16 @@ Are you beginning to see how branching can be beneficial? It allows us to experi
 
 This prevents bugs or issues from affecting the project. If the new code a developer adds breaks anything, it won't cause issues on `main`, _only on that isolated branch_. This allows developers room to iron out any issues with code before integrating it into the final version of the project.
 
-When code is fine-tuned and tested in the branch, and we know it works, we can add it into `main`. This process is called **merging**, and we'll explore it in detail in the next lesson as we continue to work with this example project. 
+When code is fine-tuned and tested in the branch, and we know it works, we can add it into `main`. This process is called **merging**, and we'll explore it in detail in the next lesson as we continue to work with this example project.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Explain why developers use branches instead of editing `main` directly
+- [ ] Describe the difference between `main` and a feature branch
+- [ ] Create a new branch and switch between branches using Git commands
+- [ ] View all branches in a project with `git branch`
+
+If you're unsure, re-read the section above or ask AI: "What's the difference between `main` and a feature branch? Can you explain with a simple analogy—without running commands for me?"

@@ -7,6 +7,8 @@ hide_table_of_contents: true
 
 In this lesson, we'll dive a bit deeper into the **cascading** aspect of cascading style sheets (CSS). **Cascading** simply means that many rules can "cascade" down and apply to HTML elements. For instance, in past lessons, we defined a style for `<ul>`. This style was applied to the text that was inside of `<li>` tags. In other words, the style cascaded down from the parent element to the child element. This concept is also known as **inheritance** and it's a big part of computer programming. Since the `<li>` tags are nested within the `<ul>` tags, the `<li>` tags inherit the styles given to the `<ul>`s.
 
+> **AI Support:** Styles not applying the way you expect? You can ask AI to explain specificity and the cascade in plain language, but test changes in DevTools yourself rather than asking AI to rewrite your CSS. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 We can use inheritance to change the font for the entire web page like this:
 
 ```css

@@ -7,6 +7,21 @@ hide_table_of_contents: true
 
 Before we move on, let's cover a few basic tips and tricks for working with HTML in VS Code. This lesson is optional but the content here is highly recommended. The VS Code features mentioned below make it easier to work with HTML and other coding languages.
 
+## In this lesson
+---
+
+- How to **fold** code sections to focus on structure
+- Using line guides and tag highlighting to match opening/closing tags
+- **Intellisense** and Emmet snippets for faster HTML editing
+
+> **AI Support:** Unsure how a VS Code feature works or which shortcut to use? You can ask AI to explain an editor feature in plain language. Use AI to **understand VS Code tools for HTML**—not to generate project code or complete exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Fix my HTML indentation."
+> - Strong: "Can you explain how code folding in VS Code helps when working with nested Bootstrap rows and columns—without rewriting my HTML for me?"
+>
+> Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 If we look at the HTML in our `section-in-review` project, it's starting to get a bit overwhelming. It's often frustrating to add rows and columns to HTML that already exists, and it can also be challenging to get our indentation lined up and make sure we have the correct number of tags and closing tags — and that all of those tags are in the right places.
 
 VS Code is designed to make our lives easier as developers. Here are a few things we can do to make HTML easier to work with.
@@ -45,6 +60,10 @@ As we can see in the GIF above, there are vertical guidelines showing us exactly
 
 This is really useful — and sometimes even necessary when trying to figure out where a closing tag is missing (or when we have one closing tag too many).
 
+> **Try asking AI:** "Can you explain how VS Code's tag highlighting helps find missing closing tags in nested HTML?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
+
 Of course, to fully use this functionality, we need to have clear, consistent indentation.
 
 ### Intellisense
@@ -63,4 +82,15 @@ Next, we can do the same thing with an ordered list. And finally, here's another
 
 There's another very helpful thing to know about Intellisense. It doesn't just help us type code more efficiently — it makes code **discoverable**. For instance, let's say we want to add an HTML tag and we can't remember what it is. All we know is the letter it begins with. We can type in that letter and then Intellisense can help jog our memory. Intellisense can sometimes even suggest something we don't know about at all, saving us the time we'd need to hunt through documentation. This quality of discoverability becomes more apparent when we start working with other coding languages like JavaScript. However, by working with and becoming more comfortable with Intellisense now, we'll be better prepared to take advantage of this feature going forward.
 
-For more information on how VS Code can help us work with HTML, see [HTML in Visual Studio Code](https://code.visualstudio.com/docs/languages/html). You are not required to know or use any of these features for Epicodus. However, we recommend using the VS Code features above because they make it easier to write and debug HTML.
+For more information on how VS Code can help us work with HTML, see [HTML in Visual Studio Code](https://code.visualstudio.com/docs/languages/html). You are not required to know or use any of these features for Fidgetech. However, we recommend using the VS Code features above because they make it easier to write and debug HTML.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Fold code sections in VS Code to focus on HTML structure
+- [ ] Use tag highlighting to match opening and closing tags
+- [ ] Use Intellisense or an Emmet snippet to speed up HTML editing
+
+If you're unsure, re-read the section above or ask AI: "Can you explain three VS Code features that help with nested Bootstrap HTML—without writing my code for me?"

@@ -9,6 +9,22 @@ All of the tags we learned about in the previous lessons are block elements, mea
 
 We'll also learn about HTML **attributes** that we add to HTML elements to provide more information about them. Sometimes attributes are required for an HTML element to work properly, and other times they are optional.
 
+## In this lesson
+---
+
+- The difference between block and inline elements
+- How to use `<strong>`, `<em>`, `<a>`, and `<img>` tags
+- What HTML attributes are and how `href` and `src` work
+- How to link between pages in the same project using relative paths
+
+> **AI Support:** Stuck on link, image, or attribute syntax? After reading this lesson, you can ask AI to explain how an attribute works in plain language. Do **not** ask AI to write HTML pages or complete exercises for you.
+>
+> **Example prompts:**
+> - Weak: "Fix my HTML link."
+> - Strong: "What's the difference between the `href` attribute on an `<a>` tag and the `src` attribute on an `<img>` tag? Can you explain with a simple analogy—without writing HTML for me?"
+>
+> Before asking AI, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 ## HTML Inline Elements and Attributes
 
 ---
@@ -28,7 +44,7 @@ The `<strong>` tag indicates that something is important. By default, it will ma
 <div class="filename">my-first-webpage.html</div>
 
 ```html
-<h2>Written with the guidance of <em>Epicodus</em></h2>
+<h2>Written with the guidance of <em>Fidgetech</em></h2>
 ```
 
 ### `<a>` Tags
@@ -38,7 +54,7 @@ Now, let's learn about perhaps the most important HTML tag of them all:
 <div class="filename">my-first-webpage.html</div>
 
 ```html
-<p>Check out <a href="http://www.epicodus.com/">Epicodus</a>. It's a great school for learning web programming!</p>
+<p>Check out <a href="https://fidgetechcode.org/">Fidgetech</a>. It's a great school for learning web programming!</p>
 ```
 
 The `<a>` is an **anchor tag** and it creates a link. The `href` (for *hypertext reference*) is an **attribute** for the anchor tag that provides the web address the link will go to. In the example above, we've linked to a website outside of our project.
@@ -50,14 +66,14 @@ All HTML tags can have one or more attributes. An **attribute** provides additio
 Let's review the anchor tag example we just learned about. In this anchor:
 
 ```html
-<a href="http://www.epicodus.com/">Epicodus</a>
+<a href="https://fidgetechcode.org/">Fidgetech</a>
 ```
 
 * `<a>` is opening tag for the anchor tag (the HTML element).
 * `</a>` is closing tag for the anchor tag (the HTML element).
-* `Epicodus` is the content of the anchor tag (the link's text, displayed to the user).
+* `Fidgetech` is the content of the anchor tag (the link's text, displayed to the user).
 * `href` is the attribute.
-* `http://www.epicodus.com/` is the value of the `href` attribute. The value of an HTML attribute is surrounded in quotes.
+* `https://fidgetechcode.org/` is the value of the `href` attribute. The value of an HTML attribute is surrounded in quotes.
 
 **Take note:** attributes are always added to the opening tag, and never to the closing tag
 
@@ -73,7 +89,11 @@ Our `my-first-webpage` project contains two HTML documents. Here's how we can li
 
 Instead of supplying a full path, we've provided a **relative path**. If a link doesn't start with `http://` (or `https://`, or a few other specific protocols you may come across), your web browser will look in the same folder for the file you're linking to.
 
-This brings up a pitfall you should be careful to avoid: if you write a link like `<a href="www.epicodus.com">link</a>`, it will look for a file called `www.epicodus.com` in the current directory. So if you're linking to another website, don't forget to put `http://` in front!
+This brings up a pitfall you should be careful to avoid: if you write a link like `<a href="fidgetechcode.org">link</a>`, it will look for a file called `fidgetechcode.org` in the current directory. So if you're linking to another website, don't forget to put `http://` in front!
+
+> **Try asking AI:** "What's the difference between a relative path like `favorite-things.html` and an absolute URL like `https://fidgetechcode.org/`? Can you explain when to use each—without writing links for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
 
 ### `<img>` Tags
 
@@ -163,3 +183,15 @@ Let's update the page of favorite things to include some of the concepts we just
 ```
 
 Make sure to commit and push to your remote GitHub repository after updating. Check that your GitHub repository shows the changes.
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Explain the difference between block and inline elements
+- [ ] Use `<a>` tags with `href` to link to external sites and local HTML files
+- [ ] Use `<img>` tags with `src` and `alt` attributes
+- [ ] Describe what an HTML attribute is and where it belongs in a tag
+
+If you're unsure, re-read the section above or ask AI: "What's the difference between the `href` attribute on an `<a>` tag and the `src` attribute on an `<img>` tag? Can you explain with a simple analogy—without writing HTML for me?"

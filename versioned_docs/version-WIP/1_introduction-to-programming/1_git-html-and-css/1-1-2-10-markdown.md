@@ -9,6 +9,22 @@ Many people think that creating a web page involves really complicated code that
 
 The web is made up of mostly text files — like the ones you created to write your papers in high school — as well as some other files like images or videos. These files are stored on computers that are linked together over networks. When you put a web site's address into your browser, you are really just asking to see a particular file, or combination of files. We will go more in depth into how the internet works later, but for now, this idea should help you to understand how to create basic web pages.
 
+## In this lesson
+---
+
+- What Markdown is and why we use it for READMEs
+- How to write headings, bold/italic text, lists, and links in Markdown
+- How Markdown renders in a browser vs. how it looks in a text editor
+- How to practice Markdown with online tools
+
+> **AI Support:** Unsure about Markdown syntax? After reading this lesson, you can ask AI to explain what a symbol does (like `#` or `*`). Do **not** ask AI to write your README or blog post for you.
+>
+> **Example prompts:**
+> - Weak: "Write my Markdown."
+> - Strong: "What's the difference between `# Heading` and `## Heading` in Markdown? Can you explain with examples of what each renders as—without writing a full document for me?"
+>
+> Before asking AI, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+
 Markdown is one of the easiest browser languages to learn. Here is an example of a document written in Markdown.
 
 ```md
@@ -251,4 +267,20 @@ This recipe is from my dad and they are a favorite among friends and family. The
 [Click here](http://allrecipes.com) to check out my other great recipes.
 ```
 
+> **Try asking AI:** "How do I create a numbered list vs. a bulleted list in Markdown? Can you explain the syntax difference—without writing a full recipe for me?"
+>
+> After reading AI's response, explain the concept back in your own words before moving on.
+
 There's much more we can do with Markdown. Check out the documentation at [Daring Fireball](http://daringfireball.net/projects/markdown/syntax) to see what else you can do with this tool!
+
+## Checkpoint
+---
+
+Before moving on, you should be able to:
+
+- [ ] Explain what Markdown is and why READMEs use it
+- [ ] Create headings, bold/italic text, lists, and links in Markdown
+- [ ] Preview how Markdown renders in a browser or editor
+- [ ] Name the file extension for a Markdown document
+
+If you're unsure, re-read the section above or ask AI: "What's the difference between `# Heading` and `## Heading` in Markdown? Can you explain with examples of what each renders as—without writing a full document for me?"
