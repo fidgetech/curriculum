@@ -11,6 +11,12 @@ Most developers use a **linter** to check their code for errors. Linters are ver
 
 There are advantages and disadvantages to beginning coders using linters. It's important to develop a good eye for code, including finding errors. If you rely on a linter too much early on, you may not develop this skill as fully. On the other hand, many errors are genuinely hard for beginners to find and a linter can save us a lot of frustration by showing us exactly where the error is. Finally, a linter is a bit like an automated mentor — as you write code, the linter will let us know if something doesn't look right, just like a real-life mentor teaching us how to code.
 
+> **AI Support:** Confused by a linter warning you don't recognize? After trying to research it yourself, you can ask AI to translate the linter message into plain language or explain why the rule exists — but don't ask it to rewrite your code to fix the warning. The same balance applies here: a linter (and AI) can point out that something looks off, but developing your own eye for code is the skill we're building. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Fix this linter error."
+> - Strong: "ESLint is flagging `no-unused-vars` on a variable I thought I was using. Can you explain what this rule checks for in plain language — without rewriting my code?"
+
 ## Debugging with a Linter
 ---
 

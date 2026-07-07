@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week we will cover equity and how it differs from equality. 
 
-Epicodus as an organization believes strongly in promoting diversity in the tech field. According to the [Diversity in High Tech](https://www.eeoc.gov/special-report/diversity-high-tech) report by the U.S. Equal Employment Opportunity Commission: many technical roles are currently held by white men while other groups such as women and people of color are underrepresented.
+Fidgetech as an organization believes strongly in promoting diversity in the tech field. According to the [Diversity in High Tech](https://www.eeoc.gov/special-report/diversity-high-tech) report by the U.S. Equal Employment Opportunity Commission: many technical roles are currently held by white men while other groups such as women and people of color are underrepresented.
 
 It wasn't always this way. In fact, before the advent of personal computers, computer programming jobs had a much more even gender balance. To find out more, check out this fascinating article [The Secret History of Women in Coding](https://web.archive.org/web/20220313005202/https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html).
 
@@ -19,22 +19,18 @@ At the heart of this issue is a debate between the ideas of **equality** versus 
 
 **Equality** is the idea that everyone should be treated equally no matter what. Proponents of this theory argue that this is a fair approach even though it doesn't address the fact that people haven't been treated equally in the past.
 
-**Equity** is the idea that we should give everyone what they need to be successful. This is very different from the idea of equality. For example, one Epicodus student with a previous coding background might find success without much support while another student might need additional support from teachers and peers in order to achieve that same success.
+**Equity** is the idea that we should give everyone what they need to be successful. This is very different from the idea of equality. For example, one Fidgetech student with a previous coding background might find success without much support while another student might need additional support from teachers and peers in order to achieve that same success.
 
-Let’s consider another example. Epicodus used to have a technical assessment for its applicants. While this approach treated students equally, students who didn't grow up with access to technology were less likely to be able to pass that assessment. So we added the Introduction to Programming course to make our program more equitable for students with less of a technical background.
+Let's consider another example. Some coding schools used to have a technical assessment for their applicants. While this approach treated students equally, students who didn't grow up with access to technology were less likely to be able to pass that assessment. So we added the Introduction to Programming course to make our program more equitable for students with less of a technical background.
 
-At Epicodus, we believe anyone can learn to code. However, that's not the same as saying that everyone is equal and that we just need to give them computers. We believe that the tech field must focus on equity in order to achieve a more diverse and effective workforce.
+At Fidgetech, we believe anyone can learn to code. However, that's not the same as saying that everyone is equal and that we just need to give them computers. We believe that the tech field must focus on equity in order to achieve a more diverse and effective workforce.
 
 Many forward-thinking tech companies agree with this assessment. Companies may be more willing to hire and train people from underrepresented communities in order to promote equity and diversity. Because people from underrepresented groups face many other challenges in the tech field, one thing tech companies can do is put additional time into the training and hiring process.
 
-<!-- ### [Ready to Write Your Reflection?](#ready-to-write-your-reflection)
+### [Ready to Write Your Reflection?](#ready-to-write-your-reflection)
 
-There is a reflective assignment for this lesson. If you are ready to write your reflection, head on over to Epicenter to find the prompt. If you are logged in to Epicenter, you can access the prompt by navigating to this link:
-
-**<span class="glyphicon glyphicon-link"></span> [Reflection Prompt: Equality Versus Equity](https://epicenter.epicodus.com/journals?title=Equality+Versus+Equity)** 
-
-Otherwise, you can find detailed instructions on accessing the reflection prompts in the [DEI Reflective Assignments](../../diversity-equity-and-inclusion/dei-curriculum-overview/dei-reflective-assignments#finding-the-reflection-prompts) lesson. -->
+There is a reflective assignment for this lesson. If you are ready to write your reflection, ask your instructor where to find the prompt. You can also find detailed instructions on accessing and submitting reflection prompts in the [DEI Reflective Assignments](../../diversity-equity-and-inclusion/dei-curriculum-overview/dei-reflective-assignments#finding-the-reflection-prompts) lesson.
 
 ### [Do you have feedback?](#do-you-have-feedback)
 
-We want to hear about your experience of the DEI curriculum. We outline all of the ways you can give feedback in [the student handbook](../../pre-work/getting-started-at-epicodus/1-0-0-13-student-handbook#giving-feedback).
+We want to hear about your experience of the DEI curriculum. We outline all of the ways you can give feedback in [the student handbook](../../student-handbook#giving-feedback).

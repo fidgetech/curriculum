@@ -16,6 +16,12 @@ What do we know so far about functions?
 
 Let's review function syntax, terminology and get started with writing our own custom functions.
 
+> **AI Support:** Not sure why your function isn't returning what you expect? After attempting to write and trace through it yourself, you can ask AI to explain what `return` does or interpret an error in plain language — but write the function yourself first. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Write this function for me."
+> - Strong: "My function isn't returning a value — it just says `undefined`. Can you explain what might cause that in plain language, without writing the fix for me?"
+
 ## Writing Functions
 ---
 
@@ -33,7 +39,7 @@ We're going to write a very simple function declaration to start. We'll give the
 ```javascript
 // Here we are defining the sayHi() function; this is a "function declaration".
 function sayHi() {                     
-  return 'Hello from Epicodus!';
+  return 'Hello from Fidgetech!';
 }                                             
 ```
 
@@ -49,7 +55,7 @@ Note, the code snippet above shows the proper indentation and spacing for functi
 
 ```javascript
 // Don't write function in one line.
-function sayHi() { return 'Hello from Epicodus!'; }                                             
+function sayHi() { return 'Hello from Fidgetech!'; }                                             
 ```
 
 It's not considered best practice.
@@ -61,7 +67,7 @@ Let's continue examining our function declaration:
 ```javascript
 // Here we are defining the sayHi function; this is a "function declaration".
 function sayHi() {                     
-  return 'Hello from Epicodus!';
+  return 'Hello from Fidgetech!';
 }                                             
 ```
 
@@ -69,11 +75,11 @@ Notice how we are using semicolons here. The first line, which uses the function
 
 The next line has a `return` statement. Statements and expressions have semicolons at the end of the line regardless of whether or not they are inside function declarations.
 
-The `return` keyword tells JavaScript to return anything to the right of the `return` keyword. In this case, we're returning the string `'Hello from Epicodus!'`. We could also return a variable instead:
+The `return` keyword tells JavaScript to return anything to the right of the `return` keyword. In this case, we're returning the string `'Hello from Fidgetech!'`. We could also return a variable instead:
 
 ```javascript
 function sayHi() {
-  const greeting = 'Hello from Epicodus!';  // Each statement is on its own line.
+  const greeting = 'Hello from Fidgetech!';  // Each statement is on its own line.
   return greeting;                          // Each statement is on its own line.
 }
 ```
@@ -91,14 +97,14 @@ For this next example, we're putting the code into the DevTools console. To call
 ```javascript
 // First we input the function declaration.
 > function sayHi() {                     
-  return 'Hello from Epicodus!';
+  return 'Hello from Fidgetech!';
 } 
 // Then we call the sayHi() function by including parens.
 > sayHi();                               
-'Hello from Epicodus!'
+'Hello from Fidgetech!'
 ```
 
-Every time we run the `sayHi()` function, it executes all JavaScript code between the opening and closing braces — `{` and `}`. In this case, our function returns the string `'Hello from Epicodus!'`. This isn't terribly useful so let's write a slightly more interesting function. 
+Every time we run the `sayHi()` function, it executes all JavaScript code between the opening and closing braces — `{` and `}`. In this case, our function returns the string `'Hello from Fidgetech!'`. This isn't terribly useful so let's write a slightly more interesting function. 
 
 ### A Function with a Parameter — `saySomething(whatToSay)`
 

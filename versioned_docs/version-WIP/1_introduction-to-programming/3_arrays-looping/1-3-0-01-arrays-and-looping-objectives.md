@@ -37,7 +37,7 @@ At the end of this section, you will be able to:
 * Build JavaScript functions that use arrays and looping
 * Create applications with well-separated logic, including many business logic functions that process data.
 
-**Remember that speed and quantity are not measurements of success at the end of a day..._understanding_ is.  While we expect you to review and share each other's work, there's a great saying that applies (with a slight Epicodus modification): _Don't compare your code to the code of others. Compare your code to the code you wrote yesterday_.**  
+**Remember that speed and quantity are not measurements of success at the end of a day..._understanding_ is.  While we expect you to review and share each other's work, there's a great saying that applies (with a slight Fidgetech modification): _Don't compare your code to the code of others. Compare your code to the code you wrote yesterday_.**  
 
 ## Independent Project Objectives
 ---
@@ -61,7 +61,7 @@ When a project is both polished and in a portfolio-quality state, this means:
   * Commits are made regularly with clear messages that finish the phrase "It will…".
 
 ### What are the baseline project requirements?
-All independent coding projects at Epicodus have these baseline requirements:
+All independent coding projects at Fidgetech have these baseline requirements:
 
 * A complete and informative README
   * It is _not_ required to include a link to your site hosted on gh-pages, but you are welcome and encouraged to do so!

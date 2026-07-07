@@ -223,7 +223,7 @@ Now let's get our test passing. There are several ways in which we can solve thi
 
 Let's solve the problem using `String.prototype.includes()`. First, let's see what this method actually does.
 
-`String.prototype.includes()` returns a boolean. If a string contains another string, the method will return `true`. For instance, the string `"epicodus"` contains the string `"epic"`. If the string doesn't include the substring, the method will return `false`. We can do something like this:
+`String.prototype.includes()` returns a boolean. If a string contains another string, the method will return `true`. For instance, the string `"fidgetech"` contains the string `"fidget"`. If the string doesn't include the substring, the method will return `false`. We can do something like this:
 
 ```js
 function includesRarestLetter(word) {

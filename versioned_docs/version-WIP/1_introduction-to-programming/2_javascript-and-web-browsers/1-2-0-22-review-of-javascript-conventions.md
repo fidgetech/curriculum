@@ -40,7 +40,7 @@ The convention with declaring variables is to use `let` and `const`, and never `
 Variable names should always be written in [lower camelCase](https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/JavaScript#variable_naming), where there are no spaces in the name, the first letter is lowercase, and the first letter of every subsequent word in the variable name is uppercase. Here are some examples:
 
 ```js
-const myCodeSchool = "Epicodus";
+const myCodeSchool = "Fidgetech";
 let myFavoriteFloweringShrub = "Daphne";
 ```
 
@@ -124,6 +124,6 @@ function add(num1, num2) {
 
 It's worth reiterating that semicolons are a tricky subject in JavaScript. When we execute our code, JavaScript interprets it on-the-fly into code that our machines can read. In the process, it automatically adds semicolons between sections of our code. _However_, there are certain situations where JavaScript incorrectly adds a semicolon, which breaks our JavaScript code — and these situations are obscure for beginners. 
 
-To deal with this situation, some developers add semicolons themselves to be thorough, while others only add them when needed because JavaScript will do it automatically. In order to be in the latter camp, you need to know those gotcha situations. For that reason, **at Epicodus, we follow the convention of adding semicolons at the end of (most of) our statements and expressions**. 
+To deal with this situation, some developers add semicolons themselves to be thorough, while others only add them when needed because JavaScript will do it automatically. In order to be in the latter camp, you need to know those gotcha situations. For that reason, **at Fidgetech, we follow the convention of adding semicolons at the end of (most of) our statements and expressions**. 
 
 We will continue to revisit this topic in upcoming lessons, including the difference between statements and expressions. Because this is a tricky topic, we don't expect you to get semicolons right all of the time. Do your best, and this convention will make more sense in time.

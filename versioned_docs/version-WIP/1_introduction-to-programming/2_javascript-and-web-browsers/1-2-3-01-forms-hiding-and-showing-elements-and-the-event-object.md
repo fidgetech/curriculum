@@ -202,7 +202,7 @@ An `event` object is automatically created for every event that happens in the w
 
 The `event` object is typically confusing for new developers, because the creation of the `event` object happens behind the scenes. It feels odd to create a parameter for an object that we can't see get created. However, this is how events are set up. In a future course section, we'll learn more about the `event` object, how to access it, and where we can learn more information about it. 
 
-For now, let's focus on the important piece of functionality that we need from the `event` object for our form: preventing the submit event's default behavior to refresh the page. **Going forward when we're working with forms, we always need to remember to call `event.preventDefault();` within the handler function set to the `onsubmit` property and include a parameter for `event`.** When we get to the backend course on C# and .NET or Ruby and Rails, we'll learn how to submit forms values to servers so that we don't need to prevent this default behavior. 
+For now, let's focus on the important piece of functionality that we need from the `event` object for our form: preventing the submit event's default behavior to refresh the page. **Going forward when we're working with forms, we always need to remember to call `event.preventDefault();` within the handler function set to the `onsubmit` property and include a parameter for `event`.** Later on, when we start working with backend servers, we'll learn how to submit form values to servers so that we don't need to prevent this default behavior. 
 
 Anytime you have a `?` within the browser URL, follow these steps to fix the issue:
 

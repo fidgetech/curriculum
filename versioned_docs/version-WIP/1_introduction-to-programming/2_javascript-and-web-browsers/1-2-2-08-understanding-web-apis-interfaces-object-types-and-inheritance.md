@@ -14,7 +14,7 @@ In the last lesson, we learned about HTML DOM elements. These elements are objec
 
 In terms of Web APIs, these HTML element objects are called "interfaces". If you remember, Web API **interfaces** are simply different types of objects. In this lesson, we'll learn how to find the name of the Web API interface for the HTML DOM element that we're working with. Why bother? Well, when we know the name of the Web API interface we're working with, we can use it to access the right MDN documentation to learn more about it.
 
-We'll also learn how interfaces share functionality with each other through a mechanism called **inheritance**. Inheritance is a mechanism that many programming languages (like JavaScript, C# and Ruby!) use to share functionality between two objects. We won't get too deep in this, just enough to understand all of the Web API interfaces that provide functionality to the DOM elements that we work with.
+We'll also learn how interfaces share functionality with each other through a mechanism called **inheritance**. Inheritance is a mechanism that many programming languages (not just JavaScript!) use to share functionality between two objects. We won't get too deep in this, just enough to understand all of the Web API interfaces that provide functionality to the DOM elements that we work with.
 
 As you work through this lesson, keep in mind the car analogy! In these lessons, we're "looking under the hood" of browser Web APIs to understand more deeply how these technologies are structured. **You won't be required to demonstrate an understanding of this information on your independent project**, but it will improve your resourcefulness as a developer and it is crucial to your long term growth.
 

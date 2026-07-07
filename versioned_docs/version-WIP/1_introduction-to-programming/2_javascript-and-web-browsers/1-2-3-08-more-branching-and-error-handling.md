@@ -7,6 +7,12 @@ hide_table_of_contents: true
 
 Sometimes, our branching logic can get more complicated. Let's build a website to determine which amusement park ride someone can go on based on their age and height. In the process, we'll learn about using the logical "and" `&&` and "or" `||` operators, nesting if statements, and the concepts of "truthy" and "falsey". We'll also include polish our website by adding error handling and a button to clear the form and results.
 
+> **AI Support:** Getting tangled up in `&&`, `||`, or nested `if` statements? After tracing through the logic yourself, you can ask AI to explain how "and"/"or" operators evaluate or what "truthy"/"falsey" means in plain language. Practice writing your own conditions yourself; AI explains, it doesn't replace it. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Write my nested if statement."
+> - Strong: "I'm not sure why my `&&` condition never seems to be true. Can you explain how JavaScript evaluates `&&` versus `||`, with a simple example — without writing my condition for me?"
+
 ## Amusement Park
 ---
 

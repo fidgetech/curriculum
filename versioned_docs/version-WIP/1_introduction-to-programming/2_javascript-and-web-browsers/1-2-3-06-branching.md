@@ -7,6 +7,12 @@ hide_table_of_contents: true
 
 Now that we've learned the basics of DOM manipulation and event handling, we're going to add some logic to our pages that will allow us to control the flow of our code based on certain conditions. This kind of logic is called **branching**.  
 
+> **AI Support:** Not sure why your `if`/`else` isn't branching the way you expect? After tracing through your conditions yourself, you can ask AI to explain how conditionals evaluate in plain language. Practice writing your own conditions yourself; AI explains, it doesn't replace it. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Write my if statement."
+> - Strong: "My `if`/`else` branch always runs the `else` block even when I expect the `if`. Can you explain 2–3 things I should check about how my condition evaluates — without writing the fix for me?"
+
 As an example, we are going to create a website for a bar. We only want to show the drinks menu to the user if they are over 21. So, the condition is age. When we come to determining this condition in our code, it is like a fork in the road with two paths, or branches. If the user is over 21, they'll see the drinks menu. If not, they will get a message indicating that they are not old enough to view the content.
 
 Here's the CSS, HTML, and the JS:

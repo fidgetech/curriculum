@@ -9,6 +9,12 @@ Over the next several lessons, we are going to dive into a concept that is often
 
 A loop is just what it sounds like — a piece of code that loops over and over until a condition is met.
 
+> **AI Support:** Looping still feels abstract or confusing? After reading this lesson, you can ask AI to explain how a loop works in plain language or with an analogy. Practice tracing through loops yourself; AI explains, it doesn't replace it. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Write a loop for me."
+> - Strong: "What does it mean that `forEach()` is 'syntactic sugar' for a `for` loop? Can you explain with a simple analogy — without writing loop code for me?"
+
 In this lesson, we'll start by covering the basics of `Array.prototype.forEach()`, which we can use to loop through each element in an array. In the next lesson, we'll move on to a more in-depth discussion of `Array.prototype.forEach()`, including ways we can use this kind of loop.
 
 Later, we will explore `for` loops and `Array.prototype.map()`. `for` loops have been around since the beginning of JavaScript — and they are a more traditional way of looping. In fact, `Array.prototype.forEach()` is **syntactic sugar** that's been added to a traditional `for` loop. Syntactic sugar just means syntax that makes a piece of code easier to write. A loop that uses `Array.prototype.forEach()` is really using a `for` loop under the hood. Meanwhile, `Array.prototype.map()`, like `Array.prototype.forEach()`, provides syntactic sugar as well as other functionality that can make looping easier in many situations.

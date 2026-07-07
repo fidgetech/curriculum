@@ -170,9 +170,9 @@ Normally you'll receive the following error if you push a project to Github, rew
 
 ```shell
 $ git push origin main
-To https://github.com/epicodus-lessons/hello
+To https://github.com/YOUR-GITHUB-USERNAME/hello
  ! [rejected]        main -> main (non-fast-forward)
-error: failed to push some refs to 'https://github.com/epicodus-lessons/hello'
+error: failed to push some refs to 'https://github.com/YOUR-GITHUB-USERNAME/hello'
 hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. Integrate the remote changes (e.g.
 hint: 'git pull ...') before pushing again.

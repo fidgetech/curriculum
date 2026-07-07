@@ -11,6 +11,12 @@ If we want to collect a value from a user with `window.prompt()`, and perform ar
 
 In this lesson, we'll review this common data type error, and then we'll learn about the **data type coercion** that JavaScript automatically performs in certain situations. 
 
+> **AI Support:** Getting unexpected results like `"3535"` instead of `70`? After trying to trace through your code's data types yourself, you can ask AI to explain what type coercion is or why a specific operator behaved unexpectedly — but don't ask it to fix your code for you. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Fix my math."
+> - Strong: "I expected `age + age` to add two numbers, but I got `\"3535\"` instead of `70`. Can you explain what's happening in plain language — without telling me the exact fix?"
+
 ## A Common Data Type Error
 ---
 

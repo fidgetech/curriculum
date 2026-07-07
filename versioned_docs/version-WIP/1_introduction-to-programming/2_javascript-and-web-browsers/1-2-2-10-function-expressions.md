@@ -7,6 +7,12 @@ hide_table_of_contents: true
 
 In this lesson, we'll explain another method of defining a function called **function expressions**. We'll be using function expressions in the next lesson when we learn about event handling with event handler properties.
 
+> **AI Support:** Function declarations vs. function expressions feeling similar and confusing? After reading this lesson, you can ask AI to explain the difference in plain language. Practice writing both forms yourself; AI explains, it doesn't replace it. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "What's the code for a function expression?"
+> - Strong: "What's the practical difference between a function declaration and a function expression in JavaScript? Can you explain when each is useful — without writing the code for me?"
+
 First, let's start with a review.
 
 ## Review

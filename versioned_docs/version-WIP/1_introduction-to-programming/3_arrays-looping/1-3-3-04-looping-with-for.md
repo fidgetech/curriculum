@@ -9,6 +9,12 @@ hide_table_of_contents: true
 
 In this lesson, we'll cover how a `for` loop works. Then, in the next lesson, we'll discuss when to favor `Array.prototype.forEach()` and when to stick with a `for` loop. Finally, we'll add a function to our text analyzer application that uses a `for` loop.
 
+> **AI Support:** Getting an off-by-one error or infinite loop with a `for` loop? After tracing through the initialization, condition, and increment yourself, you can ask AI to explain what each part of a `for` loop does in plain language. Practice writing your own loops yourself; AI explains, it doesn't replace it. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Write me a for loop."
+> - Strong: "My `for` loop runs one more time than I expect. Can you explain the three parts of a `for` loop's syntax and how off-by-one errors happen — without writing the fix for me?"
+
 ## `for` Loops
 ---
 

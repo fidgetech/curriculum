@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 **Important Note:** You aren't required to use regular expressions on any independent projects — and you should prioritize looping during the classwork for this section. **If you need to focus on understanding looping, skip this lesson for now.** It's fine to come back later in this section — or even in future sections — once you're ready to start using regular expressions or if you want to use this lesson as a reference. However, many of the problems in this section can also be solved with regex. If you have time, try refactoring a problem you solve with a loop to use a regular expression instead.
 
-An essential feature of many programming languages, including JavaScript, is the ability to use **regular expressions**. A regular expression (also known as a regex) is a set of characters we can use to find patterns in a string. All the languages we teach at Epicodus, including Ruby and C#, use regular expressions.
+An essential feature of many programming languages, including JavaScript, is the ability to use **regular expressions**. A regular expression (also known as a regex) is a set of characters we can use to find patterns in a string. Most modern programming languages, not just JavaScript, use regular expressions.
 
 While the exact syntax of a regular expression varies somewhat from language to language, the syntax is generally more similar than not. For that reason, once you learn how to use regular expressions in one language, you'll be well on your way to learning how to use them in other languages, too.
 

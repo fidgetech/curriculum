@@ -17,6 +17,12 @@ These reserved words are called **statements**. There are different types of sta
 
 We will learn more about the advantages of `let` and `const` in this lesson. In a future lesson, we will learn about the major disadvantage of `var`.
 
+> **AI Support:** Confused about when to use `let` vs. `const`? After reading this lesson, you can ask AI to explain the difference in plain language or with an analogy — but practice writing your own variable declarations yourself; AI explains, it doesn't replace it. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Write me some variables."
+> - Strong: "What's the difference between `let` and `const` in JavaScript? Can you explain when I'd choose one over the other, with a simple analogy — without writing my code for me?"
+
 ## `var`
 ---
 
@@ -173,7 +179,7 @@ Variable naming can be a subjective process. When deciding what to name your var
 
 It's important to know about `var` because you will see it frequently in code examples and legacy code. It was the only option for declaring a variable up until 2015, and even after that, it's taken additional time for some developers to change their practices and update old code.
 
-**However, we won't be using `var` at Epicodus — as we mentioned before, it has some problems that `let` and `const` address. Modern JavaScript developers don't use `var`, and you shouldn't, either!**
+**However, we won't be using `var` at Fidgetech — as we mentioned before, it has some problems that `let` and `const` address. Modern JavaScript developers don't use `var`, and you shouldn't, either!**
 
 ## `let`
 

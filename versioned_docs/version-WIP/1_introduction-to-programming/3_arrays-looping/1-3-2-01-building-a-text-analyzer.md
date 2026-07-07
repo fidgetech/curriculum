@@ -22,7 +22,7 @@ This is one of those times when the following Lao Tzu quote feels appropriate:
 
 > A journey of a thousand miles begins with a single step.
 
-Maybe you've heard this quote a million times but there's a reason it's so used. It really has a lot of truth in it and it's also pretty appropriate for this stage of your time at Epicodus. The journey is a thousand miles and we are taking it one step at a time.
+Maybe you've heard this quote a million times but there's a reason it's so used. It really has a lot of truth in it and it's also pretty appropriate for this stage of your time at Fidgetech. The journey is a thousand miles and we are taking it one step at a time.
 
 It's also very appropriate in terms of getting started on a bigger project — or even simply trying to solve a big problem in another codebase (which developers have to do a lot). These problems can be very overwhelming so we want to break them down as small as possible.
 

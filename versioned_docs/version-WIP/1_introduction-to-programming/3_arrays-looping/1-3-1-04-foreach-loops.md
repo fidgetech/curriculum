@@ -7,6 +7,12 @@ hide_table_of_contents: true
 
 In the last lesson, we wrote our first `Array.prototype.forEach()` loop. In this lesson, we'll continue to practice this kind of loop. By the end of the lesson, you should have a basic understanding of how to write and apply an `Array.prototype.forEach()` loop. If you don't, we recommend reading the lesson again. Don't worry — you don't need to be a master of looping just yet. It's a complex enough concept that it can take time to master. Focus on having a growth mindset, be patient with yourself, and trust that it will make more sense with practice.
 
+> **AI Support:** Stuck on what the callback function inside `forEach()` is doing? After trying to trace through it yourself, you can ask AI to explain the callback pattern in plain language. Practice writing your own `forEach()` loops yourself; AI explains, it doesn't replace it. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Write a forEach loop for me."
+> - Strong: "What does the function I pass into `forEach()` actually receive as an argument? Can you explain with a simple example — without writing my specific loop for me?"
+
 ## More Examples of Looping with `Array.prototype.forEach()
 ---
 

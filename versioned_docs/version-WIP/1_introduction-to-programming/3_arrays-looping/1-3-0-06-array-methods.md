@@ -9,6 +9,12 @@ Over the last two lessons, we've learned the basics of how arrays work, the `len
 
 In this lesson, we'll learn about some of the most common array methods. In the process, we'll make an important distinction because some methods **mutate** the arrays they are called on while some don't. When a method mutates an array, it is permanently changed, while methods that don't mutate arrays actually create (and return) brand new arrays.
 
+> **AI Support:** Not sure whether a method mutates your array or returns a new one? After checking the MDN docs yourself, you can ask AI to explain the difference between mutating and non-mutating methods in plain language. Practice testing methods yourself in the console; AI explains, it doesn't replace it. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Which array method should I use?"
+> - Strong: "What's the difference between a mutating method like `push()` and a non-mutating method like `concat()`? Can you explain why that distinction matters — without writing my code for me?"
+
 As you read through this lesson, optionally use the DevTools console to try out the new code.
 
 ## Array Methods
@@ -139,14 +145,14 @@ A couple of things to note here. One, this method is destructive. Secondly, when
 In this section, we'll work on some projects where we want to do things to different characters in a string. This means turning a string into an array. Once we are done doing all the things, we may want the final thing to once again be a string. That's where `Array.prototype.join()` comes in. It will take an array and turn it into a string. We can also pass in a separator as an argument. The examples below should make this clear:
 
 ```js
-> const epicodus = ["e","p","i","c"];
-> const epic = epicodus.join();
+> const letters = ["e","p","i","c"];
+> const epic = letters.join();
 > epic;
 "e,p,i,c"
-> const epicWithoutCommas = epicodus.join("");
+> const epicWithoutCommas = letters.join("");
 > epicWithoutCommas;
 "epic"
-> const reallyEpic = epicodus.join("...");
+> const reallyEpic = letters.join("...");
 > reallyEpic;
 "e...p...i...c"
 ```

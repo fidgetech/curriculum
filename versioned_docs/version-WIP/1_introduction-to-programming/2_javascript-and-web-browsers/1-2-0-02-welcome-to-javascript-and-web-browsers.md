@@ -16,11 +16,11 @@ JavaScript is a programming language used to make web pages interactive. Like HT
 
 ### ECMAscript Versions
 
-We'll often reference "ES6" in our curriculum. ES6 means ECMAscript version 6, which came out in 2015 and made a significant number of changes to JavaScript development. It's helpful to know what "ES6" means, but you don't have to worry about knowing which JS feature came with which ES version. At Epicodus and beyond, we'll be using features from all ECMAscript versions. 
+We'll often reference "ES6" in our curriculum. ES6 means ECMAscript version 6, which came out in 2015 and made a significant number of changes to JavaScript development. It's helpful to know what "ES6" means, but you don't have to worry about knowing which JS feature came with which ES version. At Fidgetech and beyond, we'll be using features from all ECMAscript versions. 
 
 ### Markup, Style Sheet, and Programming Languages
 
-JavaScript is the first programming language we will learn at Epicodus. Later on, depending on the track you've signed up for, you will also learn C# or Ruby. In case it isn't clear, HTML, Markdown, and CSS are not programming languages. Let's review the differences:
+JavaScript is the first programming language we will learn at Fidgetech. In case it isn't clear, HTML, Markdown, and CSS are not programming languages. Let's review the differences:
 
 * **Markup languages** like HTML and Markdown define the format of data, like separating plain text into headings, paragraphs, lists, and so on. Markup languages define the structure of data.
 * **Style Sheet languages** like CSS define the presentation of the data, or how it looks. Style sheet languages style data, like defining what color text should be on a website.
@@ -39,7 +39,7 @@ MDN has excellent documentation on JavaScript, including beginner guides, code e
 ## Web Browsers
 ---
 
-Let's briefly review how web browsers work in order to build more context around programming for the web. A **web browser** is an application that enables you to explore the web. At Epicodus, we use the Chrome browser from Google. Other popular browsers include Firefox from Mozilla, Edge from Microsoft, and Safari from Apple, among many others. It's important to know that each browser has its own tooling, including its own version of JavaScript based on the ECMAscript standards. Yes, that's right. ECMA only sets the standards for JavaScript, and every browser has its own version of JavaScript.
+Let's briefly review how web browsers work in order to build more context around programming for the web. A **web browser** is an application that enables you to explore the web. At Fidgetech, we use the Chrome browser from Google. Other popular browsers include Firefox from Mozilla, Edge from Microsoft, and Safari from Apple, among many others. It's important to know that each browser has its own tooling, including its own version of JavaScript based on the ECMAscript standards. Yes, that's right. ECMA only sets the standards for JavaScript, and every browser has its own version of JavaScript.
 
 ### Web Standards 
 

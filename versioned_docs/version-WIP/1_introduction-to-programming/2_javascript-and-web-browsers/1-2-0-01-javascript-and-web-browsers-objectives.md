@@ -61,7 +61,7 @@ When a project is both polished and in a portfolio-quality state, this means:
   * Commits are made regularly with clear messages that finish the phrase "It will…".
 
 ### What are the baseline project requirements?
-All independent coding projects at Epicodus have these baseline requirements:
+All independent coding projects at Fidgetech have these baseline requirements:
 
 * A complete and informative README
   * It is _not_ required to include a link to your site hosted on gh-pages, but you are welcome and encouraged to do so!

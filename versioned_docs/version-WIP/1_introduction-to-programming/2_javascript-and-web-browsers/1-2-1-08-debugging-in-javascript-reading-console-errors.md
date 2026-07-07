@@ -16,6 +16,12 @@ We've looked in the DevTools console for errors before — such as when we learn
 
 In this lesson, we'll revisit a key debugging technique: looking for errors in the DevTools console.
 
+> **AI Support:** Stuck on a console error you don't recognize? After trying to read and research the error yourself, you can ask AI to translate the error message into plain language or suggest what part of your code to check first — but don't paste your whole file and ask AI to fix it for you. Practice reading errors yourself; AI explains, it doesn't replace it. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Fix this error."
+> - Strong: "I got `Uncaught ReferenceError: wndow is not defined`. Can you explain in plain language what a ReferenceError means and what usually causes one — without telling me the specific fix?"
+
 ## Checking the DevTools Console
 ---
 
@@ -75,5 +81,9 @@ Window {0: Window, 1: Window, window: Window, self: Window, document: document,
 ![This image shows the new `innerHeigt` property in the `window` object.](/images/new-section2-js-and-web-browsers/incorrect-inner-height-property-for-console-errors.png)
 
 So, remember to always work with your DevTools console open and keep an eye out for error messages! If something is wrong and there is no error message, a helpful starting point is to compare what you expect from the code you wrote to the actual result. This can give you ideas of where to look in your code for the error. Generally speaking, retracing your steps is always helpful when debugging an error in your code. 
+
+> **Try asking AI:** "What's the difference between a JavaScript error and getting `undefined` when I expected a value? Can you explain with an example — without writing code for me?"
+>
+> After reading AI's response, explain the difference back in your own words before moving on.
 
 Later in this course section, we'll learn how to use more powerful debugging tools that will make resolving `undefined` values even easier.

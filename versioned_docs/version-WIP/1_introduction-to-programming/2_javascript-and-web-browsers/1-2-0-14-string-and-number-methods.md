@@ -121,8 +121,8 @@ The `+` operator lets us do addition if we're working with numbers, or concatena
 Let's take a look at using `+` with strings:
 
 ```javascript
-> "I love" + " " + "Epicodus.";
-"I love Epicodus."
+> "I love" + " " + "Fidgetech.";
+"I love Fidgetech."
 ```
 
 As we can see, we can just use the `+` sign to "add" strings together! This has the same effect as the `concat` method.

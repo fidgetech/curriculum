@@ -114,7 +114,7 @@ The last tip is that if there are multiple function calls on one line of code, w
 
 ![This gif shows how to add multiple breakpoints on one line.](/images/new-section2-js-and-web-browsers/breakpoints-multiple-breakpoints-on-one-line.gif)
 
-This just gives you a finer grained control. There likely won't be a lot need for that extra fine grained control in the applications you build at Epicodus, but that depends how you are writing your code (for example, if you are chaining multiple method calls) and where the bug is that you are trying to locate! 
+This just gives you a finer grained control. There likely won't be a lot need for that extra fine grained control in the applications you build at Fidgetech, but that depends how you are writing your code (for example, if you are chaining multiple method calls) and where the bug is that you are trying to locate! 
 
 ### Solving the Second Bug
 

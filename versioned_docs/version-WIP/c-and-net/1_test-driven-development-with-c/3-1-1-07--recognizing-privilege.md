@@ -67,4 +67,4 @@ Otherwise, you can find detailed instructions on accessing the reflection prompt
 
 ### [Do you have feedback?](#do-you-have-feedback)
 
-We want to hear about your experience of the DEI curriculum. We outline all of the ways you can give feedback in [the student handbook](../../pre-work/getting-started-at-epicodus/1-0-0-13-student-handbook#giving-feedback).
+We want to hear about your experience of the DEI curriculum. We outline all of the ways you can give feedback in [the student handbook](../../student-handbook#giving-feedback).

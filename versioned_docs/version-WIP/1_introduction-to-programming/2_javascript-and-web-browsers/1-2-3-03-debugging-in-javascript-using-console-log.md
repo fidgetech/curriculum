@@ -9,6 +9,12 @@ This is the second of four lessons on debugging in JavaScript. Previously, we've
 
 This lesson includes instructions for coding along, but you are welcome to simply read through this lesson if you prefer.
 
+> **AI Support:** Stuck after adding `console.log()` statements and still can't spot the bug? After trying on your own, you can ask AI to explain what a specific logged value tells you or suggest what to check next — but don't paste your whole file and ask AI to find the bug for you. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Here's my whole file, find the bug."
+> - Strong: "I logged `myVariable` and got `undefined` when I expected a string. What are 2–3 things I should check about where that variable comes from?"
+
 ## Using `console.log()`
 ---
 

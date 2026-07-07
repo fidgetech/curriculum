@@ -5,13 +5,13 @@ id: 1-2-1-16-homework-identifying-and-preventing-microaggressions
 hide_table_of_contents: true
 ---
 
-This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week, we will cover microaggressions: what they are, how they impact people, and how to recognize and prevent them. **An Epicodus staff member will be leading a discussion on this topic in the next class session.** Please read through this lesson in preparation for the discussion. We encourage you to bring your questions, commentary, reflections, and any experiences that you wish to share with the group. 
+This lesson is part of our regular Diversity, Equity, and Inclusion curriculum. This week, we will cover microaggressions: what they are, how they impact people, and how to recognize and prevent them. **A Fidgetech staff member will be leading a discussion on this topic in the next class session.** Please read through this lesson in preparation for the discussion. We encourage you to bring your questions, commentary, reflections, and any experiences that you wish to share with the group. 
 
 ## Microaggressions and Inclusion
 
 ---
 
-Learning about microaggressions will help us become more sensitive to others feelings and perspectives, and ultimately help us to be more inclusive. While diversity refers to the traits and characteristics that make us different from one another, **inclusion** refers to the actions we take to make others feel welcome. Inclusion is therefore what it takes to make Epicodus a safe and productive learning environment, and what we need in tech in order to diversify the tech industry. 
+Learning about microaggressions will help us become more sensitive to others feelings and perspectives, and ultimately help us to be more inclusive. While diversity refers to the traits and characteristics that make us different from one another, **inclusion** refers to the actions we take to make others feel welcome. Inclusion is therefore what it takes to make Fidgetech a safe and productive learning environment, and what we need in tech in order to diversify the tech industry. 
 
 ## [Marginalization](#marginalization)
 
@@ -45,7 +45,7 @@ The way that Lindsay Grizzard's boss didn't want to pair program with her is an 
 
 In Lindsay's example, when her boss would pair with everybody else but her, the message she received was probably that her boss wasn't comfortable with her, or didn't think working with her was worth her time.
 
-Here are several real-world examples of microaggressions, including some we've assisted students in addressing at Epicodus. The "hidden messages" might or might not be the intent of the person committing the microaggression, but either way, their effect on members of marginalized groups is the same.
+Here are several real-world examples of microaggressions, including some we've assisted students in addressing at Fidgetech. The "hidden messages" might or might not be the intent of the person committing the microaggression, but either way, their effect on members of marginalized groups is the same.
 
 * A male student explains a coding concept to a woman who hasn't asked for an explanation. (Hidden message: _"Women aren't as good at coding as men."_)
 * A transgender student tells co-students their pronouns, but some students make minimal effort to use them, or ignore the request. (Hidden message: _"Your identity doesn't matter unless it fits into my predefined notions."_)
@@ -80,7 +80,7 @@ If you rarely have that "sticking out" feeling, we really encourage you to start
 * Examine your own implicit biases. Be aware of assumptions you have that may affect how you treat others; especially those of different backgrounds, statuses, communities, or upbringings.
 * Don't make statements or ask questions implying others may be less capable, or lacking in some manner.
 * Don't allow stereotypes to inform how you view, interact with, or discuss others.
-* Remember that current students are your future coworkers and network. Have fun, but act as you would in a professional workplace. After all, Epicodus is essentially your first "job" in the industry. Leave a good impression.
+* Remember that current students are your future coworkers and network. Have fun, but act as you would in a professional workplace. After all, Fidgetech is essentially your first "job" in the industry. Leave a good impression.
 
 ## [Dealing with Microaggressions](#dealing-with-microaggressions)
 
@@ -99,7 +99,7 @@ If you stepped on someone's foot, you'd apologize, right? Even if it was complet
 * Be a good listener. This is an opportunity to learn about someone else's perspective and become a better peer, ally, and future coworker. Listen carefully, regardless of the amount of information the other party freely gives.
 
 * Consider your biases. No matter how hard we try, we all carry biases with us, and those biases are shaped by the world we live in. So if you do something that turns out to be a microaggression, take a moment to reflect on whether your actions might be the outcome of a bias, perhaps one you weren't fully aware you had, and think about how you can be better aware of that bias in the future.
-* Follow up with Epicodus staff if you have remaining concerns or would like more guidance on preventing future microaggressions.
+* Follow up with Fidgetech staff if you have remaining concerns or would like more guidance on preventing future microaggressions.
 * Recognize that no matter how sorry you are or how unintentional it was, you are not the victim.
 
 ### [What Can I Do if I am the Target of a Microaggression?](#what-can-i-do-if-i-am-the-target-of-a-microaggression)
@@ -113,29 +113,29 @@ Here are guidelines on handling microaggressions targeted at you and communities
 * You are _never_ required to confront someone if you don't want to, or don't feel comfortable. Feel free to separate yourself from the situation. It's okay to take time alone to process. It's also okay to talk to somebody a while after the incident.
 * Remember the difference between impact and intent. Your feelings are valid, regardless of the intent of the person committing the microaggression.
 * You may choose to tell someone they've committed a microaggression. If you wish, explain why the microaggression was hurtful. While it may be difficult, try to treat them as you would like to be treated if you accidentally hurt someone else’s feelings.
-* You may also choose to discuss the situation with Epicodus staff. We will provide support, preserve your privacy, and work with you to devise a follow-up plan.
-* Please let Epicodus staff know if you ever feel threatened, unsafe, or unwelcome at any time. We are here to advocate for you.
-* If you feel you can no longer pair with another student due to microaggressions, inform Epicodus staff so we may accommodate.
+* You may also choose to discuss the situation with Fidgetech staff. We will provide support, preserve your privacy, and work with you to devise a follow-up plan.
+* Please let Fidgetech staff know if you ever feel threatened, unsafe, or unwelcome at any time. We are here to advocate for you.
+* If you feel you can no longer pair with another student due to microaggressions, inform Fidgetech staff so we may accommodate.
 
 ### [What Should I Do if I Witness a Microaggression?](#what-should-i-do-if-i-witness-a-microaggression)
 
-* Don't assume no one is hurt by a comment. Even if there are no clear targets, we all need to work together to make Epicodus a safe space.
+* Don't assume no one is hurt by a comment. Even if there are no clear targets, we all need to work together to make Fidgetech a safe space.
 * If you feel comfortable doing so, say something to the perpetrator(s) of the microaggression. Again, remember that their intent may have been different from their impact.
 * If you're not a part of the group impacted by the microaggression, don't speak for members of that group, or make assumptions about their experience. Instead, focus on what _you_ experienced.
 * Listen and be supportive. This is an opportunity to learn about the experiences of others and to become a better peer and coworker.
-* Let Epicodus staff know if students are acting in an inappropriate or hostile manner. We're here to support and help!
+* Let Fidgetech staff know if students are acting in an inappropriate or hostile manner. We're here to support and help!
 
 ### [Code of Conduct Violations](#code-of-conduct-violdations)
 
 To create a safe and welcoming learning environment, it's important that all students treat each other, and staff, with respect, kindness, and empathy. This includes respecting and welcoming all races, genders, ability levels, sexual orientations, ages, religions, and other traits and statuses.
 
-Students that repeatedly target others with microaggressions, and/or display no improvement in this behavior after staff intervention are in violation of our Code of Conduct (in our [Student Handbook](https://www.epicodus.com/student-handbook/)) and will be asked to leave.
+Students that repeatedly target others with microaggressions, and/or display no improvement in this behavior after staff intervention are in violation of our Code of Conduct (in our [Student Handbook](../../student-handbook)) and will be asked to leave.
 
 ### [Continuing to Talk About Microaggressions](#continuing-to-talk-about-microaggressions)
 
 Talking about our identities can be uncomfortable, especially if you haven't had these kinds of conversations before. It can be tempting to make jokes as a way of lessening that discomfort, but we'd urge you to avoid this kind of humor. Being a minority in any environment can be stressful, and having somebody joke about that experience can feel belittling.
 
-On the other hand, we urge you to continue talking with your friends, classmates, and teachers about microaggressions and other aspects of making Epicodus an inclusive community.
+On the other hand, we urge you to continue talking with your friends, classmates, and teachers about microaggressions and other aspects of making Fidgetech an inclusive community.
 
 ### [Being An Ally](#being-an-ally)
 
@@ -162,14 +162,10 @@ We recommend checking out the following resources if you are interested in becom
 * [Interview with Julie Ann Horvath](https://modelviewculture.com/pieces/interview-with-julie-ann-horvath): An interview with Julie Ann Horvath, a whistleblower against sexist behavior at Github.
 * [Susceptible to Imposter Syndrome](http://peopleofcolorintech.com/engineers/susceptible-to-imposter-syndrome/): A developer and woman of color talks about her experience with imposter syndrome.
 
-<!-- ### [Ready to Write Your Reflection?](#ready-to-write-your-reflection)
+### [Ready to Write Your Reflection?](#ready-to-write-your-reflection)
 
-There is a reflective assignment for this lesson. If you are ready to write your reflection, head on over to Epicenter to find the prompt. If you are logged in to Epicenter, you can access the prompt by navigating to this link:
-
-**<span class="glyphicon glyphicon-link"></span> [Reflection Prompt: Identifying and Preventing Microaggressions](https://epicenter.epicodus.com/journals?title=Identifying+and+Preventing+Microaggressions)** 
-
-Otherwise, you can find detailed instructions on accessing the reflection prompts in the [DEI Reflective Assignments](../../diversity-equity-and-inclusion/dei-curriculum-overview/dei-reflective-assignments#finding-the-reflection-prompts) lesson. -->
+There is a reflective assignment for this lesson. If you are ready to write your reflection, ask your instructor where to find the prompt. You can also find detailed instructions on accessing and submitting reflection prompts in the [DEI Reflective Assignments](../../diversity-equity-and-inclusion/dei-curriculum-overview/dei-reflective-assignments#finding-the-reflection-prompts) lesson.
 
 ### [Do you have feedback?](#do-you-have-feedback)
 
-We want to hear about your experience of the DEI curriculum. We outline all of the ways you can give feedback in [the student handbook](../../pre-work/getting-started-at-epicodus/1-0-0-13-student-handbook#giving-feedback).
+We want to hear about your experience of the DEI curriculum. We outline all of the ways you can give feedback in [the student handbook](../../student-handbook#giving-feedback).

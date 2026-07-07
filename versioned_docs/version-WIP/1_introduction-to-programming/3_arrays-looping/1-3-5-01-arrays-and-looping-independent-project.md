@@ -9,7 +9,7 @@ pagination_next: null
 ## Independent Projects Overview
 ---
 
-Project prompts will be available on Fidgetech Code Central once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson. This lesson details:
+Project prompts will be available on Fidgetech Code Central once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) lesson. This lesson details:
 
 * How to submit your code
 * How feedback works
@@ -53,7 +53,7 @@ When a project is both polished and in a portfolio-quality state, this means:
   * Commits are made regularly with clear messages that finish the phrase "It will…".
 
 ### What are the baseline project requirements?
-All independent coding projects at Epicodus have these baseline requirements:
+All independent coding projects at Fidgetech have these baseline requirements:
 
 * A complete and informative README
   * It is _not_ required to include a link to your site hosted on gh-pages, but you are welcome and encouraged to do so!  
@@ -77,4 +77,4 @@ Once you've completed your project, submit your code for review to the **Arrays 
   * Hit the _Submit Project_ button — you will be taken to a confirmation page.
   <!-- * On the submission confirmation page, select whether or not you want to request a meeting with your teacher -->
 
-Visit the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson for details on how to submit your code, how feedback works, and course completion requirements. 
+Visit the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) lesson for details on how to submit your code, how feedback works, and course completion requirements. 

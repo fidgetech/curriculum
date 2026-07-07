@@ -9,6 +9,12 @@ To help us better understand methods, let's get to know functions better. In thi
 
 **If you are confused about any of the concepts covered in this lesson, that is normal. Know that we will get a lot of practice with functions  in this section. Also, keep in mind that you don't need to know everything about how JavaScript works in order to use basic methods and functions.** Take notes on anything you don't understand so that you can discuss it with your dev team, pair, or in Scrum. The time it takes to understand methods and functions will be different for everyone in your cohort, and discussing points of confusion is instrumental in getting to a solid understanding of these JavaScript concepts. 
 
+> **AI Support:** Functions, parameters, and return values feeling like a lot at once? After reading this lesson, you can ask AI to explain the terminology in plain language or with an analogy. Practice writing your own functions yourself; AI explains, it doesn't replace it. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Write a function for me."
+> - Strong: "What's the difference between a parameter and an argument in JavaScript? Can you explain with a simple analogy — without writing a function for me?"
+
 ## Functions in JavaScript
 ---
 
@@ -211,4 +217,4 @@ In this lesson, we've learned more about functions and we've better  distinguish
 
 We've also learned about the difference between parameters and arguments. Once again, parameters are placeholders for arguments. Because an argument is passed into a parameter, it can be tempting to think arguments and parameters are interchangeable when they are not.
 
-We will be working with these concepts every day at Epicodus — so even if they are not fully clear yet, they will be soon.
+We will be working with these concepts every day at Fidgetech — so even if they are not fully clear yet, they will be soon.

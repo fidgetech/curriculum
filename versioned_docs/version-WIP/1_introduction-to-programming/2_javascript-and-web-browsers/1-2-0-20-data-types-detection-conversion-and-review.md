@@ -62,8 +62,8 @@ true
 false
 > "hello".charAt(2) === "e";
 false
-> const enrolledAtEpicodus = true;
-> enrolledAtEpicodus;
+> const enrolledAtFidgetech = true;
+> enrolledAtFidgetech;
 true
 ```
 
@@ -76,6 +76,12 @@ The undefined data type has only one possible value: `undefined`.
 When declaring a variable without giving it a value (`let myNumber;`), JavaScript creates the variable without a value, and so its value is **`undefined`**. Even when declaring a variable and assigning it a value at the same time (`let favoriteNumber = 42;`), JavaScript actually creates the variable initially without a value, temporarily giving it a value of `undefined`, before then assigning it the value to the right of the equals sign. This is kind of a subtle point, so don't worry too much about it at the moment.
 
 Additionally, there are some functions and methods that do not return any value, in which case the return value is actually `undefined`. You'll learn more about this when we learn how to write our own methods and functions.
+
+> **AI Support:** Confused about why you're getting `undefined` instead of the value you expect? After checking your code yourself, you can ask AI to explain what commonly causes `undefined` in plain language. Practice tracing through your own code first; AI explains, it doesn't replace it. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Why is my variable undefined, fix it."
+> - Strong: "I'm getting `undefined` when I expected a string. Can you explain 2–3 common reasons a variable might be `undefined` in JavaScript — without telling me the specific fix?"
 
 ## Data Type Detection
 ---
@@ -189,12 +195,12 @@ The two dots in this example are correct! Try it in the browser's DevTools conso
 You can also convert a boolean to a string by calling the **`Boolean.prototype.toString()`** method on the boolean:
 
 ```javascript
-> const enrolledInEpicodus = true;
-> enrolledInEpicodus;
+> const enrolledInFidgetech = true;
+> enrolledInFidgetech;
 true
-> typeof enrolledInEpicodus;
+> typeof enrolledInFidgetech;
 "boolean"
-> const convertedBool = enrolledInEpicodus.toString();
+> const convertedBool = enrolledInFidgetech.toString();
 > convertedBool;
 "true"
 > typeof convertedBool;

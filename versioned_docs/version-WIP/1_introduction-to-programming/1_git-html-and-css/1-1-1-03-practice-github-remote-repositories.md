@@ -34,7 +34,7 @@ _Ask yourself the following questions before moving on:_
 >
 > After reading AI's response, explain the concept back in your own words before moving on.
 
-> **Important:** Commands below use placeholders like `YOUR-GITHUB-USERNAME` and `YOUR-INITIALS`. Replace them with your own GitHub username and initials. Later in the course you'll clone starter repos from organizations like [epicodus-lessons](https://github.com/epicodus-lessons/) — but for this exercise, use the URL from **your** repo.
+> **Important:** Commands below use placeholders like `YOUR-GITHUB-USERNAME` and `YOUR-INITIALS`. Replace them with your own GitHub username and initials. Later in the course you'll clone starter repos your instructors provide — but for this exercise, use the URL from **your** repo.
 
 Our Hello World website lives on our machine in `hello-world.html` and is tracked by Git in a **local** `.git` repository. A **remote** repository is stored outside our device (on GitHub) so we can access our code from anywhere. Let's copy our local repository to GitHub now.
 
@@ -66,7 +66,7 @@ After you click **Create repository**, GitHub shows your empty repo. Click the g
 
 `https://github.com/YOUR-GITHUB-USERNAME/hello-world`
 
-For reference, a curriculum example repo might live at _https://github.com/epicodus-lessons/hello-world_ — but **your** URL will use your GitHub username, not `epicodus-lessons`.
+For reference, if a student's GitHub username were `jsmith22`, their repo would live at _https://github.com/jsmith22/hello-world_ — but **your** URL will use your own GitHub username.
 
 ## Pushing to GitHub
 
@@ -86,7 +86,7 @@ Then follow these steps:
 $ git remote add YOUR-INITIALS https://github.com/YOUR-GITHUB-USERNAME/hello-world
 ```
 
-This command gives your remote a nickname (`YOUR-INITIALS`) and links it to your repo URL. A curriculum example repo might live at _https://github.com/epicodus-lessons/hello-world_ — but **your** command must use the URL you copied from **your** GitHub account.
+This command gives your remote a nickname (`YOUR-INITIALS`) and links it to your repo URL. For example, `jsmith22`'s command might use _https://github.com/jsmith22/hello-world_ — but **your** command must use the URL you copied from **your** GitHub account.
 
 2. **Verify it worked:**
 

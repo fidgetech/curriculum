@@ -5,7 +5,7 @@ id: 1-2-3-12-removing-event-listeners
 hide_table_of_contents: true
 ---
 
-In this lesson, we'll learn how to remove event listeners with the `removeEventListener()` method. In the applications that you build at Epicodus, there won't be a lot of cases in which we'll need to remove event listeners, but it is helpful to know when and why we might want or need to do that.
+In this lesson, we'll learn how to remove event listeners with the `removeEventListener()` method. In the applications that you build at Fidgetech, there won't be a lot of cases in which we'll need to remove event listeners, but it is helpful to know when and why we might want or need to do that.
 
 ## Removing Event Listeners with `removeEventListener()`
 ---
@@ -96,13 +96,13 @@ We remove event listeners in three cases:
 
 * When we only want an event handler to run once. We can remove an event listener after it has been run to make it so the reaction happens once (or a different set number of times).
 * To reuse elements. Being able to add and remove event listeners allows us to use one element in multiple scenarios. For example, we could use one button in three different scenarios by adding and removing event listeners. The alternative would be to use three separate buttons with three separate event listeners. 
-* To improve performance or efficiency. If we have many, many event listeners in an application, removing the ones that are no longer needed can improve efficiency. This aspect of efficiency has to do with memory management. We won't learn about performance optimization at Epicodus, but this is an important topic to learn about down the road as you continue your growth as a developer. 
+* To improve performance or efficiency. If we have many, many event listeners in an application, removing the ones that are no longer needed can improve efficiency. This aspect of efficiency has to do with memory management. We won't learn about performance optimization at Fidgetech, but this is an important topic to learn about down the road as you continue your growth as a developer. 
 
 In terms of a workflow for removing event listeners, a good rule to follow is to remove event listeners when you've removed the target it belongs to. Not just hide the target, but remove it completely from the DOM. We haven't yet learned how to add and remove elements from the DOM, but we will in the next course section. 
 
 There are cases where JavaScript's automatic "garbage collection" handles removing event listeners from the associated targets when they are removed from the DOM, but that is a subject that is not important to understand right now. If you want to learn about "garbage collection" and memory management, [visit this reference page on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management). If you want to see a practical example of a memory issue in relation to event listeners, [review this section on MDN's `addEventListener()` reference page](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#memory_issues).
 
-Again, memory management and performance are topics that you should learn about after you leave Epicodus as part of your continuing education. The applications we build at Epicodus for the most part will be small and simple, and won't require cleaning up old, unused event handlers. The most common reason that you will remove an event listener is to reuse an HTML element in multiple scenarios/for different actions, or to react to an event only once.
+Again, memory management and performance are topics that you should learn about after you leave Fidgetech as part of your continuing education. The applications we build at Fidgetech for the most part will be small and simple, and won't require cleaning up old, unused event handlers. The most common reason that you will remove an event listener is to reuse an HTML element in multiple scenarios/for different actions, or to react to an event only once.
 
 ### A Practical Example
 

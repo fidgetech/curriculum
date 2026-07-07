@@ -9,6 +9,12 @@ Until now, we've always dealt with one piece of information at a time: one numbe
 
 In this lesson, we will cover a very common form of collecting items: the **array**. As you read through this lesson, open up your DevTools console and try out the code examples we work through. The angle bracket `>` indicates that we're putting the code into the DevTools console.
 
+> **AI Support:** New to arrays and indexing? After reading this lesson, you can ask AI to explain array indexing or a specific array concept in plain language or with an analogy. Practice writing and accessing your own arrays yourself; AI explains, it doesn't replace it. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Write an array for me."
+> - Strong: "Why does array indexing start at 0 instead of 1 in JavaScript? Can you explain with a simple analogy — without writing code for me?"
+
 ## Arrays
 ---
 

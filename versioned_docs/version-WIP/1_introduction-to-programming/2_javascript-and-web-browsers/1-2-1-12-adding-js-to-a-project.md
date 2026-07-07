@@ -70,7 +70,7 @@ To connect our JS file to our HTML, we need to add a `<script>` tag to the `<hea
 </html>
 ```
 
-At Epicodus, the convention is to always keep our JS separate from our HTML. This helps to create more organized code. Let's continue now and update our `index.html` with the new `<script>` tag in the `<head>` of the HTML.
+At Fidgetech, the convention is to always keep our JS separate from our HTML. This helps to create more organized code. Let's continue now and update our `index.html` with the new `<script>` tag in the `<head>` of the HTML.
 
 <div class="filename">index.html</div>
 

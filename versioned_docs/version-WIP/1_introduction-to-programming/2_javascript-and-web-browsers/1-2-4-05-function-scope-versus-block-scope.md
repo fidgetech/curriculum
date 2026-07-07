@@ -7,6 +7,12 @@ hide_table_of_contents: true
 
 When we first introduced variables, we mentioned that there are differences in how `var`, `let`, and `const` are scoped. At the time, we weren't ready to discuss those differences. Now that we are actively branching, though, we can explore this difference in a little more detail. It's important because there is another layer of scope that goes beyond local and global scope: function scope and block scope. As you read along with the lesson, you are welcome to try out the different code snippets in the DevTools console.
 
+> **AI Support:** Function scope vs. block scope feeling fuzzy? After reading this lesson, you can ask AI to explain the difference in plain language or with an analogy. Practice tracing through the code snippets yourself; AI explains, it doesn't replace it. Before asking, check: [Do I have the license for this?](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech#activity-2-do-you-have-the-license-for-this) See [Using AI Responsibly at Fidgetech](../../pre-work/getting-started-at-fidgetech/1-0-0-13-using-ai-responsibly-at-fidgetech) and [How to Ask for Help](../../pre-work/getting-started-at-fidgetech/1-0-0-07-how-to-ask-for-help).
+>
+> **Example prompts:**
+> - Weak: "Why doesn't my variable work outside the if statement?"
+> - Strong: "What's the difference between function scope and block scope in JavaScript? Can you explain why `var` and `let` behave differently inside an `if` block — without rewriting my code for me?"
+
 ## Function Scoping
 ---
 
