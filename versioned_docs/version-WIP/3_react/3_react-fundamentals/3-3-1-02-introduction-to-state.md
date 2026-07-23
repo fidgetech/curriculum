@@ -7,14 +7,10 @@ hide_table_of_contents: true
 
 In this lesson, we'll cover the concept of state in React and learn how to add state to our components using React's `useState` hook. Then, over the next several lessons, we'll add state to our Help Queue application so we can dynamically add new tickets.
 
-:::important[note]
-A previous lesson briefly introduced both functional and class components. The remainder of this section focuses on functional components and the `useState` hook, which is the modern way to manage state in React.
-:::
-
 ## What Is State?
 ---
 
-We can use two types of data in a React component: **props** and **state**. We've already used props to pass data from parent components to child components.
+React components work with two kinds of data: **props**, which are passed in from a parent component, and **state**, which a component manages internally. We've already used props to pass data from parent components to child components.
 
 **State** is anything in an application that we need to store and change. For instance, in our Help Queue, each time we add a new ticket, we need to update the application's state to hold the new ticket. Likewise, we'd need to update the application's state to edit or delete a ticket.
 
@@ -29,9 +25,9 @@ There are two types of state in a React application: **local state** and **share
 
 Local state lives in a single component and is never used in other components. It's simpler than shared state because we don't have to worry about passing data around.
 
-A common example of local state is toggling visibility — like whether to show a form or a list. We'll use local state in our Help Queue to determine whether users see the ticket list or the "add ticket" form.
+A common example of local state is toggling visibility, like whether to show a form or a list. We'll use local state in our Help Queue to determine whether users see the ticket list or the "add ticket" form.
 
-Where should local state live? Easy — in the component that needs it!
+Where should local state live? Easy: in the component that needs it!
 
 ### Shared State
 
@@ -43,7 +39,7 @@ Here's what that means:
 
 ![The following diagram demonstrates how to lift state between multiple components](/images/React/Week-1-React-2019/state-diagram.jpg)
 
-In this diagram, there are six components. If components D and E both need access to the same state, the lowest common ancestor is component B — so the state should live there.
+In this diagram, there are six components. If components D and E both need access to the same state, the lowest common ancestor is component B, so the state should live there.
 
 But what if component F also needs that state? Now component B is no longer a common ancestor of all three. The lowest common ancestor of D, E, and F is component A, so we'd need to "lift" the state up to component A.
 
@@ -61,39 +57,38 @@ Let's explore `useState` with a simple counter app. You don't need to code along
 Create a new React app:
 
 ```bash
-npx create-react-app counter-app
+npm create vite@latest counter-app -- --template react-ts
+cd counter-app
+npm install
 ```
 
-Replace the code in `src/App.js` with this:
+Replace the code in `src/App.tsx` with this:
 
-```jsx title='src/App.js'
-import './App.css';
+```tsx title='src/App.tsx'
 import Counter from './Counter';
 
 function App() {
   return (
-    <div className="App">
-      <Counter />
-    </div>
+    <Counter />
   );
 }
 
 export default App;
 ```
 
-Now create `src/Counter.js`:
+Now create `src/Counter.tsx`:
 
-```jsx title='src/Counter.js'
-import React, { useState } from 'react';
+```tsx title='src/Counter.tsx'
+import { useState } from 'react';
 
 function Counter() {
   const [count, setCount] = useState(0);
 
   return (
-    <React.Fragment>
+    <>
       <h1>{count}</h1>
       <button onClick={() => setCount(count + 1)}>Count!</button>
-    </React.Fragment>
+    </>
   );
 }
 
@@ -104,27 +99,29 @@ That's it! With just a few lines of code, we have a working counter with state. 
 
 ### How `useState` Works
 
-```js
+```ts
 const [count, setCount] = useState(0);
 ```
 
+Notice that we don't write any type annotations here. Because we pass `0` as the initial value, TypeScript infers that `count` is a `number` and that `setCount` accepts a `number`. In most cases, `useState` can infer the type from its initial value, so we don't need to annotate it ourselves.
+
 This single line does a lot:
 
-1. **`useState(0)`** — We call the `useState` hook and pass in `0` as the initial value for the `count` state variable. We can initialize state with any data type: a number, string, boolean, array, object, or `null`.
+1. **`useState(0)`** - We call the `useState` hook and pass in `0` as the initial value for the `count` state variable. We can initialize state with any data type: a number, string, boolean, array, object, or `null`.
 
 2. **`useState` returns an array** with exactly two elements:
    - The current state value
    - A function to update that value
 
 3. **We destructure the array** into two variables:
-   - `count` — the current value (starts at `0`)
-   - `setCount` — the function we'll call to update `count`
+   - `count` - the current value (starts at `0`)
+   - `setCount` - the function we'll call to update `count`
 
 The naming convention is to name the updater function `set` + the state variable name. So `count` pairs with `setCount`, `hidden` would pair with `setHidden`, and so on.
 
 If the destructuring syntax is unfamiliar, here's what it would look like without it:
 
-```js
+```ts
 const countState = useState(0);
 const count = countState[0];
 const setCount = countState[1];
@@ -136,7 +133,7 @@ The destructuring version is more concise, which is why it's standard practice.
 
 In our JSX, we display the current count and create a button to increment it:
 
-```jsx
+```tsx
 <h1>{count}</h1>
 <button onClick={() => setCount(count + 1)}>Count!</button>
 ```
@@ -156,14 +153,14 @@ We use an arrow function `() => setCount(count + 1)` for the click handler. If w
 
 Always use the updater function. Never do this:
 
-```js
+```ts
 // ❌ DON'T DO THIS!
 count = count + 1;
 ```
 
 This won't work because React doesn't know the value changed. It won't re-render the component, so your UI won't update. Always use the setter function:
 
-```js
+```ts
 // ✅ Do this instead
 setCount(count + 1);
 ```
@@ -172,7 +169,7 @@ setCount(count + 1);
 
 React batches state updates for performance. This means if you try to log state right after updating it, you might see the old value:
 
-```js
+```ts
 setCount(5);
 console.log(count); // Might still show the old value!
 ```
@@ -184,26 +181,26 @@ The component will re-render with the new value, but the update doesn't happen i
 
 What if a component needs to track multiple pieces of state? You might be tempted to put everything in one object:
 
-```js
+```ts
 // This works, but isn't recommended
 const [state, setState] = useState({ count: 0, hidden: false });
 ```
 
 While this works, React recommends using **separate `useState` calls** for each piece of state:
 
-```jsx title='src/Counter.js'
-import React, { useState } from 'react';
+```tsx title='src/Counter.tsx'
+import { useState } from 'react';
 
 function Counter() {
   const [count, setCount] = useState(0);
   const [hidden, setHidden] = useState(false);
 
   return (
-    <React.Fragment>
+    <>
       {hidden ? <h1>Count Hidden</h1> : <h1>{count}</h1>}
       <button onClick={() => setCount(count + 1)}>Count!</button>
       <button onClick={() => setHidden(!hidden)}>Hide/Show</button>
-    </React.Fragment>
+    </>
   );
 }
 

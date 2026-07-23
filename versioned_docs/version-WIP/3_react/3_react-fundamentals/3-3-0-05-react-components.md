@@ -9,17 +9,15 @@ Components are the building blocks of React. Everything in a React application i
 
 Modern React applications use **function components**, though you may also see **class components** in older React codebases. All of the code we write will be added to functional components.
 
-All React applications have a single root component called `App`. This `App` is a parent component for all the other components in an application. `create-react-app` automatically builds an `App` component for us, though we will always delete it and start from scratch when we build new applications.
+All React applications have a single root component called `App`. This `App` is a parent component for all the other components in an application. Vite's `react-ts` template gives us a starter `App` component, though we will always clear it out and start from scratch when we build new applications, just as we did in the previous lesson.
 
 ## Function Components
 ---
 
 Here's the basic structure of a function component:
 
-```jsx
-import React from "react";
-
-function ThisIsAFunctionalComponent(){
+```tsx
+function ThisIsAFunctionalComponent() {
   return (
     <div>
       {/* jsx code goes here */}
@@ -32,7 +30,9 @@ export default ThisIsAFunctionalComponent;
 
 As we can see in the example above, a function component (also known as a functional component) is just a function that returns JSX. In this example, we're wrapping our JSX in a `<div>`, but components can return any valid JSX. We'll cover JSX in the next lesson.
 
-We use an `import` statement to add the functionality we need. In this case, we need the `React` library. We also `export` the component so that it will be available to the rest of the application. We must always export components — otherwise, we won't be able to use them elsewhere!
+We `export` the component so that it will be available to the rest of the application. We must always export components, otherwise we won't be able to use them elsewhere!
+
+You may notice there's no `import React from "react"` line at the top. In older React codebases, every component file began with that import, but Vite's `react-ts` template enables React's automatic JSX runtime, which pulls in what JSX needs behind the scenes. We only add an `import` when we use something by name, such as a hook or a type, which we'll do in later lessons.
 
 
 ## Nesting Components
@@ -74,10 +74,10 @@ Instead, our goal should be to create many small and modular components. This be
 
 In this lesson, we covered several key points:
 
-* **Function components** are literally functions that returns a React element.
+* **Function components** are literally functions that return a React element.
 
 * **Nesting components** is a big part of developing with React. Components can be parents, siblings, children or any combination thereof.
 
 * **Small, modular components** are the way to go. This makes our code easier to understand and allows us to separate presentational concerns.
 
-If it's still not quite clear what a component is, that's to be expected — we haven't built one yet! However, building and using components will soon become second nature with React. Now that we understand the basic concepts behind components, we're ready to learn some JSX and actually build our first component.
+If it's still not quite clear what a component is, that's to be expected, since we haven't built one yet! However, building and using components will soon become second nature with React. Now that we understand the basic concepts behind components, we're ready to learn some JSX and actually build our first component.
