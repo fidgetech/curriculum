@@ -27,10 +27,10 @@ Now install TypeScript as a development dependency:
 npm install typescript@6.0.3 --save-dev
 ```
 
-We'll also install `ts-node`, which lets us run TypeScript files directly without a separate compile step. This is useful for learning and experimentation:
+We'll also install `tsx` (TypeScript Execute), which lets us run TypeScript files directly without a separate compile step. This is useful for learning and experimentation:
 
 ```
-npm install ts-node --save-dev
+npm install tsx --save-dev
 ```
 
 ## Configuring TypeScript
@@ -90,13 +90,13 @@ The `: string` annotation is TypeScript syntax. It tells TypeScript - and anyone
 
 There are two ways to run TypeScript code.
 
-**Option 1: Use ts-node (quick, great for practice)**
+**Option 1: Use tsx (quick, great for practice)**
 
 ```
-npx ts-node src/index.ts
+npx tsx src/index.ts
 ```
 
-`ts-node` compiles and runs the file in one step, without creating any output files. This is the approach we'll use during this section's practice and project.
+`tsx` compiles and runs the file in one step, without creating any output files. This is the approach we'll use during this section's practice and project.
 
 **Option 2: Compile first, then run**
 
@@ -107,7 +107,7 @@ node dist/index.js
 
 `npx tsc` compiles all your TypeScript files and places the resulting JavaScript in `dist/`. You can then run the JavaScript with Node. This is the approach you'd use to prepare code for deployment.
 
-For now, use `ts-node`. It's simpler for learning.
+For now, use `tsx`. It's simpler for learning.
 
 ## TypeScript in VS Code
 
@@ -128,9 +128,9 @@ You may encounter the `any` type as you read documentation or look at existing c
 To set up a standalone TypeScript project (for learning and practice):
 
 1. `npm init -y`
-2. `npm install typescript ts-node --save-dev`
+2. `npm install typescript tsx --save-dev`
 3. `npx tsc --init`, then configure `tsconfig.json` with `strict: true`
 4. Create `.ts` files in `src/`
-5. Run with `npx ts-node src/index.ts`
+5. Run with `npx tsx src/index.ts`
 
 With this setup in place, you're ready to start learning the language itself.
