@@ -24,7 +24,7 @@ npm init -y
 Now install TypeScript as a development dependency:
 
 ```
-npm install typescript@6.0.3 --save-dev
+npm install typescript --save-dev
 ```
 
 We'll also install `tsx` (TypeScript Execute), which lets us run TypeScript files directly without a separate compile step. This is useful for learning and experimentation:
