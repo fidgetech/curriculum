@@ -5,78 +5,77 @@ id: 3-3-0-6-introduction-to-jsx
 hide_table_of_contents: true
 ---
 
-In this lesson, we'll learn the basics of JSX, a preprocessor that adds special syntax capabilities to JavaScript. Specifically, JSX combines elements of both HTML and JavaScript.
+In this lesson, we'll learn the basics of JSX, a syntax extension that adds special syntax capabilities to JavaScript. Specifically, JSX combines elements of both HTML and JavaScript.
 
-We'll start by deleting the content inside the `App.js` file (but not the file itself). We can also delete the `App.css` and `App.test.js` files that `create-react-app` automatically built for our `help-queue` project. We'll build from scratch a simple function component that uses JSX.
+We'll start by again replacing the content inside the App component in the `App.tsx` file. We'll build from scratch a simple function component that uses JSX.
 
-JSX is a declarative language that combines JavaScript with HTML. It makes React code much easier to read, write, and understand. For this reason, almost all React development teams use JSX. While we could technically write React applications with vanilla JavaScript, it would be very cumbersome.
+JSX is a syntax extension that combines JavaScript with HTML. It makes React code much easier to read, write, and understand. For this reason, almost all React development teams use JSX. While we could technically write React applications with vanilla JavaScript, it would be very cumbersome.
 
-Browsers don't understand JSX so we need to use Babel to compile our JSX code. Fortunately, `create-react-app` will take care of this for us and we don't have to worry about it.
+Browsers don't understand JSX, so it needs to be compiled into regular JavaScript. Fortunately, Vite takes care of this for us behind the scenes, so we don't have to worry about it.
 
-At this point, the `App.js` file should be blank. Add the following code to this file:
+Replace the content of `App.tsx` with the following code. This example shows a single sample help ticket: its section/location ("3a"), the names of the students who need help, and a brief description of the issue.
 
-<div class="filename">src/App.js</div>
-
-```js
-import React from "react";
-
+```tsx title="src/App.tsx"
 function App(){
   return (
-    <React.Fragment>
+    <>
       <h1>Help Queue</h1>
       <h3>3a</h3>
       <h3>Thato and Haley</h3>
-      <p><em>Firebase entries not saving!</em></p>
+      <p><em>React component not rendering!</em></p>
       <hr/>
-    </React.Fragment>
+    </>
   );
 }
 
 export default App;
 ```
 
-As we can see, our return statement is mostly standard HTML. In this context, this is actually JSX syntax, which recognizes standard HTML. Under the hood, React is actually using a method called `React.createElement()` to create these elements. While it looks like we are writing HTML, this is actually **syntactic sugar**. Syntactic sugar is when a language or library provides an easier way to write and read code. This way we can write HTML without worrying about calling `React.createElement()` every time we want to create a new element.
+Save the file and check your browser at _http://localhost:5173_. You should see the "Help Queue" heading along with the sample ticket's section, names, and description. Because the dev server reloads automatically whenever we save, our changes appear right away without us needing to refresh.
 
-We also use a new element called a `<React.Fragment>`. In order to return multiple elements, all the code in a function component's return statement must be wrapped in a single JSX element. Typically, that will be a `<div>` or a `<React.Fragment>`.
+As we can see, our return statement is mostly standard HTML. In this context, this is actually JSX syntax, which recognizes standard HTML. Under the hood, JSX compiles down to plain JavaScript function calls that create these elements. Historically, that meant calling a method named `React.createElement()` for every element, but modern tooling like Vite uses an automatic JSX runtime that handles those calls for you. This is also why we don't need to `import React` at the top of the file, as we saw in the previous lesson. While it looks like we are writing HTML, this is actually **syntactic sugar**. Syntactic sugar is when a language or library provides an easier way to write and read code. This way we can write HTML without worrying about creating each element by hand.
 
-If our component returns multiple elements and we don't wrap it in one of these two things, we'll get the following parsing error:
+We also use a new piece of syntax called a **fragment**, written as `<>...</>`. In order to return multiple elements, all the code in a function component's return statement must be wrapped in a single element. A fragment lets us do this without adding an extra node to the DOM, and it requires no import. We'll use the shorthand `<>...</>` throughout this curriculum.
+
+If our component returns multiple elements and we don't wrap them in a single element, we'll get the following parsing error:
 
 ```
 Adjacent JSX elements must be wrapped in an enclosing tag.
 ```
 
-Traditionally, elements were wrapped in a `<div>`. While this still works, it's no longer considered a best practice because it needlessly clutters the DOM with unnecessary divs. The `<React.Fragment>` was created to solve this issue. All components returning more than one element must be wrapped in a `<React.Fragment>`.
+You may also see other approaches in older code. Wrapping elements in a `<div>` still works, but it's no longer preferred because it clutters the DOM with unnecessary divs, which is exactly the problem fragments were created to solve. You may also see fragments written in their longer form, `<React.Fragment>...</React.Fragment>`, which does the same thing as the shorthand but requires importing `React`.
 
-While JSX may look like HTML, there are ways in which JSX is more like JavaScript. For instance, if we wanted to add a class to a div, we'd use lower camel case like this:
+While JSX may look like HTML, there are ways in which JSX is more like JavaScript. For instance, if we wanted to add a class to a div, we'd use `className` instead of `class`, like this:
 
-```jsx
+```tsx
 <div className="class-name"></div>
 ```
 
-We can also evaluate expressions inside curly braces. Update `App.js` to look like the following:
+The reason is that `class` is a reserved word in JavaScript, so JSX uses `className` instead. In general, JSX attribute names follow JavaScript's DOM property naming rather than the HTML attribute names. You'll run into another example of this later when we build forms: the HTML `<label for="">` attribute becomes `htmlFor` in JSX.
 
-<div class="filename">src/App.js</div>
+We can also evaluate expressions inside curly braces. Update `App.tsx` to look like the following:
 
-```js
-import React from "react";
-
+```tsx title="src/App.tsx"
 function App(){
   const name = "Thato";
   const name2 = "Haley";
+
   return (
-    <React.Fragment>
+    <>
       <h1>Help Queue</h1>
       <h3>3a</h3>
       <h3>{name} and {name2}</h3>
-      <p><em>Firebase entries not saving!</em></p>
+      <p><em>React component not rendering!</em></p>
       {/* This is a JSX comment. */}
       <hr/>
-    </React.Fragment>
+    </>
   );
 }
 
 export default App;
 ```
+
+Save the file and check your browser again: the names now come from variables, but they look exactly the same on screen.
 
 In the above example, we are storing the names on the help ticket inside variables. We can then express the values of these variables using curly braces `{}`.
 
@@ -85,17 +84,17 @@ Note also the odd syntax for the comment above. JSX doesn't recognize either JS 
 * `Command` + `/` for Mac
 * `Ctrl` + `/` for Windows
 
-We will always use curly braces for any JavaScript expression in JSX, whether it's a function call, rendering a variable, or string interpolation. Think about curly braces as a way to escape JSX back and return to vanilla JS. 
+We will always use curly braces for any JavaScript expression in JSX. Think about curly braces as a way to escape JSX back and return to vanilla JS. 
 
-Finally, we need to know the syntax for rendering a child component within a parent component. We covered this briefly when we discussed our `index.js` file, which renders the `App` component using the following syntax: `<App />`. React lets us call a component by name using JSX element syntax, in essence creating a custom tag. 
+Finally, we need to know the syntax for rendering a child component within a parent component. We covered this briefly when we discussed our `main.tsx` file, which renders the `App` component using the following syntax: `<App />`. React lets us call a component by name using JSX element syntax, in essence creating a custom tag. 
 
-For example, if we were working in `ParentComponent.js` and we wanted to render its child component, syntax for the render method might look something like this: 
+This is a preview of syntax we'll use very soon. As we build out the Help Queue, we'll create components like `Header` and `Ticket` and render them inside `App` in exactly this way. For example, if we were working in `ParentComponent.tsx` and we wanted to render its child component, the return statement might look something like this:
 
-```jsx
+```tsx
 return (
-<React.Fragment>
-  <ChildComponent />
-</React.Fragment>
+  <>
+    <ChildComponent />
+  </>
 );
 ```
 
@@ -103,8 +102,8 @@ For now, that's really all we need to know about JSX. We will cover using loopin
 
 ### Separation of Concerns
 
-Before we move on to building out our Help Queue further, there's one other key point to address. We have spent the past few months focusing on keeping our concerns separate. Specifically, we've focused on keeping our UI logic separate from our business logic.
+Before we move on to building out our Help Queue further, there's one other key point to address. We have spent prior sections focusing on keeping our concerns separate. Specifically, we've focused on keeping our UI logic separate from our business logic.
 
 For that reason, it may seem strange to mix HTML and JavaScript syntax as we do with JSX.
 
-However, remember that React is only the view layer. As a view library (not a framework), React only cares about presentation. Its job is to render the virtual DOM — which it will reconcile with the real DOM — leading to a more seamless user experience. Since developers have traditionally used HTML and JS to render the DOM, it makes sense to combine the advantages of both.
+However, remember that React is only the view layer. As a view library (not a framework), React only cares about presentation. Its job is to render the virtual DOM (reconciling it with the real DOM) leading to a more seamless user experience. Since developers have traditionally used HTML and JS to render the DOM, it makes sense to combine the advantages of both.

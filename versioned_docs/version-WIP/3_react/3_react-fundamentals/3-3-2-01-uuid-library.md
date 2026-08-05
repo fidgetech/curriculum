@@ -1,7 +1,7 @@
 ---
-title: "📓 3.3.2.1 UUID Library"
+title: "📓 3.3.2.1 Generating Unique IDs"
 day: tuesday
-id: 3-3-2-1-uuid-library
+id: 3-3-2-1-generating-unique-ids
 hide_table_of_contents: true
 ---
 
@@ -11,25 +11,26 @@ Unique IDs are important for many reasons. In larger database-backed application
 
 Remember that React relies on unique keys in order to efficiently reconcile the virtual DOM with the actual DOM. We should do everything we can to make sure those keys are always unique. In addition, unique IDs are helpful for correctly finding a record so it can be updated, deleted, and so on.
 
-Fortunately, create-react-app ships with an industry-standard option: a JS library called **UUID**. The UUID library is designed to quickly generate UUIDs. UUID stands for "universally unique identifier". They're also sometimes referred to as GUID, or "globally unique identifiers".
+## UUID
 
-A UUID has 32 characters. The number of total permutations of a UUID is 2<sup>122</sup>. This is such a large number that every computer application across the world, regardless of language or platform, could use UUID and still have an extremely tiny chance of duplicates. UUIDs are not specific to React, JavaScript, or even web development. They're actually used in everything from operating systems to SQL database keys.
+The standard format for unique IDs in web development is UUID, which stands for "universally unique identifier." UUIDs are also sometimes called GUIDs, or "globally unique identifiers."
 
-To use the UUID library with create-react-app, we just need to import the following in the file that needs to generate UUIDs:
+A UUID has 32 characters. The number of total permutations of a UUID is 2<sup>122</sup>. This is such a large number that every computer application across the world, regardless of language or platform, could use UUID and still have an extremely tiny chance of duplicates. UUIDs are not specific to React, JavaScript, or even web development. They're used in everything from operating systems to SQL database keys.
 
-```javascript
-import { v4 } from 'uuid';
+## `crypto.randomUUID()`
+
+To generate UUIDs in our React application, we'll use `crypto.randomUUID()` - a method built into the browser. No library installation or import is required.
+
+```ts
+const id = crypto.randomUUID();
 ```
 
-`v4` refers to the method in the UUID library responsible for creating unique IDs. According to the [UUID Documentation](https://github.com/kelektiv/node-uuid), there are a few available methods: For instance, `v1()` creates an ID based on timestamp while `v5()` uses the object's namespace to generate an ID.
+Each call to `crypto.randomUUID()` returns a new, unique UUID string. We could create a ticket object with a generated ID like this:
 
-We could then set the ID property of a ticket with a UUID by doing something like the following:
-
-```js
-const ticket = {};
-ticket.id = v4()
+```ts
+const ticket = { id: crypto.randomUUID() };
 ```
 
-The `v4()` function will automatically generate a UUID.
+TypeScript already knows the type of `crypto.randomUUID()` - it returns a `string` - so we get full type checking with no extra setup.
 
-In the next lesson, we'll begin to create our `NewTicketForm` component in which we'll use the UUID library to assign unique IDs to new tickets.
+In the next lesson, we'll begin to create our `NewTicketForm` component and use `crypto.randomUUID()` to assign unique IDs to new tickets.
