@@ -11,7 +11,7 @@
     "create-syllabus": "node scripts/createSyllabus.mjs",
     "number-lessons": "node scripts/numberLessons.mjs",
     "start": "docusaurus start --no-open",
-    "dev": "docusaurus start --no-open",
+    "dev": "docusaurus start --no-open --port 4500",
     "build": "docusaurus build",
     "deploy": "docusaurus deploy",
     "docusaurus": "docusaurus",

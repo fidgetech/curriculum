@@ -9,8 +9,8 @@ In this lesson, we'll cover **conditional rendering**. Conditional rendering is 
 
 Let's add a condition to the `TicketControl` component now:
 
-```js title="src/components/TicketControl.js"
-import React, { useState } from 'react';
+```tsx title="src/components/TicketControl.tsx"
+import { useState } from 'react';
 import NewTicketForm from './NewTicketForm';
 import TicketList from './TicketList';
 
@@ -26,9 +26,9 @@ function TicketControl() {
   }
 
   return (
-    <React.Fragment>
+    <>
       {currentlyVisibleState}
-    </React.Fragment>
+    </>
   );
 }
 
@@ -56,11 +56,11 @@ There are several ways to handle conditional rendering in React. The approach ab
 
 For simple two-way conditions, you can use a ternary operator directly in your JSX:
 
-```js
+```tsx
 return (
-  <React.Fragment>
+  <>
     {formVisibleOnPage ? <NewTicketForm /> : <TicketList />}
-  </React.Fragment>
+  </>
 );
 ```
 
@@ -68,11 +68,11 @@ return (
 
 If you only want to render something when a condition is true (and nothing otherwise), you can use the logical AND operator:
 
-```js
+```tsx
 return (
-  <React.Fragment>
+  <>
     {formVisibleOnPage && <NewTicketForm />}
-  </React.Fragment>
+  </>
 );
 ```
 

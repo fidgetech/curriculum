@@ -10,7 +10,7 @@ React is a JavaScript library used to create highly dynamic views. In this lesso
 ## History
 ---
 
-React was developed at Facebook in 2011 for use in their newsfeed area. After continued issues with long load times, they needed to develop something fast and scalable enough to deal with extremely heavy traffic — [Facebook reported](https://newsroom.fb.com/company-info/) 1.28 billion daily active users in March 2017 alone.
+React was developed at Facebook in 2011 for use in their newsfeed area. After continued issues with long load times, they needed to develop something fast and scalable enough to deal with extremely heavy traffic. [Facebook reported](https://newsroom.fb.com/company-info/) 1.28 billion daily active users in March 2017 alone.
 
 In 2013, React was made open source. Since then, it has become extremely popular. Sites ranging from Instagram to AirBnB use it.
 
@@ -60,7 +60,7 @@ And many, many more!
 ## Why Use React?
 ---
 
-React also has many other benefits as well, including:
+React also has many other benefits, including:
 
 ### Component-Based
 
@@ -68,7 +68,7 @@ React is component-based, which assists in organizing even the most complex user
 
 ### Declarative
 
-React components are **declarative**. As we discussed in the last course section, declarative programming is when we write code that describes the intended end result instead of writing every single step required to reach that result. Writing declarative code saves us time because we don't need to explicitly state every step needed to reach the end result. Declarative code is also easier to read and understand.
+React components are **declarative**. As we discussed in the functional programming section, declarative programming is when we write code that describes the intended end result instead of writing every single step required to reach that result. Writing declarative code saves us time because we don't need to explicitly state every step needed to reach the end result. Declarative code is also easier to read and understand.
 
 ### Data Model Synchronization
 
@@ -80,7 +80,7 @@ React utilizes a **virtual DOM**. We'll explore what this is and how it works in
 
 ### Easier to Create Single Page Applications
 
-For a long time, all websites were multi-page applications. Many still are, including future MVC applications we will eventually create with .NET in the next course. Whenever we request to see information or complete an action, we navigate to a new page. For example, check out the way a user interacts with the multi-page site [kiva.org](https://www.kiva.org):
+For a long time, all websites were multi-page applications, and many still are. Whenever we request to see information or complete an action, we navigate to a new page. For example, check out the way a user interacts with the multi-page site [kiva.org](https://www.kiva.org):
 
 ![kiva-multi-page-app-example](/images/React/kiva-multi-page-app-example.gif)
 
@@ -94,7 +94,7 @@ For instance, check out a user on Instagram's single-page application can naviga
 
 The user can complete multiple actions without navigating to a new page, reloading, or refreshing. The page the user is already on is simply updated dynamically.
 
-However, despite the fewer number of pages, creating and maintaining single-page applications is considerably more difficult than making traditional multi-page sites. The DOM needs to be updated constantly. The data and the user interface must constantly be synchronized even though making DOM updates is an inefficient process.
+However, despite the fewer number of pages, creating and maintaining single-page applications can be more difficult than making traditional multi-page sites. The DOM must be updated constantly. The data and the user interface must constantly be synchronized even though making DOM updates is an inefficient process.
 
 React makes creating these modern single-page applications much easier due to its virtual DOM and data model synchronization capabilities.
 
@@ -102,9 +102,11 @@ React makes creating these modern single-page applications much easier due to it
 
 React uses a special syntax called **JSX** that allows developers to mix HTML with JavaScript. While not mandatory, developers report that JSX makes developing in React much easier. Nearly all React applications use JSX syntax. We'll use JSX, too.
 
+Because this curriculum uses TypeScript, our component files will use the `.tsx` extension. TSX is the same HTML-like syntax as JSX, with one addition: `.tsx` files also support TypeScript type annotations alongside that syntax. The core idea is identical, so everything you learn about JSX applies to the `.tsx` files you'll be writing.
+
 ### Support
 
-Facebook maintains React. It is a large, established company with the resources to support and maintain React (and its documentation) into the foreseeable future. Our applications will be more stable if we use well-supported tools.
+Meta maintains React. It is a large, established company with the resources to support and maintain React (and its documentation) into the foreseeable future. Our applications will be more stable if we use well-supported tools.
 
 ### Library Benefits
 

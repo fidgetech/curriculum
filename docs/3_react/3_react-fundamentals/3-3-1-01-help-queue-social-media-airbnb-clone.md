@@ -5,21 +5,21 @@ id: 3-3-1-1-help-queue-social-media-airbnb-clone
 hide_table_of_contents: true
 ---
 
-**Goal:** Get comfortable with the basics of React by following along with this weekend's homework and creating basic applications of your own. Make sure you break each application up into a tree of self-contained components.
+**Goal:** Get comfortable with the basics of React by following along with the lessons and creating basic applications of your own. Make sure you break each application up into a tree of self-contained components.
 
 ## Warm Up
 ---
 
 * What is the difference between a framework and a library? Which is React? How can you tell?
 * What is the virtual DOM? How does React use it? What benefits does it offer?
-* Why might a developer choose React over another library or framework? What type of projects do you think are best suited to the React library?
+* Why might a developer choose React over another library or framework? What type of projects do you think are best suited to React?
 
 ## Code
 ---
 
 ### React Basics & Help Queue
 
-Work through the weekend homework with your partner. Take your time and ensure you and your partner fully understand each step and concept before moving on.
+Work through the lessons up to this point. Take your time and ensure you fully understand each step and concept before moving on.
 
 ### Social Media Clone
 
@@ -43,6 +43,6 @@ Make sure to draw a component diagram and include it in your README.
 ---
 
 * Components are used to create modular UI elements.
-* `propTypes` define data types for all component props.
+* TypeScript types define data types for all component props.
 * Application works as expected.
 * Application is well planned and includes a component diagram.

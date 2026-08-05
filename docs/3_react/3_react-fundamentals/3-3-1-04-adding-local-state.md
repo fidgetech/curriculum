@@ -7,19 +7,17 @@ hide_table_of_contents: true
 
 We're ready to add local state to our application. We'll start by adding two new components to `src/components`:
 
-- `NewTicketForm.js`: This will be our form
-- `TicketControl.js`: This will be the parent component for `NewTicketForm.js` and `TicketList.js`
+- `NewTicketForm.tsx`: This will be our form
+- `TicketControl.tsx`: This will be the parent component for `NewTicketForm.tsx` and `TicketList.tsx`
 
 Let's add some placeholder code to our `NewTicketForm` component:
 
-```js title="src/components/NewTicketForm.js"
-import React from "react";
-
+```tsx title="src/components/NewTicketForm.tsx"
 function NewTicketForm() {
   return (
-    <React.Fragment>
+    <>
       <h3>This is a form.</h3>
-    </React.Fragment>
+    </>
   );
 }
 
@@ -30,8 +28,8 @@ Because we are only worried about our local state right now (and toggling betwee
 
 Next, let's add our `TicketControl` component. This component will use the `useState` hook to manage local state.
 
-```js title="src/components/TicketControl.js"
-import React, { useState } from 'react';
+```tsx title="src/components/TicketControl.tsx"
+import { useState } from 'react';
 import NewTicketForm from './NewTicketForm';
 import TicketList from './TicketList';
 
@@ -39,8 +37,8 @@ function TicketControl() {
   const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
 
   return (
-    <React.Fragment>
-    </React.Fragment>
+    <>
+    </>
   );
 }
 
@@ -56,24 +54,23 @@ Let's walk through what we've set up:
 
 Next, let's make a small update to our `App` component. It now needs to render the `TicketControl` component rather than the `TicketList` component.
 
-```js title="src/components/App.js"
-import React from "react";
+```tsx title="src/components/App.tsx"
 import Header from "./Header";
 import TicketControl from "./TicketControl";
 
 function App(){
   return ( 
-    <React.Fragment>
+    <>
       <Header />
       <TicketControl />
-    </React.Fragment>
+    </>
   );
 }
 
 export default App;
 ```
 
-We no longer import the `TicketList` component — we import `TicketControl` instead. Our `App` component has also been updated to display the `TicketControl` component instead of `TicketList` as well.
+We no longer import the `TicketList` component — we import `TicketControl` instead. Our `App` component has also been updated to display the `TicketControl` component instead of `TicketList`.
 
 **Note that if we run our application right now, it will not render any tickets.** This is expected — our `TicketControl` component doesn't render anything yet.
 
@@ -87,21 +84,13 @@ Remember that our component can have one of two possible states:
 
 What do we want the default local state to be? A list of tickets or a form? Here we're setting the default state to show the `TicketList` component and hide the `NewTicketForm` component. That's why we initialized our state like this:
 
-```js
+```ts
 const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
 ```
 
-The default state of our application has `formVisibleOnPage` set to `false`.
+The default state of our application has `formVisibleOnPage` set to `false`. TypeScript infers the type `boolean` from the initial value, so no annotation is needed.
 
-We can add as many state variables as we need using multiple `useState` calls:
-
-```js
-const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
-const [mainTicketList, setMainTicketList] = useState([]);
-const [selectedTicket, setSelectedTicket] = useState(null);
-```
-
-Each `useState` call creates an independent piece of state with its own updater function. This is a key advantage of hooks — we can separate our concerns by having different state variables for different purposes.
+We can add as many state variables as we need using multiple `useState` calls — we'll do exactly that in upcoming lessons as we add shared state to the application. Each `useState` call creates an independent piece of state with its own updater function, which lets us separate different concerns cleanly.
 
 Now that we have a default state, we need a way to change it. We'll also need to use conditional rendering to determine which component should be showing.
 

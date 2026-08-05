@@ -5,7 +5,7 @@ id: 3-3-1-6-updating-state-with-events
 hide_table_of_contents: true
 ---
 
-In this lesson, we'll handle our first event in a React application. We've handled many events before — every time we use functions to respond to a click or a submit button, we are handling an event. The process in React is very similar:
+In this lesson, we'll add a click handler to our Help Queue application. We already saw this pattern in the counter example: attach an `onClick` to an element, and point it at a function that updates state. The process here is the same:
 
 * First, we add a click handler to an element (such as a button).
 * Next, that click handler will trigger a function. We need to write that function as well.
@@ -15,7 +15,7 @@ In this lesson, we'll handle our first event in a React application. We've handl
 
 Here's how our click handler will look:
 
-```jsx
+```tsx
 <button onClick={handleClick}>Add ticket</button>
 ```
 
@@ -30,8 +30,8 @@ Other than these syntactical differences, attaching click handlers in React is v
 
 Now let's actually add our event handler to our component:
 
-```js title="src/components/TicketControl.js"
-import React, { useState } from 'react';
+```tsx title="src/components/TicketControl.tsx"
+import { useState } from 'react';
 import NewTicketForm from './NewTicketForm';
 import TicketList from './TicketList';
 
@@ -49,10 +49,10 @@ function TicketControl() {
   }
 
   return (
-    <React.Fragment>
+    <>
       {currentlyVisibleState}
       <button onClick={handleClick}>{buttonText}</button> { /* new code */ }
-    </React.Fragment>
+    </>
   );
 }
 
@@ -78,8 +78,8 @@ You may wonder why we have this button here instead of in the `TicketList` compo
 
 Next, we need to write the function that will be called when the button is clicked. In a function component, we simply define a function inside our component:
 
-```js title="src/components/TicketControl.js"
-import React, { useState } from 'react';
+```tsx title="src/components/TicketControl.tsx"
+import { useState } from 'react';
 import NewTicketForm from './NewTicketForm';
 import TicketList from './TicketList';
 
@@ -102,10 +102,10 @@ function TicketControl() {
   }
 
   return (
-    <React.Fragment>
+    <>
       {currentlyVisibleState}
       <button onClick={handleClick}>{buttonText}</button>
-    </React.Fragment>
+    </>
   );
 }
 
@@ -123,7 +123,7 @@ When we add a working form to our application, our submit button will return use
 
 First, let's update our `handleClick` function to toggle the boolean instead of just setting it to `true`:
 
-```js title="src/components/TicketControl.js"
+```ts title="src/components/TicketControl.tsx"
 const handleClick = () => {
   setFormVisibleOnPage(!formVisibleOnPage);
 }
@@ -133,7 +133,7 @@ This line says: "set `formVisibleOnPage` to the opposite of its current value." 
 
 For most cases, this approach works perfectly. However, if you're dealing with rapid state updates or updates inside effects, you might want to use the functional form of the state updater:
 
-```js
+```ts
 const handleClick = () => {
   setFormVisibleOnPage(prevState => !prevState);
 }
@@ -145,8 +145,8 @@ This version receives the previous state as an argument and returns the new stat
 
 Now that we've updated our `handleClick` function to toggle, we need to update our conditional logic so that the button text changes depending on which view is currently visible:
 
-```js title="src/components/TicketControl.js"
-import React, { useState } from 'react';
+```tsx title="src/components/TicketControl.tsx"
+import { useState } from 'react';
 import NewTicketForm from './NewTicketForm';
 import TicketList from './TicketList';
 
@@ -169,10 +169,10 @@ function TicketControl() {
   }
 
   return (
-    <React.Fragment>
+    <>
       {currentlyVisibleState}
       <button onClick={handleClick}>{buttonText}</button>
-    </React.Fragment>
+    </>
   );
 }
 
@@ -188,7 +188,7 @@ At this point, we've successfully added local state and we can use a button to t
 
 You might wonder why we define `handleClick` as an arrow function:
 
-```js
+```ts
 const handleClick = () => {
   setFormVisibleOnPage(!formVisibleOnPage);
 }
@@ -196,7 +196,7 @@ const handleClick = () => {
 
 In function components, you can also use regular function declarations:
 
-```js
+```ts
 function handleClick() {
   setFormVisibleOnPage(!formVisibleOnPage);
 }
@@ -208,4 +208,4 @@ Both work fine in function components! The arrow function syntax is common becau
 
 ## What's Next?
 
-Now that we can toggle between views using local state, we're ready to build a real form that adds tickets to the queue. But first, we'll need a way to give each ticket a unique ID — which brings us to the UUID library.
+Now that we can toggle between views using local state, we're ready to build a real form that adds tickets to the queue. But first, we'll need a way to give each ticket a unique ID - which brings us to generating unique IDs.
