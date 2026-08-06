@@ -8,6 +8,7 @@
     "prep": "node scripts/generateSidebars.mjs && node scripts/updateFrontmatter.mjs",
     "alphabetize": "node scripts/alphabetizeFiles.cjs",
     "find-broken-links": "node scripts/findBrokenLinks.mjs",
+    "check-wip-drift": "node scripts/checkWipDrift.mjs",
     "create-syllabus": "node scripts/createSyllabus.mjs",
     "number-lessons": "node scripts/numberLessons.mjs",
     "start": "docusaurus start --no-open",
