@@ -28,7 +28,7 @@ Create a new directory and initialize a TypeScript project:
 mkdir book-tracker
 cd book-tracker
 npm init -y
-npm install typescript ts-node --save-dev
+npm install typescript tsx --save-dev
 npx tsc --init
 ```
 
@@ -200,7 +200,7 @@ console.log('addBook', books.length); // 4
 console.log('addBook', books[3].title); // "A Memory Called Empire"
 ```
 
-Run `npx ts-node src/index.ts` to verify it works. It should log `4` to the console, indicating the new book was added successfully.
+Run `npx tsx src/index.ts` to verify it works. It should log `4` to the console, indicating the new book was added successfully.
 
 ### Filtering by Status
 
@@ -226,7 +226,7 @@ console.log('filterByStatus', currentlyReading.length); // 1
 console.log('filterByStatus', currentlyReading[0].title); // "The Fifth Season"
 ```
 
-Run `npx ts-node src/index.ts` to verify it works. It should log `1` and `"The Fifth Season"` to the console, indicating that the filter function is correctly returning only the book with the "currently-reading" status.
+Run `npx tsx src/index.ts` to verify it works. It should log `1` and `"The Fifth Season"` to the console, indicating that the filter function is correctly returning only the book with the "currently-reading" status.
 
 ### Filtering by Genre
 
@@ -275,7 +275,7 @@ console.log('removeBook', books.length); // 3 - Uprooted has been removed
 console.log('removeBook', books.find(b => b.id === 1)); // undefined
 ```
 
-Run `npx ts-node src/index.ts` to verify it works. It should log `3` because we're back down to 3 books, and `undefined` because the book with `id` 1 was removed from the array.
+Run `npx tsx src/index.ts` to verify it works. It should log `3` because we're back down to 3 books, and `undefined` because the book with `id` 1 was removed from the array.
 
 ### Updating a Book's Status
 

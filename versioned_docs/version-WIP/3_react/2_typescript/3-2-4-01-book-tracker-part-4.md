@@ -119,7 +119,7 @@ Before writing your README, look back over `library.ts` with fresh eyes:
 Create a `README.md` at the root of your project. Include:
 
 - What the project does
-- How to run it (`npx ts-node src/index.ts`)
+- How to run it (`npx tsx src/index.ts`)
 - A list of the functions available and what each one does
 
 ---

@@ -175,7 +175,7 @@ Open the `src/index.ts` scratchpad from the setup lesson and try each of these. 
    console.log(typedBook.author);
    ```
 
-   Hover over `book` and notice it's `any` - TypeScript lets you access `book.anythingAtAll` with no complaint, because `any` turns off checking. Now hover over `typedBook` and access `typedBook.title`. With the assertion, you get autocomplete and an actual error if you misspell a property. Run it with `npx ts-node src/index.ts` to confirm `typedBook.author` correctly logs "Naomi Novik".
+   Hover over `book` and notice it's `any` - TypeScript lets you access `book.anythingAtAll` with no complaint, because `any` turns off checking. Now hover over `typedBook` and access `typedBook.title`. With the assertion, you get autocomplete and an actual error if you misspell a property. Run it with `npx tsx src/index.ts` to confirm `typedBook.author` correctly logs "Naomi Novik".
 
 2. **Assert a DOM element.** Write this into your editor and then hover over `input` and `value`:
 

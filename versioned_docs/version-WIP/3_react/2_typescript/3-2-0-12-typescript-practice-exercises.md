@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 **Goal:** Practice the TypeScript concepts from the earlier lessons before starting the project. Work through as many of these as you can on your own. These exercises are for practice - there's no single right answer for most of them.
 
-Set up a small TypeScript project (or use the one you created in the [Setting Up TypeScript](3-2-0-3-setting-up-typescript) lesson) to try these out with `ts-node`.
+Set up a small TypeScript project (or use the one you created in the [Setting Up TypeScript](3-2-0-3-setting-up-typescript) lesson) to try these out with `tsx`.
 
 ---
 
