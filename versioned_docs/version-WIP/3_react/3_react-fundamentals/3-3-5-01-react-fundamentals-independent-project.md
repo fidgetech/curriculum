@@ -21,7 +21,7 @@ Your code will be reviewed for the following objectives:
 * Application compiles and runs without error, and warnings in the DevTools console are resolved.
 * Functional components are used correctly.
 * Application effectively uses local and shared state.
-* Props are used correctly and always include `PropTypes`.
+* TypeScript types are defined for all component props.
 * README includes an accurate representation of the application's component tree.
 * Project is in a polished, portfolio-quality state.
 * The prompt's required functionality and baseline project requirements are met.

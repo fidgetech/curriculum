@@ -5,7 +5,7 @@ id: 3-3-3-2-overview-of-next-steps-adding-read-update-and-delete-functionality
 hide_table_of_contents: true
 ---
 
-Tonight's homework includes some long lessons and heavy content. We will be adding the following functionality to our Help Queue application: 
+The lessons in this segment are long and cover a lot of ground. We will be adding the following functionality to our Help Queue application:
 
 * READ ticket detail;
 * UPDATE ticket;
@@ -15,7 +15,7 @@ Tonight's homework includes some long lessons and heavy content. We will be addi
 
 There is no canonical way to add UPDATE and DELETE functionality to a React application. But what exactly do we mean by that?
 
-Unlike Rails or .NET, React is not opinionated. That means there are many different ways to do things. In other words, most of tonight's homework does not actually teach any new concepts even though we are adding new functionality. Instead, we will focus on practicing and emphasizing what we've already covered in this course section, including:
+Unlike Rails or .NET, React is not opinionated. That means there are many different ways to do things. In other words, most of these lessons do not actually teach any new concepts even though we are adding new functionality. Instead, we will focus on practicing and emphasizing what we've already covered in this course section, including:
 
 * Planning out our application;
 * Using shared and local state;
