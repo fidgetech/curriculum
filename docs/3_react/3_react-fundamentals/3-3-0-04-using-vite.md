@@ -11,6 +11,14 @@ In Intermediate JavaScript, we built our project environments by hand: installin
 
 **Vite** is the current standard for scaffolding new React projects. It gives us a fast development server, instant feedback as we edit code, and built-in support for TypeScript right out of the box. Vite handles the bundling and compiling behind the scenes, so we can focus on learning React instead of configuring tooling. We won't need to write a webpack config or set up Babel ourselves.
 
+## Updating Node
+We'll need to use Node version **24.19.0 or newer** to work with Vite. If you aren't already on that version (you can check by running the command `node -v`), you'll need to install it.
+It's recommended to use **Node Version Manager (nvm)** to allow for easy switching between installed Node versions. If you haven't already, follow [this lesson](https://fidgetechcode.org/v1.4/intermediate-javascript/getting-started-with-javascript/2-0-0-3-installing-node-js) to install Node Version Manager.
+Once it's installed, you can install the pinned version of Node by running the command `nvm install 24.19.0`. Then you can switch to that as the default by running `nvm use 24.19.0`.
+Once that's done, you can confirm it's installed correctly by running `node -v` to see what version of Node is in use. This should now return `v24.19.0`.
+
+After installing this Node version, you'll want to restart any open Git Bash instances before continuing in this lesson.
+
 ## Creating the Project
 
 We'll build a project called **help-queue** throughout the React Fundamentals section. Let's scaffold it now. Run the following command in the directory where you keep your projects:
