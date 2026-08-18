@@ -38,8 +38,8 @@ import TicketList from './TicketList';
 function TicketControl() {
   const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
 
-  let currentlyVisibleState = null;
-  let buttonText = null; // new code
+  let currentlyVisibleState;
+  let buttonText; // new code
 
   if (formVisibleOnPage) {
     currentlyVisibleState = <NewTicketForm />;
@@ -67,7 +67,7 @@ There are two different kinds of comments above — this is expected. Comments i
 
 We've added a few things:
 
-* We create a new variable called `buttonText` and set its value to `null`.
+* We declare a new variable called `buttonText` without an initial value.
 * If `formVisibleOnPage` is `false`, we set the value of `buttonText` to `"Add Ticket"`.
 * In the return statement, we render the button with the text stored in `buttonText`.
 
@@ -91,8 +91,8 @@ function TicketControl() {
     setFormVisibleOnPage(true);
   }
 
-  let currentlyVisibleState = null;
-  let buttonText = null;
+  let currentlyVisibleState;
+  let buttonText;
 
   if (formVisibleOnPage) {
     currentlyVisibleState = <NewTicketForm />;
@@ -157,8 +157,8 @@ function TicketControl() {
     setFormVisibleOnPage(!formVisibleOnPage);
   }
 
-  let currentlyVisibleState = null;
-  let buttonText = null;
+  let currentlyVisibleState;
+  let buttonText;
 
   if (formVisibleOnPage) {
     currentlyVisibleState = <NewTicketForm />;

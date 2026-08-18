@@ -16,7 +16,7 @@ When we attach an event handler like `onClick`, we pass a function reference:
 <button onClick={handleClick}>Click me</button>
 ```
 
-Notice there are no parentheses after `handleClick`. We're telling React "here's the function to call when clicked" — we're not calling it ourselves.
+Notice there are no parentheses after `handleClick`. We're telling React "here's the function to call when clicked" - we're not calling it ourselves.
 
 If we add parentheses:
 
@@ -36,7 +36,7 @@ But what if we need to pass an argument to our function? Let's say we want to pa
 <button onClick={handleDelete(ticket.id)}>Delete</button>
 ```
 
-This won't work — `handleDelete(ticket.id)` runs right away because of the parentheses.
+This won't work - `handleDelete(ticket.id)` runs right away because of the parentheses.
 
 The solution is to wrap it in an arrow function:
 
@@ -67,8 +67,8 @@ onClick={() => handleClick(someArgument)}
 ## Summary
 ---
 
-- `onClick={myFunction()}` — calls immediately (wrong)
-- `onClick={myFunction}` — passes the function (correct)
-- `onClick={() => myFunction(arg)}` — passes a function that will call `myFunction(arg)` when clicked (correct)
+- `onClick={myFunction()}` - calls immediately (wrong)
+- `onClick={myFunction}` - passes the function (correct)
+- `onClick={() => myFunction(arg)}` - passes a function that will call `myFunction(arg)` when clicked (correct)
 
 You'll use this pattern frequently in React whenever you need to pass data to an event handler, like passing an `id` to identify which item was clicked.

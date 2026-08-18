@@ -9,13 +9,13 @@ hide_table_of_contents: true
 Creating your LinkedIn profile is only the first step of using LinkedIn in your career. Now that you’ve built your LinkedIn profile, take some time to explore everything you can do with it, from networking, to sharing your own experience, to finding your first job in tech (and more!). 
 
 ## Making Connections and Building your Network​
-### Connect with Classmates and Epicodus Alumni​
-Not only will it be helpful to see what your peers are posting, you'll also have a guaranteed way to stay in touch after graduation. You can also find past Epicodus students and connect with them.
+### Connect with Classmates and Fidgetech Alumni​
+Not only will it be helpful to see what your peers are posting, you'll also have a guaranteed way to stay in touch after graduation. You can also find past Fidgetech students and connect with them.
 
 Once you're connected, ask your classmates and friends to endorse you for the skills you've listed on your profile. They can click the + button next to the skill. Having more endorsements for the skills recruiters are looking for will make it more likely they will find you.
 
 ### Help Recruiters Find You​
-Recruiters often find candidates through connections and endorsements. Add connections with all of your Epicodus classmates and anybody else you know, even if they don't work in tech. The more connections you have, the more likely it is that a recruiter will find you. 
+Recruiters often find candidates through connections and endorsements. Add connections with all of your Fidgetech classmates and anybody else you know, even if they don't work in tech. The more connections you have, the more likely it is that a recruiter will find you. 
 
 On a free LinkedIn account, you can message recruiters and contacts through InMail for free as long as they have a 1st, 2nd, or 3rd degree connection to you. You can easily become a 1st, 2nd, or 3rd degree connection by joining and engaging tech groups or pages, and commenting on posts that have a lot of other comments. If you are "in the same space as someone,” then they become a degree in your network, and you’ll have more opportunity to reach out — and for someone to reach out to you.
 
@@ -43,7 +43,7 @@ Creating your profile is a great first step. But it's important you also remain 
 
 ### Recommendations​
 * **Check in with potential references.** Have you thought about who you'll use as references for a future job? Do your references include managers from past jobs or anyone you're not currently in touch with? Check if they're on LinkedIn and connect with them now. That way you don't have to scramble to find them later.
-* **Write recommendations for your peers.** If you've had great experiences working with fellow students, consider writing recommendations highlighting the technical and interpersonal skills that made them so great to work with. Preview recommendations left for others on LinkedIn (you can search Epicodus to see all kinds of past students) to get an idea of what these typically look like. Please note that Epicodus staff are unable to provide LinkedIn recommendations.
+* **Write recommendations for your peers.** If you've had great experiences working with fellow students, consider writing recommendations highlighting the technical and interpersonal skills that made them so great to work with. Preview recommendations left for others on LinkedIn (you can search Fidgetech to see all kinds of past students) to get an idea of what these typically look like. Please note that Fidgetech staff are unable to provide LinkedIn recommendations.
   
 Regardless of how you use LinkedIn, make sure to keep your posts, comments, and interactions positive and professional. Again, your LinkedIn profile acts as a resume and representation of yourself to future employers and coworkers. Put your best foot forward while simultaneously showing off your investment in the industry, eagerness to learn, and interest in technical work.
 

@@ -93,8 +93,8 @@ function TicketControl() {
     setFormVisibleOnPage(!formVisibleOnPage);
   }
 
-  let currentlyVisibleState = null;
-  let buttonText = null;
+  let currentlyVisibleState;
+  let buttonText;
 
   if (formVisibleOnPage) {
     currentlyVisibleState = <NewTicketForm />;
