@@ -17,7 +17,7 @@ import TicketList from './TicketList';
 function TicketControl() {
   const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
 
-  let currentlyVisibleState = null;
+  let currentlyVisibleState;
 
   if (formVisibleOnPage) {
     currentlyVisibleState = <NewTicketForm />;
@@ -37,7 +37,7 @@ export default TicketControl;
 
 Let's break down what's happening:
 
-1. First, we create a variable called `currentlyVisibleState` and set it to `null` because we haven't determined which component should be rendered yet.
+1. First, we declare a variable called `currentlyVisibleState` without an initial value, because we haven't determined which component should be rendered yet.
 
 2. Next, we check the value of `formVisibleOnPage`. If it's `true`, the `currentlyVisibleState` will be set to our `NewTicketForm` component. Otherwise, our `currentlyVisibleState` will be set to our `TicketList` component.
 

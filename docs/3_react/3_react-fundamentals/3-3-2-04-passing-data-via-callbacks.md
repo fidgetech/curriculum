@@ -33,8 +33,8 @@ function TicketControl() {
     setFormVisibleOnPage(!formVisibleOnPage);
   }
 
-  let currentlyVisibleState = null;
-  let buttonText = null;
+  let currentlyVisibleState;
+  let buttonText;
 
   if (formVisibleOnPage) {
     currentlyVisibleState = <NewTicketForm />;
@@ -109,20 +109,14 @@ Now we need to pass `handleAddingNewTicketToList` down to our `NewTicketForm` co
 ```tsx title="src/components/TicketControl.tsx"
 // ...existing code
 
-let currentlyVisibleState = null;
-let buttonText = null;
+let currentlyVisibleState;
+let buttonText;
 
 if (formVisibleOnPage) {
-  currentlyVisibleState = 
-    <NewTicketForm 
-      onNewTicketCreation={handleAddingNewTicketToList}
-    />; // updated
+  currentlyVisibleState = <NewTicketForm onNewTicketCreation={handleAddingNewTicketToList} />; // updated
   buttonText = "Return to Ticket List";
 } else {
-  currentlyVisibleState = 
-    <TicketList 
-      ticketList={mainTicketList}
-    />;
+  currentlyVisibleState = <TicketList ticketList={mainTicketList} />;
   buttonText = "Add Ticket";
 }
 
@@ -130,10 +124,6 @@ if (formVisibleOnPage) {
 ```
 
 We pass `handleAddingNewTicketToList` as a prop called `onNewTicketCreation`. Notice the naming convention: `handle` prefix for the function, `on` prefix for the prop.
-
-:::tip
-Note that we split the JSX onto multiple lines for readability. This is a common practice when passing multiple props or when the component name and props exceed a certain length.
-:::
 
 Next, we need to update `NewTicketForm` to accept and use this prop:
 
@@ -282,5 +272,3 @@ In this lesson, we learned how to pass data from a child component up to a paren
 - **Naming convention:** `handleX` for the function, `onX` for the prop.
 
 This pattern maintains unidirectional data flow while still allowing child components to communicate with their parents.
-</content>
-</invoke>

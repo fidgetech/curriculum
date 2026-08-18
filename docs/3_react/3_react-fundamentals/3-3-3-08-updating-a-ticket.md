@@ -51,14 +51,16 @@ We'll implement these one at a time.
 
 Add a new state variable to track whether we're in "edit mode":
 
-```js title="src/components/TicketControl.js"
+```tsx title="src/components/TicketControl.tsx"
 const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
-const [mainTicketList, setMainTicketList] = useState([]);
-const [selectedTicket, setSelectedTicket] = useState(null);
+const [mainTicketList, setMainTicketList] = useState<TicketData[]>([]);
+const [selectedTicket, setSelectedTicket] = useState<TicketData | null>(null);
 const [editing, setEditing] = useState(false); // Add this line
 ```
 
 We initialize `editing` to `false` because we don't want to show the edit form until the user goes to update a ticket.
+
+Notice that this new state variable doesn't need an explicit type. TypeScript infers `boolean` from the initial value of `false`, just like it did for `formVisibleOnPage`. The other two still need their generics because an empty array and `null` don't tell TypeScript enough on their own.
 
 ---
 
@@ -66,11 +68,13 @@ We initialize `editing` to `false` because we don't want to show the edit form u
 
 Add a `handleEditClick` function to `TicketControl` to handle when the user clicks "Update Ticket". This function simply flips `editing` to `true`:
 
-```js title="src/components/TicketControl.js"
+```tsx title="src/components/TicketControl.tsx"
 const handleEditClick = () => {
   setEditing(true);
 };
 ```
+
+This function takes no arguments, so there's nothing to type here.
 
 ---
 
@@ -78,7 +82,7 @@ const handleEditClick = () => {
 
 Update the conditional rendering in `TicketControl` to pass our new `handleEditClick` function as a prop to `TicketDetail` so that `TicketDetail` can call it when the user clicks the "Update Ticket" button:
 
-```js title="src/components/TicketControl.js"
+```tsx title="src/components/TicketControl.tsx"
 if (selectedTicket !== null) {
   currentlyVisibleState = (
     <TicketDetail
@@ -97,33 +101,35 @@ if (selectedTicket !== null) {
 
 Now update `TicketDetail` to use the new prop:
 
-```jsx title="src/components/TicketDetail.js"
-import React from "react";
-import PropTypes from "prop-types";
+```tsx title="src/components/TicketDetail.tsx"
+import { type TicketData } from '../types';
 
-function TicketDetail(props) {
-  const { ticket, onClickingDelete, onClickingEdit } = props; // Destructure onClickingEdit
+type TicketDetailProps = {
+  ticket: TicketData;
+  onClickingDelete: (id: string) => void;
+  onClickingEdit: () => void;
+};
 
+function TicketDetail({ ticket, onClickingDelete, onClickingEdit }: TicketDetailProps) {
   return (
-    <React.Fragment>
+    <>
       <h1>Ticket Detail</h1>
-      <h3>{ticket.location} - {ticket.names}</h3>
+      <h3>{ticket.section} - {ticket.names}</h3>
       <p><em>{ticket.issue}</em></p>
-      <button onClick={onClickingEdit}>Update Ticket</button> {/* Call onClickingEdit when clicked */}
+      <button onClick={onClickingEdit}>Update Ticket</button>
       <button onClick={() => onClickingDelete(ticket.id)}>Close Ticket</button>
       <hr />
-    </React.Fragment>
+    </>
   );
 }
 
-TicketDetail.propTypes = {
-  ticket: PropTypes.object,
-  onClickingDelete: PropTypes.func,
-  onClickingEdit: PropTypes.func // Add PropType for onClickingEdit
-};
-
 export default TicketDetail;
 ```
+
+**What changed:**
+- We added `onClickingEdit: () => void` to `TicketDetailProps`, alongside `ticket` and `onClickingDelete`. The empty parentheses mean this function takes no arguments, and `void` means it doesn't return anything
+- We destructured `onClickingEdit` in the function signature
+- We added an "Update Ticket" button that calls `onClickingEdit` when clicked
 
 :::tip
 `onClickingEdit` doesn't need an arrow function wrapper because we're not passing any arguments. So we can just write `onClick={onClickingEdit}`.
@@ -135,49 +141,52 @@ At this point, clicking "Update Ticket" will set `editing` to `true`. You can ve
 
 ## Step 5: Create the `EditTicketForm` Component
 
-Create a new file `EditTicketForm.js` in the `src/components` directory. For now, we'll just make it a placeholder that uses our existing `ReusableForm` component:
+Create a new file `EditTicketForm.tsx` in the `src/components` directory. For now, we'll just make it a placeholder that uses our existing `ReusableForm` component:
 
-```js title="src/components/EditTicketForm.js"
-import React from "react";
-import ReusableForm from "./ReusableForm";
+```tsx title="src/components/EditTicketForm.tsx"
+import { type SubmitEvent } from 'react';
+import ReusableForm from './ReusableForm';
 
 function EditTicketForm() {
+  function handleEditTicketFormSubmission(event: SubmitEvent<HTMLFormElement>) {
+    event.preventDefault();
+  }
+
   return (
-    <React.Fragment>
-      <ReusableForm buttonText="Update Ticket" />
-    </React.Fragment>
+    <ReusableForm
+      formSubmissionHandler={handleEditTicketFormSubmission}
+      buttonText="Update Ticket"
+    />
   );
 }
 
 export default EditTicketForm;
 ```
 
-The "Update Ticket" button won't work correctly yet — we'll wire that up in Behavior 2.
+The handler doesn't do anything useful yet - it just prevents the default form submission. We'll replace it in Behavior 2.
+
+You might wonder why a placeholder needs a handler at all. It's because `ReusableFormProps` lists `formSubmissionHandler` as a required prop. TypeScript won't let us render `ReusableForm` without it, even temporarily. This is a small example of types keeping us honest: the compiler knows the component contract before we ever load the page.
 
 ---
 
 ## Step 6: Add Conditional Rendering for the Edit Form
 
-First we need to add an import line for `EditTicketForm` at the top of `TicketControl`:
+First, add an import for `EditTicketForm` at the top of `TicketControl`, alongside the other component imports:
 
-```js title="src/components/TicketControl.js"
+```tsx title="src/components/TicketControl.tsx"
 import EditTicketForm from './EditTicketForm';
 ```
 
-Now add a new conditional at the top of the rendering logic in `TicketControl`, so that when `editing` is `true`, we show the `EditTicketForm`:
+Then add a new conditional at the top of the rendering logic, so that when `editing` is `true`, we show the `EditTicketForm`:
 
-```js title="src/components/TicketControl.js"
-import EditTicketForm from './EditTicketForm';
-
+```tsx title="src/components/TicketControl.tsx"
 // ... inside TicketControl function
 
-let currentlyVisibleState = null;
-let buttonText = null;
+let currentlyVisibleState;
+let buttonText;
 
 if (editing) {
-  currentlyVisibleState = (
-    <EditTicketForm ticket={selectedTicket} />
-  );
+  currentlyVisibleState = <EditTicketForm />;
   buttonText = "Return to Ticket List";
 } else if (selectedTicket !== null) {
   currentlyVisibleState = (
@@ -192,6 +201,8 @@ if (editing) {
   // ... rest of conditionals
 }
 ```
+
+Our placeholder accepts no props, so we render it with none. We'll pass `ticket` and the edit handler in Behavior 2 once `EditTicketForm` is ready for them.
 
 **Why check `editing` first?** When editing, both `editing` is `true` AND `selectedTicket` is not `null`. We need to check `editing` first so we show the form instead of the detail view.
 
@@ -223,47 +234,22 @@ Add a `handleEditTicket` function in `TicketControl`. This handler needs to:
 - Replace the old ticket with the edited one
 - Clear `selectedTicket` and `editing` to return to the list
 
-```js title="src/components/TicketControl.js"
-const handleEditTicket = (ticketToEdit) => {
-  // Create a new ticket list array, removing the old ticket and adding the edited one
-  const editedTicketList = mainTicketList
-    .filter(ticket => ticket.id !== selectedTicket.id)
-    .concat(ticketToEdit);
-
-  // Update state - replace the old ticket list with the new one
+```tsx title="src/components/TicketControl.tsx"
+const handleEditTicket = (ticketToEdit: TicketData) => {
+  const editedTicketList = mainTicketList.map(ticket =>
+    ticket.id === ticketToEdit.id ? ticketToEdit : ticket
+  );
   setMainTicketList(editedTicketList);
-
-  // Exit editing mode
   setEditing(false);
   setSelectedTicket(null);
 };
 ```
 
 **Breaking this down:**
-```js
-const editedTicketList = mainTicketList
-  .filter(ticket => ticket.id !== selectedTicket.id)  // Remove old version
-  .concat(ticketToEdit);                               // Add new version
-```
 
-We're not directly mutating the ticket — we're replacing it entirely. This is a common pattern in React: filter out the old, add the new.
+`map()` goes through every ticket in the list. If the ticket's `id` matches `ticketToEdit.id`, we swap it out for `ticketToEdit`. Otherwise we keep the original. The result is a new array with the updated ticket in the same position — we never mutate state directly.
 
-:::tip[Method chaining]
-Writing each chained method on its own line (`.filter()` then `.concat()`) makes the code easier to read. It works exactly the same as writing it all on one line.
-:::
-
-:::tip[Preserving Order]
-Using `filter().concat()` moves the edited ticket to the end of the list. If you need to preserve the ticket's position, you could use `map()` instead:
-```js
-// ternary operator inside map
-// if ticket.id matches, use ticketToEdit; otherwise, keep the original ticket
-const editedTicketList = mainTicketList.map(ticket => 
-  ticket.id === selectedTicket.id ? ticketToEdit : ticket
-);
-```
-
-This replaces the matching ticket in place. Both approaches are valid - choose based on whether order matters in your application.
-:::
+The `ticketToEdit` parameter is typed as `TicketData`, so TypeScript knows it has an `id` to compare against. We compare against `ticketToEdit.id` rather than `selectedTicket.id` because `selectedTicket` is typed `TicketData | null`, and TypeScript would refuse to read `.id` off a value that might be `null`.
 
 ---
 
@@ -271,8 +257,8 @@ This replaces the matching ticket in place. Both approaches are valid - choose b
 
 Update the conditional in `TicketControl` to pass our new function to `EditTicketForm`:
 
-```js title="src/components/TicketControl.js"
-if (editing) {
+```tsx title="src/components/TicketControl.tsx"
+if (editing && selectedTicket !== null) {
   currentlyVisibleState = (
     <EditTicketForm
       ticket={selectedTicket}
@@ -283,60 +269,61 @@ if (editing) {
 }
 ```
 
----
+Notice we now check `editing && selectedTicket !== null` instead of just `editing`. `EditTicketForm` is about to require a real ticket, and `selectedTicket` is typed `TicketData | null`. Checking for `null` in the condition lets TypeScript narrow the value to `TicketData` inside the block, which is exactly what the prop needs. Without that check, TypeScript would flag the `ticket={selectedTicket}` line as an error.
 
 ---
 
 ## Step 3: Complete the `EditTicketForm` Component
 
 Now we add the form submission logic:
-```js title="src/components/EditTicketForm.js"
-import React from "react";
-import PropTypes from "prop-types";
-import ReusableForm from "./ReusableForm";
 
-function EditTicketForm(props) {
-  const { ticket, onEditTicket } = props;
+```tsx title="src/components/EditTicketForm.tsx"
+import { type SubmitEvent } from 'react';
+import { type TicketData } from '../types';
+import ReusableForm from './ReusableForm';
 
-  function handleEditTicketFormSubmission(event) {
+type EditTicketFormProps = {
+  ticket: TicketData;
+  onEditTicket: (ticket: TicketData) => void;
+};
+
+function EditTicketForm({ ticket, onEditTicket }: EditTicketFormProps) {
+
+  function handleEditTicketFormSubmission(event: SubmitEvent<HTMLFormElement>) {
     event.preventDefault();
+    const formData = new FormData(event.currentTarget);
     onEditTicket({
-      names: event.target.names.value,
-      location: event.target.location.value,
-      issue: event.target.issue.value,
+      names: formData.get('names') as string,
+      section: formData.get('section') as string,
+      issue: formData.get('issue') as string,
       id: ticket.id
     });
   }
 
   return (
-    <React.Fragment>
-      <ReusableForm
-        formSubmissionHandler={handleEditTicketFormSubmission}
-        buttonText="Update Ticket"
-      />
-    </React.Fragment>
+    <ReusableForm
+      formSubmissionHandler={handleEditTicketFormSubmission}
+      buttonText="Update Ticket"
+    />
   );
 }
-
-EditTicketForm.propTypes = {
-  ticket: PropTypes.object,
-  onEditTicket: PropTypes.func
-};
 
 export default EditTicketForm;
 ```
 
 **Walking through this:**
 
-1. We import `PropTypes` and accept `props` as a parameter. Our placeholder didn't need these, but now we're using actual data
-2. We destructure `ticket` and `onEditTicket` from props
+1. We define `EditTicketFormProps` with the two props this component now needs. Our placeholder didn't need any, but now we're working with actual data
+2. We destructure `ticket` and `onEditTicket` in the function signature
 3. `handleEditTicketFormSubmission` does three things:
    - Prevents the default form submission behavior
-   - Builds a ticket object from the form values
+   - Builds a ticket object from the form values using `FormData`, the same approach we used in `NewTicketForm`
    - Calls `onEditTicket` (which is really `handleEditTicket` in `TicketControl`)
 4. We pass `handleEditTicketFormSubmission` to `ReusableForm` so it runs on submit
 
-**Key detail:** We use `ticket.id` to preserve the original ID. The form provides new values for `names`, `location`, and `issue`, but the ticket keeps its id.
+**Key detail:** We use `ticket.id` to preserve the original ID. The form provides new values for `names`, `section`, and `issue`, but the ticket keeps its id.
+
+Because `onEditTicket` is typed as `(ticket: TicketData) => void`, TypeScript checks the object we pass to it. If we forgot the `id`, misspelled `section`, or handed it a number where a string belongs, the error would appear in our editor rather than as a silently broken ticket in the browser.
 
 ---
 
@@ -349,7 +336,8 @@ Try this sequence:
 4. Click another ticket and try to edit it
 
 You'll get an error! The problem is in `handleClick`:
-```js title="src/components/TicketControl.js"
+
+```tsx title="src/components/TicketControl.tsx"
 const handleClick = () => {
   if (selectedTicket !== null) {
     setFormVisibleOnPage(false);
@@ -379,15 +367,16 @@ We now have full CRUD functionality! Here's how our components work together:
 | `EditTicketForm` | None | Captures form input; calls handler to update ticket |
 | `ReusableForm` | None | Renders form fields; shared by New and Edit forms |
 
-Notice that `TicketControl` holds all the state, and every other component is stateless — they just receive props and call handlers.
+Notice that `TicketControl` holds all the state, and every other component is stateless - they just receive props and call handlers.
 
 ---
 
 ## A Note on Complexity
 
 Take a look at the conditional rendering logic in `TicketControl`:
-```js
-if (editing) {
+
+```tsx
+if (editing && selectedTicket !== null) {
   // show EditTicketForm
 } else if (selectedTicket !== null) {
   // show TicketDetail
@@ -398,9 +387,9 @@ if (editing) {
 }
 ```
 
-This works, but it's fragile. The order matters — if you check `selectedTicket` before `editing`, the edit form won't show. We're using three different variables (`editing`, `selectedTicket`, `formVisibleOnPage`) to control one thing: which view is visible.
+This works, but it's fragile. The order matters - if you check `selectedTicket` before `editing`, the edit form won't show. We're using three different variables (`editing`, `selectedTicket`, `formVisibleOnPage`) to control one thing: which view is visible.
 
-A cleaner approach might be a single `currentView` variable set to `'list'`, `'detail'`, `'edit'`, or `'newTicket'`. We didn't do that here because we built the app incrementally, adding state as needed. That's realistic - code often evolves this way.
+A cleaner approach might be a single `currentView` variable set to `'list'`, `'detail'`, `'edit'`, or `'newTicket'`. That would also play nicely with TypeScript, since we could give the variable a union type like `'list' | 'detail' | 'edit' | 'newTicket'` and let the compiler catch typos and unhandled cases. We didn't do that here because we built the app incrementally, adding state as needed. That's realistic - code often evolves this way.
 
 As you build your own applications, watch for this kind of complexity creeping in. It's a signal that refactoring might be worthwhile.
 
@@ -412,4 +401,4 @@ In this lesson, we added several behaviors to our Help Queue application. First,
 
 Next, we added functionality to show an edit form (local state) and then update a ticket in our mainTicketList (shared state). Once again, we had to deal with a lot of little pieces. It may even seem like we needed to add a huge and overly complicated amount of code when we could do a fairly simple implementation with vanilla JS.
 
-However, we've written dynamic, modular and scalable code that lends itself well to further expansion. If all the steps are still overwhelming, trust the process — learning a new library or framework is always challenging and React is no different. In a few weeks, working with these concepts will become second nature.
+However, we've written dynamic, modular and scalable code that lends itself well to further expansion. If all the steps are still overwhelming, trust the process - learning a new library or framework is always challenging and React is no different. With practice, working with these concepts will become second nature.

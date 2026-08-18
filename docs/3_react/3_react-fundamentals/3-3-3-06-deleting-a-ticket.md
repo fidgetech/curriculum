@@ -25,8 +25,8 @@ Let's go!
 
 We'll start by adding a function to `TicketControl` that deletes a ticket from `mainTicketList` based on its ID:
 
-```js title="src/components/TicketControl.js"
-const handleDeleteTicket = (id) => {
+```tsx title="src/components/TicketControl.tsx"
+const handleDeleteTicket = (id: string) => {
   const newMainTicketList = mainTicketList.filter(ticket => ticket.id !== id);
   setMainTicketList(newMainTicketList);
   setSelectedTicket(null);
@@ -34,6 +34,7 @@ const handleDeleteTicket = (id) => {
 ```
 
 **Breaking this down:**
+- The `id` parameter is typed as a `string`, matching the `id` property on our `TicketData` type
 - `filter()` returns all tickets where `ticket.id !== id` - in other words, every ticket *except* the one we're deleting
 - `setMainTicketList(newMainTicketList)` updates state with our filtered list
 - `setSelectedTicket(null)` returns the user to the ticket list view
@@ -48,7 +49,7 @@ In the last lesson, we used `find()` to get a single matching ticket. Here we us
 
 Next, pass `handleDeleteTicket` as a prop to `TicketDetail`. Update the conditional rendering in `TicketControl`:
 
-```js title="src/components/TicketControl.js"
+```tsx title="src/components/TicketControl.tsx"
 if (selectedTicket !== null) {
   currentlyVisibleState = (
     <TicketDetail
@@ -66,42 +67,39 @@ if (selectedTicket !== null) {
 
 Now we just need a button that calls `onClickingDelete` when clicked:
 
-```jsx title="src/components/TicketDetail.js"
-import React from "react";
-import PropTypes from "prop-types";
+```tsx title="src/components/TicketDetail.tsx"
+import { type TicketData } from '../types';
 
-function TicketDetail(props) {
-  const { ticket, onClickingDelete } = props;
+type TicketDetailProps = {
+  ticket: TicketData;
+  onClickingDelete: (id: string) => void;
+};
 
+function TicketDetail({ ticket, onClickingDelete }: TicketDetailProps) {
   return (
-    <React.Fragment>
+    <>
       <h1>Ticket Detail</h1>
-      <h3>{ticket.location} - {ticket.names}</h3>
+      <h3>{ticket.section} - {ticket.names}</h3>
       <p><em>{ticket.issue}</em></p>
       <button onClick={() => onClickingDelete(ticket.id)}>Close Ticket</button>
       <hr />
-    </React.Fragment>
+    </>
   );
 }
-
-TicketDetail.propTypes = {
-  ticket: PropTypes.object,
-  onClickingDelete: PropTypes.func
-};
 
 export default TicketDetail;
 ```
 
 **What changed:**
-- We destructure `onClickingDelete` from props alongside `ticket`
+- We add `onClickingDelete` to `TicketDetailProps` alongside `ticket`, typed as `(id: string) => void`: a function that takes a string `id` and returns nothing
+- We destructure `onClickingDelete` from props in the function signature
 - The button's `onClick` uses an arrow function to pass `ticket.id` to the handler
-- We added a PropType for `onClickingDelete`
 
 ---
 
 ## Recap
 
-That's it — just two files changed! This is the payoff from planning our component tree well. Because `TicketDetail` is a direct child of `TicketControl`, we passed one prop through one level.
+That's it - just two files changed! This is the payoff from planning our component tree well. Because `TicketDetail` is a direct child of `TicketControl`, we passed one prop through one level.
 
 | Component | What Changed |
 |-----------|--------------|
@@ -112,4 +110,4 @@ That's it — just two files changed! This is the payoff from planning our compo
 
 ## What's Next?
 
-We're ready to add update functionality — the last piece of CRUD. But first, we'll extract our form into a reusable component. This will save us from duplicating code when we create the edit form.
+We're ready to add update functionality, the last piece of CRUD. But first, we'll extract our form into a reusable component. This will save us from duplicating code when we create the edit form.

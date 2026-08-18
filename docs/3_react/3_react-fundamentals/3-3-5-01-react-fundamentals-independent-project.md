@@ -9,7 +9,7 @@ pagination_next: null
 ## Independent Projects Overview
 ---
 
-Project prompts will be available on Epicenter once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Project prompts will be available on Code Central once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## React Fundamentals Project Objectives
 ---
@@ -21,7 +21,7 @@ Your code will be reviewed for the following objectives:
 * Application compiles and runs without error, and warnings in the DevTools console are resolved.
 * Functional components are used correctly.
 * Application effectively uses local and shared state.
-* Props are used correctly and always include `PropTypes`.
+* TypeScript types are defined for all component props.
 * README includes an accurate representation of the application's component tree.
 * Project is in a polished, portfolio-quality state.
 * The prompt's required functionality and baseline project requirements are met.
@@ -33,7 +33,7 @@ When a project is both polished and in a portfolio-quality state, this means:
 * You are following the best practices and coding conventions we teach.
 
 ### What are the baseline project requirements?
-All independent coding projects at Epicodus have these baseline requirements:
+All independent coding projects at Fidgetech have these baseline requirements:
 
 * A complete and informative README
 * The project's commit history demonstrates that the project's required work schedule and hours have been met:
@@ -43,6 +43,6 @@ All independent coding projects at Epicodus have these baseline requirements:
 ## Submission
 ---
 
-Submit your code for review to the **React Fundamentals** code review on [Epicenter](https://epicenter.epicodus.com/).
+Submit your code for review to the **React Fundamentals** code review on [Code Central](https://codecentral.fidgetech.org/).
 
-Visit [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) for details on how to submit, how feedback works and course completion requirements.
+Visit [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) for details on how to submit, how feedback works and course completion requirements.
