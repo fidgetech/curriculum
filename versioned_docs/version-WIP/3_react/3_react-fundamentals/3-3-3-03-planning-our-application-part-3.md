@@ -25,10 +25,10 @@ For that reason, we can make our lives easier by updating our component diagram 
 
 We will also need to add some new local state to `TicketControl`. Don't worry about making this change right now, but in the next few lessons the state in `TicketControl` will be updated to look like this:
 
-```js title="TicketControl.js"
+```tsx title="src/components/TicketControl.tsx"
 const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
-const [mainTicketList, setMainTicketList] = useState([]);
-const [selectedTicket, setSelectedTicket] = useState(null);
+const [mainTicketList, setMainTicketList] = useState<TicketData[]>([]);
+const [selectedTicket, setSelectedTicket] = useState<TicketData | null>(null);
 ```
 
 We'll add a third piece of state called `selectedTicket` which begins as `null`. If you are working along with the lesson, you don't need to add this code yet — we will go over it again in the next lesson.
