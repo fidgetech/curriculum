@@ -37,12 +37,18 @@ Next, we need to import the file just as we'd import any other component. Here's
 ```tsx title="src/components/Header.tsx"
 import ticketsImage from "./../assets/tickets.png";
 
-function Header(){
+function Header() {
+  const headerStyles = {
+    backgroundColor: '#2c3e50',
+    color: '#ecf0f1',
+    padding: '1rem'
+  };
+
   return (
-    <>
+    <header style={headerStyles}>
       <h1>Help Queue</h1>
       <img src={ticketsImage} alt="A stack of tickets"/>
-    </>
+    </header>
   );
 }
 

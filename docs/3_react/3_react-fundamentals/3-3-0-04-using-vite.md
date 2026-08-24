@@ -127,7 +127,7 @@ Now we can walk through it one line at a time:
 
 * `const rootElement = document.getElementById('root')!` finds the `<div id="root">` element from `index.html`. This is the element our entire React app will live inside.
 
-  Notice the `!` at the end. This is a TypeScript **non-null assertion**, which you saw in the type assertions lesson. `getElementById` has a return type of `HTMLElement | null`, because in general there's no guarantee the element exists. The `!` tells TypeScript, "I know this element exists." We can make that promise confidently because `index.html`, which Vite generated and we reviewed above, includes that exact `<div id="root">`.
+  Notice the `!` at the end. This is a TypeScript **non-null assertion**: `getElementById` has a return type of `HTMLElement | null`, because in general there's no guarantee the element exists. The `!` tells TypeScript, "I know this element exists." We can make that promise confidently because `index.html`, which Vite generated and we reviewed above, includes that exact `<div id="root">`.
 
 * `const root = createRoot(rootElement)` creates a React "root" inside that element. The root is the connection point between React and the DOM, and it's what gives us the ability to render React components onto the page.
 

@@ -9,7 +9,7 @@ pagination_next: null
 ## Independent Projects Overview
 ---
 
-Project prompts will be available on Code Central once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Project prompts will be available on Fidgetech Code Central once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## React Fundamentals Project Objectives
 ---
@@ -43,6 +43,6 @@ All independent coding projects at Fidgetech have these baseline requirements:
 ## Submission
 ---
 
-Submit your code for review to the **React Fundamentals** code review on [Code Central](https://codecentral.fidgetech.org/).
+Submit your code for review to the **React Fundamentals** code review on [Fidgetech Code Central](https://central.fidgetechcode.org/).
 
 Visit [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) for details on how to submit, how feedback works and course completion requirements.

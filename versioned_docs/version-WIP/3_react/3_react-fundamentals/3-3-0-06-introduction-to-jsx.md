@@ -13,7 +13,7 @@ JSX is a syntax extension that combines JavaScript with HTML. It makes React cod
 
 Browsers don't understand JSX, so it needs to be compiled into regular JavaScript. Fortunately, Vite takes care of this for us behind the scenes, so we don't have to worry about it.
 
-Replace the content of `App.tsx` with the following code. This example shows a single sample help ticket: its section/location ("3a"), the names of the students who need help, and a brief description of the issue.
+Replace the content of `App.tsx` with the following code. This example shows a single sample help ticket: its section ("3a"), the names of the students who need help, and a brief description of the issue.
 
 ```tsx title="src/App.tsx"
 function App(){
