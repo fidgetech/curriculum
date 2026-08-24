@@ -178,7 +178,7 @@ export function findById<T extends { id: number }>(items: T[], id: number): T | 
 
 export function updateRating(books: Book[], id: number, rating: number): Book[] {
   if (rating < 1 || rating > 5) {
-    return books;
+    throw new Error(`Invalid rating: ${rating}. Must be between 1 and 5.`);
   }
 
   return books.map(book => {
