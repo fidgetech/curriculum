@@ -5,7 +5,7 @@ id: 3-1-4-2-capstone-prep-introduction-to-idea-boards
 hide_table_of_contents: true
 ---
 
-For this section’s independent project, you’ll be doing something different as we’ve mentioned earlier. Instead of focusing on a project directly related to Functional Programming, you’ll start exploring ideas to pursue for your large capstone project that will bookend your Epicodus experience. 
+For this section’s independent project, you’ll be doing something different as we’ve mentioned earlier. Instead of focusing on a project directly related to Functional Programming, you’ll start exploring ideas to pursue for your large capstone project that will bookend your Fidgetech experience. 
 
 We’re introducing this concept early, as we want to make sure you have ample time to get used to the brainstorming process, as well as have feedback before you arrive at the stage that you’re writing code! 
 

@@ -8,7 +8,7 @@ pagination_next: null
 
 This lesson is part of our regular Diversity, Equity, and Inclusion curriculum.
 
-In Epicodus' code of conduct, we emphasize the importance of being kind to others, respecting our differences, and assuming that other students have good intentions. By consciously making a choice to do these things, we can be better pair programmers and a positive part of the Epicodus community even as we strengthen connections and improve the social skills that are instrumental to getting a good job.
+In Fidgetech's code of conduct, we emphasize the importance of being kind to others, respecting our differences, and assuming that other students have good intentions. By consciously making a choice to do these things, we can be better pair programmers and a positive part of the Fidgetech community even as we strengthen connections and improve the social skills that are instrumental to getting a good job.
 
 However, it's also important to be aware of our **implicit biases** as well. According to [the Perception Institute](https://perception.org/research/implicit-bias/):
 
@@ -18,7 +18,7 @@ As the Perception Institute goes on to detail, most of our actions occur unconsc
 
 For example, the study ["Weapon Bias: Split-Second Decisions and Unintended Stereotyping" by B. Keith Payne](https://journals.sagepub.com/doi/10.1111/j.1467-8721.2006.00454.x) demonstrates that stereotypes about race can lead to people thinking they see a weapon in a Black person's hand when there is no weapon. This is a particularly insidious example that has led to tragic real world consequences.
 
-Implicit bias is common across all groups, and so it's not surprising that teachers at Epicodus have seen and experienced implicit bias in our student body. The most common example we see can be boiled down to the following statement: "I don't want to pair with person X because they are 'difficult' to pair with and/or they are a poor coder." This perception disproportionately affects students from underrepresented groups.
+Implicit bias is common across all groups, and so it's not surprising that teachers at Fidgetech have seen and experienced implicit bias in our student body. The most common example we see can be boiled down to the following statement: "I don't want to pair with person X because they are 'difficult' to pair with and/or they are a poor coder." This perception disproportionately affects students from underrepresented groups.
 
 Here are a couple of real examples we have seen:
 
@@ -26,7 +26,7 @@ Here are a couple of real examples we have seen:
 
 * A group of male students did not want to pair with a female student because they thought she was a poor coder. However, based on teacher assessment, she was a stronger coder than any of the male students that didn't want to pair with her.
 
-In both of the examples above, the students engaging in implicit bias were hard workers who were determined to make the best of their experiences at Epicodus. Assuming their best intentions, they probably did not intend to have biased behavior. However, the behavior still had a negative impact on the other students, teachers, and the Epicodus community at large.
+In both of the examples above, the students engaging in implicit bias were hard workers who were determined to make the best of their experiences at Fidgetech. Assuming their best intentions, they probably did not intend to have biased behavior. However, the behavior still had a negative impact on the other students, teachers, and the Fidgetech community at large.
 
 How can we face our implicit biases if we don't even know we have them? There are a couple of steps we can take.
 

@@ -84,7 +84,7 @@ Applications that help track and manage data of some kind, such as:
 Additionally, past students have created functioning websites or applications for family and friends' small local businesses, including catering companies, dog groomers, and more.
 
 
-## What Epicodus Recommends
+## What Fidgetech Recommends
 
 There are a few criteria that we think students do best to consider implementing into their projects to come out with a well-rounded project. Here are some bullets and examples. *Note that not all of these necessarily go together, nor are any of them required for you to include in your project*.
 
@@ -118,7 +118,7 @@ Staying on top of industry trends, you might opt for a project that utilizes in-
 * Consider using the language that is utilized in your area. For example, C# is saturated in the Seattle area because of Microsoft
 * Consider using AWS or other cloud-based architecture in your application
   
-Please note that these technologies that are "trendy" or "modern" will change constantly and quickly. Take a look back at the previous lesson [Capstone Prep: Using Employable Skills](../../react/functional-programming-with-javascript/4-1-4-3-capstone-prep-using-employable-skills) and use current job postings to get a better expectation as to what those technologies might be *right now*.
+Please note that these technologies that are "trendy" or "modern" will change constantly and quickly. Take a look back at the previous lesson [Capstone Prep: Using Employable Skills](../../react/functional-programming-with-javascript/3-1-4-3-capstone-prep-using-employable-skills) and use current job postings to get a better expectation as to what those technologies might be *right now*.
 
 You might also want to reference the Career Services lesson on [Identifying Important Skills](../../marketing-yourself/applying-for-internships-and-jobs/identifying-important-skills). 
 
@@ -141,9 +141,9 @@ It’s really easy to get bogged down in a mundane task, or burn yourself out tr
 
 #### Do Research
 
-Lastly, you most likely know that Epicodus instructors won’t be there forever to answer a question you might have - and eventually, you’ll have questions that we can’t answer at all. By the time you’re leaving Epicodus, we hope that you’re a self-sufficient explorer and learner that can approach any problem with the growth mindset. 
+Lastly, you most likely know that Fidgetech instructors won’t be there forever to answer a question you might have - and eventually, you’ll have questions that we can’t answer at all. By the time you’re finishing the program at Fidgetech, we hope that you’re a self-sufficient explorer and learner that can approach any problem with the growth mindset. 
 * If the tools you know don’t seem to fit the problem, find a new tool and try it out
-* If there are things that you don’t like about C#, or JavaScript, explore to see if an alternative could do what you want better
+* If there are things that you don’t like about the tools you've learned so far, explore to see if an alternative could do what you want better
 * If you want to switch from Mobile and Web Development to something else entirely, leverage your skills to approach a new problem
 * Always, always, always look at documentation and keep exploring
 

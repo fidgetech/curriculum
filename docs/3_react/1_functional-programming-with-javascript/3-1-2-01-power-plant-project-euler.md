@@ -20,7 +20,7 @@ hide_table_of_contents: true
 
 ### Power Plant 
 
-Follow along with the homework to build an application for growing plants. Make sure to include tests, to separate your logic, and to use webpack. Once you have completed the example shown in the coursework, try adding the following functionality.
+Follow along with the previous lessons to build an application for growing plants. Make sure to include tests, to separate your logic, and to use webpack. Once you have completed the example shown in those lessons, try adding the following functionality.
 
 * **Add functionality to create multiple plants.** Remember that we can use closures to store state about different objects.
 

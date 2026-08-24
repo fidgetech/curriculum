@@ -5,7 +5,7 @@ id: 3-1-4-3-capstone-prep-using-employable-skills
 hide_table_of_contents: true
 ---
 
-Capstones are one of the most exciting parts of the Epicodus experience. Students tend to enjoy the freedom to explore technologies, ideas, and applications without bounds. But, before you start fantasizing about the perfect application for your favorite hobby, it might be good to take a moment and think about how this project will help you in your future career seeking.
+Capstones are one of the most exciting parts of the Fidgetech experience. Students tend to enjoy the freedom to explore technologies, ideas, and applications without bounds. But, before you start fantasizing about the perfect application for your favorite hobby, it might be good to take a moment and think about how this project will help you in your future career seeking.
 
 In the dynamic field of web development, staying attuned to the skills and technologies in demand is paramount for crafting a capstone project that not only aligns with personal interests but also resonates with industry needs. A strategic approach involves delving into job postings for web developers to glean insights into the skills and technologies that employers are actively seeking.
 
