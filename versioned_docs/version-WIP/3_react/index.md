@@ -16,6 +16,6 @@ Topics covered by this course are as follows:
 * Functional Programming in JavaScript: You'll learn a completely new paradigm of coding, unlike object oriented programming from the other courses
 * TypeScript: Learn how to use TypeScript, a superset of JavaScript that adds static types
 * React Fundamentals: An introduction to React, and state management
-* Other React Principles: Learn how to manage state with Redux, how to use noSQL solutions like Firebase and Firestore, and how to utilize React with APIs
+* Other React Principles: Learn how to manage state with the `useReducer()` hook and React context, how to use NoSQL solutions like Firebase and Firestore, and how to utilize React with APIs
 
 To navigate through the lessons, you can utilize the side bar to find the section, day, and lesson you'd like to peruse. Otherwise, to navigate sequentially, click the `Next` or `Previous` buttons at the bottom of each page.
