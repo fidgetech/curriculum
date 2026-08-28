@@ -5,13 +5,13 @@ id: 3-4-0-20-giving-constructive-feedback
 hide_table_of_contents: true
 ---
 
-You will be expected to give constructive written feedback to your peers during next week's whiteboard session. You will also have the opportunity to give verbal feedback. However, only the written feedback is required.
+You will be expected to give constructive written feedback to your peers during your whiteboard session. You will also have the opportunity to give verbal feedback. However, only the written feedback is required.
 
-In this lesson, we'll cover steps for giving constructive feedback. The ability to give constructive feedback isn't just important for this whiteboard session — it's an absolutely essential workplace skill. If something needs improvement at your future workplace, you will need strategies in place so you can make suggestions that are both tactful and helpful. Good feedback that leads to solutions can result in raises and accolades at work — while poorly worded feedback can result in hurt feelings, angry coworkers and even — in the worst-case scenario — lost jobs.
+In this lesson, we'll cover steps for giving constructive feedback. The ability to give constructive feedback isn't just important for this whiteboard session - it's an absolutely essential workplace skill. If something needs improvement at your future workplace, you will need strategies in place so you can make suggestions that are both tactful and helpful. Good feedback that leads to solutions can result in raises and accolades at work - while poorly worded feedback can result in hurt feelings, angry coworkers and even - in the worst-case scenario - lost jobs.
 
 You will be expected to do the following when giving feedback:
 
-* **Begin with positive feedback.** Try to find at least one thing the interviewee did well. This gives the interviewee something to build on — and also makes it easier to absorb additional feedback that may be more critical.
+* **Begin with positive feedback.** Try to find at least one thing the interviewee did well. This gives the interviewee something to build on - and also makes it easier to absorb additional feedback that may be more critical.
 
 * **Provide concrete feedback.** It's not acceptable just to write "good job!" or "that was terrible." Instead, focus on concrete pieces of feedback that you can give. Here are two examples:
 
@@ -34,4 +34,4 @@ You will be expected to do the following when giving feedback:
 
 * **Write in complete sentences.** This is an opportunity to give your peers thoughtful feedback, not to dash off a few words as quickly as possible.
 
-* **Be both honest and kind.** Not everyone will have a successful whiteboard experience. It's possible to be both honest and kind in your feedback. If someone has a terrible experience, they almost certainly already know it — so don't rub it in. Remember that your instructor will be looking over your feedback — rudeness or inappropriate comments will not be tolerated.
+* **Be both honest and kind.** Not everyone will have a successful whiteboard experience. It's possible to be both honest and kind in your feedback. If someone has a terrible experience, they almost certainly already know it - so don't rub it in. Remember that your instructor will be looking over your feedback - rudeness or inappropriate comments will not be tolerated.

@@ -39,11 +39,11 @@ Continue through the remaining steps and Firebase will create your project. Once
 
 Here's what to note on the project homepage:
 
-* The **_Project Overview_** button in the top left — click this anytime to return to the project homepage.
-* The **gear icon** (⚙) to the right of _Project Overview_ — this is where you'll find your project settings. We'll come back here later to retrieve our Firebase configuration.
-* The **_help-queue_ dropdown** at the very top of the page — click this to navigate back to the Firebase console and see all your projects.
+* The **_Project Overview_** button in the top left. Click this anytime to return to the project homepage.
+* The **gear icon** (⚙) to the right of _Project Overview_. This is where you'll find your project settings. We'll come back here later to retrieve our Firebase configuration.
+* The **_help-queue_ dropdown** at the very top of the page. Click this to navigate back to the Firebase console and see all your projects.
 * The **left sidebar** has collapsible product categories: _Build_, _Run_, _Analytics_, and _AI_. Expand _Build_ to find _Firestore Database_ and _Authentication_, which we'll set up in upcoming steps.
-* The **_+ Add app_** button near the top of the main content area — we'll use this in Step 4 to connect Firebase to our web app.
+* The **_+ Add app_** button near the top of the main content area. We'll use this in Step 4 to connect Firebase to our web app.
 
 ![The Help Queue project homepage on Firebase, and the various navigation options.](/images/React/Week-4-React-2020/firebase-project-homepage-navigation.png)
 
@@ -81,7 +81,7 @@ Then, click the _+ Add app_ button near the top of the page, and select the web 
 
 We'll need to enter an app nickname. We'll call ours `help-queue-web`. The nickname we choose should be something that we can differentiate from other apps that we add to our Help Queue Firebase project. We don't have other apps right now, but this could be a mobile app, or yet another web app. 
 
-We also have an option to set up Firebase hosting. This is a nice thing about Firebase — we can also use it to easily deploy our application! We'll be able to set that up later so we won't do it right now. Go ahead and click on the _Register app_ button.
+We also have an option to set up Firebase hosting. This is a nice thing about Firebase: we can also use it to deploy our application! We'll be able to set that up later so we won't do it right now. Go ahead and click on the _Register app_ button.
 
 Finally, we'll be given a script that we will include in our source code to configure and initialize firebase in our application. We're not ready to use this script just yet (we will in a later lesson), but we also don't need to worry about copying down this information. We can access it later via our Help Queue project settings. 
 
@@ -112,7 +112,7 @@ service cloud.firestore {
   match /databases/{database}/documents {
     match /{document=**} {
       allow read, write: if
-        request.time < timestamp.date(2026, 3, 28);
+        request.time < timestamp.date(2026, 9, 30);
     }
   }
 }
@@ -138,7 +138,7 @@ service cloud.firestore {
 
 However, we would be updating access so that _anyone_ can modify our database, with no expiration for this rule. This is something we should _never_ do in production. 
 
-For development purposes allowing all access may not be as big of a deal — as long as you don't share your database URL. Ultimately, it depends on the security practices of your team and the organization you are working for. 
+For development purposes allowing all access may not be as big of a deal, as long as you don't share your database URL. Ultimately, it depends on the security practices of your team and the organization you are working for. 
 
 However, if you end up deploying your Firebase project, you'll want to write rules that protect your data. Here are two great resources to help you learn how to protect your data:
 

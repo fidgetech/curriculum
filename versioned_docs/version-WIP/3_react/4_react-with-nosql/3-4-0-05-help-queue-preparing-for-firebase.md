@@ -11,25 +11,23 @@ We've now learned `useEffect` for running side effects, as well as the pattern f
 
 Go ahead and open your Help Queue project from React Fundamentals.
 
-As you read through this lesson as part of your weekend homework, you are not required to code along. The first classwork of the course section will prompt you to work through these lessons with your application.
-
 ## Reviewing TicketControl
 
 `TicketControl` is the component we'll be modifying the most. Here's an overview of its structure at the end of React Fundamentals:
 
-```js title="src/components/TicketControl.js"
+```tsx title="src/components/TicketControl.tsx"
 function TicketControl() {
-  const [mainTicketList, setMainTicketList] = useState([]);
+  const [mainTicketList, setMainTicketList] = useState<TicketData[]>([]);
   const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
-  const [selectedTicket, setSelectedTicket] = useState(null);
+  const [selectedTicket, setSelectedTicket] = useState<TicketData | null>(null);
   const [editing, setEditing] = useState(false);
 
   const handleClick = () => { ... }
-  const handleDeletingTicket = (id) => { ... }
+  const handleDeleteTicket = (id: string) => { ... }
   const handleEditClick = () => { ... }
-  const handleEditingTicketInList = (ticketToEdit) => { ... }
-  const handleAddingNewTicketToList = (newTicket) => { ... }
-  const handleChangingSelectedTicket = (id) => { ... }
+  const handleEditTicket = (ticketToEdit: TicketData) => { ... }
+  const handleAddingNewTicketToList = (newTicket: TicketData) => { ... }
+  const handleChangingSelectedTicket = (id: string) => { ... }
 
   // conditional rendering ...
 }
@@ -39,26 +37,26 @@ Right now, `mainTicketList` is a local array stored in memory. When the page ref
 
 ## What Will Change
 
-Adding Firebase will change **how tickets are stored and retrieved** — but it won't change the shape of the app. Here's what will stay exactly the same:
+Adding Firebase will change **how tickets are stored and retrieved**, but it won't change the shape of the app. Here's what will stay exactly the same:
 
 - The component tree (App, Header, TicketControl, TicketList, Ticket, TicketDetail, NewTicketForm, EditTicketForm, ReusableForm)
 - Props and callback functions
 - Conditional rendering logic in `TicketControl`
 - The `formVisibleOnPage`, `selectedTicket`, and `editing` state variables
-- PropTypes on all components
+- TypeScript types on all components, including the `TicketData` type in `src/types.ts`
 
 Here's what will change:
 
 - **`mainTicketList`** will be populated from Firestore instead of a local array
 - **A `useEffect` hook** will subscribe to the Firestore tickets collection when `TicketControl` first mounts, so the component stays in sync with the database automatically:
 
-  ```js
+  ```tsx
   useEffect(() => {
-    // subscribe to Firestore — when tickets change, call setMainTicketList with the new data
+    // subscribe to Firestore: when tickets change, call setMainTicketList with the new data
   }, []);
   ```
 
-- **The handler functions** (`handleAddingNewTicketToList`, `handleDeletingTicket`, `handleEditingTicketInList`) will write to Firestore instead of updating local state directly. The remaining handlers manage UI state only and will stay the same.
+- **The handler functions** (`handleAddingNewTicketToList`, `handleDeleteTicket`, `handleEditTicket`) will write to Firestore instead of updating local state directly. The remaining handlers manage UI state only and will stay the same.
 
 ## What's Next
 

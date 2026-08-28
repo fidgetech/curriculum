@@ -5,7 +5,7 @@ id: 3-4-0-17-whiteboard-evaluation-rubric
 hide_table_of_contents: true
 ---
 
-In this lesson, we will cover the evaluation form that students will use to review their peers' whiteboarding performance. This evaluation form will be filled out on [Epicenter](https://epicenter.epicodus.com/peer_evaluations/new). During an approximately 90-minute session, you will fill out around three evaluation forms depending on the size of your group. Your feedback is anonymous for the students in your group. At the end of the session, you can find the feedback that your peers left you on Epicenter by going to the _Peer evaluations_ tab.
+In this lesson, we will cover the evaluation form that students will use to review their peers' whiteboarding performance. This evaluation form will be filled out on [Fidgetech Code Central](https://central.fidgetechcode.org/peer_evaluations/new). During an approximately 90-minute session, you will fill out around three evaluation forms depending on the size of your group. Your feedback is anonymous for the students in your group. At the end of the session, you can find the feedback that your peers left you on Code Central by going to the _Peer evaluations_ tab.
 
 Note that the evaluation form below adds brief explanations for each item. To keep the actual form down to a single page, these explanations will not be included on the evaluation form itself.
 
@@ -57,9 +57,9 @@ Did the interviewee:
 
 Did the interviewee:
 
-**Speak in a clear and easy to understand voice?** It's essential for interviewers to be able to understand you — so no mumbling or whispering. Try to pace yourself and don't speak too quickly. If you are a remote student, this also means ensuring that your mic is working correctly and checking in to make sure the interviewer understands you.
+**Speak in a clear and easy to understand voice?** It's essential for interviewers to be able to understand you - so no mumbling or whispering. Try to pace yourself and don't speak too quickly. If you are a remote student, this also means ensuring that your mic is working correctly and checking in to make sure the interviewer understands you.
 
-**Make eye contact?** Eye contact is an essential part of a good interview. Don't just stare at the whiteboard — make sure you are actually interacting with your interviewers.
+**Make eye contact?** Eye contact is an essential part of a good interview. Don't just stare at the whiteboard - make sure you are actually interacting with your interviewers.
 
 **Make good use of whiteboard space and use legible handwriting?** The interviewer should be able to read the solution. The interviewer should start at the top left corner of the whiteboard (not in the middle). If you are a remote student, this means ensuring that you are correctly screen-sharing your code and that your code is well organized.
 

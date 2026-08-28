@@ -34,16 +34,17 @@ We'll also cover these additional topics:
 * Routing with React Router
 * Making Firestore queries
 * Adding a wait time to the Help Queue
-* Styling components with styled-components
 * Other further exploration activities
+* Technical whiteboarding: preparing for a whiteboard interview, being a good interviewer, and giving constructive feedback
 
 ## Independent Project Objectives
 ---
 
-For this course section, the independent project will be different from previous weeks. You will spend your normally scheduled independent project time studying for a whiteboard technical interview. Then, you will take part in a whiteboard technical interview with your peers. You will submit peer evaluations for the technical interviews you participate in and also submit your whiteboard solution in lieu of the usual independent project. More details on technical whiteboarding will be provided in this weekend's homework.
+At the end of this section, you will complete an independent project. Your code will be reviewed for the following objectives:
 
-This course section's group whiteboard interview will be reviewed for the following objectives:
-
-- Whiteboard solution has been submitted.
-- Whiteboard interview meets all requirements (based on peer feedback).
-- Your evaluations for peers are complete and include constructive feedback.
+* Application compiles and runs without error, and warnings in the DevTools console are resolved.
+* Firestore is used correctly to persist and retrieve data.
+* TypeScript types are defined for all component props and shared data.
+* README includes an accurate representation of the application's component tree.
+* Project is in a polished, portfolio-quality state.
+* The prompt's required functionality and baseline project requirements are met.

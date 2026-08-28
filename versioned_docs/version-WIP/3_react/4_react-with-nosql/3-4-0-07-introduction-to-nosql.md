@@ -7,47 +7,25 @@ hide_table_of_contents: true
 
 Because our applications are small, we won't be able to see many of the benefits of NoSQL firsthand. Understanding when and why to use it is still worth knowing.
 
-In this lesson, we'll cover some of the ways NoSQL is different from SQL — as well as some of the advantages NoSQL offers over SQL. As is the case with most things in programming, there is no one perfect tool for every job.
+In this lesson, we'll cover some of the ways NoSQL is different from SQL, as well as some of the advantages NoSQL offers over SQL. As is the case with most things in programming, there is no one perfect tool for every job.
 
 ## Differences Between SQL and NoSQL Databases
 ---
 
 We won't cover all of the differences between SQL and NoSQL databases. Instead, we'll focus on a few of the most significant differences:
 
-<table style={{textAlign: 'center', margin: '5% auto'}}>
-  <tr>
-    <th style={{textAlign: 'center' }}>SQL</th>
-    <th style={{textAlign: 'center' }}>NoSQL</th>
-  </tr> 
-  <tr> 
-    <td style={{padding: '0% 5% 0% 5%' }}>Relational</td>
-    <td style={{padding: '0% 5% 0% 5%' }}>Non-relational</td>
-  </tr>
-  <tr>
-    <td style={{padding: '0% 5% 0% 5%' }}>Uses a Schema</td>
-    <td style={{padding: '0% 5% 0% 5%' }}>No Schema</td>
-  </tr>
-  <tr>
-    <td style={{padding: '0% 5% 0% 5%' }}>Uses SQL (structured query language)</td>
-    <td style={{padding: '0% 5% 0% 5%' }}>Doesn't use a declarative query language</td>
-  </tr>
-  <tr>
-    <td style={{padding: '0% 5% 0% 5%' }}>Great for complex queries</td>
-    <td style={{padding: '0% 5% 0% 5%' }}>Not built for complex queries</td>
-  </tr>
-  <tr>
-    <td style={{padding: '0% 5% 0% 5%' }}>ACID approach</td>
-    <td style={{padding: '0% 5% 0% 5%' }}>BASE approach</td>
-  </tr>
-  <tr>
-    <td style={{padding: '0% 5% 0% 5%' }}>Not easily distributed</td>
-    <td style={{padding: '0% 5% 0% 5%' }}>Very easy to distribute</td>
-  </tr>
-</table>
+| SQL | NoSQL |
+|-----|-------|
+| Relational | Non-relational |
+| Uses a schema | No schema |
+| Uses SQL (structured query language) | Doesn't use a declarative query language |
+| Great for complex queries | Not built for complex queries |
+| ACID approach | BASE approach |
+| Not easily distributed | Very easy to distribute |
 
-SQL is a **structured query language** for relational databases. We use a **schema** to map exactly how our database tables should look — which means that each record in the database has a fixed number of columns. Because the database is relational, we can create complex queries based on the relationships between different records in the database. For example, if we wanted to find all of an author's books, we'd do a query where we find all of the books in the `books` table with an `author_id` property that matches the author's `id`. SQL databases tend to have a single node and follow the principles of ACID closely.
+SQL is a **structured query language** for relational databases. We use a **schema** to map exactly how our database tables should look, which means that each record in the database has a fixed number of columns. Because the database is relational, we can create complex queries based on the relationships between different records in the database. For example, if we wanted to find all of an author's books, we'd do a query where we find all of the books in the `books` table with an `author_id` property that matches the author's `id`. SQL databases tend to have a single node and follow the principles of ACID closely.
 
-On the other hand, NoSQL databases are non-relational. They have no schema and don't use a declarative query language. This is why they are essentially called "no SQL" — they really are the opposite in many ways. Not having a schema frees up a NoSQL database to have flexibility in storing data. 
+On the other hand, NoSQL databases are non-relational. They have no schema and don't use a declarative query language. This is why they are essentially called "no SQL": they really are the opposite in many ways. Not having a schema frees up a NoSQL database to have flexibility in storing data. 
 
 Here's an example: let's say you have an address book application that tracks the contact details for your friends. However, other than phone number and address, we also want to record other important details to remember. Well, in a NoSQL database, we can structure the data differently for each friend in our address book. Here's what our sample data could look like:
 
@@ -78,17 +56,17 @@ As we can see, there are some great benefits to the flexibility that NoSQL offer
 * We don't need to model our data ahead of time or know exactly what it looks like (such as with a schema). 
 * We can store many different types of data with many different types of fields.
 
-One big downside of NoSQL databases is that they aren't great for complex queries. Looking back at the example of an author and their books, let's say we often wanted to find target demographics for books. For instance, we might want to find all the readers that are women between the ages of 40 and 49 for all of a specific author's books. That's a pretty complex query — and not one that NoSQL is built to deal with. SQL, on the other hand, is built to deal with these relationships. 
+One big downside of NoSQL databases is that they aren't great for complex queries. Looking back at the example of an author and their books, let's say we often wanted to find target demographics for books. For instance, we might want to find all the readers that are women between the ages of 40 and 49 for all of a specific author's books. That's a pretty complex query, and not one that NoSQL is built to deal with. SQL, on the other hand, is built to deal with these relationships. 
 
-One thing to watch out for: you may find yourself wanting to establish relationships between records in different collections, the way you would with SQL tables. We'll cover some basic ways to do this in [Structuring Data in Firestore](react/react-with-nosql/3-4-0-15-structuring-data-in-firestore), but relationships simply aren't a strength of NoSQL.
+One thing to watch out for: you may find yourself wanting to establish relationships between records in different collections, the way you would with SQL tables. We'll cover some basic ways to do this in [Structuring Data in Firestore](../../react/react-with-nosql/3-4-0-15-structuring-data-in-firestore), but relationships simply aren't a strength of NoSQL.
 
 Also, because NoSQL doesn't have its own structured query language, we'll find ourselves using the syntax of the NoSQL provider that we're using. In our case, since we're using Firestore, we'll be using Firestore functions to make queries. 
 
-Using Firestore syntax has upsides and downsides. On the one hand, Firestore exposes a lot of methods that give us additional functionality — making our lives easier as developers. On the other, learning this functionality — and incorporating it into our applications — is very specific to Firebase. We can't apply it to other database services, like MongoDB or DynamoDB. That is why we won't delve too deeply into the particulars of Firestore. While it is helpful to learn the basics, the knowledge we'll gain is fairly narrow in scope. Fortunately, the documentation for Firestore is extensive if you want to do a deeper exploration on your own.
+Using Firestore syntax has upsides and downsides. On the one hand, Firestore exposes a lot of methods that give us additional functionality, making our lives easier as developers. On the other, learning this functionality (and incorporating it into our applications) is very specific to Firebase. We can't apply it to other database services, like MongoDB or DynamoDB. That is why we won't delve too deeply into the particulars of Firestore. While it is helpful to learn the basics, the knowledge we'll gain is fairly narrow in scope. Fortunately, the documentation for Firestore is extensive if you want to do a deeper exploration on your own.
 
-The last thing to note is how each type of database handles scaling. Traditional SQL databases are designed around a single authoritative server. They scale primarily by upgrading hardware — adding more RAM or CPU to handle more traffic. Horizontal distribution (spreading the database across multiple servers) is possible, but requires additional complexity.
+The last thing to note is how each type of database handles scaling. Traditional SQL databases are designed around a single authoritative server. They scale primarily by upgrading hardware, adding more RAM or CPU to handle more traffic. Horizontal distribution (spreading the database across multiple servers) is possible, but requires additional complexity.
 
-NoSQL databases, by contrast, were designed from the start to spread data across many servers. This makes horizontal scaling more straightforward: to handle more traffic, you add more servers rather than upgrading existing ones. However, as we'll see in the next lesson on the CAP theorem, distribution always involves tradeoffs — particularly around data consistency.
+NoSQL databases, by contrast, were designed from the start to spread data across many servers. This makes horizontal scaling more straightforward: to handle more traffic, you add more servers rather than upgrading existing ones. However, as we'll see in the next lesson on the CAP theorem, distribution always involves tradeoffs, particularly around data consistency.
 
 Next, let's look at how NoSQL databases store data.
 

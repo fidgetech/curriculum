@@ -5,7 +5,7 @@ id: 3-4-0-6-introduction-to-baas-firebase-and-firestore
 hide_table_of_contents: true
 ---
 
-Firebase is a cloud-based Backend-as-a-Service (BaaS) platform offered by Google. In this lesson, we'll give some background on Firebase and Firestore, the realtime database we'll be using. Then, in the next lesson, we'll discuss NoSQL in detail — including how it's different from SQL.
+Firebase is a cloud-based Backend-as-a-Service (BaaS) platform offered by Google. In this lesson, we'll give some background on Firebase and Firestore, the realtime database we'll be using. Then, in the next lesson, we'll discuss NoSQL in detail, including how it's different from SQL.
 
 As we now know, React is not an opinionated library. React can work equally well with any kind of database, whether that's SQL, NoSQL, or another solution. And while it works well with Firebase, there are many other cloud-based solutions that work with React.
 
@@ -19,7 +19,7 @@ Firebase is widely used and well-documented, which makes it a good choice for le
 ## Backends-as-a-Service (BaaS)
 ---
 
-Firebase is a realtime, cloud-based storage provider. What exactly does that mean? **Cloud-based** means it exists online, or "in the cloud." **Realtime** means changes to the database propagate immediately to all connected clients — so the app updates automatically without needing to refresh or re-fetch data.
+Firebase is a realtime, cloud-based storage provider. What exactly does that mean? **Cloud-based** means it exists online, or "in the cloud." **Realtime** means changes to the database propagate immediately to all connected clients, so the app updates automatically without needing to refresh or re-fetch data.
 
 Firebase is also a **Backend-as-a-Service**, often abbreviated as **BaaS**. This is part of an application's backend (like a database) managed and provided by an online service (like Firebase). Note that BaaS providers often provide more than just cloud storage. For example, Firebase also provides:
 
@@ -62,12 +62,12 @@ However, there are also downsides to a BaaS solution:
 
 * **Stability**. You may risk losing your backend if a BaaS provider closes doors. This happened to users of a service called Parse, which closed its doors and left its users scrambling to find other solutions.
 
-While there are some drawbacks to using BaaS, the positives generally outweigh the negatives — which is a big part of the reason services like Firebase and AWS are so popular.
+While there are some drawbacks to using BaaS, the positives generally outweigh the negatives, which is a big part of the reason services like Firebase and AWS are so popular.
 
 ### Firebase Versus Firestore
 
 Firebase is the name of the BaaS we are using. It's also the name of one of two realtime database solutions we can incorporate in our projects. The Firebase Realtime database stores all data in a large JSON object. The downside of this approach is that it's more difficult to query this database.
 
-Fortunately, Firebase also provides another database option called Firestore. This is also a realtime cloud-based database solution — and it's the one Firebase recommends for the majority of users. One of the biggest advantages of Firestore is that it includes functionality that makes it easier to query our database.
+Fortunately, Firebase also provides another database option called Firestore. This is also a realtime cloud-based database solution, and it's the one Firebase recommends for the majority of users. One of the biggest advantages of Firestore is that it includes functionality that makes it easier to query our database.
 
 So remember that we are using Firebase as a BaaS but we are using Firestore as our database solution.
