@@ -17,12 +17,12 @@ Here's what the resume might look like:
 
 ![An example of a student resume](https://www.dropbox.com/scl/fi/l27g4kzgvapz9hfbkjvjw/exampleresume.png?rlkey=1qql57mb1xh9rpq9xnsh4jlhe&raw=1)
 
-(Do not copy this example resume — it will be very obvious to Epicodus staff and to employers if you do, especially if your resume looks suspiciously like other students who ignore this warning and copy it.)
+(Do not copy this example resume - it will be very obvious to Fidgetech staff and to employers if you do, especially if your resume looks suspiciously like other students who ignore this warning and copy it.)
 
 And here's our master list of experiences from before, crossed out as we included them in the resume:
 
-**Epicodus, C#/React Track, 2021**
-* About Epicodus
+**Fidgetech, React Track, 2021**
+* About Fidgetech
   * ~~Completed full-time, 27-week program in web and open source development.~~
   * Weekly code reviews on independent projects.
 * Hard Skills
@@ -30,12 +30,12 @@ And here's our master list of experiences from before, crossed out as we include
   * ~~Used git and github for development~~
   * ~~SQL databases~~
   * Domain models
-  * React.js, Redux
+  * React.js
 * Best practices
   * Pair programming
   * Test Driven Development
   * Agile Development
-* Why Epicodus?
+* Why Fidgetech?
   * ~~Passion for the web~~ *discussed in cover letter*
   * ~~Interest in open-source development~~ *discussed in cover letter*
   * Desire for self-improvement.
@@ -104,15 +104,15 @@ Notice that we did not include our GPA on the finished resume. Including your GP
 
 As you write bullet points for each of your past work or volunteer experiences, focus on framing the descriptions of your experience in an active, achievement-focused light. Think about how each point showcases a relevant transferable skill or quality to the industry that you are looking to get into. Your main goal is to describe the impact you had on your team, customers, or the business overall. Describing your responsibilities should be secondary to conveying your impact. You can use this formula to craft your bullet point descriptions: Task (action verb), Action (what you did), and Results (what was accomplished, or how/why you did it).  Take a look at [this resource](https://s3.wp.wsu.edu/uploads/sites/1393/2018/01/Action-Verbs-for-Resumes.doc.pdf) for a great list of action verbs to start off your descriptions, broken down by category. Keep in mind that these descriptions do not include first person pronouns like “I” or “my”, and they typically are not written as complete sentences. You should also keep the verb tense the same for each position. Our general suggestion is that for positions you no longer hold, you should write all bullet points in past tense, and for positions you currently hold, write them all in present tense, wherever possible.
 
-Make sure your resume is visually appealing — unless you're applying for a design-related job, don't spend too much time on the layout, but make sure that it's formatted cleanly and consistently. For example, don't use bullets in one place and letters in another. Pay attention to white space in your resume and keep the sections balanced on the page. 
+Make sure your resume is visually appealing - unless you're applying for a design-related job, don't spend too much time on the layout, but make sure that it's formatted cleanly and consistently. For example, don't use bullets in one place and letters in another. Pay attention to white space in your resume and keep the sections balanced on the page. 
 
-When you create the skills section of your resume, you should focus primarily on your technical skills. Go ahead and list all the languages and frameworks you are learning at Epicodus, including the ones you have not learned yet. Don’t forget to include things like pair programming, test driven development, object oriented programming, version control, and Agile. 
+When you create the skills section of your resume, you should focus primarily on your technical skills. Go ahead and list all the languages and frameworks you are learning at Fidgetech, including the ones you have not learned yet. Don’t forget to include things like pair programming, test driven development, object oriented programming, version control, and Agile. 
 
 Put your name, phone, and email at the top of the resume. You should also include your city and state, Github profile, and LinkedIn profile.
 
 Most people's resumes should be under a page. If you have extensive and relevant career experience, it's okay to be a bit longer. Using a premade resume template will help if you’re struggling to fit all of the required sections onto one page, as well as the use of multiple columns.
 
-An important part of the job application process is understanding how Applicant Tracking Systems will impact your application. An Applicant Tracking System (ATS) is a program designed to help recruiting and HR teams streamline their hiring process. If you’ve ever applied to a job and been directed to a page on BrassRing or Greenhouse.io, you’ve used an ATS. These web apps will input your resume and cover letter directly into the employer’s system. Most ATS will also scan your resume for keywords associated with the job, and will automatically reject applications that don’t have enough of the qualifications to be considered. This is another reason why it’s very important to make sure your resume and cover letter directly address the job requirements. You might be very qualified and still be rejected for a job if you don’t take the time to tailor your application and make sure you hit the right keywords. You might have seen advice online about adding all the job keywords in white text to the resume so that they are hidden from sight but still scannable by the ATS – do not do this! The ATS will convert your formatted resume into plain text, and this will be very obvious to any recruiters who look at your resume or cover letter. 
+An important part of the job application process is understanding how Applicant Tracking Systems will impact your application. An Applicant Tracking System (ATS) is a program designed to help recruiting and HR teams streamline their hiring process. If you’ve ever applied to a job and been directed to a page on BrassRing or Greenhouse.io, you’ve used an ATS. These web apps will input your resume and cover letter directly into the employer’s system. Most ATS will also scan your resume for keywords associated with the job, and will automatically reject applications that don’t have enough of the qualifications to be considered. This is another reason why it’s very important to make sure your resume and cover letter directly address the job requirements. You might be very qualified and still be rejected for a job if you don’t take the time to tailor your application and make sure you hit the right keywords. You might have seen advice online about adding all the job keywords in white text to the resume so that they are hidden from sight but still scannable by the ATS - do not do this! The ATS will convert your formatted resume into plain text, and this will be very obvious to any recruiters who look at your resume or cover letter. 
 
 ATS can also track how many times you’ve applied to a specific company, and what jobs you’ve previously applied for. It isn’t necessarily a bad idea to reapply, but some companies have a mandatory cooling off period before you can re-apply to any other roles within the company. This can be anywhere from six to twelve months. These blocks are common at large tech companies who receive a very high volume of applicants. You may not get another chance to be considered at a company for several months, so it’s important to make sure that you are giving each application your best shot. Use a tool like [jobscan.co](https://jobscan.co) to check your application against an ATS before applying. 
 

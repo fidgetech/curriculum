@@ -6,9 +6,9 @@ hide_table_of_contents: true
 ---
 
 # Resume Overview
-A good resume will make it easy to see how your skills and experience match an employer's job description. Many companies use automated tools to scan both cover letters and resumes for keywords that match their job descriptions, then automatically reject applications that don't have those words – more on this later.
+A good resume will make it easy to see how your skills and experience match an employer's job description. Many companies use automated tools to scan both cover letters and resumes for keywords that match their job descriptions, then automatically reject applications that don't have those words - more on this later.
 
-But even when they don't use these tools, writing as if they do will help you concisely convey why you’re qualified when a real person is sitting in front of your application. That's why you should always strive to use the most important words and phrases from the job description—verbatim—in your cover letter and resume.
+But even when they don't use these tools, writing as if they do will help you concisely convey why you’re qualified when a real person is sitting in front of your application. That's why you should always strive to use the most important words and phrases from the job description - verbatim - in your cover letter and resume.
 
 So before we even start writing our resume, we'll need to do some prep work to identify these key words and phrases. We’ll use this information again in a few weeks when we write our cover letter. 
 
@@ -89,8 +89,8 @@ Next, we'll make a master list of experiences from past jobs, volunteer service,
 
 Here's an example of how it could look:
 
-**Epicodus, C#/React Track, 2021**
-* About Epicodus
+**Fidgetech, React Track, 2021**
+* About Fidgetech
   * Completed full-time, 27-week program in web and open source development.
   * Weekly code reviews on independent projects.
 * Hard Skills
@@ -98,12 +98,12 @@ Here's an example of how it could look:
   * Used git and github for development
   * SQL databases
   * Domain models
-  * React.js, Redux
+  * React.js
 * Best practices
   * Pair programming
   * Test Driven Development
   * Agile Development
-* Why Epicodus?
+* Why Fidgetech?
   * Passion for the web
   * Interest in open-source development
   * Desire for self-improvement.

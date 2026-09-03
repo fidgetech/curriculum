@@ -5,11 +5,11 @@ id: 3-4-1-2-client-side-routing
 hide_table_of_contents: true
 ---
 
-Firebase offers much more than just a database solution — the service also provides an authentication solution that's easy to implement.
+Firebase offers much more than just a database solution. The service also provides an authentication solution that we can add to our own applications.
 
 We'll be adding Firebase authentication to our Help Queue application. Before we do that, though, it would be nice to have a separate sign-in page in our application. We'll put a sign-in link in our header. Then, when a user clicks on that link, they will be taken to that page.
 
-To do this, we will incorporate **client-side routing**. This is different from **server-side routing**, which is how tools like .NET and Rails handle routing. Let's take a quick look at the difference.
+To do this, we will incorporate **client-side routing**. This is different from **server-side routing**, which is how traditional web frameworks handle routing. Let's take a quick look at the difference.
 
 ## Server-Side Routing
 ---
@@ -22,17 +22,23 @@ When a user clicks a link, the client executes an HTTP `GET` request to retrieve
 
 Each time a link is clicked, the client sends another request for information. The server receives and processes that request and then sends a response back containing the necessary resources. This ongoing back-and-forth conversation is called a **request-response loop**.
 
-This is also the process that .NET and Rails applications use. It's the traditional way applications have handled routing — but it's not very fast, especially for more interactive sites.
+This is the traditional way applications have handled routing, and plenty of sites still work exactly this way. The downside is speed: every navigation means another round trip to the server, which is noticeable on highly interactive sites.
 
 ## Client-Side Routing
 ---
 
 Tools like the React Router library that we'll use follow a pattern called **client-side routing**. As the name implies, this means the client (probably our browser) is responsible for routing, not the server.
 
-Let's imagine that _mywebsite.com_ is a React site that uses client-side routing instead. The user still visits the site by entering a URL or clicking a link in their **client**. The client still sends a request to the website's server to retrieve information about the site. But instead of responding with just the resources for that page, the server responds with a single JavaScript file containing _everything_ for the _entire site_. This file might have a name like _app.bundle.js_.
+Let's imagine that _mywebsite.com_ is a React site that uses client-side routing instead. The user still visits the site by entering a URL or clicking a link in their **client**. The client still sends a request to the website's server to retrieve information about the site. But instead of responding with just the resources for that page, the server responds with a JavaScript **bundle** containing _everything_ for the _entire site_. This is exactly what Vite produces when we run `npm run build`: a file in the build output with a name like _index-a1b2c3d4.js_.
 
-When the user navigates to a different part of the site such as _www.mywebsite.com/portfolio_), **the client doesn't send another request to the site's server.** Instead, the file that the server initially sent is already in the browser's resources. The client is responsible for locating the content for the new "page" based on the code in the _app.bundle.js_ file.
+When the user navigates to a different part of the site, such as _www.mywebsite.com/portfolio_, **the client doesn't send another request to the site's server.** Instead, the file that the server initially sent is already in the browser's resources. The client is responsible for locating the content for the new "page" based on the code in that bundle.
 
 This means that technically we aren't going to a different page. It just looks that way. This also makes it faster to complete concurrent calls to APIs and databases while rendering a new document because we are no longer making server requests to load and render new pages.
+
+::::note[Further exploration: meta-frameworks and server-side rendering]
+The two approaches above aren't the whole picture. Frameworks like Next.js combine them: the server renders the initial page (so it loads fast and shows up well in search results), and client-side routing takes over once the bundle arrives in the browser. This is called **server-side rendering** (SSR), and it's become a common way to build production React applications, so you'll likely encounter it on the job or in interviews.
+
+We'll cover SSR and the frameworks that provide it later in this course, in [Further Exploration: SEO with React](../../react/react-with-apis/3-5-1-3-further-exploration-seo-with-react). For now, it's enough to know that client-side routing, which we're about to build, is one half of that picture.
+::::
 
 In the next lesson, we'll add client-side routing to our Help Queue application with React Router. Then, once we've added a router and a sign-in page, we'll be ready to add Firebase authentication to our application.

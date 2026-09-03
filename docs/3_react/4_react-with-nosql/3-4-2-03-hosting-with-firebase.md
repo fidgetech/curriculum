@@ -5,9 +5,9 @@ id: 3-4-2-3-hosting-with-firebase
 hide_table_of_contents: true
 ---
 
-In addition to providing database and authentication functionality, Firebase also provides free hosting (at least for smaller sites). As a site scales up, Firebase services do have a cost. However, this is a great solution for smaller portfolio sites. If you do end up building a site that scales, that can be a good problem to have — perhaps you have the beginnings of a start-up. If so, a cloud-based solution like Firebase will help with many of the headaches that scaling up can cause, ranging from efficient database queries to fast hosting.
+In addition to providing database and authentication functionality, Firebase also provides free hosting (at least for smaller sites). As a site scales up, Firebase services do have a cost. However, this is a great solution for smaller portfolio sites. If you do end up building a site that scales, that can be a good problem to have. Perhaps you have the beginnings of a start-up. If so, a cloud-based solution like Firebase will help with many of the headaches that scaling up can cause, ranging from efficient database queries to fast hosting.
 
-In this lesson, we'll cover the steps necessary to host a site using Firebase. Fortunately, it's very easy to deploy with Firebase CLI. 
+In this lesson, we'll cover the steps necessary to host a site using Firebase. Fortunately, the Firebase CLI walks us through most of the work.
 
 Start by installing the Firebase CLI globally:
 
@@ -37,7 +37,7 @@ This will list out all of our Firebase projects.
 ## Starting the Hosting Process
 ---
 
-We'll continue to use the Help Queue as our examle project to learn how to host with Firebase, so navigate to the root directory of your Help Queue project. To begin the hosting process, run the following command. This command should always be run in the root directory of the project you want to host.
+We'll continue to use the Help Queue as our example project to learn how to host with Firebase, so navigate to the root directory of your Help Queue project. To begin the hosting process, run the following command. This command should always be run in the root directory of the project you want to host.
 
 ```
 $ firebase init hosting
@@ -63,19 +63,19 @@ Firebase will then list all of the Firebase projects that you have. This list sh
 ## Configuring Project Hosting Details
 ---
 
-Next, we'll be taken through a series of prompts for "Hosting Setup," which will configure our project's deployment details. 
+Next, we'll be taken through a series of prompts for "Hosting Setup," which will configure our project's deployment details.
 
-For the question `What do you want to use as your public directory?`, type in `build`. (You can also just hit enter and change the configuration file later, which we'll discuss soon.)
+For the question `What do you want to use as your public directory?`, type in `dist`. (You can also just hit enter and change the configuration file later, which we'll discuss soon.)
 
-Next, for the question `Configure as a single-page app (rewrite all urls to /index.html)?`, select `N`.
+Next, for the question `Configure as a single-page app (rewrite all urls to /index.html)?`, select `Y`. This one matters for our project. Our Help Queue uses React Router, which means routes like `/sign-in` exist only in our client-side JavaScript, not as files on the server. Answering `Y` tells Firebase to serve `index.html` for any URL it doesn't recognize, so our application loads and React Router can take over and render the right component. Without it, visiting the deployed `/sign-in` directly, or refreshing the page while on it, would return a 404.
 
 Next, for the question `Set up automatic builds and deploys with GitHub? (y/N)`, select `N`.
 
-Finally, for the question `File public/index.html already exists. Overwrite? (y/N)`, select `N`.
+You may also be asked `File dist/index.html already exists. Overwrite? (y/N)`. This prompt only appears if you've already run a build, so you may not see it at all. If you do see it, select `N` so that Firebase doesn't replace your built application with a placeholder page.
 
 At this point, Firebase will automatically generate `firebase.json` and `.firebaserc` files for us. Then, we'll see a success message:
 
-```js
+```
 +  Firebase initialization complete!
 ```
 
@@ -83,20 +83,28 @@ At this point, Firebase will automatically generate `firebase.json` and `.fireba
 
 Your `firebase.json` file should look similar to this one (but may not match exactly):
 
-```js title="firebase.json"
+```json title="firebase.json"
 {
   "hosting": {
-    "public": "build",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }
 ```
 
-Note that `"public"` needs to have a value of `"build"` because create-react-app will put all of our assets in a `build` directory when we run `npm run build`. If it has a different value in your `firebase.json`, you should change it now.
+Note that `"public"` needs to have a value of `"dist"` because Vite puts all of our built assets in a `dist` directory. If it has a different value in your `firebase.json`, you should change it now. (This is the setting to reach for if you ever host a project built with a different tool, since not every build tool uses `dist`.)
+
+The `"rewrites"` block is what our `Y` answer to the single-page app question produced. If you answered `N` by accident, you can add that block yourself rather than running `firebase init hosting` again.
 
 ## Deploying
 ---
@@ -105,15 +113,31 @@ Next, we should create a build of our project to make sure there are no issues t
 
 ```
 $ npm run build
-``` 
+```
 
-We are almost ready to deploy. However, it's a good idea to make sure everything looks good _before_ we deploy. We can do this with `firebase` CLI tools. In the root directory of your project, run
+Vite gives us a `build` script in `package.json`, defined as `tsc -b && vite build`. That means two things happen in order: TypeScript type-checks the whole project, and then Vite bundles it into `dist`. If there's a type error anywhere in our code, the build stops before any files are written, so a build that fails to produce a `dist` directory is worth reading the output of carefully.
+
+:::note
+Vite empties the `dist` directory each time it builds. If `firebase init hosting` created a placeholder `index.html` and `404.html` in there, this build replaces them with our actual application. That's what we want.
+:::
+
+We are almost ready to deploy. However, it's a good idea to make sure everything looks good _before_ we deploy. We have two options for this.
+
+The first is Vite's own preview server:
+
+```
+$ npm run preview
+```
+
+This serves the contents of `dist` locally so we can check the production build. Note that it doesn't know about our Firebase rewrites, so deep links like `/sign-in` may not resolve the way they will once deployed.
+
+The second option uses the Firebase CLI, which does respect the configuration in `firebase.json`:
 
 ```
 $ firebase serve
 ```
 
-This will run our project at `http://localhost:5000`. You can make sure that everything looks just as you expect.
+This will run our project at `http://localhost:5000`. Because it applies our rewrites, this is the better choice for confirming that our routes work. You can make sure that everything looks just as you expect, including navigating directly to `localhost:5000/sign-in`.
 
 Once you are done, you can shut down the local server and deploy your project with this command:
 
@@ -130,7 +154,7 @@ $ firebase deploy --only hosting
 
 i  deploying hosting
 i  hosting[help-queue-dc855]: beginning deploy...
-i  hosting[help-queue-dc855]: found 15 files in build
+i  hosting[help-queue-dc855]: found 15 files in dist
 +  hosting[help-queue-dc855]: file upload complete
 i  hosting[help-queue-dc855]: finalizing version...
 +  hosting[help-queue-dc855]: version finalized
@@ -160,7 +184,7 @@ Where, *`PROJECT_ID`* is the name of your project. In the example code above, th
 If you need to make changes to your application and deploy again, follow these steps:
 
 * Make the changes in your code.
-* Run `npm run build` to create a build that's optimized for production.
+* Run `npm run build` to type-check your project and create a build that's optimized for production.
 * Optionally, run `firebase serve` to make sure your project works and looks as expected.
 * Run `firebase deploy --only hosting` to deploy your project again.
 
