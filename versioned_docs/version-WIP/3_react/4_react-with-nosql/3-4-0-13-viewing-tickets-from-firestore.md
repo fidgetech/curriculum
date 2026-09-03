@@ -186,12 +186,12 @@ const unSubscribe = onSnapshot(
 );
 ```
 
-This version needs a type assertion where the field-by-field version did not, and it's worth understanding why. When we listed the fields out one at a time, we were telling TypeScript exactly which properties the object has. Spreading `doc.data()` doesn't do that: the values Firestore returns have no known shape, so TypeScript can't confirm that a `names` or a `section` is in there at all, and it will refuse to treat the result as a `TicketData`. Writing `as Omit<TicketData, "id">` is us telling TypeScript what we know is in the document.
+This version needs a type assertion where the field-by-field version did not, and it's worth understanding why. When we listed the fields out one at a time, we were telling TypeScript exactly which properties the object has. Spreading `doc.data()` doesn't do that: the values Firestore returns have no known shape, so TypeScript can't confirm that a `names` or a `section` is in there at all, and it will refuse to treat the result as a `TicketData`. Writing `as Omit<TicketData, "id">` is us telling TypeScript what we know is in the document - and TypeScript will trust us completely, without checking.
 
-That's one broad promise instead of three narrow ones, so this version is shorter but claims more. Updating your code to use the spread operator is entirely optional, and you should only do it if you understand how it works.
+That's the real tradeoff: one broad, unverified promise instead of three narrow ones TypeScript can actually check. Because of that, we'll keep using the field-by-field version for the rest of this section. Updating your code to use the spread operator is entirely optional, and you should only do it if you're comfortable maintaining that promise by hand as our data shape changes.
 
-:::tip
-`Omit<TicketData, "id">` is the same shape as the `NewTicketData` type we created in the last lesson. We could import and use that type here instead. We've written the `Omit` out in full because the two mean different things to a reader: `NewTicketData` describes a ticket on its way _into_ the database, and here we're describing a document on its way _out_. Right now those shapes happen to be identical, but they won't stay that way later in this section.
+:::caution[This shortcut has an expiration date]
+`Omit<TicketData, "id">` happens to be the same shape as the `NewTicketData` type we created in the last lesson - but only right now. Later in this section, `TicketData` gains a field whose raw Firestore value needs to be converted before it matches our type (a timestamp that has to become a `Date`). If you've switched to the spread version, `as Omit<TicketData, "id">` will keep compiling at that point, but it will be lying: it will claim you already have a value you haven't actually produced yet. The field-by-field version we use in this lesson doesn't have this problem, since every field is listed and converted explicitly.
 :::
 
 As always, there are many ways to structure our code. To learn about other handy methods and properties for `DocumentSnapshot` and `QuerySnapshot`, take a look at the Firestore API reference when you have the time:
@@ -219,7 +219,7 @@ import EditTicketForm from './EditTicketForm';
 import TicketDetail from './TicketDetail';
 import { type TicketData, type NewTicketData } from '../types';
 import { collection, addDoc, onSnapshot } from 'firebase/firestore';
-import db from '../firebase';
+import { db } from '../firebase';
 
 function TicketControl() {
   // ...other state declarations

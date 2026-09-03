@@ -26,7 +26,7 @@ If you haven't already done so, work through the lessons in this section and upd
 
 ### Team Check-in Board
 
-Return to the Team Check-in Board project you started earlier in this section. Following the same process you used for Help Queue, add the following:
+Return to the Team Check-in Board project you worked on earlier in this section. Following the same process you used for Help Queue, add the following:
 
 * A separate `/sign-in` route, using react-router. Users must sign in before they can view or post check-ins.
 * A Firestore server timestamp on each check-in, and a formatted wait time (for example, "5 minutes ago") using `date-fns`.

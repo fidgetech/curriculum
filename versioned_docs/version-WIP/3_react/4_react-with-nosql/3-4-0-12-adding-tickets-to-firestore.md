@@ -25,11 +25,9 @@ import EditTicketForm from './EditTicketForm';
 import TicketDetail from './TicketDetail';
 import { type TicketData } from '../types';
 // new imports!
-import db from '../firebase';
+import { db } from '../firebase';
 import { collection, addDoc } from 'firebase/firestore';
 ```
-
-Note that `db` is the default export from `firebase.ts`, so we import it without curly braces. `collection` and `addDoc`, by contrast, are named exports from the `firebase/firestore` package itself, which is why they're destructured with curly braces.
 
 Now that we have access to `db`, `collection`, and `addDoc`, we can format a POST request to Firestore. We'll follow the instructions in the Firestore docs on how to [Add Data](https://firebase.google.com/docs/firestore/manage-data/add-data#add_a_document) to a Firestore database.
 

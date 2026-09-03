@@ -9,24 +9,48 @@ pagination_next: null
 ## Independent Projects Overview
 ---
 
-Project prompts will be available on Epicenter once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Project prompts will be available on Fidgetech Code Central once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## React with NoSQL Project Objectives
 ---
 
-During your normally scheduled independent project time, you will prepare for your whiteboard interview session.
+For this course section's independent project, you'll extend the project you built for React Fundamentals to persist its data with Firestore.
 
-Your submission will be reviewed for the following objectives:
+Unlike your React Fundamentals project, which only required Create, Read, and Update functionality, this project should implement full CRUD: **Create, Read, Update, and Delete.**
 
-* Whiteboard solution has been submitted.
-* Whiteboard interview meets all requirements (based on peer feedback).
-* Your evaluations for peers are complete and include constructive feedback.
+Your code will be reviewed for the following objectives:
+
+* Application compiles and runs without error, and warnings in the DevTools console are resolved.
+* Firestore is used correctly to persist and retrieve data.
+* Full CRUD functionality (create, read, update, and delete) works correctly, backed by Firestore.
+* TypeScript types are defined for all component props and shared data.
+* README includes an accurate representation of the application's component tree.
+* Project is in a polished, portfolio-quality state.
+* The prompt's required functionality and baseline project requirements are met.
+
+If you have extra time, consider adding one or more of the following:
+
+* Routing with react-router.
+* Firebase authentication and authorization.
+* A formatted wait time or ordering based on a Firestore server timestamp.
+
+### What is a polished, portfolio-quality state?
+When a project is both polished and in a portfolio-quality state, this means:
+
+* You've reviewed your project and your README prior to submitting it to make sure there are no errors or missing information and you are consistent in your indentation, spacing, and code structure.
+* You are following the best practices and coding conventions we teach.
+
+### What are the baseline project requirements?
+All independent coding projects at Fidgetech have these baseline requirements:
+
+* A complete and informative README
+* The project's commit history demonstrates that the project's required work schedule and hours have been met:
+  * 8 hours of work is required for all students.
+* Completion of the project based on the prompt _and_ objectives. The prompt contains details on the project's theme and features that are not always detailed in the objective. Carefully read through the prompt towards the end of your work session to make sure that you are not missing anything.
 
 ## Submission
 ---
 
-Your instructor will plan out when you will conduct the group whiteboard interview, which could be this week or next depending on the program you are enrolled in and other scheduling concerns. Check in with your instructor about the exact schedule, timing, and structure of this event and when your Epicenter submissions are due.
+Submit your code for review to the **React with NoSQL** code review on [Fidgetech Code Central](https://central.fidgetechcode.org/).
 
-After each student's whiteboard interview in your group, you will submit the feedback rubric you complete via the form available in the [_Peer Evaluations_ tab](https://epicenter.epicodus.com/peer_evaluations/new) on Epicenter. After you are finished with the entire group whiteboard interview, you will submit your whiteboard solution to the **Functional Programming with JavaScript** code review on [Epicenter](https://epicenter.epicodus.com/). 
-
-Visit [Independent Projects and Code Reviews](../../pre-work/getting-started-at-epicodus/1-0-0-09-independent-projects-and-code-reviews) for details on how to submit, how feedback works and course completion requirements.
+Visit [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) for details on how to submit, how feedback works and course completion requirements.

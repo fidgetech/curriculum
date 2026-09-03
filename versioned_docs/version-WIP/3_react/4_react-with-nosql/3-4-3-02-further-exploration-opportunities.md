@@ -1,13 +1,13 @@
 ---
-title: "📓 3.4.3.3 Further Exploration Opportunities"
+title: "📓 3.4.3.2 Further Exploration Opportunities"
 day: wednesday
-id: 3-4-3-3-further-exploration-opportunities
+id: 3-4-3-2-further-exploration-opportunities
 hide_table_of_contents: true
 ---
 
 If you take one glance at the Firebase docs, you know that there's a whole lot we can do with its many services! In this lesson, we'll take a look at a few opportunities for further exploration within Firebase, React Router, and React. 
 
-You're not required to explore the options listed below now, and know that there's much more out there than what's in this lesson. Instead, read through the following list to get an idea of what else you might want to explore in your projects this week, or for your capstone.
+You're not required to explore the options listed below now, and know that there's much more out there than what's in this lesson. Instead, read through the following list to get an idea of what else you might want to explore in your projects in this section, or for your capstone.
 
 ### Firebase Services
 
@@ -28,7 +28,7 @@ You're not required to explore the options listed below now, and know that there
 
 ### React
 
-* Explore other React hooks on the [Hooks API Reference](https://reactjs.org/docs/hooks-reference.html) documentation.
+* Explore other React hooks on the [Hooks API Reference](https://react.dev/reference/react/hooks) documentation.
 * There are many smaller libraries that offer custom hooks as well. Check out [this excellent list of resources on hooks](https://github.com/rehooks/awesome-react-hooks), which includes tutorials and links to various custom hooks. Among other things, these custom hooks offer the following additional functionality to function components:
   * Handling form state
   * Using the Fetch API

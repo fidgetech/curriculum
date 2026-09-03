@@ -96,9 +96,8 @@ const firebaseConfig: FirebaseOptions = {
 };
 
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
 
-export default db;
+export const db = getFirestore(app);
 ```
 
 This file mirrors the Firebase configuration from your project settings, with three differences:
@@ -112,8 +111,7 @@ Now, let's work through `firebase.ts` from top to bottom:
 1. We start by importing from `firebase/app` and `firebase/firestore`. Notice the `type` keyword on `FirebaseOptions`: it's a type rather than a value, and we mark it inline the same way we do when importing `TicketData`.
 2. Then we define our Firebase config in `firebaseConfig`. This information points to the exact web application that we created within the Firebase Help Queue project. We read each value with `import.meta.env`, which is how Vite makes our `VITE_` prefixed environment variables available to our code.
 3. Next, we call the `initializeApp` function, passing in our `firebaseConfig` as the argument. The `initializeApp` function creates and initializes an instance of our Firebase web app, which we save in the variable `app`. We can then use `app` to access a variety of services that are connected to our web app, like our Firestore database.
-4. Next, we call the `getFirestore` function, passing in `app`. This function returns the Firestore database instance that's associated with our `app`. We store our Firestore database instance in the variable `db`.
-5. Finally, we export the `db` variable, as our only and default export. We'll use this variable when we make requests to our database to read and update data.
+4. Finally, we call the `getFirestore` function, passing in `app`. This function returns the Firestore database instance that's associated with our `app`. We export this instance directly as `db`, a named export. We'll use this variable when we make requests to our database to read and update data.
 
 At this point, we've successfully added Firebase and Firestore to our application. Woo-hoo! 
 
