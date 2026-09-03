@@ -54,6 +54,7 @@ Note that we can optionally rewrite the above function to combine the `doc()` an
 ```tsx
 const handleEditTicket = async (ticketToEdit: TicketData) => {
   const { id, ...ticketFields } = ticketToEdit;
+  // highlight-next-line
   await updateDoc(doc(db, "tickets", id), ticketFields);
   setEditing(false);
   setSelectedTicket(null);

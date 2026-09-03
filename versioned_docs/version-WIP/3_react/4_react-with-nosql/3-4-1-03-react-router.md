@@ -60,17 +60,23 @@ Here's our updated `App` component:
 ```tsx title="src/components/App.tsx"
 import Header from "./Header";
 import TicketControl from "./TicketControl";
+// highlight-start
 import SignIn from "./SignIn";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// highlight-end
 
 function App() {
   return (
+    {/* highlight-next-line */}
     <Router>
       <Header />
+      {/* highlight-start */}
       <Routes>
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/" element={<TicketControl />} />
       </Routes>
+      {/* highlight-end */}
+    {/* highlight-next-line */}
     </Router>
   );
 }
@@ -112,6 +118,7 @@ Many applications have a navbar at the top of the page with links to various par
 
 ```tsx title="src/components/Header.tsx"
 import ticketsImage from "./../assets/tickets.png";
+// highlight-next-line
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -119,6 +126,7 @@ function Header() {
     <header>
       <h1>Help Queue</h1>
       <img src={ticketsImage} alt="A stack of tickets"/>
+      {/* highlight-start */}
       <ul>
         <li>
           <Link to="/">Home</Link>
@@ -127,6 +135,7 @@ function Header() {
           <Link to="/sign-in">Sign In</Link>
         </li>
       </ul>
+      {/* highlight-end */}
     </header>
   );
 }

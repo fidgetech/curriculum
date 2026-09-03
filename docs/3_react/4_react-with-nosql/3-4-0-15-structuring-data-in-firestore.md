@@ -164,6 +164,7 @@ export type Trail = {
   name: string;
   description: string;
   region: string;
+  // highlight-next-line
   reviews: NestedReview[];
   id: string;
 };

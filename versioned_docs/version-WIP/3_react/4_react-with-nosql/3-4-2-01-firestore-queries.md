@@ -149,6 +149,7 @@ However, the following query is invalid because it uses inequality operators on 
 const q = query(
   collection(db, "trails"),
   where("trailLength", ">", 10),
+  // highlight-next-line
   where("elevation", ">", 500)
 );
 ```

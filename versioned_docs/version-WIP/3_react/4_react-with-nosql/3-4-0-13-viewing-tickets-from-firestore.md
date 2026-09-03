@@ -27,9 +27,11 @@ To properly set up this listener, we'll need to set up a `useEffect` hook that d
 We'll do this in three phases. In the first phase, we'll set up our `useEffect()` hook and learn the basics of the `onSnapshot()` function. Here's the first round of new code:
 
 ```tsx title="src/components/TicketControl.tsx"
-// updated imports (others stay the same):
+// ...same imports as before, except:
+// highlight-start
 import { useEffect, useState } from 'react';
 import { collection, addDoc, onSnapshot } from 'firebase/firestore';
+// highlight-end
 
 function TicketControl() {
   const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
@@ -37,6 +39,7 @@ function TicketControl() {
   const [selectedTicket, setSelectedTicket] = useState<TicketData | null>(null);
   const [editing, setEditing] = useState(false);
 
+  // highlight-start
   useEffect(() => {
     const unSubscribe = onSnapshot(
       collection(db, "tickets"),
@@ -50,6 +53,7 @@ function TicketControl() {
 
     return () => unSubscribe();
   }, []);
+  // highlight-end
 
   // ...the remaining code in the component stays the same
 }
@@ -91,6 +95,7 @@ useEffect(() => {
   const unSubscribe = onSnapshot(
     collection(db, "tickets"),
     (collectionSnapshot) => {
+      // highlight-start
       const tickets: TicketData[] = [];
       collectionSnapshot.forEach((doc) => {
         const data = doc.data();
@@ -102,6 +107,7 @@ useEffect(() => {
         });
       });
       setMainTicketList(tickets);
+      // highlight-end
     },
     (firestoreError) => {
       // do something with error
@@ -125,7 +131,8 @@ collectionSnapshot.forEach((doc) => {
   const data = doc.data();
   tickets.push({
     // ...other fields
-    id: doc.id // this code
+    // highlight-next-line
+    id: doc.id
   });
 });
 ```
@@ -175,7 +182,8 @@ const unSubscribe = onSnapshot(
   collection(db, "tickets"),
   (collectionSnapshot) => {
     const tickets = collectionSnapshot.docs.map((doc) => ({
-      ...doc.data() as Omit<TicketData, "id">, // Spread operator in use!
+      // highlight-next-line
+      ...doc.data() as Omit<TicketData, "id">,
       id: doc.id
     }));
     setMainTicketList(tickets);
@@ -223,7 +231,7 @@ import { db } from '../firebase';
 
 function TicketControl() {
   // ...other state declarations
-  // new code!
+  // highlight-next-line
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -233,7 +241,7 @@ function TicketControl() {
         // ...same ticket-building logic as before
       },
       (firestoreError) => {
-        // new code!
+        // highlight-next-line
         setError(firestoreError.message);
       }
     );
@@ -243,9 +251,10 @@ function TicketControl() {
 
   // ...other handler functions
 
-  // add error handling to the conditional rendering logic
+  // highlight-start
   if (error) {
     currentlyVisibleState = <p>There was an error: {error}</p>;
+  // highlight-end
   } else if (editing && selectedTicket !== null) {
     // ...EditTicketForm
   } else if (selectedTicket !== null) {
@@ -256,11 +265,10 @@ function TicketControl() {
     // ...TicketList
   }
 
-  // add error handling to the return statement
   return (
     <>
       {currentlyVisibleState}
-      {/* New code below! */}
+      {/* highlight-next-line */}
       {error ? null : <button onClick={handleClick}>{buttonText}</button>}
     </>
   );

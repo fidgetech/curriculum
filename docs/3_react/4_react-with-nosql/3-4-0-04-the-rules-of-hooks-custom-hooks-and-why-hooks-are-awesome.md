@@ -106,6 +106,7 @@ Our custom hooks can make use of any built-in React hooks, but as noted earlier,
 And here's what `Timer.tsx` should now look like:
 
 ```tsx title="src/Timer.tsx"
+// highlight-next-line
 import useTimer from './hooks/useTimer';
 
 function Timer() {
@@ -145,7 +146,7 @@ function useTimer() {
     return () => clearInterval(interval);
   }, [isActive]);
 
-  // New line below!
+  // highlight-next-line
   return { isActive, timer, setIsActive };
 }
 
@@ -160,7 +161,7 @@ Now, let's update our `Timer.tsx` component to use the `useTimer` hook:
 import useTimer from './hooks/useTimer';
 
 function Timer() {
-  // New line below!
+  // highlight-next-line
   const { isActive, timer, setIsActive } = useTimer();
 
   return (

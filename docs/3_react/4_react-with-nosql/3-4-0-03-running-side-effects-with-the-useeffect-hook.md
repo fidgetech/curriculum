@@ -67,12 +67,15 @@ import { useState } from 'react';
 
 function Counter() {
   const [count, setCount] = useState(0);
+  // highlight-next-line
   const [hidden, setHidden] = useState(false);
 
   return (
     <>
+      {/* highlight-next-line */}
       {hidden ? <h1>Count Hidden</h1> : <h1>{count}</h1>}
       <button onClick={() => setCount(count + 1)}>Count!</button>
+      {/* highlight-next-line */}
       <button onClick={() => setHidden(!hidden)}>Hide/Show</button>
     </>
   );
@@ -99,15 +102,18 @@ The last case is the default behavior for the `useEffect` hook. Let's take a loo
 Open the `Counter` component, and update the code as shown here:
 
 ```tsx title="src/Counter.tsx"
+// highlight-next-line
 import { useState, useEffect } from 'react';
 
 function Counter() {
   const [count, setCount] = useState(0);
   const [hidden, setHidden] = useState(false);
 
+  // highlight-start
   useEffect(() => {
     console.log("effect!");
   });
+  // highlight-end
 
   return (
     <>
@@ -130,6 +136,7 @@ Let's try adding something other than a `console.log()`. Update your `useEffect`
 ```ts
   useEffect(() => {
     console.log("effect!");
+    // highlight-next-line
     document.title = String(count);
   });
 ```
@@ -156,6 +163,7 @@ React developers have a solution for this, and this is what it looks like:
   useEffect(() => {
     console.log("effect!");
     document.title = String(count);
+  // highlight-next-line
   }, [count]);
 ```
 
@@ -175,6 +183,7 @@ We can tell the `useEffect` hook to run its effect only once by passing in an em
   useEffect(() => {
     console.log("effect!");
     document.title = String(count);
+  // highlight-next-line
   }, []);
 ```
 
@@ -190,12 +199,14 @@ First, let's update our `App` component in the `counter-app` application to impo
 
 ```tsx title="src/App.tsx"
 import Counter from './Counter';
+// highlight-next-line
 import Timer from './Timer';
 
 function App() {
   return (
     <>
       <Counter />
+      {/* highlight-next-line */}
       <Timer />
     </>
   );
@@ -270,7 +281,7 @@ But how do we stop the timer? That's where the optional `useEffect` clean up mec
 
 ```ts
   useEffect(() => {
-    ...
+    // ...same effect body as before
 
     return () => clearInterval(interval);
   }, [isActive]);

@@ -24,9 +24,10 @@ import TicketList from './TicketList';
 import EditTicketForm from './EditTicketForm';
 import TicketDetail from './TicketDetail';
 import { type TicketData } from '../types';
-// new imports!
+// highlight-start
 import { db } from '../firebase';
 import { collection, addDoc } from 'firebase/firestore';
+// highlight-end
 ```
 
 Now that we have access to `db`, `collection`, and `addDoc`, we can format a POST request to Firestore. We'll follow the instructions in the Firestore docs on how to [Add Data](https://firebase.google.com/docs/firestore/manage-data/add-data#add_a_document) to a Firestore database.
@@ -117,7 +118,7 @@ export type TicketData = {
   id: string;
 };
 
-// new code!
+// highlight-next-line
 export type NewTicketData = Omit<TicketData, "id">;
 ```
 
@@ -137,10 +138,12 @@ Now let's update `NewTicketForm.tsx` to stop generating an ID. We remove the `id
 
 ```tsx title="src/components/NewTicketForm.tsx"
 import { type SubmitEvent } from 'react';
+// highlight-next-line
 import { type NewTicketData } from '../types';
 import ReusableForm from './ReusableForm';
 
 type NewTicketFormProps = {
+  // highlight-next-line
   onNewTicketCreation: (ticket: NewTicketData) => void;
 };
 
