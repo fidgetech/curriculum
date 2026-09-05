@@ -224,6 +224,7 @@ Now let's make the form actually work.
 1. Write `handleEditTicket` in `TicketControl`
 2. Pass it to `EditTicketForm`
 3. Add form submission handling to `EditTicketForm`
+4. Pre-fill the form with the ticket's current values
 
 ---
 
@@ -324,6 +325,105 @@ export default EditTicketForm;
 **Key detail:** We use `ticket.id` to preserve the original ID. The form provides new values for `names`, `section`, and `issue`, but the ticket keeps its id.
 
 Because `onEditTicket` is typed as `(ticket: TicketData) => void`, TypeScript checks the object we pass to it. If we forgot the `id`, misspelled `section`, or handed it a number where a string belongs, the error would appear in our editor rather than as a silently broken ticket in the browser.
+
+---
+
+## Step 4: Pre-Filling the Form with the Ticket's Current Values
+
+Try it out: click a ticket, then click "Update Ticket." Notice the form comes up completely blank - it doesn't show the ticket's current names, section, or issue anywhere. That's not just unhelpful, it's a real problem: if you submit the form without retyping every field yourself, you'll overwrite the ticket with empty values for anything you left blank.
+
+The cause is that `ReusableForm`'s inputs never receive the ticket's existing data. They only have a `placeholder`, which is just a hint that disappears the moment you start typing, not an actual value. We need a way to tell `ReusableForm` what value each field should _start_ with.
+
+Let's add three new optional props to `ReusableForm.tsx`:
+
+```tsx title="src/components/ReusableForm.tsx"
+import { type SubmitEvent } from 'react';
+
+type ReusableFormProps = {
+  formSubmissionHandler: (event: SubmitEvent<HTMLFormElement>) => void;
+  buttonText: string;
+  defaultNames?: string;
+  defaultSection?: string;
+  defaultIssue?: string;
+};
+
+function ReusableForm({ formSubmissionHandler, buttonText, defaultNames, defaultSection, defaultIssue }: ReusableFormProps) {
+  return (
+    <form onSubmit={formSubmissionHandler}>
+      <input
+        defaultValue={defaultNames}
+        type='text'
+        name='names'
+        placeholder='Pair Names' />
+      <input
+        defaultValue={defaultSection}
+        type='text'
+        name='section'
+        placeholder='Section' />
+      <textarea
+        defaultValue={defaultIssue}
+        name='issue'
+        placeholder='Describe your issue.' />
+      <button type='submit'>{buttonText}</button>
+    </form>
+  );
+}
+
+export default ReusableForm;
+```
+
+**What changed:**
+- Three new optional props - `defaultNames`, `defaultSection`, `defaultIssue` - each typed as `string`. The `?` makes each one optional.
+- Each input now has a `defaultValue` set from its matching prop.
+
+Because these props are optional, `NewTicketForm` doesn't need to change at all. It won't pass any of them, so each input's `defaultValue` is `undefined` - which behaves exactly like not setting `defaultValue` in the first place. `NewTicketForm`'s fields stay blank, just as before.
+
+:::note[`defaultValue`, not `value`]
+It matters that we used `defaultValue` here, not `value`. Setting `value` would make these controlled inputs, which would require an `onChange` handler and a state variable tracking every keystroke - a much bigger change than we need. `defaultValue` only sets the input's _starting_ value; after that, the browser manages the input's contents itself, exactly like it already does for our uncontrolled inputs. We still read the final submitted values with `FormData`, unchanged.
+:::
+
+Now let's have `EditTicketForm` pass the ticket's current values through. Update `EditTicketForm.tsx`:
+
+```tsx title="src/components/EditTicketForm.tsx"
+import { type SubmitEvent } from 'react';
+import { type TicketData } from '../types';
+import ReusableForm from './ReusableForm';
+
+type EditTicketFormProps = {
+  ticket: TicketData;
+  onEditTicket: (ticket: TicketData) => void;
+};
+
+function EditTicketForm({ ticket, onEditTicket }: EditTicketFormProps) {
+
+  function handleEditTicketFormSubmission(event: SubmitEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    onEditTicket({
+      names: formData.get('names') as string,
+      section: formData.get('section') as string,
+      issue: formData.get('issue') as string,
+      id: ticket.id
+    });
+  }
+
+  return (
+    <ReusableForm
+      formSubmissionHandler={handleEditTicketFormSubmission}
+      buttonText="Update Ticket"
+      defaultNames={ticket.names}
+      defaultSection={ticket.section}
+      defaultIssue={ticket.issue}
+    />
+  );
+}
+
+export default EditTicketForm;
+```
+
+**What changed:** we added three new props to the `<ReusableForm />` call, reading each starting value straight off the `ticket` prop `EditTicketForm` already receives.
+
+Try it again: click a ticket, then "Update Ticket." The form now opens already showing the ticket's current values, ready to edit.
 
 ---
 
