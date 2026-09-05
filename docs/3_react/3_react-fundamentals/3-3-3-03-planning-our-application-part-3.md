@@ -28,6 +28,7 @@ We will also need to add some new local state to `TicketControl`. Don't worry ab
 ```tsx title="src/components/TicketControl.tsx"
 const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
 const [mainTicketList, setMainTicketList] = useState<TicketData[]>([]);
+// highlight-next-line
 const [selectedTicket, setSelectedTicket] = useState<TicketData | null>(null);
 ```
 

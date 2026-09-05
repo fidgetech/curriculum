@@ -57,15 +57,19 @@ We can also evaluate expressions inside curly braces. Update `App.tsx` to look l
 
 ```tsx title="src/App.tsx"
 function App(){
+  // highlight-start
   const name = "Thato";
   const name2 = "Haley";
+  // highlight-end
 
   return (
     <>
       <h1>Help Queue</h1>
       <h3>3a</h3>
+      {/* highlight-next-line */}
       <h3>{name} and {name2}</h3>
       <p><em>React component not rendering!</em></p>
+      {/* highlight-next-line */}
       {/* This is a JSX comment. */}
       <hr/>
     </>

@@ -61,10 +61,12 @@ Let's move `mainTicketList` into `TicketControl` and pass it down to `TicketList
 
 ```tsx title="src/components/TicketControl.tsx"
 import { useState } from 'react';
+// highlight-next-line
 import { type TicketData } from '../types';
 import NewTicketForm from './NewTicketForm';
 import TicketList from './TicketList';
 
+// highlight-start
 const mainTicketList: TicketData[] = [
   {
     names: 'Thato and Haley',
@@ -85,6 +87,7 @@ const mainTicketList: TicketData[] = [
     id: '3'
   }
 ];
+// highlight-end
 
 function TicketControl() {
   const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
@@ -100,6 +103,7 @@ function TicketControl() {
     currentlyVisibleState = <NewTicketForm />;
     buttonText = "Return to Ticket List";
   } else {
+    // highlight-next-line
     currentlyVisibleState = <TicketList ticketList={mainTicketList} />;
     buttonText = "Add Ticket";
   }
@@ -132,16 +136,20 @@ Now we need to update `TicketList` so it accepts `ticketList` as a prop instead 
 
 ```tsx title="src/components/TicketList.tsx"
 import Ticket from "./Ticket";
+// highlight-next-line
 import { type TicketData } from '../types';
 
+// highlight-start
 type TicketListProps = {
   ticketList: TicketData[];
 };
 
 function TicketList({ ticketList }: TicketListProps) {
+  // highlight-end
   return (
     <>
       <hr />
+      {/* highlight-next-line */}
       {ticketList.map((ticket) =>
         <Ticket
           names={ticket.names}

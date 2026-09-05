@@ -48,6 +48,7 @@ This component may seem too small but it really isn't. A more complex header mig
 Next, we need to add our component to `App.tsx`:
 
 ```tsx title="src/components/App.tsx"
+// highlight-next-line
 import Header from "./Header";
 
 function App(){
@@ -55,6 +56,7 @@ function App(){
   const name2 = "Haley";
   return (
     <>
+      {/* highlight-next-line */}
       <Header />
       <h3>3a</h3>
       <h3>{name} and {name2}</h3>
@@ -122,12 +124,14 @@ This is what our `App` component should look like after moving the ticket inform
 
 ```tsx title="src/components/App.tsx"
 import Header from "./Header";
+// highlight-next-line
 import TicketList from "./TicketList";
 
 function App(){
   return ( 
     <>
       <Header />
+      {/* highlight-next-line */}
       <TicketList />
     </>
   );

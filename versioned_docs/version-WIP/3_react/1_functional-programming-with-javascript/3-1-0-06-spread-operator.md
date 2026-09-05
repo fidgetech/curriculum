@@ -69,6 +69,7 @@ const myCat = {
   age: 1
 }
 
+// highlight-next-line
 const myCatGotOlder = {...myCat, age: 2}
 ```
 
@@ -82,6 +83,7 @@ const myCat = {
   age: 1
 }
 
+// highlight-next-line
 const myCatGotOlder2 = {...myCat, age: 2, color: "gray and white"}
 ```
 
@@ -115,10 +117,12 @@ const flagColor1 = {
 }
 
 const flagColor2 = {
+  // highlight-next-line
   color1: "gold"
 }
 
 const flagColor3 = {
+  // highlight-next-line
   color1: "black"
 }
 

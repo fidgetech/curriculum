@@ -35,6 +35,7 @@ Next, let's consider where we want to render this image. We should apply the sam
 Next, we need to import the file just as we'd import any other component. Here's how we can add it to `Header.tsx`:
 
 ```tsx title="src/components/Header.tsx"
+// highlight-next-line
 import ticketsImage from "./../assets/tickets.png";
 
 function Header() {
@@ -47,6 +48,7 @@ function Header() {
   return (
     <header style={headerStyles}>
       <h1>Help Queue</h1>
+      {/* highlight-next-line */}
       <img src={ticketsImage} alt="A stack of tickets"/>
     </header>
   );

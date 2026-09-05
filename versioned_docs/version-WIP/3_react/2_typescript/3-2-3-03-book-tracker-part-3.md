@@ -146,13 +146,16 @@ console.log('addBook', books[books.length - 1].id); // assigned automatically
 ## Your `library.ts` So Far
 
 ```ts title="src/library.ts"
+// highlight-next-line
 import { Book, Genre, ReadStatus, NewBook } from "./types";
 
+// highlight-start
 export function addBook(books: Book[], newBook: NewBook): Book[] {
   const nextId = books.length === 0 ? 1 : Math.max(...books.map(b => b.id)) + 1;
   const book: Book = { ...newBook, id: nextId };
   return [...books, book];
 }
+// highlight-end
 
 export function filterByStatus(books: Book[], status: ReadStatus): Book[] {
   return books.filter(book => book.status === status);
@@ -193,6 +196,7 @@ export function findById<T extends { id: number }>(items: T[], id: number): T | 
   return items.find(item => item.id === id);
 }
 
+// highlight-start
 export function updateRating(books: Book[], id: number, rating: number): Book[] {
   if (rating < 1 || rating > 5) {
     throw new Error(`Invalid rating: ${rating}. Must be between 1 and 5.`);
@@ -219,6 +223,7 @@ export function getStatusCounts(books: Book[]): Record<ReadStatus, number> {
 
   return counts;
 }
+// highlight-end
 ```
 
 Run `npx tsc --noEmit` to check for errors.

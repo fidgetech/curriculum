@@ -55,7 +55,8 @@ Add a new state variable to track whether we're in "edit mode":
 const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
 const [mainTicketList, setMainTicketList] = useState<TicketData[]>([]);
 const [selectedTicket, setSelectedTicket] = useState<TicketData | null>(null);
-const [editing, setEditing] = useState(false); // Add this line
+// highlight-next-line
+const [editing, setEditing] = useState(false);
 ```
 
 We initialize `editing` to `false` because we don't want to show the edit form until the user goes to update a ticket.
@@ -88,7 +89,8 @@ if (selectedTicket !== null) {
     <TicketDetail
       ticket={selectedTicket}
       onClickingDelete={handleDeleteTicket}
-      onClickingEdit={handleEditClick} // Add this line
+      // highlight-next-line
+      onClickingEdit={handleEditClick}
     />
   );
   buttonText = "Return to Ticket List";
@@ -107,15 +109,18 @@ import { type TicketData } from '../types';
 type TicketDetailProps = {
   ticket: TicketData;
   onClickingDelete: (id: string) => void;
+  // highlight-next-line
   onClickingEdit: () => void;
 };
 
+// highlight-next-line
 function TicketDetail({ ticket, onClickingDelete, onClickingEdit }: TicketDetailProps) {
   return (
     <>
       <h1>Ticket Detail</h1>
       <h3>{ticket.section} - {ticket.names}</h3>
       <p><em>{ticket.issue}</em></p>
+      {/* highlight-next-line */}
       <button onClick={onClickingEdit}>Update Ticket</button>
       <button onClick={() => onClickingDelete(ticket.id)}>Close Ticket</button>
       <hr />
@@ -185,10 +190,12 @@ Then add a new conditional at the top of the rendering logic, so that when `edit
 let currentlyVisibleState;
 let buttonText;
 
+// highlight-start
 if (editing) {
   currentlyVisibleState = <EditTicketForm />;
   buttonText = "Return to Ticket List";
 } else if (selectedTicket !== null) {
+// highlight-end
   currentlyVisibleState = (
     <TicketDetail
       ticket={selectedTicket}
@@ -259,11 +266,14 @@ The `ticketToEdit` parameter is typed as `TicketData`, so TypeScript knows it ha
 Update the conditional in `TicketControl` to pass our new function to `EditTicketForm`:
 
 ```tsx title="src/components/TicketControl.tsx"
+// highlight-next-line
 if (editing && selectedTicket !== null) {
   currentlyVisibleState = (
     <EditTicketForm
+      // highlight-start
       ticket={selectedTicket}
       onEditTicket={handleEditTicket}
+      // highlight-end
     />
   );
   buttonText = "Return to Ticket List";
@@ -280,18 +290,22 @@ Now we add the form submission logic:
 
 ```tsx title="src/components/EditTicketForm.tsx"
 import { type SubmitEvent } from 'react';
+// highlight-next-line
 import { type TicketData } from '../types';
 import ReusableForm from './ReusableForm';
 
+// highlight-start
 type EditTicketFormProps = {
   ticket: TicketData;
   onEditTicket: (ticket: TicketData) => void;
 };
 
 function EditTicketForm({ ticket, onEditTicket }: EditTicketFormProps) {
+  // highlight-end
 
   function handleEditTicketFormSubmission(event: SubmitEvent<HTMLFormElement>) {
     event.preventDefault();
+    // highlight-start
     const formData = new FormData(event.currentTarget);
     onEditTicket({
       names: formData.get('names') as string,
@@ -299,6 +313,7 @@ function EditTicketForm({ ticket, onEditTicket }: EditTicketFormProps) {
       issue: formData.get('issue') as string,
       id: ticket.id
     });
+    // highlight-end
   }
 
   return (
@@ -342,25 +357,30 @@ import { type SubmitEvent } from 'react';
 type ReusableFormProps = {
   formSubmissionHandler: (event: SubmitEvent<HTMLFormElement>) => void;
   buttonText: string;
+  // highlight-start
   defaultNames?: string;
   defaultSection?: string;
   defaultIssue?: string;
 };
 
 function ReusableForm({ formSubmissionHandler, buttonText, defaultNames, defaultSection, defaultIssue }: ReusableFormProps) {
+  // highlight-end
   return (
     <form onSubmit={formSubmissionHandler}>
       <input
+        // highlight-next-line
         defaultValue={defaultNames}
         type='text'
         name='names'
         placeholder='Pair Names' />
       <input
+        // highlight-next-line
         defaultValue={defaultSection}
         type='text'
         name='section'
         placeholder='Section' />
       <textarea
+        // highlight-next-line
         defaultValue={defaultIssue}
         name='issue'
         placeholder='Describe your issue.' />
@@ -411,9 +431,11 @@ function EditTicketForm({ ticket, onEditTicket }: EditTicketFormProps) {
     <ReusableForm
       formSubmissionHandler={handleEditTicketFormSubmission}
       buttonText="Update Ticket"
+      // highlight-start
       defaultNames={ticket.names}
       defaultSection={ticket.section}
       defaultIssue={ticket.issue}
+      // highlight-end
     />
   );
 }
@@ -442,7 +464,8 @@ const handleClick = () => {
   if (selectedTicket !== null) {
     setFormVisibleOnPage(false);
     setSelectedTicket(null);
-    setEditing(false);  // Add this line!
+    // highlight-next-line
+    setEditing(false);
   } else {
     setFormVisibleOnPage(!formVisibleOnPage);
   }

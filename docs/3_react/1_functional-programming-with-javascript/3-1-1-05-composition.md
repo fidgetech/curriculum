@@ -93,6 +93,7 @@ const canEat = function(creature) {
   return obj;
 }
 
+// highlight-start
 const canSleep = function(creature) {
   const obj = {
     sleep: function() {
@@ -101,6 +102,7 @@ const canSleep = function(creature) {
   }
   return obj;
 }
+// highlight-end
 ```
 
 Now that we have two methods, how can we assign them both to a single cat object? Well, let's start by making a **function factory** for creatures. We can use this to assign both of these methods to _any_ creature that needs to eat and sleep.
@@ -127,7 +129,8 @@ We will need to make a small update to our other methods. Since we're now passin
 const canEat = function(creature) {
   const obj = {
     eat: function(food) {
-      return `The ${creature.name} eats the ${food}.` // Small update
+      // highlight-next-line
+      return `The ${creature.name} eats the ${food}.`
     }
   }
   return obj;
@@ -136,7 +139,8 @@ const canEat = function(creature) {
 const canSleep = function(creature) {
   const obj = {
     sleep: function() {
-      return `The ${creature.name} sleeps.` // Small update
+      // highlight-next-line
+      return `The ${creature.name} sleeps.`
     }
   }
   return obj;

@@ -88,7 +88,8 @@ As you can see in the example above, `plantFedAgain` only has a `soil` property.
 
 ```js
 const storeState = () => {
-  let currentState = { soil: 0, light: 0, water: 0 }; //Small change made to function here.
+  // highlight-next-line
+  let currentState = { soil: 0, light: 0, water: 0 };
   return (stateChangeFunction) => {
     const newState = stateChangeFunction(currentState);
     currentState = {...newState};
@@ -102,7 +103,9 @@ While the version above will work for our small application, it's not very reusa
 We could also give the outer function a parameter like `initialState` and do the following:
 
 ```js
+// highlight-next-line
 const storeState = (initialState) => {
+  // highlight-next-line
   let currentState = initialState; // We could pass in an initial state to the object instead of starting with an empty object as well.
   return (stateChangeFunction) => {
     const newState = stateChangeFunction(currentState);
@@ -163,6 +166,7 @@ Well, it would be a bit annoying to have to pass that in wherever we want to see
 ```js
 const storeState = () => {
   let currentState = {};
+  // highlight-next-line
   return (stateChangeFunction = state => state) => {
     const newState = stateChangeFunction(currentState);
     currentState = {...newState};

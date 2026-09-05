@@ -39,19 +39,22 @@ function TicketControl() {
   const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
 
   let currentlyVisibleState;
-  let buttonText; // new code
+  // highlight-next-line
+  let buttonText;
 
   if (formVisibleOnPage) {
     currentlyVisibleState = <NewTicketForm />;
   } else {
     currentlyVisibleState = <TicketList />;
-    buttonText = "Add Ticket"; // new code
+    // highlight-next-line
+    buttonText = "Add Ticket";
   }
 
   return (
     <>
       {currentlyVisibleState}
-      <button onClick={handleClick}>{buttonText}</button> { /* new code */ }
+      {/* highlight-next-line */}
+      <button onClick={handleClick}>{buttonText}</button>
     </>
   );
 }
@@ -60,10 +63,6 @@ export default TicketControl;
 ```
 
 We've added a button to our `TicketControl` component. Notice that we haven't defined the `handleClick` function yet — we'll do that in the next section.
-
-:::tip
-There are two different kinds of comments above — this is expected. Comments in JSX syntax need to be wrapped in curly braces, unlike the other comments, which are standard JS comments.
-:::
 
 We've added a few things:
 
@@ -86,10 +85,11 @@ import TicketList from './TicketList';
 function TicketControl() {
   const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
 
-  // new code
+  // highlight-start
   const handleClick = () => {
     setFormVisibleOnPage(true);
   }
+  // highlight-end
 
   let currentlyVisibleState;
   let buttonText;
@@ -162,6 +162,7 @@ function TicketControl() {
 
   if (formVisibleOnPage) {
     currentlyVisibleState = <NewTicketForm />;
+    // highlight-next-line
     buttonText = "Return to Ticket List";
   } else {
     currentlyVisibleState = <TicketList />;

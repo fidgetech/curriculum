@@ -27,6 +27,7 @@ import { type TicketData } from '../types';
 
 function TicketControl() {
   const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
+  // highlight-next-line
   const [mainTicketList, setMainTicketList] = useState<TicketData[]>([]);
 
   const handleClick = () => {
@@ -76,12 +77,13 @@ function TicketControl() {
     setFormVisibleOnPage(!formVisibleOnPage);
   }
 
-  // new code
+  // highlight-start
   const handleAddingNewTicketToList = (newTicket: TicketData) => {
     const newMainTicketList = mainTicketList.concat(newTicket);
     setMainTicketList(newMainTicketList);
     setFormVisibleOnPage(false);
   }
+  // highlight-end
 
   // ... rest of component
 }
@@ -113,7 +115,8 @@ let currentlyVisibleState;
 let buttonText;
 
 if (formVisibleOnPage) {
-  currentlyVisibleState = <NewTicketForm onNewTicketCreation={handleAddingNewTicketToList} />; // updated
+  // highlight-next-line
+  currentlyVisibleState = <NewTicketForm onNewTicketCreation={handleAddingNewTicketToList} />;
   buttonText = "Return to Ticket List";
 } else {
   currentlyVisibleState = <TicketList ticketList={mainTicketList} />;
@@ -129,13 +132,16 @@ Next, we need to update `NewTicketForm` to accept and use this prop:
 
 ```tsx title="src/components/NewTicketForm.tsx"
 import { type SubmitEvent } from 'react';
+// highlight-next-line
 import { type TicketData } from '../types';
 
+// highlight-start
 type NewTicketFormProps = {
   onNewTicketCreation: (ticket: TicketData) => void;
 };
 
 function NewTicketForm({ onNewTicketCreation }: NewTicketFormProps) {
+  // highlight-end
 
   // We'll update this function in the next step
   function handleNewTicketFormSubmission(event: SubmitEvent<HTMLFormElement>) {
@@ -197,12 +203,14 @@ function NewTicketForm({ onNewTicketCreation }: NewTicketFormProps) {
   function handleNewTicketFormSubmission(event: SubmitEvent<HTMLFormElement>) {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
+    // highlight-start
     onNewTicketCreation({
       names: formData.get('names') as string,
       section: formData.get('section') as string,
       issue: formData.get('issue') as string,
       id: crypto.randomUUID()
     });
+    // highlight-end
   }
 
   return (

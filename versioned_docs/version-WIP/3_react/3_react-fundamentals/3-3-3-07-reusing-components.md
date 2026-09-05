@@ -73,6 +73,7 @@ Now update `NewTicketForm` to use our new component:
 ```tsx title="src/components/NewTicketForm.tsx"
 import { type SubmitEvent } from 'react';
 import { type TicketData } from '../types';
+// highlight-next-line
 import ReusableForm from './ReusableForm';
 
 type NewTicketFormProps = {
@@ -93,10 +94,12 @@ function NewTicketForm({ onNewTicketCreation }: NewTicketFormProps) {
   }
 
   return (
+    // highlight-start
     <ReusableForm
       formSubmissionHandler={handleNewTicketFormSubmission}
       buttonText="Help!"
     />
+    // highlight-end
   );
 }
 

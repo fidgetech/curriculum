@@ -203,6 +203,7 @@ export function getStatusCounts(books: Book[]): Record<ReadStatus, number> {
   return counts;
 }
 
+// highlight-start
 export function searchByTitle(books: Book[], query: string): Book[] {
   const lowerQuery = query.toLowerCase();
   return books.filter(book => book.title.toLowerCase().includes(lowerQuery));
@@ -222,6 +223,7 @@ export function sortByRating(books: Book[], direction: "asc" | "desc" = "desc"):
     return direction === "asc" ? a.rating - b.rating : b.rating - a.rating;
   });
 }
+// highlight-end
 ```
 
 Congratulations on finishing the book tracker! This was a big project with a lot of different pieces, so it's a great accomplishment to have it all working together. Take some time to review your code and make sure you're happy with how everything turned out.

@@ -135,6 +135,7 @@ export function updateStatus(books: Book[], id: number, status: ReadStatus): Boo
   });
 }
 
+// highlight-start
 export function averageRating(books: Book[]): number | null {
   let total = 0;
   let count = 0;
@@ -152,6 +153,7 @@ export function averageRating(books: Book[]): number | null {
 export function findById<T extends { id: number }>(items: T[], id: number): T | undefined {
   return items.find(item => item.id === id);
 }
+// highlight-end
 ```
 
 Run `npx tsc --noEmit` to check for errors before moving on.

@@ -17,6 +17,7 @@ import TicketList from './TicketList';
 function TicketControl() {
   const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
 
+  // highlight-start
   let currentlyVisibleState;
 
   if (formVisibleOnPage) {
@@ -24,9 +25,11 @@ function TicketControl() {
   } else {
     currentlyVisibleState = <TicketList />;
   }
+  // highlight-end
 
   return (
     <>
+      {/* highlight-next-line */}
       {currentlyVisibleState}
     </>
   );

@@ -39,6 +39,7 @@ Let's add one to our `Ticket` component. Create a file called `Ticket.module.css
 Now we import that file into our component. Instead of a bare `import './Ticket.css'`, we import the stylesheet as an object, conventionally named `styles`:
 
 ```tsx title="src/components/Ticket.tsx"
+// highlight-next-line
 import styles from './Ticket.module.css';
 
 type TicketProps = {
@@ -49,9 +50,11 @@ type TicketProps = {
 
 function Ticket({ names, section, issue }: TicketProps) {
   return (
+    // highlight-next-line
     <div className={styles.ticket}>
       <h3>{names} - {section}</h3>
       <p><em>{issue}</em></p>
+    {/* highlight-next-line */}
     </div>
   );
 }

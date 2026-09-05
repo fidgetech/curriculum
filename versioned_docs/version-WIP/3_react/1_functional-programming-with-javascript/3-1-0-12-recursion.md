@@ -48,10 +48,12 @@ Let's add a termination condition now:
 
 ```javascript
 const incrementCounter = (counter) => {
+  // highlight-start
   // This is the termination condition.
   if (isNaN(counter)) {
     return;
   }
+  // highlight-end
   if (counter >= 3) {
     return counter;
   } else {

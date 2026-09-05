@@ -56,12 +56,14 @@ Next, let's make a small update to our `App` component. It now needs to render t
 
 ```tsx title="src/components/App.tsx"
 import Header from "./Header";
+// highlight-next-line
 import TicketControl from "./TicketControl";
 
 function App(){
   return ( 
     <>
       <Header />
+      {/* highlight-next-line */}
       <TicketControl />
     </>
   );

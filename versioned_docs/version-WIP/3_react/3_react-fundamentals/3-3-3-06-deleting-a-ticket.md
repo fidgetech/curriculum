@@ -54,6 +54,7 @@ if (selectedTicket !== null) {
   currentlyVisibleState = (
     <TicketDetail
       ticket={selectedTicket}
+      // highlight-next-line
       onClickingDelete={handleDeleteTicket}
     />
   );
@@ -72,15 +73,18 @@ import { type TicketData } from '../types';
 
 type TicketDetailProps = {
   ticket: TicketData;
+  // highlight-next-line
   onClickingDelete: (id: string) => void;
 };
 
+// highlight-next-line
 function TicketDetail({ ticket, onClickingDelete }: TicketDetailProps) {
   return (
     <>
       <h1>Ticket Detail</h1>
       <h3>{ticket.section} - {ticket.names}</h3>
       <p><em>{ticket.issue}</em></p>
+      {/* highlight-next-line */}
       <button onClick={() => onClickingDelete(ticket.id)}>Close Ticket</button>
       <hr />
     </>

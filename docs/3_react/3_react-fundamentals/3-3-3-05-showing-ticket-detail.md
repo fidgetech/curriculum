@@ -71,7 +71,8 @@ Add this new state variable alongside the existing ones in `TicketControl.tsx`:
 // Inside the TicketControl component function
 const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);
 const [mainTicketList, setMainTicketList] = useState<TicketData[]>([]);
-const [selectedTicket, setSelectedTicket] = useState<TicketData | null>(null); // Add this line
+// highlight-next-line
+const [selectedTicket, setSelectedTicket] = useState<TicketData | null>(null);
 ```
 
 **Why `null`?** Because when the app loads, no ticket is selected yet (the user has not clicked on one). We use `null` to represent "nothing selected." Later we'll update this state to hold the actual ticket object when the user clicks a ticket.
@@ -131,11 +132,13 @@ Then update the conditional rendering logic. Here's the key insight: **we now ha
 let currentlyVisibleState;
 let buttonText;
 
+// highlight-start
 if (selectedTicket !== null) {
   // A ticket is selected → show its details
   currentlyVisibleState = <TicketDetail ticket={selectedTicket} />;
   buttonText = "Return to Ticket List";
 } else if (formVisibleOnPage) {
+// highlight-end
   // No ticket selected, but form should show → show the form
   currentlyVisibleState = <NewTicketForm onNewTicketCreation={handleAddingNewTicketToList} />;
   buttonText = "Return to Ticket List";
@@ -144,6 +147,7 @@ if (selectedTicket !== null) {
   currentlyVisibleState = (
     <TicketList
       ticketList={mainTicketList}
+      // highlight-next-line
       onTicketSelection={handleChangingSelectedTicket}
     />
   );
@@ -177,20 +181,24 @@ import { type TicketData } from '../types';
 
 type TicketListProps = {
   ticketList: TicketData[];
-  onTicketSelection: (id: string) => void; // added prop type
+  // highlight-next-line
+  onTicketSelection: (id: string) => void;
 };
 
+// highlight-next-line
 function TicketList({ ticketList, onTicketSelection }: TicketListProps) {
   return (
     <>
       <hr />
       {ticketList.map((ticket) =>
         <Ticket
-          onTicketClick={onTicketSelection} // pass the function
+          // highlight-next-line
+          onTicketClick={onTicketSelection}
           names={ticket.names}
           section={ticket.section}
           issue={ticket.issue}
-          id={ticket.id} // pass the ticket's id
+          // highlight-next-line
+          id={ticket.id}
           key={ticket.id}
         />
       )}
@@ -216,17 +224,21 @@ type TicketProps = {
   names: string;
   section: string;
   issue: string;
+  // highlight-start
   id: string;
   onTicketClick: (id: string) => void;
 };
 
 function Ticket({ names, section, issue, id, onTicketClick }: TicketProps) {
+  // highlight-end
   return (
     <>
+      {/* highlight-next-line */}
       <div onClick={() => onTicketClick(id)}>
         <h3>{section} - {names}</h3>
         <p><em>{issue}</em></p>
         <hr />
+      {/* highlight-next-line */}
       </div>
     </>
   );
@@ -253,6 +265,7 @@ Note that we also updated `TicketProps` to include `id` and `onTicketClick`.
 Now that clicking works, let's update `TicketDetail` to show real ticket information:
 
 ```tsx title="src/components/TicketDetail.tsx"
+// highlight-start
 import { type TicketData } from '../types';
 
 type TicketDetailProps = {
@@ -260,10 +273,13 @@ type TicketDetailProps = {
 };
 
 function TicketDetail({ ticket }: TicketDetailProps) {
+  // highlight-end
   return (
     <>
       <h1>Ticket Detail</h1>
+      {/* highlight-next-line */}
       <h3>{ticket.section} - {ticket.names}</h3>
+      {/* highlight-next-line */}
       <p><em>{ticket.issue}</em></p>
       <hr />
     </>

@@ -55,9 +55,11 @@ Now narrowing becomes a check on `kind` instead of a property-existence check:
 
 ```ts
 function area(shape: Shape): number {
+  // highlight-next-line
   if (shape.kind === "circle") {
     return Math.PI * shape.radius ** 2;
   }
+  // highlight-next-line
   if (shape.kind === "rectangle") {
     return shape.width * shape.height;
   }
@@ -122,9 +124,11 @@ function area(shape: Shape): number {
       return shape.width * shape.height;
     case "triangle":
       return 0.5 * shape.base * shape.height;
+    // highlight-start
     default:
       const _exhaustive: never = shape;
       throw new Error(`Unhandled shape: ${_exhaustive}`);
+    // highlight-end
   }
 }
 ```
@@ -138,7 +142,8 @@ type Shape =
   | { kind: "circle"; radius: number }
   | { kind: "rectangle"; width: number; height: number }
   | { kind: "triangle"; base: number; height: number }
-  | { kind: "square"; side: number }; // new variant
+  // highlight-next-line
+  | { kind: "square"; side: number };
 ```
 
 Now `shape` in the `default` branch is `{ kind: "square"; side: number }`, which can't be assigned to `never`. TypeScript fails to compile at the `default` case, telling you exactly where to go add the missing handler.

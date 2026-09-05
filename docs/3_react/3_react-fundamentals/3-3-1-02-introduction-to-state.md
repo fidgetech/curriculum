@@ -193,12 +193,15 @@ import { useState } from 'react';
 
 function Counter() {
   const [count, setCount] = useState(0);
+  // highlight-next-line
   const [hidden, setHidden] = useState(false);
 
   return (
     <>
+      {/* highlight-next-line */}
       {hidden ? <h1>Count Hidden</h1> : <h1>{count}</h1>}
       <button onClick={() => setCount(count + 1)}>Count!</button>
+      {/* highlight-next-line */}
       <button onClick={() => setHidden(!hidden)}>Hide/Show</button>
     </>
   );
