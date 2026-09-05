@@ -26,21 +26,16 @@ In both cases, data flows down, but the power of context comes in its ability to
 ## Context Updates the Components that Consumes its Data
 ---
 
-The other notable difference between context and props is in its relation to re-rendering. You may remember these key details about props:
+The other notable difference between context and props is in its relation to re-rendering. With props, there's no independent "my props changed" trigger - a component only re-renders when its own state changes, or when its parent re-renders, which cascades down to every one of that parent's children, handing them whatever props the parent just computed (whether or not those values actually differ from before).
 
-* A change in the value of a component's props does **not** trigger a re-render of that component. 
-* Only a change in the parent component's state will trigger a re-render of the parent component. This will in turn re-render all of its child components and they will all receive new props. 
-
-With context, the opposite is true:
-
-* A change in the value of the context causes all of the components that consume (meaning, "use") its data will automatically be re-rendered. When we implement context in our Help Queue app in the next lesson, we'll learn exactly how this works. 
+With context, there's a third way a component can re-render: when the value of a context changes, every component that consumes (meaning "uses") that context re-renders directly, even if its own parent didn't re-render at all. When we implement context in our Help Queue app in the next lesson, we'll learn exactly how this works.
 
 ## Context Is Not a State Management Tool
 --- 
 
 It may be tempting to jump to the conclusion that context is a tool for "state management", however it's not true. Context is a tool for transmitting data, just like props. Neither tools change the value of their data, they just store and transmit data.
 
-If we want the data that context holds to change over time, then we need to use context in conjunction with `useState()`, `useReducer()`, or a class component's `state` object. We'll learn how to do this in the next lesson.
+If we want the data that context holds to change over time, then we need to pair context with a state management tool: either the `useState()` hook or the `useReducer()` hook. Context transmits the data, and the hook is what actually changes it. We'll learn how to do this in the next lesson.
 
 ## When to Use Context
 ---
@@ -50,7 +45,7 @@ Context should only be used in two cases:
 1. To share data that's considered global.
 2. To share data that is used in multiple remote branches of a component tree that you would otherwise need to use heavy prop drilling to reach. 
 
-[The React docs for context](https://reactjs.org/docs/context.html) provides a few examples of what data could be needed on a "global" scale:
+[The React docs for context](https://react.dev/learn/passing-data-deeply-with-context) provide a few examples of what data could be needed on a "global" scale:
 
 * The user's locale, which includes the user's language, time zone, region, and any special preferences.
 * Color themes, like light and dark modes. 
@@ -58,9 +53,9 @@ Context should only be used in two cases:
 
 In theory, in each of the above cases many components will need the same information in order to function. To help us understand the two use cases for context, let's visualize them. Let's pretend we have an application with a component tree that looks like this:
 
-![An example component tree with `App.js` as the root component and many nested components.](/images/React/Week-5-React-2020/context-application-state-1.png)
+![An example component tree with `App` as the root component and many nested components.](/images/React/Week-5-React-2020/context-application-state-1.png)
 
-The root component of our tree is `App.js` and each component in the tree is represented by a square. Let's first visualize what an application that uses globally shared data might look like. We'll update our app's component tree to fill in components that use the global data with the color yellow:
+The root component of our tree is `App` and each component in the tree is represented by a square. Let's first visualize what an application that uses globally shared data might look like. We'll update our app's component tree to fill in components that use the global data with the color yellow:
 
 ![An example component tree that uses shared data that's considered global.](/images/React/Week-5-React-2020/context-application-state-2-global.png)
 
@@ -68,21 +63,22 @@ As we can see, "global" data in a React app doesn't mean that every component us
 
 The other use case for context is when multiple components that are very far apart in the component tree need access to the same data. Let's visualize what that looks like: 
 
-![An example component tree that uses shared data that is used by multiple components that are very far a part in the component tree.](/images/React/Week-5-React-2020/context-application-state-3-multiple-remote.png)
+![An example component tree that uses shared data that is used by multiple components that are very far apart in the component tree.](/images/React/Week-5-React-2020/context-application-state-3-multiple-remote.png)
 
-In the above example, the components that use the shared data are in a light purple color, and they are pretty far apart in the component tree. Using context in the above example will help us avoid lifting data (as in ["lifting state up"](https://reactjs.org/docs/lifting-state-up.html)) to the nearest ancestor component (`App.js`) and passing props down through many components (also called "prop drilling") to get the shared data where it needs to go.
+In the above example, the components that use the shared data are in a light purple color, and they are pretty far apart in the component tree. Using context in the above example will help us avoid lifting data (as in ["sharing state between components"](https://react.dev/learn/sharing-state-between-components)) to the nearest ancestor component (`App`) and passing props down through many components (also called "prop drilling") to get the shared data where it needs to go.
 
-## Use Context as a Last Resort
+## Don't Reach for Context by Default
 ---
 
-With the use cases for context in mind, there's one final important thing to note when using context: the React docs heavily encourage developers to use context to share data only as a last resort. Why? Because it makes components harder to reuse: when a component uses context, it becomes dependent on the context and it can't be used outside of the context. 
+With the use cases for context in mind, there's one final important thing to note when using context: the React docs encourage checking whether a simpler tool solves the problem before reaching for context. Why? Because it makes components harder to reuse: when a component uses context, it becomes dependent on that context and can't be rendered outside of it. That's a real cost, so it's worth confirming the data is genuinely global or widely needed - not just a few levels of prop drilling - before taking it on. For data that really is global, like the theming we're about to build, context is exactly the right tool, not a fallback.
 
-But what would we do instead of using context? These are the two alternatives:
+But what would we do instead of using context? A few options:
 
 * Lift shared data up to a common ancestor and pass data down via props.
-* Consider how you can compose your components so that passing props is less cumbersome. 
+* Consider how you can compose your components so that passing props is less cumbersome.
+* Reach for a dedicated state-management library, like Zustand or Jotai, built specifically for sharing state across a component tree without the re-render/reusability tradeoffs of context. We'll cover this option in more depth in [Context Best Practices, Alternatives, and Further Exploration](../../react/react-with-apis/3-5-0-11-context-best-practices-alternatives-and-further-exploration) once we've built context into the Help Queue.
 
-The React docs explain [the alternatives to using context on the docs](https://reactjs.org/docs/context.html#before-you-use-context), with examples. We'll also revisit this topic when we implement context in the Help Queue application. 
+The React docs explain [the alternatives to using context](https://react.dev/learn/passing-data-deeply-with-context#before-you-use-context), with examples covering the first two options above. We'll also revisit all of this when we implement context in the Help Queue application.
 
 ## Summary
 ---
@@ -92,8 +88,8 @@ In this lesson, we've covered the conceptual basics of context:
 * Similar to props, context is a mechanism to transfer data between components.
 * Context is an object, and we can create as many of them as we need in our app.
 * Context updates the components that consume its data when its own value changes.
-* If we want to change the value of a context we create, we'll need to use a state management tool like `useState`, `useReducer`, or a class component's `this.state` object. 
-* Context should be used as a last resort to share data that's considered "global" in a React app.
+* If we want to change the value of a context we create, we'll need to pair it with a state management tool like the `useState()` or `useReducer()` hook. 
+* Context is the right tool for data that's genuinely global or needed across many far-apart components - it's not the first thing to reach for, but it's not something to avoid once that's the situation you're actually in.
 
 In the next lesson, we'll add a button to the Help Queue to toggle between light and dark mode, and we'll use context to do it! In the process, we'll review all of the concepts we learned in this lesson. 
 

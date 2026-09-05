@@ -9,8 +9,7 @@ hide_table_of_contents: true
 ---
 
 * When should we use the `useReducer()` hook instead of the `useState()` hook?
-* How is state management with a `useReducer()` hook different from state management with Redux?
-* What arguments do we need to pass in to the `useReducer()` hook when we call it? 
+* What arguments do we need to pass in to the `useReducer()` hook when we call it?
 * What is React context used for?
 * When should we use React context?
 * What are the alternatives to React context?

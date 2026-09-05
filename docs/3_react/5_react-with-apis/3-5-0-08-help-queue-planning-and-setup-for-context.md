@@ -22,53 +22,86 @@ By the end of this walkthrough the Help Queue app will look like this:
 ## Project Setup and Planning
 ---
 
-We've already created a few versions of our Help Queue, so which one do we want to update? We'll stick to our original Help Queue project that we created in the React Fundamentals course section. If you have your own copy that you created, you are welcome to use it. Otherwise, go ahead and clone down and use this starter project:
+We'll keep building on the Help Queue we've been developing all along, picking it up exactly where we left it at the end of React with NoSQL: client-side routing with React Router, a `SignIn` component backed by Firebase authentication, and tickets stored in Firestore. The snippets in these lessons show that version of the app.
+
+Everything we add in these lessons is about theming, though, so none of that has to be in place for the walkthrough to make sense. If your copy stores tickets in local state instead of Firestore, or if you'd rather work from the version you finished in React Fundamentals, the theming work is the same.
+
+<!-- TODO: Update this link to point to a hooks-based TypeScript starter repo:
+
+If you'd like a clean starting point, go ahead and clone down this starter project:
 
 ---
 **[<i class="glyphicon glyphicon-folder-open"></i>  GitHub Repo for Help Queue Starter Project](https://github.com/epicodus-lessons/react-help-queue-starter-project)**
 
-Take note that this means we're reverting back to using `TicketControl.js` as a class component — but this is good for us! We'll be able to learn how to use context in a class component.
+---
+
+-->
+
+Every component in the project is a function component written in TypeScript, and that isn't going to change. `TicketControl` will still hold its state with `useState()`, and when we're ready to read theme data, we'll reach for a hook to do it.
 
 ### Adding a `ToggleTheme` Component
 
-The first thing we'll do is add a new component that has a button in it that toggles our light and dark theme. We'll call our new component `ToggleTheme.js`.
+The first thing we'll do is add a new component that has a button in it that toggles our light and dark theme. We'll call our new component `ToggleTheme.tsx`.
 
-<div class="filename">src/components/ToggleTheme.js</div>
-
-```js
-import React from "react";
-
+```tsx title="src/components/ToggleTheme.tsx"
 function ToggleTheme() {
   return (
-    <React.Fragment>
+    <>
       <button>Toggle Theme</button>
-      <hr/>
-    </React.Fragment>
+      <hr />
+    </>
   );
 }
 
 export default ToggleTheme;
 ```
 
-There's not much going on in this component now. Just the basics of what we want our UI to look like. Later on, we'll add state to make the toggling functionality work. 
+There's not much going on in this component now. Just the basics of what we want our UI to look like. It takes no props yet, so there's no props type to write. Later on, we'll add state to make the toggling functionality work.
 
-Next, let's update `App.js` to import and render the new `ToggleTheme` component:
+Next, let's update `App.tsx` to import and render the new `ToggleTheme` component. As a reminder, here's where `App` stands at the end of React with NoSQL:
 
-<div class="filename">src/components/App.js</div>
-
-```js
-import React from "react";
+```tsx title="src/components/App.tsx"
 import Header from "./Header";
 import TicketControl from "./TicketControl";
-import ToggleTheme from "./ToggleTheme";
+import SignIn from "./SignIn";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App(){
+function App() {
   return (
-    <React.Fragment>
+    <Router>
       <Header />
+      <Routes>
+        <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/" element={<TicketControl />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
+```
+
+Our toggle button should be available no matter which route we're on, just like our `Header`. That means `<ToggleTheme />` goes inside `<Router>` but outside `<Routes>`:
+
+```tsx title="src/components/App.tsx"
+import Header from "./Header";
+import TicketControl from "./TicketControl";
+import SignIn from "./SignIn";
+// highlight-next-line
+import ToggleTheme from "./ToggleTheme";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+function App() {
+  return (
+    <Router>
+      <Header />
+      {/* highlight-next-line */}
       <ToggleTheme />
-      <TicketControl />
-    </React.Fragment>
+      <Routes>
+        <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/" element={<TicketControl />} />
+      </Routes>
+    </Router>
   );
 }
 
@@ -77,56 +110,96 @@ export default App;
 
 After this update, this is what our Help Queue component tree should now look like:
 
-![The Help Queue component tree with the new `<ToggleTheme>` component.](/images/React/Week-5-React-2020/context-help-queue-component-tree-with-toggle.png)
+```
+App
+└── Router
+    ├── Header
+    ├── ToggleTheme
+    └── Routes
+        ├── SignIn
+        └── TicketControl
+            ├── TicketList
+            │   └── Ticket (one for each ticket)
+            ├── NewTicketForm
+            │   └── ReusableForm
+            ├── TicketDetail
+            └── EditTicketForm
+                └── ReusableForm
+```
+
+Notice that `<Routes>` renders only one of its two routes at a time, depending on the URL. So on any given page load, either `SignIn` or `TicketControl` is on screen, never both.
 
 ### Determining Which Elements Need Styling
 
-If we want to create a light/dark theme, we'll need to update the color of the text and the background color. Doing that will be as simple as changing the CSS on our HTML's `<body>` tags to target all of its descendants. However, doing so will not change the color of buttons or form inputs, so we'll have to target those elements individually. 
+If we want to create a light/dark theme, we'll need to update the color of the text and the background color. We can handle both of those by changing the CSS on our HTML's `<body>` tags to target all of its descendants. However, doing so will not change the color of buttons or form inputs, so we'll have to target those elements individually.
 
-So, the first question we need to answer is where our buttons and inputs are! It turns out we have buttons and inputs in four components. We can visualize their locations in our component tree:
+So, the first question we need to answer is where our buttons and inputs are! We'll scope this walkthrough to four components:
 
-![The Help Queue component tree with the `<button>` and `<input>` elements listed.](/images/React/Week-5-React-2020/context-help-queue-component-tree-with-UI-elements.png)
+* `TicketControl.tsx`: one `<button>` element.
+* `ToggleTheme.tsx`: one `<button>` element.
+* `TicketDetail.tsx`: two `<button>` elements.
+* `ReusableForm.tsx`: one `<button>` element, two `<input>` elements, and one `<textarea>` input.
 
-* `TicketControl.js`: one `<button>` element.
-* `ToggleTheme.js`: one `<button>` element.
-* `TicketDetail.js`: two `<button>` elements.
-* `ReusableForm.js`: one `<button>` element, two `<input>` elements, and one `<textarea>` input.
+Here's where those four components sit in the tree:
+
+```
+App
+└── Router
+    ├── Header
+    ├── ToggleTheme           <button>
+    └── Routes
+        ├── SignIn
+        └── TicketControl     <button>
+            ├── TicketList
+            │   └── Ticket
+            ├── NewTicketForm
+            │   └── ReusableForm  <input> <input> <textarea> <button>
+            ├── TicketDetail      <button> <button>
+            └── EditTicketForm
+                └── ReusableForm  <input> <input> <textarea> <button>
+```
+
+You may have noticed a fifth component with form elements in it: `SignIn` has inputs and buttons of its own for signing up, signing in, and signing out. We're leaving it out of this walkthrough to keep our focus on context rather than on styling every last element. Once you've seen how the other four components read the theme, theming `SignIn` works exactly the same way, and it makes a good exercise to do on your own afterward.
+
+It's also worth saying up front what _doesn't_ have to change: `Router`, `Routes`, and the `<Route>` components themselves. Context has nothing to do with routing. Our provider will simply wrap the routing structure we already have, and every component beneath it, routed or not, will be able to reach the theme data.
 
 This means that we'll need to make sure that the four components listed above have access to the light and dark style themes we create. Let's create those next!
 
 ### Light and Dark Styles
 
-We'll use a CSS object to declare our light and dark styles, and to make it easier to switch in between them. Here are the styles we'll use for our light and dark themes:
+We'll use a JavaScript object to declare our light and dark styles, which makes it easier to switch between them. Here are the styles we'll use:
 
-```js
+```ts
 const themes = {
   light: {
+    name: "light",
     backgroundColor: "AntiqueWhite",
     textColor: "DarkSlateGrey",
-    buttonBackground: "Lavender", 
+    buttonBackground: "Lavender",
     inputBackground: "Gainsboro"
   },
   dark: {
+    name: "dark",
     backgroundColor: "DarkSlateGrey",
     textColor: "AntiqueWhite",
     buttonBackground: "#232b3c",
     inputBackground: "#45516d"
   }
-}
+};
 ```
 
-You're welcome to pick your own instead!
+You're welcome to pick your own colors instead!
+
+Notice that each theme carries a `name` property along with its colors. That gives any component holding a theme a direct way to ask "which theme is this?" without comparing color strings to each other. We'll use it to decide what our toggle button should say. In the next lesson, we'll give this object a TypeScript type so that every theme is guaranteed to have the same set of properties.
 
 ### Planning Our Theme State
 
-Next up, we need to plan out where the theme state will live. This is easy, thanks to the leg work we did when we determined which components have button and input elements that need a theme applied to them. Let's take another look at our component tree:
+Next up, we need to plan out where the theme state will live. The work we just did makes this straightforward, because we already know which components have button and input elements that need a theme applied to them: `TicketControl`, `ToggleTheme`, `TicketDetail`, and `ReusableForm`.
 
-![The Help Queue component tree with the `<button>` and `<input>` elements listed, and their corresponding components highlighted with an orange rectangle.](/images/React/Week-5-React-2020/context-help-queue-component-tree-with-UI-elements-highlighted.png)
+Our next step is to lift state up to the nearest ancestor that all of these components share, so that state can be shared between all of them. Looking at our component tree, that's `App`. `ToggleTheme` sits directly inside it, and `TicketControl` sits inside it too, a couple of levels down through `Router` and `Routes`.
 
-The above diagram highlights the four components that will need access to the shared theme data: `TicketControl.js`, `ToggleTheme.js`, `TicketDetail.js`, and `ReusableForm.js`. Our next step is to lift state up to the nearest ancestor that all of these components share so that state can easily be shared between all of them: that's `App.js`! 
-
-So, our shared state will live in `App.js`. Next, we need to pick our tool to manage state and share it within our app. We'll use the `useState()` hook to manage the theme state, and we'll use context to share that state within our app. 
+So, our shared state will live in `App`, and our provider will wrap everything `App` renders, router included. Next, we need to pick our tool to manage state and share it within our app. We'll use the `useState()` hook to manage the theme state, and we'll use context to share that state within our app.
 
 As far as a state management tool, `useReducer()` is a fine alternative, and it depends on what you prefer and what you want to practice. To review the tradeoffs and benefits of the `useReducer()` hook, visit the lesson [The useReducer Hook](../../react/react-with-apis/3-5-0-4-the-usereducer-hook).
 
-As far as sharing state between components, the best choice here would be to use props, because our application is so small and we're not facing cumbersome prop drilling. We could also rethink how we're composing our components to make the small amount of prop drilling more manageable as well. We'll explore these topics more in an upcoming lesson. For now, we'll continue with using context to transmit shared data in order to get the hang of using it! That's the goal after all.
+As far as sharing state between components, the best choice here would actually be props, because our application is small and we're not facing cumbersome prop drilling. We could also rethink how we're composing our components to make the small amount of prop drilling more manageable. We'll explore these topics more in an upcoming lesson. For now, we'll continue with using context to transmit shared data in order to get the hang of using it. That's the goal after all.

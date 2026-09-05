@@ -10,71 +10,75 @@ The first thing to know about the `useReducer()` hook is that it is an alternati
 ## The `useReducer()` Hook
 ---
 
-As its name implies, the `useReducer()` hook makes use of a "reducer" function that handles evaluating and transforming state. A **reducer function** is just a plain JavaScript function that follows a specific convention in how it is set up:
+As its name implies, the `useReducer()` hook makes use of a "reducer" function that handles evaluating and transforming state. A **reducer function** is an ordinary function that follows a specific convention in how it is set up:
 
-* A reducer takes in two arguments: the current state and an **action** that describes how the state should change. An action contains a **type** property that contains the name of the action and it can optionally contain data to add to state. 
-* A reducer uses [a switch statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) to handle different action types. Each action type will lead to a different way of updating state. 
-* A reducer then returns the new state. 
+* A reducer takes in two arguments: the current state and an **action** that describes how the state should change. An action contains a `type` property that names the action, and it can optionally contain data to add to state.
+* A reducer uses [a switch statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) to handle different action types. Each action type will lead to a different way of updating state.
+* A reducer then returns the new state.
 
-Also note that reducer functions are pure functions. A pure function is a function that meets the following criteria:
+Also note that reducer functions are pure functions. As we covered in the functional programming section, a pure function meets the following criteria:
 
 * Always returns an output
 * Has no side effects
 * Does not rely on external variables or state
 * Always returns the same answer for a given input
 
-Here's a reducer that we created for the Help Queue project during the React with Redux course section:
+Here's a small reducer that manages whether a form is visible:
 
-```js
-const reducer = (state = false, action) => {
-  switch (action.type) {
+```ts
+type FormAction = { type: 'TOGGLE_FORM' };
+
+function reducer(state: boolean, action: FormAction): boolean {
+  const { type } = action;
+  switch (type) {
     case 'TOGGLE_FORM':
       return !state;
     default:
-      return state;
+      throw new Error(`There is no action matching ${type}.`);
   }
-};
+}
 ```
 
-We could use this same reducer with the `useReducer()` instead!
+If we want to update our state with the `useReducer()` hook, we dispatch an action to our reducer, like so:
 
-Also, if we want to update our state with the `useReducer()` hook we would need to dispatch an action to our reducer, like so:
-
-```js
-dispatch({type: 'TOGGLE_FORM'})
+```ts
+dispatch({ type: 'TOGGLE_FORM' })
 ```
 
-As we can see, this process using reducers and actions is almost exactly the same as the process we follow when we use Redux. **However, the `useReducer()` hook is not from Redux and it does not create or access a global store like Redux does! It simply shares some of its conventions and the names for its tools.** 
+That action object should look familiar. In the TypeScript section, we learned that a **discriminated union** is a union of object types that share a property whose value is a unique string literal, and we noted that `type` is the conventional name for that property in React action objects. That's exactly what `FormAction` is: a (very short) union of the action shapes our reducer accepts, discriminated by `type`. As we add more actions, that union grows, and TypeScript narrows the action inside each `case` so we can only reach the data that action actually carries.
 
-With that brief introduction in mind, let's implement a `useReducer()` hook. For this next practice, we'll revisit the `intro-to-hooks` application that we built [when we first learned how to use the `useState()` and `useEffect()` hooks](../../react/react-with-nosql/4-4-0-2-introduction-to-hooks-with-the-usestate-hook), and we'll refactor the `Counter` component we created to use a `useReducer()` hook.
+One more thing worth knowing: the vocabulary of reducers, actions, and dispatching isn't unique to the `useReducer()` hook. Several state management libraries you may run into use the same names and follow the same conventions, so this pattern will look familiar when you see it elsewhere.
+
+With that brief introduction in mind, let's implement a `useReducer()` hook. For this next practice, we'll revisit the `counter-app` application that we built when we first learned [the `useState()` hook](../../react/react-fundamentals/3-3-1-2-introduction-to-state) and [the `useEffect()` hook](../../react/react-with-nosql/3-4-0-3-running-side-effects-with-the-useeffect-hook), and we'll refactor the `Counter` component to use a `useReducer()` hook.
+
+:::note
+Honestly, `useState()` is the more natural fit for a single `count` number like this one - we'll see exactly why later in this lesson, in "When to Use `useReducer()`." We're refactoring `Counter` anyway because it's a small, familiar component, which lets us focus entirely on how `useReducer()` works without also having to learn a new domain at the same time. Once we're comfortable with the mechanics, we'll immediately put the hook to use somewhere it actually earns its keep: managing the `error`, `isLoaded`, and `topStories` state for our NYT API calls, starting two lessons from now.
+:::
 
 ### Setting Up our Practice Project
 
-If you have an `intro-to-hooks` project saved to a remote GitHub repo, go ahead and clone down that project now. 
+If you still have your `counter-app` project, open it up now. If you don't, you can scaffold a new one. For simplicity, the examples in this lesson only reference the `Counter` component - if your `counter-app` project also has the `Timer` component from earlier lessons, that's fine, just leave it as is. We won't be touching it here.
 
-If you don't have an `intro-to-hooks` project, you can bootstrap a new practice project with create-react-app:
-
+```bash
+npm create vite@latest intro-to-usereducer -- --template react-ts
+cd intro-to-usereducer
+npm install
 ```
-$ npx create-react-app intro-to-usereducer 
-```
 
-Then within the newly created `intro-to-usereducer` project folder, follow these steps:
+Remember to add `"strict": true` to `compilerOptions` in `tsconfig.app.json`. Then, within the project folder, follow these steps:
 
-* Create a new file called `Counter.js` in the `src` folder.
-* Create and export an empty `Counter` function component inside of `Counter.js`.
-* Import `Counter` into `App.js` and add it to the `return` statement. 
+* Create a new file called `Counter.tsx` in the `src` folder.
+* Create and export an empty `Counter` function component inside of `Counter.tsx`.
+* Import `Counter` into `App.tsx` and add it to the `return` statement.
 
 The `App` component should look like this:
 
-```js
-import './App.css';
+```tsx title="src/App.tsx"
 import Counter from './Counter';
 
 function App() {
   return (
-    <div className="App">
-      <Counter />
-    </div>
+    <Counter />
   );
 }
 
@@ -83,142 +87,158 @@ export default App;
 
 And here's the logic for the `Counter` component:
 
-```js
-import React, { useState, useEffect } from 'react';
+```tsx title="src/Counter.tsx"
+import { useState, useEffect } from 'react';
 
 function Counter() {
-  const [counter, setCounter] = useState(0);
+  const [count, setCount] = useState(0);
   const [hidden, setHidden] = useState(false);
 
   useEffect(() => {
-    document.title = counter;
-  }, [counter]);
+    document.title = String(count);
+  }, [count]);
 
   return (
-    <React.Fragment>
-      {hidden ? <h1>Count Hidden</h1> : <h1>{counter}</h1>}
-      <button onClick={() => setCounter(counter + 1)}>Count!</button>
+    <>
+      {hidden ? <h1>Count Hidden</h1> : <h1>{count}</h1>}
+      <button onClick={() => setCount(count + 1)}>Count!</button>
       <button onClick={() => setHidden(!hidden)}>Hide/Show</button>
-    </React.Fragment>
+    </>
   );
 }
 
 export default Counter;
 ```
 
-In the `Counter` component we have a button to show and hide the counter, as well as a button to increment the count by 1 on each click. We also have a `useEffect()` hook that updates the document's `title` attribute with the value of the counter, every time the counter changes in value. 
+In the `Counter` component we have a button to show and hide the count, as well as a button to increment the count by 1 on each click. We also have a `useEffect()` hook that updates the document's `title` with the value of the count, every time the count changes in value.
+
+Note the `String(count)` in the effect. `document.title` is a string, and `count` is a number, so TypeScript will not let us assign one to the other without converting it first. This is the kind of small mismatch that would silently work in JavaScript and that TypeScript asks us to make explicit.
 
 ### Creating Initial State and a Reducer Function
 
-In this refactor, we're going to turn the `counter` state variable into state managed by a `useReducer()` hook. We'll start this refactor by importing `useReducer` from React at the top of our file:
+In this refactor, we're going to turn the `count` state variable into state managed by a `useReducer()` hook. We'll start this refactor by importing `useReducer` from React at the top of our file:
 
-<div class="filename">src/Counter.js</div>
-
-```js
-import React, { useState, useEffect, useReducer } from 'react';
+```tsx title="src/Counter.tsx"
+import { useState, useEffect, useReducer } from 'react';
 ```
 
-**The `useReducer()` hook takes two arguments**: 
+**The `useReducer()` hook takes two arguments**:
 
 * A reducer function.
-* An object to define initial state. 
+* An object to define initial state.
 
-Let's create both of those next. We'll create these outside of the `Counter` function component:
+Let's create both of those next, along with the types that describe them. We'll create these outside of the `Counter` function component:
 
-<div class="filename">src/Counter.js</div>
+```tsx title="src/Counter.tsx"
+import { useState, useEffect, useReducer } from 'react';
 
-```js
-import React, { useState, useEffect, useReducer } from 'react';
+// highlight-start
+type CounterState = {
+  count: number;
+};
 
-const initialState = {
-  counter: 0
-}
+type CounterAction = { type: 'increment' };
 
-function reducer(state, action) {
-  switch (action.type) {
+const initialState: CounterState = {
+  count: 0
+};
+
+function reducer(state: CounterState, action: CounterAction): CounterState {
+  const { type } = action;
+  switch (type) {
     case 'increment':
       return {
-        counter: state.counter + 1
+        count: state.count + 1
       };
     default:
-      throw new Error(`There is no action matching ${action.type}.`);
+      throw new Error(`There is no action matching ${type}.`);
   }
 }
+// highlight-end
 
 function Counter() {
-  ...
+  // ...same Counter component as before
 }
 
 export default Counter;
 ```
 
-First notice that we've created our initial state and reducer outside of the `Counter` function component, but still within `Counter.js`. This organization is common practice, however, we can also initialize these variables within the `Counter` function component, or in an entirely separate file. There's no right answer as to what's the best organization practice, and it usually depends on what's best for testing and minimizing the complexity of components.
+First notice that we've created our types, our initial state, and our reducer outside of the `Counter` function component, but still within `Counter.tsx`. This organization is common practice. We could also initialize these variables within the `Counter` function component, or in an entirely separate file. There's no single right answer as to what's the best organization practice, and it usually depends on what's best for testing and for minimizing the complexity of components.
 
-In the `initialState` variable, we've created an object with one key, `counter`, which starts with a value of `0`. This is the state that we'll use when we initialize our `useReducer()` hook.
+In the `initialState` variable, we've created an object with one key, `count`, which starts with a value of `0`. This is the state that we'll use when we initialize our `useReducer()` hook. We annotate it as `CounterState` so that TypeScript checks the initial state against the same type the reducer promises to return.
 
 In the `reducer()` function declaration, we've followed the convention of reducer functions by doing the following:
 
 * Taking in an argument for state and an argument for an action.
-* Setting up a switch statement based on the `action` object's `type` property. Our switch statement has:
-  * An `'increment'` case that increments the `counter` state variable by `1`
-  * A `default` case that throws an error if the `action.type` property does not match any of the available reducer action types.
+* Setting up a switch statement based on the action's `type` property. Our switch statement has:
+  * An `'increment'` case that increments the `count` state variable by `1`
+  * A `default` case that throws an error if the action's `type` property does not match any of the available reducer action types.
 
-Previously we would return the state in the `default` case, and this is acceptable. However, it's much better to use the default switch case for error handling. Why? When we throw errors, we fail loudly, and this ultimately makes it easier to debug the issue.
+Previously we might have returned the state unchanged in the `default` case, and that is acceptable. However, it's much better to use the default switch case for error handling. Why? When we throw errors, we fail loudly, and this ultimately makes it easier to debug the issue.
 
-There's one difference to note between Redux reducer functions and those used by the `useReducer()` hook: **initial state is not initialized by [a default parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)** in the reducer function. Instead, initial state is passed into the `useReducer()` hook as an argument. We'll see what this looks like in just a moment.
+There's one detail in that code worth explaining, since it's specific to writing reducers in TypeScript. Notice that we pull `type` off the action into its own variable before the switch:
 
-A default parameter value would look like `state = {counter: 0}` in the following code:
-
-```js
-function reducer(state = {counter: 0}, action) {
-  ...
-}
+```ts
+const { type } = action;
+switch (type) {
 ```
+
+Why not just write `switch (action.type)`? Because of the exhaustiveness checking we saw in the discriminated unions lesson. Once the action type is a union and every member of that union is handled by a `case`, TypeScript concludes that the `default` branch can't be reached, and inside it the `action` parameter is narrowed all the way down to `never`. Reading a property off a `never` is a compile error. Destructuring the discriminant first gives us a plain variable that we can still put in our error message, while TypeScript continues to narrow the `action` object correctly inside each `case`.
+
+Our `CounterAction` has only one member today, so `action.type` in the `default` case would still compile here. Getting in the habit now pays off in the very next lesson, where our reducer handles two actions that carry different data.
+
+Also note that **initial state is not set by [a default parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)** in the reducer function. Instead, initial state is passed into the `useReducer()` hook as an argument. We'll see what this looks like in just a moment.
 
 ### Invoking the `useReducer()` Hook
 
-Now we're ready to use the `useReducer()` hook. 
+Now we're ready to use the `useReducer()` hook.
 
 Here's how we'll update the `Counter` component:
 
-<div class="filename">src/Counter.js</div>
+```tsx title="src/Counter.tsx"
+import { useState, useEffect, useReducer } from 'react';
 
-```js
-import React, { useState, useEffect, useReducer } from 'react';
+type CounterState = {
+  count: number;
+};
 
-const initialState = {
-  counter: 0
-}
+type CounterAction = { type: 'increment' };
 
-function reducer(state, action) {
-  switch (action.type) {
+const initialState: CounterState = {
+  count: 0
+};
+
+function reducer(state: CounterState, action: CounterAction): CounterState {
+  const { type } = action;
+  switch (type) {
     case 'increment':
       return {
-        counter: state.counter + 1
+        count: state.count + 1
       };
     default:
-      throw new Error(`There is no action matching ${action.type}.`);
+      throw new Error(`There is no action matching ${type}.`);
   }
 }
 
 function Counter() {
-  // Here we've replaced the useState hook originally used for counter state.
+  // highlight-next-line
   const [state, dispatch] = useReducer(reducer, initialState);
   const [hidden, setHidden] = useState(false);
 
+  // highlight-start
   useEffect(() => {
-    // Now we need to access state.counter to get the counter value.
-    document.title = state.counter;
-  }, [state.counter]);
+    document.title = String(state.count);
+  }, [state.count]);
+  // highlight-end
 
   return (
-    <React.Fragment>
-      {/* Same here: we need to access state.counter to get the counter value. */}
-      {hidden ? <h1>Count Hidden</h1> : <h1>{state.counter}</h1>}
-      {/* Now we use dispatch() to send an action to our reducer to update state. */}
-      <button onClick={() => dispatch({type: 'increment'})}>Count!</button>
+    <>
+      {/* highlight-next-line */}
+      {hidden ? <h1>Count Hidden</h1> : <h1>{state.count}</h1>}
+      {/* highlight-next-line */}
+      <button onClick={() => dispatch({ type: 'increment' })}>Count!</button>
       <button onClick={() => setHidden(!hidden)}>Hide/Show</button>
-    </React.Fragment>
+    </>
   );
 }
 
@@ -227,7 +247,7 @@ export default Counter;
 
 There are a lot of updates here, so let's look at them one by one. First, let's look at the `useReducer()` hook itself:
 
-```js
+```ts
 const [state, dispatch] = useReducer(reducer, initialState);
 ```
 
@@ -236,23 +256,25 @@ The `useReducer()` hook takes two arguments:
 * A reducer function
 * Initial state
 
-Just like with the `useState()` hook, he `useReducer()` hook returns two variables that we destructure from an array:
+Just like with the `useState()` hook, the `useReducer()` hook returns two variables that we destructure from an array:
 
-* The state. We've called this variable `state`, though we could have called this `counterState` instead.
-* A function to update state. We've called this variable `dispatch`, though we could have called this `dispatchCounter` instead.
+* The state. We've called this variable `state`, though we could have called this `countState` instead.
+* A function to update state. We've called this variable `dispatch`, though we could have called this `dispatchCount` instead.
 
-The remaining updates that we make to the `Counter` component has to do with using the `state` and `dispatch` tools that are returned from the `useReducer()` hook. 
+Notice that we don't write any type arguments on `useReducer()` itself. Because our `reducer` function is fully typed, TypeScript already knows that `state` is a `CounterState` and that `dispatch` only accepts a `CounterAction`. That second part is a real benefit: if we mistype the action and write `dispatch({ type: 'incrment' })`, we get a compile error instead of an error thrown at runtime when a user clicks the button.
 
-First, if we want to access the `counter` state, we now need to do so through by accessing the `state` object first:
+The remaining updates that we make to the `Counter` component have to do with using the `state` and `dispatch` tools that are returned from the `useReducer()` hook.
 
-```js
-state.counter
+First, if we want to access the count, we now need to do so by accessing the `state` object first:
+
+```ts
+state.count
 ```
 
-Second, if we want to update the counter state, we need to create an action object with a `type` property that matches the name of a case in our reducer:
+Second, if we want to update the count, we need to create an action object with a `type` property that matches the name of a case in our reducer:
 
-```js
-dispatch({type: 'increment'})
+```ts
+dispatch({ type: 'increment' })
 ```
 
 And with that we've covered the basics of using the `useReducer()` hook! However, there's still plenty to cover as to best practices and use cases.
@@ -261,63 +283,66 @@ And with that we've covered the basics of using the `useReducer()` hook! However
 
 Other than universal best practices like using descriptive variable names, the `useState()` and `useReducer()` hooks share a core best practice:
 
-**1. Practice separation of concerns.** 
+**1. Practice separation of concerns.**
 
-You should always use multiple `useReducer()` hooks to manage multiple and different state values. For example, you could make the argument that the `hidden` state variable should be added to our new `useReducer()` hook so that all of the counter related actions are in one place. But is that practicing good separation of concerns? By "good separation of concerns" we are asking the following: does hiding and showing a part of the UI have to do with managing the counter's value? I would say that it does not. 
+You should use multiple `useReducer()` hooks to manage multiple and different state values. For example, you could make the argument that the `hidden` state variable should be added to our new `useReducer()` hook so that all of the counter related actions are in one place. But is that practicing good separation of concerns? By "good separation of concerns" we are asking the following: does hiding and showing a part of the UI have to do with managing the count's value? It does not.
 
-If you are ever on the fence about separation of concerns, consider real refactors that you may want to make to your app and its state. For example, what if you no longer want the show/hide feature to be in the `Counter`, but instead  use it in `App.js` to handle showing and hiding both the `Timer` and `Counter` components? While making this change is trivial in a small application, it stands to reason that managing the `hidden` state separately from the `counter` state would make this refactor an easier process to complete.
+If you are ever on the fence about separation of concerns, consider real refactors that you may want to make to your app and its state. For example, what if you no longer want the show/hide feature to be in the `Counter`, but instead want to use it in `App.tsx` to handle showing and hiding both the `Timer` and `Counter` components? Even in a small application, managing the `hidden` state separately from the count would make that refactor a smoother process.
 
-However, let's say we wanted to refactor our app to include the functionality to decrement the `counter` and to reset the `counter`. In this case, we would expand our existing `useReducer()` to manage this new functionality as well, since it all directly relates to the `counter` state.
+However, let's say we wanted to refactor our app to include the functionality to decrement the count and to reset the count. In this case, we would expand our existing `useReducer()` to manage this new functionality as well, since it all directly relates to the count.
 
 ### When to Use `useReducer()`
 
-[The React docs](https://reactjs.org/docs/hooks-reference.html#usereducer) state that you should generally use `useReducer()` in two cases:
+[The React docs](https://react.dev/reference/react/useReducer) suggest reaching for `useReducer()` in two cases:
 
 1. When you have complex state that has multiple sub-values.
 2. When your state update depends on the previous state value.
 
 That said, we don't have to! We can manage complex state and access previous state using the `useState()` hook, as well.
 
-It's recommended to use `useReducer()` to manage complex state because writing a reducer inherently involves organizing state updates into named actions, which makes it easier to read and reason about. Also, we can create complex objects and make updates to deeply nested properties in the reducer switch cases, which is not as easy to create as an argument to an update function from the `useState()` hook.
+It's recommended to use `useReducer()` to manage complex state because writing a reducer inherently involves organizing state updates into named actions, which makes it easier to read and reason about. Also, we can create complex objects and make updates to deeply nested properties in the reducer switch cases, which is not as easy to express as an argument to an update function from the `useState()` hook.
 
-Similarly, it's recommended to use `useReducer()` to access the previous state value, because that's what the `state` variable represents in a reducer, and it can be easier to work with as a result:
+Similarly, it's recommended to use `useReducer()` to access the previous state value, because that's what the `state` parameter represents in a reducer, and it can be easier to work with as a result:
 
-```js
-// The state variable is always equal to the previous state.
-function reducer(state, action) {
-  ...
+```ts
+// The state parameter is always the previous state.
+function reducer(state: CounterState, action: CounterAction): CounterState {
+  // ...switch statement as before
 }
 ```
 
-Whereas with the `useState()` hook, we'd have to pass in a function to access the previous state, just like in the example below. Again, accessing the previous state isn't particularly harder to do with `useState()`, it's just a bit easier with `useReducer()`.
+Whereas with the `useState()` hook, we'd have to pass in a function to access the previous state, just like in the example below. Again, accessing the previous state isn't particularly harder to do with `useState()`, it's just a bit more direct with `useReducer()`.
 
-```js
-const [counter, setCounter] = useState(0);
+```ts
+const [count, setCount] = useState(0);
 // How to access previous state in a state update:
-setCounter(prevState => preState + 1);
+setCount(prevState => prevState + 1);
 ```
 
-There's other reasons you may end up using the `useReducer()` hook instead of `useState()`. For one, you might choose `useReducer()` because you feel more comfortable using it. That is completely acceptable. Similarly, your development team or company may prefer to use `useReducer()` and the conventions it dictates for code structure. As a baseline, you should be familiar with the `useReducer()` hook and be able to implement it in your code, whether or not you use it regularly.
+There are other reasons you may end up using the `useReducer()` hook instead of `useState()`. For one, you might choose `useReducer()` because you feel more comfortable using it. That is completely acceptable. Similarly, your development team or company may prefer to use `useReducer()` and the conventions it dictates for code structure. As a baseline, you should be familiar with the `useReducer()` hook and be able to implement it in your code, whether or not you use it regularly.
 
 ### Benefits and Features of `useReducer()`
 
-There are other benefits and features that can also influence your decision on whether to use the `useReducer()` hook: 
+There are other benefits and features that can also influence your decision on whether to use the `useReducer()` hook:
 
-* Reducers are easier to test.
-* You can incorporate programing patterns like action creators and action constants with `useReducer()` that make our code less buggy.
+* Reducers are easier to test. A reducer is a pure function that takes state and an action and returns new state, so a test needs no components, no rendering, and no mocking.
+* You can incorporate programming patterns like action creators and action constants with `useReducer()` that make our code less buggy. We'll do exactly that in the next lesson.
+* Typed actions catch mistakes early. Because the action type is a discriminated union, TypeScript can tell you that you dispatched an action that doesn't exist, or that you forgot to include the data an action requires.
 * You can better connect error handling to your state by setting up the `default` case in a reducer to throw or return an error.
-* If you declare the reducer for the `useReducer()` hook within the component that uses it (not just in the same file, but within the component), the reducer function can read the component's props. Also, every time the component is re-rendered, the reducer function will be newly created and access the props again; this means that the reducer will always have access to updated props. The React docs doesn't go into this possibility at all, so if you are interested in learning more, you should do some research.
-* Instead of passing down callback functions to child components so that they can trigger state updates, you can instead pass down the `dispatch()` function. This can be easier to manage, since you are only passing in one `dispatch()` function, instead of many different callback functions. This can also optimize performance by removing extra callback functions. Why? `dispatch()` is created once, while these callback functions are newly created every time the component re-renders. Less functions equals less memory usage which equals improved performance.
+* If you declare the reducer for the `useReducer()` hook within the component that uses it (not just in the same file, but within the component), the reducer function can read the component's props. Every time the component is re-rendered, the reducer function will be newly created and access the props again, which means the reducer always has access to updated props. The React docs don't go into this possibility, so if you are interested in learning more, you should do some research.
+* Instead of passing down callback functions to child components so that they can trigger state updates, you can instead pass down the `dispatch()` function. This can be easier to manage, since you are only passing in one `dispatch()` function, instead of many different callback functions. This can also optimize performance by removing extra callback functions. Why? `dispatch()` is created once, while these callback functions are newly created every time the component re-renders. Fewer functions means less memory usage, which means improved performance.
 
 ### Next Steps
 
-To learn more about the `useReducer()` hook, visit [the React docs](https://reactjs.org/docs/hooks-reference.html#usereducer). In the docs, you'll can learn more about:
+To learn more about the `useReducer()` hook, visit [the React docs](https://react.dev/reference/react/useReducer). In the docs, you can read more about:
 
-* [How to specify the initial state.](https://reactjs.org/docs/hooks-reference.html#specifying-the-initial-state) This reiterates what we learned in this lesson.
-* [React bails out of a dispatch and does not re-render components when state does not change.](https://reactjs.org/docs/hooks-reference.html#bailing-out-of-a-dispatch) We haven't covered this topic explicitly, and this is true of the `useState()` hook as well.
-* [How to create initial state lazily.](https://reactjs.org/docs/hooks-reference.html#lazy-initialization) This is a brand new topic.
+* How to specify the initial state. This reiterates what we learned in this lesson.
+* [Avoiding recreating the initial state](https://react.dev/reference/react/useReducer#avoiding-recreating-the-initial-state) on every render, which is a brand new topic.
+* How React skips a re-render when a dispatch results in state that hasn't actually changed. We haven't covered this explicitly, and it's true of the `useState()` hook as well.
 
 Up next, we're going to refactor our New York Times API call app to use the `useReducer()` hook. If you want to practice more with the `useReducer()` hook before moving on, try adding the following functionality to the `Counter` component:
 
 * A button that decrements the count by 1.
 * A button that resets the count to 0.
+
+As you add those, notice what TypeScript asks of you: each new action needs to be added to the `CounterAction` union before the reducer will accept a `case` for it, and before `dispatch()` will let you send it.

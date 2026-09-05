@@ -5,9 +5,9 @@ id: 3-5-0-12-team-week-project-pitch
 hide_table_of_contents: true
 ---
 
-In the next course section, we will be working on group projects for the Epicodus Developer Trade Show to take place at the end of the section. In preparation, we'll take this coming section to generate ideas and sign up for teams, so we'll be organized and ready to go by the start of Team Week. 
+In the next course section, we will be working on group projects for the Trade Show to take place at the end of the section. In preparation, we'll take this coming section to generate ideas and sign up for teams, so we'll be organized and ready to go by the start of Team Week. 
 
-## Homework
+## Generating a Project Idea
 ---
 
 Generate an idea you would like to help develop into a working application. It could be a game, a new business idea, something educational, something fun, something to help others or something to change the world, an application or website that a friend or family member could use, etc.
@@ -34,7 +34,7 @@ Sites and applications that aim to help people out, such as:
 * Locate stolen bike
 * Reporting/searching for missing pets
 * Organizing/compiling resources for at-risk populations
-* Helping people prepare for/respond to  natural disasters
+* Helping people prepare for/respond to natural disasters
 
 #### Connect People
 
@@ -103,9 +103,9 @@ Additionally, past students have created functioning websites or applications fo
 ## Timeline
 ---
 
-Your instructor will give you exact instructions on how to share project ideas, where to sign up for teams, and team sizes. All students need to be signed up for a team week group by the end of this course section. If you have not signed up by the end of this course section, your instruction will assign you to a group.
+Your instructor will give you exact instructions on how to share project ideas, where to sign up for teams, and team sizes. All students need to be signed up for a Team Week group by the end of this course section. If you have not signed up by the end of this course section, your instructor will assign you to a group.
 
-### Over the Weekend and at the Start of this Section
+### At the Start of this Section
 
 #### _Brainstorm and Share Ideas_ 
 
