@@ -5,9 +5,9 @@ id: 3-5-0-9-help-queue-creating-a-context-and-provider
 hide_table_of_contents: true
 ---
 
-With our Help Queue project set up and our updates planned, we're ready to implement context. In this lesson, we'll do three things:
+With our Help Queue project set up and our updates planned, we're ready to implement context. In this lesson, we'll do four things:
 
-* Create a context for our light and dark theme. 
+* Create a context for our light and dark theme.
 * Learn about context providers and consumers.
 * Create a context provider.
 * Implement a state management tool to change the value of the context.
@@ -15,23 +15,33 @@ With our Help Queue project set up and our updates planned, we're ready to imple
 ## Implementing Context
 ---
 
-Let's create a context for our theme. Start by creating a new folder called `context` within the `src` folder, and within that a file called `theme-context.js`. 
+Let's create a context for our theme. Start by creating a new folder called `context` within the `src` folder, and within that a file called `theme-context.ts`.
 
-Within `theme-context.js`, we'll add our CSS style object that we created earlier as well as some new code: 
+Notice the extension: `.ts`, not `.tsx`. This file holds a type, a plain object, and a context object, but no JSX, so it doesn't need the `x`.
 
-<div class="filename">src/context/theme-context.js</div>
+Within `theme-context.ts`, we'll add the style object that we created in the last lesson along with some new code:
 
-```js
-import React from 'react';
+```ts title="src/context/theme-context.ts"
+import { createContext } from 'react';
 
-export const themes = {
+export type Theme = {
+  name: 'light' | 'dark';
+  backgroundColor: string;
+  textColor: string;
+  buttonBackground: string;
+  inputBackground: string;
+};
+
+export const themes: { light: Theme; dark: Theme } = {
   light: {
+    name: 'light',
     backgroundColor: "AntiqueWhite",
     textColor: "DarkSlateGrey",
-    buttonBackground: "Lavender", 
+    buttonBackground: "Lavender",
     inputBackground: "Gainsboro"
   },
   dark: {
+    name: 'dark',
     backgroundColor: "DarkSlateGrey",
     textColor: "AntiqueWhite",
     buttonBackground: "#232b3c",
@@ -39,77 +49,102 @@ export const themes = {
   }
 };
 
-export const ThemeContext = React.createContext();
+export const ThemeContext = createContext<Theme>(themes.light);
 ```
 
-First we've imported React from `'react'`, and then we've declared our CSS style object and saved it to the `themes` variable. Notice that we're exporting `themes` so that we can use it where we need to in our app. 
+Let's walk through the three things we've exported.
 
-Then, we create a new context with React's `creatContext()` method:
+First, we've defined a `Theme` type that describes the shape of a single theme: a name and four colors. The `name` property has the type `'light' | 'dark'`, a union of two string literals, so `name` can only ever be one of those two exact values. If we typo `name: 'dakr'`, TypeScript tells us right away.
 
-```js
-export const ThemeContext = React.createContext();
+Second, we've declared our style object and saved it to the `themes` variable, annotated as `{ light: Theme; dark: Theme }`. That annotation is what makes the whole object trustworthy: both themes now have to include every property in `Theme`, spelled exactly the same way. Forget `inputBackground` in the dark theme and we find out immediately, rather than when a form input renders with the wrong background.
+
+Third, we create a new context with React's `createContext()` function:
+
+```ts
+export const ThemeContext = createContext<Theme>(themes.light);
 ```
 
 The convention is to name context objects in Upper Camel Case, calling it whatever is representative of the data that the context will hold. We've called our context `ThemeContext`, because it holds theme data.
 
-It's also common convention to include the data relevant to the context within the same file, which is why we're including the CSS object within `theme-context.js`. However, it would be fine to save this information in the component that manages the theme state.
+We pass a type argument to `createContext()` to say what kind of value this context carries: a `Theme`. That's how every component that reads this context will know it's getting an object with a `textColor`, a `buttonBackground`, and so on.
 
-And with that we've created our context! But it's not that useful yet: we haven't associated a value with our `ThemeContext` and we haven't put it to use in our app. Next, let's learn about the tools that `ThemeContext` exposes: provider and consumer components.
+We also pass `themes.light` as an argument. That's the context's **default value**, which is the value a component reads if it goes looking for the context and there's no provider above it in the tree. We'll come back to this default value in the next lesson, because the convenient choice we've just made turns out to have a real downside.
+
+It's also common convention to include the data relevant to the context within the same file, which is why we're including the `themes` object in `theme-context.ts`. However, it would be fine to keep this information in the component that manages the theme state.
+
+And with that we've created our context! But it's not that useful yet: we haven't put it to use anywhere in our app. Next, let's learn about how a context shares its value.
 
 ### Context Providers and Consumers
 
-Context uses provider and consumer components to share data between components. In fact, the `ThemeContext` we created earlier is an object with two properties: a provider and a consumer:
+Context shares data through a **provider** and one or more **consumers**.
 
-```js
-export const ThemeContext = React.createContext();
-console.log(ThemeContext.Provider);
-console.log(ThemeContext.Consumer);
+The `ThemeContext` object we just created has a `Provider` property on it, and `ThemeContext.Provider` is a component:
+
+* A provider component provides data to a section of the component tree, or to the whole thing.
+* Any component inside that provider can consume the data, meaning read the value the provider is holding.
+
+A provider wraps around the components that it shares data with. Using the Help Queue as an example, if we want to share `ThemeContext` data with our whole app, we'd put the provider at the top of the tree, in `App`:
+
+```
+App
+└── ThemeContext.Provider
+    └── Router
+        ├── Header
+        ├── ToggleTheme           consumes ThemeContext
+        └── Routes
+            ├── SignIn
+            └── TicketControl     consumes ThemeContext
+                ├── TicketList
+                │   └── Ticket
+                ├── NewTicketForm
+                │   └── ReusableForm  consumes ThemeContext
+                ├── TicketDetail      consumes ThemeContext
+                └── EditTicketForm
+                    └── ReusableForm  consumes ThemeContext
 ```
 
-Since React components are just functions, we can `console.log` these values, like in the above code snippet. However, we won't get helpful information when look inside of the `ThemeContext.Provider` and `ThemeContext.Consumer` variables. The takeaway here is that these two components are generated from the `createContext()` method, and they are the mechanism by which context works:
+As the diagram shows, we can have as many consuming components as we need. However, we'll use just one provider, placed at the lowest common ancestor of all the components that need the data.
 
-* Provider components provide data to a section of the (or entire) component tree
-* Consumer components enable individual components to use the data that the provider component exposes. 
+Remember that data flows down in React, and that's true for context too. A component can only consume a context if a provider for that context sits above it in the tree. In the diagram above, we purposefully place the provider inside `App`, above the router, so that all of `App`'s children and grandchildren can reach the theme data.
 
-Provider and consumer components wrap around the components that they are modifying to give and gain access to the context. Using the Help Queue as an example, if we wanted to provide `ThemeContext` data to our component tree, we might wrap `App.js` in `<ThemeContext.Provider>`, and any component that consumes that data would be wrapped with `<ThemeContext.Consumer>`:
+Notice that `Router` and `Routes` sit between the provider and `TicketControl`, and that they don't have to know anything about the theme. `TicketControl` is rendered by a `<Route>`, but as far as context is concerned, it's simply somewhere beneath the provider, and that's all that matters.
 
-![The Help Queue component tree with ThemeContext provider and consumer components.](/images/React/Week-5-React-2020/context-help-queue-component-tree-context-provider-consumer.png)
+Ultimately, it's important to understand that providers and consumers enact a subscription-based relationship: consuming components are subscribed to the provider above them, and any time the provider's value changes, every component consuming that value re-renders. In the diagram above, that means anytime the value in `App` changes, these four components re-render: `ToggleTheme`, `TicketControl`, `TicketDetail`, and `ReusableForm`. Pretty neat!
 
-As demonstrated in the component tree above, we can use as many consumer components as we need in our component tree. However, we'll use just one provider component that is lifted to the lowest common ancestor to all of the consumer components that consume the provider's data. 
-
-Remember that data flows down in React, and this is true for context provider and consumer components as well. This means that if we can only use a consumer component lower in the component tree from a provider component. Using the example above, we purposefully place our provider component around `App.js` so that the four child and grandchild components of `App.js` can access the context data. 
-
-Take note that the above component tree is for demonstration purposes only. It's very close to how we'll implement a provider and consumers, but we'll use slightly different tools and locate the provider component within `App.js`, but not wrapped around `<App>`. This will become clear soon.
-
-Ultimately, it's important to understand that provider and consumer components enact a subscription-based relationship: consumer components are subscribed to the corresponding provider component, and any time the value of the provider component changes, all of the components that consume the providers data will be re-rendered. Using the example component diagram above, this would mean anytime the value of the provider component changes in `App.js`, the following four components will re-render: `TicketControl.js`, `TicketDetail.js`, `ReusableForm.js`, and `ToggleTheme.js`. Pretty neat! 
-
-Next, let's implement a provider. 
+Next, let's implement a provider.
 
 ### Adding a Provider Component
 
-Since we've determined that `App.js` is our lowest common ancestor to all of the components that will need access to the `ThemeContext` data, let's add a provider there. First, we'll import `ThemeContext` and our CSS `themes` object from `theme-context.js`:
+Since we've determined that `App` is the lowest common ancestor of all the components that need the `ThemeContext` data, let's add a provider there. First, we'll import `ThemeContext` and our `themes` object from `theme-context.ts`:
 
-<div class="filename">src/components/App.js</div>
-
-```js
+```tsx title="src/components/App.tsx"
 import { ThemeContext, themes } from "../context/theme-context";
 ```
 
-Next, let's wrap our component tree with the `ThemeContext.Provider` component. In the following code, notice that we're replacing the `<React.Fragment>` components with the `<ThemeContext.Provider>` components:
+Next, let's wrap our component tree with the `ThemeContext.Provider` component. In the following code, notice that `<ThemeContext.Provider>` becomes the new outermost element, wrapping the `<Router>` that used to be the root of what `App` returns:
 
-```js
-import React from "react";
+```tsx title="src/components/App.tsx"
 import Header from "./Header";
 import TicketControl from "./TicketControl";
+import SignIn from "./SignIn";
 import ToggleTheme from "./ToggleTheme";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// highlight-next-line
 import { ThemeContext, themes } from "../context/theme-context";
 
-function App(){
+function App() {
   return (
+    // highlight-next-line
     <ThemeContext.Provider value={themes.light}>
-      <Header />
-      <ToggleTheme/>
-      <TicketControl />
+      <Router>
+        <Header />
+        <ToggleTheme />
+        <Routes>
+          <Route path="/sign-in" element={<SignIn />} />
+          <Route path="/" element={<TicketControl />} />
+        </Routes>
+      </Router>
+    {/* highlight-next-line */}
     </ThemeContext.Provider>
   );
 }
@@ -117,31 +152,42 @@ function App(){
 export default App;
 ```
 
-Notice that we've added a prop called `value` to our `<ThemeContext.Provider>` component. This is how we designate a value for our context provider. The prop must always be called `value`. 
+Notice how little we had to touch. Our routing is exactly as we left it in React with NoSQL: same `<Router>`, same `<Routes>`, same two `<Route>` components. All we did was add one wrapper around all of it.
 
-We've set the value of the `value` prop to `themes.light`. That will be our starting theme. However, this theme is static! If we want the value of our theme to change, we'll need to implement a state management tool. Let's do that next. 
+Notice also that we've added a prop called `value` to our `<ThemeContext.Provider>` component. This is how we designate a value for our provider. The prop must always be called `value`.
+
+Because we typed the context as `createContext<Theme>(...)`, TypeScript also checks what we hand to that `value` prop. Pass it a string, or an object that's missing `buttonBackground`, and the error shows up on this line rather than deep inside whichever component tried to use the missing property.
+
+We've set the value of the `value` prop to `themes.light`. That will be our starting theme. However, this theme is static! If we want the value of our theme to change, we'll need to implement a state management tool. Let's do that next.
 
 ### Adding State
 
 We'll use the `useState()` hook to manage our state. Let's start with an import and declare a new state variable:
 
-<div class="filename">src/components/App.js</div>
-
-```js
-import React, { useState } from "react";
+```tsx title="src/components/App.tsx"
+// highlight-next-line
+import { useState } from "react";
 import Header from "./Header";
 import TicketControl from "./TicketControl";
+import SignIn from "./SignIn";
 import ToggleTheme from "./ToggleTheme";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ThemeContext, themes } from "../context/theme-context";
 
-function App(){
+function App() {
+  // highlight-next-line
   const [theme, setTheme] = useState(themes.light);
 
   return (
     <ThemeContext.Provider value={themes.light}>
-      <Header />
-      <ToggleTheme/>
-      <TicketControl />
+      <Router>
+        <Header />
+        <ToggleTheme />
+        <Routes>
+          <Route path="/sign-in" element={<SignIn />} />
+          <Route path="/" element={<TicketControl />} />
+        </Routes>
+      </Router>
     </ThemeContext.Provider>
   );
 }
@@ -149,109 +195,103 @@ function App(){
 export default App;
 ```
 
-Our state variable is called `theme` and it is set to the light theme in our CSS `themes` object. 
+Our state variable is called `theme` and it starts out as the light theme from our `themes` object. This is the first state `App` has ever held: until now it has only rendered other components.
+
+Notice that we don't need a type argument on `useState()` here. `themes.light` is already a `Theme`, so TypeScript infers that `theme` is a `Theme` and that `setTheme` only accepts a `Theme`. This is the same inference we relied on in React Fundamentals when we wrote `useState(false)` and got a `boolean` for free.
 
 The next update we need to make is to set the `value` prop of our `<ThemeContext.Provider>` to the value of our state variable `theme`:
 
-<div class="filename">src/components/App.js</div>
-
-```js
-...
-
-function App(){
-  const [theme, setTheme] = useState(themes.light);
+```tsx title="src/components/App.tsx"
+// ... inside App
 
   return (
-    <ThemeContext.Provider value={theme}> {/* new code! */}
-      ...
+    // highlight-next-line
+    <ThemeContext.Provider value={theme}>
+      <Router>
+        <Header />
+        <ToggleTheme />
+        <Routes>
+          <Route path="/sign-in" element={<SignIn />} />
+          <Route path="/" element={<TicketControl />} />
+        </Routes>
+      </Router>
     </ThemeContext.Provider>
   );
-}
-
-export default App;
 ```
 
-Now the value of our provider component is directly tied to our state variable. That means we can call `setTheme()` to change the current theme for our provider and its consumers. Next, let's wire up our button in the `ToggleTheme` component to do just that!
+Now the value of our provider is directly tied to our state variable. That means we can call `setTheme()` to change the current theme for the provider and everything consuming it. Next, let's wire up our button in the `ToggleTheme` component to do just that.
 
 ### Wiring Up the `ToggleTheme` Button
 
-The first thing we'll need to do is pass a callback function down to the `ToggleTheme` component so that it can invoke a change in state in `App.js`. Remember that callback functions enable us to pass data up from a child component to a parent component, while maintaining React's unidirectional data flow.
+The first thing we'll need to do is pass a callback function down to the `ToggleTheme` component so that it can invoke a change in state in `App`. Remember that callback functions enable us to pass data up from a child component to a parent component, while maintaining React's unidirectional data flow.
 
-We'll create a `toggleTheme()` function in `App.js` that calls the `setTheme()` state updater function:
+We'll create a `toggleTheme()` function in `App` that calls the `setTheme()` state updater function:
 
-<div class="filename">src/components/App.js</div>
+```tsx title="src/components/App.tsx"
+// ... inside App
 
-```js
-...
-
-function App(){
   const [theme, setTheme] = useState(themes.light);
 
   function toggleTheme() {
-    setTheme(theme => 
-      theme.textColor === "AntiqueWhite" ? themes.light : themes.dark
+    setTheme(currentTheme =>
+      currentTheme.name === 'light' ? themes.dark : themes.light
     );
   }
-
-  return (
-    ...
-  );
-}
-
-export default App;
 ```
 
-Notice that we pass a function to the `setTheme()` function call:
+Notice that we pass a function to the `setTheme()` call:
 
-```js
-theme => theme.textColor === "AntiqueWhite" ? themes.light : themes.dark
+```ts
+currentTheme => currentTheme.name === 'light' ? themes.dark : themes.light
 ```
 
-This is an arrow function that makes use of all of the available shortcuts: omitting parens with one parameter and an implicit return. We could otherwise write this arrow function like so:
+We're passing a function to `setTheme()` in order to work from the current value of the `theme` state variable, which is the same pattern we used with `useState()` back in the React Fundamentals section. The ternary checks the current theme's `name`: if we're on the light theme, we switch to the dark one, and otherwise we switch to the light one.
 
-```js
-(theme) => { 
-  return theme.textColor === "AntiqueWhite" ? themes.light : themes.dark 
-}
-```
+Here's that same arrow function written out the long way, without the shortcuts of omitting the parentheses around a single parameter and relying on an implicit return:
 
-We're passing in a function to the `setTheme()` function in order to access the current value of the `theme` state variable.
-
-The ternary operator checks to see if we're on the light theme by checking the value of the `textColor` property; if we're on the light theme, then it updates state to the dark theme, and vice versa. 
-
-Note that the ternary operator could be re-written like so:
-
-```js
-(theme) => { 
-  if (theme.textColor === "AntiqueWhite") {
-    return themes.light
+```ts
+(currentTheme) => {
+  if (currentTheme.name === 'light') {
+    return themes.dark;
   } else {
-    return themes.dark
+    return themes.light;
   }
 }
 ```
+
+This is one place where that `name` property earns its keep. Without it, we'd be comparing color strings to figure out which theme we're on, which works but reads poorly and breaks the moment we change a color.
 
 Next, we'll need to pass the `toggleTheme()` function to the `ToggleTheme` component:
 
-<div class="filename">src/components/App.js</div>
+```tsx title="src/components/App.tsx"
+import { useState } from "react";
+import Header from "./Header";
+import TicketControl from "./TicketControl";
+import SignIn from "./SignIn";
+import ToggleTheme from "./ToggleTheme";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { ThemeContext, themes } from "../context/theme-context";
 
-```js
-...
-
-function App(){
+function App() {
   const [theme, setTheme] = useState(themes.light);
 
   function toggleTheme() {
-    setTheme(theme => 
-      theme.textColor === "AntiqueWhite" ? themes.light : themes.dark
+    setTheme(currentTheme =>
+      currentTheme.name === 'light' ? themes.dark : themes.light
     );
   }
 
   return (
     <ThemeContext.Provider value={theme}>
-      <Header />
-      <ToggleTheme toggleTheme={toggleTheme}/> {/* new code! */}
-      <TicketControl />
+      <Router>
+        <Header />
+        {/* highlight-next-line */}
+        <ToggleTheme toggleTheme={toggleTheme} />
+        <Routes>
+          <Route path="/sign-in" element={<SignIn />} />
+          <Route path="/" element={<TicketControl />} />
+        </Routes>
+      </Router>
     </ThemeContext.Provider>
   );
 }
@@ -259,62 +299,77 @@ function App(){
 export default App;
 ```
 
-Next let's update the `ToggleTheme` component to accept props, list prop types, and use the `toggleTheme()` function. 
+Next let's update the `ToggleTheme` component to accept that prop and use it:
 
-<div class="filename">src/components/ToggleTheme.js</div>
+```tsx title="src/components/ToggleTheme.tsx"
+// highlight-start
+type ToggleThemeProps = {
+  toggleTheme: () => void;
+};
 
-```js
-import React from "react";
-import PropTypes from "prop-types";
-
-function ToggleTheme(props) {
-  const { toggleTheme } = props;
-
+function ToggleTheme({ toggleTheme }: ToggleThemeProps) {
+  // highlight-end
   return (
-    <React.Fragment>
+    <>
+      {/* highlight-start */}
       <button onClick={toggleTheme}>
         Toggle Theme
       </button>
-      <hr/>
-    </React.Fragment>
+      {/* highlight-end */}
+      <hr />
+    </>
   );
-}
-
-ToggleTheme.propTypes = {
-  toggleTheme: PropTypes.func
 }
 
 export default ToggleTheme;
 ```
 
-At this point if we run our project, we'll be able to click our toggle theme button and change the value of the `theme` state variable. But we won't be able to tell that anything is working. That's because we're not actually using the `theme` state anywhere! Let's fix this issue by adding some styles so that we can see the new toggle theme functionality in action.
+This is the same props pattern we've used throughout the Help Queue: a `ToggleThemeProps` type describing what the component expects, destructured right in the function signature. Our one prop, `toggleTheme`, is a function that takes no arguments and returns nothing, so its type is `() => void`.
+
+At this point if we run our project, we'll be able to click our toggle theme button and change the value of the `theme` state variable. But we won't be able to tell that anything is working. That's because we're not actually using the `theme` state anywhere! Let's fix that by adding some styles so that we can see the new toggle theme functionality in action.
 
 ### Setting the Background and Text Color
 
-The first styling we'll add is updating the `<body>` tag's background color and text color to match the current theme. We'll first show you the two new lines of code, and then explain it. Here's what we'll add to `App.js`:
+The first styling we'll add is updating the `<body>` tag's background color and text color to match the current theme. Setting styles on `document.body` reaches outside of React to touch the DOM directly, which makes it a side effect, so it belongs in a `useEffect()` hook.
 
-<div class="filename">src/components/App.js</div>
+Here's what we'll add to `App`:
 
-```js
-...
+```tsx title="src/components/App.tsx"
+// highlight-next-line
+import { useEffect, useState } from "react";
+import Header from "./Header";
+import TicketControl from "./TicketControl";
+import SignIn from "./SignIn";
+import ToggleTheme from "./ToggleTheme";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { ThemeContext, themes } from "../context/theme-context";
 
-function App(){
+function App() {
   const [theme, setTheme] = useState(themes.light);
 
-  document.body.style.backgroundColor = theme.backgroundColor; // new code!
-  document.body.style.color = theme.textColor; // new code!
+  // highlight-start
+  useEffect(() => {
+    document.body.style.backgroundColor = theme.backgroundColor;
+    document.body.style.color = theme.textColor;
+  }, [theme]);
+  // highlight-end
 
   function toggleTheme() {
-    setTheme(theme => 
-      theme.textColor === "AntiqueWhite" ? themes.light : themes.dark
+    setTheme(currentTheme =>
+      currentTheme.name === 'light' ? themes.dark : themes.light
     );
   }
 
   return (
     <ThemeContext.Provider value={theme}>
-      <Header />
-      <ToggleTheme toggleTheme={toggleTheme}/>
-      <TicketControl />
+      <Router>
+        <Header />
+        <ToggleTheme toggleTheme={toggleTheme} />
+        <Routes>
+          <Route path="/sign-in" element={<SignIn />} />
+          <Route path="/" element={<TicketControl />} />
+        </Routes>
+      </Router>
     </ThemeContext.Provider>
   );
 }
@@ -322,17 +377,17 @@ function App(){
 export default App;
 ```
 
-Let's break down the new code we've added. We've used [dot notation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors) to access the nested properties of the `document` object:
+Let's break down the new code. We've used [dot notation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors) to access the nested properties of the `document` object:
 
 * The `document` object represents the Document Object Model (DOM) for our Help Queue app. The DOM is [a Web API](https://developer.mozilla.org/en-US/docs/Web/API).
 * The `document.body` property represents the `<body>` tags in the DOM.
-* The  `document.body.style` property represents the `<body>` tags' `style` attribute, which sets inline HTML styles.
-* The `style.backgroundColor` and `style.color` represent the CSS properties `background-color` and `color` respectively. We can set the value of these properties to change the background and text colors for the body tags.
+* The `document.body.style` property represents the `<body>` tags' `style` attribute, which sets inline HTML styles.
+* The `style.backgroundColor` and `style.color` properties represent the CSS properties `background-color` and `color` respectively. We can set the value of these properties to change the background and text colors for the body tags.
 
-So this JavaScript:
+So this TypeScript:
 
-```js
-document.body.style.backgroundColor = theme.backgroundColor; 
+```ts
+document.body.style.backgroundColor = theme.backgroundColor;
 document.body.style.color = theme.textColor;
 ```
 
@@ -340,11 +395,13 @@ Is the same as this CSS:
 
 ```css
 body {
-  background-color: "blue";
-  color: "white";
+  background-color: blue;
+  color: white;
 }
 ```
 
-However, the JavaScript is dynamic in nature. Instead of hardcoding values like in the example CSS above (`"blue"` and `"white"`), we're able to set the values of the background color and text color to the current theme. Very cool!
+However, the TypeScript version is dynamic. Instead of hardcoding values like in the CSS above, we set the background color and text color from the current theme.
 
-Go ahead and test this out now: run your project and press the "toggle theme" button; you'll see the background and text color change from a light theme to a dark theme. At this point we still need to update the background colors of our button and input elements to complete the functionality. We'll do that in the next lesson when we learn how to create context consumers for function and class components.
+Notice the dependency array on our effect: `[theme]`. That tells React to run this effect after the first render and again any time `theme` changes, which is exactly when the body colors need to be updated. If we left the array off entirely, the effect would run after every single render, and if we passed an empty array, the body would keep the colors it got on the first render and never update.
+
+Go ahead and test this out now: run your project and press the "Toggle Theme" button. You'll see the background and text color change from a light theme to a dark theme. At this point we still need to update the background colors of our button and input elements to complete the functionality. We'll do that in the next lesson when we learn how components read a context value with the `useContext()` hook.
