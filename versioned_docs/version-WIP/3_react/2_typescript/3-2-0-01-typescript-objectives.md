@@ -31,9 +31,10 @@ After this section, we'll begin building React applications, and all of that cod
 
 ---
 
-For the independent project at the end of this section, you will build a standalone TypeScript application (no React). Your project will be assessed on the following objectives:
+For the independent project at the end of this section, you will build a standalone TypeScript application (no React). This project becomes the foundation you'll build on in React Fundamentals and React with NoSQL, so choose a theme you're interested in - though starting fresh with a new theme in a later section is also an option. Your project will be assessed on the following objectives:
 
 * Code compiles with no TypeScript errors and the `any` type is not used
 * Application defines at least one custom type using `type` or `interface`
 * Application includes at least three typed functions with explicit parameter and return type annotations
-* Project includes a README describing what the application does
+* Project is in a polished, portfolio-quality state
+* The prompt's required functionality and baseline project requirements are met

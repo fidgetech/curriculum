@@ -23,19 +23,19 @@ In this course section, we will learn about:
 * Using Vite to scaffold a new React + TypeScript project;
 * Using JSX/TSX, an HTML-like syntax extension, to build our components in React component files;
 * Building functional components with React hooks;
-* Using props typed with TypeScript interfaces;
+* Using props typed with TypeScript;
 * Adding local and shared state to a basic React application;
 * Other important concepts such as unidirectional data flow, reusing components, and passing data through callbacks.
 
 ## Independent Project Objectives
 ---
 
-At the end of this section, you will complete an independent project. Your code will be reviewed for the following objectives:
+At the end of this section, you will complete an independent project by starting a new React app and building a user interface around the type(s) and functions you already wrote in your TypeScript independent project - though starting fresh with a new theme is also an option. Your code will be reviewed for the following objectives:
 
 * Application compiles and runs without error, and warnings in the DevTools console are resolved.
-* Components are used correctly.
+* Functional components are used correctly.
 * Application effectively uses local and shared state.
-* Props are used correctly and are always typed with TypeScript interfaces.
+* TypeScript types are defined for all component props.
 * README includes an accurate representation of the application's component tree.
 * Project is in a polished, portfolio-quality state.
 * The prompt's required functionality and baseline project requirements are met.

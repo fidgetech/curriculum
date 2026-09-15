@@ -413,7 +413,6 @@
         "react/functional-programming-with-javascript/3-1-0-11-function-factories",
         "react/functional-programming-with-javascript/3-1-0-12-recursion",
         "react/functional-programming-with-javascript/3-1-0-13-a-note-on-testing",
-        "react/functional-programming-with-javascript/3-1-0-14-capstone-planning-the-minimum-viable-product",
         "react/functional-programming-with-javascript/3-1-1-1-coin-counter-sieve",
         "react/functional-programming-with-javascript/3-1-1-2-whiteboard-practice-closures",
         "react/functional-programming-with-javascript/3-1-1-3-whiteboard-practice-recursion",
@@ -430,12 +429,9 @@
         "react/functional-programming-with-javascript/3-1-3-1-rpg-utilities-haiku-checker-two-day-project",
         "react/functional-programming-with-javascript/3-1-3-2-whiteboard-practice-project-euler",
         "react/functional-programming-with-javascript/3-1-4-1-technical-interview-preparation-functional-programming",
-        "react/functional-programming-with-javascript/3-1-4-2-capstone-prep-introduction-to-idea-boards",
-        "react/functional-programming-with-javascript/3-1-4-3-capstone-prep-using-employable-skills",
-        "react/functional-programming-with-javascript/3-1-4-4-capstone-prep-what-to-expect",
-        "react/functional-programming-with-javascript/3-1-4-5-linkedin-profiles",
-        "react/functional-programming-with-javascript/3-1-4-6-indeed-resume",
-        "react/functional-programming-with-javascript/3-1-4-7-whiteboard-practice",
+        "react/functional-programming-with-javascript/3-1-4-2-linkedin-profiles",
+        "react/functional-programming-with-javascript/3-1-4-3-indeed-resume",
+        "react/functional-programming-with-javascript/3-1-4-4-whiteboard-practice",
         "react/functional-programming-with-javascript/3-1-5-1-functional-programming-with-javascript-independent-project"
       ]
     },

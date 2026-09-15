@@ -9,41 +9,50 @@ pagination_next: null
 ## Independent Projects Overview
 ---
 
-Project prompts will be available on Fidgetech Code Central once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## Functional Programming Project Objectives
 ---
 
-This course section's independent project will be a little bit different than usual. Instead of applying your Functional JavaScript skills, you'll get a head-start on thinking about capstones. 
+For this independent project, build a small JavaScript program that manages a collection of data of your choosing, written in a functional style. Your project does not need a graphical interface - a program run with Node that logs output to the console is fine. The goal is to demonstrate that you can write idiomatic functional JavaScript: pure functions, immutable data, and effective use of `map()`, `filter()`, and `reduce()`.
 
-Capstone projects will appear later down the road, so it's normal to not have a clear idea of exactly what technology you might implement. However, this is a great time to start thinking about what you might want your capstone project to *accomplish*. 
+**Choose a domain that interests you.** Some ideas to get started:
 
-A capstone is a project that you design and implement by yourself. In other educational sectors this may be called a thesis or a practicum. Your capstone project in this program will serve as the centerpiece of your coding portfolio that you will use in your job search. Compared to a required school project, a capstone project is more impressive to employers because it demonstrates what motivates you, your decision making skills, and your willingness to take intellectual risk. Capstone projects also tend to be more memorable because there are more opportunities to express your personality and you can plan a project around your interests. 
+- A to-do list
+- A budget or expense tracker
+- A workout log
+- A shopping list
+- A personal library of movies or shows you've watched or want to watch
 
-You may have never planned a project like this before. This is why Fidgetech wants to start capstone planning early. Fidgetech's goal is to give you ample time to think, get feedback, and iterate on your capstone project before the start of the Capstone course. Project planning is a skill set, separate from coding, that becomes easier with experience. However, Fidgetech doesn’t really teach project planning in the program because a junior developer is not generally expected to plan entire projects from scratch. So, this code review and future code reviews will provide direction to help you plan your project. Fidgetech staff are also available for feedback and guidance.
+## Project Requirements
+---
 
-During your normally scheduled independent project time, you will:
+Your application will be reviewed for the following objectives:
 
-* Create one, or more, idea boards
-* Create an outline explaining your chosen capstone idea, answering the following questions as a guide:
-  * Who is this program built for?
-  * What is the purpose of the program?
-  * What is your end goal for this program?
-  * Are there any roadblocks or issues you foresee with building this program?
-  * If you were asked to begin working on this program now what would you start with?
+* **Pure functions** - your data-transformation functions don't mutate their inputs or rely on outside mutable state, and given the same input, they always return the same output
+* **Immutability** - data is updated using non-mutating patterns like spread syntax, `map()`, or `filter()`, rather than methods like `push()`, `splice()`, or direct property reassignment
+* **Effective use of `map()`, `filter()`, and/or `reduce()`** in place of `for` loops, where appropriate
+* Project is in a polished, portfolio-quality state.
+* The prompt's required functionality and baseline project requirements are met.
 
-Your submission will be reviewed for the following objectives:
+If you have extra time, consider using recursion for at least one function, composing several small functions together to build a more complex operation, or using a closure or function factory - for example, a function that returns a customized comparison or filter function, or that tracks private state without a class.
 
-* An idea board(s) to show us your thought process and what other project ideas you considered
-* Includes a one page outline of capstone project.
+### What is a polished, portfolio-quality state?
+When a project is both polished and in a portfolio-quality state, this means:
 
-It's alright to not stick to a specific idea if you find something more interesting, and it's alright to have more than one idea.
+* You've reviewed your project and your README prior to submitting it to make sure there are no errors or missing information and you are consistent in your indentation, spacing, and code structure.
+* You are following the best practices and coding conventions we teach.
+
+### What are the baseline project requirements?
+All independent coding projects at Fidgetech have these baseline requirements:
+
+* A complete and informative README
+* The project's commit history demonstrates steady, incremental progress rather than a single large commit
+* Completion of the project based on the prompt _and_ objectives. The prompt contains details on the project's theme and features that are not always detailed in the objective. Carefully read through the prompt before submitting to make sure that you are not missing anything.
 
 ## Submission
 ---
 
-Make sure to utilize GitHub to track the creation of your boards, and your capstone outline. Remember, you track image files, .pdf files, or whatever project file type you wish to use!
-
 Submit your code for review to the **Functional Programming with JavaScript** code review on [Fidgetech Code Central](https://central.fidgetechcode.org/).
 
-Visit [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) for details on how to submit, how feedback works and course completion requirements.
+Visit [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) for details on how to submit, how feedback works, and course completion requirements.
