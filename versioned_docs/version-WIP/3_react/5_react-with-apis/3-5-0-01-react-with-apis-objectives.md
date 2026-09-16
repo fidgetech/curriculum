@@ -28,14 +28,15 @@ At some point in this course section, you will get a class session to work on pr
 ## Independent Project Objectives
 ---
 
-For this section's code review, you will be expected to do something slightly different. Instead of receiving a new prompt, you will be using your knowledge of React to revisit and recreate the Portfolio project you built at the very beginning of the program.
+For this section's code review, you will be expected to do something slightly different than in past sections. Instead of receiving a new prompt, you will be using your knowledge of React to revisit and update the [personal portfolio website](../../introduction-to-programming/git-html-and-css/1-1-5-1-git-html-and-css-independent-project) you built at the very beginning of the program.
 
 This is the time to create a portfolio that you can use in perpetuity. Look into hosting this as a website that can act as a personal advertisement for you and your most successful projects.
 
 Your code will be reviewed for the following objectives:
 
-* The project demonstrates a best effort of creating or starting a portfolio project.
-* The README contains accurate information for the project in the state that it is submitted in.
-* The hours worked quantifiably reflect the minimum requirement (8 hours for full-time, 4 hours for part-time)
+* The project demonstrates a best effort at creating or updating a portfolio project
+* The README contains accurate information for the project in the state it's submitted in
+* Project is in a polished, portfolio-quality state
+* The prompt's required functionality and baseline project requirements are met
 
-As further exploration, you are encouraged to spruce up any projects that you reference in your portfolio project to ensure they are portfolio quality. Check that they have accurate READMEs and are representative of a completed application.
+As further exploration, you are encouraged to spruce up any projects that you reference in your portfolio to ensure they are portfolio quality. Check that they have accurate READMEs and are representative of a completed application.
