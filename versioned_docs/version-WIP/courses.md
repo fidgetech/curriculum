@@ -14,6 +14,7 @@ hide_table_of_contents: true
     <a className="track-button" target="_self" href="WIP/introduction-to-programming">Introduction to Programming</a>
     <a className="track-button" target="_self" href="WIP/intermediate-javascript">Intermediate JavaScript</a>
     <a className="track-button" target="_self" href="WIP/react">React</a>
+    <a className="track-button" target="_self" href="WIP/capstone">Capstone</a>
   </div>
   <br />&nbsp;<br />
 
@@ -23,5 +24,6 @@ hide_table_of_contents: true
     <a className="track-button" target="_self" href="WIP/workshop">Workshop</a>
     <a className="track-button" target="_self" href="WIP/marketing-yourself">Marketing Yourself</a>
     <a className="track-button" target="_self" href="WIP/diversity-equity-and-inclusion">DEI</a>
+    <a className="track-button" target="_self" href="WIP/computer-science">Computer Science</a>
   </div>
 </div>

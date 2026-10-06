@@ -598,29 +598,6 @@
       ]
     }
   ],
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   "c-and-net": [
     "c-and-net/index",
     {
@@ -1030,142 +1007,117 @@
     "capstone/index",
     {
       "type": "category",
-      "label": "Computer Science and Professional Development",
+      "label": "Capstone Planning",
       "items": [
-        "capstone/capstone-week-1/goal-setting-and-expectations",
-        "capstone/capstone-week-1/lesson-and-exercise-expectations",
-        "capstone/capstone-week-1/computer-science-section-expectations",
-        "capstone/capstone-week-1/computer-science-testing-environment-setup",
-        "capstone/capstone-week-1/professional-development---employable-skills",
-        "capstone/capstone-week-1/professional-development---archetypes",
-        "capstone/capstone-week-1/professional-development---planning",
-        "capstone/capstone-week-1/professional-development-plan---exercise",
-        "capstone/capstone-week-1/introduction-to-big-o-notation",
-        "capstone/capstone-week-1/utilizing-big-o-notation-practice",
-        "capstone/capstone-week-1/introduction-to-trees",
-        "capstone/capstone-week-1/binary-search-trees-introduction",
-        "capstone/capstone-week-1/binary-search-trees-part-1",
-        "capstone/capstone-week-1/binary-search-trees-part-2",
-        "capstone/capstone-week-1/binary-search-trees-part-3",
-        "capstone/capstone-week-1/binary-search-trees-practice",
-        "capstone/capstone-week-1/introduction-to-graphs",
-        "capstone/capstone-week-1/representing-graph-structures-with-code",
-        "capstone/capstone-week-1/building-graphs-part-1",
-        "capstone/capstone-week-1/building-graphs-part-2",
-        "capstone/capstone-week-1/introduction-to-stacks-and-queues",
-        "capstone/capstone-week-1/depth-and-breadth-search-algorithms",
-        "capstone/capstone-week-1/depth-first-algorithms",
-        "capstone/capstone-week-1/breadth-first-algorithms",
-        "capstone/capstone-week-1/graph-theory-practice",
-        "capstone/capstone-week-1/introduction-to-ascii",
-        "capstone/capstone-week-1/bits-bytes-and-binary-numbers",
-        "capstone/capstone-week-1/manipulating-bits",
-        "capstone/capstone-week-1/bit-manipulation-practice",
-        "capstone/capstone-week-1/introduction-to-hash-tables",
-        "capstone/capstone-week-1/optimizing-hashing-algorithms",
-        "capstone/capstone-week-1/hashes-practice",
-        "capstone/capstone-week-1/introduction-to-algorithms",
-        "capstone/capstone-week-1/binary-search-algorithm",
-        "capstone/capstone-week-1/insertion-sort",
-        "capstone/capstone-week-1/selection-sort",
-        "capstone/capstone-week-1/bubble-sort",
-        "capstone/capstone-week-1/merge-sort",
-        "capstone/capstone-week-1/quicksort",
-        "capstone/capstone-week-1/linked-lists",
-        "capstone/capstone-week-1/linked-lists---exercise",
-        "capstone/capstone-week-1/heaps",
-        "capstone/capstone-week-1/tries",
-        "capstone/capstone-week-1/memory-basics",
-        "capstone/capstone-week-1/memoization",
-        "capstone/capstone-week-1/updating-your-portfolio",
-        "capstone/capstone-week-1/applying-to-jobs---2"
+        "capstone/capstone-planning/introduction-to-idea-boards",
+        "capstone/capstone-planning/aligning-your-capstone-idea-with-employable-skills",
+        "capstone/capstone-planning/capstone-project-ideas",
+        "capstone/capstone-planning/capstones---future-section-overview",
+        "capstone/capstone-planning/capstones---timeline-deadlines-and-homework",
+        "capstone/capstone-planning/capstones---the-mvp",
+        "capstone/capstone-planning/capstones---sign-ups-and-proposal",
+        "capstone/capstone-planning/capstones---preparing-your-pitch"
       ]
     },
     {
       "type": "category",
-      "label": "Self-Guided Study - Week 1",
+      "label": "Professional Development",
       "items": [
-        "capstone/capstone-week-2/self-exploration-week-1-expectations",
-        "capstone/capstone-week-2/capstones---future-section-overview",
-        "capstone/capstone-week-2/capstones---timeline-deadlines-and-homework",
-        "capstone/capstone-week-2/capstones---the-mvp",
-        "capstone/capstone-week-2/capstones---sign-ups-and-proposal",
-        "capstone/capstone-week-2/capstones---preparing-your-pitch",
-        "capstone/capstone-week-2/recap-whiteboarding-best-practices",
-        "capstone/capstone-week-2/recap-recursion",
-        "capstone/capstone-week-2/whiteboarding-practice---week-1"
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Self-Guided Study - Week 2",
-      "items": [
-        "capstone/capstone-week-3/self-exploration-week-2-expectations",
-        "capstone/capstone-week-3/recap-whiteboarding-best-practices",
-        "capstone/capstone-week-3/recap-recursion",
-        "capstone/capstone-week-3/whiteboarding-practice---week-2",
-        "capstone/capstone-week-3/capstone---proposal-and-mvp-submission",
-        "capstone/capstone-week-3/applying-to-jobs---3"
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Self-Guided Study - Week 3",
-      "items": [
-        "capstone/capstone-week-4/self-exploration-week-3-expectations",
-        "capstone/capstone-week-4/whiteboarding-practice---week-3"
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Self-Guided Study - Week 4",
-      "items": [
-        "capstone/capstone-week-5/self-exploration-week-4-expectations",
-        "capstone/capstone-week-5/team-week-project-pitch",
-        "capstone/capstone-week-5/whiteboarding-practice---week-4",
-        "capstone/capstone-week-5/applying-to-jobs---3"
+        "capstone/professional-development/professional-development---employable-skills",
+        "capstone/professional-development/professional-development---archetypes",
+        "capstone/professional-development/professional-development---planning",
+        "capstone/professional-development/professional-development-plan---exercise",
+        "capstone/professional-development/self-guided-study-check-in-1",
+        "capstone/professional-development/self-guided-study-check-in-2",
+        "capstone/professional-development/self-guided-study-check-in-3",
+        "capstone/professional-development/self-guided-study-check-in-4"
       ]
     },
     {
       "type": "category",
       "label": "Team Week",
       "items": [
-        "capstone/capstone-week-6/team-week-objectives",
-        "capstone/capstone-week-6/git-with-collaborators-setup",
-        "capstone/capstone-week-6/git-with-collaborators-workflow",
-        "capstone/capstone-week-6/rewriting-history-with-git",
-        "capstone/capstone-week-6/learning-more-about-git",
-        "capstone/capstone-week-6/practicing-the-git-workflow",
-        "capstone/capstone-week-6/pull-requests-with-branches",
-        "capstone/capstone-week-6/pull-requests-with-forks",
-        "capstone/capstone-week-6/team-week-presentations-and-independent-project",
-        "capstone/capstone-week-6/ranking-internship-companies"
+        "capstone/team-week/team-week-objectives",
+        "capstone/team-week/git-with-collaborators-setup",
+        "capstone/team-week/git-with-collaborators-workflow",
+        "capstone/team-week/rewriting-history-with-git",
+        "capstone/team-week/learning-more-about-git",
+        "capstone/team-week/practicing-the-git-workflow",
+        "capstone/team-week/pull-requests-with-branches",
+        "capstone/team-week/pull-requests-with-forks",
+        "capstone/team-week/team-week-project-pitch",
+        "capstone/team-week/team-week-presentations-and-independent-project"
       ]
     },
     {
       "type": "category",
-      "label": "Capstones - Week 1",
+      "label": "Building Your Capstone",
       "items": [
-        "capstone/capstone-week-7/capstone-week-1-expectations",
-        "capstone/capstone-week-7/whiteboarding-practice---week-5"
+        "capstone/building-your-capstone/capstones---proposal-and-mvp-submission",
+        "capstone/building-your-capstone/capstone-project-submission"
+      ]
+    }
+  ],
+  "computer-science": [
+    "computer-science/index",
+    {
+      "type": "category",
+      "label": "Data Structures and Algorithms",
+      "items": [
+        "computer-science/data-structures-and-algorithms/computer-science-section-expectations",
+        "computer-science/data-structures-and-algorithms/computer-science-testing-environment-setup",
+        "computer-science/data-structures-and-algorithms/introduction-to-big-o-notation",
+        "computer-science/data-structures-and-algorithms/utilizing-big-o-notation-practice",
+        "computer-science/data-structures-and-algorithms/introduction-to-trees",
+        "computer-science/data-structures-and-algorithms/binary-search-trees-introduction",
+        "computer-science/data-structures-and-algorithms/binary-search-trees-part-1",
+        "computer-science/data-structures-and-algorithms/binary-search-trees-part-2",
+        "computer-science/data-structures-and-algorithms/binary-search-trees-part-3",
+        "computer-science/data-structures-and-algorithms/binary-search-trees-practice",
+        "computer-science/data-structures-and-algorithms/introduction-to-graphs",
+        "computer-science/data-structures-and-algorithms/representing-graph-structures-with-code",
+        "computer-science/data-structures-and-algorithms/building-graphs-part-1",
+        "computer-science/data-structures-and-algorithms/building-graphs-part-2",
+        "computer-science/data-structures-and-algorithms/introduction-to-stacks-and-queues",
+        "computer-science/data-structures-and-algorithms/depth-and-breadth-search-algorithms",
+        "computer-science/data-structures-and-algorithms/depth-first-algorithms",
+        "computer-science/data-structures-and-algorithms/breadth-first-algorithms",
+        "computer-science/data-structures-and-algorithms/graph-theory-practice",
+        "computer-science/data-structures-and-algorithms/introduction-to-ascii",
+        "computer-science/data-structures-and-algorithms/bits-bytes-and-binary-numbers",
+        "computer-science/data-structures-and-algorithms/manipulating-bits",
+        "computer-science/data-structures-and-algorithms/bit-manipulation-practice",
+        "computer-science/data-structures-and-algorithms/introduction-to-hash-tables",
+        "computer-science/data-structures-and-algorithms/optimizing-hashing-algorithms",
+        "computer-science/data-structures-and-algorithms/hashes-practice",
+        "computer-science/data-structures-and-algorithms/introduction-to-algorithms",
+        "computer-science/data-structures-and-algorithms/binary-search-algorithm",
+        "computer-science/data-structures-and-algorithms/insertion-sort",
+        "computer-science/data-structures-and-algorithms/selection-sort",
+        "computer-science/data-structures-and-algorithms/bubble-sort",
+        "computer-science/data-structures-and-algorithms/merge-sort",
+        "computer-science/data-structures-and-algorithms/quicksort",
+        "computer-science/data-structures-and-algorithms/linked-lists",
+        "computer-science/data-structures-and-algorithms/linked-lists---exercise",
+        "computer-science/data-structures-and-algorithms/heaps",
+        "computer-science/data-structures-and-algorithms/tries",
+        "computer-science/data-structures-and-algorithms/memory-basics",
+        "computer-science/data-structures-and-algorithms/memoization"
       ]
     },
     {
       "type": "category",
-      "label": "Capstones - Week 2",
+      "label": "Whiteboarding Practice",
       "items": [
-        "capstone/capstone-week-8/capstone-week-2-expectations",
-        "capstone/capstone-week-8/whiteboarding-practice---week-6"
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Capstones - Week 3",
-      "items": [
-        "capstone/capstone-week-9/capstone-week-3-expectations",
-        "capstone/capstone-week-9/after-your-internship",
-        "capstone/capstone-week-9/whiteboarding-practice---week-7",
-        "capstone/capstone-week-9/capstone-project-submission"
+        "computer-science/whiteboarding-practice/recap-whiteboarding-best-practices",
+        "computer-science/whiteboarding-practice/recap-recursion",
+        "computer-science/whiteboarding-practice/whiteboarding-practice-1",
+        "computer-science/whiteboarding-practice/whiteboarding-practice-2",
+        "computer-science/whiteboarding-practice/whiteboarding-practice-3",
+        "computer-science/whiteboarding-practice/whiteboarding-practice-4",
+        "computer-science/whiteboarding-practice/whiteboarding-practice-5",
+        "computer-science/whiteboarding-practice/whiteboarding-practice-6",
+        "computer-science/whiteboarding-practice/whiteboarding-practice-7"
       ]
     }
   ]
