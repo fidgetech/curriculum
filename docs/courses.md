@@ -14,6 +14,7 @@ hide_table_of_contents: true
     <a className="track-button" target="_self" href="v1.4/introduction-to-programming">Introduction to Programming</a>
     <a className="track-button" target="_self" href="v1.4/intermediate-javascript">Intermediate JavaScript</a>
     <a className="track-button" target="_self" href="v1.4/react">React</a>
+    <a className="track-button" target="_self" href="v1.4/capstone">Capstone</a>
   </div>
   <br />&nbsp;<br />
 
@@ -23,5 +24,6 @@ hide_table_of_contents: true
     <a className="track-button" target="_self" href="v1.4/workshop">Workshop</a>
     <a className="track-button" target="_self" href="v1.4/marketing-yourself">Marketing Yourself</a>
     <a className="track-button" target="_self" href="v1.4/diversity-equity-and-inclusion">DEI</a>
+    <a className="track-button" target="_self" href="v1.4/computer-science">Computer Science</a>
   </div>
 </div>

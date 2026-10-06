@@ -35,7 +35,7 @@ Some of these concepts can feel abstract at first. That's normal. You don't need
 | Often mutates object state | Avoids mutation; creates new values |
 | Uses inheritance to share behavior | Uses composition to combine behaviors |
 
-Professional developers use both paradigms. The goal isn't to abandon OOP—it's to add functional techniques to your toolkit and know when each approach fits best.
+Professional developers use both paradigms. The goal isn't to abandon OOP - it's to add functional techniques to your toolkit and know when each approach fits best.
 
 ## Testing
 
@@ -44,11 +44,10 @@ You're expected to write tests for all your functions throughout this section. S
 ## Independent Project Objectives
 ---
 
-For this course section, the independent project will be different from previous weeks. You will spend your normally scheduled independent project time brainstorming and preparing an idea for your Capstone project. The Capstone project is a larger project that you'll spend a majority of the final course crafting, with the intention that you will be able to leverage this project to showcase your skills to employers, and explore ideas and concepts that you're interested in that haven't been covered in classes. 
+For the independent project at the end of this section, you will build a small JavaScript program, run with Node, that manages a collection of data of your choosing, written in a functional style. Your project will be assessed on the following objectives:
 
-Keep in mind that you're not beholden to any ideas you come up with at this point. The main goal we have with this section is to get you thinking about project ideas early on, and teachers will be able to provide you with feedback and advice to help you approach your most successful ideas later on.
-
-For this first Capstone exploration, the objectives are fairly simple:
-
-* An idea board(s) to show us your thought process and what other project ideas you considered
-* Includes a one page outline of capstone project.
+* Data-transformation functions are pure - they don't mutate their inputs or rely on outside mutable state
+* Data is updated using non-mutating patterns instead of methods like `push()`, `splice()`, or direct property reassignment
+* `map()`, `filter()`, and/or `reduce()` are used effectively in place of `for` loops, where appropriate
+* Project is in a polished, portfolio-quality state
+* The prompt's required functionality and baseline project requirements are met

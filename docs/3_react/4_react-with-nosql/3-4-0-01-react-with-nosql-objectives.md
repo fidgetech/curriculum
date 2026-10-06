@@ -40,10 +40,11 @@ We'll also cover these additional topics:
 ## Independent Project Objectives
 ---
 
-At the end of this section, you will complete an independent project. Your code will be reviewed for the following objectives:
+At the end of this section, you will complete an independent project by continuing your React Fundamentals project, adding Firestore persistence and full CRUD (including delete, which wasn't required before) - though starting fresh with a new theme is also an option. Your code will be reviewed for the following objectives:
 
 * Application compiles and runs without error, and warnings in the DevTools console are resolved.
 * Firestore is used correctly to persist and retrieve data.
+* Full CRUD functionality (create, read, update, and delete) works correctly, backed by Firestore.
 * TypeScript types are defined for all component props and shared data.
 * README includes an accurate representation of the application's component tree.
 * Project is in a polished, portfolio-quality state.

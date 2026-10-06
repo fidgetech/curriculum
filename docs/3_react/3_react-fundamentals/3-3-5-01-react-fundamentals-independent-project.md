@@ -9,12 +9,16 @@ pagination_next: null
 ## Independent Projects Overview
 ---
 
-Project prompts will be available on Fidgetech Code Central once you let your instructor know that you have reached the end of a section. Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) lesson.
+Before you begin your project, make sure to take a moment to review the [Independent Projects and Code Reviews](../../pre-work/getting-started-at-fidgetech/1-0-0-09-independent-projects-and-code-reviews) lesson.
 
 ## React Fundamentals Project Objectives
 ---
 
-Even though you have learned full CRUD in this section, **you will only be expected to add CREATE, READ, and UPDATE functionality for the independent project.**
+Continue the project you started in your TypeScript independent project by building a React user interface around it. Start a fresh Vite + React + TypeScript project - you're not building directly on top of your TypeScript project's codebase. Copy the files where you defined your types and functions - likely something like `src/types.ts` and `src/library.ts`, if you followed the same file structure as the Book Tracker - into the `src` folder of your new Vite project, then import from them to build components that let a user view, create, and update entries in your collection.
+
+Even though you have learned full CRUD in this section, **you will only be expected to add CREATE, READ, and UPDATE functionality for the independent project**.
+
+If you'd rather start a new theme at this stage instead of continuing your TypeScript project, that's fine too - check with your instructor first, since this project carries forward again into React with NoSQL.
 
 Your code will be reviewed for the following objectives:
 
@@ -36,9 +40,8 @@ When a project is both polished and in a portfolio-quality state, this means:
 All independent coding projects at Fidgetech have these baseline requirements:
 
 * A complete and informative README
-* The project's commit history demonstrates that the project's required work schedule and hours have been met:
-  * 8 hours of work is required for all students.
-* Completion of the project based on the prompt _and_ objectives. The prompt contains details on the project's theme and features that are not always detailed in the objective. Carefully read through the prompt towards the end of your work session to make sure that you are not missing anything.
+* The project's commit history demonstrates steady, incremental progress rather than a single large commit
+* Completion of the project based on the prompt _and_ objectives. The prompt contains details on the project's theme and features that are not always detailed in the objective. Carefully read through the prompt before submitting to make sure that you are not missing anything.
 
 ## Submission
 ---
