@@ -14,9 +14,9 @@ Before you begin your project, make sure to take a moment to review the [Indepen
 ## React with NoSQL Project Objectives
 ---
 
-For this course section's independent project, you'll extend the project you built for React Fundamentals to persist its data with Firestore. Continue working in that same project, adapting it to read and write through Firestore instead of local state.
+For this course section's independent project, you'll extend the React Fundamentals independent project to persist its data with Firestore. Continue working in that same project, adapting it to read and write through Firestore instead of local state.
 
-Unlike your React Fundamentals project, which only required Create, Read, and Update functionality, this project should implement full CRUD: **Create, Read, Update, and Delete.**
+Unlike your React Fundamentals independent project, which only required Create, Read, and Update functionality, this project should implement full CRUD: **Create, Read, Update, and Delete.**
 
 If you'd rather start a new theme at this stage instead of continuing your existing project, that's fine too - check with your instructor first, since your theme should still support Firestore and, if you attempt the authentication stretch below, a per-user ownership model.
 
