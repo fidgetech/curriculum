@@ -93,7 +93,7 @@ It's common to use algorithms to determine the shortest path between two nodes. 
 
 Before continuing to the next lesson, read [Think Like A Git's section on Graph Theory](http://think-like-a-git.net/sections/graph-theory.html). Read from the page on _Graph Theory_ to the page on _Reachability_. Don't worry — each page is a quick read and Portland developer Sam Livingston-Gray does an excellent job explaining the basics of graph theory with visuals.
 
-You may have read through Think Like a Git during [Intermediate JavaScript Team Week](/react/team-week/learning-more-about-git). Even if you have, we still recommend reading this resource again.
+You may have read through Think Like a Git during [Intermediate JavaScript Team Week](/intermediate-javascript/team-week/2-4-0-5-learning-more-about-git). Even if you have, we still recommend reading this resource again.
 
 We also recommend this [short video](https://www.youtube.com/watch?v=82zlRaRUsaY&ab_channel=SystemsInnovation) on graph theory which provides a nice overview.
 

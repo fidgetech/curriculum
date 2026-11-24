@@ -209,7 +209,7 @@
         "introduction-to-programming/arrays-looping/1-3-1-5-practice-looping",
         "introduction-to-programming/arrays-looping/1-3-1-6-gathering-data-with-checkboxes",
         "introduction-to-programming/arrays-looping/1-3-1-7-practice-foreach-loops",
-        "introduction-to-programming/arrays-looping/1-3-1-8-homework-equality-versus-equity",
+        "introduction-to-programming/arrays-looping/1-3-1-8-equality-versus-equity",
         "introduction-to-programming/arrays-looping/1-3-2-1-building-a-text-analyzer",
         "introduction-to-programming/arrays-looping/1-3-2-2-overview-of-test-driven-development-tdd-with-text-analyzer",
         "introduction-to-programming/arrays-looping/1-3-2-3-text-analyzer-with-tdd-wordcounter",
@@ -282,8 +282,9 @@
         "intermediate-javascript/object-oriented-javascript/2-1-3-3-switch-cases",
         "intermediate-javascript/object-oriented-javascript/2-1-3-4-further-exploration-local-storage",
         "intermediate-javascript/object-oriented-javascript/2-1-3-5-further-exploration-aliases",
-        "intermediate-javascript/object-oriented-javascript/2-1-4-1-whiteboard-practice-javascript-objects",
-        "intermediate-javascript/object-oriented-javascript/2-1-4-2-developer-reality-daily-team-meetings",
+        "intermediate-javascript/object-oriented-javascript/2-1-4-1-a-guide-to-whiteboarding",
+        "intermediate-javascript/object-oriented-javascript/2-1-4-2-whiteboard-practice-javascript-objects",
+        "intermediate-javascript/object-oriented-javascript/2-1-4-3-whiteboard-practice-primes-and-multiples",
         "intermediate-javascript/object-oriented-javascript/2-1-5-1-object-oriented-javascript-independent-project"
       ]
     },
@@ -336,7 +337,6 @@
         "intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-4-1-haiku-creator-rpg-sudoku-solver-longer-project---part-2-day-2",
         "intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-4-2-whiteboard-practice-javascript-strings",
         "intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-4-3-meetups-and-networking",
-        "intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-4-4-developer-reality-you-are-the-project",
         "intermediate-javascript/test-driven-development-and-environments-with-javascript/2-2-5-1-tdd-and-environments-with-javascript-independent-project"
       ]
     },
@@ -369,7 +369,6 @@
         "intermediate-javascript/asynchrony-and-apis/2-3-2-4-further-exploration-iifes",
         "intermediate-javascript/asynchrony-and-apis/2-3-3-1-bike-index-cryptocurrency-analytics-app-api-of-choice-longer-project",
         "intermediate-javascript/asynchrony-and-apis/2-3-3-2-further-exploration-chaining-promises",
-        "intermediate-javascript/asynchrony-and-apis/2-3-3-3-pull-requests-and-submitting-great-work",
         "intermediate-javascript/asynchrony-and-apis/2-3-3-4-sprucing-up-your-github",
         "intermediate-javascript/asynchrony-and-apis/2-3-4-1-whiteboarding-practice-asynchrony",
         "intermediate-javascript/asynchrony-and-apis/2-3-5-1-asynchrony-and-apis-independent-project"
@@ -413,8 +412,6 @@
         "react/functional-programming-with-javascript/3-1-0-12-recursion",
         "react/functional-programming-with-javascript/3-1-0-13-a-note-on-testing",
         "react/functional-programming-with-javascript/3-1-1-1-coin-counter-sieve",
-        "react/functional-programming-with-javascript/3-1-1-2-whiteboard-practice-closures",
-        "react/functional-programming-with-javascript/3-1-1-3-whiteboard-practice-recursion",
         "react/functional-programming-with-javascript/3-1-1-4-the-problems-of-classical-inheritance",
         "react/functional-programming-with-javascript/3-1-1-5-composition",
         "react/functional-programming-with-javascript/3-1-1-6-state",
@@ -423,14 +420,14 @@
         "react/functional-programming-with-javascript/3-1-1-9-building-a-functional-application-part-2",
         "react/functional-programming-with-javascript/3-1-1-10-addressing-implicit-bias",
         "react/functional-programming-with-javascript/3-1-2-1-power-plant-project-euler",
-        "react/functional-programming-with-javascript/3-1-2-2-whiteboard-practice-composition",
         "react/functional-programming-with-javascript/3-1-2-3-further-exploration-creating-deep-clones",
         "react/functional-programming-with-javascript/3-1-3-1-rpg-utilities-haiku-checker-two-day-project",
         "react/functional-programming-with-javascript/3-1-3-2-whiteboard-practice-project-euler",
         "react/functional-programming-with-javascript/3-1-4-1-technical-interview-preparation-functional-programming",
         "react/functional-programming-with-javascript/3-1-4-2-linkedin-profiles",
-        "react/functional-programming-with-javascript/3-1-4-3-indeed-resume",
-        "react/functional-programming-with-javascript/3-1-4-4-whiteboard-practice",
+        "react/functional-programming-with-javascript/3-1-4-3-resume-overview",
+        "react/functional-programming-with-javascript/3-1-4-4-writing-your-resume",
+        "react/functional-programming-with-javascript/3-1-4-5-indeed-resume",
         "react/functional-programming-with-javascript/3-1-5-1-functional-programming-with-javascript-independent-project"
       ]
     },
@@ -458,14 +455,14 @@
         "react/typescript/3-2-2-4-introduction-to-generics",
         "react/typescript/3-2-2-5-practice-generics",
         "react/typescript/3-2-2-6-book-tracker-part-2",
-        "react/typescript/3-2-2-7-whiteboard-practice-typescript",
+        "react/typescript/3-2-2-7-technical-interview-preparation-typescript",
+        "react/typescript/3-2-2-8-whiteboard-practice-typescript",
         "react/typescript/3-2-3-1-utility-types",
         "react/typescript/3-2-3-2-discriminated-unions",
         "react/typescript/3-2-3-3-book-tracker-part-3",
         "react/typescript/3-2-3-4-practice-cafe-menu",
         "react/typescript/3-2-4-1-book-tracker-part-4",
         "react/typescript/3-2-4-2-whiteboard-practice-typescript-ii",
-        "react/typescript/3-2-4-3-technical-interview-preparation-typescript",
         "react/typescript/3-2-5-1-typescript-independent-project"
       ]
     },
@@ -507,7 +504,6 @@
         "react/react-fundamentals/3-3-3-9-leveraging-linkedin",
         "react/react-fundamentals/3-3-4-1-help-queue-merch-site-event-logger-day-2",
         "react/react-fundamentals/3-3-4-2-technical-interview-preparation-react-fundamentals",
-        "react/react-fundamentals/3-3-4-3-whiteboard-practice",
         "react/react-fundamentals/3-3-5-1-react-fundamentals-independent-project"
       ]
     },
@@ -530,9 +526,6 @@
         "react/react-with-nosql/3-4-0-13-viewing-tickets-from-firestore",
         "react/react-with-nosql/3-4-0-14-updating-and-deleting-tickets-in-firestore",
         "react/react-with-nosql/3-4-0-15-structuring-data-in-firestore",
-        "react/react-with-nosql/3-4-0-16-whiteboard-independent-project-overview",
-        "react/react-with-nosql/3-4-0-17-whiteboard-evaluation-rubric",
-        "react/react-with-nosql/3-4-0-18-a-guide-to-whiteboarding",
         "react/react-with-nosql/3-4-0-19-being-a-good-interviewer",
         "react/react-with-nosql/3-4-0-20-giving-constructive-feedback",
         "react/react-with-nosql/3-4-1-1-firestore-crud-practice-team-check-in-board",
@@ -547,8 +540,6 @@
         "react/react-with-nosql/3-4-3-2-further-exploration-opportunities",
         "react/react-with-nosql/3-4-3-3-informational-interviews",
         "react/react-with-nosql/3-4-4-1-technical-interview-practice-nosql",
-        "react/react-with-nosql/3-4-4-2-resume-overview",
-        "react/react-with-nosql/3-4-4-3-writing-your-resume",
         "react/react-with-nosql/3-4-5-1-react-with-nosql-independent-project"
       ]
     },
@@ -567,7 +558,6 @@
         "react/react-with-apis/3-5-0-9-help-queue-creating-a-context-and-provider",
         "react/react-with-apis/3-5-0-10-help-queue-adding-context-consumers-and-error-handling",
         "react/react-with-apis/3-5-0-11-context-best-practices-alternatives-and-further-exploration",
-        "react/react-with-apis/3-5-0-12-team-week-project-pitch",
         "react/react-with-apis/3-5-1-1-react-with-api-project",
         "react/react-with-apis/3-5-1-2-further-exploration-react-native",
         "react/react-with-apis/3-5-1-3-further-exploration-seo-with-react",
@@ -576,24 +566,6 @@
         "react/react-with-apis/3-5-3-1-further-exploration-animations-with-react",
         "react/react-with-apis/3-5-4-1-technical-interview-practice-apis-and-further-exploration",
         "react/react-with-apis/3-5-5-1-react-with-apis-independent-project"
-      ]
-    },
-    {
-      "type": "category",
-      "label": "3.6 Team Week",
-      "items": [
-        "react/team-week/3-6-0-1-team-week-objectives",
-        "react/team-week/3-6-0-2-git-with-collaborators-setup",
-        "react/team-week/3-6-0-3-git-with-collaborators-workflow",
-        "react/team-week/3-6-0-4-rewriting-history-with-git",
-        "react/team-week/3-6-0-5-learning-more-about-git",
-        "react/team-week/3-6-0-6-practicing-the-git-workflow",
-        "react/team-week/3-6-0-7-hosting-a-webpack-project-with-gh-pages",
-        "react/team-week/3-6-0-8-backend-course-preparation-software-installation",
-        "react/team-week/3-6-0-9-pull-requests-with-branches",
-        "react/team-week/3-6-0-10-pull-requests-with-forks",
-        "react/team-week/3-6-0-11-prior-course-section-survey",
-        "react/team-week/3-6-5-1-team-week-presentations-and-independent-project"
       ]
     }
   ],

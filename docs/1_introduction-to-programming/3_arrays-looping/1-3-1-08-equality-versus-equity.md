@@ -1,7 +1,7 @@
 ---
-title: "📓 1.3.1.8 Homework: Equality Versus Equity"
+title: "📓 1.3.1.8 Equality Versus Equity"
 day: monday
-id: 1-3-1-8-homework-equality-versus-equity
+id: 1-3-1-8-equality-versus-equity
 hide_table_of_contents: true
 ---
 

@@ -5,7 +5,7 @@ id: 2-4-2-1-pull-requests-with-forks
 hide_table_of_contents: true
 ---
 
-Many of the JavaScript libraries and tools we use at Epicodus are **open source** including webpack, React, and Jest, to name a few. **Open source** means the code is available publicly and that anyone can contribute to it.
+Many of the JavaScript libraries and tools we use at Fidgetech are **open source** including webpack, React, and Jest, to name a few. **Open source** means the code is available publicly and that anyone can contribute to it.
 
 In order to do that, maintainers of open source projects welcome pull requests from the community. However, it wouldn't be a good idea for maintainers to make everyone in the community collaborators. That would be difficult to manage and also lead to potential security risks.
 

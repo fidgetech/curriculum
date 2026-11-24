@@ -1,7 +1,7 @@
 ---
-title: ✏️ 3.1.4.4 Whiteboard Practice
+title: '✏️ 2.1.4.3 Whiteboard Practice: Primes & Multiples'
 day: thursday
-id: 3-1-4-4-whiteboard-practice
+id: 2-1-4-3-whiteboard-practice-primes-and-multiples
 hide_table_of_contents: true
 ---
 
@@ -12,7 +12,7 @@ When and how whiteboarding practice is implemented will be up to your teacher. B
 
 ### Goal
 
-For this section’s whiteboarding lesson, we’ll practice writing JavaScript functions using functional programming concepts covered in this section.
+For this section’s whiteboarding lesson, we’ll practice writing JavaScript functions that work with numbers.
 
 As the interviewee:
 
