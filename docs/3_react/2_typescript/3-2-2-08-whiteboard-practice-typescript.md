@@ -1,7 +1,7 @@
 ---
-title: "✏️ 3.2.2.7 Whiteboard Practice: TypeScript"
+title: "✏️ 3.2.2.8 Whiteboard Practice: TypeScript"
 day: tuesday
-id: 3-2-2-7-whiteboard-practice-typescript
+id: 3-2-2-8-whiteboard-practice-typescript
 hide_table_of_contents: true
 ---
 

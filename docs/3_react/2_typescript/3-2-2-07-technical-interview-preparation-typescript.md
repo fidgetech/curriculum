@@ -1,7 +1,7 @@
 ---
-title: "✏️ 3.2.4.3 Technical Interview Preparation: TypeScript"
+title: "✏️ 3.2.2.7 Technical Interview Preparation: TypeScript"
 day: thursday
-id: 3-2-4-3-technical-interview-preparation-typescript
+id: 3-2-2-7-technical-interview-preparation-typescript
 hide_table_of_contents: true
 ---
 

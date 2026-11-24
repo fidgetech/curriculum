@@ -1,7 +1,7 @@
 ---
-title: "📓 3.4.0.18 A Guide to Whiteboarding"
-day: weekend
-id: 3-4-0-18-a-guide-to-whiteboarding
+title: "📓 2.1.4.1 A Guide to Whiteboarding"
+day: thursday
+id: 2-1-4-1-a-guide-to-whiteboarding
 hide_table_of_contents: true
 ---
 

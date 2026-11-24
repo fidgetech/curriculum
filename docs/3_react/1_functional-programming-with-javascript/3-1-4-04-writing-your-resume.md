@@ -1,7 +1,7 @@
 ---
-title: ✏️ 3.4.4.3 Writing Your Resume
+title: ✏️ 3.1.4.4 Writing Your Resume
 day: thursday
-id: 3-4-4-3-writing-your-resume
+id: 3-1-4-4-writing-your-resume
 hide_table_of_contents: true
 ---
 
